@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LoCE-PQC-GPU benchmark contract",
+  "type": "object",
+  "required": [
+    "source_hash",
+    "framework_source_hash",
+    "binary_hash",
+    "algorithm",
+    "operation",
+    "parameter_set",
+    "batch",
+    "grid",
+    "block",
+    "streams",
+    "warmups",
+    "repetitions",
+    "timing_scope",
+    "correctness_manifest"
+  ],
+  "properties": {
+    "framework_source_hash": {"type": "string", "minLength": 64},
+    "algorithm": {"enum": ["ML-KEM", "ML-DSA"]},
+    "operation": {"enum": ["KeyGen", "Encaps", "Decaps", "Sign", "Verify"]},
+    "parameter_set": {"enum": ["512", "768", "1024", "44", "65", "87"]},
+    "batch": {"type": "integer", "minimum": 1},
+    "grid": {"type": ["integer", "string"]},
+    "block": {"type": ["integer", "string"]},
+    "streams": {"type": "integer", "minimum": 1},
+    "warmups": {"type": "integer", "minimum": 0},
+    "repetitions": {"type": "integer", "minimum": 1},
+    "timing_scope": {
+      "enum": ["kernel_only", "device_resident_api", "host_to_host_complete_api"]
+    },
+    "correctness_manifest": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": true
+}

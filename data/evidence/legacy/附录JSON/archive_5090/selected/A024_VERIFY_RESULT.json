@@ -1,0 +1,32 @@
+{
+  "status": "LOCAL_ARCHIVE_AND_FULL_MANIFEST_VERIFIED",
+  "archive": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\split32_sanitizer_postsettle_stopped\\split32-sanitizer-27c9389515734bddb0d25b992da725b6.tar.gz",
+  "archive_sha256": "93f766aa0388bb30c775fcfb7dbe82d7a68ac07646c6bf05c9cfd1b575a1343d",
+  "archive_bytes": 13102802,
+  "regular_members": 3141,
+  "manifest_rows": 3140,
+  "regular_payload_bytes": 38927427,
+  "physical_tar": {
+    "regular_headers": 3141,
+    "pax_headers": 3140,
+    "expanded_bytes": 44206080,
+    "trailing_payload": "ZERO_PADDING_ONLY"
+  },
+  "remote_run_root": "/home/lsb/mldsa-experiments-5090/operator_split32_sanitizer_5090/runs/s32san-postsettle-109eb325-20261020T054100Z/",
+  "checks": [
+    "trusted_local_scanner_sha256",
+    "compressed_archive_exact_bytes",
+    "sidecar_exact_digest_and_filename",
+    "physical_and_logical_tar_full_read_and_exact_sha256",
+    "regular_member_count_3141",
+    "all_3140_manifest_member_bytes_sha256_and_exact_inventory",
+    "manifest_all_members_bound_to_one_remote_run_root"
+  ],
+  "scanner_sha256": "88e73c08f0cc6c4e2e2f0466abf1916d33e80efe54015b92ec142f0665c75a63",
+  "verifier_sha256": "e586975130b4978d497031b8f21b2f2da96684c8e5682cdcf130f73e593d65e8",
+  "archive_code_executed": false,
+  "compiler_executed": false,
+  "gpu_executed": false,
+  "ssh_executed": false,
+  "qualification": "Archive integrity only; stopped matrix cannot be accepted as complete."
+}

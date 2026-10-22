@@ -1,0 +1,11 @@
+{
+  "status": "PATCH_TOOL_CASE_PASS",
+  "tool_name": "memcheck",
+  "tool": {
+    "error_summaries": 1,
+    "reported_errors": 0,
+    "zero_leak_summaries": 1
+  },
+  "checked_variants": 36,
+  "output_trace_work_bytes_match": true
+}

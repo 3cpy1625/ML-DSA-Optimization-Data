@@ -1,0 +1,27 @@
+{
+  "group": 2,
+  "status": "INTERNAL_CUDA_RECOVERY_9_OF_9_LOCALLY_VERIFIED_SCOPE_PARTIAL",
+  "gpu_run_completed": true,
+  "rerun_needed_for_completed_checks": false,
+  "passed_fault_checks": 9,
+  "same_process_same_workspace_sequences": 3,
+  "valid_or_recovered_outputs_byte_checked": 12,
+  "selected_official_Sign_vectors": 3,
+  "server_elapsed_seconds": 9.356374363880605,
+  "group_2_complete": false,
+  "residual_nonzero_observed": true,
+  "archive": "E:\\密码竞赛\\4090修补\\02_采样异常与恢复\\internal_recovery_v1\\server_results\\20261020T161911383836Z-958989e7\\20261020T161911383836Z-958989e7.tar.gz",
+  "archive_sha256": "ece2b31692b9d4c28abaa6a60cf6340b6ff1c868dd04872207834a2022fea561",
+  "verified_archive_files": 90,
+  "acceptance_record": "E:\\密码竞赛\\4090修补\\02_采样异常与恢复\\internal_recovery_v1\\server_results\\20261020T161911383836Z-958989e7\\LOCAL_ACCEPTANCE.json",
+  "scope": "44/65/87 Sign各3类CUDA API错误返回注入：工作区初始化、H2D输入搬运、D2H输出搬运；不是采样器本身的错误注入。",
+  "verified": [
+    "正式模块哈希及嵌入身份保持一致，测试仅使用独立host caller和进程局部interposer。",
+    "9次错误均返回backend_error、256请求failed、零提交、host sentinel输出不变。",
+    "每个参数7阶段沿用同一workspace、stream和模块，无阶段间手工清零；12个成功/恢复输出逐字节匹配封存官方向量。"
+  ],
+  "pending": [
+    "未验证采样器专属内部故障或耗尽传播；现有续算补丁没有引入采样总硬上限或专用耗尽状态。",
+    "初始化失败及输出搬运失败后，三个参数的工作区均有非零残留；完整自动清零/中间量销毁未建立。非零计数本身不证明具体秘密内容。"
+  ]
+}

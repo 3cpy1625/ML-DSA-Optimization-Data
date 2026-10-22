@@ -1,0 +1,26 @@
+{
+  "deferred_cli_entrypoints": [
+    {"path": "tests/release/test_h003_final_mutations.py", "reason": "requires explicit native module, benchmark, and output arguments"},
+    {"path": "tests/release/test_h004_manifest_mutations.py", "reason": "requires an explicit release fixture"},
+    {"path": "tests/release/test_h004_schema_mutations.py", "reason": "requires an explicit release fixture"},
+    {"path": "tests/release/test_h004_validator_mutations.py", "reason": "requires an explicit release fixture"},
+    {"path": "tests/release/test_h005_performance_mutations.py", "reason": "requires an explicit output argument and retains 18 H005 mutation checks"},
+    {"path": "tests/release/test_h006_c4_boundary_mutations.py", "reason": "requires an explicit release fixture"},
+    {"path": "tests/release/test_h006_package_mutations.py", "reason": "requires an explicit release fixture"},
+    {"path": "tests/release/test_h006_package_relocation.py", "reason": "requires an explicit release fixture"},
+    {"path": "tests/release/test_h006_performance_mutations.py", "reason": "requires an explicit release fixture"},
+    {"path": "tests/release/test_h006_release_paths.py", "reason": "requires an explicit release fixture"},
+    {"path": "tests/release/test_h006_semantic_mutations.py", "reason": "requires an explicit release fixture"},
+    {"path": "tests/release/test_h006_statistics.py", "reason": "requires an explicit release fixture"},
+    {"path": "tests/release/test_h007_source_identity_mutations.py", "reason": "requires an explicit output argument and source-identity fixture"},
+    {"path": "tests/release/test_wp2_registry_mutations.py", "reason": "requires native modules, smoke binaries, and output arguments"},
+    {"path": "tests/release/test_wp4_release_mutations.py", "reason": "requires native modules, benchmark, and output arguments"},
+    {"path": "tests/release/test_wp7_runtime_attestation.py", "reason": "requires sealed and unsealed smoke binaries plus module directories"}
+  ],
+  "pytest": {
+    "clean_replay_child_minimum_collected": 51,
+    "files": ["tests/unit/test_g2_mldsa_nonsign_runner.py", "tests/unit/test_g2_mldsa_sign_runner.py", "tests/unit/test_g2_mlkem_driver.py", "tests/unit/test_g2_reducer_mutations.py", "tests/unit/test_h007_release_tools.py", "tests/unit/test_h008_python_self_containment.py", "tests/unit/test_h008_promotion.py", "tests/unit/test_module_build_provenance.py", "tests/unit/test_strict_handoff_verifier.py"],
+    "minimum_collected": 59
+  },
+  "schema": "loce.hardening008.python-test-inventory.v1"
+}

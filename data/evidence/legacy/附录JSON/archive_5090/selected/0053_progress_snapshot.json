@@ -1,0 +1,45 @@
+{
+  "updated_local_date": "2026-10-19",
+  "task": "Run every experiment required by the outline; give the user one command at a time.",
+  "user_preference": "Proceed according to the outline; do not keep returning to the three named techniques. User manually runs commands and returns output.",
+  "evidence_type": "User screenshots; raw logs/artifacts not downloaded yet",
+  "environment": {
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "gpu_memory_mib": 32607,
+    "driver": "595.99.02",
+    "nvcc": "12.9.86",
+    "kernel": "6.8.0-139-generic",
+    "ram_total_gib": 31,
+    "ram_available_gib": 25,
+    "disk_free_gib_at_environment_check": 35,
+    "gpu_idle_at_environment_check": true,
+    "base": "/home/lsb/mldsa-experiments-5090"
+  },
+  "smoke": {
+    "status": "GPU_SMOKE_PASS",
+    "compute_capability": "12.0",
+    "log_directory": "/home/lsb/mldsa-experiments-5090/00_environment/gpu-smoke-20261019T125442Z-616141"
+  },
+  "rebuild": {
+    "remote_wrapper": "/home/lsb/mldsa-experiments-5090/run_5090_rebuild_20261019.py",
+    "run_id": "fastmin-m87kg-20261019T125908827164Z-616384",
+    "status": "BUILD_FAILED",
+    "completed_cells_inferred_from_sequential_build": ["mldsa44_keygen", "mldsa44_sign", "mldsa44_verify", "mldsa65_keygen", "mldsa65_sign", "mldsa65_verify", "mldsa87_keygen"],
+    "failed_cell": "mldsa87_sign",
+    "not_reached": ["mldsa87_verify"],
+    "cpu_reference_smoke": "44/65/87 cases=8 each PASS",
+    "cupqc_probe": "COMPILE_LINK_PASS_NOT_EXECUTED",
+    "compile_log_attempt": "20261019T125919-616384",
+    "stderr": "empty",
+    "stdout_error": "ptxas sign.ptx line 206913: error: Unknown symbol '$L__BB78_404'; Ptx assembly aborted due to errors; ninja subcommand failed",
+    "gpu_algorithm_execution": "NOT_RUN"
+  },
+  "m87_sign_diagnostic": {
+    "status": "DIAGNOSTIC_OBJECT_COMPILE_PASS_NOT_QUALIFIED",
+    "directory": "/home/lsb/mldsa-experiments-5090/diagnostics/m87-sign-fastmin-20261019T132153923777Z-620204",
+    "option": "--Ofast-compile=min",
+    "object_sha256": "f9e7e3602e396c17f1646a420fb456fb3dde4f364585c847f0a057f02b29540a",
+    "gpu_executed": false
+  },
+  "next_step": "Upload new v2 external rebuild wrapper, then fresh nine-cell build with --Ofast-compile=min only for mldsa87_keygen and mldsa87_sign. Do not reuse diagnostic objects; require nine-module build and separate correctness PASS."
+}

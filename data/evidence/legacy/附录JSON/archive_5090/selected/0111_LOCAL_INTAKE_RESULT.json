@@ -1,0 +1,19 @@
+{
+  "status": "E03_DUAL_CONDITION_LOCAL_INTAKE_PROVISIONAL_PASS",
+  "schema": "mldsa.e03.persistent-b8192.native.sm120.v1.stream.v1",
+  "condition": "mldsa87_verify_b8192",
+  "files": 187,
+  "payload_bytes": 913609874,
+  "stream_bytes": 913817600,
+  "stream_sha256": "a5b0a0358b53c4b97e4e93439326837209a2b91d829cace1b5616e056303c1ea",
+  "manifest_sha256": "e5d600c03ca09108f3b42207e5d5cc27d866df3e2c6e5f8961133fb6ed9484da",
+  "physical_tar_validation": true,
+  "physical_headers": 188,
+  "local_pax_headers": 0,
+  "independent_filesystem_readback": true,
+  "completed_utc": "2026-10-20T06:29:33.068819+00:00",
+  "remote_data_deleted": false,
+  "native_execution": "NOT_RUN",
+  "transport_acceptance": "NOT_ATTESTED_BY_RECEIVER",
+  "scope": "Physical stream/member SHA/size/readback only; require separately finalized actual transport exit and stream identity"
+}

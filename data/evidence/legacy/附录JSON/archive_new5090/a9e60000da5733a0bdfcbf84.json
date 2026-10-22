@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "artifactGate": {
+      "additionalProperties": false,
+      "properties": {
+        "applicable": {"type": "boolean"},
+        "path": {"type": ["string", "null"]},
+        "sha256": {"type": ["string", "null"]},
+        "status": {"enum": ["PASS", "FAIL", "N/A"], "type": "string"}
+      },
+      "required": ["applicable", "status", "path", "sha256"],
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "algorithm": {"enum": ["ML-KEM", "ML-DSA"], "type": "string"},
+    "benchmark_binary_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+    "benchmark_path": {"minLength": 1, "type": "string"},
+    "correctness_evidence": {"$ref": "#/$defs/artifactGate"},
+    "execution_contract_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+    "framework_compilation_source_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+    "gates": {"additionalProperties": {"$ref": "#/$defs/artifactGate"}, "type": "object"},
+    "module_binary_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+    "module_build_input_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+    "module_path": {"minLength": 1, "type": "string"},
+    "operation": {"enum": ["KeyGen", "Encaps", "Decaps", "Sign", "Verify"], "type": "string"},
+    "packaged_source_snapshot_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+    "parameter_set": {"pattern": "ML-(KEM|DSA)-(44|65|87|512|768|1024)", "type": "string"},
+    "performance_eligible": {"type": "boolean"},
+    "policy_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+    "release_family_id": {"pattern": "LOCE-PQC-GPU-H004-[0-9]{8}T[0-9]{6}Z", "type": "string"},
+    "sanitizer_evidence": {"$ref": "#/$defs/artifactGate"},
+    "schema": {"const": "loce.hardening004.canonical-manifest.v1", "type": "string"},
+    "security_level": {"enum": [1, 3, 5], "type": "integer"},
+    "timing_contract_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"}
+  },
+  "required": ["schema", "release_family_id", "algorithm", "parameter_set", "security_level", "operation", "framework_compilation_source_sha256", "packaged_source_snapshot_sha256", "module_path", "module_binary_sha256", "module_build_input_sha256", "benchmark_path", "benchmark_binary_sha256", "execution_contract_sha256", "policy_sha256", "timing_contract_sha256", "correctness_evidence", "sanitizer_evidence", "gates", "performance_eligible"],
+  "type": "object"
+}

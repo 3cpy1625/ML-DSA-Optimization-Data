@@ -1,0 +1,8 @@
+{
+  "schema": "loce.loaded-module-identity.v1",
+  "framework_source_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+  "cuda_device": {"ordinal": 0, "uuid": "43cf85da3fa20d233066d8781644bb2a", "compute_capability_major": 12, "compute_capability_minor": 0},
+  "modules": [
+    {"algorithm": "ML-DSA", "level": 3, "operation_mask": 16, "path": "/home/lsb/mldsa-experiments-5090/新5090/cta_m65_verify_20261020T125158Z_6bfa71/modules_OFF/libloce_mldsa65_verify_d3_sm120.so", "sha256": "3cc75323d8633fc07497b7605e34589bb9f759bc19454f8ba5813ba2e795fc87", "module_name": "mldsa65-sm120-native", "module_build_identity": "v0802/MLDSA_NONSIGN_BEST/cuDilithium3", "resolved_symbol": "loce_pqc_native_module_v1", "expected_sha256": "3cc75323d8633fc07497b7605e34589bb9f759bc19454f8ba5813ba2e795fc87", "post_load_sha256": "3cc75323d8633fc07497b7605e34589bb9f759bc19454f8ba5813ba2e795fc87", "embedded_module_id": "mldsa65-verify-d3-sm120-native", "release_family_id": "NEW5090-PAIR-cta_m65_verify_20261020T125158Z_6bfa71", "parameter_set": "65", "policy_id": "MLDSA-65-VERIFY-D3", "sm_arch": "sm_120", "release_identity_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01", "device": 64512, "inode": 2626874, "attested": true}
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "DILITHIUM_VERIFY_COARSE_CTA_REJECTION_FRONTIER": {
+    "ON": "1",
+    "OFF": "0"
+  }
+}

@@ -1,0 +1,172 @@
+cell_id,case_id,check,status,note,raw_fields_json
+mldsa44_keygen,seed-0000000020261018,public_key_byte_differential,PASS,,"[""83968""]"
+mldsa44_keygen,seed-0000000020261018,secret_key_byte_differential,PASS,,"[""163840""]"
+mldsa44_keygen,seed-0000000020261018,prepared_v2_status,PASS,,[]
+mldsa44_keygen,seed-0000000020261018,prepared_v2_public_key_byte_differential,PASS,,"[""83968""]"
+mldsa44_keygen,seed-0000000020261018,prepared_v2_secret_key_byte_differential,PASS,,"[""163840""]"
+mldsa44_keygen,seed-0000000020261018,adapter_b_public_key_byte_differential,PASS,,"[""83968""]"
+mldsa44_keygen,seed-0000000020261018,adapter_b_secret_key_byte_differential,PASS,,"[""163840""]"
+mldsa44_keygen,seed-0000000020261018,reference_sign_gpu_keypair,PASS,,"[""2420""]"
+mldsa44_keygen,seed-0000000020261018,modified_signature_rejection,PASS,,[]
+mldsa44_keygen,seed-0000000020261018,short_randomness_rejection,PASS,,[]
+mldsa44_keygen,seed-0000000020261019,public_key_byte_differential,PASS,,"[""83968""]"
+mldsa44_keygen,seed-0000000020261019,secret_key_byte_differential,PASS,,"[""163840""]"
+mldsa44_keygen,seed-0000000020261019,prepared_v2_status,PASS,,[]
+mldsa44_keygen,seed-0000000020261019,prepared_v2_public_key_byte_differential,PASS,,"[""83968""]"
+mldsa44_keygen,seed-0000000020261019,prepared_v2_secret_key_byte_differential,PASS,,"[""163840""]"
+mldsa44_keygen,seed-0000000020261019,adapter_b_public_key_byte_differential,PASS,,"[""83968""]"
+mldsa44_keygen,seed-0000000020261019,adapter_b_secret_key_byte_differential,PASS,,"[""163840""]"
+mldsa44_keygen,seed-0000000020261019,reference_sign_gpu_keypair,PASS,,"[""2420""]"
+mldsa44_keygen,seed-0000000020261019,modified_signature_rejection,PASS,,[]
+mldsa44_keygen,seed-0000000020261019,short_randomness_rejection,PASS,,[]
+mldsa44_keygen,seed-0000000020261020,public_key_byte_differential,PASS,,"[""83968""]"
+mldsa44_keygen,seed-0000000020261020,secret_key_byte_differential,PASS,,"[""163840""]"
+mldsa44_keygen,seed-0000000020261020,prepared_v2_status,PASS,,[]
+mldsa44_keygen,seed-0000000020261020,prepared_v2_public_key_byte_differential,PASS,,"[""83968""]"
+mldsa44_keygen,seed-0000000020261020,prepared_v2_secret_key_byte_differential,PASS,,"[""163840""]"
+mldsa44_keygen,seed-0000000020261020,adapter_b_public_key_byte_differential,PASS,,"[""83968""]"
+mldsa44_keygen,seed-0000000020261020,adapter_b_secret_key_byte_differential,PASS,,"[""163840""]"
+mldsa44_keygen,seed-0000000020261020,reference_sign_gpu_keypair,PASS,,"[""2420""]"
+mldsa44_keygen,seed-0000000020261020,modified_signature_rejection,PASS,,[]
+mldsa44_keygen,seed-0000000020261020,short_randomness_rejection,PASS,,[]
+mldsa44_sign,seed-0000000020261018,device_api_copy_status,PASS,,"[""cuda_error"", ""no error""]"
+mldsa44_sign,seed-0000000020261018,differential,PASS,,"[""signatures"", ""0"", ""cross_verify_failures"", ""0"", ""modified_rejection_failures"", ""0""]"
+mldsa44_sign,seed-0000000020261018,winner_record,PASS,,"[""failures"", ""0""]"
+mldsa44_sign,seed-0000000020261018,device_differential,PASS,,"[""signatures"", ""0"", ""cross_verify_failures"", ""0""]"
+mldsa44_sign,seed-0000000020261018,device_wphc_audit,NOT_AVAILABLE,,"[""records"", ""0"", ""failures"", ""0"", ""fields"", ""identity_epoch_slot_extent_representation_provenance_winner_y_closure_publication_lost_request_duplicate_survivor""]"
+mldsa44_sign,seed-0000000020261018,device_wphc_closure,NOT_AVAILABLE,,"[""closed_records"", ""0"", ""total"", ""0""]"
+mldsa44_sign,seed-0000000020261018,device_wphc_fault_injection,PASS,,"[""cases"", ""14"", ""unique_bits"", ""12""]"
+mldsa44_sign,seed-0000000020261019,device_api_copy_status,PASS,,"[""cuda_error"", ""no error""]"
+mldsa44_sign,seed-0000000020261019,differential,PASS,,"[""signatures"", ""0"", ""cross_verify_failures"", ""0"", ""modified_rejection_failures"", ""0""]"
+mldsa44_sign,seed-0000000020261019,winner_record,PASS,,"[""failures"", ""0""]"
+mldsa44_sign,seed-0000000020261019,device_differential,PASS,,"[""signatures"", ""0"", ""cross_verify_failures"", ""0""]"
+mldsa44_sign,seed-0000000020261019,device_wphc_audit,NOT_AVAILABLE,,"[""records"", ""0"", ""failures"", ""0"", ""fields"", ""identity_epoch_slot_extent_representation_provenance_winner_y_closure_publication_lost_request_duplicate_survivor""]"
+mldsa44_sign,seed-0000000020261019,device_wphc_closure,NOT_AVAILABLE,,"[""closed_records"", ""0"", ""total"", ""0""]"
+mldsa44_sign,seed-0000000020261019,device_wphc_fault_injection,PASS,,"[""cases"", ""14"", ""unique_bits"", ""12""]"
+mldsa44_sign,seed-0000000020261020,device_api_copy_status,PASS,,"[""cuda_error"", ""no error""]"
+mldsa44_sign,seed-0000000020261020,differential,PASS,,"[""signatures"", ""0"", ""cross_verify_failures"", ""0"", ""modified_rejection_failures"", ""0""]"
+mldsa44_sign,seed-0000000020261020,winner_record,PASS,,"[""failures"", ""0""]"
+mldsa44_sign,seed-0000000020261020,device_differential,PASS,,"[""signatures"", ""0"", ""cross_verify_failures"", ""0""]"
+mldsa44_sign,seed-0000000020261020,device_wphc_audit,NOT_AVAILABLE,,"[""records"", ""0"", ""failures"", ""0"", ""fields"", ""identity_epoch_slot_extent_representation_provenance_winner_y_closure_publication_lost_request_duplicate_survivor""]"
+mldsa44_sign,seed-0000000020261020,device_wphc_closure,NOT_AVAILABLE,,"[""closed_records"", ""0"", ""total"", ""0""]"
+mldsa44_sign,seed-0000000020261020,device_wphc_fault_injection,PASS,,"[""cases"", ""14"", ""unique_bits"", ""12""]"
+mldsa44_verify,fixed-corpus,reference_signatures_gpu_verify,PASS,,"[""256""]"
+mldsa44_verify,fixed-corpus,modified_challenge_rejection,PASS,,[]
+mldsa44_verify,fixed-corpus,modified_challenge_tail_rejection,PASS,,[]
+mldsa44_verify,fixed-corpus,modified_challenge_extended_rejection,SKIPPED,ML-DSA-44 challenge has no bytes beyond the 32-byte seed size.,[]
+mldsa44_verify,fixed-corpus,final_hash_compare_canary,SKIPPED,D3 build defines LOCE_D3_VERIFY_SKIP_INTERNAL_CANARY=1.,[]
+mldsa44_verify,fixed-corpus,short_signature_rejection,PASS,,[]
+mldsa65_keygen,seed-0000000020261018,public_key_byte_differential,PASS,,"[""124928""]"
+mldsa65_keygen,seed-0000000020261018,secret_key_byte_differential,PASS,,"[""258048""]"
+mldsa65_keygen,seed-0000000020261018,prepared_v2_status,PASS,,[]
+mldsa65_keygen,seed-0000000020261018,prepared_v2_public_key_byte_differential,PASS,,"[""124928""]"
+mldsa65_keygen,seed-0000000020261018,prepared_v2_secret_key_byte_differential,PASS,,"[""258048""]"
+mldsa65_keygen,seed-0000000020261018,adapter_b_public_key_byte_differential,PASS,,"[""124928""]"
+mldsa65_keygen,seed-0000000020261018,adapter_b_secret_key_byte_differential,PASS,,"[""258048""]"
+mldsa65_keygen,seed-0000000020261018,reference_sign_gpu_keypair,PASS,,"[""3309""]"
+mldsa65_keygen,seed-0000000020261018,modified_signature_rejection,PASS,,[]
+mldsa65_keygen,seed-0000000020261018,short_randomness_rejection,PASS,,[]
+mldsa65_keygen,seed-0000000020261019,public_key_byte_differential,PASS,,"[""124928""]"
+mldsa65_keygen,seed-0000000020261019,secret_key_byte_differential,PASS,,"[""258048""]"
+mldsa65_keygen,seed-0000000020261019,prepared_v2_status,PASS,,[]
+mldsa65_keygen,seed-0000000020261019,prepared_v2_public_key_byte_differential,PASS,,"[""124928""]"
+mldsa65_keygen,seed-0000000020261019,prepared_v2_secret_key_byte_differential,PASS,,"[""258048""]"
+mldsa65_keygen,seed-0000000020261019,adapter_b_public_key_byte_differential,PASS,,"[""124928""]"
+mldsa65_keygen,seed-0000000020261019,adapter_b_secret_key_byte_differential,PASS,,"[""258048""]"
+mldsa65_keygen,seed-0000000020261019,reference_sign_gpu_keypair,PASS,,"[""3309""]"
+mldsa65_keygen,seed-0000000020261019,modified_signature_rejection,PASS,,[]
+mldsa65_keygen,seed-0000000020261019,short_randomness_rejection,PASS,,[]
+mldsa65_keygen,seed-0000000020261020,public_key_byte_differential,PASS,,"[""124928""]"
+mldsa65_keygen,seed-0000000020261020,secret_key_byte_differential,PASS,,"[""258048""]"
+mldsa65_keygen,seed-0000000020261020,prepared_v2_status,PASS,,[]
+mldsa65_keygen,seed-0000000020261020,prepared_v2_public_key_byte_differential,PASS,,"[""124928""]"
+mldsa65_keygen,seed-0000000020261020,prepared_v2_secret_key_byte_differential,PASS,,"[""258048""]"
+mldsa65_keygen,seed-0000000020261020,adapter_b_public_key_byte_differential,PASS,,"[""124928""]"
+mldsa65_keygen,seed-0000000020261020,adapter_b_secret_key_byte_differential,PASS,,"[""258048""]"
+mldsa65_keygen,seed-0000000020261020,reference_sign_gpu_keypair,PASS,,"[""3309""]"
+mldsa65_keygen,seed-0000000020261020,modified_signature_rejection,PASS,,[]
+mldsa65_keygen,seed-0000000020261020,short_randomness_rejection,PASS,,[]
+mldsa65_sign,seed-0000000020261018,device_api_copy_status,PASS,,"[""cuda_error"", ""no error""]"
+mldsa65_sign,seed-0000000020261018,differential,PASS,,"[""signatures"", ""0"", ""cross_verify_failures"", ""0"", ""modified_rejection_failures"", ""0""]"
+mldsa65_sign,seed-0000000020261018,winner_record,PASS,,"[""failures"", ""0""]"
+mldsa65_sign,seed-0000000020261018,device_differential,PASS,,"[""signatures"", ""0"", ""cross_verify_failures"", ""0""]"
+mldsa65_sign,seed-0000000020261018,device_wphc_audit,NOT_AVAILABLE,,"[""records"", ""0"", ""failures"", ""0"", ""fields"", ""identity_epoch_slot_extent_representation_provenance_winner_y_closure_publication_lost_request_duplicate_survivor""]"
+mldsa65_sign,seed-0000000020261018,device_wphc_closure,NOT_AVAILABLE,,"[""closed_records"", ""0"", ""total"", ""0""]"
+mldsa65_sign,seed-0000000020261018,device_wphc_fault_injection,PASS,,"[""cases"", ""14"", ""unique_bits"", ""12""]"
+mldsa65_sign,seed-0000000020261019,device_api_copy_status,PASS,,"[""cuda_error"", ""no error""]"
+mldsa65_sign,seed-0000000020261019,differential,PASS,,"[""signatures"", ""0"", ""cross_verify_failures"", ""0"", ""modified_rejection_failures"", ""0""]"
+mldsa65_sign,seed-0000000020261019,winner_record,PASS,,"[""failures"", ""0""]"
+mldsa65_sign,seed-0000000020261019,device_differential,PASS,,"[""signatures"", ""0"", ""cross_verify_failures"", ""0""]"
+mldsa65_sign,seed-0000000020261019,device_wphc_audit,NOT_AVAILABLE,,"[""records"", ""0"", ""failures"", ""0"", ""fields"", ""identity_epoch_slot_extent_representation_provenance_winner_y_closure_publication_lost_request_duplicate_survivor""]"
+mldsa65_sign,seed-0000000020261019,device_wphc_closure,NOT_AVAILABLE,,"[""closed_records"", ""0"", ""total"", ""0""]"
+mldsa65_sign,seed-0000000020261019,device_wphc_fault_injection,PASS,,"[""cases"", ""14"", ""unique_bits"", ""12""]"
+mldsa65_sign,seed-0000000020261020,device_api_copy_status,PASS,,"[""cuda_error"", ""no error""]"
+mldsa65_sign,seed-0000000020261020,differential,PASS,,"[""signatures"", ""0"", ""cross_verify_failures"", ""0"", ""modified_rejection_failures"", ""0""]"
+mldsa65_sign,seed-0000000020261020,winner_record,PASS,,"[""failures"", ""0""]"
+mldsa65_sign,seed-0000000020261020,device_differential,PASS,,"[""signatures"", ""0"", ""cross_verify_failures"", ""0""]"
+mldsa65_sign,seed-0000000020261020,device_wphc_audit,NOT_AVAILABLE,,"[""records"", ""0"", ""failures"", ""0"", ""fields"", ""identity_epoch_slot_extent_representation_provenance_winner_y_closure_publication_lost_request_duplicate_survivor""]"
+mldsa65_sign,seed-0000000020261020,device_wphc_closure,NOT_AVAILABLE,,"[""closed_records"", ""0"", ""total"", ""0""]"
+mldsa65_sign,seed-0000000020261020,device_wphc_fault_injection,PASS,,"[""cases"", ""14"", ""unique_bits"", ""12""]"
+mldsa65_verify,fixed-corpus,reference_signatures_gpu_verify,PASS,,"[""256""]"
+mldsa65_verify,fixed-corpus,modified_challenge_rejection,PASS,,[]
+mldsa65_verify,fixed-corpus,modified_challenge_tail_rejection,PASS,,[]
+mldsa65_verify,fixed-corpus,modified_challenge_extended_rejection,PASS,,[]
+mldsa65_verify,fixed-corpus,final_hash_compare_canary,SKIPPED,D3 build defines LOCE_D3_VERIFY_SKIP_INTERNAL_CANARY=1.,[]
+mldsa65_verify,fixed-corpus,short_signature_rejection,PASS,,[]
+mldsa87_keygen,seed-0000000020261018,public_key_byte_differential,PASS,,"[""165888""]"
+mldsa87_keygen,seed-0000000020261018,secret_key_byte_differential,PASS,,"[""313344""]"
+mldsa87_keygen,seed-0000000020261018,prepared_v2_status,PASS,,[]
+mldsa87_keygen,seed-0000000020261018,prepared_v2_public_key_byte_differential,PASS,,"[""165888""]"
+mldsa87_keygen,seed-0000000020261018,prepared_v2_secret_key_byte_differential,PASS,,"[""313344""]"
+mldsa87_keygen,seed-0000000020261018,adapter_b_public_key_byte_differential,PASS,,"[""165888""]"
+mldsa87_keygen,seed-0000000020261018,adapter_b_secret_key_byte_differential,PASS,,"[""313344""]"
+mldsa87_keygen,seed-0000000020261018,reference_sign_gpu_keypair,PASS,,"[""4627""]"
+mldsa87_keygen,seed-0000000020261018,modified_signature_rejection,PASS,,[]
+mldsa87_keygen,seed-0000000020261018,short_randomness_rejection,PASS,,[]
+mldsa87_keygen,seed-0000000020261019,public_key_byte_differential,PASS,,"[""165888""]"
+mldsa87_keygen,seed-0000000020261019,secret_key_byte_differential,PASS,,"[""313344""]"
+mldsa87_keygen,seed-0000000020261019,prepared_v2_status,PASS,,[]
+mldsa87_keygen,seed-0000000020261019,prepared_v2_public_key_byte_differential,PASS,,"[""165888""]"
+mldsa87_keygen,seed-0000000020261019,prepared_v2_secret_key_byte_differential,PASS,,"[""313344""]"
+mldsa87_keygen,seed-0000000020261019,adapter_b_public_key_byte_differential,PASS,,"[""165888""]"
+mldsa87_keygen,seed-0000000020261019,adapter_b_secret_key_byte_differential,PASS,,"[""313344""]"
+mldsa87_keygen,seed-0000000020261019,reference_sign_gpu_keypair,PASS,,"[""4627""]"
+mldsa87_keygen,seed-0000000020261019,modified_signature_rejection,PASS,,[]
+mldsa87_keygen,seed-0000000020261019,short_randomness_rejection,PASS,,[]
+mldsa87_keygen,seed-0000000020261020,public_key_byte_differential,PASS,,"[""165888""]"
+mldsa87_keygen,seed-0000000020261020,secret_key_byte_differential,PASS,,"[""313344""]"
+mldsa87_keygen,seed-0000000020261020,prepared_v2_status,PASS,,[]
+mldsa87_keygen,seed-0000000020261020,prepared_v2_public_key_byte_differential,PASS,,"[""165888""]"
+mldsa87_keygen,seed-0000000020261020,prepared_v2_secret_key_byte_differential,PASS,,"[""313344""]"
+mldsa87_keygen,seed-0000000020261020,adapter_b_public_key_byte_differential,PASS,,"[""165888""]"
+mldsa87_keygen,seed-0000000020261020,adapter_b_secret_key_byte_differential,PASS,,"[""313344""]"
+mldsa87_keygen,seed-0000000020261020,reference_sign_gpu_keypair,PASS,,"[""4627""]"
+mldsa87_keygen,seed-0000000020261020,modified_signature_rejection,PASS,,[]
+mldsa87_keygen,seed-0000000020261020,short_randomness_rejection,PASS,,[]
+mldsa87_sign,seed-0000000020261018,device_api_copy_status,PASS,,"[""cuda_error"", ""no error""]"
+mldsa87_sign,seed-0000000020261018,differential,PASS,,"[""signatures"", ""0"", ""cross_verify_failures"", ""0"", ""modified_rejection_failures"", ""0""]"
+mldsa87_sign,seed-0000000020261018,winner_record,PASS,,"[""failures"", ""0""]"
+mldsa87_sign,seed-0000000020261018,device_differential,PASS,,"[""signatures"", ""0"", ""cross_verify_failures"", ""0""]"
+mldsa87_sign,seed-0000000020261018,device_wphc_audit,NOT_AVAILABLE,,"[""records"", ""0"", ""failures"", ""0"", ""fields"", ""identity_epoch_slot_extent_representation_provenance_winner_y_closure_publication_lost_request_duplicate_survivor""]"
+mldsa87_sign,seed-0000000020261018,device_wphc_closure,NOT_AVAILABLE,,"[""closed_records"", ""0"", ""total"", ""0""]"
+mldsa87_sign,seed-0000000020261018,device_wphc_fault_injection,PASS,,"[""cases"", ""14"", ""unique_bits"", ""12""]"
+mldsa87_sign,seed-0000000020261019,device_api_copy_status,PASS,,"[""cuda_error"", ""no error""]"
+mldsa87_sign,seed-0000000020261019,differential,PASS,,"[""signatures"", ""0"", ""cross_verify_failures"", ""0"", ""modified_rejection_failures"", ""0""]"
+mldsa87_sign,seed-0000000020261019,winner_record,PASS,,"[""failures"", ""0""]"
+mldsa87_sign,seed-0000000020261019,device_differential,PASS,,"[""signatures"", ""0"", ""cross_verify_failures"", ""0""]"
+mldsa87_sign,seed-0000000020261019,device_wphc_audit,NOT_AVAILABLE,,"[""records"", ""0"", ""failures"", ""0"", ""fields"", ""identity_epoch_slot_extent_representation_provenance_winner_y_closure_publication_lost_request_duplicate_survivor""]"
+mldsa87_sign,seed-0000000020261019,device_wphc_closure,NOT_AVAILABLE,,"[""closed_records"", ""0"", ""total"", ""0""]"
+mldsa87_sign,seed-0000000020261019,device_wphc_fault_injection,PASS,,"[""cases"", ""14"", ""unique_bits"", ""12""]"
+mldsa87_sign,seed-0000000020261020,device_api_copy_status,PASS,,"[""cuda_error"", ""no error""]"
+mldsa87_sign,seed-0000000020261020,differential,PASS,,"[""signatures"", ""0"", ""cross_verify_failures"", ""0"", ""modified_rejection_failures"", ""0""]"
+mldsa87_sign,seed-0000000020261020,winner_record,PASS,,"[""failures"", ""0""]"
+mldsa87_sign,seed-0000000020261020,device_differential,PASS,,"[""signatures"", ""0"", ""cross_verify_failures"", ""0""]"
+mldsa87_sign,seed-0000000020261020,device_wphc_audit,NOT_AVAILABLE,,"[""records"", ""0"", ""failures"", ""0"", ""fields"", ""identity_epoch_slot_extent_representation_provenance_winner_y_closure_publication_lost_request_duplicate_survivor""]"
+mldsa87_sign,seed-0000000020261020,device_wphc_closure,NOT_AVAILABLE,,"[""closed_records"", ""0"", ""total"", ""0""]"
+mldsa87_sign,seed-0000000020261020,device_wphc_fault_injection,PASS,,"[""cases"", ""14"", ""unique_bits"", ""12""]"
+mldsa87_verify,fixed-corpus,reference_signatures_gpu_verify,PASS,,"[""256""]"
+mldsa87_verify,fixed-corpus,modified_challenge_rejection,PASS,,[]
+mldsa87_verify,fixed-corpus,modified_challenge_tail_rejection,PASS,,[]
+mldsa87_verify,fixed-corpus,modified_challenge_extended_rejection,PASS,,[]
+mldsa87_verify,fixed-corpus,final_hash_compare_canary,SKIPPED,D3 build defines LOCE_D3_VERIFY_SKIP_INTERNAL_CANARY=1.,[]
+mldsa87_verify,fixed-corpus,short_signature_rejection,PASS,,[]

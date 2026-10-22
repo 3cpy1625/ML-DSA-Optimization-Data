@@ -1,0 +1,549 @@
+{
+  "schema": "mldsa5090-ctasync-local-intake-v1",
+  "verified_utc": "2026-10-19T19:04:32.078882+00:00",
+  "status": "ALL_42_EXPORTED_FILES_VERIFIED_FOUR_HANDOFF_STATIC_BARRIER_GATE_PASS",
+  "run_id": "e02b-ctasync-20261019T185335197244Z-672804",
+  "archive": {
+    "path": "server_results/e02b_ctasync/e02b-ctasync-20261019T185335197244Z-672804/5090_e02b-ctasync-20261019T185335197244Z-672804.tar.gz",
+    "bytes": 9528030,
+    "sha256": "d3610c67058a736611f018c73a881352cf0486a97c839d7efa41edac620be520"
+  },
+  "result": {
+    "path": "extracted/e2c_672804/RESULT.json",
+    "bytes": 15282413,
+    "sha256": "2f68a6ce81c0e512c2d19d6415f285529cd68631002600648c3107cfb8e04939"
+  },
+  "exported_file_count": 42,
+  "local_extraction": "E:\\密码竞赛\\5090实验结果_20261019\\extracted\\e2c_672804",
+  "source_files": 1075,
+  "source_delta_files": 1,
+  "ptx_disposition": "NO_PTX_INSTRUCTIONS_CAPTURED_ONLY_FATBIN_ELF_HEADERS",
+  "loop_reviews": [
+    {
+      "phase": 0,
+      "start_pc": "0x34110",
+      "backedge_pc": "0x37fe0",
+      "barriers": [
+        {
+          "pc": 226496,
+          "asm": "BAR.SYNC.DEFER_BLOCKING 0x0 ;"
+        },
+        {
+          "pc": 228800,
+          "asm": "BAR.SYNC.DEFER_BLOCKING 0x0 ;"
+        },
+        {
+          "pc": 228976,
+          "asm": "BAR.SYNC.DEFER_BLOCKING 0x0 ;"
+        },
+        {
+          "pc": 229328,
+          "asm": "BAR.SYNC.DEFER_BLOCKING 0x0 ;"
+        }
+      ],
+      "control": [
+        {
+          "pc": 229344,
+          "asm": "BRA.U UP0, 0x34110 ;"
+        }
+      ],
+      "get_w_final_shared_stores": [
+        {
+          "pc": 226432,
+          "asm": "STS.64 [R93], R12 ;"
+        },
+        {
+          "pc": 226448,
+          "asm": "STS.64 [R93+0x200], R14 ;"
+        },
+        {
+          "pc": 226464,
+          "asm": "STS.64 [R93+0x20], R88 ;"
+        },
+        {
+          "pc": 226480,
+          "asm": "STS.64 [R93+0x220], R90 ;"
+        }
+      ],
+      "raw_shared_reads": [
+        {
+          "pc": 226544,
+          "asm": "LDS R89, [R10+UR11] ;"
+        },
+        {
+          "pc": 226560,
+          "asm": "LDS R88, [R10+UR11+0x10] ;"
+        },
+        {
+          "pc": 226576,
+          "asm": "LDS R90, [R10+UR11+0x8] ;"
+        },
+        {
+          "pc": 226592,
+          "asm": "LDS R100, [R10+UR11+0x18] ;"
+        },
+        {
+          "pc": 226624,
+          "asm": "LDS R94, [R10+UR11+0x20] ;"
+        },
+        {
+          "pc": 226640,
+          "asm": "LDS R95, [R10+UR11+0x28] ;"
+        },
+        {
+          "pc": 226656,
+          "asm": "LDS R96, [R10+UR11+0x30] ;"
+        },
+        {
+          "pc": 226672,
+          "asm": "LDS R97, [R10+UR11+0x38] ;"
+        }
+      ],
+      "canonical_shared_stores": [
+        {
+          "pc": 228832,
+          "asm": "STS [R173+UR11], R12 ;"
+        },
+        {
+          "pc": 228848,
+          "asm": "STS [R173+UR11+0x80], R13 ;"
+        },
+        {
+          "pc": 228864,
+          "asm": "STS [R173+UR11+0x100], R14 ;"
+        },
+        {
+          "pc": 228880,
+          "asm": "STS [R173+UR11+0x180], R88 ;"
+        },
+        {
+          "pc": 228896,
+          "asm": "STS [R173+UR11+0x200], R89 ;"
+        },
+        {
+          "pc": 228912,
+          "asm": "STS [R173+UR11+0x280], R90 ;"
+        },
+        {
+          "pc": 228928,
+          "asm": "STS [R173+UR11+0x300], R91 ;"
+        },
+        {
+          "pc": 228944,
+          "asm": "STS [R173+UR11+0x380], R92 ;"
+        }
+      ],
+      "W1pack_shared_reads": [
+        {
+          "pc": 229008,
+          "asm": "LDS.128 R12, [R172] ;"
+        },
+        {
+          "pc": 229024,
+          "asm": "LDS.128 R88, [R172+0x10] ;"
+        }
+      ],
+      "static_gate": "FOUR_UNCONDITIONAL_CTA_BARRIERS_IN_UNIFORM_LOOP",
+      "scope": "Pinned single-warp configuration only; dynamic sanitizer still NOT_RUN."
+    },
+    {
+      "phase": 6,
+      "start_pc": "0x33c60",
+      "backedge_pc": "0x37b30",
+      "barriers": [
+        {
+          "pc": 225312,
+          "asm": "BAR.SYNC.DEFER_BLOCKING 0x0 ;"
+        },
+        {
+          "pc": 227600,
+          "asm": "BAR.SYNC.DEFER_BLOCKING 0x0 ;"
+        },
+        {
+          "pc": 227776,
+          "asm": "BAR.SYNC.DEFER_BLOCKING 0x0 ;"
+        },
+        {
+          "pc": 228128,
+          "asm": "BAR.SYNC.DEFER_BLOCKING 0x0 ;"
+        }
+      ],
+      "control": [
+        {
+          "pc": 228144,
+          "asm": "BRA.U UP1, 0x33c60 ;"
+        }
+      ],
+      "get_w_final_shared_stores": [
+        {
+          "pc": 225232,
+          "asm": "STS.64 [R108], R80 ;"
+        },
+        {
+          "pc": 225248,
+          "asm": "STS.64 [R108+0x200], R82 ;"
+        },
+        {
+          "pc": 225264,
+          "asm": "STS.64 [R108+0x20], R84 ;"
+        },
+        {
+          "pc": 225280,
+          "asm": "STS.64 [R108+0x220], R86 ;"
+        }
+      ],
+      "raw_shared_reads": [
+        {
+          "pc": 225360,
+          "asm": "LDS R90, [R74+UR10+0x8] ;"
+        },
+        {
+          "pc": 225376,
+          "asm": "LDS R91, [R74+UR10+0x10] ;"
+        },
+        {
+          "pc": 225392,
+          "asm": "LDS R88, [R74+UR10] ;"
+        },
+        {
+          "pc": 225408,
+          "asm": "LDS R92, [R74+UR10+0x38] ;"
+        },
+        {
+          "pc": 225536,
+          "asm": "LDS R89, [R74+UR10+0x20] ;"
+        },
+        {
+          "pc": 225600,
+          "asm": "LDS R88, [R74+UR10+0x18] ;"
+        },
+        {
+          "pc": 225648,
+          "asm": "LDS R90, [R74+UR10+0x28] ;"
+        },
+        {
+          "pc": 225696,
+          "asm": "LDS R91, [R74+UR10+0x30] ;"
+        }
+      ],
+      "canonical_shared_stores": [
+        {
+          "pc": 227632,
+          "asm": "STS [R10+UR10], R80 ;"
+        },
+        {
+          "pc": 227648,
+          "asm": "STS [R10+UR10+0x80], R81 ;"
+        },
+        {
+          "pc": 227664,
+          "asm": "STS [R10+UR10+0x100], R82 ;"
+        },
+        {
+          "pc": 227680,
+          "asm": "STS [R10+UR10+0x180], R83 ;"
+        },
+        {
+          "pc": 227696,
+          "asm": "STS [R10+UR10+0x200], R84 ;"
+        },
+        {
+          "pc": 227712,
+          "asm": "STS [R10+UR10+0x280], R85 ;"
+        },
+        {
+          "pc": 227728,
+          "asm": "STS [R10+UR10+0x300], R86 ;"
+        },
+        {
+          "pc": 227744,
+          "asm": "STS [R10+UR10+0x380], R87 ;"
+        }
+      ],
+      "W1pack_shared_reads": [
+        {
+          "pc": 227808,
+          "asm": "LDS.128 R84, [R170+0x10] ;"
+        },
+        {
+          "pc": 227824,
+          "asm": "LDS.128 R80, [R170] ;"
+        }
+      ],
+      "static_gate": "FOUR_UNCONDITIONAL_CTA_BARRIERS_IN_UNIFORM_LOOP",
+      "scope": "Pinned single-warp configuration only; dynamic sanitizer still NOT_RUN."
+    },
+    {
+      "phase": 3,
+      "start_pc": "0x35a80",
+      "backedge_pc": "0x39900",
+      "barriers": [
+        {
+          "pc": 232848,
+          "asm": "BAR.SYNC.DEFER_BLOCKING 0x0 ;"
+        },
+        {
+          "pc": 235136,
+          "asm": "BAR.SYNC.DEFER_BLOCKING 0x0 ;"
+        },
+        {
+          "pc": 235360,
+          "asm": "BAR.SYNC.DEFER_BLOCKING 0x0 ;"
+        },
+        {
+          "pc": 235760,
+          "asm": "BAR.SYNC.DEFER_BLOCKING 0x0 ;"
+        }
+      ],
+      "control": [
+        {
+          "pc": 235776,
+          "asm": "BRA.U UP0, 0x35a80 ;"
+        }
+      ],
+      "get_w_final_shared_stores": [
+        {
+          "pc": 232752,
+          "asm": "STS.64 [R76], R12 ;"
+        },
+        {
+          "pc": 232768,
+          "asm": "STS.64 [R76+0x200], R14 ;"
+        },
+        {
+          "pc": 232784,
+          "asm": "STS.64 [R76+0x20], R48 ;"
+        },
+        {
+          "pc": 232800,
+          "asm": "STS.64 [R76+0x220], R52 ;"
+        }
+      ],
+      "raw_shared_reads": [
+        {
+          "pc": 232896,
+          "asm": "LDS R50, [R11] ;"
+        },
+        {
+          "pc": 232912,
+          "asm": "LDS R54, [R11+0x8] ;"
+        },
+        {
+          "pc": 232928,
+          "asm": "LDS R55, [R11+0x10] ;"
+        },
+        {
+          "pc": 232944,
+          "asm": "LDS R56, [R11+0x18] ;"
+        },
+        {
+          "pc": 232960,
+          "asm": "LDS R58, [R11+0x20] ;"
+        },
+        {
+          "pc": 232976,
+          "asm": "LDS R60, [R11+0x28] ;"
+        },
+        {
+          "pc": 232992,
+          "asm": "LDS R61, [R11+0x30] ;"
+        },
+        {
+          "pc": 233008,
+          "asm": "LDS R62, [R11+0x38] ;"
+        }
+      ],
+      "canonical_shared_stores": [
+        {
+          "pc": 235168,
+          "asm": "STS [R97], R48 ;"
+        },
+        {
+          "pc": 235184,
+          "asm": "STS [R97+0x80], R50 ;"
+        },
+        {
+          "pc": 235200,
+          "asm": "STS [R16+0x100], R53 ;"
+        },
+        {
+          "pc": 235216,
+          "asm": "STS [R97+0x180], R52 ;"
+        },
+        {
+          "pc": 235232,
+          "asm": "STS [R16+0x200], R54 ;"
+        },
+        {
+          "pc": 235248,
+          "asm": "STS [R97+0x280], R56 ;"
+        },
+        {
+          "pc": 235264,
+          "asm": "STS [R16+0x300], R60 ;"
+        },
+        {
+          "pc": 235280,
+          "asm": "STS [R97+0x380], R64 ;"
+        }
+      ],
+      "W1pack_shared_reads": [
+        {
+          "pc": 235392,
+          "asm": "LDS.128 R12, [R153] ;"
+        },
+        {
+          "pc": 235408,
+          "asm": "LDS.128 R48, [R153+0x10] ;"
+        }
+      ],
+      "static_gate": "FOUR_UNCONDITIONAL_CTA_BARRIERS_IN_UNIFORM_LOOP",
+      "scope": "Pinned single-warp configuration only; dynamic sanitizer still NOT_RUN."
+    },
+    {
+      "phase": 4294967295,
+      "start_pc": "0x35a00",
+      "backedge_pc": "0x39910",
+      "barriers": [
+        {
+          "pc": 232944,
+          "asm": "BAR.SYNC.DEFER_BLOCKING 0x0 ;"
+        },
+        {
+          "pc": 235248,
+          "asm": "BAR.SYNC.DEFER_BLOCKING 0x0 ;"
+        },
+        {
+          "pc": 235424,
+          "asm": "BAR.SYNC.DEFER_BLOCKING 0x0 ;"
+        },
+        {
+          "pc": 235776,
+          "asm": "BAR.SYNC.DEFER_BLOCKING 0x0 ;"
+        }
+      ],
+      "control": [
+        {
+          "pc": 235792,
+          "asm": "BRA.U UP1, 0x35a00 ;"
+        }
+      ],
+      "get_w_final_shared_stores": [
+        {
+          "pc": 232880,
+          "asm": "STS.64 [R108], R80 ;"
+        },
+        {
+          "pc": 232896,
+          "asm": "STS.64 [R108+0x200], R82 ;"
+        },
+        {
+          "pc": 232912,
+          "asm": "STS.64 [R108+0x20], R84 ;"
+        },
+        {
+          "pc": 232928,
+          "asm": "STS.64 [R108+0x220], R86 ;"
+        }
+      ],
+      "raw_shared_reads": [
+        {
+          "pc": 232992,
+          "asm": "LDS R91, [R75] ;"
+        },
+        {
+          "pc": 233008,
+          "asm": "LDS R85, [R75+0x8] ;"
+        },
+        {
+          "pc": 233024,
+          "asm": "LDS R95, [R75+0x10] ;"
+        },
+        {
+          "pc": 233040,
+          "asm": "LDS R90, [R75+0x18] ;"
+        },
+        {
+          "pc": 233056,
+          "asm": "LDS R97, [R75+0x20] ;"
+        },
+        {
+          "pc": 233088,
+          "asm": "LDS R86, [R75+0x28] ;"
+        },
+        {
+          "pc": 233104,
+          "asm": "LDS R87, [R75+0x30] ;"
+        },
+        {
+          "pc": 233120,
+          "asm": "LDS R89, [R75+0x38] ;"
+        }
+      ],
+      "canonical_shared_stores": [
+        {
+          "pc": 235280,
+          "asm": "STS [R10+UR12], R81 ;"
+        },
+        {
+          "pc": 235296,
+          "asm": "STS [R10+UR12+0x80], R80 ;"
+        },
+        {
+          "pc": 235312,
+          "asm": "STS [R10+UR12+0x100], R85 ;"
+        },
+        {
+          "pc": 235328,
+          "asm": "STS [R10+UR12+0x180], R88 ;"
+        },
+        {
+          "pc": 235344,
+          "asm": "STS [R10+UR12+0x200], R92 ;"
+        },
+        {
+          "pc": 235360,
+          "asm": "STS [R10+UR12+0x280], R93 ;"
+        },
+        {
+          "pc": 235376,
+          "asm": "STS [R10+UR12+0x300], R96 ;"
+        },
+        {
+          "pc": 235392,
+          "asm": "STS [R10+UR12+0x380], R94 ;"
+        }
+      ],
+      "W1pack_shared_reads": [
+        {
+          "pc": 235456,
+          "asm": "LDS.128 R80, [R174] ;"
+        },
+        {
+          "pc": 235472,
+          "asm": "LDS.128 R84, [R174+0x10] ;"
+        }
+      ],
+      "static_gate": "FOUR_UNCONDITIONAL_CTA_BARRIERS_IN_UNIFORM_LOOP",
+      "scope": "Pinned single-warp configuration only; dynamic sanitizer still NOT_RUN."
+    }
+  ],
+  "candidate_gpu_qualification": "NOT_RUN_STATIC_BARRIER_GATE_PASS",
+  "original_finding": "UNRESOLVED",
+  "original_e02b_counts": {
+    "pass": 30,
+    "finding": 1,
+    "not_run": 17
+  },
+  "limits": [
+    "Candidate/original modules and tools were not downloaded; binary facts are server metadata bound to the report.",
+    "All 35 raw candidate compiler commands were compared locally; Cache/ninja copies also match their metadata.",
+    "Local prepared controller hash recorded; stdin execution did not retain an independently rehashable server-side controller copy.",
+    "No GPU case or formal performance collected; this does not prove compiler defect or sanitizer false positive."
+  ],
+  "prepared_local_controller": {
+    "path": "scripts/diagnose_5090_e02b_ctasync_build.py",
+    "bytes": 34087,
+    "sha256": "1e04267d3580d31252d83e8a09086ff7ef2091a501445ca24b05d1dd04ed3bff"
+  }
+}

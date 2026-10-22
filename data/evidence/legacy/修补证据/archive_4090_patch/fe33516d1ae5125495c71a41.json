@@ -1,0 +1,17 @@
+{
+  "schema": "loce.native-direct-loaded-identity.v1",
+  "expected_filename": "libloce_mldsa44_sign_d4_sm89.so",
+  "loaded_path": "/workspace/新4090数据/01_生产采样不足额与故障恢复/normal_regression/runs/20261020T091306215597Z-b74395b3/modules/libloce_mldsa44_sign_d4_sm89.so",
+  "pre_load_sha256": "87dfa100b4e886abcf93912874e07e230db0089a6984590ffb655d0f85b5719b",
+  "post_load_sha256": "87dfa100b4e886abcf93912874e07e230db0089a6984590ffb655d0f85b5719b",
+  "device": 2065,
+  "inode": 2321486774,
+  "resolved_symbol": "loce_pqc_native_module_v1",
+  "algorithm": "ML-DSA",
+  "level": 1,
+  "operation": "sign",
+  "module_name": "mldsa44-sign-sm89-native",
+  "module_build_identity": "v0802/MLDSA_SIGN_LATEST/mldsa_sign_engine;default_sign_path=WPHC;fixed_owner_override_compiled=false",
+  "embedded": {"module_id": "mldsa44-sign-d4-sm89-native", "compilation_input_sha256": "c73f8b5f49070d370fd8787168c2d49839afaf3aff350c83080cfb114f5ed42e", "build_provenance_sha256": "629375cce25019edcbecb0e9d273b8fb159aee32aec83ddc68c70117c075d8a5", "execution_contract_registry_sha256": "86bf63340f892189eadffe58bb400e71d63a4468245af3473a4bbca0c62f7ab6", "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064", "build_id": "new4090-cont-v2-629375cce25019edcbec", "release_family_id": "NEW4090-SAMPLING-CONTINUATION-V2-20261020T080928540023Z-c9340c89", "algorithm": "ML-DSA", "parameter_set": "44", "operation_mask": 8, "policy_id": "MLDSA-44-SIGN-D4", "sm_arch": "sm_89"},
+  "cuda_device": {"ordinal": 0, "uuid": "e1d7ca803efa99e780c87f473c926cdd", "compute_capability_major": 8, "compute_capability_minor": 9}
+}

@@ -1,0 +1,13 @@
+{
+    "mode":  "DOWNLOAD_EXISTING_RUN_ONLY",
+    "remote_runner_exit":  1,
+    "run_id":  "20261020T161628260124Z-b966f10f",
+    "remote_archive":  "/var/home/lsb/mldsa-experiments/4090修补/split32_racecheck_v1/exports/20261020T161628260124Z-b966f10f.tar.gz",
+    "local_archive":  "E:\\密码竞赛\\4090修补\\split32_racecheck_v1\\server_results\\20261020T161628260124Z-b966f10f\\20261020T161628260124Z-b966f10f.tar.gz",
+    "sha256":  "e4265974f73f6ae4184d4938e3c6ea4f7b320deaf7fcfcc361a53918097fc676",
+    "server_reported_status":  "RACECHECK_STOPPED",
+    "server_reported_passed_cases":  0,
+    "downloaded_utc":  "2026-10-20T16:17:07.6728647Z",
+    "validation":  "ARCHIVE_HASH_VERIFIED_CONTENTS_NOT_YET_INDEPENDENTLY_REVIEWED",
+    "accepted_experiments":  0
+}

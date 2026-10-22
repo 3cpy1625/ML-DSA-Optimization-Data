@@ -1,0 +1,43 @@
+{
+  "argv": [
+    "/home/lsb/mldsa-experiments-5090/\u65b05090/wphc_m65_sign_20261020T130935Z_cae89e/sign_verify_bench_OFF/loce_unified_api_bench",
+    "--algorithm",
+    "mldsa",
+    "--operation",
+    "sign",
+    "--level",
+    "65",
+    "--batch",
+    "8192",
+    "--variant",
+    "unified",
+    "--timing-scope",
+    "device-resident",
+    "--representation",
+    "packed",
+    "--corpus",
+    "natural",
+    "--corpus-file",
+    "/home/lsb/mldsa-experiments-5090/\u65b05090/wphc_m65_sign_20261020T130935Z_cae89e/reference_8192/corpus.bin",
+    "--warmup",
+    "5",
+    "--repeat",
+    "15",
+    "--message-bytes",
+    "32",
+    "--seed",
+    "0x4d4c445341435550",
+    "--module-dir",
+    "/home/lsb/mldsa-experiments-5090/\u65b05090/wphc_m65_sign_20261020T130935Z_cae89e/sign_verify_modules_OFF"
+  ],
+  "pid": 168758,
+  "exit_code": 0,
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+    "OMP_NUM_THREADS": "2",
+    "LOCE_BENCH_INPUT_FILE": "/home/lsb/mldsa-experiments-5090/\u65b05090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_OFF_4_0/input.bin",
+    "LOCE_BENCH_OUTPUT_FILE": "/home/lsb/mldsa-experiments-5090/\u65b05090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_OFF_4_0/output.bin",
+    "LOCE_NATIVE_DIRECT_IDENTITY_OUTPUT": "/home/lsb/mldsa-experiments-5090/\u65b05090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_OFF_4_0/native.json",
+    "LOCE_MODULE_IDENTITY_OUTPUT": "/home/lsb/mldsa-experiments-5090/\u65b05090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_OFF_4_0/engine.json"
+  }
+}

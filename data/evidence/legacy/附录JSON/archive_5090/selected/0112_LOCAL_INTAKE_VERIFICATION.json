@@ -1,0 +1,56 @@
+{
+  "archive": {
+    "bytes": 48603147,
+    "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e03_v3_cta\\e03-5090-20261019T221845771722Z.tar.gz",
+    "sha256": "d37d3eca8ee26588c9c7f084cc3cba8e597626c2d92f695c65cc7b8c68120f95"
+  },
+  "build_sha256": "7329643d44832077ed4971bb6bd6e0c24573a576148657fc77f1c399e73b1ac5",
+  "cpu_oracle_files": 18,
+  "created_utc": "2026-10-19T22:39:15.043661+00:00",
+  "execution": "Pure local tar/JSON/CSV/hash data parsing; no extraction, archive import, subprocess, compiler, SSH, shared-library load or GPU",
+  "intake_script": {
+    "path": "E:\\密码竞赛\\work\\e03_nvtx_qualification_intake\\intake_e03_qualification.py",
+    "sha256": "bc7b1ded37e0aea0ecc39923e0a04b54b539ff5cfd239fb975935fa6ce85d86b"
+  },
+  "limits": [
+    "DSOs, benchmark/generator binaries, and some sources are omitted and retained on server; local intake validates their recorded hash cross-bindings, not their actual binary/source bytes.",
+    "CPU oracle bytes are verified against retained manifest; this intake does not rerun the CPU reference implementation.",
+    "18 single qualification timings are qualification observations, not the formal E03 performance matrix.",
+    "Sampled idle/telemetry metadata cannot prove absolute GPU exclusivity.",
+    "Prior adapter sanitizer is separate; these rebuilt sealed DSOs remain sanitizer NOT_RUN; not full FIPS/boundary/failure-path qualification."
+  ],
+  "manifest": {
+    "all_member_hashes": "PASS",
+    "export_manifest_sha256": "502954a527d22c03d1ab36f5be69f7e26e9a1e7f181d1860eb1b14e6cfcd7172",
+    "included": 760,
+    "included_bytes": 63727095,
+    "members": 761,
+    "omitted": 1462
+  },
+  "ordinary_performance": "NOT_RUN_IN_THIS_ARCHIVE",
+  "ours_loaded_engine_modules_rechecked": 81,
+  "process_input_and_output_files": 36,
+  "processes": 18,
+  "qualification_scope": "B256, W0/R1, 32-byte messages, one fixed input set; exact actual input/final-output binary bytes vs retained CPU oracle, actual raw scope/argv/lifecycle and loaded identity metadata",
+  "qualification_sha256": "fffa33d47cc8978329bee7267544bc15dd0eeb759eae5c2f09a44e2543b2b25c",
+  "receipt": {
+    "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e03_v3_cta\\e03-5090-20261019T221845771722Z.tar.gz.json",
+    "sha256": "9174abe760e1bdcedcc816ff80c7fbb61bd03a639c788a20a9223ab2220caae0"
+  },
+  "sample_count": 18,
+  "schema": "mldsa.e03.nvtx.qualification.local-intake.v1",
+  "sealed_binary_sanitizer": "NOT_RUN",
+  "status": "LOCAL_ARCHIVE_AND_18_EXACT_IO_RECORDS_PASS",
+  "official_status": "E03_BUILD_AND_18_QUALIFICATIONS_LOCAL_INTAKE_PASS_WITH_EXPLICIT_LIMITS",
+  "root_replay_result": {
+    "path": "server_results/e03_v3_cta/local_qualification_intake/RESULT.json",
+    "bytes": 2621,
+    "sha256": "f9390c1a2d40d959aca902e0170f15c5de056646671a4a200219bbf10182d984"
+  },
+  "intake_tool": {
+    "path": "scripts/e03_qualification_intake_bc7b1ded/intake_e03_qualification.py",
+    "bytes": 31786,
+    "sha256": "bc7b1ded37e0aea0ecc39923e0a04b54b539ff5cfd239fb975935fa6ce85d86b"
+  },
+  "published_utc": "2026-10-20T04:22:15.467788+00:00"
+}

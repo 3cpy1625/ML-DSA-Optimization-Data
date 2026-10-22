@@ -1,0 +1,3 @@
+utc,uuid,memory.used,utilization.gpu,temperature.gpu,power.draw,clocks.sm,clocks.mem,pstate
+2026-10-20T06:04:34.559873+00:00,GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a,2,0,33,32.78,262,810,P8
+2026-10-20T06:04:35.130939+00:00,GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a,1140,6,34,50.09,2400,13801,P1

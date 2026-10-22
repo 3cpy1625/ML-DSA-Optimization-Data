@@ -1,0 +1,32 @@
+{
+  "abi_version": 1,
+  "factory_symbol": "loce_pqc_native_module_v1",
+  "identity_symbol": "loce_pqc_module_identity_v1",
+  "operations": [
+    {
+      "algorithm": "ML-DSA",
+      "build_target": "loce_mldsa65_sign_d4_sm120_adapter",
+      "contract_id": "ML-DSA-Level3-Sign",
+      "execution_path": "sm120-family-wphc",
+      "level": 3,
+      "module_filename": "libloce_mldsa65_sign_d4_sm120.so",
+      "module_logical_id": "mldsa65-sign-d4-sm120-native",
+      "operation": "Sign",
+      "parameter_set": "65",
+      "policy_registry_id": "MLDSA-65-SIGN-D4"
+    },
+    {
+      "algorithm": "ML-DSA",
+      "build_target": "loce_mldsa65_verify_d3_sm120_adapter",
+      "contract_id": "ML-DSA-Level3-Verify",
+      "execution_path": "sm120-family-pipeline",
+      "level": 3,
+      "module_filename": "libloce_mldsa65_verify_d3_sm120.so",
+      "module_logical_id": "mldsa65-verify-d3-sm120-native",
+      "operation": "Verify",
+      "parameter_set": "65",
+      "policy_registry_id": "MLDSA-65-VERIFY-D3"
+    }
+  ],
+  "schema": "loce.operation-module-registry.v2"
+}

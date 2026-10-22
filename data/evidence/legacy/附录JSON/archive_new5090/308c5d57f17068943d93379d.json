@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "/usr/bin/python3",
+    "/home/lsb/mldsa-experiments-5090/\u65b05090/m44_three_arm_20261020T121813Z_11cf6ec1/source/tools/build_module_attestation_manifest.py",
+    "--root",
+    "/home/lsb/mldsa-experiments-5090/\u65b05090/m44_three_arm_20261020T121813Z_11cf6ec1/source",
+    "--module-dir",
+    "/home/lsb/mldsa-experiments-5090/\u65b05090/wphc_m65_sign_20261020T130935Z_cae89e/sign_verify_modules_OFF",
+    "--registry",
+    "/home/lsb/mldsa-experiments-5090/\u65b05090/wphc_m65_sign_20261020T130935Z_cae89e/config/sign_verify_registry.json",
+    "--release-identity-sha256",
+    "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+    "--output",
+    "/home/lsb/mldsa-experiments-5090/\u65b05090/wphc_m65_sign_20261020T130935Z_cae89e/config/OFF_sign_verify_attestation.json"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 0.11462055899755796,
+  "log_sha256": "e500a7d72a181f90e3e0630c98165ac28932754458c407594c78f87f1c67e3dc",
+  "gpu_visible": false
+}

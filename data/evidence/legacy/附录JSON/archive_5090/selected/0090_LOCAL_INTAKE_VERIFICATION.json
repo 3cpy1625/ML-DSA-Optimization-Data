@@ -1,0 +1,18 @@
+{
+  "schema": "mldsa5090-sanitizer-cli-local-intake-v1",
+  "status": "CLI_REPORT_SHA256_AND_SIX_QUERIES_VERIFIED",
+  "verified_utc": "2026-10-19T17:06:41.719766+00:00",
+  "report": "sanitizer_cli_20261019T164225841084Z_651635.json",
+  "report_sha256": "d3bcd0865ba6734f5c86267f284576d3e00c81ca88c5c8428d686c2305c4c7a6",
+  "report_bytes": 174232,
+  "version": "2025.2.1.0",
+  "build": "35969825",
+  "actual_executable": {
+    "resolved_path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/compute-sanitizer",
+    "bytes": 7497584,
+    "sha256": "979adf037f4e3434a976b7f0912b0a05ce3b062e31b2a73397a1bf1cd5f57547"
+  },
+  "version_general_help_and_four_tool_help": "EXIT_0",
+  "gpu_sanitizer_qualification": "NOT_RUN",
+  "gpu_execution_performed_by_assistant": false
+}

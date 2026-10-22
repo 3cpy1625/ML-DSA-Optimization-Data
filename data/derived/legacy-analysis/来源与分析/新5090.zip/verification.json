@@ -1,0 +1,1300 @@
+{
+  "nested_archive_sha256": [
+    {
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz",
+      "bytes": 886250693,
+      "sha256": "81c032e9df6178a50bb964de40d29aa4c8a7bc8240ffc4477c15ada8264d2190",
+      "reported_sha256": "81c032e9df6178a50bb964de40d29aa4c8a7bc8240ffc4477c15ada8264d2190",
+      "match": true
+    },
+    {
+      "source": "新5090.zip!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/m44_three_arm_20261020T121813Z_11cf6ec1.tar.gz",
+      "bytes": 54534271,
+      "sha256": "d1c112b7538c38810426fee06e405ec3301ce0c2ab162c39ba2263d6249c0f49",
+      "reported_sha256": "d1c112b7538c38810426fee06e405ec3301ce0c2ab162c39ba2263d6249c0f49",
+      "match": true
+    },
+    {
+      "source": "新5090.zip!新5090/switch_pairs_verified/switch_pairs_20261020T131242Z.tar.gz",
+      "bytes": 405368388,
+      "sha256": "a13d340544a8799bad4a0f1d360e32d23aa149e2289743f98df3e02e68fa523e",
+      "reported_sha256": "a13d340544a8799bad4a0f1d360e32d23aa149e2289743f98df3e02e68fa523e",
+      "match": true
+    }
+  ],
+  "raw_timing_checks": [
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_256_ON_-1_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_256_ON_-1_0/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_256_OFF_-1_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_256_OFF_-1_0/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_256_ON_-1_1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_256_ON_-1_1/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_256_OFF_-1_1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_256_OFF_-1_1/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_256_ON_-1_2",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_256_ON_-1_2/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_256_OFF_-1_2",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_256_OFF_-1_2/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_0_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_0_0/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_0_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_0_0/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_0_1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_0_1/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_0_1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_0_1/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_0_2",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_0_2/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_0_2",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_0_2/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_1_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_1_0/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_1_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_1_0/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_1_1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_1_1/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_1_1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_1_1/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_1_2",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_1_2/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_1_2",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_1_2/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_2_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_2_0/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_2_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_2_0/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_2_1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_2_1/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_2_1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_2_1/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_2_2",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_2_2/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_2_2",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_2_2/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_3_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_3_0/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_3_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_3_0/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_3_1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_3_1/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_3_1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_3_1/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_3_2",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_3_2/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_3_2",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_3_2/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_4_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_4_0/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_4_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_4_0/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_4_1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_4_1/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_4_1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_4_1/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_4_2",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_4_2/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_4_2",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_4_2/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_5_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_5_0/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_5_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_5_0/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_5_1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_5_1/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_5_1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_5_1/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_5_2",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_OFF_5_2/stdout.log"
+    },
+    {
+      "job": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_5_2",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/job_8192_ON_5_2/stdout.log"
+    },
+    {
+      "job": "新5090/joint_m44_keygen_20261020T131952Z_0969db/job_256_ON_-1_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_m44_keygen_20261020T131952Z_0969db/job_256_ON_-1_0/stdout.log"
+    },
+    {
+      "job": "新5090/joint_m44_keygen_20261020T131952Z_0969db/job_256_OFF_-1_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_m44_keygen_20261020T131952Z_0969db/job_256_OFF_-1_0/stdout.log"
+    },
+    {
+      "job": "新5090/joint_m44_keygen_20261020T131952Z_0969db/job_8192_ON_0_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_m44_keygen_20261020T131952Z_0969db/job_8192_ON_0_0/stdout.log"
+    },
+    {
+      "job": "新5090/joint_m44_keygen_20261020T131952Z_0969db/job_8192_OFF_0_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_m44_keygen_20261020T131952Z_0969db/job_8192_OFF_0_0/stdout.log"
+    },
+    {
+      "job": "新5090/joint_m44_keygen_20261020T131952Z_0969db/job_8192_OFF_1_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_m44_keygen_20261020T131952Z_0969db/job_8192_OFF_1_0/stdout.log"
+    },
+    {
+      "job": "新5090/joint_m44_keygen_20261020T131952Z_0969db/job_8192_ON_1_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_m44_keygen_20261020T131952Z_0969db/job_8192_ON_1_0/stdout.log"
+    },
+    {
+      "job": "新5090/joint_m44_keygen_20261020T131952Z_0969db/job_8192_ON_2_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_m44_keygen_20261020T131952Z_0969db/job_8192_ON_2_0/stdout.log"
+    },
+    {
+      "job": "新5090/joint_m44_keygen_20261020T131952Z_0969db/job_8192_OFF_2_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_m44_keygen_20261020T131952Z_0969db/job_8192_OFF_2_0/stdout.log"
+    },
+    {
+      "job": "新5090/joint_m44_keygen_20261020T131952Z_0969db/job_8192_OFF_3_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_m44_keygen_20261020T131952Z_0969db/job_8192_OFF_3_0/stdout.log"
+    },
+    {
+      "job": "新5090/joint_m44_keygen_20261020T131952Z_0969db/job_8192_ON_3_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_m44_keygen_20261020T131952Z_0969db/job_8192_ON_3_0/stdout.log"
+    },
+    {
+      "job": "新5090/joint_m44_keygen_20261020T131952Z_0969db/job_8192_ON_4_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_m44_keygen_20261020T131952Z_0969db/job_8192_ON_4_0/stdout.log"
+    },
+    {
+      "job": "新5090/joint_m44_keygen_20261020T131952Z_0969db/job_8192_OFF_4_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_m44_keygen_20261020T131952Z_0969db/job_8192_OFF_4_0/stdout.log"
+    },
+    {
+      "job": "新5090/joint_m44_keygen_20261020T131952Z_0969db/job_8192_OFF_5_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_m44_keygen_20261020T131952Z_0969db/job_8192_OFF_5_0/stdout.log"
+    },
+    {
+      "job": "新5090/joint_m44_keygen_20261020T131952Z_0969db/job_8192_ON_5_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_m44_keygen_20261020T131952Z_0969db/job_8192_ON_5_0/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_44_sign_0_ON",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_44_sign_0_ON/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_44_sign_0_OFF",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_44_sign_0_OFF/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_44_sign_1_OFF",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_44_sign_1_OFF/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_44_sign_1_ON",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_44_sign_1_ON/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_44_sign_2_ON",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_44_sign_2_ON/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_44_sign_2_OFF",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_44_sign_2_OFF/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_44_verify_0_ON",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_44_verify_0_ON/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_44_verify_0_OFF",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_44_verify_0_OFF/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_44_verify_1_OFF",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_44_verify_1_OFF/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_44_verify_1_ON",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_44_verify_1_ON/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_44_verify_2_ON",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_44_verify_2_ON/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_44_verify_2_OFF",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_44_verify_2_OFF/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_65_keygen_0_ON",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_65_keygen_0_ON/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_65_keygen_0_OFF",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_65_keygen_0_OFF/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_65_keygen_1_OFF",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_65_keygen_1_OFF/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_65_keygen_1_ON",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_65_keygen_1_ON/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_65_keygen_2_ON",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_65_keygen_2_ON/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_65_keygen_2_OFF",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_65_keygen_2_OFF/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_87_keygen_0_ON",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_87_keygen_0_ON/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_87_keygen_0_OFF",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_87_keygen_0_OFF/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_87_keygen_1_OFF",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_87_keygen_1_OFF/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_87_keygen_1_ON",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_87_keygen_1_ON/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_87_keygen_2_ON",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_87_keygen_2_ON/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_87_keygen_2_OFF",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_87_keygen_2_OFF/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_87_sign_0_ON",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_87_sign_0_ON/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_87_sign_0_OFF",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_87_sign_0_OFF/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_87_sign_1_OFF",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_87_sign_1_OFF/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_87_sign_1_ON",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_87_sign_1_ON/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_87_sign_2_ON",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_87_sign_2_ON/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_87_sign_2_OFF",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_87_sign_2_OFF/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_87_verify_0_ON",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_87_verify_0_ON/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_87_verify_0_OFF",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_87_verify_0_OFF/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_87_verify_1_OFF",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_87_verify_1_OFF/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_87_verify_1_ON",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_87_verify_1_ON/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_87_verify_2_ON",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_87_verify_2_ON/stdout.log"
+    },
+    {
+      "job": "新5090/joint_matrix_20261020T132318Z_db87cd/job_87_verify_2_OFF",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/job_87_verify_2_OFF/stdout.log"
+    },
+    {
+      "job": "新5090/m44_three_arm_20261020T121813Z_11cf6ec1/qualification_P0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/qualification_P0/stdout.log"
+    },
+    {
+      "job": "新5090/m44_three_arm_20261020T121813Z_11cf6ec1/qualification_R1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/qualification_R1/stdout.log"
+    },
+    {
+      "job": "新5090/m44_three_arm_20261020T121813Z_11cf6ec1/qualification_C1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/qualification_C1/stdout.log"
+    },
+    {
+      "job": "新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_00_P0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_00_P0/stdout.log"
+    },
+    {
+      "job": "新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_00_R1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_00_R1/stdout.log"
+    },
+    {
+      "job": "新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_00_C1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_00_C1/stdout.log"
+    },
+    {
+      "job": "新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_01_C1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_01_C1/stdout.log"
+    },
+    {
+      "job": "新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_01_R1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_01_R1/stdout.log"
+    },
+    {
+      "job": "新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_01_P0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_01_P0/stdout.log"
+    },
+    {
+      "job": "新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_02_R1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_02_R1/stdout.log"
+    },
+    {
+      "job": "新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_02_C1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_02_C1/stdout.log"
+    },
+    {
+      "job": "新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_02_P0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_02_P0/stdout.log"
+    },
+    {
+      "job": "新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_03_P0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_03_P0/stdout.log"
+    },
+    {
+      "job": "新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_03_C1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_03_C1/stdout.log"
+    },
+    {
+      "job": "新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_03_R1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_03_R1/stdout.log"
+    },
+    {
+      "job": "新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_04_C1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_04_C1/stdout.log"
+    },
+    {
+      "job": "新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_04_P0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_04_P0/stdout.log"
+    },
+    {
+      "job": "新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_04_R1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_04_R1/stdout.log"
+    },
+    {
+      "job": "新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_05_R1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_05_R1/stdout.log"
+    },
+    {
+      "job": "新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_05_P0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_05_P0/stdout.log"
+    },
+    {
+      "job": "新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_05_C1",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/capture_05_C1/stdout.log"
+    },
+    {
+      "job": "新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_256_ON_-1_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_256_ON_-1_0/stdout.log"
+    },
+    {
+      "job": "新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_256_OFF_-1_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_256_OFF_-1_0/stdout.log"
+    },
+    {
+      "job": "新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_8192_ON_0_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_8192_ON_0_0/stdout.log"
+    },
+    {
+      "job": "新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_8192_OFF_0_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_8192_OFF_0_0/stdout.log"
+    },
+    {
+      "job": "新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_8192_OFF_1_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_8192_OFF_1_0/stdout.log"
+    },
+    {
+      "job": "新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_8192_ON_1_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_8192_ON_1_0/stdout.log"
+    },
+    {
+      "job": "新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_8192_ON_2_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_8192_ON_2_0/stdout.log"
+    },
+    {
+      "job": "新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_8192_OFF_2_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_8192_OFF_2_0/stdout.log"
+    },
+    {
+      "job": "新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_8192_OFF_3_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_8192_OFF_3_0/stdout.log"
+    },
+    {
+      "job": "新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_8192_ON_3_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_8192_ON_3_0/stdout.log"
+    },
+    {
+      "job": "新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_8192_ON_4_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_8192_ON_4_0/stdout.log"
+    },
+    {
+      "job": "新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_8192_OFF_4_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_8192_OFF_4_0/stdout.log"
+    },
+    {
+      "job": "新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_8192_OFF_5_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_8192_OFF_5_0/stdout.log"
+    },
+    {
+      "job": "新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_8192_ON_5_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/split32_m44_keygen_20261020T130038Z_f8faab/job_8192_ON_5_0/stdout.log"
+    },
+    {
+      "job": "新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_256_ON_-1_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_256_ON_-1_0/stdout.log"
+    },
+    {
+      "job": "新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_256_OFF_-1_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_256_OFF_-1_0/stdout.log"
+    },
+    {
+      "job": "新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_ON_0_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_ON_0_0/stdout.log"
+    },
+    {
+      "job": "新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_OFF_0_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_OFF_0_0/stdout.log"
+    },
+    {
+      "job": "新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_OFF_1_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_OFF_1_0/stdout.log"
+    },
+    {
+      "job": "新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_ON_1_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_ON_1_0/stdout.log"
+    },
+    {
+      "job": "新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_ON_2_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_ON_2_0/stdout.log"
+    },
+    {
+      "job": "新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_OFF_2_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_OFF_2_0/stdout.log"
+    },
+    {
+      "job": "新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_OFF_3_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_OFF_3_0/stdout.log"
+    },
+    {
+      "job": "新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_ON_3_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_ON_3_0/stdout.log"
+    },
+    {
+      "job": "新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_ON_4_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_ON_4_0/stdout.log"
+    },
+    {
+      "job": "新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_OFF_4_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_OFF_4_0/stdout.log"
+    },
+    {
+      "job": "新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_OFF_5_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_OFF_5_0/stdout.log"
+    },
+    {
+      "job": "新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_ON_5_0",
+      "summary_samples_match_raw": true,
+      "mean_recomputed_matches": true,
+      "pass_record_samples_match": true,
+      "process_exit_code": 0,
+      "stdout_correctness": "PASS",
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/wphc_m65_sign_20261020T130935Z_cae89e/job_8192_ON_5_0/stdout.log"
+    }
+  ],
+  "all_raw_timing_checks_pass": true,
+  "all_ablation_recomputations_pass": true,
+  "all_matrix_recomputations_pass": true,
+  "scope": "This summarization verified nested compressed archive hashes, selected text records, raw timing sequences and reported statistics; it did not rerun GPU experiments or independently verify every binary/oracle computation."
+}

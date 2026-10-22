@@ -1,0 +1,79 @@
+[
+  {
+    "name": "补测/",
+    "size": 0,
+    "compressed_size": 0,
+    "crc": 0,
+    "is_dir": true
+  },
+  {
+    "name": "补测/anchors.json",
+    "size": 3588,
+    "compressed_size": 1031,
+    "crc": 3737945672,
+    "is_dir": false
+  },
+  {
+    "name": "补测/BUILD.json",
+    "size": 7322,
+    "compressed_size": 1518,
+    "crc": 3429709759,
+    "is_dir": false
+  },
+  {
+    "name": "补测/LOCAL_VERIFICATION.json",
+    "size": 2544,
+    "compressed_size": 1071,
+    "crc": 524221804,
+    "is_dir": false
+  },
+  {
+    "name": "补测/minimal_v65_20261020T145604Z_6e07c795.tar.gz",
+    "size": 178979872,
+    "compressed_size": 179023607,
+    "crc": 351648964,
+    "is_dir": false
+  },
+  {
+    "name": "补测/minimal_v65_20261020T145604Z_6e07c795.tar.gz.sha256",
+    "size": 112,
+    "compressed_size": 101,
+    "crc": 1906472856,
+    "is_dir": false
+  },
+  {
+    "name": "补测/paired_blocks.csv",
+    "size": 1579,
+    "compressed_size": 669,
+    "crc": 2503151534,
+    "is_dir": false
+  },
+  {
+    "name": "补测/PREFLIGHT.json",
+    "size": 4274,
+    "compressed_size": 1393,
+    "crc": 324982488,
+    "is_dir": false
+  },
+  {
+    "name": "补测/RESULT.json",
+    "size": 40722,
+    "compressed_size": 4484,
+    "crc": 4045175827,
+    "is_dir": false
+  },
+  {
+    "name": "补测/summary.csv",
+    "size": 635,
+    "compressed_size": 354,
+    "crc": 3455248736,
+    "is_dir": false
+  },
+  {
+    "name": "补测/verify_v65_local.py",
+    "size": 9886,
+    "compressed_size": 3824,
+    "crc": 225470242,
+    "is_dir": false
+  }
+]

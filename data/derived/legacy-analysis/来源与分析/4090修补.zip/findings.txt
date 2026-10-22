@@ -1,0 +1,16 @@
+4090修补.zip 独立离线分析
+原包SHA256: acf50c13ab6d1866edb96ed056b818437aa5f9418608ac8820f03fb9b27c1162
+外层1299条目/1266文件；3个结果tar及1个源交付zip只读取不执行。
+三组修补均不提供新的可替换性能值，建议原主性能63格保持不变。
+原始racecheck：p44 exit86，0 errors，147462 warnings，显示100 hazards；p65/p87停止未运行。36输出检查PASS不能覆盖racecheck失败。
+同步修补：源码diff仅两处__syncwarp插入；独立重建harness×3参数×3工具共9进程PASS，324variant记录，逐variant trace/work及最终case输出字节匹配。
+注意：每case GPU输出文件被各variant覆盖写，仅保留最后variant；360条日志逐variant检查仍单独保留。
+CUDA API恢复：3参数各7阶段，9次函数错误返回注入、12份baseline/recovered输出与3条所选官方来源签名向量逐字节一致；同一workspace地址前后不变。
+9次故障中的6次报告非零workspace；原始计数可核对但无workspace dump重新计数；不声称自动清零或已确认秘密泄露。
+恢复组仍scope_partial，不覆盖sampler不足额/耗尽、真实OOM、异步设备错误或全部错误路径；不新增KAT独立覆盖/性能/sanitizer。
+身份：3次audit矩阵字节相同，仅计一次；历史9模块对当前资格模块0/9同hash；另行复核旧包身份记录确认10/19三格仍用历史Sign模块，推荐27格均不能迁移当前资格。
+展开qa副本1202文件与finaltar全部相同，去重不增加实验次数。
+原始表路径10、派生表7、唯一表字节12。
+规范记录：experiments=4, metrics=43, correctness=402, quality=9, environment=10。
+文本证据376来源路径→179唯一文件；files.json/evidence_index.csv给出原路径与SHA。
+本分析只执行自编离线核验脚本，未执行附件代码、未发起GPU/SSH实验、未上传。

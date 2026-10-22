@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "/home/lsb/mldsa-experiments-5090/tools/python312/bin/cmake",
+    "--build",
+    "/home/lsb/mldsa-experiments-5090/\u65b05090/wphc_m65_sign_20261020T130935Z_cae89e/sign_verify_bench_OFF",
+    "--target",
+    "loce_unified_api_bench",
+    "--parallel",
+    "2"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 8.219626359998074,
+  "log_sha256": "b4b1e23f56cf306cf42c3cf7c01acbf4b722476cafcc991bed35e8f5b4166c95",
+  "gpu_visible": false
+}

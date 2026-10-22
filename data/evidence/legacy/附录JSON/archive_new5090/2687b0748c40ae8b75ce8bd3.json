@@ -1,0 +1,137 @@
+{
+  "schema": "loce.mlkem-keygen-policy.v1",
+  "max_batch": 16777216,
+  "policies": [
+    {
+      "parameter_set": 512,
+      "policy_id": "MLKEM-512-KEYGEN-D1-R1",
+      "source_identity": "cuML-KEM/keypair adaptive-multiwarp and thread-state-fused",
+      "domains": [
+        {
+          "batch_min": 1,
+          "batch_max": 640,
+          "strategy": "adaptive_multiwarp",
+          "strategy_id": "K2_ADAPTIVE_MULTIWARP_LE640",
+          "instances": 1,
+          "block_x": 32,
+          "block_y": 4,
+          "producer_warps": 1,
+          "consumer_warps": 3,
+          "max_registers_per_thread": 96,
+          "static_shared_bytes": 3712,
+          "dynamic_shared_bytes": 0,
+          "fallback_strategy": "thread_state_fused_default",
+          "fallback_strategy_id": "K2_THREAD_STATE_FUSED_8",
+          "fallback_instances": 8,
+          "fallback_block_x": 32,
+          "fallback_block_y": 9,
+          "fallback_max_registers_per_thread": 96,
+          "fallback_static_shared_bytes": 18560,
+          "fallback_dynamic_shared_bytes": 0
+        },
+        {
+          "batch_min": 641,
+          "batch_max": 16777216,
+          "strategy": "thread_state_fused_default",
+          "strategy_id": "K2_THREAD_STATE_FUSED_8",
+          "instances": 8,
+          "block_x": 32,
+          "block_y": 9,
+          "producer_warps": 1,
+          "consumer_warps": 8,
+          "max_registers_per_thread": 96,
+          "static_shared_bytes": 18560,
+          "dynamic_shared_bytes": 0,
+          "fallback_strategy": "thread_state_fused_default",
+          "fallback_strategy_id": "K2_THREAD_STATE_FUSED_8",
+          "fallback_instances": 8,
+          "fallback_block_x": 32,
+          "fallback_block_y": 9,
+          "fallback_max_registers_per_thread": 96,
+          "fallback_static_shared_bytes": 18560,
+          "fallback_dynamic_shared_bytes": 0
+        }
+      ]
+    },
+    {
+      "parameter_set": 768,
+      "policy_id": "MLKEM-768-KEYGEN-D1-R1",
+      "source_identity": "cuML-KEM/keypair thread-state-fused width policy",
+      "domains": [
+        {
+          "batch_min": 1,
+          "batch_max": 4096,
+          "strategy": "thread_state_fused_two",
+          "strategy_id": "K3_THREAD_STATE_FUSED_2_LE4096",
+          "instances": 2,
+          "block_x": 32,
+          "block_y": 3,
+          "producer_warps": 1,
+          "consumer_warps": 2,
+          "max_registers_per_thread": 0,
+          "static_shared_bytes": 9832,
+          "dynamic_shared_bytes": 0,
+          "fallback_strategy": "thread_state_fused_default",
+          "fallback_strategy_id": "K3_THREAD_STATE_FUSED_3",
+          "fallback_instances": 3,
+          "fallback_block_x": 32,
+          "fallback_block_y": 4,
+          "fallback_max_registers_per_thread": 0,
+          "fallback_static_shared_bytes": 14748,
+          "fallback_dynamic_shared_bytes": 0
+        },
+        {
+          "batch_min": 4097,
+          "batch_max": 16777216,
+          "strategy": "thread_state_fused_default",
+          "strategy_id": "K3_THREAD_STATE_FUSED_3",
+          "instances": 3,
+          "block_x": 32,
+          "block_y": 4,
+          "producer_warps": 1,
+          "consumer_warps": 3,
+          "max_registers_per_thread": 0,
+          "static_shared_bytes": 14748,
+          "dynamic_shared_bytes": 0,
+          "fallback_strategy": "thread_state_fused_default",
+          "fallback_strategy_id": "K3_THREAD_STATE_FUSED_3",
+          "fallback_instances": 3,
+          "fallback_block_x": 32,
+          "fallback_block_y": 4,
+          "fallback_max_registers_per_thread": 0,
+          "fallback_static_shared_bytes": 14748,
+          "fallback_dynamic_shared_bytes": 0
+        }
+      ]
+    },
+    {
+      "parameter_set": 1024,
+      "policy_id": "MLKEM-1024-KEYGEN-D1-R1",
+      "source_identity": "cuML-KEM/keypair thread-state-fused width policy",
+      "domains": [
+        {
+          "batch_min": 1,
+          "batch_max": 16777216,
+          "strategy": "thread_state_fused_default",
+          "strategy_id": "K4_THREAD_STATE_FUSED_2",
+          "instances": 2,
+          "block_x": 32,
+          "block_y": 3,
+          "producer_warps": 1,
+          "consumer_warps": 2,
+          "max_registers_per_thread": 0,
+          "static_shared_bytes": 16928,
+          "dynamic_shared_bytes": 0,
+          "fallback_strategy": "thread_state_fused_default",
+          "fallback_strategy_id": "K4_THREAD_STATE_FUSED_2",
+          "fallback_instances": 2,
+          "fallback_block_x": 32,
+          "fallback_block_y": 3,
+          "fallback_max_registers_per_thread": 0,
+          "fallback_static_shared_bytes": 16928,
+          "fallback_dynamic_shared_bytes": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "schema": "mldsa5090-e02b-sass-report-receipt-v1",
+  "recorded_utc": "2026-10-19T17:51:48.424810+00:00",
+  "stopped_run_id": "e02b-sanitizer-20261019T170912908000Z-657090",
+  "remote_report_directory": "/home/lsb/mldsa-experiments-5090/reports/e02b-sass-20261019T174822955154Z-659809",
+  "local_report_directory": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e02b_sass\\e02b-sass-20261019T174822955154Z-659809",
+  "status": "CAPTURED_PC_CONTEXTS_VERIFIED_FULL_REPORT_DOWNLOAD_PENDING",
+  "expected_result_sha256": "3675ee512d11aba9308004dd88410e8aba7f7879bd06e8e490c266bc072ba23b",
+  "expected_raw_sass": {
+    "bytes": 122658849,
+    "path": "/home/lsb/mldsa-experiments-5090/reports/e02b-sass-20261019T174822955154Z-659809/sass.stdout.log",
+    "sha256": "9e656fd8e284192b3890706423f1e275fd3a0cbeb8d2ccf3f54c5208ee4fcd22"
+  },
+  "capture": {
+    "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e02b_sanitizer\\e02b-sanitizer-20261019T170912908000Z-657090\\e02b_657090_sass_20261020_01.txt",
+    "bytes": 42496,
+    "sha256": "335a9f02b152e9e3c4eb02a69ba59c610d61dc0e82676b0ce6ead57c77102461"
+  },
+  "captured_contexts": [
+    {
+      "access_contexts": [
+        {
+          "access": {
+            "pc": 232752,
+            "text": "        /*38d30*/                   STS.64 [R76], R12 ;                                              /* 0x0000000c4c007388 */"
+          },
+          "next_barrier": {
+            "pc": 323856,
+            "text": "        /*4f110*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "pc_hex": "0x38d30",
+          "previous_barrier": {
+            "pc": 212560,
+            "text": "        /*33e50*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "access": {
+            "pc": 232768,
+            "text": "        /*38d40*/                   STS.64 [R76+0x200], R14 ;                                        /* 0x0002000e4c007388 */"
+          },
+          "next_barrier": {
+            "pc": 323856,
+            "text": "        /*4f110*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "pc_hex": "0x38d40",
+          "previous_barrier": {
+            "pc": 212560,
+            "text": "        /*33e50*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "access": {
+            "pc": 232784,
+            "text": "        /*38d50*/                   STS.64 [R76+0x20], R48 ;                                         /* 0x000020304c007388 */"
+          },
+          "next_barrier": {
+            "pc": 323856,
+            "text": "        /*4f110*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "pc_hex": "0x38d50",
+          "previous_barrier": {
+            "pc": 212560,
+            "text": "        /*33e50*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "access": {
+            "pc": 232800,
+            "text": "        /*38d60*/                   STS.64 [R76+0x220], R52 ;                                        /* 0x000220344c007388 */"
+          },
+          "next_barrier": {
+            "pc": 323856,
+            "text": "        /*4f110*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "pc_hex": "0x38d60",
+          "previous_barrier": {
+            "pc": 212560,
+            "text": "        /*33e50*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "access": {
+            "pc": 235344,
+            "text": "        /*39750*/                   LDS.128 R12, [R153] ;                                            /* 0x00000000990c7984 */"
+          },
+          "next_barrier": {
+            "pc": 323856,
+            "text": "        /*4f110*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "pc_hex": "0x39750",
+          "previous_barrier": {
+            "pc": 212560,
+            "text": "        /*33e50*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "access": {
+            "pc": 235360,
+            "text": "        /*39760*/                   LDS.128 R48, [R153+0x10] ;                                       /* 0x0000100099307984 */"
+          },
+          "next_barrier": {
+            "pc": 323856,
+            "text": "        /*4f110*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "pc_hex": "0x39760",
+          "previous_barrier": {
+            "pc": 212560,
+            "text": "        /*33e50*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        }
+      ],
+      "arch": "sm_120",
+      "function": "_Z23Rej_loop_Warp_Kernel_TCILj3ELb0ELb0ELb0ELb0ELb0EEvPiPKhS0_S0_S0_PhPKiS0_S3_S3_S2_S3_S3_PKjS0_S0_S0_mmS2_S2_S2_S2_mPjS8_jjS8_jjjS8_",
+      "instruction_count": 47080,
+      "missing_target_pcs": [],
+      "phase": 3
+    },
+    {
+      "access_contexts": [
+        {
+          "access": {
+            "pc": 225232,
+            "text": "        /*36fd0*/                   STS.64 [R108], R80 ;                                             /* 0x000000506c007388 */"
+          },
+          "next_barrier": {
+            "pc": 315696,
+            "text": "        /*4d130*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "pc_hex": "0x36fd0",
+          "previous_barrier": {
+            "pc": 205328,
+            "text": "        /*32210*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "access": {
+            "pc": 225248,
+            "text": "        /*36fe0*/                   STS.64 [R108+0x200], R82 ;                                       /* 0x000200526c007388 */"
+          },
+          "next_barrier": {
+            "pc": 315696,
+            "text": "        /*4d130*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "pc_hex": "0x36fe0",
+          "previous_barrier": {
+            "pc": 205328,
+            "text": "        /*32210*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "access": {
+            "pc": 225264,
+            "text": "        /*36ff0*/                   STS.64 [R108+0x20], R84 ;                                        /* 0x000020546c007388 */"
+          },
+          "next_barrier": {
+            "pc": 315696,
+            "text": "        /*4d130*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "pc_hex": "0x36ff0",
+          "previous_barrier": {
+            "pc": 205328,
+            "text": "        /*32210*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "access": {
+            "pc": 225280,
+            "text": "        /*37000*/                   STS.64 [R108+0x220], R86 ;                                       /* 0x000220566c007388 */"
+          },
+          "next_barrier": {
+            "pc": 315696,
+            "text": "        /*4d130*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "pc_hex": "0x37000",
+          "previous_barrier": {
+            "pc": 205328,
+            "text": "        /*32210*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "access": {
+            "pc": 227696,
+            "text": "        /*37970*/                   LDS.128 R80, [R170] ;                                            /* 0x00000000aa507984 */"
+          },
+          "next_barrier": {
+            "pc": 315696,
+            "text": "        /*4d130*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "pc_hex": "0x37970",
+          "previous_barrier": {
+            "pc": 205328,
+            "text": "        /*32210*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "access": {
+            "pc": 227712,
+            "text": "        /*37980*/                   LDS.128 R84, [R170+0x10] ;                                       /* 0x00001000aa547984 */"
+          },
+          "next_barrier": {
+            "pc": 315696,
+            "text": "        /*4d130*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "pc_hex": "0x37980",
+          "previous_barrier": {
+            "pc": 205328,
+            "text": "        /*32210*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        }
+      ],
+      "arch": "sm_120",
+      "function": "_Z23Rej_loop_Warp_Kernel_TCILj6ELb0ELb0ELb0ELb0ELb0EEvPiPKhS0_S0_S0_PhPKiS0_S3_S3_S2_S3_S3_PKjS0_S0_S0_mmS2_S2_S2_S2_mPjS8_jjS8_jjjS8_",
+      "instruction_count": 46608,
+      "missing_target_pcs": [],
+      "phase": 6
+    },
+    {
+      "access_contexts": [
+        {
+          "access": {
+            "pc": 226432,
+            "text": "        /*37480*/                   STS.64 [R93], R12 ;                                              /* 0x0000000c5d007388 */"
+          },
+          "next_barrier": {
+            "pc": 316608,
+            "text": "        /*4d4c0*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "pc_hex": "0x37480",
+          "previous_barrier": {
+            "pc": 206480,
+            "text": "        /*32690*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "access": {
+            "pc": 226448,
+            "text": "        /*37490*/                   STS.64 [R93+0x200], R14 ;                                        /* 0x0002000e5d007388 */"
+          },
+          "next_barrier": {
+            "pc": 316608,
+            "text": "        /*4d4c0*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "pc_hex": "0x37490",
+          "previous_barrier": {
+            "pc": 206480,
+            "text": "        /*32690*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "access": {
+            "pc": 226464,
+            "text": "        /*374a0*/                   STS.64 [R93+0x20], R88 ;                                         /* 0x000020585d007388 */"
+          },
+          "next_barrier": {
+            "pc": 316608,
+            "text": "        /*4d4c0*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "pc_hex": "0x374a0",
+          "previous_barrier": {
+            "pc": 206480,
+            "text": "        /*32690*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "access": {
+            "pc": 226480,
+            "text": "        /*374b0*/                   STS.64 [R93+0x220], R90 ;                                        /* 0x0002205a5d007388 */"
+          },
+          "next_barrier": {
+            "pc": 316608,
+            "text": "        /*4d4c0*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "pc_hex": "0x374b0",
+          "previous_barrier": {
+            "pc": 206480,
+            "text": "        /*32690*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "access": {
+            "pc": 228960,
+            "text": "        /*37e60*/                   LDS.128 R12, [R172] ;                                            /* 0x00000000ac0c7984 */"
+          },
+          "next_barrier": {
+            "pc": 316608,
+            "text": "        /*4d4c0*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "pc_hex": "0x37e60",
+          "previous_barrier": {
+            "pc": 206480,
+            "text": "        /*32690*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "access": {
+            "pc": 228976,
+            "text": "        /*37e70*/                   LDS.128 R88, [R172+0x10] ;                                       /* 0x00001000ac587984 */"
+          },
+          "next_barrier": {
+            "pc": 316608,
+            "text": "        /*4d4c0*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "pc_hex": "0x37e70",
+          "previous_barrier": {
+            "pc": 206480,
+            "text": "        /*32690*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        }
+      ],
+      "arch": "sm_120",
+      "function": "_Z23Rej_loop_Warp_Kernel_TCILj0ELb0ELb0ELb0ELb0ELb0EEvPiPKhS0_S0_S0_PhPKiS0_S3_S3_S2_S3_S3_PKjS0_S0_S0_mmS2_S2_S2_S2_mPjS8_jjS8_jjjS8_",
+      "instruction_count": 46944,
+      "missing_target_pcs": [],
+      "phase": 0
+    }
+  ],
+  "phase_pc_coverage": [
+    {
+      "arch": "sm_120",
+      "captured_access_count": 6,
+      "missing_target_pcs": [],
+      "phase": 3
+    },
+    {
+      "arch": "sm_120",
+      "captured_access_count": 6,
+      "missing_target_pcs": [],
+      "phase": 6
+    },
+    {
+      "arch": "sm_120",
+      "captured_access_count": 6,
+      "missing_target_pcs": [],
+      "phase": 0
+    }
+  ],
+  "limits": [
+    "Linear nearest barriers are not control-flow ordering proof.",
+    "No source line mapping or false-positive determination.",
+    "Original sanitizer finding remains unresolved."
+  ]
+}

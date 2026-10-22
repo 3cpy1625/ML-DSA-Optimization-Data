@@ -1,0 +1,27 @@
+{
+  "scope": "User authorized direct SSH execution of remaining experiments in this side conversation",
+  "server_root": "/home/lsb/mldsa-experiments-5090",
+  "candidate18": {
+    "status": "18_PASS_AND_ALL_388_FILES_180_BLOBS_LOCALLY_VERIFIED",
+    "run_id": "e02c-candidate18-20261019T200927794364Z-708718",
+    "verification": "candidate18/AUTONOMOUS_LOCAL_VERIFICATION.json"
+  },
+  "performance": {
+    "status_at_recording": "DETACHED_PIPELINE_STARTED_BUILD_IN_PROGRESS",
+    "run": "/home/lsb/mldsa-experiments-5090/runs/e03-candidate-autonomous-20261019T202020597810Z",
+    "supervisor_pid": 714886,
+    "stages": ["build", "qualify_actual_binaries", "27_device_resident_conditions", "export"],
+    "final_remote_receipt": "/home/lsb/mldsa-experiments-5090/autonomous/side-20261020-0405/PERFORMANCE_FINAL_RECEIPT.json"
+  },
+  "full_outline_complete": false,
+  "local_finite_result_transfer": {
+    "status_at_recording": "RUNNING_NO_ERROR_LOGGED",
+    "pid": 58748,
+    "maximum_wait_hours": 12,
+    "destination": "performance/",
+    "scope": "Only the one already-started device-resident performance pipeline",
+    "requires_local_computer_awake_and_connected": true
+  },
+  "remaining_total_individual_experiments": "NOT_YET_FULLY_ENUMERATED",
+  "original_sources_results_and_latest_pointers_modified": false
+}

@@ -1,0 +1,225 @@
+{
+  "status": "PASS_OFFLINE_EVIDENCE_VERIFICATION",
+  "archive_sha256": "acf50c13ab6d1866edb96ed056b818437aa5f9418608ac8820f03fb9b27c1162",
+  "archive_size": 7625596,
+  "outer_entries": 1299,
+  "outer_files": 1266,
+  "nested_archives": [
+    {
+      "source": "4090修补.zip!4090修补/02_采样异常与恢复/internal_recovery_v1/server_results/20261020T161911383836Z-958989e7/20261020T161911383836Z-958989e7.tar.gz",
+      "sha256": "ece2b31692b9d4c28abaa6a60cf6340b6ff1c868dd04872207834a2022fea561",
+      "file_count": 91,
+      "manifest_files": 90,
+      "manifest_hashes_match": true,
+      "sidecar_matches": true
+    },
+    {
+      "source": "4090修补.zip!4090修补/02_采样异常与恢复/internal_recovery_v1.zip",
+      "sha256": "f853eae08eaef3d0ef5c3b0b4577dc275f8b780e5227c84edbfb8025046ebfa8",
+      "file_count": 9,
+      "role": "source_delivery_not_measurement",
+      "zip_crc_pass": true
+    },
+    {
+      "source": "4090修补.zip!4090修补/split32_racecheck_v1/server_results/20261020T161628260124Z-b966f10f/20261020T161628260124Z-b966f10f.tar.gz",
+      "sha256": "e4265974f73f6ae4184d4938e3c6ea4f7b320deaf7fcfcc361a53918097fc676",
+      "file_count": 206,
+      "manifest_files": 205,
+      "manifest_hashes_match": true,
+      "sidecar_matches": true
+    },
+    {
+      "source": "4090修补.zip!4090修补/split32_sync_patch_v2/server_results/20261020T162230081774Z-b4e3d46f/20261020T162230081774Z-b4e3d46f.tar.gz",
+      "sha256": "eb1c294c405d62f783724cac4da6f43b5fefa58c8c6c3be228d5be1bce144375",
+      "file_count": 1203,
+      "manifest_files": 1202,
+      "manifest_hashes_match": true,
+      "sidecar_matches": true
+    }
+  ],
+  "all_manifest_hashes_match": true,
+  "all_raw_csv_tsv_preserved": true,
+  "source_diff_only_two_barrier_insertions": true,
+  "expanded_final_run_copy_files": 1202,
+  "expanded_copy_all_bytes_match": true,
+  "primitive_initial_variant_records": 36,
+  "primitive_final_variant_records": 324,
+  "original_racecheck_warnings": 147462,
+  "displayed_warning_records": 100,
+  "patched_tool_processes_passed": 9,
+  "recovery_phases": 21,
+  "recovery_fault_probes": 9,
+  "recovery_output_byte_comparisons": 12,
+  "selected_vector_packed_inputs_reconstructed": 3,
+  "selected_vector_expected_outputs_reconstructed": 3,
+  "workspace_same_address_sequences": 3,
+  "residual_nonzero_fault_records": 6,
+  "byte_comparison_records": 1212,
+  "distinct_byte_comparison_pairs": 922,
+  "all_byte_comparisons_pass": true,
+  "recovery_loaded_identity_records": [
+    {
+      "parameter": 44,
+      "source": "4090修补.zip!4090修补/02_采样异常与恢复/internal_recovery_v1/server_results/20261020T161911383836Z-958989e7/20261020T161911383836Z-958989e7.tar.gz!20261020T161911383836Z-958989e7/jobs/p44_sign/native_identity.json",
+      "source_line": 1,
+      "module_sha256": "87dfa100b4e886abcf93912874e07e230db0089a6984590ffb655d0f85b5719b",
+      "before_after_match": true,
+      "parent_build_identity_match": true,
+      "note": "验证日志中的loaded identity一致；本包未包含被加载的生产DSO字节。"
+    },
+    {
+      "parameter": 65,
+      "source": "4090修补.zip!4090修补/02_采样异常与恢复/internal_recovery_v1/server_results/20261020T161911383836Z-958989e7/20261020T161911383836Z-958989e7.tar.gz!20261020T161911383836Z-958989e7/jobs/p65_sign/native_identity.json",
+      "source_line": 1,
+      "module_sha256": "21938109c746173886f2212c7a6edd0286529ef1396419ff1819eb1ddf7258fe",
+      "before_after_match": true,
+      "parent_build_identity_match": true,
+      "note": "验证日志中的loaded identity一致；本包未包含被加载的生产DSO字节。"
+    },
+    {
+      "parameter": 87,
+      "source": "4090修补.zip!4090修补/02_采样异常与恢复/internal_recovery_v1/server_results/20261020T161911383836Z-958989e7/20261020T161911383836Z-958989e7.tar.gz!20261020T161911383836Z-958989e7/jobs/p87_sign/native_identity.json",
+      "source_line": 1,
+      "module_sha256": "5aec395cb5fa5f837ade4a1bc37c9f2f7bf9dca41b2355cb2b23ef1705649f1d",
+      "before_after_match": true,
+      "parent_build_identity_match": true,
+      "note": "验证日志中的loaded identity一致；本包未包含被加载的生产DSO字节。"
+    }
+  ],
+  "table_source_paths": 17,
+  "original_table_paths": 10,
+  "derived_table_paths": 7,
+  "unique_table_bytes": 12,
+  "evidence_source_paths": 376,
+  "evidence_unique_text_files": 179,
+  "no_attached_code_executed": true,
+  "no_new_gpu_experiments": true,
+  "limits": [
+    "Offline byte/log/schema/identity consistency verification only; no GPU rerun.",
+    "Recorded residual byte counts have no retained workspace dump for recomputation.",
+    "Per-variant output mismatch results come from stdout; only final output file per case remains.",
+    "Selected vector provenance is retained source metadata; no network re-fetch of full official files.",
+    "Current tool/KAT qualification result archives and production DSOs are not included here.",
+    "Cross-review of retained loaded identities separately confirms the three 10/19 revised cells reused historical Sign modules; this is not inferred solely from the 10/18 audit."
+  ],
+  "historical_identity_cross_review": {
+    "historical_171_runtime_identities_match": true,
+    "recommended_27_keep_values_unchanged": true,
+    "retest_three_cells_reuse_historical_modules": true,
+    "identity_sources": {
+      "20261018T100031Z-676371": {
+        "source_occurrences_in_old_index": 351,
+        "unique_identity_contents": 9,
+        "modules": [
+          {
+            "module": "libloce_mldsa44_keygen_d3_sm89.so",
+            "pre_load_sha256": "d45f20926d48c667aa8593b24b192f5a4ce784c957411e0f13d98cc48ceb884a",
+            "post_load_sha256": "d45f20926d48c667aa8593b24b192f5a4ce784c957411e0f13d98cc48ceb884a",
+            "compilation_input_sha256": "deb20ff1f4aec4cf137441b09ad43b9c58bf060c24b6d7c0dd8613d929a48f93",
+            "source": "MLDSA_4090_Experiments.zip!MLDSA_4090_Experiments/MLDSA_Outline_Experiments_20261018/server_results/report_results_20261018T100031Z-676371_20261018T152457Z.tar.gz!/runs/20261018T100031Z-676371/03_performance/qualification/mldsa44_keygen_ours/attempts/20261018T103342638774Z-8561/loaded_native_identity.json",
+            "source_line": 1,
+            "json_pointer": "/pre_load_sha256"
+          },
+          {
+            "module": "libloce_mldsa44_sign_d4_sm89.so",
+            "pre_load_sha256": "e35c7146059438bc25b4e9803a25c4864faafbe1ed075dc99d984e8a76a434e9",
+            "post_load_sha256": "e35c7146059438bc25b4e9803a25c4864faafbe1ed075dc99d984e8a76a434e9",
+            "compilation_input_sha256": "deb20ff1f4aec4cf137441b09ad43b9c58bf060c24b6d7c0dd8613d929a48f93",
+            "source": "MLDSA_4090_Experiments.zip!MLDSA_4090_Experiments/MLDSA_Outline_Experiments_20261018/server_results/report_results_20261018T100031Z-676371_20261018T152457Z.tar.gz!/runs/20261018T100031Z-676371/03_performance/qualification/mldsa44_sign_ours/attempts/20261018T103355179500Z-8561/loaded_native_identity.json",
+            "source_line": 1,
+            "json_pointer": "/pre_load_sha256"
+          },
+          {
+            "module": "libloce_mldsa44_verify_d3_sm89.so",
+            "pre_load_sha256": "c2c89e6f725c6194cc29b49487b5613adb2497dd96ac4ad9dbcef2e914f14209",
+            "post_load_sha256": "c2c89e6f725c6194cc29b49487b5613adb2497dd96ac4ad9dbcef2e914f14209",
+            "compilation_input_sha256": "deb20ff1f4aec4cf137441b09ad43b9c58bf060c24b6d7c0dd8613d929a48f93",
+            "source": "MLDSA_4090_Experiments.zip!MLDSA_4090_Experiments/MLDSA_Outline_Experiments_20261018/server_results/report_results_20261018T100031Z-676371_20261018T152457Z.tar.gz!/runs/20261018T100031Z-676371/03_performance/qualification/mldsa44_verify_ours/attempts/20261018T103407487203Z-8561/loaded_native_identity.json",
+            "source_line": 1,
+            "json_pointer": "/pre_load_sha256"
+          },
+          {
+            "module": "libloce_mldsa65_keygen_d3_sm89.so",
+            "pre_load_sha256": "b5d01f08f6f200781ae6752c788a9d7e09b7931a81755adfd337b75da741f58f",
+            "post_load_sha256": "b5d01f08f6f200781ae6752c788a9d7e09b7931a81755adfd337b75da741f58f",
+            "compilation_input_sha256": "deb20ff1f4aec4cf137441b09ad43b9c58bf060c24b6d7c0dd8613d929a48f93",
+            "source": "MLDSA_4090_Experiments.zip!MLDSA_4090_Experiments/MLDSA_Outline_Experiments_20261018/server_results/report_results_20261018T100031Z-676371_20261018T152457Z.tar.gz!/runs/20261018T100031Z-676371/03_performance/qualification/mldsa65_keygen_ours/attempts/20261018T103420656830Z-8561/loaded_native_identity.json",
+            "source_line": 1,
+            "json_pointer": "/pre_load_sha256"
+          },
+          {
+            "module": "libloce_mldsa65_sign_d4_sm89.so",
+            "pre_load_sha256": "63d338328631ff2b32f890ef8cf4383a3d5d348da96c4cf8f3f279c16f04a38e",
+            "post_load_sha256": "63d338328631ff2b32f890ef8cf4383a3d5d348da96c4cf8f3f279c16f04a38e",
+            "compilation_input_sha256": "deb20ff1f4aec4cf137441b09ad43b9c58bf060c24b6d7c0dd8613d929a48f93",
+            "source": "MLDSA_4090_Experiments.zip!MLDSA_4090_Experiments/MLDSA_Outline_Experiments_20261018/server_results/report_results_20261018T100031Z-676371_20261018T152457Z.tar.gz!/runs/20261018T100031Z-676371/03_performance/qualification/mldsa65_sign_ours/attempts/20261018T103432849618Z-8561/loaded_native_identity.json",
+            "source_line": 1,
+            "json_pointer": "/pre_load_sha256"
+          },
+          {
+            "module": "libloce_mldsa65_verify_d3_sm89.so",
+            "pre_load_sha256": "ff6741fc4e6f372c869f71fcd32ca839999e4d059a22baefbfa88711a66e1035",
+            "post_load_sha256": "ff6741fc4e6f372c869f71fcd32ca839999e4d059a22baefbfa88711a66e1035",
+            "compilation_input_sha256": "deb20ff1f4aec4cf137441b09ad43b9c58bf060c24b6d7c0dd8613d929a48f93",
+            "source": "MLDSA_4090_Experiments.zip!MLDSA_4090_Experiments/MLDSA_Outline_Experiments_20261018/server_results/report_results_20261018T100031Z-676371_20261018T152457Z.tar.gz!/runs/20261018T100031Z-676371/03_performance/qualification/mldsa65_verify_ours/attempts/20261018T103445512471Z-8561/loaded_native_identity.json",
+            "source_line": 1,
+            "json_pointer": "/pre_load_sha256"
+          },
+          {
+            "module": "libloce_mldsa87_keygen_d3_sm89.so",
+            "pre_load_sha256": "bf2b6467ce568ccb6c4e59a1ebca7440e68e4ae2b91cddbdaffb9bd01c27574c",
+            "post_load_sha256": "bf2b6467ce568ccb6c4e59a1ebca7440e68e4ae2b91cddbdaffb9bd01c27574c",
+            "compilation_input_sha256": "deb20ff1f4aec4cf137441b09ad43b9c58bf060c24b6d7c0dd8613d929a48f93",
+            "source": "MLDSA_4090_Experiments.zip!MLDSA_4090_Experiments/MLDSA_Outline_Experiments_20261018/server_results/report_results_20261018T100031Z-676371_20261018T152457Z.tar.gz!/runs/20261018T100031Z-676371/03_performance/qualification/mldsa87_keygen_ours/attempts/20261018T103458576173Z-8561/loaded_native_identity.json",
+            "source_line": 1,
+            "json_pointer": "/pre_load_sha256"
+          },
+          {
+            "module": "libloce_mldsa87_sign_d4_sm89.so",
+            "pre_load_sha256": "76d28661de3f9d75b51b6ee7011d37c05b7e2192bca777182c5b89f9f916a1d7",
+            "post_load_sha256": "76d28661de3f9d75b51b6ee7011d37c05b7e2192bca777182c5b89f9f916a1d7",
+            "compilation_input_sha256": "deb20ff1f4aec4cf137441b09ad43b9c58bf060c24b6d7c0dd8613d929a48f93",
+            "source": "MLDSA_4090_Experiments.zip!MLDSA_4090_Experiments/MLDSA_Outline_Experiments_20261018/server_results/report_results_20261018T100031Z-676371_20261018T152457Z.tar.gz!/runs/20261018T100031Z-676371/03_performance/qualification/mldsa87_sign_ours/attempts/20261018T103510770782Z-8561/loaded_native_identity.json",
+            "source_line": 1,
+            "json_pointer": "/pre_load_sha256"
+          },
+          {
+            "module": "libloce_mldsa87_verify_d3_sm89.so",
+            "pre_load_sha256": "d3eb5118dd3343ee358d934b0c68219ca883bf2e7c71c75078334b97bfada8b3",
+            "post_load_sha256": "d3eb5118dd3343ee358d934b0c68219ca883bf2e7c71c75078334b97bfada8b3",
+            "compilation_input_sha256": "deb20ff1f4aec4cf137441b09ad43b9c58bf060c24b6d7c0dd8613d929a48f93",
+            "source": "MLDSA_4090_Experiments.zip!MLDSA_4090_Experiments/MLDSA_Outline_Experiments_20261018/server_results/report_results_20261018T100031Z-676371_20261018T152457Z.tar.gz!/runs/20261018T100031Z-676371/03_performance/qualification/mldsa87_verify_ours/attempts/20261018T103523990210Z-8561/loaded_native_identity.json",
+            "source_line": 1,
+            "json_pointer": "/pre_load_sha256"
+          }
+        ]
+      },
+      "20261019T032700Z-027dbf3f": {
+        "source_occurrences_in_old_index": 36,
+        "unique_identity_contents": 2,
+        "modules": [
+          {
+            "module": "libloce_mldsa65_sign_d4_sm89.so",
+            "pre_load_sha256": "63d338328631ff2b32f890ef8cf4383a3d5d348da96c4cf8f3f279c16f04a38e",
+            "post_load_sha256": "63d338328631ff2b32f890ef8cf4383a3d5d348da96c4cf8f3f279c16f04a38e",
+            "compilation_input_sha256": "deb20ff1f4aec4cf137441b09ad43b9c58bf060c24b6d7c0dd8613d929a48f93",
+            "source": "MLDSA_4090_Experiments.zip!MLDSA_4090_Experiments/MLDSA_4090_Supplement_20261019/reviews/20261019T032700Z-027dbf3f/supplement_4090_20261019T032700Z-027dbf3f.tar.gz!/20261019T032700Z-027dbf3f/jobs/mldsa65_sign_b8192_block05_1_ours/capture/attempts/20261019T032928305348Z-23930/loaded_native_identity.json",
+            "source_line": 1,
+            "json_pointer": "/pre_load_sha256"
+          },
+          {
+            "module": "libloce_mldsa87_sign_d4_sm89.so",
+            "pre_load_sha256": "76d28661de3f9d75b51b6ee7011d37c05b7e2192bca777182c5b89f9f916a1d7",
+            "post_load_sha256": "76d28661de3f9d75b51b6ee7011d37c05b7e2192bca777182c5b89f9f916a1d7",
+            "compilation_input_sha256": "deb20ff1f4aec4cf137441b09ad43b9c58bf060c24b6d7c0dd8613d929a48f93",
+            "source": "MLDSA_4090_Experiments.zip!MLDSA_4090_Experiments/MLDSA_4090_Supplement_20261019/reviews/20261019T032700Z-027dbf3f/supplement_4090_20261019T032700Z-027dbf3f.tar.gz!/20261019T032700Z-027dbf3f/jobs/mldsa87_sign_b4096_block05_1_ours/capture/attempts/20261019T033429275072Z-24599/loaded_native_identity.json",
+            "source_line": 1,
+            "json_pointer": "/pre_load_sha256"
+          }
+        ]
+      }
+    },
+    "historical_source_build_sha256": "1a6814c8cb7c344b6f206ec3d95624a2eb5480c7321aea8af9633222b3f5a93c",
+    "scope": "10/18原审计与10/19独立扩展核查分开说明；均只读既有原始身份记录，无DSO执行。"
+  }
+}

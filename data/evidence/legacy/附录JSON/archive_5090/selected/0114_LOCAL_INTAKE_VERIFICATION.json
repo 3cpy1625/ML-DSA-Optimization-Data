@@ -1,0 +1,152 @@
+{
+  "all_raw_kernel_records_including_setup_warmups_and_probe": 7701,
+  "archive": {
+    "bytes": 1826894923,
+    "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e05_native_cupti\\e05-5090-a6f0959383b941829471b12758712e95.tar.gz",
+    "sha256": "1e821780ece02e99086cda7eb92cd0d4dd73a0e18def3e9787649ed88a13183f"
+  },
+  "archive_regular_members": 499,
+  "counts": {
+    "accepted_processes": 27,
+    "measured_kernel_launches": 4950,
+    "measured_ranges": 405
+  },
+  "cpu_generator_lifecycle_records_checked": 4,
+  "cpu_oracle": {
+    "corpus_files": 24,
+    "cross_operation_components": "pk/sk/sig/message all bytes by component SHA256",
+    "cryptographic_reference_rerun": false,
+    "e03_b256_prefix_comparisons": 24,
+    "reconstructed_deterministic_inputs": "seed/message/rnd all bytes",
+    "scope": "Retained CPU-oracle bytes independently hashed and structurally checked; no archived generator execution"
+  },
+  "cpu_oracle_files_checked": 24,
+  "created_utc": "2026-10-20T04:32:49.028938+00:00",
+  "cupti_api_version": 28,
+  "dropped_records": 0,
+  "e03": {
+    "actual_elf_bytes_local": false,
+    "build_sha256": "7329643d44832077ed4971bb6bd6e0c24573a576148657fc77f1c399e73b1ac5",
+    "qualification_comparisons": 18,
+    "qualification_sha256": "fffa33d47cc8978329bee7267544bc15dd0eeb759eae5c2f09a44e2543b2b25c",
+    "references": [
+      {
+        "key": "bench",
+        "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/integration/loce_unified_api_bench",
+        "scope": "SERVER_RETAINED_HASH_CROSS_BINDING"
+      },
+      {
+        "key": "build_result",
+        "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/BUILD_RESULT.json",
+        "scope": "LOCAL_BYTES"
+      },
+      {
+        "key": "controller",
+        "path": "/home/lsb/mldsa-experiments-5090/incoming/e03-v3-cta-nvtx-de4cfa40/run_5090_performance.py",
+        "scope": "LOCAL_BYTES"
+      },
+      {
+        "key": "native_config",
+        "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/NATIVE_CONFIG.json",
+        "scope": "LOCAL_BYTES"
+      },
+      {
+        "key": "prerequisite_gate",
+        "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/CORRECTNESS_GATE.json",
+        "scope": "LOCAL_BYTES"
+      },
+      {
+        "key": "qualification_result",
+        "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/QUALIFICATION_RESULT.json",
+        "scope": "LOCAL_BYTES"
+      },
+      {
+        "key": "reference_generator",
+        "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/binaries/reference_generator",
+        "scope": "SERVER_RETAINED_HASH_CROSS_BINDING"
+      },
+      {
+        "key": "source_copy",
+        "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/SOURCE_COPY.json",
+        "scope": "LOCAL_BYTES"
+      }
+    ]
+  },
+  "enabled_controller_sha256": "a0da8b1111bd91245aba183433dc6209dadf36406624f7938947a5f7c6f52526",
+  "exact_profile_argv_and_environments_checked": 28,
+  "execution": "Local Python standard-library parsing and pinned external pure parser only; no archive code import, executable/DSO load, compiler, SSH or GPU",
+  "input_output_files_checked": 56,
+  "limits": [
+    "CPU cryptographic reference was not rerun; retained independent CPU-oracle bytes, layouts, deterministic input generation and E03 prefixes were checked.",
+    "E03 benchmark, generator and module ELF files are retained on the server; local intake checks their recorded cross-bindings, not actual ELF bytes.",
+    "These are CUPTI-profiled observations, not ordinary uninstrumented performance or cuPQC comparisons.",
+    "Only final timed outputs are retained; intermediate timed outputs were not individually downloaded.",
+    "Three processes share one deterministic input set; samples are not independent input datasets.",
+    "Sampled quiet/ownership evidence cannot prove absolute GPU exclusivity.",
+    "Register/shared/local-memory fields are launch/static-resource metadata; no measured occupancy, DRAM throughput, or spill traffic is claimed.",
+    "Exact fused kernels remain intact; no constituent substage times are invented.",
+    "Sealed E03 module sanitizer remains NOT_RUN; prior adapter sanitizer is separate."
+  ],
+  "loaded_engine_module_metadata_records_checked": 252,
+  "manifest": {
+    "bytes": 1839748371,
+    "files": 498,
+    "sha256": "4e0272b486dd70e75e9550851227113cd4d2c695f7a1980b1db13c92d3a826cd"
+  },
+  "nvtx_injection": "v2 successful in every trace",
+  "physical_tar": {
+    "pax_headers": 498,
+    "regular_headers": 499,
+    "trailing_payload": "ZERO_PADDING_ONLY"
+  },
+  "probe": {
+    "measured_kernels": 5,
+    "processes": 1,
+    "ranges": 1
+  },
+  "profile_lifecycle_records_checked": 28,
+  "quiet_and_owned_monitor_windows_checked": 28,
+  "schema": "mldsa.e05.independent-local-intake.v1",
+  "status": "LOCAL_RAW_ARCHIVE_AND_REBUILT_TABLES_PASS",
+  "tables": [
+    {
+      "archive_bytes_equal": true,
+      "rows": 27,
+      "sha256": "86883a18c130ce6be705470d241ed190707f288217fcc9c92638580823999ee1",
+      "table": "processes"
+    },
+    {
+      "archive_bytes_equal": true,
+      "rows": 405,
+      "sha256": "a3fe9f0c7ea9b0dc26e96d7c07e07ea715e457b98560836cb3225e3f5b8897d7",
+      "table": "ranges"
+    },
+    {
+      "archive_bytes_equal": true,
+      "rows": 4950,
+      "sha256": "b647c7e8fdb101743a870f21cb4317fe5197a5213be965a9cff0eaee1ebf26ac",
+      "table": "kernels"
+    }
+  ],
+  "trace_parser": {
+    "bytes": 7534,
+    "path": "E:\\密码竞赛\\work\\e05_native5090_intake\\reviewed_stage_trace.py",
+    "sha256": "5152c129147feb795d1868fb99f2b2368880f61de1c5cb66ce6a320372dbdc06"
+  },
+  "official_status": "E05_CUPTI_PROFILE_LOCAL_INTAKE_PASS_WITH_EXPLICIT_SCOPE_LIMITS",
+  "root_replay": {
+    "path": "server_results/e05_native_cupti/local_intake/RESULT.json",
+    "bytes": 6023,
+    "sha256": "1a2fd6616ac99e1c4eb349cc5c4a755b53c66596b37f69e1d066b07a868c1908"
+  },
+  "root_negative_qa": {
+    "path": "server_results/e05_native_cupti/local_intake/ROOT_NEGATIVE_QA.json",
+    "bytes": 7888,
+    "sha256": "dfe1181bcd03e3a001474911179e21f60f15a0db1fb327936679e5bb3b8df3f0"
+  },
+  "intake_tool": {
+    "path": "scripts/e05_intake_218108b1/intake_e05.py",
+    "bytes": 30419,
+    "sha256": "218108b109a8a13689375efc55d023682b104357245f298dcb27a38c3e660c1c"
+  }
+}

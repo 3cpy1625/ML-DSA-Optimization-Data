@@ -1,0 +1,19 @@
+{
+  "schema": "mldsa5090-user-screenshot-progress-v1",
+  "recorded_utc": "2026-10-19T14:27:25.717023+00:00",
+  "evidence_kind": "user screenshot; raw server diagnostic report not downloaded yet",
+  "screenshot": "screenshots/09_m87_verify_diagnostic_object_pass.png",
+  "screenshot_sha256": "28acca807f1a063c4100c5c340ad6887533a7b435f882785da478e136ba246ea",
+  "verified_by_screenshot": {
+    "status": "DIAGNOSTIC_OBJECT_COMPILE_PASS_NOT_QUALIFIED",
+    "cell": "mldsa87_verify",
+    "server_directory": "/home/lsb/mldsa-experiments-5090/diagnostics/m87-verify-fastmin-20261019T140814466517Z-624568",
+    "gpu_executed": false
+  },
+  "v2_build": "first eight cells build-only PASS; mldsa87_verify failed ptxas Unknown symbol",
+  "v3_wrapper": "prepared locally; not uploaded or executed by assistant",
+  "nine_module_build_pass": false,
+  "gpu_algorithm_correctness_pass": false,
+  "formal_performance_collected": false,
+  "next_step": "User uploads v3 wrapper, then fresh nine-module build, then algorithm correctness."
+}

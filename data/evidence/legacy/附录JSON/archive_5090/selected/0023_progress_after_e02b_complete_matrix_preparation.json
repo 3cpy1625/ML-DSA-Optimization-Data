@@ -1,0 +1,26 @@
+{
+  "recorded_utc": "2026-10-19T19:47:54.773041+00:00",
+  "current_category": "E02",
+  "next_action": "USER_RUNS_21_NEW_CHECKS_TO_COMPLETE_MIXED_48_SANITIZER_MATRIX",
+  "script": {
+    "path": "scripts/run_5090_e02b_complete_matrix.py",
+    "bytes": 57908,
+    "sha256": "79f678a631e8fdfc060b6b3f24ff034e5ad82da4ba8765ee7574d269eda216ae"
+  },
+  "review": {
+    "path": "scripts/run_5090_e02b_complete_matrix.LOCAL_REVIEW.json",
+    "bytes": 2542,
+    "sha256": "38172879684eb96f2993889c4273b8cbee2499fc12d531244560fe9a99e27cfc"
+  },
+  "new_individual_checks": 21,
+  "candidate_m65sign_checks": 7,
+  "original_other_module_checks": 14,
+  "reused_original_passes": 26,
+  "reused_candidate_replay_passes": 1,
+  "retired_old_candidate_cell_passes": 4,
+  "server_execution": "NOT_RUN",
+  "console_path_reserved": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e02b_complete_matrix\\complete_matrix_console_01.txt",
+  "formal_performance_collected": false,
+  "full_e02_complete": false,
+  "total_remaining_individual_experiments": "NOT_YET_FULLY_ENUMERATED"
+}

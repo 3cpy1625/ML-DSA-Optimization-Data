@@ -1,0 +1,8 @@
+{
+  "python_syntax": "PASS",
+  "exact_binary_match_positive": "PASS",
+  "different_hash_rejected": true,
+  "different_filename_rejected": true,
+  "different_embedded_identity_rejected": true,
+  "GPU_execution": "NOT_RUN"
+}

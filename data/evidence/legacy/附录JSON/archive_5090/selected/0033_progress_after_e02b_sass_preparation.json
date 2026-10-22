@@ -1,0 +1,27 @@
+{
+  "recorded_utc": "2026-10-19T17:46:07.677137+00:00",
+  "run_id": "e02b-sanitizer-20261019T170912908000Z-657090",
+  "current_category": "E02",
+  "completed_major_categories": [
+    "E00",
+    "E01"
+  ],
+  "remaining_major_category_count": 13,
+  "e02b_archive_intake": "596_FILES_246_BIN_AND_31_RECORDED_CASES_VERIFIED",
+  "e02b_counts": {
+    "pass": 30,
+    "finding": 1,
+    "not_run": 17
+  },
+  "next_script": "E:\\密码竞赛\\5090实验结果_20261019\\scripts\\inspect_5090_e02b_sass.py",
+  "next_script_sha256": "a85b753b5be8710fbe4b41e88734c99f3e07abdcbc4baf7288a610d87be6f044",
+  "script_syntax": "PASS",
+  "real_race_log_pc_parser_check": "PASS_18_PCS_THREE_PHASES",
+  "next_step": "CPU cuobjdump of pinned original M65 module; new reports directory; no source modification or rebuild",
+  "gpu_execution_by_assistant": false,
+  "sass_server_inspection": "PENDING_USER_EXECUTION",
+  "sass_output_expected": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e02b_sanitizer\\e02b-sanitizer-20261019T170912908000Z-657090\\e02b_657090_sass_20261020_01.txt",
+  "source_cause": "UNRESOLVED",
+  "full_e02_complete": false,
+  "formal_performance_collected": false
+}

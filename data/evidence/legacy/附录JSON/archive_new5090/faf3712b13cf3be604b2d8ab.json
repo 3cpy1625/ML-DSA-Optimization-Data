@@ -1,0 +1,47 @@
+{
+  "status": "PREPARATION_STOPPED",
+  "run": "/home/lsb/mldsa-experiments-5090/\u65b05090/m44_three_arm_20261020T121813Z_11cf6ec1",
+  "gpu_experiments_started": 0,
+  "scope": "M44 KeyGen register accumulation / phase2 fusion only",
+  "not_all_team_optimizations_disabled": true,
+  "baseline_build_sha256": "7329643d44832077ed4971bb6bd6e0c24573a576148657fc77f1c399e73b1ac5",
+  "arms": {
+    "P0": {
+      "build": "/home/lsb/mldsa-experiments-5090/\u65b05090/m44_three_arm_20261020T121813Z_11cf6ec1/build_P0",
+      "bindings": {
+        "LOCE_MODULE_COMPILATION_INPUT_SHA256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+        "LOCE_MODULE_BUILD_PROVENANCE_SHA256": "c681f1f2eaee1655f4ca900485446088d652a4a1ed3240dba2b0990433431f73",
+        "LOCE_MODULE_EXECUTION_CONTRACT_REGISTRY_SHA256": "c8dccc44cff725aa21c9a33f266fb90c25b82247b1e0847f6668b6c702308509",
+        "LOCE_MODULE_POLICY_REGISTRY_SHA256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "LOCE_MODULE_BUILD_ID": "test-c681f1f2eaee1655f4ca",
+        "LOCE_MODULE_RELEASE_FAMILY_ID": "NEW5090-M44-THREE-ARM-m44_three_arm_20261020T121813Z_11cf6ec1"
+      },
+      "compile_commands_sha256": "52e76f5dcd98783bde7e5cc6fb3a5e9829443fc5ece178ff55c99207852a7de8"
+    },
+    "R1": {
+      "build": "/home/lsb/mldsa-experiments-5090/\u65b05090/m44_three_arm_20261020T121813Z_11cf6ec1/build_R1",
+      "bindings": {
+        "LOCE_MODULE_COMPILATION_INPUT_SHA256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+        "LOCE_MODULE_BUILD_PROVENANCE_SHA256": "c4b57f467abb19afe81249cffdfd383d705a1cb8bb4da9f4f6299d23061917fb",
+        "LOCE_MODULE_EXECUTION_CONTRACT_REGISTRY_SHA256": "c8dccc44cff725aa21c9a33f266fb90c25b82247b1e0847f6668b6c702308509",
+        "LOCE_MODULE_POLICY_REGISTRY_SHA256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "LOCE_MODULE_BUILD_ID": "test-c4b57f467abb19afe812",
+        "LOCE_MODULE_RELEASE_FAMILY_ID": "NEW5090-M44-THREE-ARM-m44_three_arm_20261020T121813Z_11cf6ec1"
+      },
+      "compile_commands_sha256": "34aab0ae2c09864da0024563cf2912575112bcde9324d57fc2f9807f4170b023"
+    },
+    "C1": {
+      "build": "/home/lsb/mldsa-experiments-5090/\u65b05090/m44_three_arm_20261020T121813Z_11cf6ec1/build_C1",
+      "bindings": {
+        "LOCE_MODULE_COMPILATION_INPUT_SHA256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+        "LOCE_MODULE_BUILD_PROVENANCE_SHA256": "9af8eb50210ca15bd2fdd79a4b054d0589b29adc3f53e667d1b92fff051cb483",
+        "LOCE_MODULE_EXECUTION_CONTRACT_REGISTRY_SHA256": "c8dccc44cff725aa21c9a33f266fb90c25b82247b1e0847f6668b6c702308509",
+        "LOCE_MODULE_POLICY_REGISTRY_SHA256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "LOCE_MODULE_BUILD_ID": "test-9af8eb50210ca15bd2fd",
+        "LOCE_MODULE_RELEASE_FAMILY_ID": "NEW5090-M44-THREE-ARM-m44_three_arm_20261020T121813Z_11cf6ec1"
+      },
+      "compile_commands_sha256": "84ccbf31c09adfd7df13d5cbfbeb6bf3e87f9f5985d4ab94287eb88301d0568b"
+    }
+  },
+  "error": "RuntimeError('Command failed; see /home/lsb/mldsa-experiments-5090/\u65b05090/m44_three_arm_20261020T121813Z_11cf6ec1/P0_identity.json')"
+}

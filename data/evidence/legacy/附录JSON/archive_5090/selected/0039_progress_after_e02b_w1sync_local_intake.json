@@ -1,0 +1,21 @@
+{
+  "recorded_utc": "2026-10-19T18:39:56.739836+00:00",
+  "current_category": "E02",
+  "candidate_run": "e02b-w1sync-20261019T182627865064Z-664886",
+  "status": "ALL_39_EXPORTED_FILES_VERIFIED_TARGET_BARRIER_GATE_NOT_PASSED",
+  "report": {
+    "path": "server_results/e02b_w1sync/e02b-w1sync-20261019T182627865064Z-664886/LOCAL_INTAKE_VERIFICATION.json",
+    "bytes": 2985,
+    "sha256": "2718ae03fcf20c2ad62c82d44ceb10c9e6d9a7cae74e6de50b45aaa24a14674c"
+  },
+  "original_finding": "UNRESOLVED",
+  "original_e02b_counts": {
+    "pass": 30,
+    "finding": 1,
+    "not_run": 17
+  },
+  "candidate_gpu_validation": "NOT_RUN",
+  "next_action": "ASSESS_CTA_BARRIER_SAFETY_IN_CURRENT_SINGLE_WARP_CONFIGURATION",
+  "full_e02_complete": false,
+  "formal_performance_collected": false
+}

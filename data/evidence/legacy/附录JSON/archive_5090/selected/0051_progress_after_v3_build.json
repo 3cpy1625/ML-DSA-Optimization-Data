@@ -1,0 +1,16 @@
+{
+  "schema": "mldsa5090-user-screenshot-progress-v1",
+  "recorded_utc": "2026-10-19T14:40:40.529615+00:00",
+  "evidence_kind": "user screenshot; raw server run has not been downloaded",
+  "screenshot": "screenshots/10_v3_nine_module_build_and_configuration_pass.png",
+  "screenshot_sha256": "d5901305fc8aa29c81f37c88ba22b448eee065bb9e4aedd2620ed0d9329a4caf",
+  "run_id": "fastmin-m87-all-v3-20261019T143050777764Z-626756",
+  "server_run_directory": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756",
+  "verified_by_screenshot": [
+    "PROJECT_BUILD_PASS",
+    "WRAPPER_BUILD_CONFIGURATION_PASS"
+  ],
+  "gpu_algorithm_correctness_pass": false,
+  "formal_performance_collected": false,
+  "next_step": "Run correctness for this exact v3 run, then export and download the raw result archive."
+}

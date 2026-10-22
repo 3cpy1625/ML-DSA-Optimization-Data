@@ -1,0 +1,9 @@
+control,semantic_work,certificate,owner_domain,retirement,observed_result,evidence_class
+PFODR_ON,same Verify,z-norm public finality,4 real requests,complete-domain retirement,"all-invalid B4096 2.7038x; B16384 3.9785x vs OFF",FORMAL_CURRENT
+PFODR_OFF,same Verify,z-norm public finality,4 real requests,no producer retirement,control,FORMAL_CURRENT
+VALID_ON_OFF,same valid Verify,no rejection,4 real requests,no profitable retirement,"ON/OFF equivalent within frozen margin",FORMAL_CURRENT
+COMPLETE_50,same 50% invalid,z-norm public finality,alternating complete physical domains,retire complete domains,"1.4062x B4096; 1.4723x B16384",FORMAL_CURRENT
+SCATTERED_50,same 50% invalid,z-norm public finality,no complete physical domain,no domain retires,"0.9983x B4096; 0.9962x B16384",NEGATIVE_BOUNDARY
+PARTIAL_DOMAIN,same Verify,z-norm public finality,exact real membership,retire only if all real members final,"B65/B66/B67 ON/OFF byte identity PASS",CORRECTNESS_CURRENT
+LOCAL_EARLY_EXIT,same Verify,z-norm public finality,request only,producer not retired,"represented by PFODR_OFF after the request-local z certificate",STRONG_CONTROL
+MLKEM_DECAPS,implicit rejection,ciphertext mismatch,not a public no-output domain,no retire,semantic no-switch,SOURCE_GROUNDED_NO_SWITCH

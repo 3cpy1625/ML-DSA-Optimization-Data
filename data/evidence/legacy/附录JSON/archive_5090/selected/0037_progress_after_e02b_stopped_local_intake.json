@@ -1,0 +1,18 @@
+{
+  "recorded_utc": "2026-10-19T17:38:50.231154+00:00",
+  "run_id": "e02b-sanitizer-20261019T170912908000Z-657090",
+  "current_category": "E02",
+  "e02b": "STOPPED_ARCHIVE_INTEGRITY_AND_31_RECORDED_CASES_VERIFIED",
+  "verification_report": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e02b_sanitizer\\e02b-sanitizer-20261019T170912908000Z-657090\\LOCAL_INTAKE_VERIFICATION.json",
+  "completed_major_categories": [
+    "E00",
+    "E01"
+  ],
+  "remaining_major_category_count": 13,
+  "passed_cases": 30,
+  "sanitizer_finding_cases": 1,
+  "not_run_cases": 17,
+  "source_cause": "UNDER_INVESTIGATION",
+  "full_e02_complete": false,
+  "formal_performance_collected": false
+}

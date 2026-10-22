@@ -1,0 +1,80 @@
+{
+  "algorithm": "ML-KEM",
+  "architecture_evidence": null,
+  "architecture_evidence_sha256": null,
+  "benchmark_sha256": "c41ad5f2011c022a42a7f48ce99b9349ef53954c0387a9c19efdf56dd6fea686",
+  "build_module_identity": "build_rc1_final_tests_mlkem/libloce_mlkem1024_sm89.so",
+  "corpus_hash": "fcd37d687438851ac6a73fa2691127d29887afe880a610f3fe85e9400fee2c39",
+  "differential_evidence": "evidence/correctness/rc1_final_differential_20260803/mlkem_1024.log",
+  "differential_evidence_sha256": "8590765a56488e5ecec2f7d6641a4366b861910d28352a0e691cbd559b6e5ce3",
+  "execution_contract_hash": "dd129d7130777f45a8089da48680c53aba8f843fcfd8c58ef57ca045e0b0f367",
+  "framework_source_sha256": "d3e4c01509b4b8020fb198f81f632429bc462221fb6eff80340b5175f9cae774",
+  "gates": {
+    "architecture": {
+      "applicable": false,
+      "evidence": null,
+      "status": "N/A"
+    },
+    "attempt_kappa": {
+      "applicable": false,
+      "evidence": null,
+      "status": "N/A"
+    },
+    "byte_exact": {
+      "applicable": true,
+      "evidence": "evidence/correctness/rc1_final_differential_20260803/mlkem_1024.log",
+      "status": "PASS"
+    },
+    "cpu_verify_or_decaps": {
+      "applicable": true,
+      "evidence": "evidence/correctness/rc1_final_differential_20260803/mlkem_1024.log",
+      "status": "PASS"
+    },
+    "decaps_fail_path": {
+      "applicable": false,
+      "evidence": null,
+      "status": "N/A"
+    },
+    "sanitizer": {
+      "applicable": true,
+      "evidence": "evidence/release/convergence_hardening_002/SANITIZER_LEDGER.jsonl",
+      "status": "PASS"
+    },
+    "second_reference": {
+      "applicable": true,
+      "evidence": "evidence/correctness/rc1_final_differential_20260803/mlkem_1024.log",
+      "status": "PASS"
+    },
+    "terminal": {
+      "applicable": true,
+      "evidence": "evidence/correctness/rc1_final_differential_20260803/mlkem_1024.log",
+      "status": "PASS"
+    },
+    "winner_record": {
+      "applicable": false,
+      "evidence": null,
+      "status": "N/A"
+    }
+  },
+  "module_sha256": "29963b6904e234e309259b56ea7a318c4f07cbf66465bda3e2a6fc4afff8d346",
+  "operation": "Encaps",
+  "packaged_benchmark_path": "binaries/loce_unified_api_bench",
+  "packaged_module_path": "binaries/sm89/modules/libloce_mlkem1024_sm89.so",
+  "parameter_set": "1024",
+  "performance_eligible": true,
+  "policy_hash": "5d2a2aa072efeb1fc6698143e53b4206b1b799da8e7bcdfca0316390e556c353",
+  "reference_ids": [
+    "TII-cuFIPS-203-reference",
+    "PQClean-clean"
+  ],
+  "release_id": "LOCE_PQC_GPU_HARDENING_002_FINALIZATION_001_20260803",
+  "sanitizer_ledger": "evidence/release/convergence_hardening_002/SANITIZER_LEDGER.jsonl",
+  "sanitizer_ledger_sha256": "1a126f84be2dabccca44e05576b5c57c545ed46d6334a94d9be8410cf71f6b65",
+  "schema": "loce-canonical-correctness-manifest-v2",
+  "security_level": 5,
+  "selected_module_record": "evidence/release/module_load_records/correctness.jsonl",
+  "selected_module_record_sha256": "febf9ae7b35451dd538cb65cc8224f2119a9be5043f805ddfea8c36393781233",
+  "source_tree": "mlkem_sm89",
+  "source_tree_sha256": "8caa8c683e44b660ae6166e5c802fb56584502d49a0c6c50dbb5736efd7ffe31",
+  "status": "PASS"
+}

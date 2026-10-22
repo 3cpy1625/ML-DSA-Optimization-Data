@@ -1,0 +1,52 @@
+{
+  "recorded_utc": "2026-10-19T19:20:42.748903+00:00",
+  "current_category": "E02",
+  "original_e02b_counts": {
+    "pass": 30,
+    "finding": 1,
+    "not_run": 17
+  },
+  "original_finding": "UNRESOLVED",
+  "candidate_CPU_run": "e02b-ctasync-20261019T185335197244Z-672804",
+  "candidate_static_gate": "PASS_UNDER_PINNED_SINGLE_WARP_CONFIGURATION",
+  "next_action": "USER_RUNS_ONE_ORIGINAL_FAILED_RACECHECK_CASE_WITH_PINNED_CTA_CANDIDATE",
+  "script": {
+    "path": "scripts/run_5090_e02b_ctasync_replay.py",
+    "bytes": 36302,
+    "sha256": "cc663deb57db2675777b982a411a3d66178df0da2943e883e4c01b0268d714f8"
+  },
+  "review": {
+    "path": "scripts/run_5090_e02b_ctasync_replay.LOCAL_REVIEW.json",
+    "bytes": 2140,
+    "sha256": "6398c4f5893bd24c016b8aee5c565a26ecb9231d4cc583c13b34ebd01d8748a5"
+  },
+  "selftests": [
+    {
+      "path": "scripts/run_5090_e02b_ctasync_replay.ASSESSMENT_SELFTEST_RESULT.json",
+      "bytes": 1245,
+      "sha256": "a120530306be161294568ac411cb110d6002fe589b00ed1ce5223765ff0f8f36"
+    },
+    {
+      "path": "scripts/run_5090_e02b_ctasync_replay.WORKFLOW_SELFTEST_RESULT.json",
+      "bytes": 1029,
+      "sha256": "1a0c26e2e511847e7fa746e00d06ba0b206cccefd568a17b4c1b10ca0a81049e"
+    }
+  ],
+  "planned_replay_cases": 1,
+  "replay_arguments": [
+    "256",
+    "0",
+    "1",
+    "default-owner",
+    "0xe02b000000000001",
+    "0",
+    "unified",
+    "0",
+    "0"
+  ],
+  "server_replay": "NOT_RUN",
+  "formal_performance_collected": false,
+  "full_e02_complete": false,
+  "console_path_reserved": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e02b_ctasync_replay\\ctasync_replay_console_01.txt",
+  "total_remaining_individual_experiments": "NOT_YET_FULLY_ENUMERATED"
+}

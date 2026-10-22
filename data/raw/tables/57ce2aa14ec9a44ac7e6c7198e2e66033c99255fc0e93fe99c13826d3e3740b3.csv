@@ -1,0 +1,10 @@
+﻿parameter,operation,batch,status,evidence_kind,evidence,full_server_logs_received,criterion
+44,keygen,64,PASS_REPORTED_BY_RUNNER,用户回传终端截图中的九项总成功标志,06_运行与测试截图/01_原始正确性九组全部通过.png,False,进程退出码0且新输出与原始参考逐字节一致；摘要和已加载模块检查通过
+44,sign,256,PASS_REPORTED_BY_RUNNER,用户回传终端截图中的九项总成功标志,06_运行与测试截图/01_原始正确性九组全部通过.png,False,进程退出码0且新输出与原始参考逐字节一致；摘要和已加载模块检查通过
+44,verify,256,PASS_REPORTED_BY_RUNNER,用户回传终端截图中的九项总成功标志,06_运行与测试截图/01_原始正确性九组全部通过.png,False,进程退出码0且新输出与原始参考逐字节一致；摘要和已加载模块检查通过
+65,keygen,64,PASS_REPORTED_BY_RUNNER,用户回传终端截图中的九项总成功标志,06_运行与测试截图/01_原始正确性九组全部通过.png,False,进程退出码0且新输出与原始参考逐字节一致；摘要和已加载模块检查通过
+65,sign,256,PASS_REPORTED_BY_RUNNER,用户回传终端截图中的九项总成功标志,06_运行与测试截图/01_原始正确性九组全部通过.png,False,进程退出码0且新输出与原始参考逐字节一致；摘要和已加载模块检查通过
+65,verify,256,PASS_REPORTED_BY_RUNNER,用户回传终端截图中的九项总成功标志,06_运行与测试截图/01_原始正确性九组全部通过.png,False,进程退出码0且新输出与原始参考逐字节一致；摘要和已加载模块检查通过
+87,keygen,64,PASS_REPORTED_BY_RUNNER,用户回传终端截图中的九项总成功标志,06_运行与测试截图/01_原始正确性九组全部通过.png,False,进程退出码0且新输出与原始参考逐字节一致；摘要和已加载模块检查通过
+87,sign,256,PASS_REPORTED_BY_RUNNER,用户回传终端截图中的九项总成功标志,06_运行与测试截图/01_原始正确性九组全部通过.png,False,进程退出码0且新输出与原始参考逐字节一致；摘要和已加载模块检查通过
+87,verify,256,PASS_REPORTED_BY_RUNNER,用户回传终端截图中的九项总成功标志,06_运行与测试截图/01_原始正确性九组全部通过.png,False,进程退出码0且新输出与原始参考逐字节一致；摘要和已加载模块检查通过

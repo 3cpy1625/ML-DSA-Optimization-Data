@@ -1,0 +1,14 @@
+{
+  "arm": "P0",
+  "batch": 256,
+  "block": -1,
+  "samples_ms": [
+    0.097471997
+  ],
+  "mean_ms": 0.097471997,
+  "job": "/home/lsb/mldsa-experiments-5090/\u65b05090/m44_three_arm_20261020T121813Z_11cf6ec1/qualification_P0",
+  "input_sha256": "1439149cc77afbacd013732deb221793ce261ee7c61e944fca80856db7d3d3bb",
+  "output_sha256": "ce83b2331715b189a10f964315e285807c136f1892d988dfe50ea786ac013226",
+  "benchmark_sha256": "3c38438829b91f64619e1ee62df0a195c5e55d46839ba4a5e31b9cf12e2ee547",
+  "module_sha256": "1c5420c0b8721583385528a34cf1d25a3b93b995a5c503a70fa232c84ff19b21"
+}

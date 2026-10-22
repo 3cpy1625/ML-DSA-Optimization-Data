@@ -1,0 +1,25 @@
+{
+  "modules": [
+    {
+      "embedded_identity": {
+        "abi_version": 1,
+        "algorithm": "ML-DSA",
+        "build_id": "test-c681f1f2eaee1655f4ca",
+        "build_provenance_sha256": "c681f1f2eaee1655f4ca900485446088d652a4a1ed3240dba2b0990433431f73",
+        "compilation_input_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+        "execution_contract_registry_sha256": "c8dccc44cff725aa21c9a33f266fb90c25b82247b1e0847f6668b6c702308509",
+        "module_id": "mldsa44-keygen-d3-sm120-native",
+        "operation_mask": 1,
+        "parameter_set": "44",
+        "policy_id": "MLDSA-44-KEYGEN-D3",
+        "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "release_family_id": "NEW5090-M44-THREE-ARM-m44_three_arm_20261020T121813Z_11cf6ec1",
+        "sm_arch": "sm_120"
+      },
+      "filename": "libloce_mldsa44_keygen_d3_sm120.so",
+      "sha256": "1c5420c0b8721583385528a34cf1d25a3b93b995a5c503a70fa232c84ff19b21"
+    }
+  ],
+  "release_identity_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+  "schema": "loce.module-attestation-manifest.v1"
+}

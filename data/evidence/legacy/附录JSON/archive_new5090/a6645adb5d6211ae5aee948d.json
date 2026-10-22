@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "records": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "bytes": {"minimum": 0, "type": "integer"},
+          "evidence_type": {"minLength": 1, "type": "string"},
+          "producer_tool_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+          "relative_path": {"minLength": 1, "type": "string"},
+          "schema_version": {"minLength": 1, "type": "string"},
+          "sha256": {"pattern": "[0-9a-f]{64}", "type": "string"}
+        },
+        "required": ["evidence_type", "schema_version", "relative_path", "sha256", "bytes", "producer_tool_sha256"],
+        "type": "object"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "schema_version": {"const": "loce.hardening004.raw-facts-index.v1", "type": "string"}
+  },
+  "required": ["schema_version", "records"],
+  "type": "object"
+}

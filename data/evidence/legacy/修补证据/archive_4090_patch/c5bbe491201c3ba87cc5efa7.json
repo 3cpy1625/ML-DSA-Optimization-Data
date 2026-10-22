@@ -1,0 +1,15 @@
+{
+  "time_utc": "2026-10-20T16:19:16.369155+00:00",
+  "gpu": {
+    "uuid": "GPU-e1d7ca80-3efa-99e7-80c8-7f473c926cdd",
+    "name": "NVIDIA GeForce RTX 4090",
+    "driver_version": "580.76.05",
+    "utilization.gpu": "7",
+    "memory.used": "1",
+    "temperature.gpu": "48",
+    "power.draw": "89.45",
+    "clocks.sm": "2715",
+    "clocks.mem": "10501"
+  },
+  "compute_processes": []
+}

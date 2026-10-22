@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "revision": "v3",
+  "output_dir": "D:\\学习\\密码技术竞赛\\报告\\outputs\\experiment_summary_20261021_v3",
+  "archive_count": 6,
+  "xlsx_sheets": [
+    "概览",
+    "主性能",
+    "消融对照",
+    "算子微基准",
+    "辅助诊断",
+    "正确性记录",
+    "实验目录",
+    "问题与边界",
+    "环境",
+    "来源索引",
+    "数据表索引"
+  ],
+  "excel_tables": 10,
+  "formula_count": 3,
+  "formula_errors": [],
+  "xlsx_data_cells_compared": 251859,
+  "sheet_rows": {
+    "主性能": 63,
+    "消融对照": 157,
+    "算子微基准": 4968,
+    "辅助诊断": 4926,
+    "正确性记录": 1722,
+    "实验目录": 60,
+    "问题与边界": 252,
+    "环境": 42,
+    "来源索引": 3039,
+    "数据表索引": 2039
+  },
+  "table_files_sha256_verified": 926,
+  "retained_table_source_records_verified": 2039,
+  "source_links_checked": true,
+  "main_performance_rows": 63,
+  "main_performance_unchanged_from_v1": true,
+  "main_performance_unchanged_from_baseline": "D:\\学习\\密码技术竞赛\\报告\\outputs\\experiment_summary_20261020_v2",
+  "supplement_rows": {
+    "正确性记录": 56,
+    "消融对照": 4,
+    "实验目录": 1
+  },
+  "patch_rows": {
+    "正确性记录": 402,
+    "实验目录": 4,
+    "指标": 43
+  },
+  "original_table_paths": 2022,
+  "derived_tables": 17,
+  "total_table_paths": 2039,
+  "zip_append_policy": "skip byte-identical member; reject differing existing member"
+}

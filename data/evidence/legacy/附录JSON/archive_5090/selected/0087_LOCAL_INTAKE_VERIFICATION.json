@@ -1,0 +1,869 @@
+{
+  "schema": "mldsa5090-e02b-stopped-local-intake-v1",
+  "status": "STOPPED_ARCHIVE_INTEGRITY_AND_31_RECORDED_CASES_VERIFIED",
+  "verified_utc": "2026-10-19T17:38:50.231154+00:00",
+  "run_id": "e02b-sanitizer-20261019T170912908000Z-657090",
+  "archive_bytes": 62574691,
+  "archive_sha256": "757d6817ae5e6d456fd8d16c624f28ffa5953526b6ce24a70879983a2b0c1f4a",
+  "included_files_verified": 596,
+  "binary_vector_files_verified": 246,
+  "uncompressed_bytes_including_manifest": 65048411,
+  "extracted_directory": "E:\\密码竞赛\\5090实验结果_20261019\\extracted\\e2b_657090",
+  "export_manifest_sha256": "0b8faa97e8f9cf9a1f6ac2a74bfe9561574213d74d215e86233c2856a0c551f1",
+  "full_e02b_sanitizer_pass": false,
+  "full_e02_complete": false,
+  "formal_performance_collected": false,
+  "planned_cases": 48,
+  "completed_cases_verified": 31,
+  "passed_cases_verified": 30,
+  "sanitizer_finding_cases_verified": 1,
+  "not_run_cases": 17,
+  "case_status_counts": {
+    "PASS": 30,
+    "SANITIZER_FINDING": 1
+  },
+  "case_artifacts_verified": 525,
+  "empty_message_sign_cases_verified": 8,
+  "all_31_application_blob_differentials_and_scoped_t12": "PASS",
+  "raw_sanitizer_logs_reparsed": 31,
+  "stopped_race_summary": [
+    14,
+    0,
+    14
+  ],
+  "idle_prechecks_verified": 32,
+  "gpu_busy_events": 1,
+  "completed_wait_seconds": 10.130279,
+  "toolchain_metadata_fact_count": 136,
+  "locally_available_upstream_files_rehashed": 59,
+  "upstream_files_not_downloaded_or_not_mapped": [
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/00_environment/TOOLCHAIN_RESULT.json",
+      "bytes": 1018,
+      "sha256": "760da9d13af36d7be127e1f390ec207d4906aa2037bf2c83acd0db9ea3efa793"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/00_environment/GPU_SMOKE_RESULT.json",
+      "bytes": 866,
+      "sha256": "1767bc56f56de1f16ce01963f1046068df33f4b4d9b4fc02880b786353274596"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/build/mldsa44_keygen/native_mldsa44_keygen_adapter_test",
+      "bytes": 237128,
+      "sha256": "9c888ed16b6c147eedf54cac1787f9d38982eeae55e3f2a819b221b4533934c6"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/build/mldsa44_keygen/libloce_mldsa44_keygen_d3_sm120.so",
+      "bytes": 12612352,
+      "sha256": "b45d32d1936733909a6dfb306fc60f256754d9b5ef7b1f8e8fa7b66bf53ebe87"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/01_build/pqmagic/libpqmagic_std.a",
+      "bytes": 238294,
+      "sha256": "e0bac251d8a2371a0019d6290198d1be59e3d7e4a2e43b1b3a228dc5d88a85de"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/build/mldsa44_sign/native_mldsa44_sign_adapter_test",
+      "bytes": 270304,
+      "sha256": "85cd3fe906bc29268e8c228aff09de5a2ffc951f2a7bdeac3c50b3abd5878794"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/build/mldsa44_sign/libloce_mldsa44_sign_d4_sm120.so",
+      "bytes": 10175720,
+      "sha256": "fcde2d6f3c6a12fbc722f86f081edbcac6ddc45303e404c5d57325722ce3063b"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/build/mldsa44_verify/native_mldsa44_verify_adapter_test",
+      "bytes": 233440,
+      "sha256": "51d09ceaac8ab8d6882eb9fcdb7ae820fb35a819ce4913a1c336286e5df2c67c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/build/mldsa44_verify/libloce_mldsa44_verify_d3_sm120.so",
+      "bytes": 12607632,
+      "sha256": "84ebc01d4b2e7e25b956ace64a6a341b1e1b942a99e7c1cf2f69b3098dd2146d"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/build/mldsa65_keygen/native_mldsa65_keygen_adapter_test",
+      "bytes": 224840,
+      "sha256": "163c0dd1c26f99b27638805bb2f3b19bfa89b61de488c6e54a51d4fceddc39f0"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/build/mldsa65_keygen/libloce_mldsa65_keygen_d3_sm120.so",
+      "bytes": 7678240,
+      "sha256": "92aebb3c6166595c484353f6e8f9743e2bc6dea984a855737c754d2e7caa20b0"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/build/mldsa65_sign/native_mldsa65_sign_adapter_test",
+      "bytes": 258016,
+      "sha256": "98533f2247a8916359fdac2c84ce286a8f7fb89fcd2a5d7a9d86781508d064bc"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/build/mldsa65_sign/libloce_mldsa65_sign_d4_sm120.so",
+      "bytes": 6159056,
+      "sha256": "6d753de7c0c701c4382be87b900edd5646e59bf13aac0208527390c9750522e1"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/build/mldsa65_verify/native_mldsa65_verify_adapter_test",
+      "bytes": 225248,
+      "sha256": "0ee0470266dc8d7347b895d7897497e2264b77ee2a2950e3f77bc6d308f8a225"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/build/mldsa65_verify/libloce_mldsa65_verify_d3_sm120.so",
+      "bytes": 6558320,
+      "sha256": "17fcff64fcd9c6dc45017539e7abaca0907899ae76a54d082ea44dc3f7b83eaf"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/build/mldsa87_keygen/native_mldsa87_keygen_adapter_test",
+      "bytes": 228936,
+      "sha256": "e0a2c341c60e94a8f51fb5f9a3622581835550d43c155e6e1386b1484f206c9e"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/build/mldsa87_keygen/libloce_mldsa87_keygen_d3_sm120.so",
+      "bytes": 13911520,
+      "sha256": "c66c6da33e10b17f0059eec8cec2baab358e497608ee024a264f7edffc769b28"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/build/mldsa87_sign/native_mldsa87_sign_adapter_test",
+      "bytes": 266208,
+      "sha256": "c1447dad5a304c3934b56c242eb244e940c631c0bf5f95e9fb40f6bfdebe750a"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/build/mldsa87_sign/libloce_mldsa87_sign_d4_sm120.so",
+      "bytes": 10675984,
+      "sha256": "5a10c48b4465443b8256c9b22ef4fe8f6c4f944f0deda459cdb76a43cf48b2f8"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/build/mldsa87_verify/native_mldsa87_verify_adapter_test",
+      "bytes": 229344,
+      "sha256": "74d34f4e37e11de6c6cfaae5db752002e78bf5b9ec2509b25aadd1d2484493dc"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/build/mldsa87_verify/libloce_mldsa87_verify_d3_sm120.so",
+      "bytes": 11755232,
+      "sha256": "7ac3a48de46eba6a177cc99168f424a6b1050952f546b72afd5c379e1d729e87"
+    },
+    {
+      "path": "/usr/bin/python3.12",
+      "bytes": 8020928,
+      "sha256": "e50d468e8b0adfb05733f5b87b3cff34829c4a8c1aea50c865aa8bdfe4bb150f"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/bin/nvcc",
+      "bytes": 27515496,
+      "sha256": "df9974db233a0b7a6c6d59c0e5d74e011566104098bcb3553495ff1b95bdeaf6"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/python312/bin/cmake",
+      "bytes": 197,
+      "sha256": "ba35b58f6fb04c1a539974a03c4b8ca616be0b24850a3ccdfa10dfae07ed8419"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/python312/bin/ninja",
+      "bytes": 1085448,
+      "sha256": "94f5318756260447ffb88d0bc31b67dbc07119f1dc0c8dc2cb58ea575a471025"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/compute-sanitizer",
+      "bytes": 7497584,
+      "sha256": "979adf037f4e3434a976b7f0912b0a05ce3b062e31b2a73397a1bf1cd5f57547"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/bin/compute-sanitizer",
+      "bytes": 112,
+      "sha256": "5cba659e1cd603aa2370e103425f184368e6ed405da90ce85743c4399c324dbc"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/TreeLauncherSubreaper",
+      "bytes": 654976,
+      "sha256": "cd8290036a05b14fa5cb764337ecf71bcc317f34e72aac440ba208d89f4ddf25"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/TreeLauncherTargetLdPreloadHelper",
+      "bytes": 14400,
+      "sha256": "5edd18d99b5826e8ae1b0e70541f584a1b582490f7f0c9feb43a768f51869755"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/ComputeSanitizer/index.html",
+      "bytes": 175295,
+      "sha256": "75028b7982b1eecfd1120ca73fa068ca332731f60b104402377274663afac731"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/CopyrightAndLicenses/index.html",
+      "bytes": 58423,
+      "sha256": "fbc4129948cc3370c3c12ebd1627d64a6e8d98b9962edcc1904ba1f224930ab5"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/ReleaseNotes/index.html",
+      "bytes": 52630,
+      "sha256": "cce8a8afd8deb7cf4b4ce861efd4e6b7bd8886a42ca67d1e32ccd6c1bc0ef3b2"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/SanitizerApi/table-of-contents.html",
+      "bytes": 9059,
+      "sha256": "7b6a5017c7cfea8e60632b4f5c9963c889b709ebf2ecb5c40cfbc0c96a5e5be7"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/SanitizerApiGuide/index.html",
+      "bytes": 45656,
+      "sha256": "9f67b562154cfe551ac87e4db6aac8dbf27852ae45f7a95fc327e678559208ac"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/SanitizerNvtxGuide/index.html",
+      "bytes": 67520,
+      "sha256": "2e5c35d08a224bb9938cb3b238409e9909e43c51a87d967213fe4bf1c64909af"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/VERSION",
+      "bytes": 7,
+      "sha256": "53161a16d7735f5e5724faa5d6b07f8c1dc68c761cfc7fb6ba2a47d48e831974"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_images/no-padding.png",
+      "bytes": 4055,
+      "sha256": "aeb8c47be35e661ac11ff85fa78bcf06a3bb3b234f76485c2c8d52c06a531fd9"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_images/padding.png",
+      "bytes": 3753,
+      "sha256": "5160e3867cad691809961c68fa90b83022f3e20d6f2410176f910b85256956c2"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_images/use-after-free.png",
+      "bytes": 73869,
+      "sha256": "03cbd67be9b6a84bfb132765dc1c622d7055de94aeb55efc804dc9a95f9eade4"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_images/use-before-alloc.png",
+      "bytes": 73157,
+      "sha256": "7bf5f067837b00c4963a61bca2c59b62c4af4996ba2dd288fd46d2fb8439e69d"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_sphinx_design_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css",
+      "bytes": 48386,
+      "sha256": "35ef98809846a30b25ae6f30881f451a1d4ae9fabdc409eed05d502b724d33c6"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_sphinx_design_static/design-tabs.js",
+      "bytes": 770,
+      "sha256": "00a9989c6d54254f32a37e50c7bbc5dab737674231aa2553421f4939624b23e3"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/Logo_and_CUDA.png",
+      "bytes": 128602,
+      "sha256": "6e9f6a6532d666e24e3a6eb33611991618f4920e45e3a1f18cf5f02cbfb9a308"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/NVIDIA-LogoBlack.svg",
+      "bytes": 2494,
+      "sha256": "2b3902d0845adc134d656d464864abd3802a3e09bace5fc70a3c146894648c2a"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/NVIDIA-LogoWhite.svg",
+      "bytes": 3722,
+      "sha256": "ef126c03f44ba0184e158ddc9a177e8adb3f3c175ca80aea3be30d3ca8eb1126"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/api-styles-dark.css",
+      "bytes": 1449,
+      "sha256": "cdbb2149e908ca91a86f3c9c17bac9b94e96945f3c6f824b69256742a086c5d7"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/api-styles.css",
+      "bytes": 2436,
+      "sha256": "df38c2631c3d9de6cc0a2a336f27ee6c13d67f8bfb1cb98267db3cb94c700645"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/basic.css",
+      "bytes": 14692,
+      "sha256": "55e3151630469fe605cc1730536cc11c0f3c5685796f4ea1392c24709b094386"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/css/badge_only.css",
+      "bytes": 3275,
+      "sha256": "c4050fa47d8bb6297c79811f663e6cfa32cb6b783b47eaeddd6ba50d5cf1a666"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/css/fonts/Roboto-Slab-Bold.woff",
+      "bytes": 87624,
+      "sha256": "9fec87cadbe2413b255f1ec577573a83f1ca2e1c37aa023dbebcd3a7b864636a"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/css/fonts/Roboto-Slab-Bold.woff2",
+      "bytes": 67312,
+      "sha256": "1a0c024dd1a267c52d5575469ffe8570d1e84164de7d393cf3414bafd17d7a0c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/css/fonts/Roboto-Slab-Regular.woff",
+      "bytes": 86288,
+      "sha256": "9f32630e2c0c5135bf1e86e36cb65b3932e4410644235bc2bd995e9c7f6ff117"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/css/fonts/Roboto-Slab-Regular.woff2",
+      "bytes": 66444,
+      "sha256": "874e42222856d7af03b3f438d21d923a4280d47fe67c48510e2174a1579795ef"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/css/fonts/fontawesome-webfont.eot",
+      "bytes": 165742,
+      "sha256": "7bfcab6db99d5cfbf1705ca0536ddc78585432cc5fa41bbd7ad0f009033b2979"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/css/fonts/fontawesome-webfont.svg",
+      "bytes": 444379,
+      "sha256": "ad6157926c1622ba4e1d03d478f1541368524bfc46f51e42fe0d945f7ef323e4"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/css/fonts/fontawesome-webfont.ttf",
+      "bytes": 165548,
+      "sha256": "aa58f33f239a0fb02f5c7a6c45c043d7a9ac9a093335806694ecd6d4edc0d6a8"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/css/fonts/fontawesome-webfont.woff",
+      "bytes": 98024,
+      "sha256": "ba0c59deb5450f5cb41b3f93609ee2d0d995415877ddfa223e8a8a7533474f07"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/css/fonts/fontawesome-webfont.woff2",
+      "bytes": 77160,
+      "sha256": "2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/css/fonts/lato-bold-italic.woff",
+      "bytes": 323344,
+      "sha256": "980c8592e5488df256192c999e92db8fd302db8cd8909b7fa266a684e37e45f8"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/css/fonts/lato-bold-italic.woff2",
+      "bytes": 193308,
+      "sha256": "c0916a33340d063f7b05679e08031e729d1888444706f04804705da5966d895d"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/css/fonts/lato-bold.woff",
+      "bytes": 309728,
+      "sha256": "0e56b17d142eb366c8007031d14e34da48c70b4a9d9a0ca492e696a7bae45e1e"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/css/fonts/lato-bold.woff2",
+      "bytes": 184912,
+      "sha256": "ae88fc0d7a961832f809527d30bd3983a6866d42f66a56ade23f543681594db6"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/css/fonts/lato-normal-italic.woff",
+      "bytes": 328412,
+      "sha256": "26318a1467a5e5caf10b04cfa942d079632560cd7a29cec565fd1dc9f7ec5081"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/css/fonts/lato-normal-italic.woff2",
+      "bytes": 195704,
+      "sha256": "4465765f2f6eddcdad34ffd7cab559e56bc0e75e45e192f85e9562b0771481dc"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/css/fonts/lato-normal.woff",
+      "bytes": 309192,
+      "sha256": "5b9025dda4d7688e3311b0c17eddc501133b807def33effaef6593843cf5416e"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/css/fonts/lato-normal.woff2",
+      "bytes": 182708,
+      "sha256": "983b0caf336e8542214fc17019a4fc5e0360864b92806ca14d55c1fc1c2c5a0f"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/css/theme.css",
+      "bytes": 129674,
+      "sha256": "af78284d3c7a8ab0917208ddc2a71854d4b552802104a7146f8705dca8dd88d1"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css",
+      "bytes": 48386,
+      "sha256": "35ef98809846a30b25ae6f30881f451a1d4ae9fabdc409eed05d502b724d33c6"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/design-tabs.js",
+      "bytes": 770,
+      "sha256": "00a9989c6d54254f32a37e50c7bbc5dab737674231aa2553421f4939624b23e3"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/doctools.js",
+      "bytes": 10766,
+      "sha256": "b5cad4208b5895e6182a3d6ba2a28c38ba4c3ed7ddff4635839aa430eee59614"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/documentation_options.js",
+      "bytes": 424,
+      "sha256": "76fed2baa9b3f4e5a22ab4e573ad6606569dbd839aa75459effe64df993f8b1a"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/favicon.ico",
+      "bytes": 25214,
+      "sha256": "bedcb14e0470ff8abe26405a630e9604ac4fa581b385a7cfb00420c22f541b6e"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/file.png",
+      "bytes": 286,
+      "sha256": "5c4bc9a16aebf38c4b950f59b8e501ca36495328cb9eb622218bce9064a35e3e"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/jquery-3.5.1.js",
+      "bytes": 287630,
+      "sha256": "416a3b2c3bf16d64f6b5b6d0f7b079df2267614dd6847fc2f3271b4409233c37"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/jquery.js",
+      "bytes": 89476,
+      "sha256": "f7f6a5894f1d19ddad6fa392b2ece2c5e578cbf7da4ea805b6885eb6985b6e3d"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/js/badge_only.js",
+      "bytes": 934,
+      "sha256": "f0a4808d04c4d55378751ac096a8376b64b1a704c82584b0ee590212cf413013"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/js/html5shiv-printshiv.min.js",
+      "bytes": 4370,
+      "sha256": "b42a7e949a6e21d66b30fbbb4a22deafd9e0ccabc04f0fa2907fc6252fdf165f"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/js/html5shiv.min.js",
+      "bytes": 2734,
+      "sha256": "f6e0283561ddb33b140e14977ffad57163aa28f7e2e7ff15e51e1475b6657b60"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/js/theme.js",
+      "bytes": 5023,
+      "sha256": "536ad2d746e944c5570cc15badaeccc3c0582a1b66e45511fe4edce32b6da510"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/language_data.js",
+      "bytes": 325,
+      "sha256": "661af9e0ff14a7031d97977920de438313c4649f7fa9998702c9dba550dd4f59"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/lunr.min.js",
+      "bytes": 29510,
+      "sha256": "0c50d9002b85780a842afffb567bb54ede402dae7c6dc5997a018614d8044fc8"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/lunr_search.js",
+      "bytes": 6431,
+      "sha256": "3dccf11ee1a394d2581fbd87ec66c0f6d74be6a3ca302d6d446d29526a8d0395"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/main_ov_logo_rect.png",
+      "bytes": 57423,
+      "sha256": "b15c15d30ac536c3fc4401c8d10abb699dc5b421d68ef6b394dfb4c617933dda"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/main_ov_logo_square.png",
+      "bytes": 195331,
+      "sha256": "06b7ba35792a640bf5725c179b84750d5ab670a88ccc94a8b4360997c08c19b8"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/mermaid-init.js",
+      "bytes": 1293,
+      "sha256": "965280720746f4b5e8053dd059e114dacf87afe6ee4ff4214f2dbf9fb472f75c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/minus.png",
+      "bytes": 90,
+      "sha256": "47e7fc50db3699f1ca41ce9a2ffa202c00c5d1d5180c55f62ba859b1bd6cc008"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/omni-style-dark.css",
+      "bytes": 13790,
+      "sha256": "609a8dae3687e60dc742381d1a5517bd4fb3ebb551cdf32666a04efd55bd3813"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/omni-style.css",
+      "bytes": 52062,
+      "sha256": "52d65531aa8374b98926bdf0a276d12ee3b931af3a75f7c9fcf272a90ed4d1f0"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/plus.png",
+      "bytes": 90,
+      "sha256": "54115199b96a130cba02147c47c0deb43dcc9b9f08b5162bba8642b34980ac63"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/pygments.css",
+      "bytes": 4819,
+      "sha256": "f82f422053b4413684181f281e3cfcc2e84bea525d66feb8116f9dbe8674fcc2"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/searchtools.js",
+      "bytes": 16634,
+      "sha256": "d6b5ee21edd7b46c029c5111326719dcec5c5f52368704a93b2d6485cb22414c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/social-media.js",
+      "bytes": 2595,
+      "sha256": "e49a6d45629abf7c28ff76c9897de383a61372dc18fa344a048d2061c3024778"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/theme-setter.js",
+      "bytes": 1713,
+      "sha256": "d6feb784f694a13844bef039ad96fe3854ba23cea8f85f6313733af104d6332a"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/theme-switcher-general.css",
+      "bytes": 900,
+      "sha256": "cfaf6ac2d70d331348a3f0652ab7b25a3689c003c040e4b1ec90be2702dc2c3a"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/twemoji.css",
+      "bytes": 103,
+      "sha256": "79f024cf4b763993639a7db8d2951b43e6a61619a50bc4fa92e3d3e20ccf8363"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/twemoji.js",
+      "bytes": 332,
+      "sha256": "4c98db8e2416f696e9805f90294c56fae45c71f1cae843c25d69c28087ad691b"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/underscore-1.13.1.js",
+      "bytes": 68420,
+      "sha256": "cc10f799cd0f6b65f95c4012445497e5ba3cb9f51964a9468940b27bde98b487"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/underscore.js",
+      "bytes": 19530,
+      "sha256": "218fb1c1fc72e9af6b866f430be2a67fa376392b4db2f4dbf32772671b6ae55c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/_static/version.js",
+      "bytes": 7384,
+      "sha256": "719f36d8c2326d7d7e169ffed4bbdb7541b3bf2475b952235fbbe89507b4c401"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/group__SANITIZER__BARRIER__API.html",
+      "bytes": 10465,
+      "sha256": "1100cd810bf2d2bee5d76565b5265d2ea8cbced7f55fa944805bb8593ffb05bb"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/group__SANITIZER__CALLBACK__API.html",
+      "bytes": 179170,
+      "sha256": "8ec05684aa94a59afb60a3d9cd08b04526e37810c30e66fca62e58acb7eb8c76"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/group__SANITIZER__MEMORY__API.html",
+      "bytes": 25687,
+      "sha256": "a333a3df78e036625b7b5cd4dba66b92d155f1c1d9034cfbb5727d13e61d12c3"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/group__SANITIZER__PATCHING__API.html",
+      "bytes": 228182,
+      "sha256": "dba7a092b4a084238262756911453bf0d3769f080eccdfde59d3405e205768b2"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/group__SANITIZER__RESULT__API.html",
+      "bytes": 26840,
+      "sha256": "9834eb2b5c221e001529abae3ef07d42f6d69e34da855852d3349dd71e41898a"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/group__SANITIZER__STREAM__API.html",
+      "bytes": 17190,
+      "sha256": "deaf742874d0f3b69c00b94a90da520cc8a4aae847b45e950be834be25a01ce4"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/modules.html",
+      "bytes": 8840,
+      "sha256": "06570d16ca7ca49a1ca559d2b780de9960bb097a6556902665297db7a4722a51"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/structSanitizer__BatchMemopData.html",
+      "bytes": 15660,
+      "sha256": "693f62cf46920c29d78d84fbc1e1eff4fba44fd42118c78bc576b4381ae0012c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/structSanitizer__CallbackData.html",
+      "bytes": 18102,
+      "sha256": "03ccab6e51fd146ee94b0f94d7e81a0340c97a5eb8c12af6828668f9681e6dfc"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/structSanitizer__EventData.html",
+      "bytes": 14230,
+      "sha256": "3bae15d032db269ebec7e32133e73303161242f6f05cf5dbcb07d43c86aa2c08"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/structSanitizer__ExternalMemoryData.html",
+      "bytes": 15008,
+      "sha256": "41239d6cd96b6626f5432665a41c3e1a6b0fedd7f2310126bf47e6b377c7b3ee"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/structSanitizer__GraphExecData.html",
+      "bytes": 15509,
+      "sha256": "98e39d536681f443ad3198b20d9d8f4aeddd5c214ebbe45fadd9618383a7f038"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/structSanitizer__GraphLaunchData.html",
+      "bytes": 15205,
+      "sha256": "d754cd0be3d920726443640a00dc4d059a05b4fbab6db9cb5702ed5b001c5132"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/structSanitizer__GraphNodeLaunchData.html",
+      "bytes": 20951,
+      "sha256": "8e0b03f69105d2d5fd8f2356fb00db80d8b25638dea62297cdff01b7006d921b"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/structSanitizer__LaunchData.html",
+      "bytes": 27242,
+      "sha256": "b11ddece1de1259f7b041c4ffc0ca3868174a0664995be33c3d5085cddd12fc2"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/structSanitizer__MemcpyData.html",
+      "bytes": 25518,
+      "sha256": "e9499a03e34d2678f7fb4c728b9c10f1ab3010f589468e75d4b91495731e22ac"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/structSanitizer__MemsetData.html",
+      "bytes": 18118,
+      "sha256": "3cf4cb54725d903608836de671d163838a20fdd6a1548930ece40b07a96f1d39"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/structSanitizer__ResourceArrayData.html",
+      "bytes": 14847,
+      "sha256": "32b3ad1976b046198f7ab1e492c9ca8ccf5f003a2afbe6126ffcb29d1a5475cd"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/structSanitizer__ResourceContextData.html",
+      "bytes": 12992,
+      "sha256": "d784f032fef3a0b37d2dde9e1794e50e64b5ae83908f2f225246c6eca4b511dd"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/structSanitizer__ResourceFunctionsLazyLoadedData.html",
+      "bytes": 14887,
+      "sha256": "4137ec621f7d61fba6326f7d75545ebc0b77d75b92d15342f60b5d7ec89d13a2"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/structSanitizer__ResourceMemoryData.html",
+      "bytes": 20926,
+      "sha256": "993a75ba90c61641fcac375b8122ff614f22dd7c9883f123746ed11af65badf9"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/structSanitizer__ResourceMempoolData.html",
+      "bytes": 13803,
+      "sha256": "cac07bdab172e15f1c8463dc3ba871602a902c708fba591c114c9c5aa8bb737d"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/structSanitizer__ResourceModuleData.html",
+      "bytes": 15150,
+      "sha256": "fa03fd7d2130138192f2a676fcd16b493772db8459237534272a9e907ad76c01"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/structSanitizer__ResourceStreamData.html",
+      "bytes": 13793,
+      "sha256": "39d0380f0a71d8a58420b712a59ff38c9f9970ef6581e5c78dfb39a5daaf2f53"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/structSanitizer__ResourceVirtualRange.html",
+      "bytes": 12804,
+      "sha256": "c41900a433ebd87e0767a7b82bce70305ceb9f5e5d9b1ac13e13b4bf5e438ab5"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/structSanitizer__SynchronizeData.html",
+      "bytes": 13614,
+      "sha256": "b9be06877029ca7b12a11a6a7cb3cdf8bd19d82fcdf010e83ee11ee8b344747e"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/structSanitizer__UvmData.html",
+      "bytes": 14845,
+      "sha256": "64fd1d42f95fcaf9ca0b54d43f5969648fc9359ec3a689578be2f03017e02c0d"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/api/structs.html",
+      "bytes": 14234,
+      "sha256": "f362b507cfb60a5042486d1d204dc90e10578afa9406a98e8d7bba5bb48a2de7"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/content/notices.html",
+      "bytes": 7281,
+      "sha256": "5d305694c0765d08ac62e9b9ece0531279b7a86a91087cfa9df43fa63cc509e6"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/genindex.html",
+      "bytes": 96109,
+      "sha256": "26e983dc816aebfd76d3b5f2f9c92c196ad06d1b746a999569ecd31c2c0168e1"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/index.html",
+      "bytes": 7744,
+      "sha256": "9af814b4466bb325add59760a21479b8f3e939d3c91f3cc55bb79045002e4f49"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/objects.inv",
+      "bytes": 22079,
+      "sha256": "08170935461b376c004935af167344d29f0522985f43b24fce5e2227ad0fd0be"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/project.json",
+      "bytes": 50,
+      "sha256": "8494e4c1c663b438d87c8f9390c3150bd08ec6a3c0f8633c140b5ff2eb82006b"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/search.html",
+      "bytes": 5970,
+      "sha256": "f7284500c66cef148dbe89c54b81bd0e0ccc691eb9803191c0842eefc4255c89"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/docs/searchindex.js",
+      "bytes": 785898,
+      "sha256": "ea52dd69268f3029d595f02e7fef7afada6e7df30ad6314e235775e9521afabd"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/include/generated_cudaGL_meta.h",
+      "bytes": 3115,
+      "sha256": "75f77642e6917448db4ad38abda40b8b531dfeaae945087c3dfc99ce727c6d66"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/include/generated_cudaVDPAU_meta.h",
+      "bytes": 1453,
+      "sha256": "7c079db28431694de12000290160ce2ac6bd92072e430e2d7727fc9252e6fb79"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/include/generated_cuda_gl_interop_meta.h",
+      "bytes": 2252,
+      "sha256": "4483836263fb7409a044f423e9cd30323a051d4c4112a5398a34a2f2d76b0c87"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/include/generated_cuda_meta.h",
+      "bytes": 89953,
+      "sha256": "9b2e2fa1fee51359f03f4f404609c4c6521040882af0fc5ab66d6679b78cc0db"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/include/generated_cuda_profiler_api_meta.h",
+      "bytes": 562,
+      "sha256": "e1cf470c82fdf901ee4999b28384f50fd3e1884eb01da17a9ee8e6cf4e9c1139"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/include/generated_cuda_runtime_api_meta.h",
+      "bytes": 72244,
+      "sha256": "c8920dae3489c97259e36d8dc9f9c64df17c605ede3d5d57ae9cc307c4d59e1e"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/include/generated_cuda_vdpau_interop_meta.h",
+      "bytes": 1369,
+      "sha256": "d8169b21ae90c12259ccf5c35d20c162a591a53b7acec786d3b1c445a70203c9"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/include/sanitizer.h",
+      "bytes": 3446,
+      "sha256": "c08737d830082b56f4cbcfd78b8fb0d74c3aec6ac34b6a1c2d7001d06f5f778c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/include/sanitizer_barrier.h",
+      "bytes": 3709,
+      "sha256": "925cdb09dc957972ce451acd9e311f83275cf7c6089274194a0a75652561bf48"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/include/sanitizer_callbacks.h",
+      "bytes": 57744,
+      "sha256": "495b2790f24ffe340d7cc1d69683c4a1ac6cad611e62f059f464e50956650baf"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/include/sanitizer_driver_cbid.h",
+      "bytes": 76698,
+      "sha256": "37d42f68617d1d4d7b39d70815d0ff0e58d317c03182ce7945c6c7efe0cdb59f"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/include/sanitizer_memory.h",
+      "bytes": 7343,
+      "sha256": "32d5684ff17d7e1c083dea19d20ab6a6e84a7585ff0e89e7102f47f7a2e70b16"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/include/sanitizer_patching.h",
+      "bytes": 48107,
+      "sha256": "66d6f509d440395c490331b571e04a69c83cfa339e7063e4024d0c2469ca9e48"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/include/sanitizer_result.h",
+      "bytes": 6007,
+      "sha256": "8ae49f03f525fdac50ed6db98273461dbf43a42624802e3a1317111567de9466"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/include/sanitizer_runtime_cbid.h",
+      "bytes": 46908,
+      "sha256": "de1b6752951037b3eca113b9352624d26c28dbe7fe19cce8739afaf323798a29"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/include/sanitizer_stream.h",
+      "bytes": 4786,
+      "sha256": "1e955cdd502a3cf494ec37134cb34a8b6e8c5a252d8787a03a9a10ed93e3493d"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/libInterceptorInjectionTarget.so",
+      "bytes": 778160,
+      "sha256": "cd0f893ac96686041a491ed6d659b92eafbc0fb20cde277da6516df6e9162bd0"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/libTreeLauncherPlaceholder.so",
+      "bytes": 13920,
+      "sha256": "103cca7862a0190a3f926bab041f2bad588367b07c522f3784eb72aa77a558f0"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/libTreeLauncherTargetInjection.so",
+      "bytes": 2795560,
+      "sha256": "0207845591414544c12b2777927441f6ce9211de93209ef7020545f5738e5fa4"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/libTreeLauncherTargetUpdatePreloadInjection.so",
+      "bytes": 1031696,
+      "sha256": "d6cfa81139905bf57f689335819994dd87f189886b6e77a6588e296953a2398f"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/libsanitizer-collection.so",
+      "bytes": 11027784,
+      "sha256": "8291d356c23fdec70e060a10ed380271a5a3fafc31c41f1a80460bb696925451"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/libsanitizer-public.so",
+      "bytes": 2349616,
+      "sha256": "9857628417b11e54f02c13e071f51e5d914cd3d3e830da10dcf2fd05e847f108"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/x86/TreeLauncherSubreaper",
+      "bytes": 723236,
+      "sha256": "7128dc79cc873248ece69c3acbd8e435c7e41467a782f5cfeb4abcfe1bd84159"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/x86/TreeLauncherTargetLdPreloadHelper",
+      "bytes": 13756,
+      "sha256": "42265974a6b853c0002d67370de6654ba919e193beaca1d9d95950ae7d0150a4"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/x86/libInterceptorInjectionTarget.so",
+      "bytes": 805248,
+      "sha256": "a4cff2b5e1332a0dc22ef64e143303ea2d37ba4b9c3ad41123302ab2cc2bad22"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/x86/libTreeLauncherPlaceholder.so",
+      "bytes": 13384,
+      "sha256": "3a149aa457a945eb89166c88c4fff15117dc2dbe883676b0fd7efd81aae5dcb4"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/x86/libTreeLauncherTargetInjection.so",
+      "bytes": 2958756,
+      "sha256": "d7c513da17b258959f39d13b6237fbd1dac6823869be0a4155f6fec4dd35585c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/x86/libTreeLauncherTargetUpdatePreloadInjection.so",
+      "bytes": 1075392,
+      "sha256": "337eb9dcda99c78db3d2206d29b66e4423bf0241019ca38622e763de50440a4d"
+    }
+  ],
+  "limits": [
+    "Only the exact nine V3 adapter executables/modules are reused; nothing is rebuilt.",
+    "48 processes: three levels x KeyGen17, Verify17, Sign256-msg0, Sign256-msg32 x four tools.",
+    "One new deterministic seed for KeyGen/Sign; Verify retains its fixed generated corpus.",
+    "PQMagic SHAKE is the sole CPU oracle. Official KAT and independent PQClean remain NOT_RUN.",
+    "Only LOCE_H008_SANITIZER_MODE=1 is set; D3/D4 sanitizer modes are absent.",
+    "Host T12 remains executed; unrelated-stream nonserialization/two_streams_scope is SKIPPED under instrumentation.",
+    "Sign device T12 remains executed. Compiled-out raw-donor/canary and unavailable audit checks retain their original limits.",
+    "racecheck checks shared-memory hazards only; it is not a global-memory race proof.",
+    "Default initcheck scope is used; unused-memory, full leak-check and custom padding are NOT_RUN.",
+    "No forced blocking launches, synchronization limits, kernel filters or suppression files are added.",
+    "Tool errors, unsupported execution, missing summaries, timeouts and interruptions are never PASS.",
+    "GPU_BUSY prechecks alone may wait: 15 minutes each, 30 minutes total; algorithm/tool cases are never retried.",
+    "Fail-fast on a non-PASS case; all files are preserved and all unstarted cases remain NOT_RUN.",
+    "M65 group-stop ON/OFF, mixed rejection, other E02 boundary drivers and full E02 remain separate work.",
+    "All application and process timings here are diagnostic only; no formal performance data is collected.",
+    "Upstream binary/vendor files absent locally are metadata-bound only; they are not rehashed or executed here."
+  ]
+}

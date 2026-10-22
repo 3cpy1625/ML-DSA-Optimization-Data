@@ -1,0 +1,26 @@
+{
+  "status": "SHAKE_SAMPLING_MATRIX_PASS",
+  "run_id": "20261019T212354751706Z-7354f3aa",
+  "started_utc": "2026-10-19T21:23:54.753653+00:00",
+  "limits": [
+    "Standalone operators using sealed donor Keccak and scalar-comparator sources; original nine DSOs are neither modified nor loaded.",
+    "Sampling uses the same lane-zero parser in both backends; this isolates Keccak state mapping, not ballot-compaction performance.",
+    "Kernel event times include output initialization, decoding and trace writes; no end-to-end production-module speedup is established.",
+    "ON/OFF changes this audit harness only. OFF uses eight squeeze blocks, rather than a production-module early-stop configuration.",
+    "Forced-rejection cases are synthetic refill/exhaustion fixtures, not normal FIPS vectors.",
+    "256 deterministic input rows are tiled across each batch; empty-input SHAKE has one unique row. Three processes reuse the same corpus.",
+    "All requests/bytes and counters are checked before and after each timed variant; individual intermediate timed outputs are not separately checked.",
+    "Shared stage lock and pre/post idle GPU samples are used; continuous exclusive GPU use is not claimed.",
+    "CPU-only self-tests do not establish CUDA compilation or device correctness; those must pass on the server before acceptance."
+  ],
+  "counts": {
+    "timing_samples": 15390,
+    "process_variant_rows": 1026,
+    "cell_variant_rows": 342,
+    "paired_ratio_rows": 234,
+    "processes": 27,
+    "check_records": 2538
+  },
+  "original_identity_final": "UNCHANGED",
+  "completed_utc": "2026-10-19T21:31:05.633415+00:00"
+}

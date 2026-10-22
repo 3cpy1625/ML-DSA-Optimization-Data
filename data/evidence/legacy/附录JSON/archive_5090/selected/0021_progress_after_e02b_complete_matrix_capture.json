@@ -1,0 +1,17 @@
+{
+  "recorded_utc": "2026-10-19T19:50:56.402729+00:00",
+  "current_category": "E02",
+  "run_id": "e02b-complete-matrix-20261019T194848151296Z-699841",
+  "status": "CONSOLE_REPORTS_21_NEW_CASES_AND_MIXED48_PASS_RAW_INTAKE_PENDING",
+  "receipt": {
+    "path": "server_results/e02b_complete_matrix/e02b-complete-matrix-20261019T194848151296Z-699841/DOWNLOAD_EXPECTED.json",
+    "bytes": 1202,
+    "sha256": "63676d53d402f09e5d77ae0e2587289339b1b355e93fed89f4a67141ca2c84e1"
+  },
+  "new_checks_reported_complete": 21,
+  "next_action": "DOWNLOAD_AND_VERIFY_FULL_MATRIX_ARCHIVE",
+  "next_candidate_expanded_correctness_checks": 18,
+  "full_e02_complete": false,
+  "formal_performance_collected": false,
+  "total_remaining_individual_experiments": "NOT_YET_FULLY_ENUMERATED"
+}

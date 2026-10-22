@@ -1,0 +1,29 @@
+{
+  "schema": "mldsa5090-e02a-local-intake-verification-v1",
+  "status": "E02A_ARCHIVE_ALL_FILES_AND_234_CASES_VERIFIED",
+  "verified_utc": "2026-10-19T16:36:19.499921+00:00",
+  "run_id": "e02a-wait-v2-20261019T160026995225Z-642542",
+  "archive_sha256": "fed209afbabcf41fabea0e6c482ddd358c5ccd8c4967c94658686d0ac21b50ab",
+  "archive_bytes": 1176633649,
+  "included_files_verified": 3830,
+  "uncompressed_bytes_including_manifest": 1445876398,
+  "binary_vector_files_verified": 1710,
+  "extracted_directory": "E:\\密码竞赛\\5090实验结果_20261019\\extracted\\e2v2_642542",
+  "export_manifest_sha256": "104a7b370a86e73373aaf9dfde6d8ab7b244ccb944236bcd3c0cfcc27d9cc038",
+  "formal_performance_collected": false,
+  "full_e02_complete": false,
+  "passed_cases_verified": 234,
+  "cell_count": 9,
+  "case_counts": {
+    "keygen": 135,
+    "sign": 54,
+    "verify": 45
+  },
+  "case_artifacts_verified": 3348,
+  "empty_message_sign_cases_verified": 27,
+  "idle_prechecks_verified": 235,
+  "gpu_busy_events": 1,
+  "completed_wait_seconds": 10.216091,
+  "independent_blob_size_and_byte_differential_validation": "PASS",
+  "reference_scope": "PQMagic SHAKE only; official KAT/PQClean/sanitizer not claimed"
+}

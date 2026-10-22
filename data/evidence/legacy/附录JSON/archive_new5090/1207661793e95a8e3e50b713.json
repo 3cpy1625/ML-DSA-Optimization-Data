@@ -1,0 +1,20 @@
+{
+  "parameter": 87,
+  "operation": "keygen",
+  "arm": "ON",
+  "batch": 8192,
+  "block": 2,
+  "invalid_z_stride": 0,
+  "samples_ms": [
+    1.174463987,
+    1.157119989,
+    1.149952054,
+    1.150975943,
+    1.147871971
+  ],
+  "mean_ms": 1.1560767887999999,
+  "job": "/home/lsb/mldsa-experiments-5090/\u65b05090/joint_matrix_20261020T132318Z_db87cd/job_87_keygen_2_ON",
+  "input_sha256": "c702de713804253e0f21f55b32b8d26d6703357b0b5cd68fe1598ad86a6fd09a",
+  "output_sha256": "068c73c666b6b57da81c704818a29de57b991f2b59e25a3fc43f266b366ea16c",
+  "benchmark_sha256": "9b89f91a9f19c7c8618ec5d902f1d745b315549578ae2431caf9e159c60392e7"
+}

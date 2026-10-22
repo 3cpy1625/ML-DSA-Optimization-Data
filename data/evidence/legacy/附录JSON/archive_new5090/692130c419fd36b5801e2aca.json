@@ -1,0 +1,17 @@
+{
+  "schema": "loce.resolved-policy.v1",
+  "policy_id": "MLDSA-44-NONSIGN-R30-C1",
+  "algorithm": "ML-DSA",
+  "parameter_set": "44",
+  "operations": {
+    "KeyGen": {
+      "DILITHIUM_KEYPAIR_ROWWARP_REGISTER_ACCUM": 1,
+      "DILITHIUM_KEYPAIR_ROWWARP_FUSE_PHASE2": 1,
+      "mechanism": "row-owner-register-accumulation-and-phase2-fusion"
+    },
+    "Verify": {
+      "mechanism": "unchanged-from-MLDSA-44-NONSIGN-RC1"
+    }
+  },
+  "runtime_fields": ["batch", "stream", "message_bytes"]
+}

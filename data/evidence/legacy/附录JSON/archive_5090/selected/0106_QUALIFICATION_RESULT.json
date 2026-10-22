@@ -1,0 +1,176 @@
+{
+  "build_result_sha256": "7329643d44832077ed4971bb6bd6e0c24573a576148657fc77f1c399e73b1ac5",
+  "comparisons": [
+    {
+      "batch": 256,
+      "implementation": "ours",
+      "input_sha256": "1439149cc77afbacd013732deb221793ce261ee7c61e944fca80856db7d3d3bb",
+      "operation": "keygen",
+      "output_sha256": "ce83b2331715b189a10f964315e285807c136f1892d988dfe50ea786ac013226",
+      "parameter": 44,
+      "raw_log": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/qualification/mldsa44_keygen_ours/attempts/20261019T221609985422Z-789955/stdout.log"
+    },
+    {
+      "batch": 256,
+      "implementation": "cupqc",
+      "input_sha256": "1439149cc77afbacd013732deb221793ce261ee7c61e944fca80856db7d3d3bb",
+      "operation": "keygen",
+      "output_sha256": "ce83b2331715b189a10f964315e285807c136f1892d988dfe50ea786ac013226",
+      "parameter": 44,
+      "raw_log": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/qualification/mldsa44_keygen_cupqc/attempts/20261019T221615889199Z-789955/stdout.log"
+    },
+    {
+      "batch": 256,
+      "implementation": "ours",
+      "input_sha256": "b0a41744ad2dd82aa2c23851d9f0ded2ac08663b765315f5917a994d76375900",
+      "operation": "sign",
+      "output_sha256": "056cb71445687d5acebaaabe4cd9aa4815cee12dcf9a70cd6a38bdcf146503f3",
+      "parameter": 44,
+      "raw_log": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/qualification/mldsa44_sign_ours/attempts/20261019T221620737688Z-789955/stdout.log"
+    },
+    {
+      "batch": 256,
+      "implementation": "cupqc",
+      "input_sha256": "b0a41744ad2dd82aa2c23851d9f0ded2ac08663b765315f5917a994d76375900",
+      "operation": "sign",
+      "output_sha256": "056cb71445687d5acebaaabe4cd9aa4815cee12dcf9a70cd6a38bdcf146503f3",
+      "parameter": 44,
+      "raw_log": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/qualification/mldsa44_sign_cupqc/attempts/20261019T221627114140Z-789955/stdout.log"
+    },
+    {
+      "batch": 256,
+      "implementation": "ours",
+      "input_sha256": "a860c88a60966abce8bfea5659e5fb22a1e0dc453e32f400b08cbc54c4e9aaec",
+      "operation": "verify",
+      "output_sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+      "parameter": 44,
+      "raw_log": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/qualification/mldsa44_verify_ours/attempts/20261019T221631964733Z-789955/stdout.log"
+    },
+    {
+      "batch": 256,
+      "implementation": "cupqc",
+      "input_sha256": "a860c88a60966abce8bfea5659e5fb22a1e0dc453e32f400b08cbc54c4e9aaec",
+      "operation": "verify",
+      "output_sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+      "parameter": 44,
+      "raw_log": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/qualification/mldsa44_verify_cupqc/attempts/20261019T221637836166Z-789955/stdout.log"
+    },
+    {
+      "batch": 256,
+      "implementation": "ours",
+      "input_sha256": "1439149cc77afbacd013732deb221793ce261ee7c61e944fca80856db7d3d3bb",
+      "operation": "keygen",
+      "output_sha256": "4345b23842f24ce30e9ebf0c1ad2ee138d99ff5995969f22d2c3a763709841b8",
+      "parameter": 65,
+      "raw_log": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/qualification/mldsa65_keygen_ours/attempts/20261019T221643029063Z-789955/stdout.log"
+    },
+    {
+      "batch": 256,
+      "implementation": "cupqc",
+      "input_sha256": "1439149cc77afbacd013732deb221793ce261ee7c61e944fca80856db7d3d3bb",
+      "operation": "keygen",
+      "output_sha256": "4345b23842f24ce30e9ebf0c1ad2ee138d99ff5995969f22d2c3a763709841b8",
+      "parameter": 65,
+      "raw_log": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/qualification/mldsa65_keygen_cupqc/attempts/20261019T221648910313Z-789955/stdout.log"
+    },
+    {
+      "batch": 256,
+      "implementation": "ours",
+      "input_sha256": "bab03a4e372594acf2cc7b566c75268fcdaaa621c7105acde3e8f14b3b9dbb80",
+      "operation": "sign",
+      "output_sha256": "f375a276edea0c9386bea57fb9291aaf7486b20c567c1ed10b4500fed1824534",
+      "parameter": 65,
+      "raw_log": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/qualification/mldsa65_sign_ours/attempts/20261019T221653758215Z-789955/stdout.log"
+    },
+    {
+      "batch": 256,
+      "implementation": "cupqc",
+      "input_sha256": "bab03a4e372594acf2cc7b566c75268fcdaaa621c7105acde3e8f14b3b9dbb80",
+      "operation": "sign",
+      "output_sha256": "f375a276edea0c9386bea57fb9291aaf7486b20c567c1ed10b4500fed1824534",
+      "parameter": 65,
+      "raw_log": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/qualification/mldsa65_sign_cupqc/attempts/20261019T221659628362Z-789955/stdout.log"
+    },
+    {
+      "batch": 256,
+      "implementation": "ours",
+      "input_sha256": "cb72b7c1f89670cb59d33d3c0358ab837527a0a8cdcced9c7c3f90203d18ffd4",
+      "operation": "verify",
+      "output_sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+      "parameter": 65,
+      "raw_log": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/qualification/mldsa65_verify_ours/attempts/20261019T221704484071Z-789955/stdout.log"
+    },
+    {
+      "batch": 256,
+      "implementation": "cupqc",
+      "input_sha256": "cb72b7c1f89670cb59d33d3c0358ab837527a0a8cdcced9c7c3f90203d18ffd4",
+      "operation": "verify",
+      "output_sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+      "parameter": 65,
+      "raw_log": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/qualification/mldsa65_verify_cupqc/attempts/20261019T221710349751Z-789955/stdout.log"
+    },
+    {
+      "batch": 256,
+      "implementation": "ours",
+      "input_sha256": "1439149cc77afbacd013732deb221793ce261ee7c61e944fca80856db7d3d3bb",
+      "operation": "keygen",
+      "output_sha256": "8e0d16421c49b21c06095cc56cd229066e9119f57cbae6bdc6b91402a7daf71a",
+      "parameter": 87,
+      "raw_log": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/qualification/mldsa87_keygen_ours/attempts/20261019T221715641364Z-789955/stdout.log"
+    },
+    {
+      "batch": 256,
+      "implementation": "cupqc",
+      "input_sha256": "1439149cc77afbacd013732deb221793ce261ee7c61e944fca80856db7d3d3bb",
+      "operation": "keygen",
+      "output_sha256": "8e0d16421c49b21c06095cc56cd229066e9119f57cbae6bdc6b91402a7daf71a",
+      "parameter": 87,
+      "raw_log": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/qualification/mldsa87_keygen_cupqc/attempts/20261019T221721516489Z-789955/stdout.log"
+    },
+    {
+      "batch": 256,
+      "implementation": "ours",
+      "input_sha256": "33651d08ba07e03d1fb018adaf9beb47ff6714966ae06fabb72f9daf30de007e",
+      "operation": "sign",
+      "output_sha256": "5a54392f944102125942696ae928280e2004b01f3e776a7fe05e6d0a6331c410",
+      "parameter": 87,
+      "raw_log": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/qualification/mldsa87_sign_ours/attempts/20261019T221726388504Z-789955/stdout.log"
+    },
+    {
+      "batch": 256,
+      "implementation": "cupqc",
+      "input_sha256": "33651d08ba07e03d1fb018adaf9beb47ff6714966ae06fabb72f9daf30de007e",
+      "operation": "sign",
+      "output_sha256": "5a54392f944102125942696ae928280e2004b01f3e776a7fe05e6d0a6331c410",
+      "parameter": 87,
+      "raw_log": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/qualification/mldsa87_sign_cupqc/attempts/20261019T221732262697Z-789955/stdout.log"
+    },
+    {
+      "batch": 256,
+      "implementation": "ours",
+      "input_sha256": "85ae57d0708f90b56f4133c58f8432c3a79d68023ffd03143c860f98bfa2225c",
+      "operation": "verify",
+      "output_sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+      "parameter": 87,
+      "raw_log": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/qualification/mldsa87_verify_ours/attempts/20261019T221737175472Z-789955/stdout.log"
+    },
+    {
+      "batch": 256,
+      "implementation": "cupqc",
+      "input_sha256": "85ae57d0708f90b56f4133c58f8432c3a79d68023ffd03143c860f98bfa2225c",
+      "operation": "verify",
+      "output_sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+      "parameter": 87,
+      "raw_log": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/qualification/mldsa87_verify_cupqc/attempts/20261019T221743044988Z-789955/stdout.log"
+    }
+  ],
+  "completed_utc": "2026-10-19T22:17:52.223371+00:00",
+  "coverage": "9 operation/parameter cells, B256, 32-byte messages, one fixed input set, both implementations exact output SHA-256 match CPU oracle",
+  "limits": [
+    "Not complete FIPS, boundary, failure-path or sanitizer qualification",
+    "Formal-size operation inputs and timed-call outputs are rechecked during capture"
+  ],
+  "safety_scope": "Exact input/final-output qualification only; prior adapter sanitizer does not qualify these rebuilt sealed DSOs",
+  "sealed_binary_sanitizer": "NOT_RUN",
+  "status": "EXACT_BINARY_QUALIFICATION_PASS"
+}

@@ -1,0 +1,14 @@
+{
+  "DILITHIUM_API_DEEP_TAIL_WINNER_CANCEL": {
+    "ON": "1",
+    "OFF": "0"
+  },
+  "LOCE_WPHC_RESEARCH_TIER_W1": {
+    "ON": null,
+    "OFF": "1"
+  },
+  "DILITHIUM_API_DEEP_TAIL_TC_FANOUT": {
+    "ON": "1",
+    "OFF": "0"
+  }
+}

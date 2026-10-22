@@ -1,0 +1,9 @@
+claim,evidence,eligibility,remaining_blocker
+current M65 route enables PFODR,"BUILD/ON_EFFECTIVE_CACHE.txt; BUILD/ON_NINJA_COMMANDS.txt; ON ELF SHA",CURRENT_SOURCE_BINARY,none
+PFODR preserves correctness,"CORRECTNESS/RESULTS_G1.csv",CURRENT_CORRECTNESS,none
+PFODR is sanitizer-clean,"SANITIZER/RESULTS_G3.csv",CURRENT_SANITIZER,none
+complete-domain occupancy predicts benefit,"PERFORMANCE/FORMAL_RESULTS_G2.csv",FORMAL_CURRENT,none
+global invalid ratio is insufficient,"complete_domain_50pct vs scattered_50pct",FORMAL_NEGATIVE_BOUNDARY,none
+gain is downstream physical-work removal,"PROFILE/NCU_G1/CAUSAL_SUMMARY.csv",CURRENT_CAUSAL_PROFILE,profile diagnostic not timing authority
+awkward batches use exact real membership,"B65/B66/B67 correctness",CURRENT_CORRECTNESS,formal awkward-batch performance not required
+novelty boundary,PRIOR_ART_BOUNDARY.md,PRIMARY_SOURCE_BOUNDARY_COMPLETE,human novelty review required

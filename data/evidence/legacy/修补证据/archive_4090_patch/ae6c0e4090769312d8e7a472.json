@@ -1,0 +1,3329 @@
+{
+  "cases": {
+    "44": {
+      "parameter": 44,
+      "batch": 256,
+      "cases": [
+        {
+          "id": "permutation5_tail_17",
+          "op": 0,
+          "rate": 136,
+          "input_bytes": 200,
+          "output_bytes": 200,
+          "units": 200,
+          "force_blocks": 0,
+          "budget": 5,
+          "qualify_only": true,
+          "both_policies": false,
+          "expected_exhaustion": false,
+          "qualification_n": 17,
+          "n": 17,
+          "files": {
+            "input": {
+              "path": "corpora/p44_b256/permutation5_tail_17_input.bin",
+              "bytes": 3400,
+              "sha256": "3d6958a93e7d2632fe02e104c9d24b76578d7740185e77433b84fab24be75008"
+            },
+            "oracle": {
+              "path": "corpora/p44_b256/permutation5_tail_17_oracle.bin",
+              "bytes": 3400,
+              "sha256": "1a5766295d80fb9e247f47db81e8ff543289246d287c0f211c85419866e58375"
+            },
+            "on": {
+              "path": "corpora/p44_b256/permutation5_tail_17_trace_on.bin",
+              "bytes": 340,
+              "sha256": "1fa77eaedf9ce86bc3ba148594ed2cf9f250ca4e668a8d189a97f15664dc9e34"
+            },
+            "off": {
+              "path": "corpora/p44_b256/permutation5_tail_17_trace_off.bin",
+              "bytes": 340,
+              "sha256": "1fa77eaedf9ce86bc3ba148594ed2cf9f250ca4e668a8d189a97f15664dc9e34"
+            },
+            "thread_on_work": {
+              "path": "corpora/p44_b256/permutation5_tail_17_thread_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "warp_on_work": {
+              "path": "corpora/p44_b256/permutation5_tail_17_warp_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "split32_on_work": {
+              "path": "corpora/p44_b256/permutation5_tail_17_split32_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "split32_on_warp_work": {
+              "path": "corpora/p44_b256/permutation5_tail_17_split32_on_warp_work.bin",
+              "bytes": 64,
+              "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+            },
+            "thread_off_work": {
+              "path": "corpora/p44_b256/permutation5_tail_17_thread_off_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "warp_off_work": {
+              "path": "corpora/p44_b256/permutation5_tail_17_warp_off_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "split32_off_work": {
+              "path": "corpora/p44_b256/permutation5_tail_17_split32_off_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "split32_off_warp_work": {
+              "path": "corpora/p44_b256/permutation5_tail_17_split32_off_warp_work.bin",
+              "bytes": 64,
+              "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+            }
+          },
+          "physical_work_accounting": {
+            "thread_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "warp_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "split32_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 75,
+              "total_executed_permutations": 160
+            },
+            "thread_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "warp_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "split32_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 75,
+              "total_executed_permutations": 160
+            }
+          }
+        },
+        {
+          "id": "shake256_200_512_tail_17",
+          "op": 1,
+          "rate": 136,
+          "input_bytes": 200,
+          "output_bytes": 512,
+          "units": 512,
+          "force_blocks": 0,
+          "budget": 8,
+          "qualify_only": true,
+          "both_policies": false,
+          "expected_exhaustion": false,
+          "qualification_n": 17,
+          "n": 17,
+          "files": {
+            "input": {
+              "path": "corpora/p44_b256/shake256_200_512_tail_17_input.bin",
+              "bytes": 3400,
+              "sha256": "6e24670c1dd3abcaa70ad3a0d12f0f0cacd798a9f4f6be98a982bddec3dee874"
+            },
+            "oracle": {
+              "path": "corpora/p44_b256/shake256_200_512_tail_17_oracle.bin",
+              "bytes": 8704,
+              "sha256": "6f5e03461e7117d3f779c865551010d114055fa83ca37f73a4f92a8c107ec9a7"
+            },
+            "on": {
+              "path": "corpora/p44_b256/shake256_200_512_tail_17_trace_on.bin",
+              "bytes": 340,
+              "sha256": "373dbaff70505470a76e300e7370e0050c4c17bd2a405911329d26565ef020fc"
+            },
+            "off": {
+              "path": "corpora/p44_b256/shake256_200_512_tail_17_trace_off.bin",
+              "bytes": 340,
+              "sha256": "4d5d2a7d4aa8e36e758a7695de173b900a644ff68ecc49a585c02253de3c8abb"
+            },
+            "thread_on_work": {
+              "path": "corpora/p44_b256/shake256_200_512_tail_17_thread_on_work.bin",
+              "bytes": 272,
+              "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+            },
+            "warp_on_work": {
+              "path": "corpora/p44_b256/shake256_200_512_tail_17_warp_on_work.bin",
+              "bytes": 272,
+              "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+            },
+            "split32_on_work": {
+              "path": "corpora/p44_b256/shake256_200_512_tail_17_split32_on_work.bin",
+              "bytes": 272,
+              "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+            },
+            "split32_on_warp_work": {
+              "path": "corpora/p44_b256/shake256_200_512_tail_17_split32_on_warp_work.bin",
+              "bytes": 64,
+              "sha256": "3a63928915486090df25df0396da41304ad727e92c5b39c95f5f69baeccc2447"
+            },
+            "thread_off_work": {
+              "path": "corpora/p44_b256/shake256_200_512_tail_17_thread_off_work.bin",
+              "bytes": 272,
+              "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+            },
+            "warp_off_work": {
+              "path": "corpora/p44_b256/shake256_200_512_tail_17_warp_off_work.bin",
+              "bytes": 272,
+              "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+            },
+            "split32_off_work": {
+              "path": "corpora/p44_b256/shake256_200_512_tail_17_split32_off_work.bin",
+              "bytes": 272,
+              "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+            },
+            "split32_off_warp_work": {
+              "path": "corpora/p44_b256/shake256_200_512_tail_17_split32_off_warp_work.bin",
+              "bytes": 64,
+              "sha256": "ba97e0fd8518fd57b885dc2cab4dfbec4e9ff8eefbc4bed2a4f15ca5a11114da"
+            }
+          },
+          "physical_work_accounting": {
+            "thread_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 68,
+              "valid_absorb_permutations": 17,
+              "valid_executed_squeeze_permutations": 68,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "warp_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 68,
+              "valid_absorb_permutations": 17,
+              "valid_executed_squeeze_permutations": 68,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "split32_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 68,
+              "valid_absorb_permutations": 17,
+              "valid_executed_squeeze_permutations": 68,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 47,
+              "padded_absorb_permutations": 15,
+              "padded_squeeze_permutations": 60,
+              "total_executed_permutations": 160
+            },
+            "thread_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 17,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 153,
+              "valid_executed_permutations": 153,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 153
+            },
+            "warp_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 17,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 153,
+              "valid_executed_permutations": 153,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 153
+            },
+            "split32_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 17,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 153,
+              "valid_executed_permutations": 153,
+              "padded_states": 47,
+              "padded_absorb_permutations": 15,
+              "padded_squeeze_permutations": 120,
+              "total_executed_permutations": 288
+            }
+          }
+        },
+        {
+          "id": "uniform_tail_17",
+          "op": 2,
+          "rate": 168,
+          "input_bytes": 34,
+          "output_bytes": 1024,
+          "units": 256,
+          "force_blocks": 0,
+          "budget": 8,
+          "qualify_only": true,
+          "both_policies": true,
+          "expected_exhaustion": false,
+          "qualification_n": 17,
+          "n": 17,
+          "files": {
+            "input": {
+              "path": "corpora/p44_b256/uniform_tail_17_input.bin",
+              "bytes": 578,
+              "sha256": "18803e70b89d57512a8690f6667fbe36eff356f2dbce4c7f36f0cd1f52fe1b0c"
+            },
+            "oracle": {
+              "path": "corpora/p44_b256/uniform_tail_17_oracle.bin",
+              "bytes": 17408,
+              "sha256": "bc6363ab41b34a3c487a4287211eb6bf61e317e5e33d37b558318615c99d0f17"
+            },
+            "on": {
+              "path": "corpora/p44_b256/uniform_tail_17_trace_on.bin",
+              "bytes": 340,
+              "sha256": "fff347e2be160e871759f7adb5643423335aa5a6b3ea0c4488cb0a895c93b8ff"
+            },
+            "off": {
+              "path": "corpora/p44_b256/uniform_tail_17_trace_off.bin",
+              "bytes": 340,
+              "sha256": "e676795e4af27ec61c05e9716630da2e6833b0642ac961040576aab6ea2b7eea"
+            },
+            "thread_on_work": {
+              "path": "corpora/p44_b256/uniform_tail_17_thread_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "warp_on_work": {
+              "path": "corpora/p44_b256/uniform_tail_17_warp_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "split32_on_work": {
+              "path": "corpora/p44_b256/uniform_tail_17_split32_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "split32_on_warp_work": {
+              "path": "corpora/p44_b256/uniform_tail_17_split32_on_warp_work.bin",
+              "bytes": 64,
+              "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+            },
+            "thread_off_work": {
+              "path": "corpora/p44_b256/uniform_tail_17_thread_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "warp_off_work": {
+              "path": "corpora/p44_b256/uniform_tail_17_warp_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "split32_off_work": {
+              "path": "corpora/p44_b256/uniform_tail_17_split32_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "split32_off_warp_work": {
+              "path": "corpora/p44_b256/uniform_tail_17_split32_off_warp_work.bin",
+              "bytes": 64,
+              "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+            }
+          },
+          "physical_work_accounting": {
+            "thread_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "warp_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "split32_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 75,
+              "total_executed_permutations": 160
+            },
+            "thread_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 136
+            },
+            "warp_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 136
+            },
+            "split32_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 120,
+              "total_executed_permutations": 256
+            }
+          }
+        },
+        {
+          "id": "eta_tail_17",
+          "op": 3,
+          "rate": 136,
+          "input_bytes": 66,
+          "output_bytes": 1024,
+          "units": 256,
+          "force_blocks": 0,
+          "budget": 8,
+          "qualify_only": true,
+          "both_policies": true,
+          "expected_exhaustion": false,
+          "qualification_n": 17,
+          "n": 17,
+          "files": {
+            "input": {
+              "path": "corpora/p44_b256/eta_tail_17_input.bin",
+              "bytes": 1122,
+              "sha256": "c031648ce3b18a080ac8abe38530095c34e8b83e20e88c9f7216ce4a837106d6"
+            },
+            "oracle": {
+              "path": "corpora/p44_b256/eta_tail_17_oracle.bin",
+              "bytes": 17408,
+              "sha256": "f41b31472e44d180a8bf70c710726c6fe47040ab1dace566e6ce94e6709ce236"
+            },
+            "on": {
+              "path": "corpora/p44_b256/eta_tail_17_trace_on.bin",
+              "bytes": 340,
+              "sha256": "c2092c274b9f46789f501d0307d1d0aa6152ed175a345a1330da27075e57966f"
+            },
+            "off": {
+              "path": "corpora/p44_b256/eta_tail_17_trace_off.bin",
+              "bytes": 340,
+              "sha256": "370cc2e7fbb54f135fc795478e8c5c977f53dc22e48d80a6509f4d2b4de0a4c7"
+            },
+            "thread_on_work": {
+              "path": "corpora/p44_b256/eta_tail_17_thread_on_work.bin",
+              "bytes": 272,
+              "sha256": "1b0f3f408032b519749f103d16e609f81df9a2597c825164d4d2229f03c3d851"
+            },
+            "warp_on_work": {
+              "path": "corpora/p44_b256/eta_tail_17_warp_on_work.bin",
+              "bytes": 272,
+              "sha256": "1b0f3f408032b519749f103d16e609f81df9a2597c825164d4d2229f03c3d851"
+            },
+            "split32_on_work": {
+              "path": "corpora/p44_b256/eta_tail_17_split32_on_work.bin",
+              "bytes": 272,
+              "sha256": "b0668b5038567dccf291b93200a564fe67c40c484d95e5df51f71917f9a0d172"
+            },
+            "split32_on_warp_work": {
+              "path": "corpora/p44_b256/eta_tail_17_split32_on_warp_work.bin",
+              "bytes": 64,
+              "sha256": "9993b4d4221a362e803b01c7b3e6f33003f8633bcf08e29efb36ca0a2444901c"
+            },
+            "thread_off_work": {
+              "path": "corpora/p44_b256/eta_tail_17_thread_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "warp_off_work": {
+              "path": "corpora/p44_b256/eta_tail_17_warp_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "split32_off_work": {
+              "path": "corpora/p44_b256/eta_tail_17_split32_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "split32_off_warp_work": {
+              "path": "corpora/p44_b256/eta_tail_17_split32_off_warp_work.bin",
+              "bytes": 64,
+              "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+            }
+          },
+          "physical_work_accounting": {
+            "thread_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 22,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 22,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 22,
+              "valid_executed_permutations": 22,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 22
+            },
+            "warp_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 22,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 22,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 22,
+              "valid_executed_permutations": 22,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 22
+            },
+            "split32_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 22,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 34,
+              "valid_drain_dummy_permutations": 12,
+              "valid_logical_permutations": 22,
+              "valid_executed_permutations": 34,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 30,
+              "total_executed_permutations": 64
+            },
+            "thread_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 136
+            },
+            "warp_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 136
+            },
+            "split32_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 120,
+              "total_executed_permutations": 256
+            }
+          }
+        },
+        {
+          "id": "eta_tail_65",
+          "op": 3,
+          "rate": 136,
+          "input_bytes": 66,
+          "output_bytes": 1024,
+          "units": 256,
+          "force_blocks": 0,
+          "budget": 8,
+          "qualify_only": true,
+          "both_policies": true,
+          "expected_exhaustion": false,
+          "qualification_n": 65,
+          "n": 65,
+          "files": {
+            "input": {
+              "path": "corpora/p44_b256/eta_tail_65_input.bin",
+              "bytes": 4290,
+              "sha256": "771e5886a69362cbffdfeed081c9189389a8bcac493825b88c2dad071d1b7c82"
+            },
+            "oracle": {
+              "path": "corpora/p44_b256/eta_tail_65_oracle.bin",
+              "bytes": 66560,
+              "sha256": "e57155b6731f482f9516f9bf21f108da44ee0d7318d134cf0c2966ee15b4978a"
+            },
+            "on": {
+              "path": "corpora/p44_b256/eta_tail_65_trace_on.bin",
+              "bytes": 1300,
+              "sha256": "06fc9b4b4c3ad49cdbb65e17f0981ffcba166650ebdf8dfe340b4069ccdc1031"
+            },
+            "off": {
+              "path": "corpora/p44_b256/eta_tail_65_trace_off.bin",
+              "bytes": 1300,
+              "sha256": "5cbeb1a54b6d6e8defb23e9b32c81d13199f0d2e58a741e116d5e0d696be603c"
+            },
+            "thread_on_work": {
+              "path": "corpora/p44_b256/eta_tail_65_thread_on_work.bin",
+              "bytes": 1040,
+              "sha256": "cd2784aa41b026f22c94003b282fae49d0873ae75b7e2d9f3000fed98b0e9b8d"
+            },
+            "warp_on_work": {
+              "path": "corpora/p44_b256/eta_tail_65_warp_on_work.bin",
+              "bytes": 1040,
+              "sha256": "cd2784aa41b026f22c94003b282fae49d0873ae75b7e2d9f3000fed98b0e9b8d"
+            },
+            "split32_on_work": {
+              "path": "corpora/p44_b256/eta_tail_65_split32_on_work.bin",
+              "bytes": 1040,
+              "sha256": "494a42e18d2063199031f3b2de7e8a19b137b64cf74a0a00a095f916826b394c"
+            },
+            "split32_on_warp_work": {
+              "path": "corpora/p44_b256/eta_tail_65_split32_on_warp_work.bin",
+              "bytes": 128,
+              "sha256": "7e03614469e250515ab0e667991844d339c9aa638a0c4bf98cc9d8bd5b364ed3"
+            },
+            "thread_off_work": {
+              "path": "corpora/p44_b256/eta_tail_65_thread_off_work.bin",
+              "bytes": 1040,
+              "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+            },
+            "warp_off_work": {
+              "path": "corpora/p44_b256/eta_tail_65_warp_off_work.bin",
+              "bytes": 1040,
+              "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+            },
+            "split32_off_work": {
+              "path": "corpora/p44_b256/eta_tail_65_split32_off_work.bin",
+              "bytes": 1040,
+              "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+            },
+            "split32_off_warp_work": {
+              "path": "corpora/p44_b256/eta_tail_65_split32_off_warp_work.bin",
+              "bytes": 128,
+              "sha256": "a869fcec2e9f901fd167ef3ed792890e6604ba3ac238d8e57958a775dfb225f0"
+            }
+          },
+          "physical_work_accounting": {
+            "thread_on": {
+              "valid_requests": 65,
+              "logical_squeeze_blocks": 95,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 95,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 95,
+              "valid_executed_permutations": 95,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 95
+            },
+            "warp_on": {
+              "valid_requests": 65,
+              "logical_squeeze_blocks": 95,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 95,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 95,
+              "valid_executed_permutations": 95,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 95
+            },
+            "split32_on": {
+              "valid_requests": 65,
+              "logical_squeeze_blocks": 95,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 129,
+              "valid_drain_dummy_permutations": 34,
+              "valid_logical_permutations": 95,
+              "valid_executed_permutations": 129,
+              "padded_states": 63,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 15,
+              "total_executed_permutations": 144
+            },
+            "thread_off": {
+              "valid_requests": 65,
+              "logical_squeeze_blocks": 520,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 520,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 520,
+              "valid_executed_permutations": 520,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 520
+            },
+            "warp_off": {
+              "valid_requests": 65,
+              "logical_squeeze_blocks": 520,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 520,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 520,
+              "valid_executed_permutations": 520,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 520
+            },
+            "split32_off": {
+              "valid_requests": 65,
+              "logical_squeeze_blocks": 520,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 520,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 520,
+              "valid_executed_permutations": 520,
+              "padded_states": 63,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 120,
+              "total_executed_permutations": 640
+            }
+          }
+        },
+        {
+          "id": "expandmask_tail_17",
+          "op": 4,
+          "rate": 136,
+          "input_bytes": 66,
+          "output_bytes": 1024,
+          "units": 256,
+          "force_blocks": 0,
+          "budget": 8,
+          "qualify_only": true,
+          "both_policies": true,
+          "expected_exhaustion": false,
+          "qualification_n": 17,
+          "n": 17,
+          "files": {
+            "input": {
+              "path": "corpora/p44_b256/expandmask_tail_17_input.bin",
+              "bytes": 1122,
+              "sha256": "3d8858102b7cc032596d01f77fc9b1a54eb1233ef635aa236365345176bce5c3"
+            },
+            "oracle": {
+              "path": "corpora/p44_b256/expandmask_tail_17_oracle.bin",
+              "bytes": 17408,
+              "sha256": "5e6651179664e34b0acc786d9a3c9f09ea84739b7eb756f86eabe86061f2cd88"
+            },
+            "on": {
+              "path": "corpora/p44_b256/expandmask_tail_17_trace_on.bin",
+              "bytes": 340,
+              "sha256": "ad41cceb5158adeda0ef2cf93f19c330cf6ef7653acc56a68968ff33af041aa6"
+            },
+            "off": {
+              "path": "corpora/p44_b256/expandmask_tail_17_trace_off.bin",
+              "bytes": 340,
+              "sha256": "b53f8fd82fa40a2cb014ab46345a7b1bd2b665b9479909139529f7d27041d5e6"
+            },
+            "thread_on_work": {
+              "path": "corpora/p44_b256/expandmask_tail_17_thread_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "warp_on_work": {
+              "path": "corpora/p44_b256/expandmask_tail_17_warp_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "split32_on_work": {
+              "path": "corpora/p44_b256/expandmask_tail_17_split32_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "split32_on_warp_work": {
+              "path": "corpora/p44_b256/expandmask_tail_17_split32_on_warp_work.bin",
+              "bytes": 64,
+              "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+            },
+            "thread_off_work": {
+              "path": "corpora/p44_b256/expandmask_tail_17_thread_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "warp_off_work": {
+              "path": "corpora/p44_b256/expandmask_tail_17_warp_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "split32_off_work": {
+              "path": "corpora/p44_b256/expandmask_tail_17_split32_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "split32_off_warp_work": {
+              "path": "corpora/p44_b256/expandmask_tail_17_split32_off_warp_work.bin",
+              "bytes": 64,
+              "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+            }
+          },
+          "physical_work_accounting": {
+            "thread_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "warp_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "split32_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 75,
+              "total_executed_permutations": 160
+            },
+            "thread_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 136
+            },
+            "warp_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 136
+            },
+            "split32_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 120,
+              "total_executed_permutations": 256
+            }
+          }
+        },
+        {
+          "id": "sample_in_ball_tail_17",
+          "op": 5,
+          "rate": 136,
+          "input_bytes": 32,
+          "output_bytes": 1024,
+          "units": 39,
+          "force_blocks": 0,
+          "budget": 8,
+          "qualify_only": true,
+          "both_policies": true,
+          "expected_exhaustion": false,
+          "qualification_n": 17,
+          "n": 17,
+          "files": {
+            "input": {
+              "path": "corpora/p44_b256/sample_in_ball_tail_17_input.bin",
+              "bytes": 544,
+              "sha256": "c39a5ab7bc2b7503f6921d9560c45084b77f0d930d054aeecf08222bd8d99377"
+            },
+            "oracle": {
+              "path": "corpora/p44_b256/sample_in_ball_tail_17_oracle.bin",
+              "bytes": 17408,
+              "sha256": "ccbd98492c216aa9d6162d01d18dc123ec878b62f49d339835d668f42f69d5b7"
+            },
+            "on": {
+              "path": "corpora/p44_b256/sample_in_ball_tail_17_trace_on.bin",
+              "bytes": 340,
+              "sha256": "a4ddc30e84f1b8411c33933b74d53695128e5e2955a7c3a48c5996f96e65e9d4"
+            },
+            "off": {
+              "path": "corpora/p44_b256/sample_in_ball_tail_17_trace_off.bin",
+              "bytes": 340,
+              "sha256": "df245c0c3452129a016a33b0906000021f7854317c1317fc7aa4cdd9175dbbfa"
+            },
+            "thread_on_work": {
+              "path": "corpora/p44_b256/sample_in_ball_tail_17_thread_on_work.bin",
+              "bytes": 272,
+              "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+            },
+            "warp_on_work": {
+              "path": "corpora/p44_b256/sample_in_ball_tail_17_warp_on_work.bin",
+              "bytes": 272,
+              "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+            },
+            "split32_on_work": {
+              "path": "corpora/p44_b256/sample_in_ball_tail_17_split32_on_work.bin",
+              "bytes": 272,
+              "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+            },
+            "split32_on_warp_work": {
+              "path": "corpora/p44_b256/sample_in_ball_tail_17_split32_on_warp_work.bin",
+              "bytes": 64,
+              "sha256": "61f1f22bb36b2558657eb87290ae670c13fadbbe1b0c9e5e6d7029c2b5febef7"
+            },
+            "thread_off_work": {
+              "path": "corpora/p44_b256/sample_in_ball_tail_17_thread_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "warp_off_work": {
+              "path": "corpora/p44_b256/sample_in_ball_tail_17_warp_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "split32_off_work": {
+              "path": "corpora/p44_b256/sample_in_ball_tail_17_split32_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "split32_off_warp_work": {
+              "path": "corpora/p44_b256/sample_in_ball_tail_17_split32_off_warp_work.bin",
+              "bytes": 64,
+              "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+            }
+          },
+          "physical_work_accounting": {
+            "thread_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 17,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 17,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 17,
+              "valid_executed_permutations": 17,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 17
+            },
+            "warp_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 17,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 17,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 17,
+              "valid_executed_permutations": 17,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 17
+            },
+            "split32_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 17,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 17,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 17,
+              "valid_executed_permutations": 17,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 15,
+              "total_executed_permutations": 32
+            },
+            "thread_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 136
+            },
+            "warp_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 136
+            },
+            "split32_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 120,
+              "total_executed_permutations": 256
+            }
+          }
+        }
+      ]
+    },
+    "65": {
+      "parameter": 65,
+      "batch": 256,
+      "cases": [
+        {
+          "id": "permutation5_tail_17",
+          "op": 0,
+          "rate": 136,
+          "input_bytes": 200,
+          "output_bytes": 200,
+          "units": 200,
+          "force_blocks": 0,
+          "budget": 5,
+          "qualify_only": true,
+          "both_policies": false,
+          "expected_exhaustion": false,
+          "qualification_n": 17,
+          "n": 17,
+          "files": {
+            "input": {
+              "path": "corpora/p65_b256/permutation5_tail_17_input.bin",
+              "bytes": 3400,
+              "sha256": "17515187b4e670100eeac621b96b0fbac0ac4885ff5d9e95398dae3b9642c676"
+            },
+            "oracle": {
+              "path": "corpora/p65_b256/permutation5_tail_17_oracle.bin",
+              "bytes": 3400,
+              "sha256": "731e56ed6db6b899634a497c53a95327faff954c3cb280e92531548a1a203ebf"
+            },
+            "on": {
+              "path": "corpora/p65_b256/permutation5_tail_17_trace_on.bin",
+              "bytes": 340,
+              "sha256": "1fa77eaedf9ce86bc3ba148594ed2cf9f250ca4e668a8d189a97f15664dc9e34"
+            },
+            "off": {
+              "path": "corpora/p65_b256/permutation5_tail_17_trace_off.bin",
+              "bytes": 340,
+              "sha256": "1fa77eaedf9ce86bc3ba148594ed2cf9f250ca4e668a8d189a97f15664dc9e34"
+            },
+            "thread_on_work": {
+              "path": "corpora/p65_b256/permutation5_tail_17_thread_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "warp_on_work": {
+              "path": "corpora/p65_b256/permutation5_tail_17_warp_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "split32_on_work": {
+              "path": "corpora/p65_b256/permutation5_tail_17_split32_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "split32_on_warp_work": {
+              "path": "corpora/p65_b256/permutation5_tail_17_split32_on_warp_work.bin",
+              "bytes": 64,
+              "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+            },
+            "thread_off_work": {
+              "path": "corpora/p65_b256/permutation5_tail_17_thread_off_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "warp_off_work": {
+              "path": "corpora/p65_b256/permutation5_tail_17_warp_off_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "split32_off_work": {
+              "path": "corpora/p65_b256/permutation5_tail_17_split32_off_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "split32_off_warp_work": {
+              "path": "corpora/p65_b256/permutation5_tail_17_split32_off_warp_work.bin",
+              "bytes": 64,
+              "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+            }
+          },
+          "physical_work_accounting": {
+            "thread_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "warp_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "split32_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 75,
+              "total_executed_permutations": 160
+            },
+            "thread_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "warp_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "split32_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 75,
+              "total_executed_permutations": 160
+            }
+          }
+        },
+        {
+          "id": "shake256_200_512_tail_17",
+          "op": 1,
+          "rate": 136,
+          "input_bytes": 200,
+          "output_bytes": 512,
+          "units": 512,
+          "force_blocks": 0,
+          "budget": 8,
+          "qualify_only": true,
+          "both_policies": false,
+          "expected_exhaustion": false,
+          "qualification_n": 17,
+          "n": 17,
+          "files": {
+            "input": {
+              "path": "corpora/p65_b256/shake256_200_512_tail_17_input.bin",
+              "bytes": 3400,
+              "sha256": "38325cec42f5daabeb7df95e67e42b52199aa537083e93c8455acf39539dc52b"
+            },
+            "oracle": {
+              "path": "corpora/p65_b256/shake256_200_512_tail_17_oracle.bin",
+              "bytes": 8704,
+              "sha256": "1f13ce542a0f3db08cd9741f9d5bf732ca4809aed3ad2b6f31ff8ba730a8ee17"
+            },
+            "on": {
+              "path": "corpora/p65_b256/shake256_200_512_tail_17_trace_on.bin",
+              "bytes": 340,
+              "sha256": "da16c9b596f0a2bb22c4b302ce9d68a9ceb11c5d409f69e7253552281fefe65e"
+            },
+            "off": {
+              "path": "corpora/p65_b256/shake256_200_512_tail_17_trace_off.bin",
+              "bytes": 340,
+              "sha256": "16536c2fa57fcd45c87c2c2c8edbf452265ff7fa7ef56af7654b0f0fd168b059"
+            },
+            "thread_on_work": {
+              "path": "corpora/p65_b256/shake256_200_512_tail_17_thread_on_work.bin",
+              "bytes": 272,
+              "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+            },
+            "warp_on_work": {
+              "path": "corpora/p65_b256/shake256_200_512_tail_17_warp_on_work.bin",
+              "bytes": 272,
+              "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+            },
+            "split32_on_work": {
+              "path": "corpora/p65_b256/shake256_200_512_tail_17_split32_on_work.bin",
+              "bytes": 272,
+              "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+            },
+            "split32_on_warp_work": {
+              "path": "corpora/p65_b256/shake256_200_512_tail_17_split32_on_warp_work.bin",
+              "bytes": 64,
+              "sha256": "3a63928915486090df25df0396da41304ad727e92c5b39c95f5f69baeccc2447"
+            },
+            "thread_off_work": {
+              "path": "corpora/p65_b256/shake256_200_512_tail_17_thread_off_work.bin",
+              "bytes": 272,
+              "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+            },
+            "warp_off_work": {
+              "path": "corpora/p65_b256/shake256_200_512_tail_17_warp_off_work.bin",
+              "bytes": 272,
+              "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+            },
+            "split32_off_work": {
+              "path": "corpora/p65_b256/shake256_200_512_tail_17_split32_off_work.bin",
+              "bytes": 272,
+              "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+            },
+            "split32_off_warp_work": {
+              "path": "corpora/p65_b256/shake256_200_512_tail_17_split32_off_warp_work.bin",
+              "bytes": 64,
+              "sha256": "ba97e0fd8518fd57b885dc2cab4dfbec4e9ff8eefbc4bed2a4f15ca5a11114da"
+            }
+          },
+          "physical_work_accounting": {
+            "thread_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 68,
+              "valid_absorb_permutations": 17,
+              "valid_executed_squeeze_permutations": 68,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "warp_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 68,
+              "valid_absorb_permutations": 17,
+              "valid_executed_squeeze_permutations": 68,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "split32_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 68,
+              "valid_absorb_permutations": 17,
+              "valid_executed_squeeze_permutations": 68,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 47,
+              "padded_absorb_permutations": 15,
+              "padded_squeeze_permutations": 60,
+              "total_executed_permutations": 160
+            },
+            "thread_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 17,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 153,
+              "valid_executed_permutations": 153,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 153
+            },
+            "warp_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 17,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 153,
+              "valid_executed_permutations": 153,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 153
+            },
+            "split32_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 17,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 153,
+              "valid_executed_permutations": 153,
+              "padded_states": 47,
+              "padded_absorb_permutations": 15,
+              "padded_squeeze_permutations": 120,
+              "total_executed_permutations": 288
+            }
+          }
+        },
+        {
+          "id": "uniform_tail_17",
+          "op": 2,
+          "rate": 168,
+          "input_bytes": 34,
+          "output_bytes": 1024,
+          "units": 256,
+          "force_blocks": 0,
+          "budget": 8,
+          "qualify_only": true,
+          "both_policies": true,
+          "expected_exhaustion": false,
+          "qualification_n": 17,
+          "n": 17,
+          "files": {
+            "input": {
+              "path": "corpora/p65_b256/uniform_tail_17_input.bin",
+              "bytes": 578,
+              "sha256": "3c0f2c1b7202743b2b00f98aff5b04965f7258128b57bc949ebdab8a27381f03"
+            },
+            "oracle": {
+              "path": "corpora/p65_b256/uniform_tail_17_oracle.bin",
+              "bytes": 17408,
+              "sha256": "df1b15cf2e324019ade6c09a024a512bbf857a4f8a51c1b9415e63bdfa7540d9"
+            },
+            "on": {
+              "path": "corpora/p65_b256/uniform_tail_17_trace_on.bin",
+              "bytes": 340,
+              "sha256": "b52a1da9a5335eebe8fdf72aa64527d51c0ef69f0e994f5e738cc98fb9829510"
+            },
+            "off": {
+              "path": "corpora/p65_b256/uniform_tail_17_trace_off.bin",
+              "bytes": 340,
+              "sha256": "ee322f5f37d0883d88530e0eb0d43016f142ef72dc93b2e4d9943a0213ec25dc"
+            },
+            "thread_on_work": {
+              "path": "corpora/p65_b256/uniform_tail_17_thread_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "warp_on_work": {
+              "path": "corpora/p65_b256/uniform_tail_17_warp_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "split32_on_work": {
+              "path": "corpora/p65_b256/uniform_tail_17_split32_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "split32_on_warp_work": {
+              "path": "corpora/p65_b256/uniform_tail_17_split32_on_warp_work.bin",
+              "bytes": 64,
+              "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+            },
+            "thread_off_work": {
+              "path": "corpora/p65_b256/uniform_tail_17_thread_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "warp_off_work": {
+              "path": "corpora/p65_b256/uniform_tail_17_warp_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "split32_off_work": {
+              "path": "corpora/p65_b256/uniform_tail_17_split32_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "split32_off_warp_work": {
+              "path": "corpora/p65_b256/uniform_tail_17_split32_off_warp_work.bin",
+              "bytes": 64,
+              "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+            }
+          },
+          "physical_work_accounting": {
+            "thread_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "warp_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "split32_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 75,
+              "total_executed_permutations": 160
+            },
+            "thread_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 136
+            },
+            "warp_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 136
+            },
+            "split32_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 120,
+              "total_executed_permutations": 256
+            }
+          }
+        },
+        {
+          "id": "eta_tail_17",
+          "op": 3,
+          "rate": 136,
+          "input_bytes": 66,
+          "output_bytes": 1024,
+          "units": 256,
+          "force_blocks": 0,
+          "budget": 8,
+          "qualify_only": true,
+          "both_policies": true,
+          "expected_exhaustion": false,
+          "qualification_n": 17,
+          "n": 17,
+          "files": {
+            "input": {
+              "path": "corpora/p65_b256/eta_tail_17_input.bin",
+              "bytes": 1122,
+              "sha256": "a5e6da9a069be73ff930d42d846d71429d2921be84592faf5b610ff80fb64062"
+            },
+            "oracle": {
+              "path": "corpora/p65_b256/eta_tail_17_oracle.bin",
+              "bytes": 17408,
+              "sha256": "658f62bb4f4be0358681f9cbeffdaa6496710233aa47a17c4b9374c161e00903"
+            },
+            "on": {
+              "path": "corpora/p65_b256/eta_tail_17_trace_on.bin",
+              "bytes": 340,
+              "sha256": "697c5460e2e8d1bc6d22432da83cc6801de75147e5cedb22fd07df04912e2e94"
+            },
+            "off": {
+              "path": "corpora/p65_b256/eta_tail_17_trace_off.bin",
+              "bytes": 340,
+              "sha256": "0cd9eef1c644885bb496830297531339f677309a7d47b528731d72399c97dfa7"
+            },
+            "thread_on_work": {
+              "path": "corpora/p65_b256/eta_tail_17_thread_on_work.bin",
+              "bytes": 272,
+              "sha256": "533ac23a9b644ac3a5cf4c486e914d2d62c24b43c493088ebd184ee6b17db0c2"
+            },
+            "warp_on_work": {
+              "path": "corpora/p65_b256/eta_tail_17_warp_on_work.bin",
+              "bytes": 272,
+              "sha256": "533ac23a9b644ac3a5cf4c486e914d2d62c24b43c493088ebd184ee6b17db0c2"
+            },
+            "split32_on_work": {
+              "path": "corpora/p65_b256/eta_tail_17_split32_on_work.bin",
+              "bytes": 272,
+              "sha256": "533ac23a9b644ac3a5cf4c486e914d2d62c24b43c493088ebd184ee6b17db0c2"
+            },
+            "split32_on_warp_work": {
+              "path": "corpora/p65_b256/eta_tail_17_split32_on_warp_work.bin",
+              "bytes": 64,
+              "sha256": "9993b4d4221a362e803b01c7b3e6f33003f8633bcf08e29efb36ca0a2444901c"
+            },
+            "thread_off_work": {
+              "path": "corpora/p65_b256/eta_tail_17_thread_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "warp_off_work": {
+              "path": "corpora/p65_b256/eta_tail_17_warp_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "split32_off_work": {
+              "path": "corpora/p65_b256/eta_tail_17_split32_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "split32_off_warp_work": {
+              "path": "corpora/p65_b256/eta_tail_17_split32_off_warp_work.bin",
+              "bytes": 64,
+              "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+            }
+          },
+          "physical_work_accounting": {
+            "thread_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 34,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 34,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 34,
+              "valid_executed_permutations": 34,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 34
+            },
+            "warp_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 34,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 34,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 34,
+              "valid_executed_permutations": 34,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 34
+            },
+            "split32_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 34,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 34,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 34,
+              "valid_executed_permutations": 34,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 30,
+              "total_executed_permutations": 64
+            },
+            "thread_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 136
+            },
+            "warp_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 136
+            },
+            "split32_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 120,
+              "total_executed_permutations": 256
+            }
+          }
+        },
+        {
+          "id": "eta_tail_65",
+          "op": 3,
+          "rate": 136,
+          "input_bytes": 66,
+          "output_bytes": 1024,
+          "units": 256,
+          "force_blocks": 0,
+          "budget": 8,
+          "qualify_only": true,
+          "both_policies": true,
+          "expected_exhaustion": false,
+          "qualification_n": 65,
+          "n": 65,
+          "files": {
+            "input": {
+              "path": "corpora/p65_b256/eta_tail_65_input.bin",
+              "bytes": 4290,
+              "sha256": "c962511c8909c8c0d227dc3773ec603ccfbf737d6cc2cf826b499b1769263366"
+            },
+            "oracle": {
+              "path": "corpora/p65_b256/eta_tail_65_oracle.bin",
+              "bytes": 66560,
+              "sha256": "da22d96decd2c0d6c4d338b2571a9e0c4034b44458f16f810389d7530ae7c10e"
+            },
+            "on": {
+              "path": "corpora/p65_b256/eta_tail_65_trace_on.bin",
+              "bytes": 1300,
+              "sha256": "fab69806ca0d39b746dc29cd968f3bc4a030ba8546d1ec2fee58e97c3c6c886b"
+            },
+            "off": {
+              "path": "corpora/p65_b256/eta_tail_65_trace_off.bin",
+              "bytes": 1300,
+              "sha256": "e88f44610f2aa190ad91795b1d0c138ad9184aacb7bc7789b1a0e016f4687b70"
+            },
+            "thread_on_work": {
+              "path": "corpora/p65_b256/eta_tail_65_thread_on_work.bin",
+              "bytes": 1040,
+              "sha256": "81405b81d2e624b68f1e36659e2d5e55d854d89a0367c523f684a319c9de2021"
+            },
+            "warp_on_work": {
+              "path": "corpora/p65_b256/eta_tail_65_warp_on_work.bin",
+              "bytes": 1040,
+              "sha256": "81405b81d2e624b68f1e36659e2d5e55d854d89a0367c523f684a319c9de2021"
+            },
+            "split32_on_work": {
+              "path": "corpora/p65_b256/eta_tail_65_split32_on_work.bin",
+              "bytes": 1040,
+              "sha256": "81405b81d2e624b68f1e36659e2d5e55d854d89a0367c523f684a319c9de2021"
+            },
+            "split32_on_warp_work": {
+              "path": "corpora/p65_b256/eta_tail_65_split32_on_warp_work.bin",
+              "bytes": 128,
+              "sha256": "0dfbf8d051e27d9a2a81fbe465a22b09e196bcb2b07e6b869d5d523053b26f18"
+            },
+            "thread_off_work": {
+              "path": "corpora/p65_b256/eta_tail_65_thread_off_work.bin",
+              "bytes": 1040,
+              "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+            },
+            "warp_off_work": {
+              "path": "corpora/p65_b256/eta_tail_65_warp_off_work.bin",
+              "bytes": 1040,
+              "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+            },
+            "split32_off_work": {
+              "path": "corpora/p65_b256/eta_tail_65_split32_off_work.bin",
+              "bytes": 1040,
+              "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+            },
+            "split32_off_warp_work": {
+              "path": "corpora/p65_b256/eta_tail_65_split32_off_warp_work.bin",
+              "bytes": 128,
+              "sha256": "a869fcec2e9f901fd167ef3ed792890e6604ba3ac238d8e57958a775dfb225f0"
+            }
+          },
+          "physical_work_accounting": {
+            "thread_on": {
+              "valid_requests": 65,
+              "logical_squeeze_blocks": 130,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 130,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 130,
+              "valid_executed_permutations": 130,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 130
+            },
+            "warp_on": {
+              "valid_requests": 65,
+              "logical_squeeze_blocks": 130,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 130,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 130,
+              "valid_executed_permutations": 130,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 130
+            },
+            "split32_on": {
+              "valid_requests": 65,
+              "logical_squeeze_blocks": 130,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 130,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 130,
+              "valid_executed_permutations": 130,
+              "padded_states": 63,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 30,
+              "total_executed_permutations": 160
+            },
+            "thread_off": {
+              "valid_requests": 65,
+              "logical_squeeze_blocks": 520,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 520,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 520,
+              "valid_executed_permutations": 520,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 520
+            },
+            "warp_off": {
+              "valid_requests": 65,
+              "logical_squeeze_blocks": 520,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 520,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 520,
+              "valid_executed_permutations": 520,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 520
+            },
+            "split32_off": {
+              "valid_requests": 65,
+              "logical_squeeze_blocks": 520,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 520,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 520,
+              "valid_executed_permutations": 520,
+              "padded_states": 63,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 120,
+              "total_executed_permutations": 640
+            }
+          }
+        },
+        {
+          "id": "expandmask_tail_17",
+          "op": 4,
+          "rate": 136,
+          "input_bytes": 66,
+          "output_bytes": 1024,
+          "units": 256,
+          "force_blocks": 0,
+          "budget": 8,
+          "qualify_only": true,
+          "both_policies": true,
+          "expected_exhaustion": false,
+          "qualification_n": 17,
+          "n": 17,
+          "files": {
+            "input": {
+              "path": "corpora/p65_b256/expandmask_tail_17_input.bin",
+              "bytes": 1122,
+              "sha256": "1b76b2e625d7b3d67c618e16816270d9d4cbc498935e390b16e8e861a1fa1571"
+            },
+            "oracle": {
+              "path": "corpora/p65_b256/expandmask_tail_17_oracle.bin",
+              "bytes": 17408,
+              "sha256": "2d27de342522f561cf54176296604b2bf0208a2c48f045642070362603405735"
+            },
+            "on": {
+              "path": "corpora/p65_b256/expandmask_tail_17_trace_on.bin",
+              "bytes": 340,
+              "sha256": "3ad63c47b2c69bb194656a81dd90918123de37e88b9f25044c5cd8a087a02300"
+            },
+            "off": {
+              "path": "corpora/p65_b256/expandmask_tail_17_trace_off.bin",
+              "bytes": 340,
+              "sha256": "7dc19eaca6d1066ef5b66d2ae8c1d29807a4d2c3acbb6bb228226683ac7fe92c"
+            },
+            "thread_on_work": {
+              "path": "corpora/p65_b256/expandmask_tail_17_thread_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "warp_on_work": {
+              "path": "corpora/p65_b256/expandmask_tail_17_warp_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "split32_on_work": {
+              "path": "corpora/p65_b256/expandmask_tail_17_split32_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "split32_on_warp_work": {
+              "path": "corpora/p65_b256/expandmask_tail_17_split32_on_warp_work.bin",
+              "bytes": 64,
+              "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+            },
+            "thread_off_work": {
+              "path": "corpora/p65_b256/expandmask_tail_17_thread_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "warp_off_work": {
+              "path": "corpora/p65_b256/expandmask_tail_17_warp_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "split32_off_work": {
+              "path": "corpora/p65_b256/expandmask_tail_17_split32_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "split32_off_warp_work": {
+              "path": "corpora/p65_b256/expandmask_tail_17_split32_off_warp_work.bin",
+              "bytes": 64,
+              "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+            }
+          },
+          "physical_work_accounting": {
+            "thread_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "warp_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "split32_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 75,
+              "total_executed_permutations": 160
+            },
+            "thread_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 136
+            },
+            "warp_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 136
+            },
+            "split32_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 120,
+              "total_executed_permutations": 256
+            }
+          }
+        },
+        {
+          "id": "sample_in_ball_tail_17",
+          "op": 5,
+          "rate": 136,
+          "input_bytes": 48,
+          "output_bytes": 1024,
+          "units": 49,
+          "force_blocks": 0,
+          "budget": 8,
+          "qualify_only": true,
+          "both_policies": true,
+          "expected_exhaustion": false,
+          "qualification_n": 17,
+          "n": 17,
+          "files": {
+            "input": {
+              "path": "corpora/p65_b256/sample_in_ball_tail_17_input.bin",
+              "bytes": 816,
+              "sha256": "73c5ec23bd667bbf7c955a867eed80b8ca39eb5677bf8fc85231f930b7812773"
+            },
+            "oracle": {
+              "path": "corpora/p65_b256/sample_in_ball_tail_17_oracle.bin",
+              "bytes": 17408,
+              "sha256": "00e89abb3292752e9474d885d56550663ce0029a96a177da52a40cf05243a945"
+            },
+            "on": {
+              "path": "corpora/p65_b256/sample_in_ball_tail_17_trace_on.bin",
+              "bytes": 340,
+              "sha256": "3d3acacbaac1c0ddd8860ea4265b5b9b97c3b42e99c4f450ea8bd315c7ebe9c7"
+            },
+            "off": {
+              "path": "corpora/p65_b256/sample_in_ball_tail_17_trace_off.bin",
+              "bytes": 340,
+              "sha256": "bc2fd14f8714c374164f08f14a718fad5853a94266cf64f608444c08feb40cf5"
+            },
+            "thread_on_work": {
+              "path": "corpora/p65_b256/sample_in_ball_tail_17_thread_on_work.bin",
+              "bytes": 272,
+              "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+            },
+            "warp_on_work": {
+              "path": "corpora/p65_b256/sample_in_ball_tail_17_warp_on_work.bin",
+              "bytes": 272,
+              "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+            },
+            "split32_on_work": {
+              "path": "corpora/p65_b256/sample_in_ball_tail_17_split32_on_work.bin",
+              "bytes": 272,
+              "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+            },
+            "split32_on_warp_work": {
+              "path": "corpora/p65_b256/sample_in_ball_tail_17_split32_on_warp_work.bin",
+              "bytes": 64,
+              "sha256": "61f1f22bb36b2558657eb87290ae670c13fadbbe1b0c9e5e6d7029c2b5febef7"
+            },
+            "thread_off_work": {
+              "path": "corpora/p65_b256/sample_in_ball_tail_17_thread_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "warp_off_work": {
+              "path": "corpora/p65_b256/sample_in_ball_tail_17_warp_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "split32_off_work": {
+              "path": "corpora/p65_b256/sample_in_ball_tail_17_split32_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "split32_off_warp_work": {
+              "path": "corpora/p65_b256/sample_in_ball_tail_17_split32_off_warp_work.bin",
+              "bytes": 64,
+              "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+            }
+          },
+          "physical_work_accounting": {
+            "thread_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 17,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 17,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 17,
+              "valid_executed_permutations": 17,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 17
+            },
+            "warp_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 17,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 17,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 17,
+              "valid_executed_permutations": 17,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 17
+            },
+            "split32_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 17,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 17,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 17,
+              "valid_executed_permutations": 17,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 15,
+              "total_executed_permutations": 32
+            },
+            "thread_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 136
+            },
+            "warp_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 136
+            },
+            "split32_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 120,
+              "total_executed_permutations": 256
+            }
+          }
+        }
+      ]
+    },
+    "87": {
+      "parameter": 87,
+      "batch": 256,
+      "cases": [
+        {
+          "id": "permutation5_tail_17",
+          "op": 0,
+          "rate": 136,
+          "input_bytes": 200,
+          "output_bytes": 200,
+          "units": 200,
+          "force_blocks": 0,
+          "budget": 5,
+          "qualify_only": true,
+          "both_policies": false,
+          "expected_exhaustion": false,
+          "qualification_n": 17,
+          "n": 17,
+          "files": {
+            "input": {
+              "path": "corpora/p87_b256/permutation5_tail_17_input.bin",
+              "bytes": 3400,
+              "sha256": "1c27be8f2d752ca8ea03b6eeb586f0f71d5b0c58c87b336f0521ca87e8cb7ea3"
+            },
+            "oracle": {
+              "path": "corpora/p87_b256/permutation5_tail_17_oracle.bin",
+              "bytes": 3400,
+              "sha256": "bf948ea2ccc6d599caf523b02f3ba3404c19b8ad73584a84c9bf740a08644d0b"
+            },
+            "on": {
+              "path": "corpora/p87_b256/permutation5_tail_17_trace_on.bin",
+              "bytes": 340,
+              "sha256": "1fa77eaedf9ce86bc3ba148594ed2cf9f250ca4e668a8d189a97f15664dc9e34"
+            },
+            "off": {
+              "path": "corpora/p87_b256/permutation5_tail_17_trace_off.bin",
+              "bytes": 340,
+              "sha256": "1fa77eaedf9ce86bc3ba148594ed2cf9f250ca4e668a8d189a97f15664dc9e34"
+            },
+            "thread_on_work": {
+              "path": "corpora/p87_b256/permutation5_tail_17_thread_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "warp_on_work": {
+              "path": "corpora/p87_b256/permutation5_tail_17_warp_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "split32_on_work": {
+              "path": "corpora/p87_b256/permutation5_tail_17_split32_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "split32_on_warp_work": {
+              "path": "corpora/p87_b256/permutation5_tail_17_split32_on_warp_work.bin",
+              "bytes": 64,
+              "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+            },
+            "thread_off_work": {
+              "path": "corpora/p87_b256/permutation5_tail_17_thread_off_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "warp_off_work": {
+              "path": "corpora/p87_b256/permutation5_tail_17_warp_off_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "split32_off_work": {
+              "path": "corpora/p87_b256/permutation5_tail_17_split32_off_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "split32_off_warp_work": {
+              "path": "corpora/p87_b256/permutation5_tail_17_split32_off_warp_work.bin",
+              "bytes": 64,
+              "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+            }
+          },
+          "physical_work_accounting": {
+            "thread_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "warp_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "split32_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 75,
+              "total_executed_permutations": 160
+            },
+            "thread_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "warp_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "split32_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 75,
+              "total_executed_permutations": 160
+            }
+          }
+        },
+        {
+          "id": "shake256_200_512_tail_17",
+          "op": 1,
+          "rate": 136,
+          "input_bytes": 200,
+          "output_bytes": 512,
+          "units": 512,
+          "force_blocks": 0,
+          "budget": 8,
+          "qualify_only": true,
+          "both_policies": false,
+          "expected_exhaustion": false,
+          "qualification_n": 17,
+          "n": 17,
+          "files": {
+            "input": {
+              "path": "corpora/p87_b256/shake256_200_512_tail_17_input.bin",
+              "bytes": 3400,
+              "sha256": "d1bbfbab14bb40cea55b55e87ffb8d3b5563ef50e0ac3f25fe2c055711f89494"
+            },
+            "oracle": {
+              "path": "corpora/p87_b256/shake256_200_512_tail_17_oracle.bin",
+              "bytes": 8704,
+              "sha256": "07c9899f4925d9af7ad160453d669a905140e7f42ea28e20598758179c84ac9f"
+            },
+            "on": {
+              "path": "corpora/p87_b256/shake256_200_512_tail_17_trace_on.bin",
+              "bytes": 340,
+              "sha256": "a27ca944705ca89655e3d81455d91921025873f4c69afccd0a84a7bb3770f64b"
+            },
+            "off": {
+              "path": "corpora/p87_b256/shake256_200_512_tail_17_trace_off.bin",
+              "bytes": 340,
+              "sha256": "b4c32126992fae7fe1cdc0ddb556da8895b58009f7ab97a348c82eb90b2e8ade"
+            },
+            "thread_on_work": {
+              "path": "corpora/p87_b256/shake256_200_512_tail_17_thread_on_work.bin",
+              "bytes": 272,
+              "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+            },
+            "warp_on_work": {
+              "path": "corpora/p87_b256/shake256_200_512_tail_17_warp_on_work.bin",
+              "bytes": 272,
+              "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+            },
+            "split32_on_work": {
+              "path": "corpora/p87_b256/shake256_200_512_tail_17_split32_on_work.bin",
+              "bytes": 272,
+              "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+            },
+            "split32_on_warp_work": {
+              "path": "corpora/p87_b256/shake256_200_512_tail_17_split32_on_warp_work.bin",
+              "bytes": 64,
+              "sha256": "3a63928915486090df25df0396da41304ad727e92c5b39c95f5f69baeccc2447"
+            },
+            "thread_off_work": {
+              "path": "corpora/p87_b256/shake256_200_512_tail_17_thread_off_work.bin",
+              "bytes": 272,
+              "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+            },
+            "warp_off_work": {
+              "path": "corpora/p87_b256/shake256_200_512_tail_17_warp_off_work.bin",
+              "bytes": 272,
+              "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+            },
+            "split32_off_work": {
+              "path": "corpora/p87_b256/shake256_200_512_tail_17_split32_off_work.bin",
+              "bytes": 272,
+              "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+            },
+            "split32_off_warp_work": {
+              "path": "corpora/p87_b256/shake256_200_512_tail_17_split32_off_warp_work.bin",
+              "bytes": 64,
+              "sha256": "ba97e0fd8518fd57b885dc2cab4dfbec4e9ff8eefbc4bed2a4f15ca5a11114da"
+            }
+          },
+          "physical_work_accounting": {
+            "thread_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 68,
+              "valid_absorb_permutations": 17,
+              "valid_executed_squeeze_permutations": 68,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "warp_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 68,
+              "valid_absorb_permutations": 17,
+              "valid_executed_squeeze_permutations": 68,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "split32_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 68,
+              "valid_absorb_permutations": 17,
+              "valid_executed_squeeze_permutations": 68,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 47,
+              "padded_absorb_permutations": 15,
+              "padded_squeeze_permutations": 60,
+              "total_executed_permutations": 160
+            },
+            "thread_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 17,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 153,
+              "valid_executed_permutations": 153,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 153
+            },
+            "warp_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 17,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 153,
+              "valid_executed_permutations": 153,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 153
+            },
+            "split32_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 17,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 153,
+              "valid_executed_permutations": 153,
+              "padded_states": 47,
+              "padded_absorb_permutations": 15,
+              "padded_squeeze_permutations": 120,
+              "total_executed_permutations": 288
+            }
+          }
+        },
+        {
+          "id": "uniform_tail_17",
+          "op": 2,
+          "rate": 168,
+          "input_bytes": 34,
+          "output_bytes": 1024,
+          "units": 256,
+          "force_blocks": 0,
+          "budget": 8,
+          "qualify_only": true,
+          "both_policies": true,
+          "expected_exhaustion": false,
+          "qualification_n": 17,
+          "n": 17,
+          "files": {
+            "input": {
+              "path": "corpora/p87_b256/uniform_tail_17_input.bin",
+              "bytes": 578,
+              "sha256": "db1a305122817835154fb1fa8133c0b8fbb83e9ec2e58d8518a5b749f23f86b2"
+            },
+            "oracle": {
+              "path": "corpora/p87_b256/uniform_tail_17_oracle.bin",
+              "bytes": 17408,
+              "sha256": "b8ed596302e1f2e97170de553acb6bcd0909264d0f5dfe20c208b1d7b75ed41f"
+            },
+            "on": {
+              "path": "corpora/p87_b256/uniform_tail_17_trace_on.bin",
+              "bytes": 340,
+              "sha256": "35d2e3e560d484a172a361164b08a8d01399b4fdef5b63db2925837d060e2ed8"
+            },
+            "off": {
+              "path": "corpora/p87_b256/uniform_tail_17_trace_off.bin",
+              "bytes": 340,
+              "sha256": "2eb281d19853cf8a062a69482ddb9fbbb4ad8baeb8ab85421ea869fbfd091e23"
+            },
+            "thread_on_work": {
+              "path": "corpora/p87_b256/uniform_tail_17_thread_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "warp_on_work": {
+              "path": "corpora/p87_b256/uniform_tail_17_warp_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "split32_on_work": {
+              "path": "corpora/p87_b256/uniform_tail_17_split32_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "split32_on_warp_work": {
+              "path": "corpora/p87_b256/uniform_tail_17_split32_on_warp_work.bin",
+              "bytes": 64,
+              "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+            },
+            "thread_off_work": {
+              "path": "corpora/p87_b256/uniform_tail_17_thread_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "warp_off_work": {
+              "path": "corpora/p87_b256/uniform_tail_17_warp_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "split32_off_work": {
+              "path": "corpora/p87_b256/uniform_tail_17_split32_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "split32_off_warp_work": {
+              "path": "corpora/p87_b256/uniform_tail_17_split32_off_warp_work.bin",
+              "bytes": 64,
+              "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+            }
+          },
+          "physical_work_accounting": {
+            "thread_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "warp_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "split32_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 75,
+              "total_executed_permutations": 160
+            },
+            "thread_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 136
+            },
+            "warp_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 136
+            },
+            "split32_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 120,
+              "total_executed_permutations": 256
+            }
+          }
+        },
+        {
+          "id": "eta_tail_17",
+          "op": 3,
+          "rate": 136,
+          "input_bytes": 66,
+          "output_bytes": 1024,
+          "units": 256,
+          "force_blocks": 0,
+          "budget": 8,
+          "qualify_only": true,
+          "both_policies": true,
+          "expected_exhaustion": false,
+          "qualification_n": 17,
+          "n": 17,
+          "files": {
+            "input": {
+              "path": "corpora/p87_b256/eta_tail_17_input.bin",
+              "bytes": 1122,
+              "sha256": "194086bc00cb15e2bf27a977ab66e4d179d3e6c4e32434f63a051a2ea4b9db37"
+            },
+            "oracle": {
+              "path": "corpora/p87_b256/eta_tail_17_oracle.bin",
+              "bytes": 17408,
+              "sha256": "4bc29e69727426249cfc008ac354273d72971cd9c14e3d82254ccacadceaebb9"
+            },
+            "on": {
+              "path": "corpora/p87_b256/eta_tail_17_trace_on.bin",
+              "bytes": 340,
+              "sha256": "ddb7f99acba9f5e3f41030524389e60b5e67a5722d87e85b0b005a380eb1b900"
+            },
+            "off": {
+              "path": "corpora/p87_b256/eta_tail_17_trace_off.bin",
+              "bytes": 340,
+              "sha256": "4cf86a7f6c8bffa702cbbc12143ce35899658568443ca67236b50741bb313253"
+            },
+            "thread_on_work": {
+              "path": "corpora/p87_b256/eta_tail_17_thread_on_work.bin",
+              "bytes": 272,
+              "sha256": "1cc6ba71deb9c3193b65ba7466183a7c14cd12de2ebf9208eb6cc4b5805242d5"
+            },
+            "warp_on_work": {
+              "path": "corpora/p87_b256/eta_tail_17_warp_on_work.bin",
+              "bytes": 272,
+              "sha256": "1cc6ba71deb9c3193b65ba7466183a7c14cd12de2ebf9208eb6cc4b5805242d5"
+            },
+            "split32_on_work": {
+              "path": "corpora/p87_b256/eta_tail_17_split32_on_work.bin",
+              "bytes": 272,
+              "sha256": "279d92a32b4e12c027ef895afaa4769a98744c16b2525da5620c0b3e33bb26de"
+            },
+            "split32_on_warp_work": {
+              "path": "corpora/p87_b256/eta_tail_17_split32_on_warp_work.bin",
+              "bytes": 64,
+              "sha256": "9993b4d4221a362e803b01c7b3e6f33003f8633bcf08e29efb36ca0a2444901c"
+            },
+            "thread_off_work": {
+              "path": "corpora/p87_b256/eta_tail_17_thread_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "warp_off_work": {
+              "path": "corpora/p87_b256/eta_tail_17_warp_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "split32_off_work": {
+              "path": "corpora/p87_b256/eta_tail_17_split32_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "split32_off_warp_work": {
+              "path": "corpora/p87_b256/eta_tail_17_split32_off_warp_work.bin",
+              "bytes": 64,
+              "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+            }
+          },
+          "physical_work_accounting": {
+            "thread_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 30,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 30,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 30,
+              "valid_executed_permutations": 30,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 30
+            },
+            "warp_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 30,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 30,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 30,
+              "valid_executed_permutations": 30,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 30
+            },
+            "split32_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 30,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 34,
+              "valid_drain_dummy_permutations": 4,
+              "valid_logical_permutations": 30,
+              "valid_executed_permutations": 34,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 30,
+              "total_executed_permutations": 64
+            },
+            "thread_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 136
+            },
+            "warp_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 136
+            },
+            "split32_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 120,
+              "total_executed_permutations": 256
+            }
+          }
+        },
+        {
+          "id": "eta_tail_65",
+          "op": 3,
+          "rate": 136,
+          "input_bytes": 66,
+          "output_bytes": 1024,
+          "units": 256,
+          "force_blocks": 0,
+          "budget": 8,
+          "qualify_only": true,
+          "both_policies": true,
+          "expected_exhaustion": false,
+          "qualification_n": 65,
+          "n": 65,
+          "files": {
+            "input": {
+              "path": "corpora/p87_b256/eta_tail_65_input.bin",
+              "bytes": 4290,
+              "sha256": "21015cf4b30b8361fc2598a4cdd5a09ae3373111f4723dab1421a5186ecb608a"
+            },
+            "oracle": {
+              "path": "corpora/p87_b256/eta_tail_65_oracle.bin",
+              "bytes": 66560,
+              "sha256": "ec334a7b214c2eb3d978e4b920ccea8aec03d8008b88ddacd1311e3ef688e6e5"
+            },
+            "on": {
+              "path": "corpora/p87_b256/eta_tail_65_trace_on.bin",
+              "bytes": 1300,
+              "sha256": "845b4b27d02f05bf9c4d52fc29de04454b55cfee486dfbac457594d20b9bd62f"
+            },
+            "off": {
+              "path": "corpora/p87_b256/eta_tail_65_trace_off.bin",
+              "bytes": 1300,
+              "sha256": "9bf1658e62e2125db88d754799db552f922b94425c6ba394c49bdc963341f4d7"
+            },
+            "thread_on_work": {
+              "path": "corpora/p87_b256/eta_tail_65_thread_on_work.bin",
+              "bytes": 1040,
+              "sha256": "7a9428c4e7cb42ca539b1dee918c2d1406e7d19c6d78c446dd74bf4cb0afff29"
+            },
+            "warp_on_work": {
+              "path": "corpora/p87_b256/eta_tail_65_warp_on_work.bin",
+              "bytes": 1040,
+              "sha256": "7a9428c4e7cb42ca539b1dee918c2d1406e7d19c6d78c446dd74bf4cb0afff29"
+            },
+            "split32_on_work": {
+              "path": "corpora/p87_b256/eta_tail_65_split32_on_work.bin",
+              "bytes": 1040,
+              "sha256": "cc4764c5efa4ae446dd583b63448f7fe3a9aa241f7a1eb46f30752d19e7df7a9"
+            },
+            "split32_on_warp_work": {
+              "path": "corpora/p87_b256/eta_tail_65_split32_on_warp_work.bin",
+              "bytes": 128,
+              "sha256": "7e03614469e250515ab0e667991844d339c9aa638a0c4bf98cc9d8bd5b364ed3"
+            },
+            "thread_off_work": {
+              "path": "corpora/p87_b256/eta_tail_65_thread_off_work.bin",
+              "bytes": 1040,
+              "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+            },
+            "warp_off_work": {
+              "path": "corpora/p87_b256/eta_tail_65_warp_off_work.bin",
+              "bytes": 1040,
+              "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+            },
+            "split32_off_work": {
+              "path": "corpora/p87_b256/eta_tail_65_split32_off_work.bin",
+              "bytes": 1040,
+              "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+            },
+            "split32_off_warp_work": {
+              "path": "corpora/p87_b256/eta_tail_65_split32_off_warp_work.bin",
+              "bytes": 128,
+              "sha256": "a869fcec2e9f901fd167ef3ed792890e6604ba3ac238d8e57958a775dfb225f0"
+            }
+          },
+          "physical_work_accounting": {
+            "thread_on": {
+              "valid_requests": 65,
+              "logical_squeeze_blocks": 104,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 104,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 104,
+              "valid_executed_permutations": 104,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 104
+            },
+            "warp_on": {
+              "valid_requests": 65,
+              "logical_squeeze_blocks": 104,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 104,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 104,
+              "valid_executed_permutations": 104,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 104
+            },
+            "split32_on": {
+              "valid_requests": 65,
+              "logical_squeeze_blocks": 104,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 129,
+              "valid_drain_dummy_permutations": 25,
+              "valid_logical_permutations": 104,
+              "valid_executed_permutations": 129,
+              "padded_states": 63,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 15,
+              "total_executed_permutations": 144
+            },
+            "thread_off": {
+              "valid_requests": 65,
+              "logical_squeeze_blocks": 520,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 520,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 520,
+              "valid_executed_permutations": 520,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 520
+            },
+            "warp_off": {
+              "valid_requests": 65,
+              "logical_squeeze_blocks": 520,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 520,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 520,
+              "valid_executed_permutations": 520,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 520
+            },
+            "split32_off": {
+              "valid_requests": 65,
+              "logical_squeeze_blocks": 520,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 520,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 520,
+              "valid_executed_permutations": 520,
+              "padded_states": 63,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 120,
+              "total_executed_permutations": 640
+            }
+          }
+        },
+        {
+          "id": "expandmask_tail_17",
+          "op": 4,
+          "rate": 136,
+          "input_bytes": 66,
+          "output_bytes": 1024,
+          "units": 256,
+          "force_blocks": 0,
+          "budget": 8,
+          "qualify_only": true,
+          "both_policies": true,
+          "expected_exhaustion": false,
+          "qualification_n": 17,
+          "n": 17,
+          "files": {
+            "input": {
+              "path": "corpora/p87_b256/expandmask_tail_17_input.bin",
+              "bytes": 1122,
+              "sha256": "0d18d0352894a62280cb7bcdf2713705cee259779922cf7613cde817a59e965e"
+            },
+            "oracle": {
+              "path": "corpora/p87_b256/expandmask_tail_17_oracle.bin",
+              "bytes": 17408,
+              "sha256": "61f2c3558667a80cfce2a93a5711eb91f2ba2e1122d28c55538f4a2c19cac196"
+            },
+            "on": {
+              "path": "corpora/p87_b256/expandmask_tail_17_trace_on.bin",
+              "bytes": 340,
+              "sha256": "e454a9298fbce0a2d3669e427b987a4137357560281062045ba0a8ddd5498f73"
+            },
+            "off": {
+              "path": "corpora/p87_b256/expandmask_tail_17_trace_off.bin",
+              "bytes": 340,
+              "sha256": "8d074483ca209d54f94ea783c80b01a86e6aece591cedb3368393381ce399700"
+            },
+            "thread_on_work": {
+              "path": "corpora/p87_b256/expandmask_tail_17_thread_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "warp_on_work": {
+              "path": "corpora/p87_b256/expandmask_tail_17_warp_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "split32_on_work": {
+              "path": "corpora/p87_b256/expandmask_tail_17_split32_on_work.bin",
+              "bytes": 272,
+              "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+            },
+            "split32_on_warp_work": {
+              "path": "corpora/p87_b256/expandmask_tail_17_split32_on_warp_work.bin",
+              "bytes": 64,
+              "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+            },
+            "thread_off_work": {
+              "path": "corpora/p87_b256/expandmask_tail_17_thread_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "warp_off_work": {
+              "path": "corpora/p87_b256/expandmask_tail_17_warp_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "split32_off_work": {
+              "path": "corpora/p87_b256/expandmask_tail_17_split32_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "split32_off_warp_work": {
+              "path": "corpora/p87_b256/expandmask_tail_17_split32_off_warp_work.bin",
+              "bytes": 64,
+              "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+            }
+          },
+          "physical_work_accounting": {
+            "thread_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "warp_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 85
+            },
+            "split32_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 85,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 85,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 85,
+              "valid_executed_permutations": 85,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 75,
+              "total_executed_permutations": 160
+            },
+            "thread_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 136
+            },
+            "warp_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 136
+            },
+            "split32_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 120,
+              "total_executed_permutations": 256
+            }
+          }
+        },
+        {
+          "id": "sample_in_ball_tail_17",
+          "op": 5,
+          "rate": 136,
+          "input_bytes": 64,
+          "output_bytes": 1024,
+          "units": 60,
+          "force_blocks": 0,
+          "budget": 8,
+          "qualify_only": true,
+          "both_policies": true,
+          "expected_exhaustion": false,
+          "qualification_n": 17,
+          "n": 17,
+          "files": {
+            "input": {
+              "path": "corpora/p87_b256/sample_in_ball_tail_17_input.bin",
+              "bytes": 1088,
+              "sha256": "7bb4eb9dd4e2a4bd72b74c08da2acff5a51dbdaf1a49ac02fa621de79f846b41"
+            },
+            "oracle": {
+              "path": "corpora/p87_b256/sample_in_ball_tail_17_oracle.bin",
+              "bytes": 17408,
+              "sha256": "e41cdc0e1f4f61d81344d93e44d1b72fbabaf1886c71949a10a116c2d4f128ea"
+            },
+            "on": {
+              "path": "corpora/p87_b256/sample_in_ball_tail_17_trace_on.bin",
+              "bytes": 340,
+              "sha256": "9c0d5ffc441fc8c11fc0f5fee933e89badf0bd271182940a5956efacf0457070"
+            },
+            "off": {
+              "path": "corpora/p87_b256/sample_in_ball_tail_17_trace_off.bin",
+              "bytes": 340,
+              "sha256": "3ead62a99daa0d8f197b030b2823221c57fcd86206b7ce5d169c0209042e1352"
+            },
+            "thread_on_work": {
+              "path": "corpora/p87_b256/sample_in_ball_tail_17_thread_on_work.bin",
+              "bytes": 272,
+              "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+            },
+            "warp_on_work": {
+              "path": "corpora/p87_b256/sample_in_ball_tail_17_warp_on_work.bin",
+              "bytes": 272,
+              "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+            },
+            "split32_on_work": {
+              "path": "corpora/p87_b256/sample_in_ball_tail_17_split32_on_work.bin",
+              "bytes": 272,
+              "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+            },
+            "split32_on_warp_work": {
+              "path": "corpora/p87_b256/sample_in_ball_tail_17_split32_on_warp_work.bin",
+              "bytes": 64,
+              "sha256": "61f1f22bb36b2558657eb87290ae670c13fadbbe1b0c9e5e6d7029c2b5febef7"
+            },
+            "thread_off_work": {
+              "path": "corpora/p87_b256/sample_in_ball_tail_17_thread_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "warp_off_work": {
+              "path": "corpora/p87_b256/sample_in_ball_tail_17_warp_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "split32_off_work": {
+              "path": "corpora/p87_b256/sample_in_ball_tail_17_split32_off_work.bin",
+              "bytes": 272,
+              "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+            },
+            "split32_off_warp_work": {
+              "path": "corpora/p87_b256/sample_in_ball_tail_17_split32_off_warp_work.bin",
+              "bytes": 64,
+              "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+            }
+          },
+          "physical_work_accounting": {
+            "thread_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 17,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 17,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 17,
+              "valid_executed_permutations": 17,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 17
+            },
+            "warp_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 17,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 17,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 17,
+              "valid_executed_permutations": 17,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 17
+            },
+            "split32_on": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 17,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 17,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 17,
+              "valid_executed_permutations": 17,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 15,
+              "total_executed_permutations": 32
+            },
+            "thread_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 136
+            },
+            "warp_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 0,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 0,
+              "total_executed_permutations": 136
+            },
+            "split32_off": {
+              "valid_requests": 17,
+              "logical_squeeze_blocks": 136,
+              "valid_absorb_permutations": 0,
+              "valid_executed_squeeze_permutations": 136,
+              "valid_drain_dummy_permutations": 0,
+              "valid_logical_permutations": 136,
+              "valid_executed_permutations": 136,
+              "padded_states": 47,
+              "padded_absorb_permutations": 0,
+              "padded_squeeze_permutations": 120,
+              "total_executed_permutations": 256
+            }
+          }
+        }
+      ]
+    }
+  },
+  "planned_processes": 3,
+  "total_budget_seconds": 150,
+  "per_process_timeout_seconds": 45,
+  "limits": [
+    "Standalone archived primitive executables, not the current production DSOs or all historical split32 programs.",
+    "Seven small cases per parameter: raw permutation, SHAKE, uniform, eta at 17/65 requests, ExpandMask and SampleInBall; three comparison backends are retained.",
+    "No source edits, no compilation and no performance claim. A pass only covers the selected inputs and binary hashes.",
+    "150-second execution budget across three processes; each owned instrumented child is limited to 45 seconds or remaining budget. Export/SSH transfer are additional.",
+    "Only the child process group created by this runner may be stopped at timeout; no other GPU process is stopped."
+  ]
+}

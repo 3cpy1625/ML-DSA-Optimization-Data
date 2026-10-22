@@ -1,0 +1,212 @@
+{
+  "status": "SEALED_BENCHMARK_BUILD_PASS",
+  "source": "/var/home/lsb/mldsa-experiments/新4090数据/01_生产采样不足额与故障恢复/sampling_continuation/20261020T072513293953Z-0eace308/source/MAINLINE",
+  "source_compilation_sha256": "c73f8b5f49070d370fd8787168c2d49839afaf3aff350c83080cfb114f5ed42e",
+  "benchmark": "/var/home/lsb/mldsa-experiments/新4090数据/01_生产采样不足额与故障恢复/normal_regression/runs/20261020T091306215597Z-b74395b3/build/integration/loce_unified_api_bench",
+  "benchmark_sha256": "352fb2afb304793b80167f0477d8697d3f08ce4f55348ab6b69a056dc8a68aa0",
+  "module_dir": "/var/home/lsb/mldsa-experiments/新4090数据/01_生产采样不足额与故障恢复/normal_regression/runs/20261020T091306215597Z-b74395b3/modules",
+  "modules": [
+    {
+      "embedded_identity": {
+        "abi_version": 1,
+        "algorithm": "ML-DSA",
+        "build_id": "new4090-cont-v2-4bf3e2db6e158c086d98",
+        "build_provenance_sha256": "4bf3e2db6e158c086d989d697b187ae116a8b47e8b771441c3a7fa6644d9bfae",
+        "compilation_input_sha256": "c73f8b5f49070d370fd8787168c2d49839afaf3aff350c83080cfb114f5ed42e",
+        "execution_contract_registry_sha256": "86bf63340f892189eadffe58bb400e71d63a4468245af3473a4bbca0c62f7ab6",
+        "module_id": "mldsa44-keygen-d3-sm89-native",
+        "operation_mask": 1,
+        "parameter_set": "44",
+        "policy_id": "MLDSA-44-KEYGEN-D3",
+        "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "release_family_id": "NEW4090-SAMPLING-CONTINUATION-V2-20261020T080928540023Z-c9340c89",
+        "sm_arch": "sm_89"
+      },
+      "filename": "libloce_mldsa44_keygen_d3_sm89.so",
+      "sha256": "210f4aecce42d4b08b57b669e6a80d2885fe2b65b0ef3dccf843112f2f04c8ab"
+    },
+    {
+      "embedded_identity": {
+        "abi_version": 1,
+        "algorithm": "ML-DSA",
+        "build_id": "new4090-cont-v2-629375cce25019edcbec",
+        "build_provenance_sha256": "629375cce25019edcbecb0e9d273b8fb159aee32aec83ddc68c70117c075d8a5",
+        "compilation_input_sha256": "c73f8b5f49070d370fd8787168c2d49839afaf3aff350c83080cfb114f5ed42e",
+        "execution_contract_registry_sha256": "86bf63340f892189eadffe58bb400e71d63a4468245af3473a4bbca0c62f7ab6",
+        "module_id": "mldsa44-sign-d4-sm89-native",
+        "operation_mask": 8,
+        "parameter_set": "44",
+        "policy_id": "MLDSA-44-SIGN-D4",
+        "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "release_family_id": "NEW4090-SAMPLING-CONTINUATION-V2-20261020T080928540023Z-c9340c89",
+        "sm_arch": "sm_89"
+      },
+      "filename": "libloce_mldsa44_sign_d4_sm89.so",
+      "sha256": "87dfa100b4e886abcf93912874e07e230db0089a6984590ffb655d0f85b5719b"
+    },
+    {
+      "embedded_identity": {
+        "abi_version": 1,
+        "algorithm": "ML-DSA",
+        "build_id": "new4090-cont-v2-dbba1fadaa55a465052f",
+        "build_provenance_sha256": "dbba1fadaa55a465052fc98b7273cb204b8862c9621ca7a0d14dadc046d164da",
+        "compilation_input_sha256": "c73f8b5f49070d370fd8787168c2d49839afaf3aff350c83080cfb114f5ed42e",
+        "execution_contract_registry_sha256": "86bf63340f892189eadffe58bb400e71d63a4468245af3473a4bbca0c62f7ab6",
+        "module_id": "mldsa44-verify-d3-sm89-native",
+        "operation_mask": 16,
+        "parameter_set": "44",
+        "policy_id": "MLDSA-44-VERIFY-D3",
+        "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "release_family_id": "NEW4090-SAMPLING-CONTINUATION-V2-20261020T080928540023Z-c9340c89",
+        "sm_arch": "sm_89"
+      },
+      "filename": "libloce_mldsa44_verify_d3_sm89.so",
+      "sha256": "8a2a3975a87d4938e8bbb76ab009f28c0a0338400242d1fd4b062e67ad1bfc33"
+    },
+    {
+      "embedded_identity": {
+        "abi_version": 1,
+        "algorithm": "ML-DSA",
+        "build_id": "new4090-cont-v2-7c704bfb1d6ef71da511",
+        "build_provenance_sha256": "7c704bfb1d6ef71da511b8d12bc36d987aa2c8464a3196a56bef43dc30f5b052",
+        "compilation_input_sha256": "c73f8b5f49070d370fd8787168c2d49839afaf3aff350c83080cfb114f5ed42e",
+        "execution_contract_registry_sha256": "86bf63340f892189eadffe58bb400e71d63a4468245af3473a4bbca0c62f7ab6",
+        "module_id": "mldsa65-keygen-d3-sm89-native",
+        "operation_mask": 1,
+        "parameter_set": "65",
+        "policy_id": "MLDSA-65-KEYGEN-D3",
+        "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "release_family_id": "NEW4090-SAMPLING-CONTINUATION-V2-20261020T080928540023Z-c9340c89",
+        "sm_arch": "sm_89"
+      },
+      "filename": "libloce_mldsa65_keygen_d3_sm89.so",
+      "sha256": "6d61e126bf481871fd62409dc69e1350b2a09286c7d3742f4b22e4ce2bc471f9"
+    },
+    {
+      "embedded_identity": {
+        "abi_version": 1,
+        "algorithm": "ML-DSA",
+        "build_id": "new4090-cont-v2-8f8a5e516a79f973dbc4",
+        "build_provenance_sha256": "8f8a5e516a79f973dbc40508e042b8d0413c9fba114eb6cad58fd0803113107f",
+        "compilation_input_sha256": "c73f8b5f49070d370fd8787168c2d49839afaf3aff350c83080cfb114f5ed42e",
+        "execution_contract_registry_sha256": "86bf63340f892189eadffe58bb400e71d63a4468245af3473a4bbca0c62f7ab6",
+        "module_id": "mldsa65-sign-d4-sm89-native",
+        "operation_mask": 8,
+        "parameter_set": "65",
+        "policy_id": "MLDSA-65-SIGN-D4",
+        "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "release_family_id": "NEW4090-SAMPLING-CONTINUATION-V2-20261020T080928540023Z-c9340c89",
+        "sm_arch": "sm_89"
+      },
+      "filename": "libloce_mldsa65_sign_d4_sm89.so",
+      "sha256": "21938109c746173886f2212c7a6edd0286529ef1396419ff1819eb1ddf7258fe"
+    },
+    {
+      "embedded_identity": {
+        "abi_version": 1,
+        "algorithm": "ML-DSA",
+        "build_id": "new4090-cont-v2-99de2c41189a7d66d19e",
+        "build_provenance_sha256": "99de2c41189a7d66d19ec2e43511b0cf40fbd5a1353d81cd87a56f6bf4e953fb",
+        "compilation_input_sha256": "c73f8b5f49070d370fd8787168c2d49839afaf3aff350c83080cfb114f5ed42e",
+        "execution_contract_registry_sha256": "86bf63340f892189eadffe58bb400e71d63a4468245af3473a4bbca0c62f7ab6",
+        "module_id": "mldsa65-verify-d3-sm89-native",
+        "operation_mask": 16,
+        "parameter_set": "65",
+        "policy_id": "MLDSA-65-VERIFY-D3",
+        "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "release_family_id": "NEW4090-SAMPLING-CONTINUATION-V2-20261020T080928540023Z-c9340c89",
+        "sm_arch": "sm_89"
+      },
+      "filename": "libloce_mldsa65_verify_d3_sm89.so",
+      "sha256": "a6ee3f659e8091677ea5113967eaef0ab51e53fc4fb6e40912708d4840574e9b"
+    },
+    {
+      "embedded_identity": {
+        "abi_version": 1,
+        "algorithm": "ML-DSA",
+        "build_id": "new4090-cont-v2-cebc8de9b55dff9236d2",
+        "build_provenance_sha256": "cebc8de9b55dff9236d26374e6c683f9d5005aae3aa71e70be5e238839fe9384",
+        "compilation_input_sha256": "c73f8b5f49070d370fd8787168c2d49839afaf3aff350c83080cfb114f5ed42e",
+        "execution_contract_registry_sha256": "86bf63340f892189eadffe58bb400e71d63a4468245af3473a4bbca0c62f7ab6",
+        "module_id": "mldsa87-keygen-d3-sm89-native",
+        "operation_mask": 1,
+        "parameter_set": "87",
+        "policy_id": "MLDSA-87-KEYGEN-D3",
+        "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "release_family_id": "NEW4090-SAMPLING-CONTINUATION-V2-20261020T080928540023Z-c9340c89",
+        "sm_arch": "sm_89"
+      },
+      "filename": "libloce_mldsa87_keygen_d3_sm89.so",
+      "sha256": "979594acf9e295276ba95e03c15550486a080bb54e3083596d73095d261cfce7"
+    },
+    {
+      "embedded_identity": {
+        "abi_version": 1,
+        "algorithm": "ML-DSA",
+        "build_id": "new4090-cont-v2-5ee3556cab65856f0ba9",
+        "build_provenance_sha256": "5ee3556cab65856f0ba9d3ad588c03bb7b777823b81f9f1454925859e5539b43",
+        "compilation_input_sha256": "c73f8b5f49070d370fd8787168c2d49839afaf3aff350c83080cfb114f5ed42e",
+        "execution_contract_registry_sha256": "86bf63340f892189eadffe58bb400e71d63a4468245af3473a4bbca0c62f7ab6",
+        "module_id": "mldsa87-sign-d4-sm89-native",
+        "operation_mask": 8,
+        "parameter_set": "87",
+        "policy_id": "MLDSA-87-SIGN-D4",
+        "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "release_family_id": "NEW4090-SAMPLING-CONTINUATION-V2-20261020T080928540023Z-c9340c89",
+        "sm_arch": "sm_89"
+      },
+      "filename": "libloce_mldsa87_sign_d4_sm89.so",
+      "sha256": "5aec395cb5fa5f837ade4a1bc37c9f2f7bf9dca41b2355cb2b23ef1705649f1d"
+    },
+    {
+      "embedded_identity": {
+        "abi_version": 1,
+        "algorithm": "ML-DSA",
+        "build_id": "new4090-cont-v2-f33e361be00256cd3341",
+        "build_provenance_sha256": "f33e361be00256cd33418b79e3331ab30cae292bd96742921175d29c64b930c8",
+        "compilation_input_sha256": "c73f8b5f49070d370fd8787168c2d49839afaf3aff350c83080cfb114f5ed42e",
+        "execution_contract_registry_sha256": "86bf63340f892189eadffe58bb400e71d63a4468245af3473a4bbca0c62f7ab6",
+        "module_id": "mldsa87-verify-d3-sm89-native",
+        "operation_mask": 16,
+        "parameter_set": "87",
+        "policy_id": "MLDSA-87-VERIFY-D3",
+        "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "release_family_id": "NEW4090-SAMPLING-CONTINUATION-V2-20261020T080928540023Z-c9340c89",
+        "sm_arch": "sm_89"
+      },
+      "filename": "libloce_mldsa87_verify_d3_sm89.so",
+      "sha256": "b16725cc8f90095bc7378947b9b334542b678cd2a87d95226addee82362093ab"
+    }
+  ],
+  "configure_argv": [
+    "/opt/mldsa-venv/bin/cmake",
+    "-G",
+    "Ninja",
+    "-S",
+    "/workspace/新4090数据/01_生产采样不足额与故障恢复/sampling_continuation/20261020T072513293953Z-0eace308/source/MAINLINE",
+    "-B",
+    "/workspace/新4090数据/01_生产采样不足额与故障恢复/normal_regression/runs/20261020T091306215597Z-b74395b3/build/integration",
+    "-DCMAKE_MAKE_PROGRAM=/opt/mldsa-venv/bin/ninja",
+    "-DPython3_EXECUTABLE=/opt/mldsa-venv/bin/python",
+    "-DCMAKE_C_COMPILER=/usr/bin/gcc",
+    "-DCMAKE_CXX_COMPILER=/usr/bin/g++",
+    "-DCMAKE_CUDA_COMPILER=/usr/local/cuda/bin/nvcc",
+    "-DCMAKE_BUILD_TYPE=Release",
+    "-DCMAKE_CUDA_ARCHITECTURES=89",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON",
+    "-DLOCE_USE_EMBEDDED_NATIVE_SOURCES=ON",
+    "-DLOCE_BUILD_NATIVE_MLKEM=OFF",
+    "-DLOCE_BUILD_NATIVE_MLDSA_SIGN=OFF",
+    "-DLOCE_BUILD_NATIVE_MLDSA_NONSIGN=OFF",
+    "-DLOCE_BUILD_TESTS=OFF",
+    "-DLOCE_BUILD_EXAMPLES=OFF",
+    "-DLOCE_BUILD_UNIFIED_INTEGRATION=OFF",
+    "-DLOCE_BUILD_BENCHMARKS=ON",
+    "-DLOCE_BENCHMARK_PRE_SYNC_COMPLETION_EVENT=ON",
+    "-DLOCE_MODULE_REGISTRY_JSON=/workspace/新4090数据/01_生产采样不足额与故障恢复/normal_regression/runs/20261020T091306215597Z-b74395b3/config/mldsa_registry.json",
+    "-DLOCE_ALLOW_PARTIAL_MODULE_REGISTRY=ON",
+    "-DLOCE_REQUIRE_SEALED_MODULE_ATTESTATION=ON",
+    "-DLOCE_MODULE_ATTESTATION_MANIFEST=/workspace/新4090数据/01_生产采样不足额与故障恢复/normal_regression/runs/20261020T091306215597Z-b74395b3/config/module_attestation.json",
+    "-DLOCE_MODULE_DIRECTORY=/workspace/新4090数据/01_生产采样不足额与故障恢复/normal_regression/runs/20261020T091306215597Z-b74395b3/modules"
+  ]
+}

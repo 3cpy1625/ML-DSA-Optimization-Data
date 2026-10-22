@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "loce.hardening006.artifact-reference.v1",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["path_base", "path", "sha256"],
+  "properties": {
+    "path_base": {"const": "package_root"},
+    "path": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))(?!.*\\\\).+$"
+    },
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  }
+}

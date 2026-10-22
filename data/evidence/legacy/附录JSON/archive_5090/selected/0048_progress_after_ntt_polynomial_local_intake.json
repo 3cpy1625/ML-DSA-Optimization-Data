@@ -1,0 +1,34 @@
+{
+  "schema": "mldsa5090-ntt-polynomial-local-intake-v1",
+  "recorded_utc": "2026-10-19T22:00:46.717561+00:00",
+  "status": "NTT_POLYNOMIAL_5090_LOCAL_INTAKE_PASS_WITH_EXPLICIT_SCOPE_LIMITS",
+  "run_id": "20261019T214025766726Z-ba631f39",
+  "archive": {
+    "path": "server_results/ntt_polynomial/ntt_polynomial_5090_20261019T214025766726Z-ba631f39_ade1cd68.tar.gz",
+    "bytes": 2320727078,
+    "sha256": "f09a3589f8e08ce16446d007034c7c12df6c2012da0a56ce1d125b200a70e7cf"
+  },
+  "intake": {
+    "path": "server_results/ntt_polynomial/20261019T214025766726Z-ba631f39/LOCAL_INTAKE_VERIFICATION.json",
+    "bytes": 41631,
+    "sha256": "94e07aa174658929ab14196f1727e8508cb1f7c72bc60a9166cebd1a5994fa9c"
+  },
+  "counts": {
+    "timing_samples": 7290,
+    "process_variant_rows": 486,
+    "cell_variant_rows": 162,
+    "paired_ratio_rows": 459,
+    "processes": 27,
+    "check_records": 972
+  },
+  "retained_files": 814,
+  "binary_files": 504,
+  "uncompressed_verified_bytes": 4785851472,
+  "gpu_outputs_independently_verified": 486,
+  "source_files": 5,
+  "source_scope": "Five fixed donor inputs only; no full source-tree or nine-DSO verification claim by this operator matrix.",
+  "scope": "Standalone NTT/INTT/pointwise and one-output-row L4/5/7 polynomial dot chain; split/fused changes parallelism and storage together.",
+  "full_outline_complete": false,
+  "formal_full_operation_performance_collected": false,
+  "next": "split32 27-process matrix active; E03 official NVTX configuration ready for independent fresh build."
+}

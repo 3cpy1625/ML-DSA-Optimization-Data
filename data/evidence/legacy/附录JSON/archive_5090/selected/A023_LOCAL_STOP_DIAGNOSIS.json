@@ -1,0 +1,219 @@
+{
+  "status": "STOPPED_WITH_RACECHECK_FINDING_PRESERVED",
+  "archive_integrity": {
+    "status": "LOCAL_ARCHIVE_AND_FULL_MANIFEST_VERIFIED",
+    "archive": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\split32_sanitizer_postsettle_stopped\\split32-sanitizer-27c9389515734bddb0d25b992da725b6.tar.gz",
+    "archive_sha256": "93f766aa0388bb30c775fcfb7dbe82d7a68ac07646c6bf05c9cfd1b575a1343d",
+    "archive_bytes": 13102802,
+    "regular_members": 3141,
+    "manifest_rows": 3140,
+    "regular_payload_bytes": 38927427,
+    "physical_tar": {
+      "regular_headers": 3141,
+      "pax_headers": 3140,
+      "expanded_bytes": 44206080,
+      "trailing_payload": "ZERO_PADDING_ONLY"
+    },
+    "remote_run_root": "/home/lsb/mldsa-experiments-5090/operator_split32_sanitizer_5090/runs/s32san-postsettle-109eb325-20261020T054100Z/",
+    "checks": [
+      "trusted_local_scanner_sha256",
+      "compressed_archive_exact_bytes",
+      "sidecar_exact_digest_and_filename",
+      "physical_and_logical_tar_full_read_and_exact_sha256",
+      "regular_member_count_3141",
+      "all_3140_manifest_member_bytes_sha256_and_exact_inventory",
+      "manifest_all_members_bound_to_one_remote_run_root"
+    ],
+    "scanner_sha256": "88e73c08f0cc6c4e2e2f0466abf1916d33e80efe54015b92ec142f0665c75a63",
+    "verifier_sha256": "e586975130b4978d497031b8f21b2f2da96684c8e5682cdcf130f73e593d65e8",
+    "archive_code_executed": false,
+    "compiler_executed": false,
+    "gpu_executed": false,
+    "ssh_executed": false,
+    "qualification": "Archive integrity only; stopped matrix cannot be accepted as complete."
+  },
+  "proven_immediate_stop_reason": "Compute Sanitizer racecheck p44 reported 103 warnings, displayed 100 hazards, and returned configured failure exit code 86. The strict native lifecycle gate rejected that nonzero exit and stopped the matrix before post-idle/assessment. The owned group exited without cleanup signals.",
+  "racecheck": {
+    "spec": {
+      "batch": 256,
+      "block": 0,
+      "parameter": 44,
+      "repeat": 2,
+      "tool": "racecheck",
+      "warmup": 0
+    },
+    "execution_member": "run/jobs/racecheck_p44/attempts/1493c326b5ca4d56a91687697f081395/sanitizer_EXECUTION.json",
+    "execution_sha256": "7868c38df6b1fb5d24966abed70d6056a928458b756b7b45f2bd770bb0baa877",
+    "returncode": 86,
+    "configured_error_exitcode": 86,
+    "timed_out": false,
+    "deferred_signals": [],
+    "kill_requested": false,
+    "owned_group_postcheck": {
+      "status": "OWNED_GROUP_ABSENT",
+      "pgid": 38548,
+      "actions": []
+    },
+    "cleanup_error": null,
+    "runtime_error": null,
+    "started_utc": "2026-10-20T05:42:09.336367+00:00",
+    "completed_utc": "2026-10-20T05:42:44.172315+00:00",
+    "monitor_samples": 60,
+    "tool_summary": {
+      "hazards_displayed": 100,
+      "errors": 0,
+      "warnings": 103
+    },
+    "displayed_warning_headers": 100,
+    "reported_source_location_occurrences": {
+      "110": 800,
+      "164": 15,
+      "170": 42,
+      "177": 31,
+      "186": 6,
+      "198": 6
+    },
+    "first_displayed_warning": "========= Warning: Race reported between Read access at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x3460 in shake_sampling_audit.cu:164",
+    "log_member": "run/jobs/racecheck_p44/attempts/1493c326b5ca4d56a91687697f081395/sanitizer.log",
+    "log_sha256": "32b6be2cb88ebb444f8ba20319d5662ef5b9b7ac10fa9c76af19a4b080a85ecb",
+    "cpu_oracle_stdout_trailer": "complete,37,231,120,231,PASS",
+    "cpu_oracle_trailer_limit": "Application PASS text does not override sanitizer findings or nonzero native exit; no racecheck PROCESS_RESULT was accepted."
+  },
+  "controller_failure": {
+    "member": "run/FAILURE_run_735e62171978487aa786065f65f404b1.json",
+    "record": {
+      "error": "Native process lifecycle not accepted; failed attempt retained",
+      "error_type": "RuntimeError",
+      "identity_closure": {
+        "controller": "UNCHANGED",
+        "sealed_inputs": "UNCHANGED"
+      },
+      "retained": "All raw attempts retained; no retry or deletion",
+      "stage": "run",
+      "status": "SPLIT32_SANITIZER_STOPPED",
+      "utc": "2026-10-20T05:42:44.385130+00:00"
+    }
+  },
+  "completed_memcheck_processes": [
+    {
+      "member": "run/jobs/memcheck_p44/PROCESS_RESULT.json",
+      "parameter": 44,
+      "status": "SPLIT32_SANITIZER_PROCESS_PASS",
+      "attempt": "/home/lsb/mldsa-experiments-5090/operator_split32_sanitizer_5090/runs/s32san-postsettle-109eb325-20261020T054100Z/jobs/memcheck_p44/attempts/f91e7c574be54e588427618a11c67972",
+      "counts": {
+        "checks": 231,
+        "work_checks": 231,
+        "diagnostic_raw_samples": 120
+      },
+      "native_returncode": 0,
+      "tool_summary": {
+        "blocker": null,
+        "diagnostics": [],
+        "errors": [
+          0
+        ],
+        "races": [],
+        "status": "ZERO_FINDINGS_SUMMARY",
+        "suppressed": []
+      }
+    },
+    {
+      "member": "run/jobs/memcheck_p65/PROCESS_RESULT.json",
+      "parameter": 65,
+      "status": "SPLIT32_SANITIZER_PROCESS_PASS",
+      "attempt": "/home/lsb/mldsa-experiments-5090/operator_split32_sanitizer_5090/runs/s32san-postsettle-109eb325-20261020T054100Z/jobs/memcheck_p65/attempts/182eadb8d2354d3f91f81ace7904d340",
+      "counts": {
+        "checks": 231,
+        "work_checks": 231,
+        "diagnostic_raw_samples": 120
+      },
+      "native_returncode": 0,
+      "tool_summary": {
+        "blocker": null,
+        "diagnostics": [],
+        "errors": [
+          0
+        ],
+        "races": [],
+        "status": "ZERO_FINDINGS_SUMMARY",
+        "suppressed": []
+      }
+    },
+    {
+      "member": "run/jobs/memcheck_p87/PROCESS_RESULT.json",
+      "parameter": 87,
+      "status": "SPLIT32_SANITIZER_PROCESS_PASS",
+      "attempt": "/home/lsb/mldsa-experiments-5090/operator_split32_sanitizer_5090/runs/s32san-postsettle-109eb325-20261020T054100Z/jobs/memcheck_p87/attempts/8ac82e9939fd44e5b0e0aa96621c25c3",
+      "counts": {
+        "checks": 231,
+        "work_checks": 231,
+        "diagnostic_raw_samples": 120
+      },
+      "native_returncode": 0,
+      "tool_summary": {
+        "blocker": null,
+        "diagnostics": [],
+        "errors": [
+          0
+        ],
+        "races": [],
+        "status": "ZERO_FINDINGS_SUMMARY",
+        "suppressed": []
+      }
+    }
+  ],
+  "integrity_crosschecks": {
+    "native_lifecycle_records": 4,
+    "completed_artifact_inventory_rows": 1338,
+    "complete_manifest_bytes_and_hash_rows": 3140
+  },
+  "matrix_state": {
+    "expected_processes": 12,
+    "accepted_memcheck_processes": 3,
+    "failed_racecheck_processes": 1,
+    "not_started_processes": 8,
+    "full_sanitizer_matrix": "INCOMPLETE_NOT_PASS",
+    "formal_performance": "NOT_MEASURED",
+    "retry_performed": false,
+    "source_or_controller_changed": false
+  },
+  "static_source_observation": {
+    "path": "E:\\密码竞赛\\work\\split32_root_platform_eee60293\\f_7cd8227f\\native\\run\\build\\shake_sampling_audit.cu",
+    "sha256": "dffb236722b90943963086707e3b75ac6dc506e180212e8639d32a5a41ec7d1f",
+    "native_fact": {
+      "bytes": 25136,
+      "path": "/home/lsb/mldsa-experiments-5090/operator_split32_comparison_5090/runs/20261019T215136567276Z-de9b27bb/build/shake_sampling_audit.cu",
+      "sha256": "dffb236722b90943963086707e3b75ac6dc506e180212e8639d32a5a41ec7d1f"
+    },
+    "lines": {
+      "108": "    __device__ void next(uint8_t* out) {",
+      "109": "        s=state_permute_PTX(s);",
+      "110": "        if(threadIdx.x<rate/8) for(int j=0;j<8;++j) out[threadIdx.x*8+j]=uint8_t(s>>(8*j));",
+      "111": "        __syncwarp();",
+      "155": "    for(int b=0;b<budget;++b) {",
+      "156": "        stream.next(buf);",
+      "157": "        if(lane==0) {",
+      "164": "                    if(accepted<uint32_t(units)) out[accepted++]=buf[j];",
+      "170": "                        ((uint32_t(buf[j])|(uint32_t(buf[j+1])<<8)|(uint32_t(buf[j+2])<<16))&UINT32_C(0x7fffff));",
+      "206": "        }",
+      "207": "        uint32_t a=accepted;",
+      "208": "        if(Warp) a=__shfl_sync(0xffffffff,a,0);",
+      "209": "        if(stop && a==uint32_t(units)) break;",
+      "210": "    }"
+    },
+    "observation": "The reported Warp=1 specialization writes shared buf in Stream<1>::next at line 110 and reads it in the lane-zero parser at lines 164/170. There is __syncwarp after the write at line 111, followed by __shfl_sync at line 208 after parsing. No explicit __syncwarp memory barrier appears between completion of lane-zero parsing and the next stream.next(buf). This is consistent with a shared-buffer read/overwrite hazard; no source was changed and no repair was tested.",
+    "limit": "The recorded tool warning and nonzero exit are the proven stop cause. Static source inspection localizes a possible synchronization cause; it does not prove which displayed warning corresponds to a particular corpus case or establish any repair."
+  },
+  "execution_boundary": {
+    "archive_members_executed": false,
+    "native_executed": false,
+    "compiler_executed": false,
+    "gpu_executed": false,
+    "ssh_executed": false
+  },
+  "scripts": {
+    "verify_stop_archive.py": "e586975130b4978d497031b8f21b2f2da96684c8e5682cdcf130f73e593d65e8",
+    "scan_archive.py": "88e73c08f0cc6c4e2e2f0466abf1916d33e80efe54015b92ec142f0665c75a63",
+    "diagnose_stop.py": "24603460f3cf5b552d9f020cb60c1049f26d9a1774c96f362633ae254c1c8f43"
+  }
+}

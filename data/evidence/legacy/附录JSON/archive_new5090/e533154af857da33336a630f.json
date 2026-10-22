@@ -1,0 +1,11 @@
+{
+  "schema": "loce.mldsa-policy-provenance.v1",
+  "policy_id": "M65_B16384_RTX4090_CFB_V1",
+  "canonical_policy_source": "cmake/policies/mldsa_sign_policy_registry.cmake::M65_B16384_RTX4090_CFB_V1",
+  "canonical_policy_registry_sha256": "e9127d415d7c09236a0371f0a8dbb46704363b04b98171c49860c24d159ae528",
+  "canonical_policy_source_bundle_sha256": "1336b3049632e322472404579cfdf91d124f5a695dc87a1d6289fc4e3c197bd8",
+  "effective_engine_definitions_sha256": "068e981a2bd8112d576ab78c16c1d90c5111c25f119088e096fbc07ffef6587f",
+  "embedded_policy_digest": "5b1ef0c73d4433a6441dc9ce1d8e2fdf1da3978bd05419ab1ab44e3e00f31517",
+  "normalized_engine_definitions": "mldsa_policy_effective_definitions.txt",
+  "policy_source_manifest": "mldsa_policy_sources.txt"
+}

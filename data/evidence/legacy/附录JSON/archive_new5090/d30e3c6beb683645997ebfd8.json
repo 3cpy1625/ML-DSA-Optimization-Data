@@ -1,0 +1,17 @@
+{
+  "schema": "loce.native-direct-loaded-identity.v1",
+  "expected_filename": "libloce_mldsa44_verify_d3_sm120.so",
+  "loaded_path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/modules/libloce_mldsa44_verify_d3_sm120.so",
+  "pre_load_sha256": "bec5de56faf58a7ff3c49d83e6b2487812467240173501c1c55d6a31b26a3081",
+  "post_load_sha256": "bec5de56faf58a7ff3c49d83e6b2487812467240173501c1c55d6a31b26a3081",
+  "device": 64512,
+  "inode": 3947887,
+  "resolved_symbol": "loce_pqc_native_module_v1",
+  "algorithm": "ML-DSA",
+  "level": 1,
+  "operation": "verify",
+  "module_name": "mldsa44-sm120-native",
+  "module_build_identity": "v0802/MLDSA_NONSIGN_BEST/cuDilithium2",
+  "embedded": {"module_id": "mldsa44-verify-d3-sm120-native", "compilation_input_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01", "build_provenance_sha256": "45bd9c8053c3567b06b704362025099b1ffb066c2fc33054ef111b50ab41c738", "execution_contract_registry_sha256": "cd64d6312180440572ba5383a184bddd890e2a5f5c0c20a1ae7b91bd0b55f528", "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064", "build_id": "g1-45bd9c8053c3567b06b7", "release_family_id": "MLDSA-E03-V3-CTA-SM120-20261020", "algorithm": "ML-DSA", "parameter_set": "44", "operation_mask": 16, "policy_id": "MLDSA-44-VERIFY-D3", "sm_arch": "sm_120"},
+  "cuda_device": {"ordinal": 0, "uuid": "43cf85da3fa20d233066d8781644bb2a", "compute_capability_major": 12, "compute_capability_minor": 0}
+}

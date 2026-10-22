@@ -1,0 +1,22 @@
+{
+  "recorded_utc": "2026-10-19T20:03:51.041643+00:00",
+  "current_category": "E02",
+  "run_id": "e02b-complete-matrix-20261019T194848151296Z-699841",
+  "status": "ALL_EXPORTED_FILES_AND_MIXED48_EVIDENCE_VERIFIED_PASS",
+  "report": {
+    "path": "server_results/e02b_complete_matrix/e02b-complete-matrix-20261019T194848151296Z-699841/LOCAL_INTAKE_VERIFICATION.json",
+    "bytes": 49883,
+    "sha256": "91e68cd676a32b36621e0fb95fd97c0d87a68655fdb131fa442f1ea1682722fa"
+  },
+  "new_checks_verified": 21,
+  "reused_original_checks_verified": 26,
+  "reused_candidate_replay_checks_verified": 1,
+  "mixed_sanitizer_matrix_verified": 48,
+  "candidate_m65_sign_sanitizer_checks_verified": 8,
+  "next_candidate_expanded_correctness_checks": 18,
+  "full_e02_complete": false,
+  "formal_performance_collected": false,
+  "original_finding": "RETAINED_IN_ORIGINAL_MODULE",
+  "next_action": "PREPARE_18_UNINSTRUMENTED_CANDIDATE_M65_SIGN_EXPANDED_CORRECTNESS_CHECKS",
+  "total_remaining_individual_experiments": "NOT_YET_FULLY_ENUMERATED"
+}

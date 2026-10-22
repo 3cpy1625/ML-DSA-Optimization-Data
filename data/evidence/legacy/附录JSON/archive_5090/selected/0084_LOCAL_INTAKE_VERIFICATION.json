@@ -1,0 +1,78 @@
+{
+  "schema": "mldsa5090-ctasync-replay-local-intake-v1",
+  "verified_utc": "2026-10-19T19:32:37.485938+00:00",
+  "run_id": "e02b-ctasync-replay-20261019T192403869386Z-684616",
+  "status": "ONE_CANDIDATE_RACECHECK_CASE_FULLY_VERIFIED_PASS",
+  "archive": {
+    "path": "server_results/e02b_ctasync_replay/e02b-ctasync-replay-20261019T192403869386Z-684616/5090_e02b-ctasync-replay-20261019T192403869386Z-684616_20261019T192430693594Z.tar.gz",
+    "bytes": 4212754,
+    "sha256": "3b12a892cab0a50a4cd76080a86eab780327ef494ba40ad492fb36c8b561fe72"
+  },
+  "result": {
+    "path": "extracted/e2r_684616/runs/e02b-ctasync-replay-20261019T192403869386Z-684616/RESULT.json",
+    "bytes": 19509,
+    "sha256": "e9b940c637a95e338d2f0f910876f357935076b111b7984e91bf75e2e0d27a5e"
+  },
+  "exported_file_count": 32,
+  "binary_blob_count": 10,
+  "zero_byte_message_preserved": true,
+  "tool_result": {
+    "status": "ZERO_FINDINGS_SUMMARY",
+    "error_summaries": [],
+    "race_summaries": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "suppressed_counts": [],
+    "diagnostics": [],
+    "blocker": null
+  },
+  "application_checks_status": "PASS",
+  "t12_status": "PASS_WITH_RECORDED_SCOPE",
+  "bound_facts_count": 302,
+  "locally_verified_bound_count": 120,
+  "metadata_only_bound_count": 182,
+  "server_final_identity_recheck": {
+    "bound_files": "UNCHANGED",
+    "sources": {
+      "original_complete_source": "UNCHANGED",
+      "candidate_complete_source": "UNCHANGED",
+      "files_each": 1075
+    },
+    "gpu_after": "IDLE",
+    "errors": []
+  },
+  "candidate_module": {
+    "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-ctasync-20261019T185335197244Z-672804/build/mldsa65_sign/libloce_mldsa65_sign_d4_sm120.so",
+    "bytes": 6159056,
+    "sha256": "eab1f11b87933284cbb71dd87856d60f166b3ba29fdb9e1c8b72779fe0579098"
+  },
+  "candidate_test": {
+    "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-ctasync-20261019T185335197244Z-672804/build/mldsa65_sign/native_mldsa65_sign_adapter_test",
+    "bytes": 258016,
+    "sha256": "193133851b887f67ee0ee72173b1e52107b67e0271189d1a5f5b369952457f17"
+  },
+  "prepared_local_controller": {
+    "path": "scripts/run_5090_e02b_ctasync_replay.py",
+    "bytes": 36302,
+    "sha256": "cc663deb57db2675777b982a411a3d66178df0da2943e883e4c01b0268d714f8"
+  },
+  "original_run_disposition": "Retained 30 PASS, 1 finding, 17 NOT_RUN; candidate replay PASS is a separate result.",
+  "next_sanitizer_matrix": {
+    "total": 48,
+    "reusable_original_unchanged_cell_passes": 26,
+    "reusable_candidate_replay_passes": 1,
+    "retired_old_m65_sign_passes_requiring_retest": 4,
+    "new_cases_required": 21,
+    "candidate_m65_sign_new_cases": 7,
+    "other_original_module_new_cases": 14
+  },
+  "limits": [
+    "Original/candidate executable binaries and vendor tool files are not downloaded; their hashes and server rechecks remain metadata-bound.",
+    "Piped stdin controller bytes were not independently retained/rehashed on the server.",
+    "Only one candidate sanitizer case is qualified; full E02b/E02, extended candidate correctness and formal performance remain separate."
+  ]
+}

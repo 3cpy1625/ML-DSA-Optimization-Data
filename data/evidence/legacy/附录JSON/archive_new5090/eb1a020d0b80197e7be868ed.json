@@ -1,0 +1,146 @@
+[
+  {
+    "algorithm": "ML-DSA",
+    "manifest": "mldsa_44_keygen.json",
+    "manifest_sha256": "47213fd4813d080c815735de42871b14c58122b06f0ddb5433cbb079c360cb0a",
+    "operation": "KeyGen",
+    "parameter_set": "44",
+    "status": "PASS"
+  },
+  {
+    "algorithm": "ML-DSA",
+    "manifest": "mldsa_44_sign.json",
+    "manifest_sha256": "67e56835173eaf7bc927ac65ec2c2aff3e5dfecfa4d2ef5aa0a653b91a86c28d",
+    "operation": "Sign",
+    "parameter_set": "44",
+    "status": "PASS"
+  },
+  {
+    "algorithm": "ML-DSA",
+    "manifest": "mldsa_44_verify.json",
+    "manifest_sha256": "e3c2462cbaadb322598da8d9586cbb929e2c0e5c6d98a21af7e802e1edfe5696",
+    "operation": "Verify",
+    "parameter_set": "44",
+    "status": "PASS"
+  },
+  {
+    "algorithm": "ML-DSA",
+    "manifest": "mldsa_65_keygen.json",
+    "manifest_sha256": "587966bf1be745bf6883042a96f3f66419cf4591bee8708d605fc2ae32fde6b6",
+    "operation": "KeyGen",
+    "parameter_set": "65",
+    "status": "PASS"
+  },
+  {
+    "algorithm": "ML-DSA",
+    "manifest": "mldsa_65_sign.json",
+    "manifest_sha256": "a3fdc54cb93db683eb14fd3d4a45a7de852887ae2d386bb54896104d6fb9d9c2",
+    "operation": "Sign",
+    "parameter_set": "65",
+    "status": "PASS"
+  },
+  {
+    "algorithm": "ML-DSA",
+    "manifest": "mldsa_65_verify.json",
+    "manifest_sha256": "50b163b769b76e81f3bc9dd8b03f2f43b5c083c4d69e58e2d9b9e4b0a9fa73bc",
+    "operation": "Verify",
+    "parameter_set": "65",
+    "status": "PASS"
+  },
+  {
+    "algorithm": "ML-DSA",
+    "manifest": "mldsa_87_keygen.json",
+    "manifest_sha256": "5e97c6ff6b7f5b455cead1299d7b49fa33384ba28459b7d5ee171b23c7e0d551",
+    "operation": "KeyGen",
+    "parameter_set": "87",
+    "status": "PASS"
+  },
+  {
+    "algorithm": "ML-DSA",
+    "manifest": "mldsa_87_sign.json",
+    "manifest_sha256": "6dbb7fe70c2ed684597545e30f3c16ffb142ccfc6e07e0325b60823ea777ddb7",
+    "operation": "Sign",
+    "parameter_set": "87",
+    "status": "PASS"
+  },
+  {
+    "algorithm": "ML-DSA",
+    "manifest": "mldsa_87_verify.json",
+    "manifest_sha256": "5e5f802845fe2bd7a8a99a092627a35b5005727dd9400bd8ee935fb56c3ea8e4",
+    "operation": "Verify",
+    "parameter_set": "87",
+    "status": "PASS"
+  },
+  {
+    "algorithm": "ML-KEM",
+    "manifest": "mlkem_1024_decaps.json",
+    "manifest_sha256": "5a735b646f5220d171b6bc237a933288ec079c9a2a8a549f8bd76e26f7bcbc07",
+    "operation": "Decaps",
+    "parameter_set": "1024",
+    "status": "PASS"
+  },
+  {
+    "algorithm": "ML-KEM",
+    "manifest": "mlkem_1024_encaps.json",
+    "manifest_sha256": "894bd9a882d05c3d1f54bfd1fd305670b320f12adf3b28c8551f732ef8c15455",
+    "operation": "Encaps",
+    "parameter_set": "1024",
+    "status": "PASS"
+  },
+  {
+    "algorithm": "ML-KEM",
+    "manifest": "mlkem_1024_keygen.json",
+    "manifest_sha256": "310c93bab2b27958f5ae61220e19a868dbdb638c611ddaa3c0320e2c89f6a492",
+    "operation": "KeyGen",
+    "parameter_set": "1024",
+    "status": "PASS"
+  },
+  {
+    "algorithm": "ML-KEM",
+    "manifest": "mlkem_512_decaps.json",
+    "manifest_sha256": "89f0e56cae2a31f8f4b09f44cc963269616ea89fb7ad397da2d235cea650f9e1",
+    "operation": "Decaps",
+    "parameter_set": "512",
+    "status": "PASS"
+  },
+  {
+    "algorithm": "ML-KEM",
+    "manifest": "mlkem_512_encaps.json",
+    "manifest_sha256": "f6bab0c7d1b97ad672e40f0cc2127db0423fbd4eaec2d4127251d6405d92510f",
+    "operation": "Encaps",
+    "parameter_set": "512",
+    "status": "PASS"
+  },
+  {
+    "algorithm": "ML-KEM",
+    "manifest": "mlkem_512_keygen.json",
+    "manifest_sha256": "57558c11eea46f46d72782e6d615cbf3be636aad710609e5abcd319b2ffdb7b3",
+    "operation": "KeyGen",
+    "parameter_set": "512",
+    "status": "PASS"
+  },
+  {
+    "algorithm": "ML-KEM",
+    "manifest": "mlkem_768_decaps.json",
+    "manifest_sha256": "d47b49a8095120dc4ee61f2313933ccc64cecc4fdc03765732b1ac65fda23c22",
+    "operation": "Decaps",
+    "parameter_set": "768",
+    "status": "PASS"
+  },
+  {
+    "algorithm": "ML-KEM",
+    "manifest": "mlkem_768_encaps.json",
+    "manifest_sha256": "8b60769364289e4565f22fac2a425e7f4e8af642419cafa50b49dacdd386434b",
+    "operation": "Encaps",
+    "parameter_set": "768",
+    "status": "PASS"
+  },
+  {
+    "algorithm": "ML-KEM",
+    "manifest": "mlkem_768_keygen.json",
+    "manifest_sha256": "66607afb2350916c4f4a1af9ddc525f75402826dec9020b178dd9b2413a0bdf6",
+    "operation": "KeyGen",
+    "parameter_set": "768",
+    "status": "PASS"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "status": "LOCAL_CPU_REPLAY_ASSESSMENT_SELFTEST_PASS",
+  "recorded_utc": "2026-10-19T19:16:58.275722+00:00",
+  "script": {
+    "path": "E:\\密码竞赛\\5090实验结果_20261019\\scripts\\run_5090_e02b_ctasync_replay.py",
+    "bytes": 36302,
+    "sha256": "cc663deb57db2675777b982a411a3d66178df0da2943e883e4c01b0268d714f8"
+  },
+  "checks": [
+    "script_syntax_and_side_effect_free_local_import",
+    "exact_original_sanitizer_upstream_and_adapter_controller_pins",
+    "original_sign_stdout_all_real_blob_sizes_byte_differentials_and_both_T12_records_with_zero_summary",
+    "real_14_warning_finding_single_warning_error_suppression_missing_summary_and_unsupported_tool_rejected",
+    "timeout_interrupt_launch_error_and_nonzero_exit_never_pass",
+    "missing_host_or_device_T12_modified_signature_and_wrong_empty_message_header_rejected",
+    "H008_only_environment_and_exact_original_failed_case_sanitizer_argv"
+  ],
+  "workspace": "E:\\密码竞赛\\work\\ctasync-replay-selftest-20261019T191658139143Z",
+  "gpu_executed": false,
+  "remote_access_performed": false,
+  "limits": "Local fixtures use historical raw stdout/blobs and synthetic sanitizer summaries; they do not establish candidate GPU correctness."
+}

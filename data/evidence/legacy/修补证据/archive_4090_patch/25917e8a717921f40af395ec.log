@@ -1,0 +1,1102 @@
+========= COMPUTE-SANITIZER
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x9 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (1,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 144, Incoming Value : 64
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x11 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (2,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 207, Incoming Value : 95
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x19 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (3,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 103, Incoming Value : 249
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x21 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (4,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 205, Incoming Value : 164
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x29 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (5,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 212, Incoming Value : 147
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x31 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (6,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 161, Incoming Value : 179
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x39 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (7,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 222, Incoming Value : 125
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x41 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (8,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 180, Incoming Value : 99
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x49 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (9,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 235, Incoming Value : 32
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x51 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (10,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 96, Incoming Value : 141
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x59 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (11,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 155, Incoming Value : 146
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x61 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (12,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 160, Incoming Value : 17
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x69 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (13,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 39, Incoming Value : 250
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x71 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (14,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 202, Incoming Value : 100
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x79 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (15,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 10, Incoming Value : 218
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x81 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (16,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 143, Incoming Value : 1
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0xa in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (1,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e10 in shake_sampling_audit.cu:110
+=========     Current Value : 179, Incoming Value : 17
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x12 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (2,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e10 in shake_sampling_audit.cu:110
+=========     Current Value : 3, Incoming Value : 34
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x1a in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (3,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e10 in shake_sampling_audit.cu:110
+=========     Current Value : 145, Incoming Value : 72
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x22 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (4,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e10 in shake_sampling_audit.cu:110
+=========     Current Value : 161, Incoming Value : 16
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x2a in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (5,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e10 in shake_sampling_audit.cu:110
+=========     Current Value : 41, Incoming Value : 244
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x32 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (6,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e10 in shake_sampling_audit.cu:110
+=========     Current Value : 176, Incoming Value : 194
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x3a in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (7,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e10 in shake_sampling_audit.cu:110
+=========     Current Value : 23, Incoming Value : 127
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x42 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (8,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e10 in shake_sampling_audit.cu:110
+=========     Current Value : 123, Incoming Value : 23
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x4a in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (9,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e10 in shake_sampling_audit.cu:110
+=========     Current Value : 50, Incoming Value : 180
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x52 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (10,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e10 in shake_sampling_audit.cu:110
+=========     Current Value : 53, Incoming Value : 30
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x5a in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (11,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e10 in shake_sampling_audit.cu:110
+=========     Current Value : 127, Incoming Value : 109
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x62 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (12,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e10 in shake_sampling_audit.cu:110
+=========     Current Value : 29, Incoming Value : 217
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x6a in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (13,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e10 in shake_sampling_audit.cu:110
+=========     Current Value : 245, Incoming Value : 208
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x72 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (14,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e10 in shake_sampling_audit.cu:110
+=========     Current Value : 150, Incoming Value : 139
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x7a in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (15,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e10 in shake_sampling_audit.cu:110
+=========     Current Value : 32, Incoming Value : 16
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x82 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (16,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e10 in shake_sampling_audit.cu:110
+=========     Current Value : 123, Incoming Value : 193
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0xb in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (1,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e20 in shake_sampling_audit.cu:110
+=========     Current Value : 46, Incoming Value : 40
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x13 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (2,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e20 in shake_sampling_audit.cu:110
+=========     Current Value : 191, Incoming Value : 7
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x1b in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (3,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e20 in shake_sampling_audit.cu:110
+=========     Current Value : 131, Incoming Value : 81
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x23 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (4,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e20 in shake_sampling_audit.cu:110
+=========     Current Value : 192, Incoming Value : 0
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x2b in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (5,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e20 in shake_sampling_audit.cu:110
+=========     Current Value : 41, Incoming Value : 41
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x33 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (6,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e20 in shake_sampling_audit.cu:110
+=========     Current Value : 12, Incoming Value : 249
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x3b in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (7,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e20 in shake_sampling_audit.cu:110
+=========     Current Value : 161, Incoming Value : 2
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x43 in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (8,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e20 in shake_sampling_audit.cu:110
+=========     Current Value : 147, Incoming Value : 130
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x4b in block (4,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (9,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e20 in shake_sampling_audit.cu:110
+=========     Current Value : 186, Incoming Value : 248
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0xb1 in block (2,0,0) :
+=========     Read Thread (0,1,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (1,1,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 75, Incoming Value : 50
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x9 in block (0,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (1,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 9, Incoming Value : 166
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x11 in block (0,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (2,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 199, Incoming Value : 147
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x19 in block (0,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (3,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 65, Incoming Value : 112
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x21 in block (0,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (4,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 104, Incoming Value : 246
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x29 in block (0,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (5,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 45, Incoming Value : 151
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x31 in block (0,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (6,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 213, Incoming Value : 241
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x39 in block (0,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (7,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 101, Incoming Value : 209
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x41 in block (0,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (8,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 159, Incoming Value : 30
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x49 in block (0,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (9,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 141, Incoming Value : 171
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x51 in block (0,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (10,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 61, Incoming Value : 189
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x59 in block (0,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (11,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 106, Incoming Value : 129
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x61 in block (0,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (12,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 164, Incoming Value : 148
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x69 in block (0,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (13,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 204, Incoming Value : 109
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x71 in block (0,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (14,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 85, Incoming Value : 123
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x79 in block (0,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (15,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 211, Incoming Value : 21
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x81 in block (0,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (16,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 119, Incoming Value : 250
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x159 in block (0,0,0) :
+=========     Read Thread (0,2,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (1,2,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 108, Incoming Value : 80
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x161 in block (0,0,0) :
+=========     Read Thread (0,2,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (2,2,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 142, Incoming Value : 52
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x169 in block (0,0,0) :
+=========     Read Thread (0,2,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (3,2,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 83, Incoming Value : 184
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x171 in block (0,0,0) :
+=========     Read Thread (0,2,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (4,2,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 219, Incoming Value : 255
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x179 in block (0,0,0) :
+=========     Read Thread (0,2,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (5,2,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 36, Incoming Value : 69
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x181 in block (0,0,0) :
+=========     Read Thread (0,2,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (6,2,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 191, Incoming Value : 176
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x189 in block (0,0,0) :
+=========     Read Thread (0,2,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (7,2,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 203, Incoming Value : 155
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x191 in block (0,0,0) :
+=========     Read Thread (0,2,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (8,2,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 212, Incoming Value : 214
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x199 in block (0,0,0) :
+=========     Read Thread (0,2,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (9,2,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 133, Incoming Value : 113
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x1a1 in block (0,0,0) :
+=========     Read Thread (0,2,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (10,2,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 250, Incoming Value : 153
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x1a9 in block (0,0,0) :
+=========     Read Thread (0,2,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (11,2,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 245, Incoming Value : 53
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x1b1 in block (0,0,0) :
+=========     Read Thread (0,2,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (12,2,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 74, Incoming Value : 65
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x1b9 in block (0,0,0) :
+=========     Read Thread (0,2,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (13,2,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 202, Incoming Value : 226
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x1c1 in block (0,0,0) :
+=========     Read Thread (0,2,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (14,2,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 79, Incoming Value : 26
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x1c9 in block (0,0,0) :
+=========     Read Thread (0,2,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (15,2,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 20, Incoming Value : 65
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x1d1 in block (0,0,0) :
+=========     Read Thread (0,2,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (16,2,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 81, Incoming Value : 105
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0xb1 in block (0,0,0) :
+=========     Read Thread (0,1,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (1,1,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 29, Incoming Value : 38
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0xb9 in block (0,0,0) :
+=========     Read Thread (0,1,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (2,1,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 219, Incoming Value : 18
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0xc1 in block (0,0,0) :
+=========     Read Thread (0,1,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (3,1,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 128, Incoming Value : 169
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0xc9 in block (0,0,0) :
+=========     Read Thread (0,1,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (4,1,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 169, Incoming Value : 120
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0xd1 in block (0,0,0) :
+=========     Read Thread (0,1,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (5,1,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 32, Incoming Value : 96
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0xd9 in block (0,0,0) :
+=========     Read Thread (0,1,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (6,1,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 57, Incoming Value : 182
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0xe1 in block (0,0,0) :
+=========     Read Thread (0,1,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (7,1,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 43, Incoming Value : 80
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0xe9 in block (0,0,0) :
+=========     Read Thread (0,1,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (8,1,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 242, Incoming Value : 179
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0xf1 in block (0,0,0) :
+=========     Read Thread (0,1,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (9,1,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 231, Incoming Value : 21
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0xf9 in block (0,0,0) :
+=========     Read Thread (0,1,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (10,1,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 64, Incoming Value : 29
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x101 in block (0,0,0) :
+=========     Read Thread (0,1,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (11,1,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 78, Incoming Value : 178
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x109 in block (0,0,0) :
+=========     Read Thread (0,1,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (12,1,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 170, Incoming Value : 95
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x111 in block (0,0,0) :
+=========     Read Thread (0,1,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (13,1,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 7, Incoming Value : 217
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x119 in block (0,0,0) :
+=========     Read Thread (0,1,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (14,1,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 191, Incoming Value : 215
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x121 in block (0,0,0) :
+=========     Read Thread (0,1,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (15,1,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 203, Incoming Value : 136
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x129 in block (0,0,0) :
+=========     Read Thread (0,1,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (16,1,0) at Stream<(int)1>::next(unsigned char *)+0x1e00 in shake_sampling_audit.cu:110
+=========     Current Value : 34, Incoming Value : 160
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0xa in block (0,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (1,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e10 in shake_sampling_audit.cu:110
+=========     Current Value : 69, Incoming Value : 35
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x12 in block (0,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (2,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e10 in shake_sampling_audit.cu:110
+=========     Current Value : 35, Incoming Value : 101
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x1a in block (0,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (3,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e10 in shake_sampling_audit.cu:110
+=========     Current Value : 105, Incoming Value : 79
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x22 in block (0,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (4,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e10 in shake_sampling_audit.cu:110
+=========     Current Value : 145, Incoming Value : 195
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x2a in block (0,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (5,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e10 in shake_sampling_audit.cu:110
+=========     Current Value : 245, Incoming Value : 206
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x32 in block (0,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (6,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e10 in shake_sampling_audit.cu:110
+=========     Current Value : 60, Incoming Value : 5
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x3a in block (0,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (7,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e10 in shake_sampling_audit.cu:110
+=========     Current Value : 165, Incoming Value : 163
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x42 in block (0,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (8,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e10 in shake_sampling_audit.cu:110
+=========     Current Value : 81, Incoming Value : 33
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x4a in block (0,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (9,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e10 in shake_sampling_audit.cu:110
+=========     Current Value : 126, Incoming Value : 124
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= Warning: (Warp Level Programming) Potential WAR hazard detected at __shared__ 0x52 in block (0,0,0) :
+=========     Read Thread (0,0,0) at void audit_kernel<(int)1>(const unsigned char *, unsigned char *, Trace *, Work *, int, int, int, int, int, int, int, int, int)+0x2540 in shake_sampling_audit.cu:164
+=========     Write Thread (10,0,0) at Stream<(int)1>::next(unsigned char *)+0x1e10 in shake_sampling_audit.cu:110
+=========     Current Value : 193, Incoming Value : 147
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: cuLaunchKernel [0x39e714] in libcuda.so.1
+=========         Host Frame:  [0x141f8] in libcudart.so.12
+=========         Host Frame: cudaLaunchKernel [0x7d09d] in libcudart.so.12
+=========         Host Frame: main::{lambda()#1}::operator()() const [0xaecd] in shake_sampling_44
+=========         Host Frame: main [0x813b] in shake_sampling_44
+========= 
+========= RACECHECK SUMMARY: 100 hazards displayed (0 errors, 147462 warnings)

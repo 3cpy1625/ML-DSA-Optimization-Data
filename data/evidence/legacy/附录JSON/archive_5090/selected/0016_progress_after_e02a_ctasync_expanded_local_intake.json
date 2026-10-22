@@ -1,0 +1,28 @@
+{
+  "recorded_utc": "2026-10-19T20:35:26.124928+00:00",
+  "current_category": "E02",
+  "run_id": "e02a-ctasync-expanded-20261019T202403610611Z-718474",
+  "status": "ALL_EXPORTED_FILES_AND_18_UNINSTRUMENTED_CANDIDATE_CASES_VERIFIED_PASS",
+  "assistant_remote_execution_authorized": true,
+  "new_candidate_expanded_individual_cases_passed": 18,
+  "candidate_mixed_sanitizer_unique_cases_passed": 48,
+  "local_intake": {
+    "path": "server_results/e02a_ctasync_expanded/e02a-ctasync-expanded-20261019T202403610611Z-718474/LOCAL_INTAKE_VERIFICATION.json",
+    "bytes": 49705,
+    "sha256": "430b4b75fbd6f62a21a9c1afe88b32c6fec1423fa38dd1a254c18064c5c928c2"
+  },
+  "archive": {
+    "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e02a_ctasync_expanded\\5090_e02a-ctasync-expanded-20261019T202403610611Z-718474_20261019T202501104930Z.tar.gz",
+    "bytes": 171524927,
+    "sha256": "8a8fb2341017a40fec4542e01550045dc6eae549d8eaaa297671304a20a5985c"
+  },
+  "full_e02_complete": false,
+  "formal_performance_collected": false,
+  "original_finding": "UNRESOLVED_IN_ORIGINAL_MODULE",
+  "total_remaining_individual_experiments": "NOT_YET_FULLY_ENUMERATED",
+  "next_actions": [
+    "Build and qualify fresh sealed E03 measurement binaries.",
+    "Execute remaining interface/operator experiments using independent native sm120 builds."
+  ],
+  "sidebar_coordination": "4090 thread owns 4090 only; this thread owns 5090 experiments."
+}

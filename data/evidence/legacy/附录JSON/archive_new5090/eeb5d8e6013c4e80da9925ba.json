@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "/home/lsb/mldsa-experiments-5090/tools/python312/bin/cmake",
+    "--build",
+    "/home/lsb/mldsa-experiments-5090/\u65b05090/m44_three_arm_20261020T121813Z_11cf6ec1/build_P0",
+    "--target",
+    "loce_mldsa44_keygen_d3_sm120_adapter",
+    "--parallel",
+    "2"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 46.67246931599948,
+  "log_sha256": "d3c3b2e07a596ef7a4bdc086c86402619788d8f48aea91519fd679b5a3f05645",
+  "gpu_visible": false
+}

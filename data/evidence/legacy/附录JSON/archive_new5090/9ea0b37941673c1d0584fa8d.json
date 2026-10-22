@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "benchmark_binary_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+    "benchmark_path": {"minLength": 1, "type": "string"},
+    "campaign_id": {"minLength": 1, "type": "string"},
+    "campaign_kind": {"enum": ["complete_18cell", "wphc_cfa", "matched_cupqc"], "type": "string"},
+    "correctness_index_path": {"minLength": 1, "type": "string"},
+    "correctness_index_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+    "instrumentation": {"type": "boolean"},
+    "raw_samples_path": {"minLength": 1, "type": "string"},
+    "raw_samples_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+    "release_family_id": {"pattern": "LOCE-PQC-GPU-H004-[0-9]{8}T[0-9]{6}Z", "type": "string"},
+    "schema": {"const": "loce.hardening004.performance-campaign.v1", "type": "string"},
+    "summary_path": {"minLength": 1, "type": "string"},
+    "summary_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"}
+  },
+  "required": ["schema", "release_family_id", "campaign_id", "campaign_kind", "instrumentation", "benchmark_path", "benchmark_binary_sha256", "correctness_index_path", "correctness_index_sha256", "raw_samples_path", "raw_samples_sha256", "summary_path", "summary_sha256"],
+  "type": "object"
+}

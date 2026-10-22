@@ -1,0 +1,374 @@
+{
+  "schema": "mldsa5090-e02a-gpu-idle-wait-v1",
+  "policy": {
+    "per_check_limit_seconds": 900,
+    "total_wait_limit_seconds": 1800,
+    "retry_interval_seconds": 10,
+    "max_idle_utilization_percent": 2,
+    "max_idle_memory_mib": 200,
+    "compute_processes_must_be_absent": true,
+    "retry_only": "GPU_BUSY precheck; no GPU algorithm command is retried"
+  },
+  "completed_wait_seconds": 10.119962,
+  "events": [
+    {
+      "status": "IDLE",
+      "utc": "20261019T194858368307Z",
+      "check_number": 1,
+      "attempt": 1,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_before.json",
+      "elapsed_check_seconds": 10.204335,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_idle_wait/check-000001-attempt-001.json",
+        "bytes": 531,
+        "sha256": "59bf4ca258d8fd6f9ebbc0f782af3aa0ea61fd816c8218d0060c18cb167a26ac"
+      },
+      "waited_seconds": 0.0,
+      "samples": 3
+    },
+    {
+      "status": "IDLE",
+      "utc": "20261019T194858433941Z",
+      "check_number": 2,
+      "attempt": 1,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/raw/mldsa65_sign/memcheck-b00256-se02b000000000001-m0/gpu_before.json",
+      "elapsed_check_seconds": 0.063999,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_idle_wait/check-000002-attempt-001.json",
+        "bytes": 179,
+        "sha256": "ff09b3307e60d4d683b709bfaeb0d855c847b91e4cd60bb1672183174b5f5411"
+      },
+      "waited_seconds": 0.0,
+      "samples": 1
+    },
+    {
+      "status": "IDLE",
+      "utc": "20261019T194859562151Z",
+      "check_number": 3,
+      "attempt": 1,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/raw/mldsa65_sign/memcheck-b00256-se02b000000000001-m32/gpu_before.json",
+      "elapsed_check_seconds": 0.062148,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_idle_wait/check-000003-attempt-001.json",
+        "bytes": 179,
+        "sha256": "8e4ce97142ab6977dfb54e0661002673bf974144294a3287d6766cf17f23c564"
+      },
+      "waited_seconds": 0.0,
+      "samples": 1
+    },
+    {
+      "status": "IDLE",
+      "utc": "20261019T194900438600Z",
+      "check_number": 4,
+      "attempt": 1,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/raw/mldsa65_sign/initcheck-b00256-se02b000000000001-m0/gpu_before.json",
+      "elapsed_check_seconds": 0.058233,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_idle_wait/check-000004-attempt-001.json",
+        "bytes": 179,
+        "sha256": "b2fa16d663e0a0d122449fc2f7bfb47d643c83db8db1961ceeca6699c7d695f2"
+      },
+      "waited_seconds": 0.0,
+      "samples": 1
+    },
+    {
+      "status": "IDLE",
+      "utc": "20261019T194902460747Z",
+      "check_number": 5,
+      "attempt": 1,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/raw/mldsa65_sign/initcheck-b00256-se02b000000000001-m32/gpu_before.json",
+      "elapsed_check_seconds": 0.05601,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_idle_wait/check-000005-attempt-001.json",
+        "bytes": 179,
+        "sha256": "e0b1ee8b926cd74e9a498985455234e620ca4b9e60f4754355025bb2793f7cc4"
+      },
+      "waited_seconds": 0.0,
+      "samples": 1
+    },
+    {
+      "status": "IDLE",
+      "utc": "20261019T194904241221Z",
+      "check_number": 6,
+      "attempt": 1,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/raw/mldsa65_sign/racecheck-b00256-se02b000000000001-m32/gpu_before.json",
+      "elapsed_check_seconds": 0.062294,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_idle_wait/check-000006-attempt-001.json",
+        "bytes": 179,
+        "sha256": "8e4e637ae8ce78d093624d8744357fe49d71b036124f85ec46203e8876bf0ef1"
+      },
+      "waited_seconds": 0.0,
+      "samples": 1
+    },
+    {
+      "status": "IDLE",
+      "utc": "20261019T194908669674Z",
+      "check_number": 7,
+      "attempt": 1,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/raw/mldsa87_keygen/racecheck-b00017-se02b000000000001-mna/gpu_before.json",
+      "elapsed_check_seconds": 0.056722,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_idle_wait/check-000007-attempt-001.json",
+        "bytes": 179,
+        "sha256": "c465780dd2d10cfa03de5802ea17363ec4ce0c20aab61f8d66df606b2722b348"
+      },
+      "waited_seconds": 0.0,
+      "samples": 1
+    },
+    {
+      "status": "IDLE",
+      "utc": "20261019T194910076576Z",
+      "check_number": 8,
+      "attempt": 1,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/raw/mldsa87_verify/racecheck-b00017-fixed-corpus-m32/gpu_before.json",
+      "elapsed_check_seconds": 0.053888,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_idle_wait/check-000008-attempt-001.json",
+        "bytes": 179,
+        "sha256": "cd51429e5dbdc7c85bfcfa70d74aba96ec885f7e16babebf2a8a78d0f53d097c"
+      },
+      "waited_seconds": 0.0,
+      "samples": 1
+    },
+    {
+      "status": "IDLE",
+      "utc": "20261019T194913191171Z",
+      "check_number": 9,
+      "attempt": 1,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/raw/mldsa87_sign/racecheck-b00256-se02b000000000001-m0/gpu_before.json",
+      "elapsed_check_seconds": 0.055163,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_idle_wait/check-000009-attempt-001.json",
+        "bytes": 179,
+        "sha256": "95b661599464b8c9f16ac1731ce4fbc1e6755f1dd5a3ee59a1b1809ac2921448"
+      },
+      "waited_seconds": 0.0,
+      "samples": 1
+    },
+    {
+      "status": "IDLE",
+      "utc": "20261019T194916911869Z",
+      "check_number": 10,
+      "attempt": 1,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/raw/mldsa87_sign/racecheck-b00256-se02b000000000001-m32/gpu_before.json",
+      "elapsed_check_seconds": 0.052271,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_idle_wait/check-000010-attempt-001.json",
+        "bytes": 179,
+        "sha256": "81581666cd8f2610e7eb6e03064a3501dff726391f49d7730adf070be088ca70"
+      },
+      "waited_seconds": 0.0,
+      "samples": 1
+    },
+    {
+      "status": "IDLE",
+      "utc": "20261019T194920590291Z",
+      "check_number": 11,
+      "attempt": 1,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/raw/mldsa44_keygen/synccheck-b00017-se02b000000000001-mna/gpu_before.json",
+      "elapsed_check_seconds": 0.058382,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_idle_wait/check-000011-attempt-001.json",
+        "bytes": 179,
+        "sha256": "8375f6d5bbaf5ed0f70d42bc209e35d127bdadd3e2f2ba82bf9b768adf69b031"
+      },
+      "waited_seconds": 0.0,
+      "samples": 1
+    },
+    {
+      "status": "IDLE",
+      "utc": "20261019T194921211108Z",
+      "check_number": 12,
+      "attempt": 1,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/raw/mldsa44_verify/synccheck-b00017-fixed-corpus-m32/gpu_before.json",
+      "elapsed_check_seconds": 0.05351,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_idle_wait/check-000012-attempt-001.json",
+        "bytes": 179,
+        "sha256": "c862f5a76848ef8c1557b761336f9fc3bb54fb08fa1f3f130cdb9b9d66f651fb"
+      },
+      "waited_seconds": 0.0,
+      "samples": 1
+    },
+    {
+      "status": "IDLE",
+      "utc": "20261019T194921725550Z",
+      "check_number": 13,
+      "attempt": 1,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/raw/mldsa44_sign/synccheck-b00256-se02b000000000001-m0/gpu_before.json",
+      "elapsed_check_seconds": 0.052378,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_idle_wait/check-000013-attempt-001.json",
+        "bytes": 179,
+        "sha256": "d518b84337a6d7f9c58885460dda56c30c4e2770b29f7ea6223db912c68bd9e3"
+      },
+      "waited_seconds": 0.0,
+      "samples": 1
+    },
+    {
+      "status": "IDLE",
+      "utc": "20261019T194922589895Z",
+      "check_number": 14,
+      "attempt": 1,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/raw/mldsa44_sign/synccheck-b00256-se02b000000000001-m32/gpu_before.json",
+      "elapsed_check_seconds": 0.060318,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_idle_wait/check-000014-attempt-001.json",
+        "bytes": 179,
+        "sha256": "4d7e702aadb2d34a77ea459e47cc301024cd3c8f21a115c20c07dda2a038a4bd"
+      },
+      "waited_seconds": 0.0,
+      "samples": 1
+    },
+    {
+      "status": "IDLE",
+      "utc": "20261019T194923245473Z",
+      "check_number": 15,
+      "attempt": 1,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/raw/mldsa65_keygen/synccheck-b00017-se02b000000000001-mna/gpu_before.json",
+      "elapsed_check_seconds": 0.053242,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_idle_wait/check-000015-attempt-001.json",
+        "bytes": 179,
+        "sha256": "ba1bd43bc2d4c18b441072a31a144c04b3e5ff4e5b455e56115af9ba9d0d23c8"
+      },
+      "waited_seconds": 0.0,
+      "samples": 1
+    },
+    {
+      "status": "IDLE",
+      "utc": "20261019T194923902701Z",
+      "check_number": 16,
+      "attempt": 1,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/raw/mldsa65_verify/synccheck-b00017-fixed-corpus-m32/gpu_before.json",
+      "elapsed_check_seconds": 0.056193,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_idle_wait/check-000016-attempt-001.json",
+        "bytes": 179,
+        "sha256": "0e707ac7f65356361c799ea47211f4d45aa8dfd5984ed207d5e3e2867e078d09"
+      },
+      "waited_seconds": 0.0,
+      "samples": 1
+    },
+    {
+      "status": "GPU_BUSY",
+      "utc": "20261019T194924401477Z",
+      "check_number": 17,
+      "attempt": 1,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/raw/mldsa65_sign/synccheck-b00256-se02b000000000001-m0/gpu_before.json",
+      "elapsed_check_seconds": 0.051319,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_idle_wait/check-000017-attempt-001.json",
+        "bytes": 179,
+        "sha256": "1a6e68e9c4ecdd76ce09f2a18884374f94cb3fe32f5d9d644ca4b423cfe002b9"
+      },
+      "error": "GPU_BUSY: no new GPU test launched; wait for this GPU to become free. /home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_idle_wait/check-000017-attempt-001.json"
+    },
+    {
+      "status": "IDLE",
+      "utc": "20261019T194934470462Z",
+      "check_number": 17,
+      "attempt": 2,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/raw/mldsa65_sign/synccheck-b00256-se02b000000000001-m0/gpu_before.json",
+      "elapsed_check_seconds": 10.119962,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_idle_wait/check-000017-attempt-002.json",
+        "bytes": 179,
+        "sha256": "7b7a2404815d6ab54a74c329421787c1e2afea14a003d79022af30da6ff01178"
+      },
+      "waited_seconds": 10.119962,
+      "samples": 1
+    },
+    {
+      "status": "IDLE",
+      "utc": "20261019T194935540186Z",
+      "check_number": 18,
+      "attempt": 1,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/raw/mldsa65_sign/synccheck-b00256-se02b000000000001-m32/gpu_before.json",
+      "elapsed_check_seconds": 0.0537,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_idle_wait/check-000018-attempt-001.json",
+        "bytes": 179,
+        "sha256": "67ddddaebb0a4a2689f90b222218a01f2122676f919602afa940595e321009f8"
+      },
+      "waited_seconds": 0.0,
+      "samples": 1
+    },
+    {
+      "status": "IDLE",
+      "utc": "20261019T194936562603Z",
+      "check_number": 19,
+      "attempt": 1,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/raw/mldsa87_keygen/synccheck-b00017-se02b000000000001-mna/gpu_before.json",
+      "elapsed_check_seconds": 0.054775,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_idle_wait/check-000019-attempt-001.json",
+        "bytes": 179,
+        "sha256": "c1570d5d613c07e0ebe917f36acac2d4032c7d365f92bd936d4728d332e41bba"
+      },
+      "waited_seconds": 0.0,
+      "samples": 1
+    },
+    {
+      "status": "IDLE",
+      "utc": "20261019T194937082199Z",
+      "check_number": 20,
+      "attempt": 1,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/raw/mldsa87_verify/synccheck-b00017-fixed-corpus-m32/gpu_before.json",
+      "elapsed_check_seconds": 0.051408,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_idle_wait/check-000020-attempt-001.json",
+        "bytes": 179,
+        "sha256": "79bd42789df4d8abb9817d3cc0fece661ce1aaf3afd41de047bb94f6fe18dcfa"
+      },
+      "waited_seconds": 0.0,
+      "samples": 1
+    },
+    {
+      "status": "IDLE",
+      "utc": "20261019T194937691367Z",
+      "check_number": 21,
+      "attempt": 1,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/raw/mldsa87_sign/synccheck-b00256-se02b000000000001-m0/gpu_before.json",
+      "elapsed_check_seconds": 0.056277,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_idle_wait/check-000021-attempt-001.json",
+        "bytes": 179,
+        "sha256": "c6d8030bdef99dc99681756dda892e7bad0efcb144b6dc546390b0db9d10afbf"
+      },
+      "waited_seconds": 0.0,
+      "samples": 1
+    },
+    {
+      "status": "IDLE",
+      "utc": "20261019T194938803372Z",
+      "check_number": 22,
+      "attempt": 1,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/raw/mldsa87_sign/synccheck-b00256-se02b000000000001-m32/gpu_before.json",
+      "elapsed_check_seconds": 0.052562,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_idle_wait/check-000022-attempt-001.json",
+        "bytes": 179,
+        "sha256": "ae5263b3613db28278bec2acb28246058290db7a2581b43247ac035727d2db75"
+      },
+      "waited_seconds": 0.0,
+      "samples": 1
+    },
+    {
+      "status": "IDLE",
+      "utc": "20261019T194950549986Z",
+      "check_number": 23,
+      "attempt": 1,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_after.json",
+      "elapsed_check_seconds": 10.188181,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-complete-matrix-20261019T194848151296Z-699841/00_environment/gpu_idle_wait/check-000023-attempt-001.json",
+        "bytes": 531,
+        "sha256": "270a6528cbd358463ab4928453c76b57fa4f8ed4b7d00e3412935fc9a983a05c"
+      },
+      "waited_seconds": 0.0,
+      "samples": 3
+    }
+  ]
+}

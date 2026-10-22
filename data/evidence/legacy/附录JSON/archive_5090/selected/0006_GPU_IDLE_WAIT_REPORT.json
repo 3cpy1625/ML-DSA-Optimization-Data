@@ -1,0 +1,60 @@
+{
+  "schema": "mldsa5090-e02a-gpu-idle-wait-v1",
+  "policy": {
+    "per_check_limit_seconds": 900,
+    "total_wait_limit_seconds": 1800,
+    "retry_interval_seconds": 10,
+    "max_idle_utilization_percent": 2,
+    "max_idle_memory_mib": 200,
+    "compute_processes_must_be_absent": true,
+    "retry_only": "GPU_BUSY precheck; no GPU algorithm command is retried"
+  },
+  "completed_wait_seconds": 0.0,
+  "events": [
+    {
+      "status": "IDLE",
+      "utc": "20261019T192414162985Z",
+      "check_number": 1,
+      "attempt": 1,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-ctasync-replay-20261019T192403869386Z-684616/00_environment/gpu_before.json",
+      "elapsed_check_seconds": 10.273045,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-ctasync-replay-20261019T192403869386Z-684616/00_environment/gpu_idle_wait/check-000001-attempt-001.json",
+        "bytes": 531,
+        "sha256": "687d559bbafd7a43760c2bcce7093f58fdee6b395bc0fe14023ff73727cdd540"
+      },
+      "waited_seconds": 0.0,
+      "samples": 3
+    },
+    {
+      "status": "IDLE",
+      "utc": "20261019T192414249669Z",
+      "check_number": 2,
+      "attempt": 1,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-ctasync-replay-20261019T192403869386Z-684616/raw/mldsa65_sign/racecheck-b00256-se02b000000000001-m0/gpu_before.json",
+      "elapsed_check_seconds": 0.085129,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-ctasync-replay-20261019T192403869386Z-684616/00_environment/gpu_idle_wait/check-000002-attempt-001.json",
+        "bytes": 179,
+        "sha256": "59b2188009b69fdc2807326dbc0b57661498349fd896eb7931056fad83d513da"
+      },
+      "waited_seconds": 0.0,
+      "samples": 1
+    },
+    {
+      "status": "IDLE",
+      "utc": "20261019T192430676049Z",
+      "check_number": 3,
+      "attempt": 1,
+      "requested_log": "/home/lsb/mldsa-experiments-5090/runs/e02b-ctasync-replay-20261019T192403869386Z-684616/00_environment/gpu_after.json",
+      "elapsed_check_seconds": 10.183294,
+      "snapshot": {
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-ctasync-replay-20261019T192403869386Z-684616/00_environment/gpu_idle_wait/check-000003-attempt-001.json",
+        "bytes": 531,
+        "sha256": "99656b28e730e5cb3be9b053ec8b2f42f78e55d2bdea8f060ea1c965e72ab74a"
+      },
+      "waited_seconds": 0.0,
+      "samples": 3
+    }
+  ]
+}

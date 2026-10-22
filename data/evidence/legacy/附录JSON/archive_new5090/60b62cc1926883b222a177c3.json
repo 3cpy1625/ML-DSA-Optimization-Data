@@ -1,0 +1,43 @@
+{
+  "argv": [
+    "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/integration/loce_unified_api_bench",
+    "--algorithm",
+    "mldsa",
+    "--operation",
+    "verify",
+    "--level",
+    "44",
+    "--batch",
+    "8192",
+    "--variant",
+    "unified",
+    "--timing-scope",
+    "device-resident",
+    "--representation",
+    "packed",
+    "--corpus",
+    "natural",
+    "--corpus-file",
+    "/home/lsb/mldsa-experiments-5090/\u65b05090/joint_matrix_20261020T132318Z_db87cd/reference_44/corpus.bin",
+    "--warmup",
+    "2",
+    "--repeat",
+    "5",
+    "--message-bytes",
+    "32",
+    "--seed",
+    "0x4d4c445341435550",
+    "--module-dir",
+    "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/modules"
+  ],
+  "pid": 172448,
+  "exit_code": 0,
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+    "OMP_NUM_THREADS": "2",
+    "LOCE_BENCH_INPUT_FILE": "/home/lsb/mldsa-experiments-5090/\u65b05090/joint_matrix_20261020T132318Z_db87cd/job_44_verify_0_ON/input.bin",
+    "LOCE_BENCH_OUTPUT_FILE": "/home/lsb/mldsa-experiments-5090/\u65b05090/joint_matrix_20261020T132318Z_db87cd/job_44_verify_0_ON/output.bin",
+    "LOCE_NATIVE_DIRECT_IDENTITY_OUTPUT": "/home/lsb/mldsa-experiments-5090/\u65b05090/joint_matrix_20261020T132318Z_db87cd/job_44_verify_0_ON/native.json",
+    "LOCE_MODULE_IDENTITY_OUTPUT": "/home/lsb/mldsa-experiments-5090/\u65b05090/joint_matrix_20261020T132318Z_db87cd/job_44_verify_0_ON/engine.json"
+  }
+}

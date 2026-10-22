@@ -1,0 +1,29 @@
+{
+  "status": "COMPLETED",
+  "argv": [
+    "correctness",
+    "--run-id",
+    "fastmin-m87-all-v3-20261019T143050777764Z-626756"
+  ],
+  "identity": {
+    "schema": "mldsa5090-external-rebuild-wrapper-v3",
+    "wrapper_sha256": "7d903776a63548edcebf1664aa7244ad1203cc9148041c79715ea68e23971d34",
+    "runner_sha256": "6a4069074d553d8cc410292ddadc11ff966a6bcdb225bb7dd750e33a3b7d7545",
+    "adapter_sha256": "0d94ed215a643e585f16aa99b6097d1c654f6c8196b6c819cc2e533f2d9ad010",
+    "bundle_manifest_sha256": "711fad3b91e684618a902699d6a346d9cd5e41bbfcee22550dadf677b6ee0ac1",
+    "bundle": "/home/lsb/mldsa-experiments-5090/project_bundle",
+    "variant": {
+      "name": "sm120-m87-all-fast-compile-min-v3",
+      "target_cells": [
+        "mldsa87_keygen",
+        "mldsa87_sign",
+        "mldsa87_verify"
+      ],
+      "cmake_definition": "-DCMAKE_CUDA_FLAGS=--Ofast-compile=min",
+      "original_bundle_modified": false,
+      "diagnostic_object_reused": false,
+      "scope": "Fresh nine-module build; only the three mldsa87 operations change compiler options. GPU correctness must pass separately."
+    }
+  },
+  "finished_utc": "20261019T144318621789Z"
+}

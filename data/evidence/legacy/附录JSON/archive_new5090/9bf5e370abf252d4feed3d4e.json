@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "waiver": {
+      "additionalProperties": false,
+      "properties": {
+        "conclusion": {"minLength": 1, "type": "string"},
+        "source_location": {"minLength": 1, "type": "string"},
+        "waiver_id": {"minLength": 1, "type": "string"}
+      },
+      "required": ["waiver_id", "source_location", "conclusion"],
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "release_family_id": {"pattern": "LOCE-PQC-GPU-H004-[0-9]{8}T[0-9]{6}Z", "type": "string"},
+    "runs": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "command": {"minLength": 1, "type": "string"},
+          "error_count": {"minimum": 0, "type": "integer"},
+          "executable_path": {"minLength": 1, "type": "string"},
+          "executable_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+          "exit_code": {"minimum": 0, "type": "integer"},
+          "log_path": {"minLength": 1, "type": "string"},
+          "log_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+          "scope": {"minLength": 1, "type": "string"},
+          "tool": {"enum": ["memcheck", "initcheck", "synccheck", "racecheck"], "type": "string"},
+          "waivers": {"items": {"$ref": "#/$defs/waiver"}, "type": "array"},
+          "warning_count": {"minimum": 0, "type": "integer"}
+        },
+        "required": ["tool", "scope", "command", "executable_path", "executable_sha256", "exit_code", "error_count", "warning_count", "waivers", "log_path", "log_sha256"],
+        "type": "object"
+      },
+      "minItems": 4,
+      "type": "array"
+    },
+    "schema": {"const": "loce.hardening004.sanitizer-summary.v1", "type": "string"}
+  },
+  "required": ["schema", "release_family_id", "runs"],
+  "type": "object"
+}

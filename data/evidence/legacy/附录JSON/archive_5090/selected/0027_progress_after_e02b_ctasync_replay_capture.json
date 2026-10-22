@@ -1,0 +1,21 @@
+{
+  "recorded_utc": "2026-10-19T19:27:06.304739+00:00",
+  "current_category": "E02",
+  "candidate_replay_run": "e02b-ctasync-replay-20261019T192403869386Z-684616",
+  "reported_replay_status": "E02B_CTASYNC_SINGLE_RACECHECK_REPLAY_PASS",
+  "local_full_verification": "PENDING_DOWNLOAD",
+  "original_e02b_counts": {
+    "pass": 30,
+    "finding": 1,
+    "not_run": 17
+  },
+  "original_finding": "RETAINED_UNRESOLVED_IN_ORIGINAL_RUN",
+  "full_e02_complete": false,
+  "formal_performance_collected": false,
+  "next_action": "USER_DOWNLOADS_ONE_CASE_REPLAY_ARCHIVE_AND_SHA256_SIDECAR",
+  "receipt": {
+    "path": "server_results/e02b_ctasync_replay/e02b-ctasync-replay-20261019T192403869386Z-684616/DOWNLOAD_EXPECTED.json",
+    "bytes": 1947,
+    "sha256": "b74a0543214b86a5c1fa7db149bca4b10068958679bc3c8f1ef197fb302b4e77"
+  }
+}

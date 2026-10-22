@@ -1,0 +1,21 @@
+{
+  "status": "LOCAL_TRACE_AND_DELIVERY_CHECKS_PASS",
+  "rejected_traces": [
+    "not_triggered",
+    "masked_error",
+    "false_commit",
+    "wrong_output",
+    "reallocated",
+    "sticky_cuda_error",
+    "missing_failed_states"
+  ],
+  "payload_sha256": "f853eae08eaef3d0ef5c3b0b4577dc275f8b780e5227c84edbfb8025046ebfa8",
+  "payload_files": 9,
+  "gpu_execution": "NOT_RUN",
+  "production_binaries_modified": false,
+  "group_2_complete": false,
+  "pending": [
+    "sampler internal exhaustion/failure propagation",
+    "automatic intermediate secret destruction contract"
+  ]
+}

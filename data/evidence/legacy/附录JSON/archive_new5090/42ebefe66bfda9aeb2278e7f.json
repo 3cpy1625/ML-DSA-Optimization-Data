@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "build": {
+      "additionalProperties": false,
+      "properties": {
+        "checks_executed": {"minimum": 1, "type": "integer"},
+        "failures": {"minimum": 0, "type": "integer"},
+        "fuzz_schedules_executed": {"minimum": 0, "type": "integer"},
+        "status": {"enum": ["PASS", "FAIL"], "type": "string"},
+        "suite_count": {"minimum": 1, "type": "integer"},
+        "suite_results": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "path": {"minLength": 1, "type": "string"},
+              "sha256": {"pattern": "[0-9a-f]{64}", "type": "string"}
+            },
+            "required": ["path", "sha256"],
+            "type": "object"
+          },
+          "minItems": 1,
+          "type": "array"
+        }
+      },
+      "required": ["status", "suite_count", "checks_executed", "fuzz_schedules_executed", "failures", "suite_results"],
+      "type": "object"
+    },
+    "counts": {
+      "additionalProperties": false,
+      "properties": {
+        "asan_ubsan": {"minimum": 0, "type": "integer"},
+        "debug": {"minimum": 0, "type": "integer"},
+        "release": {"minimum": 0, "type": "integer"}
+      },
+      "required": ["asan_ubsan", "debug", "release"],
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "builds": {
+      "additionalProperties": false,
+      "properties": {
+        "asan_ubsan": {"$ref": "#/$defs/build"},
+        "debug": {"$ref": "#/$defs/build"},
+        "release": {"$ref": "#/$defs/build"}
+      },
+      "required": ["asan_ubsan", "debug", "release"],
+      "type": "object"
+    },
+    "checks_executed": {"$ref": "#/$defs/counts"},
+    "compiler_identity": {"minLength": 1, "type": "string"},
+    "cpu_test_source_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+    "failures": {"minimum": 0, "type": "integer"},
+    "fault_case_ids": {"items": {"minLength": 1, "type": "string"}, "type": "array", "uniqueItems": true},
+    "forced_failure_detected": {"type": "boolean"},
+    "fuzz_schedules_executed": {"$ref": "#/$defs/counts"},
+    "release_family_id": {"pattern": "LOCE-PQC-GPU-H004-[0-9]{8}T[0-9]{6}Z", "type": "string"},
+    "required_build_variants": {"items": {"enum": ["asan_ubsan", "debug", "release"], "type": "string"}, "minItems": 3, "maxItems": 3, "type": "array", "uniqueItems": true},
+    "schema": {"const": "loce.hardening004.cpu-qualification.v1", "type": "string"},
+    "source_compilation_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+    "source_package_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+    "status": {"enum": ["PASS", "FAIL"], "type": "string"},
+    "suite_count": {"minimum": 1, "type": "integer"},
+    "suite_coverage_equal": {"type": "boolean"}
+  },
+  "required": ["schema", "release_family_id", "status", "failures", "suite_count", "checks_executed", "fuzz_schedules_executed", "fault_case_ids", "required_build_variants", "suite_coverage_equal", "forced_failure_detected", "source_compilation_sha256", "source_package_sha256", "cpu_test_source_sha256", "compiler_identity", "builds"],
+  "type": "object"
+}

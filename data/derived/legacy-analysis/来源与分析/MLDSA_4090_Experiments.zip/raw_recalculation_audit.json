@@ -1,0 +1,551 @@
+{
+  "sources": [
+    "MLDSA_4090_Experiments/MLDSA_Outline_Experiments_20261018/reviews/perf_152457Z/evidence/03_performance/tables/raw_samples.csv",
+    "MLDSA_4090_Experiments/MLDSA_4090_Supplement_20261019/reviews/20261019T032700Z-027dbf3f/evidence/tables/raw_samples.csv"
+  ],
+  "rows": [
+    {
+      "kind": "original",
+      "parameter": "44",
+      "operation": "keygen",
+      "batch": "4096",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 0.2648049711777778,
+        "cupqc_mean_ms": 0.42469546801111113,
+        "geomean_paired_speedup": 1.6038055143870569
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "original",
+      "parameter": "44",
+      "operation": "keygen",
+      "batch": "8192",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 0.5007939566111111,
+        "cupqc_mean_ms": 0.7801738666111111,
+        "geomean_paired_speedup": 1.5578683400230933
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "original",
+      "parameter": "44",
+      "operation": "keygen",
+      "batch": "16384",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 0.9162897785222222,
+        "cupqc_mean_ms": 1.4895573323333333,
+        "geomean_paired_speedup": 1.6256399442177702
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "original",
+      "parameter": "44",
+      "operation": "sign",
+      "batch": "4096",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 3.788476790311111,
+        "cupqc_mean_ms": 5.114502758666666,
+        "geomean_paired_speedup": 1.3500151056524896
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "original",
+      "parameter": "44",
+      "operation": "sign",
+      "batch": "8192",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 5.213259734077777,
+        "cupqc_mean_ms": 9.356148931444444,
+        "geomean_paired_speedup": 1.7946832420107355
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": -2.220446049250313e-16
+      },
+      "passed": true
+    },
+    {
+      "kind": "original",
+      "parameter": "44",
+      "operation": "sign",
+      "batch": "16384",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 8.1547281689,
+        "cupqc_mean_ms": 17.387208852222223,
+        "geomean_paired_speedup": 2.132164276280455
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "original",
+      "parameter": "44",
+      "operation": "verify",
+      "batch": "4096",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 0.27519893682222224,
+        "cupqc_mean_ms": 0.5263015131222222,
+        "geomean_paired_speedup": 1.912426762264809
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "original",
+      "parameter": "44",
+      "operation": "verify",
+      "batch": "8192",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 0.498254579,
+        "cupqc_mean_ms": 1.0031633775666666,
+        "geomean_paired_speedup": 2.013355308174154
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "original",
+      "parameter": "44",
+      "operation": "verify",
+      "batch": "16384",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 0.9847096834666667,
+        "cupqc_mean_ms": 1.944850492,
+        "geomean_paired_speedup": 1.9750496014931878
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "original",
+      "parameter": "65",
+      "operation": "keygen",
+      "batch": "4096",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 0.4756643550111111,
+        "cupqc_mean_ms": 0.9224270211444444,
+        "geomean_paired_speedup": 1.9392384952879016
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "original",
+      "parameter": "65",
+      "operation": "keygen",
+      "batch": "8192",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 0.9598876455555556,
+        "cupqc_mean_ms": 1.715984003888889,
+        "geomean_paired_speedup": 1.7876922389822605
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "original",
+      "parameter": "65",
+      "operation": "keygen",
+      "batch": "16384",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 1.9333255237777778,
+        "cupqc_mean_ms": 3.3097304955555558,
+        "geomean_paired_speedup": 1.7119364757362294
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "original",
+      "parameter": "65",
+      "operation": "sign",
+      "batch": "4096",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 3.062924798277778,
+        "cupqc_mean_ms": 6.426354143222222,
+        "geomean_paired_speedup": 2.098107699299044
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "original",
+      "parameter": "65",
+      "operation": "sign",
+      "batch": "8192",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 5.3214563475666665,
+        "cupqc_mean_ms": 12.08230718,
+        "geomean_paired_speedup": 2.2704883549282524
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "original",
+      "parameter": "65",
+      "operation": "sign",
+      "batch": "16384",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 9.829843913177777,
+        "cupqc_mean_ms": 23.395644822222224,
+        "geomean_paired_speedup": 2.3800625676035527
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "original",
+      "parameter": "65",
+      "operation": "verify",
+      "batch": "4096",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 0.4095470204666667,
+        "cupqc_mean_ms": 1.1028135038888889,
+        "geomean_paired_speedup": 2.6927630495573114
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "original",
+      "parameter": "65",
+      "operation": "verify",
+      "batch": "8192",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 0.7604867624,
+        "cupqc_mean_ms": 1.9979043601111113,
+        "geomean_paired_speedup": 2.6271328632084114
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "original",
+      "parameter": "65",
+      "operation": "verify",
+      "batch": "16384",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 1.4761578904333335,
+        "cupqc_mean_ms": 3.7017994592222223,
+        "geomean_paired_speedup": 2.5077226914632758
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "original",
+      "parameter": "87",
+      "operation": "keygen",
+      "batch": "4096",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 0.6661663995777778,
+        "cupqc_mean_ms": 1.3563363542222222,
+        "geomean_paired_speedup": 2.036030736021979
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "original",
+      "parameter": "87",
+      "operation": "keygen",
+      "batch": "8192",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 1.3373955660222223,
+        "cupqc_mean_ms": 2.438681250111111,
+        "geomean_paired_speedup": 1.823455192373772
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "original",
+      "parameter": "87",
+      "operation": "keygen",
+      "batch": "16384",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 2.6485582112444446,
+        "cupqc_mean_ms": 4.594651731444444,
+        "geomean_paired_speedup": 1.7347740764344386
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "original",
+      "parameter": "87",
+      "operation": "sign",
+      "batch": "4096",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 5.673404084366667,
+        "cupqc_mean_ms": 6.676291174,
+        "geomean_paired_speedup": 1.176769998007394
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "original",
+      "parameter": "87",
+      "operation": "sign",
+      "batch": "8192",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 8.784988806033333,
+        "cupqc_mean_ms": 11.628496023333334,
+        "geomean_paired_speedup": 1.323677677417933
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "original",
+      "parameter": "87",
+      "operation": "sign",
+      "batch": "16384",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 15.301990752711111,
+        "cupqc_mean_ms": 23.18521430222222,
+        "geomean_paired_speedup": 1.5151767417407325
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "original",
+      "parameter": "87",
+      "operation": "verify",
+      "batch": "4096",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 0.6276387599222222,
+        "cupqc_mean_ms": 1.729213158222222,
+        "geomean_paired_speedup": 2.7551086481482727
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "original",
+      "parameter": "87",
+      "operation": "verify",
+      "batch": "8192",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 1.136722830911111,
+        "cupqc_mean_ms": 3.2251694226666667,
+        "geomean_paired_speedup": 2.8372513804620443
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "original",
+      "parameter": "87",
+      "operation": "verify",
+      "batch": "16384",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 2.094270912922222,
+        "cupqc_mean_ms": 6.174950032222222,
+        "geomean_paired_speedup": 2.9484954374926384
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "retest",
+      "parameter": "65",
+      "operation": "sign",
+      "batch": "8192",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 5.3212711334,
+        "cupqc_mean_ms": 12.083087627777777,
+        "geomean_paired_speedup": 2.2707164657030257
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "retest",
+      "parameter": "65",
+      "operation": "sign",
+      "batch": "16384",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 9.82448073497778,
+        "cupqc_mean_ms": 23.39138097111111,
+        "geomean_paired_speedup": 2.3809278619733423
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "retest",
+      "parameter": "87",
+      "operation": "sign",
+      "batch": "4096",
+      "raw_samples": 180,
+      "computed": {
+        "ours_mean_ms": 5.666252454077778,
+        "cupqc_mean_ms": 6.675485838111111,
+        "geomean_paired_speedup": 1.1781128437555197
+      },
+      "differences": {
+        "ours_mean_ms": 0.0,
+        "cupqc_mean_ms": 0.0,
+        "geomean_paired_speedup": 0.0
+      },
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "status": "PASS",
+  "all_process_sample_counts_15": true
+}

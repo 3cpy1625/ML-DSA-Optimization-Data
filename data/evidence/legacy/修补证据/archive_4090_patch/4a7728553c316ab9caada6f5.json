@@ -1,0 +1,12 @@
+{
+  "status": "PATCH_TOOL_CASE_PASS",
+  "tool_name": "racecheck",
+  "tool": {
+    "hazards": 0,
+    "errors": 0,
+    "warnings": 0,
+    "summary_count": 1
+  },
+  "checked_variants": 36,
+  "output_trace_work_bytes_match": true
+}

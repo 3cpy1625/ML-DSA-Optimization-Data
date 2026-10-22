@@ -1,0 +1,54 @@
+{
+  "recorded_utc": "2026-10-19T17:27:06.939149+00:00",
+  "current_category": "E02",
+  "completed_major_categories": [
+    "E00",
+    "E01"
+  ],
+  "remaining_major_category_count": 13,
+  "e02a": "234_CASES_AND_ALL_RAW_FILES_VERIFIED_LOCALLY",
+  "e02b": "STOPPED_SANITIZER_FINDING_IN_CAPTURED_INSPECTOR_OUTPUT",
+  "run_id": "e02b-sanitizer-20261019T170912908000Z-657090",
+  "counts_from_captured_run_json": {
+    "completed_cases": 31,
+    "not_run_cases": 17,
+    "passed_cases": 30,
+    "planned_cases": 48
+  },
+  "case": {
+    "application_checks_status": "PASS",
+    "case_id": "racecheck-b00256-se02b000000000001-m0",
+    "cell_id": "mldsa65_sign",
+    "status": "SANITIZER_FINDING"
+  },
+  "tool": {
+    "blocker": null,
+    "error_summaries": [],
+    "race_summaries": [
+      [
+        14,
+        0,
+        14
+      ]
+    ],
+    "status": "SANITIZER_FINDING",
+    "suppressed_counts": []
+  },
+  "process": {
+    "cleanup": [
+      "OWN_PROCESS_GROUP_ALREADY_ABSENT"
+    ],
+    "cleanup_error": null,
+    "elapsed_seconds": 17.945068516011816,
+    "error": null,
+    "error_type": null,
+    "exit_code": 86,
+    "interrupted": false,
+    "timed_out": false
+  },
+  "diagnostic_output_intake": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e02b_sanitizer\\e02b-sanitizer-20261019T170912908000Z-657090\\INSPECTOR_OUTPUT_INTAKE.json",
+  "full_stopped_run_export_and_local_intake": "PENDING",
+  "source_level_cause": "UNDER_INVESTIGATION_NO_FALSE_POSITIVE_DETERMINATION",
+  "full_e02_complete": false,
+  "formal_performance_collected": false
+}

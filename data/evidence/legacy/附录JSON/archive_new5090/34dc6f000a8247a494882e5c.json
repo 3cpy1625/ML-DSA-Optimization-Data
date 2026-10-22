@@ -1,0 +1,20 @@
+{
+  "parameter": 87,
+  "operation": "sign",
+  "arm": "ON",
+  "batch": 8192,
+  "block": 1,
+  "invalid_z_stride": 0,
+  "samples_ms": [
+    21.782527924,
+    21.792768478,
+    21.766111374,
+    21.946336746,
+    21.753856659
+  ],
+  "mean_ms": 21.8083202362,
+  "job": "/home/lsb/mldsa-experiments-5090/\u65b05090/joint_matrix_20261020T132318Z_db87cd/job_87_sign_1_ON",
+  "input_sha256": "4e2f24e8418ea8abbdb93eb05e89a6c07909010c1c8e8ff4c99d06dce3e09738",
+  "output_sha256": "fc9d29f1fb36b17093d535e05bb83ede062e719c37d46a569fb19865db1bfe35",
+  "benchmark_sha256": "9b89f91a9f19c7c8618ec5d902f1d745b315549578ae2431caf9e159c60392e7"
+}

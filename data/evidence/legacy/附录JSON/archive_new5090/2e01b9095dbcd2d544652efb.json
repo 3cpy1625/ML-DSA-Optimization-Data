@@ -1,0 +1,10 @@
+{
+  "DILITHIUM_KEYPAIR_THREAD_STATE_SPLIT32_PARSE8": {
+    "ON": "1",
+    "OFF": "0"
+  },
+  "DILITHIUM_KEYPAIR_THREAD_STATE_SPLIT32_A": {
+    "ON": "1",
+    "OFF": "0"
+  }
+}

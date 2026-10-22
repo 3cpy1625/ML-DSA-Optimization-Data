@@ -1,0 +1,80 @@
+{
+  "algorithm": "ML-KEM",
+  "architecture_evidence": null,
+  "architecture_evidence_sha256": null,
+  "benchmark_sha256": "c41ad5f2011c022a42a7f48ce99b9349ef53954c0387a9c19efdf56dd6fea686",
+  "build_module_identity": "build_rc1_final_tests_mlkem/libloce_mlkem768_sm89.so",
+  "corpus_hash": "fcd37d687438851ac6a73fa2691127d29887afe880a610f3fe85e9400fee2c39",
+  "differential_evidence": "evidence/correctness/rc1_final_differential_20260803/mlkem_768_keygen.log",
+  "differential_evidence_sha256": "ab1af8a4ff5e4681c7c8311eab843aeafc7d81dc272ee0b88c95f7b0154f3ed3",
+  "execution_contract_hash": "b7b5e071dd8fec1925485055beeff5e936bda45e290e9fb644dfa0cbb2fd57d4",
+  "framework_source_sha256": "d3e4c01509b4b8020fb198f81f632429bc462221fb6eff80340b5175f9cae774",
+  "gates": {
+    "architecture": {
+      "applicable": false,
+      "evidence": null,
+      "status": "N/A"
+    },
+    "attempt_kappa": {
+      "applicable": false,
+      "evidence": null,
+      "status": "N/A"
+    },
+    "byte_exact": {
+      "applicable": true,
+      "evidence": "evidence/correctness/rc1_final_differential_20260803/mlkem_768_keygen.log",
+      "status": "PASS"
+    },
+    "cpu_verify_or_decaps": {
+      "applicable": false,
+      "evidence": null,
+      "status": "N/A"
+    },
+    "decaps_fail_path": {
+      "applicable": false,
+      "evidence": null,
+      "status": "N/A"
+    },
+    "sanitizer": {
+      "applicable": true,
+      "evidence": "evidence/release/convergence_hardening_002/SANITIZER_LEDGER.jsonl",
+      "status": "PASS"
+    },
+    "second_reference": {
+      "applicable": true,
+      "evidence": "evidence/correctness/rc1_final_differential_20260803/mlkem_768_keygen.log",
+      "status": "PASS"
+    },
+    "terminal": {
+      "applicable": true,
+      "evidence": "evidence/correctness/rc1_final_differential_20260803/mlkem_768_keygen.log",
+      "status": "PASS"
+    },
+    "winner_record": {
+      "applicable": false,
+      "evidence": null,
+      "status": "N/A"
+    }
+  },
+  "module_sha256": "4257b5e3bc51491a7b402e2ae739d63da8f56d24c72ab4d385e673353bd340ae",
+  "operation": "KeyGen",
+  "packaged_benchmark_path": "binaries/loce_unified_api_bench",
+  "packaged_module_path": "binaries/sm89/modules/libloce_mlkem768_sm89.so",
+  "parameter_set": "768",
+  "performance_eligible": true,
+  "policy_hash": "66f15ebf8da0c0c0601dd151508860d9679f223cc1747f6aad6f806f0bcad3aa",
+  "reference_ids": [
+    "TII-cuFIPS-203-reference",
+    "PQClean-clean"
+  ],
+  "release_id": "LOCE_PQC_GPU_HARDENING_002_FINALIZATION_001_20260803",
+  "sanitizer_ledger": "evidence/release/convergence_hardening_002/SANITIZER_LEDGER.jsonl",
+  "sanitizer_ledger_sha256": "1a126f84be2dabccca44e05576b5c57c545ed46d6334a94d9be8410cf71f6b65",
+  "schema": "loce-canonical-correctness-manifest-v2",
+  "security_level": 3,
+  "selected_module_record": "evidence/release/module_load_records/correctness.jsonl",
+  "selected_module_record_sha256": "2faf65dacae644f7dc8081a8ed588f7cc47213ea79ac7a7c7960e3b28959de8b",
+  "source_tree": "mlkem_sm89",
+  "source_tree_sha256": "8caa8c683e44b660ae6166e5c802fb56584502d49a0c6c50dbb5736efd7ffe31",
+  "status": "PASS"
+}

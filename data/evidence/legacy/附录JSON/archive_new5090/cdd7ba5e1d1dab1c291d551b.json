@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "loce.hardening006.release-verdict.v1",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schema",
+    "release_family_id",
+    "engineering_release_candidate",
+    "package_replay",
+    "gpu_current_source_recertification",
+    "performance_identity",
+    "paper_code_identity_non_rsl",
+    "c4_implementation_correctness",
+    "c4_extra_rejection_root_cause",
+    "rsl_official_mean_closure"
+  ],
+  "properties": {
+    "schema": {"const": "loce.hardening006.release-verdict.v1"},
+    "release_family_id": {"type": "string"},
+    "engineering_release_candidate": {"enum": ["PASS", "FAIL"]},
+    "package_replay": {"enum": ["PASS", "FAIL"]},
+    "gpu_current_source_recertification": {"enum": ["PASS", "FAIL"]},
+    "performance_identity": {"enum": ["PASS", "FAIL"]},
+    "paper_code_identity_non_rsl": {"enum": ["PASS", "FAIL"]},
+    "c4_implementation_correctness": {"enum": ["PASS", "FAIL"]},
+    "c4_extra_rejection_root_cause": {"enum": ["EXPLAINED", "UNRESOLVED"]},
+    "rsl_official_mean_closure": {"const": "OUT_OF_SCOPE_FOR_H006"}
+  }
+}

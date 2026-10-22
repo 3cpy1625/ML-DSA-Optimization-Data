@@ -1,0 +1,10 @@
+﻿parameter,operation,batch,status,criterion,evidence,full_server_logs_received
+44,keygen,4096,PASS_REPORTED_BY_RUNNER,输出SHA256匹配原始历史记录,06_运行与测试截图/02_MLDSA44大批量KeyGen通过.png,False
+44,keygen,8192,PASS_REPORTED_BY_RUNNER,输出SHA256匹配原始历史记录,06_运行与测试截图/02_MLDSA44大批量KeyGen通过.png,False
+44,keygen,16384,PASS_REPORTED_BY_RUNNER,输出SHA256匹配原始历史记录,06_运行与测试截图/02_MLDSA44大批量KeyGen通过.png,False
+65,keygen,4096,PASS_REPORTED_BY_RUNNER,输出SHA256匹配原始历史记录,06_运行与测试截图/03_MLDSA65和87大批量KeyGen通过.png,False
+65,keygen,8192,PASS_REPORTED_BY_RUNNER,输出SHA256匹配原始历史记录,06_运行与测试截图/03_MLDSA65和87大批量KeyGen通过.png,False
+65,keygen,16384,PASS_REPORTED_BY_RUNNER,输出SHA256匹配原始历史记录,06_运行与测试截图/03_MLDSA65和87大批量KeyGen通过.png,False
+87,keygen,4096,PASS_REPORTED_BY_RUNNER,输出SHA256匹配原始历史记录,06_运行与测试截图/03_MLDSA65和87大批量KeyGen通过.png,False
+87,keygen,8192,PASS_REPORTED_BY_RUNNER,输出SHA256匹配原始历史记录,06_运行与测试截图/03_MLDSA65和87大批量KeyGen通过.png,False
+87,keygen,16384,PASS_REPORTED_BY_RUNNER,输出SHA256匹配原始历史记录,06_运行与测试截图/03_MLDSA65和87大批量KeyGen通过.png,False

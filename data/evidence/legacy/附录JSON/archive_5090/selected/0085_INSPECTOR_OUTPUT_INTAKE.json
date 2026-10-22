@@ -1,0 +1,505 @@
+{
+  "schema": "mldsa5090-stopped-inspector-output-intake-v1",
+  "recorded_utc": "2026-10-19T17:27:06.939149+00:00",
+  "status": "CAPTURED_DIAGNOSTIC_OUTPUT_PARSED_AND_CONSISTENCY_CHECKED",
+  "run_id": "e02b-sanitizer-20261019T170912908000Z-657090",
+  "report": {
+    "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e02b_sanitizer\\e02b-sanitizer-20261019T170912908000Z-657090\\e02b_657090_inspect_20261020_01.txt",
+    "bytes": 153238,
+    "sha256": "450a4366d03e1ea18050500b89812283e9b837fddd4410e05b3778c362680908"
+  },
+  "identity_and_record_binding": {
+    "case_command_matches_process_json": true,
+    "case_identity_matches": true,
+    "marker_run_id": "e02b-sanitizer-20261019T170912908000Z-657090",
+    "marker_schema": "mldsa5090-e02b-sanitizer-identity-v1",
+    "plan_case_positions_1_based": [
+      31
+    ],
+    "plan_matches_case_plan": true,
+    "top_matching_record_count": 1,
+    "top_record_matches_case_json": true,
+    "top_run_id": "e02b-sanitizer-20261019T170912908000Z-657090",
+    "top_schema": "mldsa5090-e02b-sanitizer-result-v1"
+  },
+  "captured_records": {
+    "READ_ONLY_E02B_INSPECTION": {
+      "case": "/home/lsb/mldsa-experiments-5090/runs/e02b-sanitizer-20261019T170912908000Z-657090/raw/mldsa65_sign/racecheck-b00256-se02b000000000001-m0",
+      "gpu_target_or_sanitizer_launched": false,
+      "run": "/home/lsb/mldsa-experiments-5090/runs/e02b-sanitizer-20261019T170912908000Z-657090"
+    },
+    "IDENTITY_AND_RECORD_BINDING": {
+      "case_command_matches_process_json": true,
+      "case_identity_matches": true,
+      "marker_run_id": "e02b-sanitizer-20261019T170912908000Z-657090",
+      "marker_schema": "mldsa5090-e02b-sanitizer-identity-v1",
+      "plan_case_positions_1_based": [
+        31
+      ],
+      "plan_matches_case_plan": true,
+      "top_matching_record_count": 1,
+      "top_record_matches_case_json": true,
+      "top_run_id": "e02b-sanitizer-20261019T170912908000Z-657090",
+      "top_schema": "mldsa5090-e02b-sanitizer-result-v1"
+    },
+    "RUN_RESULT": {
+      "completed_cases": 31,
+      "error": "Non-PASS sanitizer case preserved: /home/lsb/mldsa-experiments-5090/runs/e02b-sanitizer-20261019T170912908000Z-657090/raw/mldsa65_sign/racecheck-b00256-se02b000000000001-m0",
+      "error_type": "RuntimeError",
+      "not_run_cases": 17,
+      "passed_cases": 30,
+      "planned_cases": 48,
+      "status": "E02B_STOPPED"
+    },
+    "RECORDED_CASE_STATUS_COUNTS": {
+      "PASS": 30,
+      "SANITIZER_FINDING": 1
+    },
+    "RECORDED_NONPASS_CASES": [
+      {
+        "case_id": "racecheck-b00256-se02b000000000001-m0",
+        "cell_id": "mldsa65_sign",
+        "status": "SANITIZER_FINDING"
+      }
+    ],
+    "CASE_PLAN": {
+      "arguments": [
+        "256",
+        "0",
+        "1",
+        "default-owner",
+        "0xe02b000000000001",
+        "0",
+        "unified",
+        "0",
+        "0"
+      ],
+      "batch": 256,
+      "case_id": "racecheck-b00256-se02b000000000001-m0",
+      "cell_id": "mldsa65_sign",
+      "level": 65,
+      "message_bytes": 0,
+      "operation": "sign",
+      "repetitions": 1,
+      "seed": 16153004488494415873,
+      "timeout_seconds": 3600,
+      "tool": "racecheck",
+      "warmups": 0
+    },
+    "CASE_STATUS": {
+      "application_checks_status": "PASS",
+      "compiled_out_checks": [],
+      "status": "SANITIZER_FINDING",
+      "validation_errors": []
+    },
+    "TOOL_RESULT": {
+      "blocker": null,
+      "diagnostics_count": 14,
+      "diagnostics_excerpt": [
+        "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)0, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x37e60",
+        "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)0, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x37e70",
+        "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)6, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x37970",
+        "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)6, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x37980",
+        "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)6, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x37970",
+        "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)6, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x37980",
+        "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)3, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x39750",
+        "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)3, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x39760",
+        "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)3, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x39750",
+        "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)3, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x39760",
+        "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)6, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x37970",
+        "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)6, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x37980",
+        "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)0, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x37e60",
+        "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)0, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x37e70"
+      ],
+      "error_summaries": [],
+      "race_summaries": [
+        [
+          14,
+          0,
+          14
+        ]
+      ],
+      "status": "SANITIZER_FINDING",
+      "suppressed_counts": []
+    },
+    "APPLICATION_CHECKS": [
+      {
+        "check": "device_api_copy_status",
+        "note": "",
+        "raw_fields": [
+          "cuda_error",
+          "no error"
+        ],
+        "status": "PASS"
+      },
+      {
+        "check": "differential",
+        "note": "",
+        "raw_fields": [
+          "signatures",
+          "0",
+          "cross_verify_failures",
+          "0",
+          "modified_rejection_failures",
+          "0"
+        ],
+        "status": "PASS"
+      },
+      {
+        "check": "winner_record",
+        "note": "",
+        "raw_fields": [
+          "failures",
+          "0"
+        ],
+        "status": "PASS"
+      },
+      {
+        "check": "device_differential",
+        "note": "",
+        "raw_fields": [
+          "signatures",
+          "0",
+          "cross_verify_failures",
+          "0"
+        ],
+        "status": "PASS"
+      },
+      {
+        "check": "device_wphc_audit",
+        "note": "",
+        "raw_fields": [
+          "records",
+          "0",
+          "failures",
+          "0",
+          "fields",
+          "identity_epoch_slot_extent_representation_provenance_winner_y_closure_publication_lost_request_duplicate_survivor"
+        ],
+        "status": "NOT_AVAILABLE"
+      },
+      {
+        "check": "device_wphc_closure",
+        "note": "",
+        "raw_fields": [
+          "closed_records",
+          "0",
+          "total",
+          "0"
+        ],
+        "status": "NOT_AVAILABLE"
+      },
+      {
+        "check": "device_wphc_fault_injection",
+        "note": "",
+        "raw_fields": [
+          "cases",
+          "14",
+          "unique_bits",
+          "12"
+        ],
+        "status": "PASS"
+      }
+    ],
+    "T12": {
+      "errors": [],
+      "records": [
+        {
+          "api": "ML-DSA-Sign-host",
+          "parsed_fields": {
+            "caller_query": "pass",
+            "committed": "pass",
+            "contract": "pass",
+            "event_order": "pass",
+            "input_overwrite": "pass",
+            "output_after_input": "pass",
+            "output_use": "pass",
+            "status": "success",
+            "two_streams": "pass",
+            "two_streams_scope": "not_run_under_sanitizer",
+            "workspace_overwrite": "pass"
+          },
+          "raw_fields": [
+            "t12_stream_contract",
+            "ML-DSA-Sign-host",
+            "contract",
+            "pass",
+            "status",
+            "success",
+            "committed",
+            "pass",
+            "caller_query",
+            "pass",
+            "event_order",
+            "pass",
+            "output_use",
+            "pass",
+            "input_overwrite",
+            "pass",
+            "output_after_input",
+            "pass",
+            "workspace_overwrite",
+            "pass",
+            "two_streams",
+            "pass",
+            "two_streams_scope",
+            "not_run_under_sanitizer"
+          ],
+          "unrelated_stream_nonserialization": "SKIPPED_SANITIZER_INSTRUMENTATION"
+        },
+        {
+          "api": "ML-DSA-Sign-device",
+          "parsed_fields": {
+            "caller_query": "pass",
+            "event_order": "pass",
+            "input_free": "pass",
+            "output_reuse": "pass",
+            "workspace_reuse": "pass"
+          },
+          "raw_fields": [
+            "t12_stream_contract",
+            "ML-DSA-Sign-device",
+            "pass",
+            "caller_query",
+            "pass",
+            "event_order",
+            "pass",
+            "input_free",
+            "pass",
+            "output_reuse",
+            "pass",
+            "workspace_reuse",
+            "pass"
+          ],
+          "unrelated_stream_nonserialization": "NOT_APPLICABLE_TO_DEVICE_ROW"
+        }
+      ],
+      "status": "PASS_WITH_RECORDED_SCOPE"
+    },
+    "CASE_COMMAND": {
+      "argv": [
+        "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/compute-sanitizer",
+        "--tool",
+        "racecheck",
+        "--kill",
+        "--error-exitcode",
+        "86",
+        "--check-exit-code",
+        "yes",
+        "--require-cuda-init",
+        "yes",
+        "--target-processes",
+        "application-only",
+        "--log-file",
+        "/home/lsb/mldsa-experiments-5090/runs/e02b-sanitizer-20261019T170912908000Z-657090/raw/mldsa65_sign/racecheck-b00256-se02b000000000001-m0/sanitizer.log",
+        "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/build/mldsa65_sign/native_mldsa65_sign_adapter_test",
+        "256",
+        "0",
+        "1",
+        "default-owner",
+        "0xe02b000000000001",
+        "0",
+        "unified",
+        "0",
+        "0"
+      ],
+      "cleanup": [
+        "OWN_PROCESS_GROUP_ALREADY_ABSENT"
+      ],
+      "cleanup_error": null,
+      "cwd": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/build/mldsa65_sign",
+      "elapsed_seconds": 17.945068516011816,
+      "error": null,
+      "error_type": null,
+      "exit_code": 86,
+      "finished_utc": "20261019T171133511105Z",
+      "interrupted": false,
+      "new_session": true,
+      "pid": 658436,
+      "started_utc": "20261019T171115566022Z",
+      "timed_out": false,
+      "timeout_seconds": 3600
+    },
+    "PROCESS_RESULT": {
+      "argv": [
+        "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/compute-sanitizer/compute-sanitizer",
+        "--tool",
+        "racecheck",
+        "--kill",
+        "--error-exitcode",
+        "86",
+        "--check-exit-code",
+        "yes",
+        "--require-cuda-init",
+        "yes",
+        "--target-processes",
+        "application-only",
+        "--log-file",
+        "/home/lsb/mldsa-experiments-5090/runs/e02b-sanitizer-20261019T170912908000Z-657090/raw/mldsa65_sign/racecheck-b00256-se02b000000000001-m0/sanitizer.log",
+        "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/build/mldsa65_sign/native_mldsa65_sign_adapter_test",
+        "256",
+        "0",
+        "1",
+        "default-owner",
+        "0xe02b000000000001",
+        "0",
+        "unified",
+        "0",
+        "0"
+      ],
+      "cleanup": [
+        "OWN_PROCESS_GROUP_ALREADY_ABSENT"
+      ],
+      "cleanup_error": null,
+      "cwd": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/build/mldsa65_sign",
+      "elapsed_seconds": 17.945068516011816,
+      "error": null,
+      "error_type": null,
+      "exit_code": 86,
+      "finished_utc": "20261019T171133511105Z",
+      "interrupted": false,
+      "new_session": true,
+      "pid": 658436,
+      "started_utc": "20261019T171115566022Z",
+      "timed_out": false,
+      "timeout_seconds": 3600
+    },
+    "GPU_READ_ONLY_SNAPSHOT": {
+      "argv": [
+        "nvidia-smi",
+        "-i",
+        "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+        "--query-gpu=uuid,name,utilization.gpu,memory.used,memory.total",
+        "--format=csv,noheader,nounits"
+      ],
+      "exit_code": 0,
+      "not_an_idle_qualification": true,
+      "stderr": "",
+      "stdout": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a, NVIDIA GeForce RTX 5090, 0, 2, 32607\n"
+    },
+    "RUN": {
+      "error": "Non-PASS sanitizer case preserved: /home/lsb/mldsa-experiments-5090/runs/e02b-sanitizer-20261019T170912908000Z-657090/raw/mldsa65_sign/racecheck-b00256-se02b000000000001-m0",
+      "error_type": "RuntimeError",
+      "run_id": "e02b-sanitizer-20261019T170912908000Z-657090",
+      "status": "E02B_STOPPED",
+      "updated_utc": "20261019T171133531042Z"
+    },
+    "BINDING": {
+      "case_command_matches_process_json": true,
+      "case_identity_matches": true,
+      "top_matching_record_count": 1,
+      "top_record_matches_case_json": true
+    },
+    "COUNTS_FROM_JSON": {
+      "completed_cases": 31,
+      "not_run_cases": 17,
+      "passed_cases": 30,
+      "planned_cases": 48
+    },
+    "CASE": {
+      "application_checks_status": "PASS",
+      "case_id": "racecheck-b00256-se02b000000000001-m0",
+      "cell_id": "mldsa65_sign",
+      "status": "SANITIZER_FINDING"
+    },
+    "TOOL": {
+      "blocker": null,
+      "error_summaries": [],
+      "race_summaries": [
+        [
+          14,
+          0,
+          14
+        ]
+      ],
+      "status": "SANITIZER_FINDING",
+      "suppressed_counts": []
+    },
+    "TOOL_DIAGNOSTICS_FIRST_8": [
+      "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)0, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x37e60",
+      "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)0, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x37e70",
+      "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)6, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x37970",
+      "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)6, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x37980",
+      "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)6, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x37970",
+      "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)6, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x37980",
+      "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)3, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x39750",
+      "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)3, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x39760"
+    ],
+    "TOOL_DIAGNOSTICS_LAST_8": [
+      "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)3, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x39750",
+      "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)3, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x39760",
+      "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)3, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x39750",
+      "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)3, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x39760",
+      "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)6, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x37970",
+      "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)6, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x37980",
+      "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)0, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x37e60",
+      "========= Warning: Race reported between Read access at void Rej_loop_Warp_Kernel_TC<(unsigned int)0, (bool)0, (bool)0, (bool)0, (bool)0, (bool)0>(int *, const unsigned char *, int *, int *, int *, unsigned char *, const int *, int *, unsigned char *, unsigned char *, const unsigned char *, unsigned char *, unsigned char *, const unsigned int *, int *, int *, int *, unsigned long, unsigned long, const unsigned char *, const unsigned char *, const unsigned char *, const unsigned char *, unsigned long, unsigned int *, unsigned int *, unsigned int, unsigned int, unsigned int *, unsigned int, unsigned int, unsigned int, unsigned int *)+0x37e70"
+    ],
+    "PROCESS": {
+      "cleanup": [
+        "OWN_PROCESS_GROUP_ALREADY_ABSENT"
+      ],
+      "cleanup_error": null,
+      "elapsed_seconds": 17.945068516011816,
+      "error": null,
+      "error_type": null,
+      "exit_code": 86,
+      "interrupted": false,
+      "timed_out": false
+    },
+    "APPLICATION_ERRORS": [],
+    "T12_ERRORS": []
+  },
+  "captured_log_inventory": {
+    "LOG_FILE": [
+      {
+        "bytes": 45288,
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-sanitizer-20261019T170912908000Z-657090/raw/mldsa65_sign/racecheck-b00256-se02b000000000001-m0/sanitizer.log",
+        "scan_scope": [
+          "complete"
+        ]
+      },
+      {
+        "bytes": 1086,
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-sanitizer-20261019T170912908000Z-657090/raw/mldsa65_sign/racecheck-b00256-se02b000000000001-m0/application.stdout.log",
+        "scan_scope": [
+          "complete"
+        ]
+      },
+      {
+        "bytes": 0,
+        "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-sanitizer-20261019T170912908000Z-657090/raw/mldsa65_sign/racecheck-b00256-se02b000000000001-m0/application.stderr.log",
+        "scan_scope": [
+          "complete"
+        ]
+      }
+    ],
+    "LOG_SELECTION": [
+      {
+        "available_rows": 86,
+        "matching_rows": 71,
+        "mode": "sanitizer",
+        "printed_rows": 86
+      },
+      {
+        "available_rows": 10,
+        "matching_rows": 8,
+        "mode": "stdout",
+        "printed_rows": 10
+      },
+      {
+        "available_rows": 0,
+        "matching_rows": 0,
+        "mode": "stderr",
+        "printed_rows": 0
+      }
+    ]
+  },
+  "full_raw_export_download_and_integrity": "PENDING",
+  "limits": [
+    "Inspector output is not the full raw archive.",
+    "14 hazards displayed means 14 displayed warning reports, not 14 individual conflicting accesses.",
+    "Application checks and scoped T12 PASS cannot cancel the sanitizer finding.",
+    "No false-positive determination, controller changes, suppressed findings, or GPU reruns were made."
+  ]
+}

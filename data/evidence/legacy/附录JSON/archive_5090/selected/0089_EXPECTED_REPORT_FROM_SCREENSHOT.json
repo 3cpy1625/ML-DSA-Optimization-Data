@@ -1,0 +1,15 @@
+{
+  "schema": "mldsa5090-sanitizer-cli-expected-report-v1",
+  "recorded_utc": "2026-10-19T16:44:00.287760+00:00",
+  "filename": "sanitizer_cli_20261019T164225841084Z_651635.json",
+  "expected_sha256": "d3bcd0865ba6734f5c86267f284576d3e00c81ca88c5c8428d686c2305c4c7a6",
+  "server_path": "/home/lsb/mldsa-experiments-5090/reports/sanitizer_cli/sanitizer_cli_20261019T164225841084Z_651635.json",
+  "local_directory": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e02b_sanitizer_cli",
+  "evidence": "screenshots/24_sanitizer_cli_found_four_tool_help_pass.png",
+  "evidence_sha256": "48a2090870a1a7da746d1c3edac006b4fb61e74a9a7f9e8754d2f0f1a5b074ba",
+  "observed_version": "2025.2.1.0",
+  "observed_build": "35969825",
+  "version_and_help_queries": "EXIT_0_FOR_ALL_FOUR_TOOL_NAMES",
+  "gpu_sanitizer_qualification": "PENDING",
+  "report_download_and_local_verification": "PENDING"
+}

@@ -1,0 +1,72 @@
+{
+  "schema": "mldsa5090-e02b-sass-local-intake-v1",
+  "verified_utc": "2026-10-19T17:58:32.552852+00:00",
+  "status": "ALL_11_CPU_REPORT_FILES_AND_18_PC_CONTEXTS_VERIFIED",
+  "stopped_run_id": "e02b-sanitizer-20261019T170912908000Z-657090",
+  "local_report_directory": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e02b_sass\\e02b-sass-20261019T174822955154Z-659809",
+  "file_count": 11,
+  "files": [
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/reports/e02b-sass-20261019T174822955154Z-659809/help.command.json",
+      "bytes": 722,
+      "sha256": "e65baa905cc67e332972e5a83f73fbe2754dc45acfa14bf483a7aafe39c5311f"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/reports/e02b-sass-20261019T174822955154Z-659809/help.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/reports/e02b-sass-20261019T174822955154Z-659809/help.stdout.log",
+      "bytes": 3820,
+      "sha256": "f8ad18c0033c365c06e8d3494eb834c800af2be6f3eda6c973c65cd81629363a"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/reports/e02b-sass-20261019T174822955154Z-659809/IDENTITY.json",
+      "bytes": 1074,
+      "sha256": "e0113539254856ce085222809c45fcdb94d1adb3973870594a9208f728f733b1"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/reports/e02b-sass-20261019T174822955154Z-659809/RESULT.json",
+      "bytes": 32651,
+      "sha256": "3675ee512d11aba9308004dd88410e8aba7f7879bd06e8e490c266bc072ba23b"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/reports/e02b-sass-20261019T174822955154Z-659809/sass.command.json",
+      "bytes": 893,
+      "sha256": "ea653a4b4a671b145c621a9ed95b1ef3132f93ae93d1d38bafa0e572c0ca6614"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/reports/e02b-sass-20261019T174822955154Z-659809/sass.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/reports/e02b-sass-20261019T174822955154Z-659809/sass.stdout.log",
+      "bytes": 122658849,
+      "sha256": "9e656fd8e284192b3890706423f1e275fd3a0cbeb8d2ccf3f54c5208ee4fcd22"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/reports/e02b-sass-20261019T174822955154Z-659809/version.command.json",
+      "bytes": 730,
+      "sha256": "759857638ad1b1a15bfeb25d583cbc2754c3a12fd0a21afb53daa45e48fe8ba2"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/reports/e02b-sass-20261019T174822955154Z-659809/version.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/reports/e02b-sass-20261019T174822955154Z-659809/version.stdout.log",
+      "bytes": 216,
+      "sha256": "1b21f2286b909ac811a76cd7d1e61f0af7c8874d10cf629af004dfbb93c5c74d"
+    }
+  ],
+  "phase_count": 3,
+  "captured_pc_count": 18,
+  "raw_sass_bytes": 122658849,
+  "original_module_and_tool": "Metadata pinned; original executable files remain on server",
+  "race_disposition": "UNRESOLVED; PC/context capture is not a clean sanitizer result",
+  "formal_performance_collected": false,
+  "full_e02_complete": false
+}

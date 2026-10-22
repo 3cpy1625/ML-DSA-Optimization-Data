@@ -1,0 +1,20 @@
+{
+  "recorded_utc": "2026-10-19T17:58:32.552852+00:00",
+  "current_category": "E02",
+  "run_id": "e02b-sanitizer-20261019T170912908000Z-657090",
+  "e02b_counts": {
+    "pass": 30,
+    "finding": 1,
+    "not_run": 17
+  },
+  "sass": "ALL_11_CPU_REPORT_FILES_AND_18_PC_CONTEXTS_VERIFIED",
+  "report": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e02b_sass\\e02b-sass-20261019T174822955154Z-659809\\LOCAL_INTAKE_VERIFICATION.json",
+  "completed_major_categories": [
+    "E00",
+    "E01"
+  ],
+  "remaining_major_category_count": 13,
+  "race_cause": "CONTROL_FLOW_AND_ADDRESS_ANALYSIS_IN_PROGRESS",
+  "formal_performance_collected": false,
+  "full_e02_complete": false
+}

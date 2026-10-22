@@ -1,0 +1,25 @@
+{
+  "recorded_utc": "2026-10-19T17:21:29.304231+00:00",
+  "current_category": "E02",
+  "completed_major_categories": [
+    "E00",
+    "E01"
+  ],
+  "remaining_major_category_count": 13,
+  "e02a": "234_CASES_AND_ALL_RAW_FILES_VERIFIED_LOCALLY",
+  "e02b": "STOP_SCREENSHOT_RECEIVED_RAW_STATUS_AND_COUNTS_PENDING",
+  "run_id": "e02b-sanitizer-20261019T170912908000Z-657090",
+  "stopped_case": "mldsa65_sign/racecheck-b00256-se02b000000000001-m0",
+  "screenshot": "screenshots/26_e02b_stopped_m65_sign_racecheck_msg0.png",
+  "screenshot_is_not_raw_result_verification": true,
+  "diagnostic_inspector": "E:\\密码竞赛\\5090实验结果_20261019\\scripts\\inspect_5090_e02b_stopped.py",
+  "inspector_sha256": "7f19be4170be0a05b158a81c783b2a1bbb3aa71f9815efb9741583b9273e77ec",
+  "syntax_check": "PASS",
+  "read_only_independent_review": "PASS",
+  "server_inspection_executed_by_assistant": false,
+  "diagnostic_output_expected": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e02b_sanitizer\\e02b-sanitizer-20261019T170912908000Z-657090\\e02b_657090_inspect_20261020_01.txt",
+  "next_user_command": "Get-Content -LiteralPath \"E:\\密码竞赛\\5090实验结果_20261019\\scripts\\inspect_5090_e02b_stopped.py\" -Raw -Encoding UTF8 | ssh -p 22 -o IdentitiesOnly=yes -i \"C:\\Users\\13644\\.ssh\\id_ed25519_newserver\" lsb@114.214.216.100 \"bash -lc 'cd /home/lsb/mldsa-experiments-5090 && source tools/activate_mldsa_5090.sh && python3 -B -u -'\" | Tee-Object -FilePath \"E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e02b_sanitizer\\e02b-sanitizer-20261019T170912908000Z-657090\\e02b_657090_inspect_20261020_01.txt\"",
+  "full_stopped_run_export_and_local_intake": "PENDING",
+  "formal_performance_collected": false,
+  "full_e02_complete": false
+}

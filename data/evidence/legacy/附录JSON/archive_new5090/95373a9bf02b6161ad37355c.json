@@ -1,0 +1,25 @@
+{
+  "modules": [
+    {
+      "embedded_identity": {
+        "abi_version": 1,
+        "algorithm": "ML-DSA",
+        "build_id": "pair-f59955a2a76bbb661259",
+        "build_provenance_sha256": "f59955a2a76bbb66125920112a4242d708eec70b34e8d27bab81d40aa96c4a5b",
+        "compilation_input_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+        "execution_contract_registry_sha256": "8b62b95a471daefa004c0ae3ffe11e5c108048997101d112adab843c14b0005c",
+        "module_id": "mldsa65-verify-d3-sm120-native",
+        "operation_mask": 16,
+        "parameter_set": "65",
+        "policy_id": "MLDSA-65-VERIFY-D3",
+        "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "release_family_id": "NEW5090-PAIR-cta_m65_verify_20261020T125158Z_6bfa71",
+        "sm_arch": "sm_120"
+      },
+      "filename": "libloce_mldsa65_verify_d3_sm120.so",
+      "sha256": "ccf3628a82af1639207e9dee87acf1280ee41bd8107b7c557ef152e50a91c48b"
+    }
+  ],
+  "release_identity_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+  "schema": "loce.module-attestation-manifest.v1"
+}

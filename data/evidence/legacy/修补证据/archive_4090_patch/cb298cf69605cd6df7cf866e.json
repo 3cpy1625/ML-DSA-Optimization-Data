@@ -1,0 +1,14 @@
+{
+  "original_generated_source_sha256": "dffb236722b90943963086707e3b75ac6dc506e180212e8639d32a5a41ec7d1f",
+  "patched_source_sha256": "059fb6ef31c31fecdb2a51fbbf0b3104a0d32507864047dd953a997131361756",
+  "inserted_warp_barriers": 2,
+  "affected_functions": [
+    "Stream<1>::next",
+    "Stream<2>::next"
+  ],
+  "report_run": "20261020T161628260124Z-b966f10f",
+  "observed_report": "147462 warnings; first 100 reports point from audit_kernel<1> consumer read to Stream<1>::next next-epoch write",
+  "algorithm_or_counters_changed": false,
+  "production_DSOs_modified": false,
+  "old_performance_requalified": false
+}

@@ -1,0 +1,80 @@
+{
+  "E03": {
+    "actual_E03_ELF_bytes_local": false,
+    "bench": {
+      "bytes": 456072,
+      "path": "build/integration/loce_unified_api_bench",
+      "reason": "DSO/object/source or metadata over32MiB; retained on server",
+      "sha256": "9b89f91a9f19c7c8618ec5d902f1d745b315549578ae2431caf9e159c60392e7"
+    },
+    "binary_scope": "SERVER_RETAINED_HASH_CROSS_BINDING_ONLY",
+    "build_sha256": "7329643d44832077ed4971bb6bd6e0c24573a576148657fc77f1c399e73b1ac5",
+    "modules": 9,
+    "prior_comparisons": 18,
+    "qualification_sha256": "fffa33d47cc8978329bee7267544bc15dd0eeb759eae5c2f09a44e2543b2b25c",
+    "source_compilation_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01"
+  },
+  "archive": {
+    "all_member_hashes_match": true,
+    "members": 830,
+    "payload_bytes": 145882629
+  },
+  "archive_sha256": "1b7dfed34a3c109f4c422acc8d443f1bccccaee12d1ece5e86f2de8f46fc5d1e",
+  "counts": {
+    "corpora": 9,
+    "corpus_binary_files": 225,
+    "cpu_build_lifecycles": 1,
+    "cpu_generator_lifecycles": 9,
+    "input_and_final_output_byte_comparisons": 84,
+    "loaded_engine_module_records": 378,
+    "process_input_output_files": 84,
+    "processes": 42,
+    "raw_qualification_samples": 42,
+    "unavailable_gpu_process_name_samples": 6
+  },
+  "execution": "Local read-only data/CPU parsing only; no archived code import, native process, compiler, library load, SSH or GPU.",
+  "external_manifest_sha256": "3bfa2c46246770a15df61b898fbbef5511bf533ead470098421f5c82eae1bfd0",
+  "limits": [
+    "Qualification only; no formal E13 performance matrix, speedup or service-latency conclusion.",
+    "All actual retained I/O bytes compared with retained PQMagic oracle bytes; cryptographic oracle was not rerun locally.",
+    "E03 executable/DSO bytes are not in the local archive: source/ELF identity is cross-bound to pinned E03 metadata and saved runtime identity records only.",
+    "E13 CPU generator ELF is retained and hash checked, never executed or loaded.",
+    "Sampled quiet/process evidence does not prove absolute GPU exclusivity.",
+    "Last timed output only; sanitizer, official FIPS/KAT and complete API qualification remain separate.",
+    "Six saved nvidia-smi monitor process-name fields report [No data]. Their PIDs match the new owned child; executable-name identity is unavailable for those samples. The E13 collector does not attest /proc/exe bytes."
+  ],
+  "settings": {
+    "batch": 256,
+    "empty_context_transcript": "00 00 || M",
+    "messages": [
+      32,
+      256,
+      1024
+    ],
+    "repeat": 1,
+    "rnd": "all zero",
+    "warmup": 0
+  },
+  "source_pins": {
+    "cpu_generator_source": "506d99a3e8dc0f6db1143ced3c7052e73868e280bf6ebe51145d178c0c64d5a7",
+    "enabled_controller": "c41a966221f273d1489690760c0b0ed9ef2e16bb849335a481e2148fb9593635",
+    "native_process_helper": "249a5aca5b710ad0f925a42b8a0561878b26fab22b63fe5a84ef587589bb0c57"
+  },
+  "status": "E13_NATIVE_B256_QUALIFICATION_LOCAL_INTAKE_PASS",
+  "official_status": "E13_B256_QUALIFICATION_ROOT_INDEPENDENT_LOCAL_INTAKE_PASS_WITH_LIMITS",
+  "root_replay": {
+    "path": "server_results/e13_native/local_intake/RESULT.json",
+    "bytes": 2986,
+    "sha256": "8ee6334ca056067e080a4a12898f55b6da1243f5051b3fd8b32c5b1c8490e8cd"
+  },
+  "root_negative_qa": {
+    "path": "server_results/e13_native/local_intake/ROOT_NEGATIVE_QA.json",
+    "bytes": 15668,
+    "sha256": "a1988ce8bee74372da0dfdcb40839a3d838e6744dff901b5533d58643a9a1542"
+  },
+  "intake_tool": {
+    "path": "scripts/e13_intake_633fecad/intake_e13.py",
+    "bytes": 28813,
+    "sha256": "633fecad06205c87f386e01e241f1c0bba3c83c30426d16467f23216b18210cc"
+  }
+}

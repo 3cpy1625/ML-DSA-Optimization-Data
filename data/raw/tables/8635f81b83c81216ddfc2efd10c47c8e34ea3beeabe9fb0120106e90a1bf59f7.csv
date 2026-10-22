@@ -1,0 +1,6 @@
+timestamp, uuid, memory.used [MiB], utilization.gpu [%], temperature.gpu, power.draw [W], clocks.current.sm [MHz], clocks.current.memory [MHz], pstate
+2026/10/18 12:09:47.214, GPU-e1d7ca80-3efa-99e7-80c8-7f473c926cdd, 2 MiB, 0 %, 40, 79.44 W, 2730 MHz, 10501 MHz, P0
+2026/10/18 12:09:47.721, GPU-e1d7ca80-3efa-99e7-80c8-7f473c926cdd, 910 MiB, 0 %, 40, 79.44 W, 2730 MHz, 10501 MHz, P0
+2026/10/18 12:09:48.227, GPU-e1d7ca80-3efa-99e7-80c8-7f473c926cdd, 2212 MiB, 0 %, 39, 82.14 W, 2730 MHz, 10251 MHz, P2
+2026/10/18 12:09:48.742, GPU-e1d7ca80-3efa-99e7-80c8-7f473c926cdd, 2212 MiB, 0 %, 39, 83.10 W, 2730 MHz, 10251 MHz, P2
+2026/10/18 12:09:49.252, GPU-e1d7ca80-3efa-99e7-80c8-7f473c926cdd, 2212 MiB, 0 %, 40, 81.39 W, 2730 MHz, 10251 MHz, P2

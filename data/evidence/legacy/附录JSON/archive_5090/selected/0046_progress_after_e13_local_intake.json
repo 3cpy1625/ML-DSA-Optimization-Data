@@ -1,0 +1,30 @@
+{
+  "schema": "mldsa5090-e13-root-intake-v1",
+  "recorded_utc": "2026-10-20T04:52:09.994995+00:00",
+  "status": "E13_B256_QUALIFICATION_ROOT_INDEPENDENT_LOCAL_INTAKE_PASS_WITH_LIMITS",
+  "e13_intake": {
+    "path": "server_results/e13_native/local_intake/LOCAL_INTAKE_VERIFICATION.json",
+    "bytes": 3738,
+    "sha256": "dc82b7f72147b992f7ce4269cfb06250384420b74bc541a06278c510240055fb"
+  },
+  "counts": {
+    "corpora": 9,
+    "corpus_binary_files": 225,
+    "cpu_build_lifecycles": 1,
+    "cpu_generator_lifecycles": 9,
+    "input_and_final_output_byte_comparisons": 84,
+    "loaded_engine_module_records": 378,
+    "process_input_output_files": 84,
+    "processes": 42,
+    "raw_qualification_samples": 42,
+    "unavailable_gpu_process_name_samples": 6
+  },
+  "e13_full_performance": "NOT_RUN_63_CONDITIONS_756_PROCESSES",
+  "e03_full_performance": "NOT_RUN_27_CONDITIONS_324_PROCESSES",
+  "e11": "reviewed NVTX tmpfs build in progress; no native result accepted yet",
+  "split32_sanitizer": "original run stopped on third post-idle guard; all three actual memcheck logs zero findings; new postsettling candidate in preparation",
+  "e14": "nine-case true-key-reuse qualification not run; performance draft hardblocked",
+  "full_outline_complete": false,
+  "remaining_individual_experiments": "NOT_YET_FULLY_ENUMERATED; 90 only enumerated E03/E13 comparison conditions, not entire outline",
+  "no_remote_deletion": true
+}

@@ -1,0 +1,8 @@
+{
+  "schema": "loce.loaded-module-identity.v1",
+  "framework_source_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+  "cuda_device": {"ordinal": 0, "uuid": "43cf85da3fa20d233066d8781644bb2a", "compute_capability_major": 12, "compute_capability_minor": 0},
+  "modules": [
+    {"algorithm": "ML-DSA", "level": 1, "operation_mask": 1, "path": "/home/lsb/mldsa-experiments-5090/新5090/split32_m44_keygen_20261020T125611Z_d0515a/modules_OFF/libloce_mldsa44_keygen_d3_sm120.so", "sha256": "4892cb1e2d4a71870eb576a6f00ae65b0e99a8ff76336cb62d52354597b3c2f5", "module_name": "mldsa44-sm120-native", "module_build_identity": "v0802/MLDSA_NONSIGN_BEST/cuDilithium2", "resolved_symbol": "loce_pqc_native_module_v1", "expected_sha256": "4892cb1e2d4a71870eb576a6f00ae65b0e99a8ff76336cb62d52354597b3c2f5", "post_load_sha256": "4892cb1e2d4a71870eb576a6f00ae65b0e99a8ff76336cb62d52354597b3c2f5", "embedded_module_id": "mldsa44-keygen-d3-sm120-native", "release_family_id": "NEW5090-PAIR-split32_m44_keygen_20261020T125611Z_d0515a", "parameter_set": "44", "policy_id": "MLDSA-44-KEYGEN-D3", "sm_arch": "sm_120", "release_identity_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01", "device": 64512, "inode": 2627340, "attested": true}
+  ]
+}

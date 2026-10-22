@@ -1,0 +1,4 @@
+variant,binary,exit_code
+mldsa_primary,bench_cuDilithium2,0
+mldsa_primary,bench_cuDilithium3,0
+mldsa_primary,bench_cuDilithium5,139

@@ -1,0 +1,93 @@
+{
+  "status": "THREE_ARM_MODULES_BUILT_GPU_NOT_RUN",
+  "gpu_experiments_started": 0,
+  "arms": {
+    "P0": {
+      "build": "/home/lsb/mldsa-experiments-5090/\u65b05090/m44_three_arm_20261020T121813Z_11cf6ec1/build_P0",
+      "bindings": {
+        "LOCE_MODULE_COMPILATION_INPUT_SHA256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+        "LOCE_MODULE_BUILD_PROVENANCE_SHA256": "c681f1f2eaee1655f4ca900485446088d652a4a1ed3240dba2b0990433431f73",
+        "LOCE_MODULE_EXECUTION_CONTRACT_REGISTRY_SHA256": "c8dccc44cff725aa21c9a33f266fb90c25b82247b1e0847f6668b6c702308509",
+        "LOCE_MODULE_POLICY_REGISTRY_SHA256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "LOCE_MODULE_BUILD_ID": "test-c681f1f2eaee1655f4ca",
+        "LOCE_MODULE_RELEASE_FAMILY_ID": "NEW5090-M44-THREE-ARM-m44_three_arm_20261020T121813Z_11cf6ec1"
+      },
+      "compile_commands_sha256": "52e76f5dcd98783bde7e5cc6fb3a5e9829443fc5ece178ff55c99207852a7de8",
+      "binary": "/home/lsb/mldsa-experiments-5090/\u65b05090/m44_three_arm_20261020T121813Z_11cf6ec1/build_P0/libloce_mldsa44_keygen_d3_sm120.so",
+      "binary_sha256": "1c5420c0b8721583385528a34cf1d25a3b93b995a5c503a70fa232c84ff19b21",
+      "embedded_identity": {
+        "abi_version": 1,
+        "algorithm": "ML-DSA",
+        "build_id": "test-c681f1f2eaee1655f4ca",
+        "build_provenance_sha256": "c681f1f2eaee1655f4ca900485446088d652a4a1ed3240dba2b0990433431f73",
+        "compilation_input_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+        "execution_contract_registry_sha256": "c8dccc44cff725aa21c9a33f266fb90c25b82247b1e0847f6668b6c702308509",
+        "module_id": "mldsa44-keygen-d3-sm120-native",
+        "operation_mask": 1,
+        "parameter_set": "44",
+        "policy_id": "MLDSA-44-KEYGEN-D3",
+        "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "release_family_id": "NEW5090-M44-THREE-ARM-m44_three_arm_20261020T121813Z_11cf6ec1",
+        "sm_arch": "sm_120"
+      }
+    },
+    "R1": {
+      "build": "/home/lsb/mldsa-experiments-5090/\u65b05090/m44_three_arm_20261020T121813Z_11cf6ec1/build_R1",
+      "bindings": {
+        "LOCE_MODULE_COMPILATION_INPUT_SHA256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+        "LOCE_MODULE_BUILD_PROVENANCE_SHA256": "c4b57f467abb19afe81249cffdfd383d705a1cb8bb4da9f4f6299d23061917fb",
+        "LOCE_MODULE_EXECUTION_CONTRACT_REGISTRY_SHA256": "c8dccc44cff725aa21c9a33f266fb90c25b82247b1e0847f6668b6c702308509",
+        "LOCE_MODULE_POLICY_REGISTRY_SHA256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "LOCE_MODULE_BUILD_ID": "test-c4b57f467abb19afe812",
+        "LOCE_MODULE_RELEASE_FAMILY_ID": "NEW5090-M44-THREE-ARM-m44_three_arm_20261020T121813Z_11cf6ec1"
+      },
+      "compile_commands_sha256": "34aab0ae2c09864da0024563cf2912575112bcde9324d57fc2f9807f4170b023",
+      "binary": "/home/lsb/mldsa-experiments-5090/\u65b05090/m44_three_arm_20261020T121813Z_11cf6ec1/build_R1/libloce_mldsa44_keygen_d3_sm120.so",
+      "binary_sha256": "d253313080a8b6e2b44d9defe39812bab27d38ef845cc1b3dc3260d5576ff24b",
+      "embedded_identity": {
+        "abi_version": 1,
+        "algorithm": "ML-DSA",
+        "build_id": "test-c4b57f467abb19afe812",
+        "build_provenance_sha256": "c4b57f467abb19afe81249cffdfd383d705a1cb8bb4da9f4f6299d23061917fb",
+        "compilation_input_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+        "execution_contract_registry_sha256": "c8dccc44cff725aa21c9a33f266fb90c25b82247b1e0847f6668b6c702308509",
+        "module_id": "mldsa44-keygen-d3-sm120-native",
+        "operation_mask": 1,
+        "parameter_set": "44",
+        "policy_id": "MLDSA-44-KEYGEN-D3",
+        "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "release_family_id": "NEW5090-M44-THREE-ARM-m44_three_arm_20261020T121813Z_11cf6ec1",
+        "sm_arch": "sm_120"
+      }
+    },
+    "C1": {
+      "build": "/home/lsb/mldsa-experiments-5090/\u65b05090/m44_three_arm_20261020T121813Z_11cf6ec1/build_C1",
+      "bindings": {
+        "LOCE_MODULE_COMPILATION_INPUT_SHA256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+        "LOCE_MODULE_BUILD_PROVENANCE_SHA256": "9af8eb50210ca15bd2fdd79a4b054d0589b29adc3f53e667d1b92fff051cb483",
+        "LOCE_MODULE_EXECUTION_CONTRACT_REGISTRY_SHA256": "c8dccc44cff725aa21c9a33f266fb90c25b82247b1e0847f6668b6c702308509",
+        "LOCE_MODULE_POLICY_REGISTRY_SHA256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "LOCE_MODULE_BUILD_ID": "test-9af8eb50210ca15bd2fd",
+        "LOCE_MODULE_RELEASE_FAMILY_ID": "NEW5090-M44-THREE-ARM-m44_three_arm_20261020T121813Z_11cf6ec1"
+      },
+      "compile_commands_sha256": "84ccbf31c09adfd7df13d5cbfbeb6bf3e87f9f5985d4ab94287eb88301d0568b",
+      "binary": "/home/lsb/mldsa-experiments-5090/\u65b05090/m44_three_arm_20261020T121813Z_11cf6ec1/build_C1/libloce_mldsa44_keygen_d3_sm120.so",
+      "binary_sha256": "8d0807438d048db7b68ef0518b6a0ff5435f520744dcc2b1dc5d9150cbfcce87",
+      "embedded_identity": {
+        "abi_version": 1,
+        "algorithm": "ML-DSA",
+        "build_id": "test-9af8eb50210ca15bd2fd",
+        "build_provenance_sha256": "9af8eb50210ca15bd2fdd79a4b054d0589b29adc3f53e667d1b92fff051cb483",
+        "compilation_input_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+        "execution_contract_registry_sha256": "c8dccc44cff725aa21c9a33f266fb90c25b82247b1e0847f6668b6c702308509",
+        "module_id": "mldsa44-keygen-d3-sm120-native",
+        "operation_mask": 1,
+        "parameter_set": "44",
+        "policy_id": "MLDSA-44-KEYGEN-D3",
+        "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "release_family_id": "NEW5090-M44-THREE-ARM-m44_three_arm_20261020T121813Z_11cf6ec1",
+        "sm_arch": "sm_120"
+      }
+    }
+  }
+}

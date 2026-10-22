@@ -1,0 +1,21 @@
+{
+  "schema": "mldsa5090-local-intake-verification-v1",
+  "status": "ARCHIVE_SHA256_MANIFEST_AND_PRIMARY_RECORDS_VERIFIED",
+  "verified_utc": "2026-10-19T14:58:26.984678+00:00",
+  "run_id": "fastmin-m87-all-v3-20261019T143050777764Z-626756",
+  "archive_sha256": "a6a613528370e46fc7220afe6415b0e7e3b7f907d1df7ef32edf42553af8ae15",
+  "archive_bytes": 949584,
+  "included_files_verified": 477,
+  "omitted_files_retained_on_server": 731,
+  "extracted_directory": "E:\\密码竞赛\\5090实验结果_20261019\\extracted\\v3_626756",
+  "wrapper_sha256": "7d903776a63548edcebf1664aa7244ad1203cc9148041c79715ea68e23971d34",
+  "build_status": "BUILD_ONLY_PASS",
+  "build_cells": 9,
+  "configuration_status": "WRAPPER_BUILD_CONFIGURATION_PASS",
+  "correctness_status": "SMALL_BATCH_ADAPTER_CORRECTNESS_PASS",
+  "formal_performance_collected": false,
+  "limits": "No server binaries, objects or raw vector files were included in this metadata export; omissions are inventoried in EXPORT_MANIFEST.json.",
+  "correctness_cases_passed": 21,
+  "correctness_cells": 9,
+  "correctness_case_statuses_verified": true
+}

@@ -1,0 +1,2126 @@
+[
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/MANIFEST.json",
+    "sha256": "175fbf3be26f05fc5addc42582cfb925a96e98788bc1a82d2488ca26467743af"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/RESULT.json",
+    "sha256": "0bb9ed3dd8755052ecdf9903f14f65609fd26fae32e27a41a511a5909df8e181"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/build/SOURCE_IDENTITY.json",
+    "sha256": "795915852467af8085bf5b895969dac7631dd1c88bed59f9ec4621938ac58610"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/build/shake_sampling_audit.cu",
+    "sha256": "dffb236722b90943963086707e3b75ac6dc506e180212e8639d32a5a41ec7d1f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/build/sealed/third_party/native/MLDSA_NONSIGN_BEST/include/params.h",
+    "sha256": "e46f1da698624cf6c07598b56816d0c3f56700770b022732b826dc039f999d51"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/build/sealed/third_party/native/MLDSA_NONSIGN_BEST/include/fips202/fips202.cuh",
+    "sha256": "f712b5908a4f344c2b907eb0054bf3fdfd3dfff9b6662c3f3da878c801168a76"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/build/sealed/third_party/native/MLDSA_NONSIGN_BEST/include/fips202/state_permute_ptx_impl.inc",
+    "sha256": "b888f5599f3568f25d514466ce8a1205cb79e2cea798e2633aefa26061c1106b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/build/sealed/third_party/native/MLDSA_NONSIGN_BEST/benches/bench_keccak_thread_state.cu",
+    "sha256": "a347a31ac690f935145b5ef69aa50d52c92707e0f6c998bf5913f651207e72c0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/build/sealed/source/primitives/cuda/include/loce/pqc/primitives/cuda/scalar_keccak_split32_named.cuh",
+    "sha256": "6972def995c6306cc525cbaa1ad0261658a2450bdc93a38dff0bf362142e2f7b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/build/sealed/third_party/native/MLDSA_NONSIGN_BEST/benches/bench_mldsa_verify_final_hash_widths.cu",
+    "sha256": "fd83ff9e4e2b9e623361081e747fd57523738669aba483871eea7d48c600e024"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/build/sealed/third_party/native/MLDSA_NONSIGN_BEST/src/sign.cu",
+    "sha256": "ab815926fc6be9d809d027dee1273545459dbd884e2e0c90fb7d3079b25310ed"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/build/sealed/third_party/native/MLDSA_SIGN_LATEST/src/signing/unified_engine/sign.cu",
+    "sha256": "8e875ef1ddd2c1052c2adb5746cef2b6b69ff94b3c3c8a2d0e0f8d41ea899d14"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/build/sealed/third_party/native/MLDSA_SIGN_M65_332/src/signing/unified_engine/sign.cu",
+    "sha256": "8e875ef1ddd2c1052c2adb5746cef2b6b69ff94b3c3c8a2d0e0f8d41ea899d14"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2.cu",
+    "sha256": "059fb6ef31c31fecdb2a51fbbf0b3104a0d32507864047dd953a997131361756"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/build/shake_sampling_audit.patched.cu",
+    "sha256": "059fb6ef31c31fecdb2a51fbbf0b3104a0d32507864047dd953a997131361756"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/build/shake_sampling_44",
+    "sha256": "75c5a5fcb6b5bdfae2f0e4778ef7253dddd2a9da9b3445c92b1baac1e83be765"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/build/compile_44_ARGV.json",
+    "sha256": "8737ec6da80dbc9d7f8554303b1596c88ae210054532efb9805771e696e9d912"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/build/shake_sampling_44",
+    "sha256": "0f053bc40a53823504f52255c6403d7a09ca9bf39ff89babb319373e1f9ba4bf"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/permutation5_tail_17_input.bin",
+    "sha256": "3d6958a93e7d2632fe02e104c9d24b76578d7740185e77433b84fab24be75008"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/permutation5_tail_17_input.bin",
+    "sha256": "3d6958a93e7d2632fe02e104c9d24b76578d7740185e77433b84fab24be75008"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/permutation5_tail_17_oracle.bin",
+    "sha256": "1a5766295d80fb9e247f47db81e8ff543289246d287c0f211c85419866e58375"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/permutation5_tail_17_oracle.bin",
+    "sha256": "1a5766295d80fb9e247f47db81e8ff543289246d287c0f211c85419866e58375"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/permutation5_tail_17_trace_on.bin",
+    "sha256": "1fa77eaedf9ce86bc3ba148594ed2cf9f250ca4e668a8d189a97f15664dc9e34"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/permutation5_tail_17_trace_on.bin",
+    "sha256": "1fa77eaedf9ce86bc3ba148594ed2cf9f250ca4e668a8d189a97f15664dc9e34"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/permutation5_tail_17_trace_off.bin",
+    "sha256": "1fa77eaedf9ce86bc3ba148594ed2cf9f250ca4e668a8d189a97f15664dc9e34"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/permutation5_tail_17_trace_off.bin",
+    "sha256": "1fa77eaedf9ce86bc3ba148594ed2cf9f250ca4e668a8d189a97f15664dc9e34"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/permutation5_tail_17_thread_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/permutation5_tail_17_thread_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/permutation5_tail_17_warp_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/permutation5_tail_17_warp_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/permutation5_tail_17_split32_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/permutation5_tail_17_split32_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/permutation5_tail_17_split32_on_warp_work.bin",
+    "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/permutation5_tail_17_split32_on_warp_work.bin",
+    "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/permutation5_tail_17_thread_off_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/permutation5_tail_17_thread_off_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/permutation5_tail_17_warp_off_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/permutation5_tail_17_warp_off_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/permutation5_tail_17_split32_off_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/permutation5_tail_17_split32_off_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/permutation5_tail_17_split32_off_warp_work.bin",
+    "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/permutation5_tail_17_split32_off_warp_work.bin",
+    "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/shake256_200_512_tail_17_input.bin",
+    "sha256": "6e24670c1dd3abcaa70ad3a0d12f0f0cacd798a9f4f6be98a982bddec3dee874"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/shake256_200_512_tail_17_input.bin",
+    "sha256": "6e24670c1dd3abcaa70ad3a0d12f0f0cacd798a9f4f6be98a982bddec3dee874"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/shake256_200_512_tail_17_oracle.bin",
+    "sha256": "6f5e03461e7117d3f779c865551010d114055fa83ca37f73a4f92a8c107ec9a7"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/shake256_200_512_tail_17_oracle.bin",
+    "sha256": "6f5e03461e7117d3f779c865551010d114055fa83ca37f73a4f92a8c107ec9a7"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/shake256_200_512_tail_17_trace_on.bin",
+    "sha256": "373dbaff70505470a76e300e7370e0050c4c17bd2a405911329d26565ef020fc"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/shake256_200_512_tail_17_trace_on.bin",
+    "sha256": "373dbaff70505470a76e300e7370e0050c4c17bd2a405911329d26565ef020fc"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/shake256_200_512_tail_17_trace_off.bin",
+    "sha256": "4d5d2a7d4aa8e36e758a7695de173b900a644ff68ecc49a585c02253de3c8abb"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/shake256_200_512_tail_17_trace_off.bin",
+    "sha256": "4d5d2a7d4aa8e36e758a7695de173b900a644ff68ecc49a585c02253de3c8abb"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/shake256_200_512_tail_17_thread_on_work.bin",
+    "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/shake256_200_512_tail_17_thread_on_work.bin",
+    "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/shake256_200_512_tail_17_warp_on_work.bin",
+    "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/shake256_200_512_tail_17_warp_on_work.bin",
+    "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/shake256_200_512_tail_17_split32_on_work.bin",
+    "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/shake256_200_512_tail_17_split32_on_work.bin",
+    "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/shake256_200_512_tail_17_split32_on_warp_work.bin",
+    "sha256": "3a63928915486090df25df0396da41304ad727e92c5b39c95f5f69baeccc2447"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/shake256_200_512_tail_17_split32_on_warp_work.bin",
+    "sha256": "3a63928915486090df25df0396da41304ad727e92c5b39c95f5f69baeccc2447"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/shake256_200_512_tail_17_thread_off_work.bin",
+    "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/shake256_200_512_tail_17_thread_off_work.bin",
+    "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/shake256_200_512_tail_17_warp_off_work.bin",
+    "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/shake256_200_512_tail_17_warp_off_work.bin",
+    "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/shake256_200_512_tail_17_split32_off_work.bin",
+    "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/shake256_200_512_tail_17_split32_off_work.bin",
+    "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/shake256_200_512_tail_17_split32_off_warp_work.bin",
+    "sha256": "ba97e0fd8518fd57b885dc2cab4dfbec4e9ff8eefbc4bed2a4f15ca5a11114da"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/shake256_200_512_tail_17_split32_off_warp_work.bin",
+    "sha256": "ba97e0fd8518fd57b885dc2cab4dfbec4e9ff8eefbc4bed2a4f15ca5a11114da"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/uniform_tail_17_input.bin",
+    "sha256": "18803e70b89d57512a8690f6667fbe36eff356f2dbce4c7f36f0cd1f52fe1b0c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/uniform_tail_17_input.bin",
+    "sha256": "18803e70b89d57512a8690f6667fbe36eff356f2dbce4c7f36f0cd1f52fe1b0c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/uniform_tail_17_oracle.bin",
+    "sha256": "bc6363ab41b34a3c487a4287211eb6bf61e317e5e33d37b558318615c99d0f17"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/uniform_tail_17_oracle.bin",
+    "sha256": "bc6363ab41b34a3c487a4287211eb6bf61e317e5e33d37b558318615c99d0f17"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/uniform_tail_17_trace_on.bin",
+    "sha256": "fff347e2be160e871759f7adb5643423335aa5a6b3ea0c4488cb0a895c93b8ff"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/uniform_tail_17_trace_on.bin",
+    "sha256": "fff347e2be160e871759f7adb5643423335aa5a6b3ea0c4488cb0a895c93b8ff"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/uniform_tail_17_trace_off.bin",
+    "sha256": "e676795e4af27ec61c05e9716630da2e6833b0642ac961040576aab6ea2b7eea"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/uniform_tail_17_trace_off.bin",
+    "sha256": "e676795e4af27ec61c05e9716630da2e6833b0642ac961040576aab6ea2b7eea"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/uniform_tail_17_thread_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/uniform_tail_17_thread_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/uniform_tail_17_warp_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/uniform_tail_17_warp_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/uniform_tail_17_split32_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/uniform_tail_17_split32_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/uniform_tail_17_split32_on_warp_work.bin",
+    "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/uniform_tail_17_split32_on_warp_work.bin",
+    "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/uniform_tail_17_thread_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/uniform_tail_17_thread_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/uniform_tail_17_warp_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/uniform_tail_17_warp_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/uniform_tail_17_split32_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/uniform_tail_17_split32_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/uniform_tail_17_split32_off_warp_work.bin",
+    "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/uniform_tail_17_split32_off_warp_work.bin",
+    "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/eta_tail_17_input.bin",
+    "sha256": "c031648ce3b18a080ac8abe38530095c34e8b83e20e88c9f7216ce4a837106d6"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/eta_tail_17_input.bin",
+    "sha256": "c031648ce3b18a080ac8abe38530095c34e8b83e20e88c9f7216ce4a837106d6"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/eta_tail_17_oracle.bin",
+    "sha256": "f41b31472e44d180a8bf70c710726c6fe47040ab1dace566e6ce94e6709ce236"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/eta_tail_17_oracle.bin",
+    "sha256": "f41b31472e44d180a8bf70c710726c6fe47040ab1dace566e6ce94e6709ce236"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/eta_tail_17_trace_on.bin",
+    "sha256": "c2092c274b9f46789f501d0307d1d0aa6152ed175a345a1330da27075e57966f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/eta_tail_17_trace_on.bin",
+    "sha256": "c2092c274b9f46789f501d0307d1d0aa6152ed175a345a1330da27075e57966f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/eta_tail_17_trace_off.bin",
+    "sha256": "370cc2e7fbb54f135fc795478e8c5c977f53dc22e48d80a6509f4d2b4de0a4c7"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/eta_tail_17_trace_off.bin",
+    "sha256": "370cc2e7fbb54f135fc795478e8c5c977f53dc22e48d80a6509f4d2b4de0a4c7"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/eta_tail_17_thread_on_work.bin",
+    "sha256": "1b0f3f408032b519749f103d16e609f81df9a2597c825164d4d2229f03c3d851"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/eta_tail_17_thread_on_work.bin",
+    "sha256": "1b0f3f408032b519749f103d16e609f81df9a2597c825164d4d2229f03c3d851"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/eta_tail_17_warp_on_work.bin",
+    "sha256": "1b0f3f408032b519749f103d16e609f81df9a2597c825164d4d2229f03c3d851"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/eta_tail_17_warp_on_work.bin",
+    "sha256": "1b0f3f408032b519749f103d16e609f81df9a2597c825164d4d2229f03c3d851"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/eta_tail_17_split32_on_work.bin",
+    "sha256": "b0668b5038567dccf291b93200a564fe67c40c484d95e5df51f71917f9a0d172"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/eta_tail_17_split32_on_work.bin",
+    "sha256": "b0668b5038567dccf291b93200a564fe67c40c484d95e5df51f71917f9a0d172"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/eta_tail_17_split32_on_warp_work.bin",
+    "sha256": "9993b4d4221a362e803b01c7b3e6f33003f8633bcf08e29efb36ca0a2444901c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/eta_tail_17_split32_on_warp_work.bin",
+    "sha256": "9993b4d4221a362e803b01c7b3e6f33003f8633bcf08e29efb36ca0a2444901c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/eta_tail_17_thread_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/eta_tail_17_thread_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/eta_tail_17_warp_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/eta_tail_17_warp_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/eta_tail_17_split32_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/eta_tail_17_split32_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/eta_tail_17_split32_off_warp_work.bin",
+    "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/eta_tail_17_split32_off_warp_work.bin",
+    "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/eta_tail_65_input.bin",
+    "sha256": "771e5886a69362cbffdfeed081c9189389a8bcac493825b88c2dad071d1b7c82"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/eta_tail_65_input.bin",
+    "sha256": "771e5886a69362cbffdfeed081c9189389a8bcac493825b88c2dad071d1b7c82"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/eta_tail_65_oracle.bin",
+    "sha256": "e57155b6731f482f9516f9bf21f108da44ee0d7318d134cf0c2966ee15b4978a"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/eta_tail_65_oracle.bin",
+    "sha256": "e57155b6731f482f9516f9bf21f108da44ee0d7318d134cf0c2966ee15b4978a"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/eta_tail_65_trace_on.bin",
+    "sha256": "06fc9b4b4c3ad49cdbb65e17f0981ffcba166650ebdf8dfe340b4069ccdc1031"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/eta_tail_65_trace_on.bin",
+    "sha256": "06fc9b4b4c3ad49cdbb65e17f0981ffcba166650ebdf8dfe340b4069ccdc1031"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/eta_tail_65_trace_off.bin",
+    "sha256": "5cbeb1a54b6d6e8defb23e9b32c81d13199f0d2e58a741e116d5e0d696be603c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/eta_tail_65_trace_off.bin",
+    "sha256": "5cbeb1a54b6d6e8defb23e9b32c81d13199f0d2e58a741e116d5e0d696be603c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/eta_tail_65_thread_on_work.bin",
+    "sha256": "cd2784aa41b026f22c94003b282fae49d0873ae75b7e2d9f3000fed98b0e9b8d"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/eta_tail_65_thread_on_work.bin",
+    "sha256": "cd2784aa41b026f22c94003b282fae49d0873ae75b7e2d9f3000fed98b0e9b8d"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/eta_tail_65_warp_on_work.bin",
+    "sha256": "cd2784aa41b026f22c94003b282fae49d0873ae75b7e2d9f3000fed98b0e9b8d"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/eta_tail_65_warp_on_work.bin",
+    "sha256": "cd2784aa41b026f22c94003b282fae49d0873ae75b7e2d9f3000fed98b0e9b8d"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/eta_tail_65_split32_on_work.bin",
+    "sha256": "494a42e18d2063199031f3b2de7e8a19b137b64cf74a0a00a095f916826b394c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/eta_tail_65_split32_on_work.bin",
+    "sha256": "494a42e18d2063199031f3b2de7e8a19b137b64cf74a0a00a095f916826b394c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/eta_tail_65_split32_on_warp_work.bin",
+    "sha256": "7e03614469e250515ab0e667991844d339c9aa638a0c4bf98cc9d8bd5b364ed3"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/eta_tail_65_split32_on_warp_work.bin",
+    "sha256": "7e03614469e250515ab0e667991844d339c9aa638a0c4bf98cc9d8bd5b364ed3"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/eta_tail_65_thread_off_work.bin",
+    "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/eta_tail_65_thread_off_work.bin",
+    "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/eta_tail_65_warp_off_work.bin",
+    "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/eta_tail_65_warp_off_work.bin",
+    "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/eta_tail_65_split32_off_work.bin",
+    "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/eta_tail_65_split32_off_work.bin",
+    "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/eta_tail_65_split32_off_warp_work.bin",
+    "sha256": "a869fcec2e9f901fd167ef3ed792890e6604ba3ac238d8e57958a775dfb225f0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/eta_tail_65_split32_off_warp_work.bin",
+    "sha256": "a869fcec2e9f901fd167ef3ed792890e6604ba3ac238d8e57958a775dfb225f0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/expandmask_tail_17_input.bin",
+    "sha256": "3d8858102b7cc032596d01f77fc9b1a54eb1233ef635aa236365345176bce5c3"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/expandmask_tail_17_input.bin",
+    "sha256": "3d8858102b7cc032596d01f77fc9b1a54eb1233ef635aa236365345176bce5c3"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/expandmask_tail_17_oracle.bin",
+    "sha256": "5e6651179664e34b0acc786d9a3c9f09ea84739b7eb756f86eabe86061f2cd88"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/expandmask_tail_17_oracle.bin",
+    "sha256": "5e6651179664e34b0acc786d9a3c9f09ea84739b7eb756f86eabe86061f2cd88"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/expandmask_tail_17_trace_on.bin",
+    "sha256": "ad41cceb5158adeda0ef2cf93f19c330cf6ef7653acc56a68968ff33af041aa6"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/expandmask_tail_17_trace_on.bin",
+    "sha256": "ad41cceb5158adeda0ef2cf93f19c330cf6ef7653acc56a68968ff33af041aa6"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/expandmask_tail_17_trace_off.bin",
+    "sha256": "b53f8fd82fa40a2cb014ab46345a7b1bd2b665b9479909139529f7d27041d5e6"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/expandmask_tail_17_trace_off.bin",
+    "sha256": "b53f8fd82fa40a2cb014ab46345a7b1bd2b665b9479909139529f7d27041d5e6"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/expandmask_tail_17_thread_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/expandmask_tail_17_thread_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/expandmask_tail_17_warp_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/expandmask_tail_17_warp_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/expandmask_tail_17_split32_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/expandmask_tail_17_split32_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/expandmask_tail_17_split32_on_warp_work.bin",
+    "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/expandmask_tail_17_split32_on_warp_work.bin",
+    "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/expandmask_tail_17_thread_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/expandmask_tail_17_thread_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/expandmask_tail_17_warp_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/expandmask_tail_17_warp_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/expandmask_tail_17_split32_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/expandmask_tail_17_split32_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/expandmask_tail_17_split32_off_warp_work.bin",
+    "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/expandmask_tail_17_split32_off_warp_work.bin",
+    "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/sample_in_ball_tail_17_input.bin",
+    "sha256": "c39a5ab7bc2b7503f6921d9560c45084b77f0d930d054aeecf08222bd8d99377"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/sample_in_ball_tail_17_input.bin",
+    "sha256": "c39a5ab7bc2b7503f6921d9560c45084b77f0d930d054aeecf08222bd8d99377"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/sample_in_ball_tail_17_oracle.bin",
+    "sha256": "ccbd98492c216aa9d6162d01d18dc123ec878b62f49d339835d668f42f69d5b7"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/sample_in_ball_tail_17_oracle.bin",
+    "sha256": "ccbd98492c216aa9d6162d01d18dc123ec878b62f49d339835d668f42f69d5b7"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/sample_in_ball_tail_17_trace_on.bin",
+    "sha256": "a4ddc30e84f1b8411c33933b74d53695128e5e2955a7c3a48c5996f96e65e9d4"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/sample_in_ball_tail_17_trace_on.bin",
+    "sha256": "a4ddc30e84f1b8411c33933b74d53695128e5e2955a7c3a48c5996f96e65e9d4"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/sample_in_ball_tail_17_trace_off.bin",
+    "sha256": "df245c0c3452129a016a33b0906000021f7854317c1317fc7aa4cdd9175dbbfa"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/sample_in_ball_tail_17_trace_off.bin",
+    "sha256": "df245c0c3452129a016a33b0906000021f7854317c1317fc7aa4cdd9175dbbfa"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/sample_in_ball_tail_17_thread_on_work.bin",
+    "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/sample_in_ball_tail_17_thread_on_work.bin",
+    "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/sample_in_ball_tail_17_warp_on_work.bin",
+    "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/sample_in_ball_tail_17_warp_on_work.bin",
+    "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/sample_in_ball_tail_17_split32_on_work.bin",
+    "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/sample_in_ball_tail_17_split32_on_work.bin",
+    "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/sample_in_ball_tail_17_split32_on_warp_work.bin",
+    "sha256": "61f1f22bb36b2558657eb87290ae670c13fadbbe1b0c9e5e6d7029c2b5febef7"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/sample_in_ball_tail_17_split32_on_warp_work.bin",
+    "sha256": "61f1f22bb36b2558657eb87290ae670c13fadbbe1b0c9e5e6d7029c2b5febef7"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/sample_in_ball_tail_17_thread_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/sample_in_ball_tail_17_thread_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/sample_in_ball_tail_17_warp_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/sample_in_ball_tail_17_warp_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/sample_in_ball_tail_17_split32_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/sample_in_ball_tail_17_split32_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p44_b256/sample_in_ball_tail_17_split32_off_warp_work.bin",
+    "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/sample_in_ball_tail_17_split32_off_warp_work.bin",
+    "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p44/cases.tsv",
+    "sha256": "7631112da2e0eb123091f8d09d66c2eed62dfc6fa150befa651047af37e37250"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/build/shake_sampling_65",
+    "sha256": "33cee9b7f482a8f4279f3c719d92354869293fb42a2889b7b0186a2c6fd15191"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/build/compile_65_ARGV.json",
+    "sha256": "0587efa02766da2efb208a491082f11846e87c78f695024d43262d9edde77257"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/build/shake_sampling_65",
+    "sha256": "f23334f0225b3a35507849344a5f52158356f9c0faa33cd72f6ace977470a4d6"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/permutation5_tail_17_input.bin",
+    "sha256": "17515187b4e670100eeac621b96b0fbac0ac4885ff5d9e95398dae3b9642c676"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/permutation5_tail_17_input.bin",
+    "sha256": "17515187b4e670100eeac621b96b0fbac0ac4885ff5d9e95398dae3b9642c676"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/permutation5_tail_17_oracle.bin",
+    "sha256": "731e56ed6db6b899634a497c53a95327faff954c3cb280e92531548a1a203ebf"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/permutation5_tail_17_oracle.bin",
+    "sha256": "731e56ed6db6b899634a497c53a95327faff954c3cb280e92531548a1a203ebf"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/permutation5_tail_17_trace_on.bin",
+    "sha256": "1fa77eaedf9ce86bc3ba148594ed2cf9f250ca4e668a8d189a97f15664dc9e34"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/permutation5_tail_17_trace_on.bin",
+    "sha256": "1fa77eaedf9ce86bc3ba148594ed2cf9f250ca4e668a8d189a97f15664dc9e34"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/permutation5_tail_17_trace_off.bin",
+    "sha256": "1fa77eaedf9ce86bc3ba148594ed2cf9f250ca4e668a8d189a97f15664dc9e34"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/permutation5_tail_17_trace_off.bin",
+    "sha256": "1fa77eaedf9ce86bc3ba148594ed2cf9f250ca4e668a8d189a97f15664dc9e34"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/permutation5_tail_17_thread_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/permutation5_tail_17_thread_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/permutation5_tail_17_warp_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/permutation5_tail_17_warp_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/permutation5_tail_17_split32_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/permutation5_tail_17_split32_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/permutation5_tail_17_split32_on_warp_work.bin",
+    "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/permutation5_tail_17_split32_on_warp_work.bin",
+    "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/permutation5_tail_17_thread_off_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/permutation5_tail_17_thread_off_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/permutation5_tail_17_warp_off_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/permutation5_tail_17_warp_off_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/permutation5_tail_17_split32_off_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/permutation5_tail_17_split32_off_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/permutation5_tail_17_split32_off_warp_work.bin",
+    "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/permutation5_tail_17_split32_off_warp_work.bin",
+    "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/shake256_200_512_tail_17_input.bin",
+    "sha256": "38325cec42f5daabeb7df95e67e42b52199aa537083e93c8455acf39539dc52b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/shake256_200_512_tail_17_input.bin",
+    "sha256": "38325cec42f5daabeb7df95e67e42b52199aa537083e93c8455acf39539dc52b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/shake256_200_512_tail_17_oracle.bin",
+    "sha256": "1f13ce542a0f3db08cd9741f9d5bf732ca4809aed3ad2b6f31ff8ba730a8ee17"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/shake256_200_512_tail_17_oracle.bin",
+    "sha256": "1f13ce542a0f3db08cd9741f9d5bf732ca4809aed3ad2b6f31ff8ba730a8ee17"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/shake256_200_512_tail_17_trace_on.bin",
+    "sha256": "da16c9b596f0a2bb22c4b302ce9d68a9ceb11c5d409f69e7253552281fefe65e"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/shake256_200_512_tail_17_trace_on.bin",
+    "sha256": "da16c9b596f0a2bb22c4b302ce9d68a9ceb11c5d409f69e7253552281fefe65e"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/shake256_200_512_tail_17_trace_off.bin",
+    "sha256": "16536c2fa57fcd45c87c2c2c8edbf452265ff7fa7ef56af7654b0f0fd168b059"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/shake256_200_512_tail_17_trace_off.bin",
+    "sha256": "16536c2fa57fcd45c87c2c2c8edbf452265ff7fa7ef56af7654b0f0fd168b059"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/shake256_200_512_tail_17_thread_on_work.bin",
+    "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/shake256_200_512_tail_17_thread_on_work.bin",
+    "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/shake256_200_512_tail_17_warp_on_work.bin",
+    "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/shake256_200_512_tail_17_warp_on_work.bin",
+    "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/shake256_200_512_tail_17_split32_on_work.bin",
+    "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/shake256_200_512_tail_17_split32_on_work.bin",
+    "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/shake256_200_512_tail_17_split32_on_warp_work.bin",
+    "sha256": "3a63928915486090df25df0396da41304ad727e92c5b39c95f5f69baeccc2447"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/shake256_200_512_tail_17_split32_on_warp_work.bin",
+    "sha256": "3a63928915486090df25df0396da41304ad727e92c5b39c95f5f69baeccc2447"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/shake256_200_512_tail_17_thread_off_work.bin",
+    "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/shake256_200_512_tail_17_thread_off_work.bin",
+    "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/shake256_200_512_tail_17_warp_off_work.bin",
+    "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/shake256_200_512_tail_17_warp_off_work.bin",
+    "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/shake256_200_512_tail_17_split32_off_work.bin",
+    "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/shake256_200_512_tail_17_split32_off_work.bin",
+    "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/shake256_200_512_tail_17_split32_off_warp_work.bin",
+    "sha256": "ba97e0fd8518fd57b885dc2cab4dfbec4e9ff8eefbc4bed2a4f15ca5a11114da"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/shake256_200_512_tail_17_split32_off_warp_work.bin",
+    "sha256": "ba97e0fd8518fd57b885dc2cab4dfbec4e9ff8eefbc4bed2a4f15ca5a11114da"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/uniform_tail_17_input.bin",
+    "sha256": "3c0f2c1b7202743b2b00f98aff5b04965f7258128b57bc949ebdab8a27381f03"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/uniform_tail_17_input.bin",
+    "sha256": "3c0f2c1b7202743b2b00f98aff5b04965f7258128b57bc949ebdab8a27381f03"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/uniform_tail_17_oracle.bin",
+    "sha256": "df1b15cf2e324019ade6c09a024a512bbf857a4f8a51c1b9415e63bdfa7540d9"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/uniform_tail_17_oracle.bin",
+    "sha256": "df1b15cf2e324019ade6c09a024a512bbf857a4f8a51c1b9415e63bdfa7540d9"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/uniform_tail_17_trace_on.bin",
+    "sha256": "b52a1da9a5335eebe8fdf72aa64527d51c0ef69f0e994f5e738cc98fb9829510"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/uniform_tail_17_trace_on.bin",
+    "sha256": "b52a1da9a5335eebe8fdf72aa64527d51c0ef69f0e994f5e738cc98fb9829510"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/uniform_tail_17_trace_off.bin",
+    "sha256": "ee322f5f37d0883d88530e0eb0d43016f142ef72dc93b2e4d9943a0213ec25dc"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/uniform_tail_17_trace_off.bin",
+    "sha256": "ee322f5f37d0883d88530e0eb0d43016f142ef72dc93b2e4d9943a0213ec25dc"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/uniform_tail_17_thread_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/uniform_tail_17_thread_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/uniform_tail_17_warp_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/uniform_tail_17_warp_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/uniform_tail_17_split32_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/uniform_tail_17_split32_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/uniform_tail_17_split32_on_warp_work.bin",
+    "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/uniform_tail_17_split32_on_warp_work.bin",
+    "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/uniform_tail_17_thread_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/uniform_tail_17_thread_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/uniform_tail_17_warp_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/uniform_tail_17_warp_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/uniform_tail_17_split32_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/uniform_tail_17_split32_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/uniform_tail_17_split32_off_warp_work.bin",
+    "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/uniform_tail_17_split32_off_warp_work.bin",
+    "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/eta_tail_17_input.bin",
+    "sha256": "a5e6da9a069be73ff930d42d846d71429d2921be84592faf5b610ff80fb64062"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/eta_tail_17_input.bin",
+    "sha256": "a5e6da9a069be73ff930d42d846d71429d2921be84592faf5b610ff80fb64062"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/eta_tail_17_oracle.bin",
+    "sha256": "658f62bb4f4be0358681f9cbeffdaa6496710233aa47a17c4b9374c161e00903"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/eta_tail_17_oracle.bin",
+    "sha256": "658f62bb4f4be0358681f9cbeffdaa6496710233aa47a17c4b9374c161e00903"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/eta_tail_17_trace_on.bin",
+    "sha256": "697c5460e2e8d1bc6d22432da83cc6801de75147e5cedb22fd07df04912e2e94"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/eta_tail_17_trace_on.bin",
+    "sha256": "697c5460e2e8d1bc6d22432da83cc6801de75147e5cedb22fd07df04912e2e94"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/eta_tail_17_trace_off.bin",
+    "sha256": "0cd9eef1c644885bb496830297531339f677309a7d47b528731d72399c97dfa7"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/eta_tail_17_trace_off.bin",
+    "sha256": "0cd9eef1c644885bb496830297531339f677309a7d47b528731d72399c97dfa7"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/eta_tail_17_thread_on_work.bin",
+    "sha256": "533ac23a9b644ac3a5cf4c486e914d2d62c24b43c493088ebd184ee6b17db0c2"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/eta_tail_17_thread_on_work.bin",
+    "sha256": "533ac23a9b644ac3a5cf4c486e914d2d62c24b43c493088ebd184ee6b17db0c2"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/eta_tail_17_warp_on_work.bin",
+    "sha256": "533ac23a9b644ac3a5cf4c486e914d2d62c24b43c493088ebd184ee6b17db0c2"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/eta_tail_17_warp_on_work.bin",
+    "sha256": "533ac23a9b644ac3a5cf4c486e914d2d62c24b43c493088ebd184ee6b17db0c2"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/eta_tail_17_split32_on_work.bin",
+    "sha256": "533ac23a9b644ac3a5cf4c486e914d2d62c24b43c493088ebd184ee6b17db0c2"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/eta_tail_17_split32_on_work.bin",
+    "sha256": "533ac23a9b644ac3a5cf4c486e914d2d62c24b43c493088ebd184ee6b17db0c2"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/eta_tail_17_split32_on_warp_work.bin",
+    "sha256": "9993b4d4221a362e803b01c7b3e6f33003f8633bcf08e29efb36ca0a2444901c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/eta_tail_17_split32_on_warp_work.bin",
+    "sha256": "9993b4d4221a362e803b01c7b3e6f33003f8633bcf08e29efb36ca0a2444901c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/eta_tail_17_thread_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/eta_tail_17_thread_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/eta_tail_17_warp_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/eta_tail_17_warp_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/eta_tail_17_split32_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/eta_tail_17_split32_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/eta_tail_17_split32_off_warp_work.bin",
+    "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/eta_tail_17_split32_off_warp_work.bin",
+    "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/eta_tail_65_input.bin",
+    "sha256": "c962511c8909c8c0d227dc3773ec603ccfbf737d6cc2cf826b499b1769263366"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/eta_tail_65_input.bin",
+    "sha256": "c962511c8909c8c0d227dc3773ec603ccfbf737d6cc2cf826b499b1769263366"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/eta_tail_65_oracle.bin",
+    "sha256": "da22d96decd2c0d6c4d338b2571a9e0c4034b44458f16f810389d7530ae7c10e"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/eta_tail_65_oracle.bin",
+    "sha256": "da22d96decd2c0d6c4d338b2571a9e0c4034b44458f16f810389d7530ae7c10e"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/eta_tail_65_trace_on.bin",
+    "sha256": "fab69806ca0d39b746dc29cd968f3bc4a030ba8546d1ec2fee58e97c3c6c886b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/eta_tail_65_trace_on.bin",
+    "sha256": "fab69806ca0d39b746dc29cd968f3bc4a030ba8546d1ec2fee58e97c3c6c886b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/eta_tail_65_trace_off.bin",
+    "sha256": "e88f44610f2aa190ad91795b1d0c138ad9184aacb7bc7789b1a0e016f4687b70"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/eta_tail_65_trace_off.bin",
+    "sha256": "e88f44610f2aa190ad91795b1d0c138ad9184aacb7bc7789b1a0e016f4687b70"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/eta_tail_65_thread_on_work.bin",
+    "sha256": "81405b81d2e624b68f1e36659e2d5e55d854d89a0367c523f684a319c9de2021"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/eta_tail_65_thread_on_work.bin",
+    "sha256": "81405b81d2e624b68f1e36659e2d5e55d854d89a0367c523f684a319c9de2021"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/eta_tail_65_warp_on_work.bin",
+    "sha256": "81405b81d2e624b68f1e36659e2d5e55d854d89a0367c523f684a319c9de2021"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/eta_tail_65_warp_on_work.bin",
+    "sha256": "81405b81d2e624b68f1e36659e2d5e55d854d89a0367c523f684a319c9de2021"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/eta_tail_65_split32_on_work.bin",
+    "sha256": "81405b81d2e624b68f1e36659e2d5e55d854d89a0367c523f684a319c9de2021"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/eta_tail_65_split32_on_work.bin",
+    "sha256": "81405b81d2e624b68f1e36659e2d5e55d854d89a0367c523f684a319c9de2021"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/eta_tail_65_split32_on_warp_work.bin",
+    "sha256": "0dfbf8d051e27d9a2a81fbe465a22b09e196bcb2b07e6b869d5d523053b26f18"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/eta_tail_65_split32_on_warp_work.bin",
+    "sha256": "0dfbf8d051e27d9a2a81fbe465a22b09e196bcb2b07e6b869d5d523053b26f18"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/eta_tail_65_thread_off_work.bin",
+    "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/eta_tail_65_thread_off_work.bin",
+    "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/eta_tail_65_warp_off_work.bin",
+    "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/eta_tail_65_warp_off_work.bin",
+    "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/eta_tail_65_split32_off_work.bin",
+    "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/eta_tail_65_split32_off_work.bin",
+    "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/eta_tail_65_split32_off_warp_work.bin",
+    "sha256": "a869fcec2e9f901fd167ef3ed792890e6604ba3ac238d8e57958a775dfb225f0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/eta_tail_65_split32_off_warp_work.bin",
+    "sha256": "a869fcec2e9f901fd167ef3ed792890e6604ba3ac238d8e57958a775dfb225f0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/expandmask_tail_17_input.bin",
+    "sha256": "1b76b2e625d7b3d67c618e16816270d9d4cbc498935e390b16e8e861a1fa1571"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/expandmask_tail_17_input.bin",
+    "sha256": "1b76b2e625d7b3d67c618e16816270d9d4cbc498935e390b16e8e861a1fa1571"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/expandmask_tail_17_oracle.bin",
+    "sha256": "2d27de342522f561cf54176296604b2bf0208a2c48f045642070362603405735"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/expandmask_tail_17_oracle.bin",
+    "sha256": "2d27de342522f561cf54176296604b2bf0208a2c48f045642070362603405735"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/expandmask_tail_17_trace_on.bin",
+    "sha256": "3ad63c47b2c69bb194656a81dd90918123de37e88b9f25044c5cd8a087a02300"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/expandmask_tail_17_trace_on.bin",
+    "sha256": "3ad63c47b2c69bb194656a81dd90918123de37e88b9f25044c5cd8a087a02300"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/expandmask_tail_17_trace_off.bin",
+    "sha256": "7dc19eaca6d1066ef5b66d2ae8c1d29807a4d2c3acbb6bb228226683ac7fe92c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/expandmask_tail_17_trace_off.bin",
+    "sha256": "7dc19eaca6d1066ef5b66d2ae8c1d29807a4d2c3acbb6bb228226683ac7fe92c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/expandmask_tail_17_thread_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/expandmask_tail_17_thread_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/expandmask_tail_17_warp_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/expandmask_tail_17_warp_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/expandmask_tail_17_split32_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/expandmask_tail_17_split32_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/expandmask_tail_17_split32_on_warp_work.bin",
+    "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/expandmask_tail_17_split32_on_warp_work.bin",
+    "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/expandmask_tail_17_thread_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/expandmask_tail_17_thread_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/expandmask_tail_17_warp_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/expandmask_tail_17_warp_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/expandmask_tail_17_split32_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/expandmask_tail_17_split32_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/expandmask_tail_17_split32_off_warp_work.bin",
+    "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/expandmask_tail_17_split32_off_warp_work.bin",
+    "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/sample_in_ball_tail_17_input.bin",
+    "sha256": "73c5ec23bd667bbf7c955a867eed80b8ca39eb5677bf8fc85231f930b7812773"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/sample_in_ball_tail_17_input.bin",
+    "sha256": "73c5ec23bd667bbf7c955a867eed80b8ca39eb5677bf8fc85231f930b7812773"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/sample_in_ball_tail_17_oracle.bin",
+    "sha256": "00e89abb3292752e9474d885d56550663ce0029a96a177da52a40cf05243a945"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/sample_in_ball_tail_17_oracle.bin",
+    "sha256": "00e89abb3292752e9474d885d56550663ce0029a96a177da52a40cf05243a945"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/sample_in_ball_tail_17_trace_on.bin",
+    "sha256": "3d3acacbaac1c0ddd8860ea4265b5b9b97c3b42e99c4f450ea8bd315c7ebe9c7"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/sample_in_ball_tail_17_trace_on.bin",
+    "sha256": "3d3acacbaac1c0ddd8860ea4265b5b9b97c3b42e99c4f450ea8bd315c7ebe9c7"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/sample_in_ball_tail_17_trace_off.bin",
+    "sha256": "bc2fd14f8714c374164f08f14a718fad5853a94266cf64f608444c08feb40cf5"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/sample_in_ball_tail_17_trace_off.bin",
+    "sha256": "bc2fd14f8714c374164f08f14a718fad5853a94266cf64f608444c08feb40cf5"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/sample_in_ball_tail_17_thread_on_work.bin",
+    "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/sample_in_ball_tail_17_thread_on_work.bin",
+    "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/sample_in_ball_tail_17_warp_on_work.bin",
+    "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/sample_in_ball_tail_17_warp_on_work.bin",
+    "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/sample_in_ball_tail_17_split32_on_work.bin",
+    "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/sample_in_ball_tail_17_split32_on_work.bin",
+    "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/sample_in_ball_tail_17_split32_on_warp_work.bin",
+    "sha256": "61f1f22bb36b2558657eb87290ae670c13fadbbe1b0c9e5e6d7029c2b5febef7"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/sample_in_ball_tail_17_split32_on_warp_work.bin",
+    "sha256": "61f1f22bb36b2558657eb87290ae670c13fadbbe1b0c9e5e6d7029c2b5febef7"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/sample_in_ball_tail_17_thread_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/sample_in_ball_tail_17_thread_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/sample_in_ball_tail_17_warp_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/sample_in_ball_tail_17_warp_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/sample_in_ball_tail_17_split32_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/sample_in_ball_tail_17_split32_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p65_b256/sample_in_ball_tail_17_split32_off_warp_work.bin",
+    "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/sample_in_ball_tail_17_split32_off_warp_work.bin",
+    "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p65/cases.tsv",
+    "sha256": "47a1e88777810fa84ac08adba27d20f1f12a6650bd3d7fbc1090ac0871142941"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/build/shake_sampling_87",
+    "sha256": "e868db3d5601eb71aa3d7fa142fab85470b7432b4636f66ee8fc51f551a3d543"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/build/compile_87_ARGV.json",
+    "sha256": "9aab7258cb93679a9ec4050a2d1a146c88156c1eb31fac5753681f4bd18c42e0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/build/shake_sampling_87",
+    "sha256": "c1bbe798c5314d1f836b7ccfa868c3a834c5cb147546200997134e6e861fc6d5"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/permutation5_tail_17_input.bin",
+    "sha256": "1c27be8f2d752ca8ea03b6eeb586f0f71d5b0c58c87b336f0521ca87e8cb7ea3"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/permutation5_tail_17_input.bin",
+    "sha256": "1c27be8f2d752ca8ea03b6eeb586f0f71d5b0c58c87b336f0521ca87e8cb7ea3"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/permutation5_tail_17_oracle.bin",
+    "sha256": "bf948ea2ccc6d599caf523b02f3ba3404c19b8ad73584a84c9bf740a08644d0b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/permutation5_tail_17_oracle.bin",
+    "sha256": "bf948ea2ccc6d599caf523b02f3ba3404c19b8ad73584a84c9bf740a08644d0b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/permutation5_tail_17_trace_on.bin",
+    "sha256": "1fa77eaedf9ce86bc3ba148594ed2cf9f250ca4e668a8d189a97f15664dc9e34"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/permutation5_tail_17_trace_on.bin",
+    "sha256": "1fa77eaedf9ce86bc3ba148594ed2cf9f250ca4e668a8d189a97f15664dc9e34"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/permutation5_tail_17_trace_off.bin",
+    "sha256": "1fa77eaedf9ce86bc3ba148594ed2cf9f250ca4e668a8d189a97f15664dc9e34"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/permutation5_tail_17_trace_off.bin",
+    "sha256": "1fa77eaedf9ce86bc3ba148594ed2cf9f250ca4e668a8d189a97f15664dc9e34"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/permutation5_tail_17_thread_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/permutation5_tail_17_thread_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/permutation5_tail_17_warp_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/permutation5_tail_17_warp_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/permutation5_tail_17_split32_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/permutation5_tail_17_split32_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/permutation5_tail_17_split32_on_warp_work.bin",
+    "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/permutation5_tail_17_split32_on_warp_work.bin",
+    "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/permutation5_tail_17_thread_off_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/permutation5_tail_17_thread_off_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/permutation5_tail_17_warp_off_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/permutation5_tail_17_warp_off_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/permutation5_tail_17_split32_off_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/permutation5_tail_17_split32_off_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/permutation5_tail_17_split32_off_warp_work.bin",
+    "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/permutation5_tail_17_split32_off_warp_work.bin",
+    "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/shake256_200_512_tail_17_input.bin",
+    "sha256": "d1bbfbab14bb40cea55b55e87ffb8d3b5563ef50e0ac3f25fe2c055711f89494"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/shake256_200_512_tail_17_input.bin",
+    "sha256": "d1bbfbab14bb40cea55b55e87ffb8d3b5563ef50e0ac3f25fe2c055711f89494"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/shake256_200_512_tail_17_oracle.bin",
+    "sha256": "07c9899f4925d9af7ad160453d669a905140e7f42ea28e20598758179c84ac9f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/shake256_200_512_tail_17_oracle.bin",
+    "sha256": "07c9899f4925d9af7ad160453d669a905140e7f42ea28e20598758179c84ac9f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/shake256_200_512_tail_17_trace_on.bin",
+    "sha256": "a27ca944705ca89655e3d81455d91921025873f4c69afccd0a84a7bb3770f64b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/shake256_200_512_tail_17_trace_on.bin",
+    "sha256": "a27ca944705ca89655e3d81455d91921025873f4c69afccd0a84a7bb3770f64b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/shake256_200_512_tail_17_trace_off.bin",
+    "sha256": "b4c32126992fae7fe1cdc0ddb556da8895b58009f7ab97a348c82eb90b2e8ade"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/shake256_200_512_tail_17_trace_off.bin",
+    "sha256": "b4c32126992fae7fe1cdc0ddb556da8895b58009f7ab97a348c82eb90b2e8ade"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/shake256_200_512_tail_17_thread_on_work.bin",
+    "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/shake256_200_512_tail_17_thread_on_work.bin",
+    "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/shake256_200_512_tail_17_warp_on_work.bin",
+    "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/shake256_200_512_tail_17_warp_on_work.bin",
+    "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/shake256_200_512_tail_17_split32_on_work.bin",
+    "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/shake256_200_512_tail_17_split32_on_work.bin",
+    "sha256": "eb8063ea96ed1c8a93158496f80d2846de0d03c5ad8666cd1c5faa66f6de552f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/shake256_200_512_tail_17_split32_on_warp_work.bin",
+    "sha256": "3a63928915486090df25df0396da41304ad727e92c5b39c95f5f69baeccc2447"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/shake256_200_512_tail_17_split32_on_warp_work.bin",
+    "sha256": "3a63928915486090df25df0396da41304ad727e92c5b39c95f5f69baeccc2447"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/shake256_200_512_tail_17_thread_off_work.bin",
+    "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/shake256_200_512_tail_17_thread_off_work.bin",
+    "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/shake256_200_512_tail_17_warp_off_work.bin",
+    "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/shake256_200_512_tail_17_warp_off_work.bin",
+    "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/shake256_200_512_tail_17_split32_off_work.bin",
+    "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/shake256_200_512_tail_17_split32_off_work.bin",
+    "sha256": "ad57e720b4e1b4916dcb30eb69e1682285d9d370ea20d8443f12944e16ab6908"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/shake256_200_512_tail_17_split32_off_warp_work.bin",
+    "sha256": "ba97e0fd8518fd57b885dc2cab4dfbec4e9ff8eefbc4bed2a4f15ca5a11114da"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/shake256_200_512_tail_17_split32_off_warp_work.bin",
+    "sha256": "ba97e0fd8518fd57b885dc2cab4dfbec4e9ff8eefbc4bed2a4f15ca5a11114da"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/uniform_tail_17_input.bin",
+    "sha256": "db1a305122817835154fb1fa8133c0b8fbb83e9ec2e58d8518a5b749f23f86b2"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/uniform_tail_17_input.bin",
+    "sha256": "db1a305122817835154fb1fa8133c0b8fbb83e9ec2e58d8518a5b749f23f86b2"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/uniform_tail_17_oracle.bin",
+    "sha256": "b8ed596302e1f2e97170de553acb6bcd0909264d0f5dfe20c208b1d7b75ed41f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/uniform_tail_17_oracle.bin",
+    "sha256": "b8ed596302e1f2e97170de553acb6bcd0909264d0f5dfe20c208b1d7b75ed41f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/uniform_tail_17_trace_on.bin",
+    "sha256": "35d2e3e560d484a172a361164b08a8d01399b4fdef5b63db2925837d060e2ed8"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/uniform_tail_17_trace_on.bin",
+    "sha256": "35d2e3e560d484a172a361164b08a8d01399b4fdef5b63db2925837d060e2ed8"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/uniform_tail_17_trace_off.bin",
+    "sha256": "2eb281d19853cf8a062a69482ddb9fbbb4ad8baeb8ab85421ea869fbfd091e23"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/uniform_tail_17_trace_off.bin",
+    "sha256": "2eb281d19853cf8a062a69482ddb9fbbb4ad8baeb8ab85421ea869fbfd091e23"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/uniform_tail_17_thread_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/uniform_tail_17_thread_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/uniform_tail_17_warp_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/uniform_tail_17_warp_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/uniform_tail_17_split32_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/uniform_tail_17_split32_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/uniform_tail_17_split32_on_warp_work.bin",
+    "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/uniform_tail_17_split32_on_warp_work.bin",
+    "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/uniform_tail_17_thread_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/uniform_tail_17_thread_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/uniform_tail_17_warp_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/uniform_tail_17_warp_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/uniform_tail_17_split32_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/uniform_tail_17_split32_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/uniform_tail_17_split32_off_warp_work.bin",
+    "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/uniform_tail_17_split32_off_warp_work.bin",
+    "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/eta_tail_17_input.bin",
+    "sha256": "194086bc00cb15e2bf27a977ab66e4d179d3e6c4e32434f63a051a2ea4b9db37"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/eta_tail_17_input.bin",
+    "sha256": "194086bc00cb15e2bf27a977ab66e4d179d3e6c4e32434f63a051a2ea4b9db37"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/eta_tail_17_oracle.bin",
+    "sha256": "4bc29e69727426249cfc008ac354273d72971cd9c14e3d82254ccacadceaebb9"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/eta_tail_17_oracle.bin",
+    "sha256": "4bc29e69727426249cfc008ac354273d72971cd9c14e3d82254ccacadceaebb9"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/eta_tail_17_trace_on.bin",
+    "sha256": "ddb7f99acba9f5e3f41030524389e60b5e67a5722d87e85b0b005a380eb1b900"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/eta_tail_17_trace_on.bin",
+    "sha256": "ddb7f99acba9f5e3f41030524389e60b5e67a5722d87e85b0b005a380eb1b900"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/eta_tail_17_trace_off.bin",
+    "sha256": "4cf86a7f6c8bffa702cbbc12143ce35899658568443ca67236b50741bb313253"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/eta_tail_17_trace_off.bin",
+    "sha256": "4cf86a7f6c8bffa702cbbc12143ce35899658568443ca67236b50741bb313253"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/eta_tail_17_thread_on_work.bin",
+    "sha256": "1cc6ba71deb9c3193b65ba7466183a7c14cd12de2ebf9208eb6cc4b5805242d5"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/eta_tail_17_thread_on_work.bin",
+    "sha256": "1cc6ba71deb9c3193b65ba7466183a7c14cd12de2ebf9208eb6cc4b5805242d5"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/eta_tail_17_warp_on_work.bin",
+    "sha256": "1cc6ba71deb9c3193b65ba7466183a7c14cd12de2ebf9208eb6cc4b5805242d5"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/eta_tail_17_warp_on_work.bin",
+    "sha256": "1cc6ba71deb9c3193b65ba7466183a7c14cd12de2ebf9208eb6cc4b5805242d5"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/eta_tail_17_split32_on_work.bin",
+    "sha256": "279d92a32b4e12c027ef895afaa4769a98744c16b2525da5620c0b3e33bb26de"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/eta_tail_17_split32_on_work.bin",
+    "sha256": "279d92a32b4e12c027ef895afaa4769a98744c16b2525da5620c0b3e33bb26de"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/eta_tail_17_split32_on_warp_work.bin",
+    "sha256": "9993b4d4221a362e803b01c7b3e6f33003f8633bcf08e29efb36ca0a2444901c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/eta_tail_17_split32_on_warp_work.bin",
+    "sha256": "9993b4d4221a362e803b01c7b3e6f33003f8633bcf08e29efb36ca0a2444901c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/eta_tail_17_thread_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/eta_tail_17_thread_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/eta_tail_17_warp_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/eta_tail_17_warp_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/eta_tail_17_split32_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/eta_tail_17_split32_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/eta_tail_17_split32_off_warp_work.bin",
+    "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/eta_tail_17_split32_off_warp_work.bin",
+    "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/eta_tail_65_input.bin",
+    "sha256": "21015cf4b30b8361fc2598a4cdd5a09ae3373111f4723dab1421a5186ecb608a"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/eta_tail_65_input.bin",
+    "sha256": "21015cf4b30b8361fc2598a4cdd5a09ae3373111f4723dab1421a5186ecb608a"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/eta_tail_65_oracle.bin",
+    "sha256": "ec334a7b214c2eb3d978e4b920ccea8aec03d8008b88ddacd1311e3ef688e6e5"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/eta_tail_65_oracle.bin",
+    "sha256": "ec334a7b214c2eb3d978e4b920ccea8aec03d8008b88ddacd1311e3ef688e6e5"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/eta_tail_65_trace_on.bin",
+    "sha256": "845b4b27d02f05bf9c4d52fc29de04454b55cfee486dfbac457594d20b9bd62f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/eta_tail_65_trace_on.bin",
+    "sha256": "845b4b27d02f05bf9c4d52fc29de04454b55cfee486dfbac457594d20b9bd62f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/eta_tail_65_trace_off.bin",
+    "sha256": "9bf1658e62e2125db88d754799db552f922b94425c6ba394c49bdc963341f4d7"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/eta_tail_65_trace_off.bin",
+    "sha256": "9bf1658e62e2125db88d754799db552f922b94425c6ba394c49bdc963341f4d7"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/eta_tail_65_thread_on_work.bin",
+    "sha256": "7a9428c4e7cb42ca539b1dee918c2d1406e7d19c6d78c446dd74bf4cb0afff29"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/eta_tail_65_thread_on_work.bin",
+    "sha256": "7a9428c4e7cb42ca539b1dee918c2d1406e7d19c6d78c446dd74bf4cb0afff29"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/eta_tail_65_warp_on_work.bin",
+    "sha256": "7a9428c4e7cb42ca539b1dee918c2d1406e7d19c6d78c446dd74bf4cb0afff29"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/eta_tail_65_warp_on_work.bin",
+    "sha256": "7a9428c4e7cb42ca539b1dee918c2d1406e7d19c6d78c446dd74bf4cb0afff29"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/eta_tail_65_split32_on_work.bin",
+    "sha256": "cc4764c5efa4ae446dd583b63448f7fe3a9aa241f7a1eb46f30752d19e7df7a9"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/eta_tail_65_split32_on_work.bin",
+    "sha256": "cc4764c5efa4ae446dd583b63448f7fe3a9aa241f7a1eb46f30752d19e7df7a9"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/eta_tail_65_split32_on_warp_work.bin",
+    "sha256": "7e03614469e250515ab0e667991844d339c9aa638a0c4bf98cc9d8bd5b364ed3"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/eta_tail_65_split32_on_warp_work.bin",
+    "sha256": "7e03614469e250515ab0e667991844d339c9aa638a0c4bf98cc9d8bd5b364ed3"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/eta_tail_65_thread_off_work.bin",
+    "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/eta_tail_65_thread_off_work.bin",
+    "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/eta_tail_65_warp_off_work.bin",
+    "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/eta_tail_65_warp_off_work.bin",
+    "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/eta_tail_65_split32_off_work.bin",
+    "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/eta_tail_65_split32_off_work.bin",
+    "sha256": "522f6c4763a602a8c18da2efbd513ca05cf8ff32ea56771c9a088f80bc3da293"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/eta_tail_65_split32_off_warp_work.bin",
+    "sha256": "a869fcec2e9f901fd167ef3ed792890e6604ba3ac238d8e57958a775dfb225f0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/eta_tail_65_split32_off_warp_work.bin",
+    "sha256": "a869fcec2e9f901fd167ef3ed792890e6604ba3ac238d8e57958a775dfb225f0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/expandmask_tail_17_input.bin",
+    "sha256": "0d18d0352894a62280cb7bcdf2713705cee259779922cf7613cde817a59e965e"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/expandmask_tail_17_input.bin",
+    "sha256": "0d18d0352894a62280cb7bcdf2713705cee259779922cf7613cde817a59e965e"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/expandmask_tail_17_oracle.bin",
+    "sha256": "61f2c3558667a80cfce2a93a5711eb91f2ba2e1122d28c55538f4a2c19cac196"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/expandmask_tail_17_oracle.bin",
+    "sha256": "61f2c3558667a80cfce2a93a5711eb91f2ba2e1122d28c55538f4a2c19cac196"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/expandmask_tail_17_trace_on.bin",
+    "sha256": "e454a9298fbce0a2d3669e427b987a4137357560281062045ba0a8ddd5498f73"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/expandmask_tail_17_trace_on.bin",
+    "sha256": "e454a9298fbce0a2d3669e427b987a4137357560281062045ba0a8ddd5498f73"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/expandmask_tail_17_trace_off.bin",
+    "sha256": "8d074483ca209d54f94ea783c80b01a86e6aece591cedb3368393381ce399700"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/expandmask_tail_17_trace_off.bin",
+    "sha256": "8d074483ca209d54f94ea783c80b01a86e6aece591cedb3368393381ce399700"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/expandmask_tail_17_thread_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/expandmask_tail_17_thread_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/expandmask_tail_17_warp_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/expandmask_tail_17_warp_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/expandmask_tail_17_split32_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/expandmask_tail_17_split32_on_work.bin",
+    "sha256": "52b431a4e911acce17e497d47ffedb0e8355c7889f3409430da449b725072397"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/expandmask_tail_17_split32_on_warp_work.bin",
+    "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/expandmask_tail_17_split32_on_warp_work.bin",
+    "sha256": "c5ee6df3425240cc1b8f6eae2b339b98a977ec27251355d80c15eca155fbdc8c"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/expandmask_tail_17_thread_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/expandmask_tail_17_thread_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/expandmask_tail_17_warp_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/expandmask_tail_17_warp_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/expandmask_tail_17_split32_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/expandmask_tail_17_split32_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/expandmask_tail_17_split32_off_warp_work.bin",
+    "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/expandmask_tail_17_split32_off_warp_work.bin",
+    "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/sample_in_ball_tail_17_input.bin",
+    "sha256": "7bb4eb9dd4e2a4bd72b74c08da2acff5a51dbdaf1a49ac02fa621de79f846b41"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/sample_in_ball_tail_17_input.bin",
+    "sha256": "7bb4eb9dd4e2a4bd72b74c08da2acff5a51dbdaf1a49ac02fa621de79f846b41"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/sample_in_ball_tail_17_oracle.bin",
+    "sha256": "e41cdc0e1f4f61d81344d93e44d1b72fbabaf1886c71949a10a116c2d4f128ea"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/sample_in_ball_tail_17_oracle.bin",
+    "sha256": "e41cdc0e1f4f61d81344d93e44d1b72fbabaf1886c71949a10a116c2d4f128ea"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/sample_in_ball_tail_17_trace_on.bin",
+    "sha256": "9c0d5ffc441fc8c11fc0f5fee933e89badf0bd271182940a5956efacf0457070"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/sample_in_ball_tail_17_trace_on.bin",
+    "sha256": "9c0d5ffc441fc8c11fc0f5fee933e89badf0bd271182940a5956efacf0457070"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/sample_in_ball_tail_17_trace_off.bin",
+    "sha256": "3ead62a99daa0d8f197b030b2823221c57fcd86206b7ce5d169c0209042e1352"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/sample_in_ball_tail_17_trace_off.bin",
+    "sha256": "3ead62a99daa0d8f197b030b2823221c57fcd86206b7ce5d169c0209042e1352"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/sample_in_ball_tail_17_thread_on_work.bin",
+    "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/sample_in_ball_tail_17_thread_on_work.bin",
+    "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/sample_in_ball_tail_17_warp_on_work.bin",
+    "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/sample_in_ball_tail_17_warp_on_work.bin",
+    "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/sample_in_ball_tail_17_split32_on_work.bin",
+    "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/sample_in_ball_tail_17_split32_on_work.bin",
+    "sha256": "ed11ad4f7a2296d8a08a6a3fa8299c4de90ab30d317646f5a21ed52c07612262"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/sample_in_ball_tail_17_split32_on_warp_work.bin",
+    "sha256": "61f1f22bb36b2558657eb87290ae670c13fadbbe1b0c9e5e6d7029c2b5febef7"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/sample_in_ball_tail_17_split32_on_warp_work.bin",
+    "sha256": "61f1f22bb36b2558657eb87290ae670c13fadbbe1b0c9e5e6d7029c2b5febef7"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/sample_in_ball_tail_17_thread_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/sample_in_ball_tail_17_thread_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/sample_in_ball_tail_17_warp_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/sample_in_ball_tail_17_warp_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/sample_in_ball_tail_17_split32_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/sample_in_ball_tail_17_split32_off_work.bin",
+    "sha256": "e3c37af0be384d6285898d9508e4352bdb35108b39e505af9163717cac40a05b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/corpora/p87_b256/sample_in_ball_tail_17_split32_off_warp_work.bin",
+    "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/sample_in_ball_tail_17_split32_off_warp_work.bin",
+    "sha256": "b1ef421084d115e5bb727a1ecf54581a4d73b59e6b0b67fb0adb2ba6c86515e0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/inputs/p87/cases.tsv",
+    "sha256": "f19eba42af3453c766ba34227e6ddfce418c313fcde9af896ba316bcf30d6c29"
+  }
+]

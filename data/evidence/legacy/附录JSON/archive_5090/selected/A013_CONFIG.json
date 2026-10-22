@@ -1,0 +1,315 @@
+{
+  "automatic_deletion": false,
+  "automatic_retry": false,
+  "base_environment": {
+    "CUDACXX": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/bin/nvcc",
+    "CUDA_DEVICE_ORDER": "PCI_BUS_ID",
+    "CUDA_HOME": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1",
+    "CUDA_PATH": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1",
+    "CUDA_VISIBLE_DEVICES": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+    "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1004/bus",
+    "HOME": "/home/lsb",
+    "LANG": "en_US.UTF-8",
+    "LC_ALL": "C",
+    "LD_LIBRARY_PATH": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/lib64:/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/lib:/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/nvvm/lib64",
+    "LOGNAME": "lsb",
+    "PATH": "/home/lsb/mldsa-experiments-5090/tools/python312/bin:/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/bin:/home/lsb/mldsa-experiments-5090/tools/python312/bin:/usr/bin:/bin",
+    "PWD": "/home/lsb",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONNOUSERSITE": "1",
+    "SHELL": "/bin/bash",
+    "SHLVL": "0",
+    "SSH_CLIENT": "222.195.81.49 49283 22",
+    "SSH_CONNECTION": "222.195.81.49 49283 114.214.216.100 22",
+    "TZ": "UTC",
+    "USER": "lsb",
+    "XDG_RUNTIME_DIR": "/run/user/1004",
+    "XDG_SESSION_CLASS": "user",
+    "XDG_SESSION_ID": "123",
+    "XDG_SESSION_TYPE": "tty",
+    "_": "/usr/bin/python3.12"
+  },
+  "created_utc": "2026-10-20T06:03:09.054610+00:00",
+  "cupqc_block_dim": 128,
+  "existing_sealed_run_write_policy": "READ_ONLY",
+  "native_helper_sha256": "249a5aca5b710ad0f925a42b8a0561878b26fab22b63fe5a84ef587589bb0c57",
+  "no_server_archive": true,
+  "output_scope": "After the last timed invocation only; intermediate timed outputs are not individually copied or checked",
+  "physical": {
+    "disk": {
+      "device": 64512,
+      "mount": {
+        "fs_type": "ext4",
+        "major_minor": "252:0",
+        "mount_id": "31",
+        "mountpoint": "/",
+        "options": [
+          "rw",
+          "relatime"
+        ],
+        "source": "/dev/mapper/ubuntu--vg-ubuntu--lv",
+        "super_options": [
+          "rw",
+          "stripe=64"
+        ]
+      },
+      "owner_uid": 1004,
+      "root": "/home/lsb/mldsa-experiments-5090/03_performance/e03-persistent9-20261020t060300z-7acbe276"
+    }
+  },
+  "plan": {
+    "export": "uncompressed per-condition stdout tar stream; zero server archive files; all remote data retained",
+    "file_limit_bytes": 134217728,
+    "host_memavailable_floor_bytes": 12884901888,
+    "initial_required_bytes": {
+      "disk": 8626405376
+    },
+    "levels": {
+      "44": {
+        "capture_bytes": 1250033664,
+        "corpus_bytes": 104169472,
+        "total_bytes": 1354203136
+      },
+      "65": {
+        "capture_bytes": 1840054272,
+        "corpus_bytes": 153337856,
+        "total_bytes": 1993392128
+      },
+      "87": {
+        "capture_bytes": 2394882048,
+        "corpus_bytes": 199573504,
+        "total_bytes": 2594455552
+      }
+    },
+    "matrix": {
+      "batches": [
+        8192
+      ],
+      "conditions": 9,
+      "cpu_processes": 3,
+      "gpu_processes": 108,
+      "message_bytes": 32,
+      "operations": [
+        "keygen",
+        "sign",
+        "verify"
+      ],
+      "paired_blocks_per_cell": 6,
+      "parameters": [
+        44,
+        65,
+        87
+      ],
+      "raw_timing_samples": 1620,
+      "repeat": 15,
+      "seed": "0x4d4c445341435550",
+      "total_native_processes": 111,
+      "warmup": 5
+    },
+    "metadata_budget_bytes": {
+      "disk": 536870912
+    },
+    "metadata_launch_headroom_bytes": 276824064,
+    "payload_bytes": {
+      "disk": 5942050816
+    },
+    "reserve_bytes_per_volume": 2147483648,
+    "schema": "mldsa.e03.persistent-b8192.native.sm120.v1",
+    "scope": "Explicit user-selected parameters44/65/87 x keygen/sign/verify x B8192; other batches deferred",
+    "storage": "All raw vectors and metadata on one persistent disk root; no tmpfs/session lifetime dependency"
+  },
+  "programs": [
+    {
+      "bytes": 46875,
+      "path": "/home/lsb/mldsa-experiments-5090/incoming/e03-persistent9-7acbe276/run_e03_persistent9.draft.py",
+      "sha256": "7acbe276add5550e1e662b132179eeec59a3e33ce26f36e45b719cb491e84e4a"
+    },
+    {
+      "bytes": 7098,
+      "path": "/home/lsb/mldsa-experiments-5090/incoming/e03-persistent9-7acbe276/e03_stage_inputs.py",
+      "sha256": "469fa656ffccefa8f9fb7ff41b8cb36087c42b1e8a9490648a57639c9f8dd409"
+    },
+    {
+      "bytes": 5876,
+      "path": "/home/lsb/mldsa-experiments-5090/incoming/e03-persistent9-7acbe276/e03_native_process.py",
+      "sha256": "249a5aca5b710ad0f925a42b8a0561878b26fab22b63fe5a84ef587589bb0c57"
+    },
+    {
+      "bytes": 770,
+      "path": "/home/lsb/mldsa-experiments-5090/incoming/e03-persistent9-7acbe276/e03_bounded_exec.py",
+      "sha256": "192a8dc95a616785bb1306259d95b1f64606e38614ed3386d935a0cbba0a8d47"
+    }
+  ],
+  "roots": {
+    "disk": "/home/lsb/mldsa-experiments-5090/03_performance/e03-persistent9-20261020t060300z-7acbe276"
+  },
+  "runner_sha256": "7acbe276add5550e1e662b132179eeec59a3e33ce26f36e45b719cb491e84e4a",
+  "schema": "mldsa.e03.persistent-b8192.native.sm120.v1",
+  "sealed_binding": {
+    "bench": {
+      "bytes": 456072,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/integration/loce_unified_api_bench",
+      "sha256": "9b89f91a9f19c7c8618ec5d902f1d745b315549578ae2431caf9e159c60392e7"
+    },
+    "build_result": {
+      "bytes": 65437,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/BUILD_RESULT.json",
+      "sha256": "7329643d44832077ed4971bb6bd6e0c24573a576148657fc77f1c399e73b1ac5"
+    },
+    "controller": {
+      "bytes": 80034,
+      "path": "/home/lsb/mldsa-experiments-5090/incoming/e03-v3-cta-nvtx-de4cfa40/run_5090_performance.py",
+      "sha256": "de4cfa40fc989a66e84868d64b7c9c2f8d92b3867be189b0d8255cbce4705bfb"
+    },
+    "gpu_uuid": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+    "modules": [
+      {
+        "bytes": 12612544,
+        "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/modules/libloce_mldsa44_keygen_d3_sm120.so",
+        "sha256": "9d1c70855918b4e60971d0ad323ba9c0f69eb3c8b8f031969cfd50a7aae12b6c"
+      },
+      {
+        "bytes": 10175848,
+        "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/modules/libloce_mldsa44_sign_d4_sm120.so",
+        "sha256": "3ee94b433ca4559ae48b6ada4edbe0e815790060b6c98ed8971491fd1f2dbccd"
+      },
+      {
+        "bytes": 12607696,
+        "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/modules/libloce_mldsa44_verify_d3_sm120.so",
+        "sha256": "bec5de56faf58a7ff3c49d83e6b2487812467240173501c1c55d6a31b26a3081"
+      },
+      {
+        "bytes": 7678432,
+        "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/modules/libloce_mldsa65_keygen_d3_sm120.so",
+        "sha256": "14b46e2e2838749469751e6523dabe767a7e58397bcf7a115729f252096170b5"
+      },
+      {
+        "bytes": 6159184,
+        "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/modules/libloce_mldsa65_sign_d4_sm120.so",
+        "sha256": "f5d3bf08f12fd5dfe26292b62c2c3e7305a3e0d4072636289e10655127728afe"
+      },
+      {
+        "bytes": 6558384,
+        "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/modules/libloce_mldsa65_verify_d3_sm120.so",
+        "sha256": "91cca5ea903e557706750cc1ed7b12ddcae3df4c4112c9c0cfedbd6fe7bae8c5"
+      },
+      {
+        "bytes": 13911720,
+        "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/modules/libloce_mldsa87_keygen_d3_sm120.so",
+        "sha256": "a78db7af8b4f123824e5c81d3148413d917e9b32eccc230d83ab6e1a46858a10"
+      },
+      {
+        "bytes": 10676112,
+        "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/modules/libloce_mldsa87_sign_d4_sm120.so",
+        "sha256": "50350e971a8b0fbb52d7a200a91bac34aa31fa80cc09bf344e39d73090961dd6"
+      },
+      {
+        "bytes": 11755296,
+        "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/modules/libloce_mldsa87_verify_d3_sm120.so",
+        "sha256": "bec7214021a142e81619bb2e771ba764c81f7b9f3a31dba43452f94cf59f56cd"
+      }
+    ],
+    "native_config": {
+      "bytes": 8403,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/NATIVE_CONFIG.json",
+      "sha256": "1939161300278b2ad15b26c790c8777d805ade8bfbc63beaf3cb11e624d8408c"
+    },
+    "prerequisite_gate": {
+      "bytes": 499860,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/CORRECTNESS_GATE.json",
+      "sha256": "273e81f882a815c51f23ffd5aba8b441c8f695d8b2380b0a29bee2ccb8643ae8"
+    },
+    "qualification_processes": 18,
+    "qualification_result": {
+      "bytes": 9396,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/QUALIFICATION_RESULT.json",
+      "sha256": "fffa33d47cc8978329bee7267544bc15dd0eeb759eae5c2f09a44e2543b2b25c"
+    },
+    "reference_generator": {
+      "bytes": 160584,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/binaries/reference_generator",
+      "sha256": "99fd47a45548075dabdc449dfc4537f2244fbc824a73f6eb5db6e0f0704e8138"
+    },
+    "run": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z",
+    "scope": "Read-only exact bytes/identity/qualification prerequisite; no E03 algorithm process launched or repaired",
+    "sealed_binary_sanitizer": "NOT_RUN",
+    "source_copy": {
+      "bytes": 311539,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/SOURCE_COPY.json",
+      "sha256": "f0bc6b85163c2d82587722fdc5a03ea434ebcc99ef6f6fd566bc02dfdfe00e0a"
+    },
+    "status": "E05_EXACT_E03_BUILD_AND_18_QUALIFICATION_RECORDS_VERIFIED"
+  },
+  "sealed_executables": [
+    {
+      "bytes": 456072,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/integration/loce_unified_api_bench",
+      "sha256": "9b89f91a9f19c7c8618ec5d902f1d745b315549578ae2431caf9e159c60392e7"
+    },
+    {
+      "bytes": 160584,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/binaries/reference_generator",
+      "sha256": "99fd47a45548075dabdc449dfc4537f2244fbc824a73f6eb5db6e0f0704e8138"
+    },
+    {
+      "bytes": 3737624,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/binaries/cupqc_mldsa44_keygen",
+      "sha256": "19d04ab5db66552feaaa8066332df7400ab55122471e6125b18f9ef4be779208"
+    },
+    {
+      "bytes": 3737728,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/binaries/cupqc_mldsa44_sign",
+      "sha256": "501652b6c66442092305737136c8e73c43a82ea058109c7de7d4f01f4f1f9945"
+    },
+    {
+      "bytes": 3741888,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/binaries/cupqc_mldsa44_verify",
+      "sha256": "0d6d227588c8bd87b7f3e2b176c00d98e620d7e05d39789bac085e48b5449e14"
+    },
+    {
+      "bytes": 3725336,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/binaries/cupqc_mldsa65_keygen",
+      "sha256": "5facbe707ffc1327b048ebec2085d8c3c827870da84b56fd422261c3f51b7d16"
+    },
+    {
+      "bytes": 3725440,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/binaries/cupqc_mldsa65_sign",
+      "sha256": "abc4b246105a569c458f58eeda107f128ebf4003dd870fd5ef916f1da28973c6"
+    },
+    {
+      "bytes": 3729600,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/binaries/cupqc_mldsa65_verify",
+      "sha256": "2ac554348301ae1ee14e02b3e8c02de387c0c81079ed109e5e00df6fa28cee18"
+    },
+    {
+      "bytes": 3831832,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/binaries/cupqc_mldsa87_keygen",
+      "sha256": "ae20036a40614387b24c05c396100721cc8c9ba91cfab3a64e781d4aed7c7518"
+    },
+    {
+      "bytes": 3831936,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/binaries/cupqc_mldsa87_sign",
+      "sha256": "1aab73e7b163b41831783258f2da6143236446130034ce5c70e3797d72152c14"
+    },
+    {
+      "bytes": 3836096,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/binaries/cupqc_mldsa87_verify",
+      "sha256": "cff4100da3e8189febd1e376b98b76f7e75078112d88b2f5bb072b8e7b38db2a"
+    }
+  ],
+  "sealed_jobs": 2,
+  "sealed_metadata": [
+    {
+      "bytes": 65437,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-persistent9-20261020t060300z-7acbe276/sealed_metadata/BUILD_RESULT.json",
+      "sha256": "7329643d44832077ed4971bb6bd6e0c24573a576148657fc77f1c399e73b1ac5"
+    },
+    {
+      "bytes": 9396,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-persistent9-20261020t060300z-7acbe276/sealed_metadata/QUALIFICATION_RESULT.json",
+      "sha256": "fffa33d47cc8978329bee7267544bc15dd0eeb759eae5c2f09a44e2543b2b25c"
+    }
+  ],
+  "storage_effect": "Physical file placement affects host IO/walltime and preconditioning; all original GPU event intervals/args/binaries retained",
+  "storage_lifetime_contract": "All selected raw data remain on persistent disk; no SSH session/volatile tmpfs dependency"
+}

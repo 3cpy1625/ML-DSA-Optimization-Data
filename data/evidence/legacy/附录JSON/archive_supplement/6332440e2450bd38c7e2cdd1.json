@@ -1,0 +1,14 @@
+{
+  "arm": "ON",
+  "batch": 256,
+  "block": -1,
+  "pattern": "invalid",
+  "job": "b256_block-1_invalid_ON",
+  "accepted_rows": 0,
+  "samples_ms": [
+    0.090719998
+  ],
+  "mean_ms": 0.090719998,
+  "input_sha256": "39548bea64005ee58442804fef5e3a404b752e1c9dc5bcda5b7bb9032a102f86",
+  "output_sha256": "033580288d86db978463f044e6d72f3178053adaa92ea0d170f17daef0612376"
+}

@@ -1,0 +1,1096 @@
+{
+  "artifacts": [
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/binaries/cupqc_mldsa44_keygen",
+      "sha256": "19d04ab5db66552feaaa8066332df7400ab55122471e6125b18f9ef4be779208"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/binaries/cupqc_mldsa44_sign",
+      "sha256": "501652b6c66442092305737136c8e73c43a82ea058109c7de7d4f01f4f1f9945"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/binaries/cupqc_mldsa44_verify",
+      "sha256": "0d6d227588c8bd87b7f3e2b176c00d98e620d7e05d39789bac085e48b5449e14"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/binaries/cupqc_mldsa65_keygen",
+      "sha256": "5facbe707ffc1327b048ebec2085d8c3c827870da84b56fd422261c3f51b7d16"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/binaries/cupqc_mldsa65_sign",
+      "sha256": "abc4b246105a569c458f58eeda107f128ebf4003dd870fd5ef916f1da28973c6"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/binaries/cupqc_mldsa65_verify",
+      "sha256": "2ac554348301ae1ee14e02b3e8c02de387c0c81079ed109e5e00df6fa28cee18"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/binaries/cupqc_mldsa87_keygen",
+      "sha256": "ae20036a40614387b24c05c396100721cc8c9ba91cfab3a64e781d4aed7c7518"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/binaries/cupqc_mldsa87_sign",
+      "sha256": "1aab73e7b163b41831783258f2da6143236446130034ce5c70e3797d72152c14"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/binaries/cupqc_mldsa87_verify",
+      "sha256": "cff4100da3e8189febd1e376b98b76f7e75078112d88b2f5bb072b8e7b38db2a"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/binaries/reference_generator",
+      "sha256": "99fd47a45548075dabdc449dfc4537f2244fbc824a73f6eb5db6e0f0704e8138"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/integration/CMakeCache.txt",
+      "sha256": "47dc4aa396088903d66c4318f584cecd19eb67da064cc29c851aa2b0dcf40696"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/integration/compile_commands.json",
+      "sha256": "11debefa05b74a4e69b1d94392acc2d921bf5312f8f504dfd372832adeff632d"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/integration/loce_unified_api_bench",
+      "sha256": "9b89f91a9f19c7c8618ec5d902f1d745b315549578ae2431caf9e159c60392e7"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa44_keygen/CMakeCache.txt",
+      "sha256": "7ba0d21e55d410279862ede59bc543eaa86c25c505232eaf899a389611948c33"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa44_keygen/compile_commands.json",
+      "sha256": "9b550b8e36138703da48ad5cb2d21b7355b576f14aab7472b54049b6d115021e"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa44_sign/CMakeCache.txt",
+      "sha256": "e001f2819a483eb3ea0aef24d3ddd61c72c9fc7b37d0f7579d5130829c21d7be"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa44_sign/compile_commands.json",
+      "sha256": "b9dcd5377df7f59156381aab0a1a00ec7b923a10c862130ac7e5a1335d2e56ce"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa44_verify/CMakeCache.txt",
+      "sha256": "738fc9bfbed0d07d1f0e04b7169162bceeff1104321d8372e246dea0560f78c7"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa44_verify/compile_commands.json",
+      "sha256": "9667ad73fe62f6c60d9cd623e2cac74494ec815a2dd23bf382d51264d73c919f"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa65_keygen/CMakeCache.txt",
+      "sha256": "01a85fa182ee2771a6ee545d9046a093dcedcf77411d6fcbf58c807c2526e11d"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa65_keygen/compile_commands.json",
+      "sha256": "6e0f21df80d8b626ea7c2c9778cd4c7ec9cd0040412e31d709f93cbb2115e0ef"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa65_sign/CMakeCache.txt",
+      "sha256": "3c29fbb2cc9eeab66d2f98a8fa656f1e35ee036bb626056da328d5f69891fbe6"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa65_sign/compile_commands.json",
+      "sha256": "71588c6a4011ff7b4035c6c7bf49704358fa409b6e088464bedb0288f86338f8"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa65_sign/native/mldsa_sign/generated/mldsa_policy_effective_definitions.txt",
+      "sha256": "068e981a2bd8112d576ab78c16c1d90c5111c25f119088e096fbc07ffef6587f"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa65_sign/native/mldsa_sign/generated/mldsa_policy_provenance.h",
+      "sha256": "266846aeaaa6a4f825be3e5d06b4911eeb3556550d80301bde521520c979b8ca"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa65_sign/native/mldsa_sign/generated/mldsa_policy_provenance.json",
+      "sha256": "e533154af857da33336a630faf09f669357141e257828214bc88143ec4ba41a0"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa65_sign/native/mldsa_sign/generated/mldsa_policy_sources.txt",
+      "sha256": "1336b3049632e322472404579cfdf91d124f5a695dc87a1d6289fc4e3c197bd8"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa65_verify/CMakeCache.txt",
+      "sha256": "ae24fcbc79930f92f866865ec6d017c0113f24d19a57d6c0bb9399f1b1eff68e"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa65_verify/compile_commands.json",
+      "sha256": "aa47291f333f5dc27c6ad6696e5e85b005c1a91478a0c39b7ea839d20d6f3a62"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa87_keygen/CMakeCache.txt",
+      "sha256": "b2322df2fb93a3f3f5353b5020778c76dba327eb0caf6f924fff8cf282844659"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa87_keygen/compile_commands.json",
+      "sha256": "56406a333ca0c988a87c36720b9718c499936c85083255b840e030e8268898b2"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa87_sign/CMakeCache.txt",
+      "sha256": "e67a392cb88df4782e0075d6799d21dc2f9e6f89f6239cc8a6b172a0bf3117e1"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa87_sign/compile_commands.json",
+      "sha256": "fec98a187a6259ad7861eda37729a552a5ffd3b5e76a9f0d111c2b72519620dc"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa87_verify/CMakeCache.txt",
+      "sha256": "1a23f0355afb4766bbacc15cc8402bf56776656f72d43f9a7ca130a21814a210"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa87_verify/compile_commands.json",
+      "sha256": "ab545562f5408fc9d1f3d08630edba34927a12bd58a2dcf0a64fb5d2dc63c81f"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/CORRECTNESS_GATE.json",
+      "sha256": "273e81f882a815c51f23ffd5aba8b441c8f695d8b2380b0a29bee2ccb8643ae8"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/NATIVE_CONFIG.json",
+      "sha256": "1939161300278b2ad15b26c790c8777d805ade8bfbc63beaf3cb11e624d8408c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/SOURCE_COPY.json",
+      "sha256": "f0bc6b85163c2d82587722fdc5a03ea434ebcc99ef6f6fd566bc02dfdfe00e0a"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/cell_results/cupqc_mldsa44_keygen.json",
+      "sha256": "722ea7ecf4cd8c637ecfb409618515cd3df5faa8022d485e3a0f29afbf101d75"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/cell_results/cupqc_mldsa44_sign.json",
+      "sha256": "685544670c92dd3c8c9f407983e9f29938c5ade36a8d32ea8a04e516a9223756"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/cell_results/cupqc_mldsa44_verify.json",
+      "sha256": "1ee231b22c01c62b7bdd77644e89d4df673a8d5523a2ef884e32cb8f8bcee80f"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/cell_results/cupqc_mldsa65_keygen.json",
+      "sha256": "986bdb2bb0cec3c29891712234d908c198975a81f015c6347b4e2e674d3324d8"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/cell_results/cupqc_mldsa65_sign.json",
+      "sha256": "14662182b971e75787edef678a6ebe572916bc273ccc40f515ac2a31abead5fb"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/cell_results/cupqc_mldsa65_verify.json",
+      "sha256": "2eb55133e21f629af319015024d12c2404596d7f91418568897de7c6ad553604"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/cell_results/cupqc_mldsa87_keygen.json",
+      "sha256": "da79f15548336cf81eaddcc3d600d6864b7680475783b3965f90f4b8541280f5"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/cell_results/cupqc_mldsa87_sign.json",
+      "sha256": "684c49ff122019587444fdb1b27db612112991511f8e8998e08ef44f28e4d192"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/cell_results/cupqc_mldsa87_verify.json",
+      "sha256": "c4b1285905dd7469298970c2fe71b580e5556e0b3c43e9a84f864d665b683331"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/cell_results/loce_mldsa44_keygen_d3_sm120_adapter.json",
+      "sha256": "85afa223429ec5128f1c8e4beeca45807e76aa079791590fdfc25cb731da5202"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/cell_results/loce_mldsa44_sign_d4_sm120_adapter.json",
+      "sha256": "44c345a1fa84dd9f570a1e33ca72e8342788618e9aebc1c015f9e04aa3472869"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/cell_results/loce_mldsa44_verify_d3_sm120_adapter.json",
+      "sha256": "77013936dd3955e9e0ff9c7572eac5dd962f80b430337de7695b56e43771ce8c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/cell_results/loce_mldsa65_keygen_d3_sm120_adapter.json",
+      "sha256": "2ef1c13ea306998b406ce04a567d61b0559c24e8efebb289138a2e6e67e2f8ba"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/cell_results/loce_mldsa65_sign_d4_sm120_adapter.json",
+      "sha256": "31c942d637c7d6c0c94e2307381d28e113dbd66739474ae84719845fe20959c2"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/cell_results/loce_mldsa65_verify_d3_sm120_adapter.json",
+      "sha256": "65cd9900fa4e3c6095802f5b710e3e2f6690c505071d8df408f658f27746ff07"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/cell_results/loce_mldsa87_keygen_d3_sm120_adapter.json",
+      "sha256": "d3b8eb73cbb1dae333e38ddab1db84d8f0d7ba5d5288566dd937e30be2f8cf62"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/cell_results/loce_mldsa87_sign_d4_sm120_adapter.json",
+      "sha256": "a96a3222c78427d716dc1ba59ad0cb4f55bff466a948710a3a630ace7da7e179"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/cell_results/loce_mldsa87_verify_d3_sm120_adapter.json",
+      "sha256": "bfad4a2b8bb0d94ad3810379f054227aeb4852fbe1552f2ede4a25b2203892d1"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/cupqc_full_device_bench_with_dumps.cu",
+      "sha256": "b1bc5acc2108efcfb85f6c336c724c991c35622ef46e02e79edc1673b2ec2a47"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/engine_algorithm_subset.patch",
+      "sha256": "385d3ae85c0d495e3126a4b9f57d6766dae13337d11e9a5e08d0c78b32fb6661"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa44_keygen_d3_sm120_adapter.provenance.json",
+      "sha256": "33aca0cf205880c4d28493cdbfbc80ed89287b0ee946854ee2c431049d724479"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa44_sign_d4_sm120_adapter.provenance.json",
+      "sha256": "a3bd27bd32b1a7ac670fed78735ad0cdc9d29ea4ddfe3e586e7759c23dbc2a1b"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa44_verify_d3_sm120_adapter.provenance.json",
+      "sha256": "65f87cc9f433b3dca2cf6bfbb665322919d3e69f3f974aeadc9680e70e3d920e"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa65_keygen_d3_sm120_adapter.provenance.json",
+      "sha256": "c26939195ecd9cac9d24c919f86a4d51b2d22339b58d2883a3a84b1eb8be482a"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa65_sign_d4_sm120_adapter.provenance.json",
+      "sha256": "fd7be0d339597234425bf96aa3b0d8be3d6e88f433159cf324583737521b75b9"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa65_verify_d3_sm120_adapter.provenance.json",
+      "sha256": "97ef2822646c8348b7c2d8b3c899c7043f1088025134963e5ae0003f58fa67df"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa87_keygen_d3_sm120_adapter.provenance.json",
+      "sha256": "157efb0f5745c871cc04ac8979d168f8ecc9820b427079abe28b664e89ab6c0e"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa87_sign_d4_sm120_adapter.provenance.json",
+      "sha256": "1e26f17e7f4db22e42a31923ba4e59a9fd21ac545e7507c104555967dbb99ade"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa87_verify_d3_sm120_adapter.provenance.json",
+      "sha256": "f87768e7613f7bf7635556a59e91baf58fd8a06c6dc47321e53db0cc7c2a444d"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/mldsa_registry.json",
+      "sha256": "cd64d6312180440572ba5383a184bddd890e2a5f5c0c20a1ae7b91bd0b55f528"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/module_attestation.json",
+      "sha256": "6c588c4f201e58404c60ca72d34cd26b41dbd3ceca5b4069afea4e8ceaa61e11"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/cupqc_mldsa44_keygen.build.log.command.json",
+      "sha256": "82c9dd2843e08a7f8666a6e28dc77d7605030f86f6e1e207d1ce54265fbe468e"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/cupqc_mldsa44_sign.build.log.command.json",
+      "sha256": "ac59759cec3ef88b555d1e2cc9de13aa7e5a904aeb039bf63e59ef3899c14640"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/cupqc_mldsa44_verify.build.log.command.json",
+      "sha256": "dbf3326072050f76950b31ab3947e77fb51809fc38760260f66313c6701cb26d"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/cupqc_mldsa65_keygen.build.log.command.json",
+      "sha256": "f6796445e4cbbdebdf12d148011b43f55341617712c827039bbc715c32f81511"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/cupqc_mldsa65_sign.build.log.command.json",
+      "sha256": "bd65df480dc2c3de125b780ce1cdf38be43394aff9d4a7b687d709182325651c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/cupqc_mldsa65_verify.build.log.command.json",
+      "sha256": "f862cb923de471d6547b7762c7deaafceaaec3f163003199f55998cee5796a67"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/cupqc_mldsa87_keygen.build.log.command.json",
+      "sha256": "4872c8613235948b4f5c8403ccb59c5b691f11c2c8d097bfacb35a2dde1ada18"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/cupqc_mldsa87_sign.build.log.command.json",
+      "sha256": "e50ccd2adb92155079eacdadb98993bdb62c36ea7d6c79c9855e95c98efb0f65"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/cupqc_mldsa87_verify.build.log.command.json",
+      "sha256": "7341cd4da4b8b78f854aadfd27ae49b34a541bccc6c1c02e9bb30f56383d60e2"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/integration.build.log.command.json",
+      "sha256": "693ec6fb05d7511e4629f6d69d02be8ad89480781be7e7df5f84ac327dafc2ac"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/integration.configure.log.command.json",
+      "sha256": "38483b6b8b1763cb1005bf709e42ba75f2c2ef7983605867b968d4d0b51ed480"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa44_keygen_d3_sm120_adapter.build.log.command.json",
+      "sha256": "8de6eb1c276a415deca3546bef6ea2bc5cbfd37573381e447a39f92ee26f50e9"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa44_keygen_d3_sm120_adapter.configure.log.command.json",
+      "sha256": "d71dbe3d8628e03632fe28c9332cc78781f99114dd399f27c27c31b5c6d78eaa"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa44_keygen_d3_sm120_adapter.elf.log.command.json",
+      "sha256": "95804a7ce40789e2fb162daa3b959b860859dcd89b60e579bc607e64d13ba30a"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa44_keygen_d3_sm120_adapter.identity.log.command.json",
+      "sha256": "b81773da1fb0870213a26fddc234a6f1d5f7bb731b58968719097edb97c6a794"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa44_sign_d4_sm120_adapter.build.log.command.json",
+      "sha256": "39541e1e9952e6f2b53e83d52a38457f43e0678614fd5380ed1c33dc41b74ef7"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa44_sign_d4_sm120_adapter.configure.log.command.json",
+      "sha256": "46c72f67375e6290288e1b089fc70bd32191537f73a1a8539d5c5242db1e6678"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa44_sign_d4_sm120_adapter.elf.log.command.json",
+      "sha256": "a59f5d516c51828fc5903836096bacba06df19e78e8057a151c02610bb520f7e"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa44_sign_d4_sm120_adapter.identity.log.command.json",
+      "sha256": "d34c4c1ee795229e86a81a11afa51b66c7c30016b74679b8e1527b8f4c46b72a"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa44_verify_d3_sm120_adapter.build.log.command.json",
+      "sha256": "b83ae790383fdcdbbf81023d6f8a6979bca063b7ac7672234c3dd30c4624bb09"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa44_verify_d3_sm120_adapter.configure.log.command.json",
+      "sha256": "a1b374495e92a5d36b6dd5b5df079076df35e9297047c6d93c46a303da391b81"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa44_verify_d3_sm120_adapter.elf.log.command.json",
+      "sha256": "172ec7e3feb9537fd1a9131407a3ddb6ebf37decc170079e184b344b42629763"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa44_verify_d3_sm120_adapter.identity.log.command.json",
+      "sha256": "fbdcd622817ed679de4f81aabc28aecf8d88f661e5970584e037bebaccff3475"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa65_keygen_d3_sm120_adapter.build.log.command.json",
+      "sha256": "017dba5a1d901d607b7e8f3922f055cb64af2e0fd97ea363e34d7dc9c5502ed2"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa65_keygen_d3_sm120_adapter.configure.log.command.json",
+      "sha256": "280f3de58119eeaecbbeeb55fe0d14cb53b48667c395d22d69a26113edce48b9"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa65_keygen_d3_sm120_adapter.elf.log.command.json",
+      "sha256": "9f0d48fc68d2edc53deda5176b76f84b8954299196daee9b8fa7c666090bcd32"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa65_keygen_d3_sm120_adapter.identity.log.command.json",
+      "sha256": "155d95ed6369e688a44e7a725fa6fd712f8053380217c7f9e121b82e1c56405e"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa65_sign_d4_sm120_adapter.build.log.command.json",
+      "sha256": "82e01ae2aec30ae8756e4bc715623ee5605cb53715debbaec49f9653eb65b4c3"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa65_sign_d4_sm120_adapter.configure.log.command.json",
+      "sha256": "b32911ec74ae9774779322ebce859bf24cc721f93972872a8ff616955699722e"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa65_sign_d4_sm120_adapter.elf.log.command.json",
+      "sha256": "baf0f26e37ec6d4e9d8171142ce6366f0eb07d34cbad38e83c53eab2c13260c0"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa65_sign_d4_sm120_adapter.identity.log.command.json",
+      "sha256": "c7af96b7509e7ef2b08d079a549bc57aee75073d2c30f28116853b3932fd589b"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa65_verify_d3_sm120_adapter.build.log.command.json",
+      "sha256": "c9dab22b0f74e05655b837de193f4fffa93694d09dc7cf7ab68baa3a4264e4d3"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa65_verify_d3_sm120_adapter.configure.log.command.json",
+      "sha256": "6d1d83d463ac753c93a00bf7b0e78e04497d537b6c939d0c8fc7d0d8b53d93dc"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa65_verify_d3_sm120_adapter.elf.log.command.json",
+      "sha256": "9ef07b43e0bf4917a0e1e2ca5ce0b1d0f5528d52430648b0847efaa56fc29d21"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa65_verify_d3_sm120_adapter.identity.log.command.json",
+      "sha256": "71fa9b46a4e30c4d0ed80ed03abe693816a4c6f97e797d113fbd10af3d50f462"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa87_keygen_d3_sm120_adapter.build.log.command.json",
+      "sha256": "26f524756a8982fd035f123b6651440bcf95c22b85eb4801d7322f27e175759d"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa87_keygen_d3_sm120_adapter.configure.log.command.json",
+      "sha256": "4bd98e84916b391d66160b0763c1d4866b9058a045c5a8300126b9a35cd15ad3"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa87_keygen_d3_sm120_adapter.elf.log.command.json",
+      "sha256": "7e4e574f44bd059742280bed2321b48ac559e34a2213641e729a848ea8c11937"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa87_keygen_d3_sm120_adapter.identity.log.command.json",
+      "sha256": "1f660fe03ba81d242e914577f2a7f246d34f2fb89c610a0f54fc1e2a9a621540"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa87_sign_d4_sm120_adapter.build.log.command.json",
+      "sha256": "a6af3a935e810facf41e850169be242f7587af73885941e12f358ac84696cb04"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa87_sign_d4_sm120_adapter.configure.log.command.json",
+      "sha256": "b05f9cc7f85bd35d44c83310cdc7283db0ddaf83c42633905d3fd489375ac19c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa87_sign_d4_sm120_adapter.elf.log.command.json",
+      "sha256": "60187cae9d0d816e24e65c77ff055a451c11307499b1f8dca412bc3c0bfc08f0"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa87_sign_d4_sm120_adapter.identity.log.command.json",
+      "sha256": "a146a6107b00527c9a4308094ad96e90b0e2ca392f3cdb1d58c9133f759c152c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa87_verify_d3_sm120_adapter.build.log.command.json",
+      "sha256": "7b921f87f0fccb8c1d665daf24d0ae29ec235bce3e454655de30f4ca10f9b72c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa87_verify_d3_sm120_adapter.configure.log.command.json",
+      "sha256": "a9e581cd4618fd67cfe71d1c75c0ee6abd736bc77929cb055c37fae2e41e58bc"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa87_verify_d3_sm120_adapter.elf.log.command.json",
+      "sha256": "31f4c7ee6cb77667b0304ac55a3c433173ddec61da9749b329887143300ad6dc"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/loce_mldsa87_verify_d3_sm120_adapter.identity.log.command.json",
+      "sha256": "2ecf6632a3314c0313b0f951c70bf9e8e7de6d94a2cb2fd8f4853955f7ba65cf"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/reference_generator.build.log.command.json",
+      "sha256": "851b4e38ba66f54b33ad4f33123079a48eefce826391ebaf9bd4534de15f141d"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/logs/build-20261019T220539Z/seal_allowlist.log.command.json",
+      "sha256": "2837b57fce72e4498931da65647ddda20853102fc7ef851b6e775c31e499f446"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/modules/libloce_mldsa44_keygen_d3_sm120.so",
+      "sha256": "9d1c70855918b4e60971d0ad323ba9c0f69eb3c8b8f031969cfd50a7aae12b6c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/modules/libloce_mldsa44_sign_d4_sm120.so",
+      "sha256": "3ee94b433ca4559ae48b6ada4edbe0e815790060b6c98ed8971491fd1f2dbccd"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/modules/libloce_mldsa44_verify_d3_sm120.so",
+      "sha256": "bec5de56faf58a7ff3c49d83e6b2487812467240173501c1c55d6a31b26a3081"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/modules/libloce_mldsa65_keygen_d3_sm120.so",
+      "sha256": "14b46e2e2838749469751e6523dabe767a7e58397bcf7a115729f252096170b5"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/modules/libloce_mldsa65_sign_d4_sm120.so",
+      "sha256": "f5d3bf08f12fd5dfe26292b62c2c3e7305a3e0d4072636289e10655127728afe"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/modules/libloce_mldsa65_verify_d3_sm120.so",
+      "sha256": "91cca5ea903e557706750cc1ed7b12ddcae3df4c4112c9c0cfedbd6fe7bae8c5"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/modules/libloce_mldsa87_keygen_d3_sm120.so",
+      "sha256": "a78db7af8b4f123824e5c81d3148413d917e9b32eccc230d83ab6e1a46858a10"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/modules/libloce_mldsa87_sign_d4_sm120.so",
+      "sha256": "50350e971a8b0fbb52d7a200a91bac34aa31fa80cc09bf344e39d73090961dd6"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/modules/libloce_mldsa87_verify_d3_sm120.so",
+      "sha256": "bec7214021a142e81619bb2e771ba764c81f7b9f3a31dba43452f94cf59f56cd"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/HEADER_MANIFEST.json",
+      "sha256": "deeb2a49a9ee545bcb07e666da1935d88d627b289304f2d134305338ce4a7156"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/NVTX-v3.1.0.tar.gz",
+      "sha256": "dc4e4a227d04d3da46ad920dfee5f7599ac8d6b2ee1809c9067110fb1cc71ced"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/LICENSE.txt",
+      "sha256": "f72b120d1385408e9e380acc020756eb6ba1b461d66c328ea67327ba08d7dcfd"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvToolsExt.h",
+      "sha256": "99705affe11bbeff7e5d7fe0737afaa506f9e0f54b6e63588aa59ed547a46cd3"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvToolsExtCuda.h",
+      "sha256": "08a40ee64f66624ee0bf4e1920cfa70f453c44ef6a56082bb6a659e01cee45c6"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvToolsExtCudaRt.h",
+      "sha256": "15a6b46ba44ce42e4e60cc84cec2e25880ef2d311074195ab3017cf933ff4ef9"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvToolsExtOpenCL.h",
+      "sha256": "9e56ce81c0b5ff0b5540b98ec707e71fd881521e8b06c3ee0fd9d3c5fd3ddb65"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvToolsExtSync.h",
+      "sha256": "789e99f1d8cdc2ecabdb43dffa0db092ca61f1e70184921661b0d01e3171d910"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvtx3.hpp",
+      "sha256": "b31bb12f1de44c548d28c2761c20a675c1e43af763451d218626ef4e71231823"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvtxDetail/nvtxImpl.h",
+      "sha256": "edffd0c3b6aef070d0ca59b1a94e56e302f60238b56d44d73331b93905cbdee7"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvtxDetail/nvtxImplCore.h",
+      "sha256": "8fbd57207cbe12b1efa0ea81c67cf056a89216952556e143a20f95d94dcbab86"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvtxDetail/nvtxImplCudaRt_v3.h",
+      "sha256": "cd53793fd11ca9d3e8355f7db7f28ee83c9139a55d4ba889054b73879e760f30"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvtxDetail/nvtxImplCuda_v3.h",
+      "sha256": "6bf154eef3e2f42ac48e8fca8160666ad11ec7065591ec01d6e3933e6f17952f"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvtxDetail/nvtxImplOpenCL_v3.h",
+      "sha256": "b15b7b8d41852b00a7e32a271245f7be496707abd9c8a3cc10ff2c136d286200"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvtxDetail/nvtxImplSync_v3.h",
+      "sha256": "87b559e0c5629df8ccf84bfcc68a89400b9631f22ecf9bdc1a70f8166d13cd24"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvtxDetail/nvtxInit.h",
+      "sha256": "b28c6b9e397ac71b05fcbb78a5acf614bc8fec2a46a36c496aeeeaf808375899"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvtxDetail/nvtxInitDecls.h",
+      "sha256": "fda14e810a23f51adcde5797ea74ceb29970aeb179728728880b743e520526e0"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvtxDetail/nvtxInitDefs.h",
+      "sha256": "1858b4e79160bab5ea811cbe61c221953425a64d845e9ba97dce445188cc1416"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvtxDetail/nvtxLinkOnce.h",
+      "sha256": "886cf7bcfa69e96704fae458b00fdca21a491ae76d72be3e32e1076a82affd3b"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvtxDetail/nvtxTypes.h",
+      "sha256": "2a8bcc1a6da35213e4abf7d845f0c9d9772b7fd0aedb61f71965f6a37af80695"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/incoming/e03-v3-cta-nvtx-de4cfa40/nvtx_header_inputs.py",
+      "sha256": "e4b074c1b3c382742e064e3528d79a47cb7e047aae56029f891628190ef8f032"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/incoming/e03-v3-cta-nvtx-de4cfa40/perf_reference_generator.cpp",
+      "sha256": "b1c85ce2d63de0e0073f16488af905396e3f013c23ae79ce06119e1cb20247fc"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/01_build/pqmagic/libpqmagic_std.a",
+      "sha256": "e0bac251d8a2371a0019d6290198d1be59e3d7e4a2e43b1b3a228dc5d88a85de"
+    }
+  ],
+  "bound_validation": "All nine embedded fields and binary SHA checked against independently retained build provenance; ML-DSA scoped registry, not historical 18-module release qualification",
+  "created_utc": "2026-10-19T22:14:14.780625+00:00",
+  "cupqc_block_dim": 128,
+  "cupqc_instrumented_source_sha256": "b1bc5acc2108efcfb85f6c336c724c991c35622ef46e02e79edc1673b2ec2a47",
+  "cupqc_library_sha256": "6a67eddb4b6ffdacf53fe88c8496b8eed35d449e7f7c00f88704115e5033d3ea",
+  "cupqc_original_source_sha256": "264e60d3748c50a752ca7d2c4c6a28f009ed6999018c504f761290c86759582c",
+  "cupqc_version": "0.4.1",
+  "family": "MLDSA-E03-V3-CTA-SM120-20261020",
+  "gpu_execution": "NOT_RUN",
+  "integration_cuda_configuration": {
+    "cuda_compilation_rows": 1,
+    "cuda_flags": [
+      "-I/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include"
+    ],
+    "nvtx_dependency_sha256": "c6a42a6e5fd01478be596e483ae9cb52f9d466245d0396357fde30aea7da9633"
+  },
+  "modules": [
+    {
+      "build_evidence": [
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa44_keygen/CMakeCache.txt",
+          "sha256": "7ba0d21e55d410279862ede59bc543eaa86c25c505232eaf899a389611948c33"
+        },
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa44_keygen/compile_commands.json",
+          "sha256": "9b550b8e36138703da48ad5cb2d21b7355b576f14aab7472b54049b6d115021e"
+        },
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa44_keygen_d3_sm120_adapter.provenance.json",
+          "sha256": "33aca0cf205880c4d28493cdbfbc80ed89287b0ee946854ee2c431049d724479"
+        }
+      ],
+      "compiler_flags": [],
+      "correctness_gate_sha256": "273e81f882a815c51f23ffd5aba8b441c8f695d8b2380b0a29bee2ccb8643ae8",
+      "embedded_identity": {
+        "abi_version": 1,
+        "algorithm": "ML-DSA",
+        "build_id": "g1-54c7c8c4a3a313c1e343",
+        "build_provenance_sha256": "54c7c8c4a3a313c1e3433c674e585c2bd9300724160131669195c42a0b2be1cc",
+        "compilation_input_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+        "execution_contract_registry_sha256": "cd64d6312180440572ba5383a184bddd890e2a5f5c0c20a1ae7b91bd0b55f528",
+        "module_id": "mldsa44-keygen-d3-sm120-native",
+        "operation_mask": 1,
+        "parameter_set": "44",
+        "policy_id": "MLDSA-44-KEYGEN-D3",
+        "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "release_family_id": "MLDSA-E03-V3-CTA-SM120-20261020",
+        "sm_arch": "sm_120"
+      },
+      "filename": "libloce_mldsa44_keygen_d3_sm120.so",
+      "provenance_file": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa44_keygen_d3_sm120_adapter.provenance.json",
+      "sha256": "9d1c70855918b4e60971d0ad323ba9c0f69eb3c8b8f031969cfd50a7aae12b6c"
+    },
+    {
+      "build_evidence": [
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa44_sign/CMakeCache.txt",
+          "sha256": "e001f2819a483eb3ea0aef24d3ddd61c72c9fc7b37d0f7579d5130829c21d7be"
+        },
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa44_sign/compile_commands.json",
+          "sha256": "b9dcd5377df7f59156381aab0a1a00ec7b923a10c862130ac7e5a1335d2e56ce"
+        },
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa44_sign_d4_sm120_adapter.provenance.json",
+          "sha256": "a3bd27bd32b1a7ac670fed78735ad0cdc9d29ea4ddfe3e586e7759c23dbc2a1b"
+        }
+      ],
+      "compiler_flags": [],
+      "correctness_gate_sha256": "273e81f882a815c51f23ffd5aba8b441c8f695d8b2380b0a29bee2ccb8643ae8",
+      "embedded_identity": {
+        "abi_version": 1,
+        "algorithm": "ML-DSA",
+        "build_id": "g1-75a6da315689ef0cda0b",
+        "build_provenance_sha256": "75a6da315689ef0cda0b03d1a3d8302623b30de12e1260aa7bd7b9002cd4e3fb",
+        "compilation_input_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+        "execution_contract_registry_sha256": "cd64d6312180440572ba5383a184bddd890e2a5f5c0c20a1ae7b91bd0b55f528",
+        "module_id": "mldsa44-sign-d4-sm120-native",
+        "operation_mask": 8,
+        "parameter_set": "44",
+        "policy_id": "MLDSA-44-SIGN-D4",
+        "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "release_family_id": "MLDSA-E03-V3-CTA-SM120-20261020",
+        "sm_arch": "sm_120"
+      },
+      "filename": "libloce_mldsa44_sign_d4_sm120.so",
+      "provenance_file": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa44_sign_d4_sm120_adapter.provenance.json",
+      "sha256": "3ee94b433ca4559ae48b6ada4edbe0e815790060b6c98ed8971491fd1f2dbccd"
+    },
+    {
+      "build_evidence": [
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa44_verify/CMakeCache.txt",
+          "sha256": "738fc9bfbed0d07d1f0e04b7169162bceeff1104321d8372e246dea0560f78c7"
+        },
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa44_verify/compile_commands.json",
+          "sha256": "9667ad73fe62f6c60d9cd623e2cac74494ec815a2dd23bf382d51264d73c919f"
+        },
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa44_verify_d3_sm120_adapter.provenance.json",
+          "sha256": "65f87cc9f433b3dca2cf6bfbb665322919d3e69f3f974aeadc9680e70e3d920e"
+        }
+      ],
+      "compiler_flags": [],
+      "correctness_gate_sha256": "273e81f882a815c51f23ffd5aba8b441c8f695d8b2380b0a29bee2ccb8643ae8",
+      "embedded_identity": {
+        "abi_version": 1,
+        "algorithm": "ML-DSA",
+        "build_id": "g1-45bd9c8053c3567b06b7",
+        "build_provenance_sha256": "45bd9c8053c3567b06b704362025099b1ffb066c2fc33054ef111b50ab41c738",
+        "compilation_input_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+        "execution_contract_registry_sha256": "cd64d6312180440572ba5383a184bddd890e2a5f5c0c20a1ae7b91bd0b55f528",
+        "module_id": "mldsa44-verify-d3-sm120-native",
+        "operation_mask": 16,
+        "parameter_set": "44",
+        "policy_id": "MLDSA-44-VERIFY-D3",
+        "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "release_family_id": "MLDSA-E03-V3-CTA-SM120-20261020",
+        "sm_arch": "sm_120"
+      },
+      "filename": "libloce_mldsa44_verify_d3_sm120.so",
+      "provenance_file": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa44_verify_d3_sm120_adapter.provenance.json",
+      "sha256": "bec5de56faf58a7ff3c49d83e6b2487812467240173501c1c55d6a31b26a3081"
+    },
+    {
+      "build_evidence": [
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa65_keygen/CMakeCache.txt",
+          "sha256": "01a85fa182ee2771a6ee545d9046a093dcedcf77411d6fcbf58c807c2526e11d"
+        },
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa65_keygen/compile_commands.json",
+          "sha256": "6e0f21df80d8b626ea7c2c9778cd4c7ec9cd0040412e31d709f93cbb2115e0ef"
+        },
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa65_keygen_d3_sm120_adapter.provenance.json",
+          "sha256": "c26939195ecd9cac9d24c919f86a4d51b2d22339b58d2883a3a84b1eb8be482a"
+        }
+      ],
+      "compiler_flags": [],
+      "correctness_gate_sha256": "273e81f882a815c51f23ffd5aba8b441c8f695d8b2380b0a29bee2ccb8643ae8",
+      "embedded_identity": {
+        "abi_version": 1,
+        "algorithm": "ML-DSA",
+        "build_id": "g1-b34de94d5498817a26de",
+        "build_provenance_sha256": "b34de94d5498817a26de898414f997f3b4e6380383d89102c8432a6acf9d2529",
+        "compilation_input_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+        "execution_contract_registry_sha256": "cd64d6312180440572ba5383a184bddd890e2a5f5c0c20a1ae7b91bd0b55f528",
+        "module_id": "mldsa65-keygen-d3-sm120-native",
+        "operation_mask": 1,
+        "parameter_set": "65",
+        "policy_id": "MLDSA-65-KEYGEN-D3",
+        "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "release_family_id": "MLDSA-E03-V3-CTA-SM120-20261020",
+        "sm_arch": "sm_120"
+      },
+      "filename": "libloce_mldsa65_keygen_d3_sm120.so",
+      "provenance_file": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa65_keygen_d3_sm120_adapter.provenance.json",
+      "sha256": "14b46e2e2838749469751e6523dabe767a7e58397bcf7a115729f252096170b5"
+    },
+    {
+      "build_evidence": [
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa65_sign/CMakeCache.txt",
+          "sha256": "3c29fbb2cc9eeab66d2f98a8fa656f1e35ee036bb626056da328d5f69891fbe6"
+        },
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa65_sign/compile_commands.json",
+          "sha256": "71588c6a4011ff7b4035c6c7bf49704358fa409b6e088464bedb0288f86338f8"
+        },
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa65_sign_d4_sm120_adapter.provenance.json",
+          "sha256": "fd7be0d339597234425bf96aa3b0d8be3d6e88f433159cf324583737521b75b9"
+        },
+        {
+          "bytes": 756,
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa65_sign/native/mldsa_sign/generated/mldsa_policy_provenance.json",
+          "sha256": "e533154af857da33336a630faf09f669357141e257828214bc88143ec4ba41a0"
+        },
+        {
+          "bytes": 1491,
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa65_sign/native/mldsa_sign/generated/mldsa_policy_provenance.h",
+          "sha256": "266846aeaaa6a4f825be3e5d06b4911eeb3556550d80301bde521520c979b8ca"
+        },
+        {
+          "bytes": 31697,
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa65_sign/native/mldsa_sign/generated/mldsa_policy_effective_definitions.txt",
+          "sha256": "068e981a2bd8112d576ab78c16c1d90c5111c25f119088e096fbc07ffef6587f"
+        },
+        {
+          "bytes": 501,
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa65_sign/native/mldsa_sign/generated/mldsa_policy_sources.txt",
+          "sha256": "1336b3049632e322472404579cfdf91d124f5a695dc87a1d6289fc4e3c197bd8"
+        }
+      ],
+      "compiler_flags": [],
+      "correctness_gate_sha256": "273e81f882a815c51f23ffd5aba8b441c8f695d8b2380b0a29bee2ccb8643ae8",
+      "embedded_identity": {
+        "abi_version": 1,
+        "algorithm": "ML-DSA",
+        "build_id": "g1-d0643abd87177804379e",
+        "build_provenance_sha256": "d0643abd87177804379ec100f386e1557d23f2ca2af095a7019e5b54f629b210",
+        "compilation_input_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+        "execution_contract_registry_sha256": "cd64d6312180440572ba5383a184bddd890e2a5f5c0c20a1ae7b91bd0b55f528",
+        "module_id": "mldsa65-sign-d4-sm120-native",
+        "operation_mask": 8,
+        "parameter_set": "65",
+        "policy_id": "MLDSA-65-SIGN-D4",
+        "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "release_family_id": "MLDSA-E03-V3-CTA-SM120-20261020",
+        "sm_arch": "sm_120"
+      },
+      "filename": "libloce_mldsa65_sign_d4_sm120.so",
+      "provenance_file": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa65_sign_d4_sm120_adapter.provenance.json",
+      "sha256": "f5d3bf08f12fd5dfe26292b62c2c3e7305a3e0d4072636289e10655127728afe"
+    },
+    {
+      "build_evidence": [
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa65_verify/CMakeCache.txt",
+          "sha256": "ae24fcbc79930f92f866865ec6d017c0113f24d19a57d6c0bb9399f1b1eff68e"
+        },
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa65_verify/compile_commands.json",
+          "sha256": "aa47291f333f5dc27c6ad6696e5e85b005c1a91478a0c39b7ea839d20d6f3a62"
+        },
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa65_verify_d3_sm120_adapter.provenance.json",
+          "sha256": "97ef2822646c8348b7c2d8b3c899c7043f1088025134963e5ae0003f58fa67df"
+        }
+      ],
+      "compiler_flags": [],
+      "correctness_gate_sha256": "273e81f882a815c51f23ffd5aba8b441c8f695d8b2380b0a29bee2ccb8643ae8",
+      "embedded_identity": {
+        "abi_version": 1,
+        "algorithm": "ML-DSA",
+        "build_id": "g1-db1ed7670aee664b3823",
+        "build_provenance_sha256": "db1ed7670aee664b3823243f5bf80293d191cabeecfe2c5baf7773feb0804ace",
+        "compilation_input_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+        "execution_contract_registry_sha256": "cd64d6312180440572ba5383a184bddd890e2a5f5c0c20a1ae7b91bd0b55f528",
+        "module_id": "mldsa65-verify-d3-sm120-native",
+        "operation_mask": 16,
+        "parameter_set": "65",
+        "policy_id": "MLDSA-65-VERIFY-D3",
+        "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "release_family_id": "MLDSA-E03-V3-CTA-SM120-20261020",
+        "sm_arch": "sm_120"
+      },
+      "filename": "libloce_mldsa65_verify_d3_sm120.so",
+      "provenance_file": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa65_verify_d3_sm120_adapter.provenance.json",
+      "sha256": "91cca5ea903e557706750cc1ed7b12ddcae3df4c4112c9c0cfedbd6fe7bae8c5"
+    },
+    {
+      "build_evidence": [
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa87_keygen/CMakeCache.txt",
+          "sha256": "b2322df2fb93a3f3f5353b5020778c76dba327eb0caf6f924fff8cf282844659"
+        },
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa87_keygen/compile_commands.json",
+          "sha256": "56406a333ca0c988a87c36720b9718c499936c85083255b840e030e8268898b2"
+        },
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa87_keygen_d3_sm120_adapter.provenance.json",
+          "sha256": "157efb0f5745c871cc04ac8979d168f8ecc9820b427079abe28b664e89ab6c0e"
+        }
+      ],
+      "compiler_flags": [
+        "--Ofast-compile=min"
+      ],
+      "correctness_gate_sha256": "273e81f882a815c51f23ffd5aba8b441c8f695d8b2380b0a29bee2ccb8643ae8",
+      "embedded_identity": {
+        "abi_version": 1,
+        "algorithm": "ML-DSA",
+        "build_id": "g1-b3d2ae502f9f327b485a",
+        "build_provenance_sha256": "b3d2ae502f9f327b485a3c88000b54ec529f395d13abdb6e50451d3df05703af",
+        "compilation_input_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+        "execution_contract_registry_sha256": "cd64d6312180440572ba5383a184bddd890e2a5f5c0c20a1ae7b91bd0b55f528",
+        "module_id": "mldsa87-keygen-d3-sm120-native",
+        "operation_mask": 1,
+        "parameter_set": "87",
+        "policy_id": "MLDSA-87-KEYGEN-D3",
+        "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "release_family_id": "MLDSA-E03-V3-CTA-SM120-20261020",
+        "sm_arch": "sm_120"
+      },
+      "filename": "libloce_mldsa87_keygen_d3_sm120.so",
+      "provenance_file": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa87_keygen_d3_sm120_adapter.provenance.json",
+      "sha256": "a78db7af8b4f123824e5c81d3148413d917e9b32eccc230d83ab6e1a46858a10"
+    },
+    {
+      "build_evidence": [
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa87_sign/CMakeCache.txt",
+          "sha256": "e67a392cb88df4782e0075d6799d21dc2f9e6f89f6239cc8a6b172a0bf3117e1"
+        },
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa87_sign/compile_commands.json",
+          "sha256": "fec98a187a6259ad7861eda37729a552a5ffd3b5e76a9f0d111c2b72519620dc"
+        },
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa87_sign_d4_sm120_adapter.provenance.json",
+          "sha256": "1e26f17e7f4db22e42a31923ba4e59a9fd21ac545e7507c104555967dbb99ade"
+        }
+      ],
+      "compiler_flags": [
+        "--Ofast-compile=min"
+      ],
+      "correctness_gate_sha256": "273e81f882a815c51f23ffd5aba8b441c8f695d8b2380b0a29bee2ccb8643ae8",
+      "embedded_identity": {
+        "abi_version": 1,
+        "algorithm": "ML-DSA",
+        "build_id": "g1-523a45c786560f9d85e8",
+        "build_provenance_sha256": "523a45c786560f9d85e8654d59b4d3a6e27a65a50f625a7f796823cb3e374a1d",
+        "compilation_input_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+        "execution_contract_registry_sha256": "cd64d6312180440572ba5383a184bddd890e2a5f5c0c20a1ae7b91bd0b55f528",
+        "module_id": "mldsa87-sign-d4-sm120-native",
+        "operation_mask": 8,
+        "parameter_set": "87",
+        "policy_id": "MLDSA-87-SIGN-D4",
+        "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "release_family_id": "MLDSA-E03-V3-CTA-SM120-20261020",
+        "sm_arch": "sm_120"
+      },
+      "filename": "libloce_mldsa87_sign_d4_sm120.so",
+      "provenance_file": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa87_sign_d4_sm120_adapter.provenance.json",
+      "sha256": "50350e971a8b0fbb52d7a200a91bac34aa31fa80cc09bf344e39d73090961dd6"
+    },
+    {
+      "build_evidence": [
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa87_verify/CMakeCache.txt",
+          "sha256": "1a23f0355afb4766bbacc15cc8402bf56776656f72d43f9a7ca130a21814a210"
+        },
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa87_verify/compile_commands.json",
+          "sha256": "ab545562f5408fc9d1f3d08630edba34927a12bd58a2dcf0a64fb5d2dc63c81f"
+        },
+        {
+          "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa87_verify_d3_sm120_adapter.provenance.json",
+          "sha256": "f87768e7613f7bf7635556a59e91baf58fd8a06c6dc47321e53db0cc7c2a444d"
+        }
+      ],
+      "compiler_flags": [
+        "--Ofast-compile=min"
+      ],
+      "correctness_gate_sha256": "273e81f882a815c51f23ffd5aba8b441c8f695d8b2380b0a29bee2ccb8643ae8",
+      "embedded_identity": {
+        "abi_version": 1,
+        "algorithm": "ML-DSA",
+        "build_id": "g1-94edd02b592f5b2a0585",
+        "build_provenance_sha256": "94edd02b592f5b2a0585de72c6db9081c02916eff410d1611e9d358219b1eccc",
+        "compilation_input_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+        "execution_contract_registry_sha256": "cd64d6312180440572ba5383a184bddd890e2a5f5c0c20a1ae7b91bd0b55f528",
+        "module_id": "mldsa87-verify-d3-sm120-native",
+        "operation_mask": 16,
+        "parameter_set": "87",
+        "policy_id": "MLDSA-87-VERIFY-D3",
+        "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+        "release_family_id": "MLDSA-E03-V3-CTA-SM120-20261020",
+        "sm_arch": "sm_120"
+      },
+      "filename": "libloce_mldsa87_verify_d3_sm120.so",
+      "provenance_file": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/loce_mldsa87_verify_d3_sm120_adapter.provenance.json",
+      "sha256": "bec7214021a142e81619bb2e771ba764c81f7b9f3a31dba43452f94cf59f56cd"
+    }
+  ],
+  "nvtx_headers": {
+    "archive": {
+      "bytes": 1090721,
+      "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/NVTX-v3.1.0.tar.gz",
+      "sha256": "dc4e4a227d04d3da46ad920dfee5f7599ac8d6b2ee1809c9067110fb1cc71ced"
+    },
+    "files": [
+      {
+        "bytes": 12263,
+        "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/LICENSE.txt",
+        "sha256": "f72b120d1385408e9e380acc020756eb6ba1b461d66c328ea67327ba08d7dcfd"
+      },
+      {
+        "bytes": 50660,
+        "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvToolsExt.h",
+        "sha256": "99705affe11bbeff7e5d7fe0737afaa506f9e0f54b6e63588aa59ed547a46cd3"
+      },
+      {
+        "bytes": 4617,
+        "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvToolsExtCuda.h",
+        "sha256": "08a40ee64f66624ee0bf4e1920cfa70f453c44ef6a56082bb6a659e01cee45c6"
+      },
+      {
+        "bytes": 3806,
+        "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvToolsExtCudaRt.h",
+        "sha256": "15a6b46ba44ce42e4e60cc84cec2e25880ef2d311074195ab3017cf933ff4ef9"
+      },
+      {
+        "bytes": 6976,
+        "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvToolsExtOpenCL.h",
+        "sha256": "9e56ce81c0b5ff0b5540b98ec707e71fd881521e8b06c3ee0fd9d3c5fd3ddb65"
+      },
+      {
+        "bytes": 13169,
+        "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvToolsExtSync.h",
+        "sha256": "789e99f1d8cdc2ecabdb43dffa0db092ca61f1e70184921661b0d01e3171d910"
+      },
+      {
+        "bytes": 100460,
+        "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvtx3.hpp",
+        "sha256": "b31bb12f1de44c548d28c2761c20a675c1e43af763451d218626ef4e71231823"
+      },
+      {
+        "bytes": 21666,
+        "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvtxDetail/nvtxImpl.h",
+        "sha256": "edffd0c3b6aef070d0ca59b1a94e56e302f60238b56d44d73331b93905cbdee7"
+      },
+      {
+        "bytes": 10011,
+        "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvtxDetail/nvtxImplCore.h",
+        "sha256": "8fbd57207cbe12b1efa0ea81c67cf056a89216952556e143a20f95d94dcbab86"
+      },
+      {
+        "bytes": 3104,
+        "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvtxDetail/nvtxImplCudaRt_v3.h",
+        "sha256": "cd53793fd11ca9d3e8355f7db7f28ee83c9139a55d4ba889054b73879e760f30"
+      },
+      {
+        "bytes": 3883,
+        "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvtxDetail/nvtxImplCuda_v3.h",
+        "sha256": "6bf154eef3e2f42ac48e8fca8160666ad11ec7065591ec01d6e3933e6f17952f"
+      },
+      {
+        "bytes": 6608,
+        "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvtxDetail/nvtxImplOpenCL_v3.h",
+        "sha256": "b15b7b8d41852b00a7e32a271245f7be496707abd9c8a3cc10ff2c136d286200"
+      },
+      {
+        "bytes": 3355,
+        "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvtxDetail/nvtxImplSync_v3.h",
+        "sha256": "87b559e0c5629df8ccf84bfcc68a89400b9631f22ecf9bdc1a70f8166d13cd24"
+      },
+      {
+        "bytes": 13049,
+        "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvtxDetail/nvtxInit.h",
+        "sha256": "b28c6b9e397ac71b05fcbb78a5acf614bc8fec2a46a36c496aeeeaf808375899"
+      },
+      {
+        "bytes": 9616,
+        "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvtxDetail/nvtxInitDecls.h",
+        "sha256": "fda14e810a23f51adcde5797ea74ceb29970aeb179728728880b743e520526e0"
+      },
+      {
+        "bytes": 35687,
+        "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvtxDetail/nvtxInitDefs.h",
+        "sha256": "1858b4e79160bab5ea811cbe61c221953425a64d845e9ba97dce445188cc1416"
+      },
+      {
+        "bytes": 4118,
+        "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvtxDetail/nvtxLinkOnce.h",
+        "sha256": "886cf7bcfa69e96704fae458b00fdca21a491ae76d72be3e32e1076a82affd3b"
+      },
+      {
+        "bytes": 15765,
+        "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include/nvtx3/nvtxDetail/nvtxTypes.h",
+        "sha256": "2a8bcc1a6da35213e4abf7d845f0c9d9772b7fd0aedb61f71965f6a37af80695"
+      }
+    ],
+    "include_root": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/headers/include",
+    "manifest": {
+      "bytes": 5137,
+      "path": "/home/lsb/mldsa-experiments-5090/deps/experimental-nvtx-v3.1.0-20261019/HEADER_MANIFEST.json",
+      "sha256": "deeb2a49a9ee545bcb07e666da1935d88d627b289304f2d134305338ce4a7156"
+    },
+    "official_url": "https://codeload.github.com/NVIDIA/NVTX/tar.gz/refs/tags/v3.1.0",
+    "schema": "mldsa.e03.official-nvtx-dependency.v1",
+    "scope": "Official isolated NVTX headers only; only integration CUDA include flags changed",
+    "version": "3.1.0"
+  },
+  "original_source": "/home/lsb/mldsa-experiments-5090/project_bundle/MAINLINE",
+  "pqmagic_library": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/01_build/pqmagic/libpqmagic_std.a",
+  "pqmagic_library_sha256": "e0bac251d8a2371a0019d6290198d1be59e3d7e4a2e43b1b3a228dc5d88a85de",
+  "script_sha256": "de4cfa40fc989a66e84868d64b7c9c2f8d92b3867be189b0d8255cbce4705bfb",
+  "sealed_binary_sanitizer": "NOT_RUN",
+  "source": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/sources/measurement-20261019T220538869962Z/MAINLINE",
+  "source_compilation_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+  "source_copy_record": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/SOURCE_COPY.json",
+  "status": "PERFORMANCE_BUILD_PASS",
+  "streams": 1,
+  "toolchain": {
+    "cmake": "cmake version 3.28.3\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).\n",
+    "cxx": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+    "nvcc": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2025 NVIDIA Corporation\nBuilt on Tue_May_27_02:21:03_PDT_2025\nCuda compilation tools, release 12.9, V12.9.86\nBuild cuda_12.9.r12.9/compiler.36037853_0\n"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "parameter": 87,
+  "operation": "verify",
+  "arm": "OFF",
+  "batch": 8192,
+  "block": 2,
+  "invalid_z_stride": 0,
+  "samples_ms": [
+    1.864704013,
+    1.867776036,
+    1.863680005,
+    1.857535958,
+    1.859552026
+  ],
+  "mean_ms": 1.8626496076,
+  "job": "/home/lsb/mldsa-experiments-5090/\u65b05090/joint_matrix_20261020T132318Z_db87cd/job_87_verify_2_OFF",
+  "input_sha256": "5133f45e54cf8a91aadb7ae44f01a90f731d7088b7d445d51b429676e8fc9af3",
+  "output_sha256": "c35020473aed1b4642cd726cad727b63fff2824ad68cedd7ffb73c7cbd890479",
+  "benchmark_sha256": "9b89f91a9f19c7c8618ec5d902f1d745b315549578ae2431caf9e159c60392e7"
+}

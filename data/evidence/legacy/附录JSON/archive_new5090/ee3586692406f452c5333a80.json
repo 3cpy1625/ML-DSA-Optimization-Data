@@ -1,0 +1,13 @@
+{
+  "arm": "OFF",
+  "batch": 256,
+  "block": -1,
+  "invalid_z_stride": 0,
+  "samples_ms": [
+    1.388607979
+  ],
+  "mean_ms": 1.388607979,
+  "job": "/home/lsb/mldsa-experiments-5090/\u65b05090/wphc_m65_sign_20261020T130935Z_cae89e/job_256_OFF_-1_0",
+  "input_sha256": "bab03a4e372594acf2cc7b566c75268fcdaaa621c7105acde3e8f14b3b9dbb80",
+  "output_sha256": "f375a276edea0c9386bea57fb9291aaf7486b20c567c1ed10b4500fed1824534"
+}

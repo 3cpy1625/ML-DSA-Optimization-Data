@@ -1,0 +1,30 @@
+{
+  "parameter": 44,
+  "status": "INTERNAL_CUDA_RECOVERY_3_OF_3_PASS",
+  "residual_workspace": [
+    {
+      "mode": 1,
+      "nonzero_bytes": [
+        7896319,
+        3135488,
+        255
+      ]
+    },
+    {
+      "mode": 2,
+      "nonzero_bytes": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "mode": 3,
+      "nonzero_bytes": [
+        7896319,
+        3135488,
+        255
+      ]
+    }
+  ]
+}

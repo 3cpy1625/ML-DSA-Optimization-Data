@@ -1,0 +1,18 @@
+{
+  "schema": "loce.hardening005.official-rsl-expectations.v1",
+  "source": "HARDENING-005 immutable calibration anchors",
+  "parameter_sets": {
+    "2": {
+      "expected_rsl": 4.25,
+      "expected_valid_probability": 0.23529411764705882
+    },
+    "3": {
+      "expected_rsl": 5.1,
+      "expected_valid_probability": 0.19607843137254902
+    },
+    "5": {
+      "expected_rsl": 3.85,
+      "expected_valid_probability": 0.2597402597402597
+    }
+  }
+}

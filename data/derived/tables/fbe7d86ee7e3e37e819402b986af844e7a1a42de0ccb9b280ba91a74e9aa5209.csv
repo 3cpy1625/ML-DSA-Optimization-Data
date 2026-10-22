@@ -1,0 +1,5 @@
+﻿pattern,definition,invalid_fraction,source,source_line,mutation
+valid,No z mutation,0.0,补测.zip!补测/minimal_v65_20261020T145604Z_6e07c795.tar.gz!minimal_v65_20261020T145604Z_6e07c795/verify_minimal.py,50,Zero three bytes at signature offset 48 for each selected row
+invalid,All i are mutated (invalid-z-stride=1),1.0,补测.zip!补测/minimal_v65_20261020T145604Z_6e07c795.tar.gz!minimal_v65_20261020T145604Z_6e07c795/verify_minimal.py,50,Zero three bytes at signature offset 48 for each selected row
+grouped50,i % 256 < 128: first 128 rows in every 256-row group,0.5,补测.zip!补测/minimal_v65_20261020T145604Z_6e07c795.tar.gz!minimal_v65_20261020T145604Z_6e07c795/verify_minimal.py,50,Zero three bytes at signature offset 48 for each selected row
+dispersed50,"(73 * i) % 256 < 128: permuted 50% distribution, not strict even/odd alternation",0.5,补测.zip!补测/minimal_v65_20261020T145604Z_6e07c795.tar.gz!minimal_v65_20261020T145604Z_6e07c795/verify_minimal.py,50,Zero three bytes at signature offset 48 for each selected row

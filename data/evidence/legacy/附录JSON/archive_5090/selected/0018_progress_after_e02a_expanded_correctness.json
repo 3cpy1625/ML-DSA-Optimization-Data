@@ -1,0 +1,27 @@
+{
+  "schema": "mldsa5090-progress-e02a-expanded-v1",
+  "recorded_utc": "2026-10-19T16:15:51.314550+00:00",
+  "run_id": "e02a-wait-v2-20261019T160026995225Z-642542",
+  "observed_status": "E02A_EXPANDED_ADAPTER_CORRECTNESS_PASS",
+  "observed_adapter_status": "SMALL_BATCH_ADAPTER_CORRECTNESS_PASS",
+  "observed_passed_cases": 234,
+  "planned_case_count": 234,
+  "planned_keygen_cases": 135,
+  "planned_sign_cases": 54,
+  "planned_verify_cases": 45,
+  "evidence": "screenshots\\21_e02a_wait_v2_234_cases_pass.png",
+  "evidence_sha256": "5beb8008bd5de3c01e4257f6d7832221b7d8eb082b7969c9ed2508529f308bf7",
+  "evidence_kind": "USER_RETURNED_SCREENSHOT",
+  "server_result_directory": "/home/lsb/mldsa-experiments-5090/runs/e02a-wait-v2-20261019T160026995225Z-642542",
+  "raw_export_received": false,
+  "local_raw_verification": "PENDING",
+  "completed_major_categories": [
+    "E00",
+    "E01"
+  ],
+  "remaining_major_category_count": 13,
+  "current_category": "E02",
+  "full_e02_complete": false,
+  "formal_performance": "NOT_COLLECTED",
+  "next_step": "User exports this exact E02a V2 run including all raw files; download then verify locally."
+}

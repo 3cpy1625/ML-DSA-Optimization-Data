@@ -1,0 +1,174 @@
+{
+  "build_result_sha256": "b3d8871f42d535d3da2ee2342883c4e5f0bfc548752f5f58cddc06ab743ebdd6",
+  "comparisons": [
+    {
+      "batch": 256,
+      "implementation": "ours",
+      "input_sha256": "a",
+      "operation": "keygen",
+      "output_sha256": "b",
+      "parameter": 44,
+      "raw_log": "mock"
+    },
+    {
+      "batch": 256,
+      "implementation": "cupqc",
+      "input_sha256": "a",
+      "operation": "keygen",
+      "output_sha256": "b",
+      "parameter": 44,
+      "raw_log": "mock"
+    },
+    {
+      "batch": 256,
+      "implementation": "ours",
+      "input_sha256": "a",
+      "operation": "sign",
+      "output_sha256": "b",
+      "parameter": 44,
+      "raw_log": "mock"
+    },
+    {
+      "batch": 256,
+      "implementation": "cupqc",
+      "input_sha256": "a",
+      "operation": "sign",
+      "output_sha256": "b",
+      "parameter": 44,
+      "raw_log": "mock"
+    },
+    {
+      "batch": 256,
+      "implementation": "ours",
+      "input_sha256": "a",
+      "operation": "verify",
+      "output_sha256": "b",
+      "parameter": 44,
+      "raw_log": "mock"
+    },
+    {
+      "batch": 256,
+      "implementation": "cupqc",
+      "input_sha256": "a",
+      "operation": "verify",
+      "output_sha256": "b",
+      "parameter": 44,
+      "raw_log": "mock"
+    },
+    {
+      "batch": 256,
+      "implementation": "ours",
+      "input_sha256": "a",
+      "operation": "keygen",
+      "output_sha256": "b",
+      "parameter": 65,
+      "raw_log": "mock"
+    },
+    {
+      "batch": 256,
+      "implementation": "cupqc",
+      "input_sha256": "a",
+      "operation": "keygen",
+      "output_sha256": "b",
+      "parameter": 65,
+      "raw_log": "mock"
+    },
+    {
+      "batch": 256,
+      "implementation": "ours",
+      "input_sha256": "a",
+      "operation": "sign",
+      "output_sha256": "b",
+      "parameter": 65,
+      "raw_log": "mock"
+    },
+    {
+      "batch": 256,
+      "implementation": "cupqc",
+      "input_sha256": "a",
+      "operation": "sign",
+      "output_sha256": "b",
+      "parameter": 65,
+      "raw_log": "mock"
+    },
+    {
+      "batch": 256,
+      "implementation": "ours",
+      "input_sha256": "a",
+      "operation": "verify",
+      "output_sha256": "b",
+      "parameter": 65,
+      "raw_log": "mock"
+    },
+    {
+      "batch": 256,
+      "implementation": "cupqc",
+      "input_sha256": "a",
+      "operation": "verify",
+      "output_sha256": "b",
+      "parameter": 65,
+      "raw_log": "mock"
+    },
+    {
+      "batch": 256,
+      "implementation": "ours",
+      "input_sha256": "a",
+      "operation": "keygen",
+      "output_sha256": "b",
+      "parameter": 87,
+      "raw_log": "mock"
+    },
+    {
+      "batch": 256,
+      "implementation": "cupqc",
+      "input_sha256": "a",
+      "operation": "keygen",
+      "output_sha256": "b",
+      "parameter": 87,
+      "raw_log": "mock"
+    },
+    {
+      "batch": 256,
+      "implementation": "ours",
+      "input_sha256": "a",
+      "operation": "sign",
+      "output_sha256": "b",
+      "parameter": 87,
+      "raw_log": "mock"
+    },
+    {
+      "batch": 256,
+      "implementation": "cupqc",
+      "input_sha256": "a",
+      "operation": "sign",
+      "output_sha256": "b",
+      "parameter": 87,
+      "raw_log": "mock"
+    },
+    {
+      "batch": 256,
+      "implementation": "ours",
+      "input_sha256": "a",
+      "operation": "verify",
+      "output_sha256": "b",
+      "parameter": 87,
+      "raw_log": "mock"
+    },
+    {
+      "batch": 256,
+      "implementation": "cupqc",
+      "input_sha256": "a",
+      "operation": "verify",
+      "output_sha256": "b",
+      "parameter": 87,
+      "raw_log": "mock"
+    }
+  ],
+  "completed_utc": "2026-10-19T20:16:00.049895+00:00",
+  "coverage": "9 operation/parameter cells, B256, 32-byte messages, one fixed input set, both implementations exact output SHA-256 match CPU oracle",
+  "limits": [
+    "Not complete FIPS, boundary, failure-path or sanitizer qualification",
+    "Formal-size operation inputs and timed-call outputs are rechecked during capture"
+  ],
+  "status": "EXACT_BINARY_QUALIFICATION_PASS"
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "check_definition_path": {"minLength": 1, "type": "string"},
+    "check_definition_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+    "cpu_crosscheck_path": {"minLength": 1, "type": "string"},
+    "cpu_crosscheck_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+    "candidate_count": {"minimum": 1, "type": "integer"},
+    "epoch_count": {"minimum": 60, "type": "integer"},
+    "parameter_sets": {"items": {"enum": ["ML-DSA-44", "ML-DSA-65", "ML-DSA-87"], "type": "string"}, "minItems": 3, "maxItems": 3, "type": "array", "uniqueItems": true},
+    "per_epoch_counts_path": {"minLength": 1, "type": "string"},
+    "per_epoch_counts_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+    "raw_manifest_path": {"minLength": 1, "type": "string"},
+    "raw_manifest_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+    "preregistration_path": {"minLength": 1, "type": "string"},
+    "preregistration_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+    "request_count": {"minimum": 983040, "type": "integer"},
+    "release_family_id": {"pattern": "LOCE-PQC-GPU-H004-[0-9]{8}T[0-9]{6}Z", "type": "string"},
+    "schema": {"const": "loce.hardening004.check-retention.v2", "type": "string"},
+    "status": {"enum": ["STABLE_PASS", "UNSTABLE"], "type": "string"},
+    "stability_report_path": {"minLength": 1, "type": "string"},
+    "stability_report_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"}
+  },
+  "required": ["schema", "release_family_id", "parameter_sets", "check_definition_path", "check_definition_sha256", "preregistration_path", "preregistration_sha256", "raw_manifest_path", "raw_manifest_sha256", "per_epoch_counts_path", "per_epoch_counts_sha256", "cpu_crosscheck_path", "cpu_crosscheck_sha256", "stability_report_path", "stability_report_sha256", "epoch_count", "request_count", "candidate_count", "status"],
+  "type": "object"
+}

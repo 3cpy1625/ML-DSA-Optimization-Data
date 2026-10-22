@@ -1,0 +1,14 @@
+{
+  "schema": "mldsa5090-local-raw-intake-verification-v1",
+  "status": "RAW_ARCHIVE_SHA256_AND_ALL_RECORDED_ARTIFACTS_VERIFIED",
+  "verified_utc": "2026-10-19T15:04:12.843983+00:00",
+  "run_id": "fastmin-m87-all-v3-20261019T143050777764Z-626756",
+  "archive_sha256": "e926e2f374a6fb45035139a95663906839fb71f8178805b0feaeb946cf123179",
+  "archive_bytes": 51110874,
+  "raw_files_verified": 336,
+  "case_artifacts_verified": 315,
+  "binary_vector_files_verified": 168,
+  "uncompressed_bytes": 54863205,
+  "extracted_directory": "E:\\密码竞赛\\5090实验结果_20261019\\extracted\\v3_626756",
+  "formal_performance_collected": false
+}

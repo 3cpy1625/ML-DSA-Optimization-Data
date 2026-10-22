@@ -1,0 +1,1335 @@
+{
+  "build_result": {
+    "bytes": 61526,
+    "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\BUILD_RESULT.json",
+    "sha256": "1895382b99cf1e743c1f00088d23f4a84476a70b67df2e6d40470dbc648c2cfd"
+  },
+  "cases": [
+    {
+      "artifacts": [
+        {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_keygen\\seed-0000000020261018\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_keygen\\seed-0000000020261018\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "bytes": 19,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_keygen\\seed-0000000020261018\\blob.bin",
+          "sha256": "8ae05f6ddc6a48e1c2721ef521f67b9d62b4057bed648660b763962098492765"
+        }
+      ],
+      "batch": 64,
+      "case_id": "seed-0000000020261018",
+      "cell_id": "mldsa44_keygen",
+      "checks": [
+        {
+          "status": "PASS"
+        },
+        {
+          "status": "SKIPPED"
+        }
+      ],
+      "command": {
+        "argv": [
+          "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\build\\mldsa44_keygen\\native_mldsa44_keygen_adapter_test",
+          "64",
+          "0",
+          "1",
+          "0x20261018"
+        ],
+        "exit_code": 0,
+        "stderr": {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_keygen\\seed-0000000020261018\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_keygen\\seed-0000000020261018\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        "timed_out": false
+      },
+      "exit_code": 0,
+      "level": 44,
+      "message_bytes": null,
+      "module_sha256": "d050d804c5f76eef667225a2cc0eccf80ecc2194dfd2fb3532fd8c61394b120b",
+      "operation": "keygen",
+      "reference_archive_sha256": "eb3ea94ce19ad920cc4fb3d5a254bb6748ed531f4249bfe53c3e1518d246f99c",
+      "seed": 539365400,
+      "status": "PASS",
+      "test_executable_sha256": "94e6ec734d0379ccafda6a1eecd32d79058ed23110e05192eba02ec80b09c817",
+      "validation_errors": []
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_keygen\\seed-0000000020261019\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_keygen\\seed-0000000020261019\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "bytes": 19,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_keygen\\seed-0000000020261019\\blob.bin",
+          "sha256": "8ae05f6ddc6a48e1c2721ef521f67b9d62b4057bed648660b763962098492765"
+        }
+      ],
+      "batch": 64,
+      "case_id": "seed-0000000020261019",
+      "cell_id": "mldsa44_keygen",
+      "checks": [
+        {
+          "status": "PASS"
+        },
+        {
+          "status": "SKIPPED"
+        }
+      ],
+      "command": {
+        "argv": [
+          "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\build\\mldsa44_keygen\\native_mldsa44_keygen_adapter_test",
+          "64",
+          "0",
+          "1",
+          "0x20261019"
+        ],
+        "exit_code": 0,
+        "stderr": {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_keygen\\seed-0000000020261019\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_keygen\\seed-0000000020261019\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        "timed_out": false
+      },
+      "exit_code": 0,
+      "level": 44,
+      "message_bytes": null,
+      "module_sha256": "d050d804c5f76eef667225a2cc0eccf80ecc2194dfd2fb3532fd8c61394b120b",
+      "operation": "keygen",
+      "reference_archive_sha256": "eb3ea94ce19ad920cc4fb3d5a254bb6748ed531f4249bfe53c3e1518d246f99c",
+      "seed": 539365401,
+      "status": "PASS",
+      "test_executable_sha256": "94e6ec734d0379ccafda6a1eecd32d79058ed23110e05192eba02ec80b09c817",
+      "validation_errors": []
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_keygen\\seed-0000000020261020\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_keygen\\seed-0000000020261020\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "bytes": 19,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_keygen\\seed-0000000020261020\\blob.bin",
+          "sha256": "8ae05f6ddc6a48e1c2721ef521f67b9d62b4057bed648660b763962098492765"
+        }
+      ],
+      "batch": 64,
+      "case_id": "seed-0000000020261020",
+      "cell_id": "mldsa44_keygen",
+      "checks": [
+        {
+          "status": "PASS"
+        },
+        {
+          "status": "SKIPPED"
+        }
+      ],
+      "command": {
+        "argv": [
+          "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\build\\mldsa44_keygen\\native_mldsa44_keygen_adapter_test",
+          "64",
+          "0",
+          "1",
+          "0x20261020"
+        ],
+        "exit_code": 0,
+        "stderr": {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_keygen\\seed-0000000020261020\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_keygen\\seed-0000000020261020\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        "timed_out": false
+      },
+      "exit_code": 0,
+      "level": 44,
+      "message_bytes": null,
+      "module_sha256": "d050d804c5f76eef667225a2cc0eccf80ecc2194dfd2fb3532fd8c61394b120b",
+      "operation": "keygen",
+      "reference_archive_sha256": "eb3ea94ce19ad920cc4fb3d5a254bb6748ed531f4249bfe53c3e1518d246f99c",
+      "seed": 539365408,
+      "status": "PASS",
+      "test_executable_sha256": "94e6ec734d0379ccafda6a1eecd32d79058ed23110e05192eba02ec80b09c817",
+      "validation_errors": []
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_sign\\seed-0000000020261018\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_sign\\seed-0000000020261018\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "bytes": 19,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_sign\\seed-0000000020261018\\blob.bin",
+          "sha256": "8ae05f6ddc6a48e1c2721ef521f67b9d62b4057bed648660b763962098492765"
+        }
+      ],
+      "batch": 256,
+      "case_id": "seed-0000000020261018",
+      "cell_id": "mldsa44_sign",
+      "checks": [
+        {
+          "status": "PASS"
+        },
+        {
+          "status": "SKIPPED"
+        }
+      ],
+      "command": {
+        "argv": [
+          "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\build\\mldsa44_sign\\native_mldsa44_sign_adapter_test",
+          "256",
+          "0",
+          "1",
+          "default-owner",
+          "0x20261018",
+          "0",
+          "unified",
+          "32",
+          "0"
+        ],
+        "exit_code": 0,
+        "stderr": {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_sign\\seed-0000000020261018\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_sign\\seed-0000000020261018\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        "timed_out": false
+      },
+      "exit_code": 0,
+      "level": 44,
+      "message_bytes": 32,
+      "module_sha256": "02269494394513f926a489ff2ee4e9ed404e8604e0a52105036b077f76a39b77",
+      "operation": "sign",
+      "reference_archive_sha256": "eb3ea94ce19ad920cc4fb3d5a254bb6748ed531f4249bfe53c3e1518d246f99c",
+      "seed": 539365400,
+      "status": "PASS",
+      "test_executable_sha256": "c8aa99004bf42235d751f63059130f3cde2ec760d53323c1431735bdb752b72b",
+      "validation_errors": []
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_sign\\seed-0000000020261019\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_sign\\seed-0000000020261019\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "bytes": 19,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_sign\\seed-0000000020261019\\blob.bin",
+          "sha256": "8ae05f6ddc6a48e1c2721ef521f67b9d62b4057bed648660b763962098492765"
+        }
+      ],
+      "batch": 256,
+      "case_id": "seed-0000000020261019",
+      "cell_id": "mldsa44_sign",
+      "checks": [
+        {
+          "status": "PASS"
+        },
+        {
+          "status": "SKIPPED"
+        }
+      ],
+      "command": {
+        "argv": [
+          "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\build\\mldsa44_sign\\native_mldsa44_sign_adapter_test",
+          "256",
+          "0",
+          "1",
+          "default-owner",
+          "0x20261019",
+          "0",
+          "unified",
+          "32",
+          "0"
+        ],
+        "exit_code": 0,
+        "stderr": {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_sign\\seed-0000000020261019\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_sign\\seed-0000000020261019\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        "timed_out": false
+      },
+      "exit_code": 0,
+      "level": 44,
+      "message_bytes": 32,
+      "module_sha256": "02269494394513f926a489ff2ee4e9ed404e8604e0a52105036b077f76a39b77",
+      "operation": "sign",
+      "reference_archive_sha256": "eb3ea94ce19ad920cc4fb3d5a254bb6748ed531f4249bfe53c3e1518d246f99c",
+      "seed": 539365401,
+      "status": "PASS",
+      "test_executable_sha256": "c8aa99004bf42235d751f63059130f3cde2ec760d53323c1431735bdb752b72b",
+      "validation_errors": []
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_sign\\seed-0000000020261020\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_sign\\seed-0000000020261020\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "bytes": 19,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_sign\\seed-0000000020261020\\blob.bin",
+          "sha256": "8ae05f6ddc6a48e1c2721ef521f67b9d62b4057bed648660b763962098492765"
+        }
+      ],
+      "batch": 256,
+      "case_id": "seed-0000000020261020",
+      "cell_id": "mldsa44_sign",
+      "checks": [
+        {
+          "status": "PASS"
+        },
+        {
+          "status": "SKIPPED"
+        }
+      ],
+      "command": {
+        "argv": [
+          "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\build\\mldsa44_sign\\native_mldsa44_sign_adapter_test",
+          "256",
+          "0",
+          "1",
+          "default-owner",
+          "0x20261020",
+          "0",
+          "unified",
+          "32",
+          "0"
+        ],
+        "exit_code": 0,
+        "stderr": {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_sign\\seed-0000000020261020\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_sign\\seed-0000000020261020\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        "timed_out": false
+      },
+      "exit_code": 0,
+      "level": 44,
+      "message_bytes": 32,
+      "module_sha256": "02269494394513f926a489ff2ee4e9ed404e8604e0a52105036b077f76a39b77",
+      "operation": "sign",
+      "reference_archive_sha256": "eb3ea94ce19ad920cc4fb3d5a254bb6748ed531f4249bfe53c3e1518d246f99c",
+      "seed": 539365408,
+      "status": "PASS",
+      "test_executable_sha256": "c8aa99004bf42235d751f63059130f3cde2ec760d53323c1431735bdb752b72b",
+      "validation_errors": []
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_verify\\fixed-corpus\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_verify\\fixed-corpus\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "bytes": 19,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_verify\\fixed-corpus\\blob.bin",
+          "sha256": "8ae05f6ddc6a48e1c2721ef521f67b9d62b4057bed648660b763962098492765"
+        }
+      ],
+      "batch": 256,
+      "case_id": "fixed-corpus",
+      "cell_id": "mldsa44_verify",
+      "checks": [
+        {
+          "status": "PASS"
+        },
+        {
+          "status": "SKIPPED"
+        }
+      ],
+      "command": {
+        "argv": [
+          "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\build\\mldsa44_verify\\native_mldsa44_verify_adapter_test",
+          "256",
+          "0",
+          "1"
+        ],
+        "exit_code": 0,
+        "stderr": {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_verify\\fixed-corpus\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa44_verify\\fixed-corpus\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        "timed_out": false
+      },
+      "exit_code": 0,
+      "level": 44,
+      "message_bytes": 32,
+      "module_sha256": "f0443615de93ef64edea7b17e256c151593fcf44d6b13a695bb165877110ef86",
+      "operation": "verify",
+      "reference_archive_sha256": "eb3ea94ce19ad920cc4fb3d5a254bb6748ed531f4249bfe53c3e1518d246f99c",
+      "seed": null,
+      "status": "PASS",
+      "test_executable_sha256": "0e136bb90fa4afe0316d3c016afe2780be907be3736ac8b704fe9c47ff40721a",
+      "validation_errors": []
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_keygen\\seed-0000000020261018\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_keygen\\seed-0000000020261018\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "bytes": 19,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_keygen\\seed-0000000020261018\\blob.bin",
+          "sha256": "8ae05f6ddc6a48e1c2721ef521f67b9d62b4057bed648660b763962098492765"
+        }
+      ],
+      "batch": 64,
+      "case_id": "seed-0000000020261018",
+      "cell_id": "mldsa65_keygen",
+      "checks": [
+        {
+          "status": "PASS"
+        },
+        {
+          "status": "SKIPPED"
+        }
+      ],
+      "command": {
+        "argv": [
+          "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\build\\mldsa65_keygen\\native_mldsa65_keygen_adapter_test",
+          "64",
+          "0",
+          "1",
+          "0x20261018"
+        ],
+        "exit_code": 0,
+        "stderr": {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_keygen\\seed-0000000020261018\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_keygen\\seed-0000000020261018\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        "timed_out": false
+      },
+      "exit_code": 0,
+      "level": 65,
+      "message_bytes": null,
+      "module_sha256": "1faec2ef55527bacef64df9c807424e6c596606d5f2f7be74a0b5e6db5d46ecc",
+      "operation": "keygen",
+      "reference_archive_sha256": "eb3ea94ce19ad920cc4fb3d5a254bb6748ed531f4249bfe53c3e1518d246f99c",
+      "seed": 539365400,
+      "status": "PASS",
+      "test_executable_sha256": "7284a8d89003f60853f1b65d4e730a1182f5503e7952792586a9a96ea4c0e349",
+      "validation_errors": []
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_keygen\\seed-0000000020261019\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_keygen\\seed-0000000020261019\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "bytes": 19,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_keygen\\seed-0000000020261019\\blob.bin",
+          "sha256": "8ae05f6ddc6a48e1c2721ef521f67b9d62b4057bed648660b763962098492765"
+        }
+      ],
+      "batch": 64,
+      "case_id": "seed-0000000020261019",
+      "cell_id": "mldsa65_keygen",
+      "checks": [
+        {
+          "status": "PASS"
+        },
+        {
+          "status": "SKIPPED"
+        }
+      ],
+      "command": {
+        "argv": [
+          "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\build\\mldsa65_keygen\\native_mldsa65_keygen_adapter_test",
+          "64",
+          "0",
+          "1",
+          "0x20261019"
+        ],
+        "exit_code": 0,
+        "stderr": {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_keygen\\seed-0000000020261019\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_keygen\\seed-0000000020261019\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        "timed_out": false
+      },
+      "exit_code": 0,
+      "level": 65,
+      "message_bytes": null,
+      "module_sha256": "1faec2ef55527bacef64df9c807424e6c596606d5f2f7be74a0b5e6db5d46ecc",
+      "operation": "keygen",
+      "reference_archive_sha256": "eb3ea94ce19ad920cc4fb3d5a254bb6748ed531f4249bfe53c3e1518d246f99c",
+      "seed": 539365401,
+      "status": "PASS",
+      "test_executable_sha256": "7284a8d89003f60853f1b65d4e730a1182f5503e7952792586a9a96ea4c0e349",
+      "validation_errors": []
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_keygen\\seed-0000000020261020\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_keygen\\seed-0000000020261020\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "bytes": 19,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_keygen\\seed-0000000020261020\\blob.bin",
+          "sha256": "8ae05f6ddc6a48e1c2721ef521f67b9d62b4057bed648660b763962098492765"
+        }
+      ],
+      "batch": 64,
+      "case_id": "seed-0000000020261020",
+      "cell_id": "mldsa65_keygen",
+      "checks": [
+        {
+          "status": "PASS"
+        },
+        {
+          "status": "SKIPPED"
+        }
+      ],
+      "command": {
+        "argv": [
+          "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\build\\mldsa65_keygen\\native_mldsa65_keygen_adapter_test",
+          "64",
+          "0",
+          "1",
+          "0x20261020"
+        ],
+        "exit_code": 0,
+        "stderr": {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_keygen\\seed-0000000020261020\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_keygen\\seed-0000000020261020\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        "timed_out": false
+      },
+      "exit_code": 0,
+      "level": 65,
+      "message_bytes": null,
+      "module_sha256": "1faec2ef55527bacef64df9c807424e6c596606d5f2f7be74a0b5e6db5d46ecc",
+      "operation": "keygen",
+      "reference_archive_sha256": "eb3ea94ce19ad920cc4fb3d5a254bb6748ed531f4249bfe53c3e1518d246f99c",
+      "seed": 539365408,
+      "status": "PASS",
+      "test_executable_sha256": "7284a8d89003f60853f1b65d4e730a1182f5503e7952792586a9a96ea4c0e349",
+      "validation_errors": []
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_sign\\seed-0000000020261018\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_sign\\seed-0000000020261018\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "bytes": 19,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_sign\\seed-0000000020261018\\blob.bin",
+          "sha256": "8ae05f6ddc6a48e1c2721ef521f67b9d62b4057bed648660b763962098492765"
+        }
+      ],
+      "batch": 256,
+      "case_id": "seed-0000000020261018",
+      "cell_id": "mldsa65_sign",
+      "checks": [
+        {
+          "status": "PASS"
+        },
+        {
+          "status": "SKIPPED"
+        }
+      ],
+      "command": {
+        "argv": [
+          "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\build\\mldsa65_sign\\native_mldsa65_sign_adapter_test",
+          "256",
+          "0",
+          "1",
+          "default-owner",
+          "0x20261018",
+          "0",
+          "unified",
+          "32",
+          "0"
+        ],
+        "exit_code": 0,
+        "stderr": {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_sign\\seed-0000000020261018\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_sign\\seed-0000000020261018\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        "timed_out": false
+      },
+      "exit_code": 0,
+      "level": 65,
+      "message_bytes": 32,
+      "module_sha256": "fc3812ca92aee792d8b488f8653ee91c0eaf3e4e37956079d45980ff119dc0c3",
+      "operation": "sign",
+      "reference_archive_sha256": "eb3ea94ce19ad920cc4fb3d5a254bb6748ed531f4249bfe53c3e1518d246f99c",
+      "seed": 539365400,
+      "status": "PASS",
+      "test_executable_sha256": "733073dfb6bcd0befa87abc7450b7d9953828713b7c15d9d0ac47962188f6d91",
+      "validation_errors": []
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_sign\\seed-0000000020261019\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_sign\\seed-0000000020261019\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "bytes": 19,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_sign\\seed-0000000020261019\\blob.bin",
+          "sha256": "8ae05f6ddc6a48e1c2721ef521f67b9d62b4057bed648660b763962098492765"
+        }
+      ],
+      "batch": 256,
+      "case_id": "seed-0000000020261019",
+      "cell_id": "mldsa65_sign",
+      "checks": [
+        {
+          "status": "PASS"
+        },
+        {
+          "status": "SKIPPED"
+        }
+      ],
+      "command": {
+        "argv": [
+          "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\build\\mldsa65_sign\\native_mldsa65_sign_adapter_test",
+          "256",
+          "0",
+          "1",
+          "default-owner",
+          "0x20261019",
+          "0",
+          "unified",
+          "32",
+          "0"
+        ],
+        "exit_code": 0,
+        "stderr": {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_sign\\seed-0000000020261019\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_sign\\seed-0000000020261019\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        "timed_out": false
+      },
+      "exit_code": 0,
+      "level": 65,
+      "message_bytes": 32,
+      "module_sha256": "fc3812ca92aee792d8b488f8653ee91c0eaf3e4e37956079d45980ff119dc0c3",
+      "operation": "sign",
+      "reference_archive_sha256": "eb3ea94ce19ad920cc4fb3d5a254bb6748ed531f4249bfe53c3e1518d246f99c",
+      "seed": 539365401,
+      "status": "PASS",
+      "test_executable_sha256": "733073dfb6bcd0befa87abc7450b7d9953828713b7c15d9d0ac47962188f6d91",
+      "validation_errors": []
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_sign\\seed-0000000020261020\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_sign\\seed-0000000020261020\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "bytes": 19,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_sign\\seed-0000000020261020\\blob.bin",
+          "sha256": "8ae05f6ddc6a48e1c2721ef521f67b9d62b4057bed648660b763962098492765"
+        }
+      ],
+      "batch": 256,
+      "case_id": "seed-0000000020261020",
+      "cell_id": "mldsa65_sign",
+      "checks": [
+        {
+          "status": "PASS"
+        },
+        {
+          "status": "SKIPPED"
+        }
+      ],
+      "command": {
+        "argv": [
+          "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\build\\mldsa65_sign\\native_mldsa65_sign_adapter_test",
+          "256",
+          "0",
+          "1",
+          "default-owner",
+          "0x20261020",
+          "0",
+          "unified",
+          "32",
+          "0"
+        ],
+        "exit_code": 0,
+        "stderr": {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_sign\\seed-0000000020261020\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_sign\\seed-0000000020261020\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        "timed_out": false
+      },
+      "exit_code": 0,
+      "level": 65,
+      "message_bytes": 32,
+      "module_sha256": "fc3812ca92aee792d8b488f8653ee91c0eaf3e4e37956079d45980ff119dc0c3",
+      "operation": "sign",
+      "reference_archive_sha256": "eb3ea94ce19ad920cc4fb3d5a254bb6748ed531f4249bfe53c3e1518d246f99c",
+      "seed": 539365408,
+      "status": "PASS",
+      "test_executable_sha256": "733073dfb6bcd0befa87abc7450b7d9953828713b7c15d9d0ac47962188f6d91",
+      "validation_errors": []
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_verify\\fixed-corpus\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_verify\\fixed-corpus\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "bytes": 19,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_verify\\fixed-corpus\\blob.bin",
+          "sha256": "8ae05f6ddc6a48e1c2721ef521f67b9d62b4057bed648660b763962098492765"
+        }
+      ],
+      "batch": 256,
+      "case_id": "fixed-corpus",
+      "cell_id": "mldsa65_verify",
+      "checks": [
+        {
+          "status": "PASS"
+        },
+        {
+          "status": "SKIPPED"
+        }
+      ],
+      "command": {
+        "argv": [
+          "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\build\\mldsa65_verify\\native_mldsa65_verify_adapter_test",
+          "256",
+          "0",
+          "1"
+        ],
+        "exit_code": 0,
+        "stderr": {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_verify\\fixed-corpus\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa65_verify\\fixed-corpus\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        "timed_out": false
+      },
+      "exit_code": 0,
+      "level": 65,
+      "message_bytes": 32,
+      "module_sha256": "73d0c4e05219d5699f03ad2d52b150f034c924fa41a47f6206aa44f7e028942c",
+      "operation": "verify",
+      "reference_archive_sha256": "eb3ea94ce19ad920cc4fb3d5a254bb6748ed531f4249bfe53c3e1518d246f99c",
+      "seed": null,
+      "status": "PASS",
+      "test_executable_sha256": "1c0a638967d4f7e85543743484727a54cf747246f963cb672cac1eb1e53697a2",
+      "validation_errors": []
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_keygen\\seed-0000000020261018\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_keygen\\seed-0000000020261018\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "bytes": 19,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_keygen\\seed-0000000020261018\\blob.bin",
+          "sha256": "8ae05f6ddc6a48e1c2721ef521f67b9d62b4057bed648660b763962098492765"
+        }
+      ],
+      "batch": 64,
+      "case_id": "seed-0000000020261018",
+      "cell_id": "mldsa87_keygen",
+      "checks": [
+        {
+          "status": "PASS"
+        },
+        {
+          "status": "SKIPPED"
+        }
+      ],
+      "command": {
+        "argv": [
+          "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\build\\mldsa87_keygen\\native_mldsa87_keygen_adapter_test",
+          "64",
+          "0",
+          "1",
+          "0x20261018"
+        ],
+        "exit_code": 0,
+        "stderr": {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_keygen\\seed-0000000020261018\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_keygen\\seed-0000000020261018\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        "timed_out": false
+      },
+      "exit_code": 0,
+      "level": 87,
+      "message_bytes": null,
+      "module_sha256": "1db0bb0e767d2149638662122f8cddbe01dbe94eee22a5d9abadbff3e79b979d",
+      "operation": "keygen",
+      "reference_archive_sha256": "eb3ea94ce19ad920cc4fb3d5a254bb6748ed531f4249bfe53c3e1518d246f99c",
+      "seed": 539365400,
+      "status": "PASS",
+      "test_executable_sha256": "87adc34a1f58673edd796eb21783142a57a3444728b47b4e41c08ec93ea85484",
+      "validation_errors": []
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_keygen\\seed-0000000020261019\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_keygen\\seed-0000000020261019\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "bytes": 19,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_keygen\\seed-0000000020261019\\blob.bin",
+          "sha256": "8ae05f6ddc6a48e1c2721ef521f67b9d62b4057bed648660b763962098492765"
+        }
+      ],
+      "batch": 64,
+      "case_id": "seed-0000000020261019",
+      "cell_id": "mldsa87_keygen",
+      "checks": [
+        {
+          "status": "PASS"
+        },
+        {
+          "status": "SKIPPED"
+        }
+      ],
+      "command": {
+        "argv": [
+          "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\build\\mldsa87_keygen\\native_mldsa87_keygen_adapter_test",
+          "64",
+          "0",
+          "1",
+          "0x20261019"
+        ],
+        "exit_code": 0,
+        "stderr": {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_keygen\\seed-0000000020261019\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_keygen\\seed-0000000020261019\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        "timed_out": false
+      },
+      "exit_code": 0,
+      "level": 87,
+      "message_bytes": null,
+      "module_sha256": "1db0bb0e767d2149638662122f8cddbe01dbe94eee22a5d9abadbff3e79b979d",
+      "operation": "keygen",
+      "reference_archive_sha256": "eb3ea94ce19ad920cc4fb3d5a254bb6748ed531f4249bfe53c3e1518d246f99c",
+      "seed": 539365401,
+      "status": "PASS",
+      "test_executable_sha256": "87adc34a1f58673edd796eb21783142a57a3444728b47b4e41c08ec93ea85484",
+      "validation_errors": []
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_keygen\\seed-0000000020261020\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_keygen\\seed-0000000020261020\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "bytes": 19,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_keygen\\seed-0000000020261020\\blob.bin",
+          "sha256": "8ae05f6ddc6a48e1c2721ef521f67b9d62b4057bed648660b763962098492765"
+        }
+      ],
+      "batch": 64,
+      "case_id": "seed-0000000020261020",
+      "cell_id": "mldsa87_keygen",
+      "checks": [
+        {
+          "status": "PASS"
+        },
+        {
+          "status": "SKIPPED"
+        }
+      ],
+      "command": {
+        "argv": [
+          "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\build\\mldsa87_keygen\\native_mldsa87_keygen_adapter_test",
+          "64",
+          "0",
+          "1",
+          "0x20261020"
+        ],
+        "exit_code": 0,
+        "stderr": {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_keygen\\seed-0000000020261020\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_keygen\\seed-0000000020261020\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        "timed_out": false
+      },
+      "exit_code": 0,
+      "level": 87,
+      "message_bytes": null,
+      "module_sha256": "1db0bb0e767d2149638662122f8cddbe01dbe94eee22a5d9abadbff3e79b979d",
+      "operation": "keygen",
+      "reference_archive_sha256": "eb3ea94ce19ad920cc4fb3d5a254bb6748ed531f4249bfe53c3e1518d246f99c",
+      "seed": 539365408,
+      "status": "PASS",
+      "test_executable_sha256": "87adc34a1f58673edd796eb21783142a57a3444728b47b4e41c08ec93ea85484",
+      "validation_errors": []
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_sign\\seed-0000000020261018\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_sign\\seed-0000000020261018\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "bytes": 19,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_sign\\seed-0000000020261018\\blob.bin",
+          "sha256": "8ae05f6ddc6a48e1c2721ef521f67b9d62b4057bed648660b763962098492765"
+        }
+      ],
+      "batch": 256,
+      "case_id": "seed-0000000020261018",
+      "cell_id": "mldsa87_sign",
+      "checks": [
+        {
+          "status": "PASS"
+        },
+        {
+          "status": "SKIPPED"
+        }
+      ],
+      "command": {
+        "argv": [
+          "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\build\\mldsa87_sign\\native_mldsa87_sign_adapter_test",
+          "256",
+          "0",
+          "1",
+          "default-owner",
+          "0x20261018",
+          "0",
+          "unified",
+          "32",
+          "0"
+        ],
+        "exit_code": 0,
+        "stderr": {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_sign\\seed-0000000020261018\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_sign\\seed-0000000020261018\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        "timed_out": false
+      },
+      "exit_code": 0,
+      "level": 87,
+      "message_bytes": 32,
+      "module_sha256": "f1a1aa4948e4a6dfb1ac2707dcb4cc0f68f0486efd640769ed85f6303756483d",
+      "operation": "sign",
+      "reference_archive_sha256": "eb3ea94ce19ad920cc4fb3d5a254bb6748ed531f4249bfe53c3e1518d246f99c",
+      "seed": 539365400,
+      "status": "PASS",
+      "test_executable_sha256": "dc0fc4f526ec5045baed16328cc1da04c017c65bde7962fa42c4fbd67a950fae",
+      "validation_errors": []
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_sign\\seed-0000000020261019\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_sign\\seed-0000000020261019\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "bytes": 19,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_sign\\seed-0000000020261019\\blob.bin",
+          "sha256": "8ae05f6ddc6a48e1c2721ef521f67b9d62b4057bed648660b763962098492765"
+        }
+      ],
+      "batch": 256,
+      "case_id": "seed-0000000020261019",
+      "cell_id": "mldsa87_sign",
+      "checks": [
+        {
+          "status": "PASS"
+        },
+        {
+          "status": "SKIPPED"
+        }
+      ],
+      "command": {
+        "argv": [
+          "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\build\\mldsa87_sign\\native_mldsa87_sign_adapter_test",
+          "256",
+          "0",
+          "1",
+          "default-owner",
+          "0x20261019",
+          "0",
+          "unified",
+          "32",
+          "0"
+        ],
+        "exit_code": 0,
+        "stderr": {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_sign\\seed-0000000020261019\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_sign\\seed-0000000020261019\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        "timed_out": false
+      },
+      "exit_code": 0,
+      "level": 87,
+      "message_bytes": 32,
+      "module_sha256": "f1a1aa4948e4a6dfb1ac2707dcb4cc0f68f0486efd640769ed85f6303756483d",
+      "operation": "sign",
+      "reference_archive_sha256": "eb3ea94ce19ad920cc4fb3d5a254bb6748ed531f4249bfe53c3e1518d246f99c",
+      "seed": 539365401,
+      "status": "PASS",
+      "test_executable_sha256": "dc0fc4f526ec5045baed16328cc1da04c017c65bde7962fa42c4fbd67a950fae",
+      "validation_errors": []
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_sign\\seed-0000000020261020\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_sign\\seed-0000000020261020\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "bytes": 19,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_sign\\seed-0000000020261020\\blob.bin",
+          "sha256": "8ae05f6ddc6a48e1c2721ef521f67b9d62b4057bed648660b763962098492765"
+        }
+      ],
+      "batch": 256,
+      "case_id": "seed-0000000020261020",
+      "cell_id": "mldsa87_sign",
+      "checks": [
+        {
+          "status": "PASS"
+        },
+        {
+          "status": "SKIPPED"
+        }
+      ],
+      "command": {
+        "argv": [
+          "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\build\\mldsa87_sign\\native_mldsa87_sign_adapter_test",
+          "256",
+          "0",
+          "1",
+          "default-owner",
+          "0x20261020",
+          "0",
+          "unified",
+          "32",
+          "0"
+        ],
+        "exit_code": 0,
+        "stderr": {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_sign\\seed-0000000020261020\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_sign\\seed-0000000020261020\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        "timed_out": false
+      },
+      "exit_code": 0,
+      "level": 87,
+      "message_bytes": 32,
+      "module_sha256": "f1a1aa4948e4a6dfb1ac2707dcb4cc0f68f0486efd640769ed85f6303756483d",
+      "operation": "sign",
+      "reference_archive_sha256": "eb3ea94ce19ad920cc4fb3d5a254bb6748ed531f4249bfe53c3e1518d246f99c",
+      "seed": 539365408,
+      "status": "PASS",
+      "test_executable_sha256": "dc0fc4f526ec5045baed16328cc1da04c017c65bde7962fa42c4fbd67a950fae",
+      "validation_errors": []
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_verify\\fixed-corpus\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_verify\\fixed-corpus\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "bytes": 19,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_verify\\fixed-corpus\\blob.bin",
+          "sha256": "8ae05f6ddc6a48e1c2721ef521f67b9d62b4057bed648660b763962098492765"
+        }
+      ],
+      "batch": 256,
+      "case_id": "fixed-corpus",
+      "cell_id": "mldsa87_verify",
+      "checks": [
+        {
+          "status": "PASS"
+        },
+        {
+          "status": "SKIPPED"
+        }
+      ],
+      "command": {
+        "argv": [
+          "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\build\\mldsa87_verify\\native_mldsa87_verify_adapter_test",
+          "256",
+          "0",
+          "1"
+        ],
+        "exit_code": 0,
+        "stderr": {
+          "bytes": 0,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_verify\\fixed-corpus\\test.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 9,
+          "path": "E:\\\u5bc6\u7801\u7ade\u8d5b\\5090\u5b9e\u9a8c\u7ed3\u679c_20261019\\scripts\\autonomous_20261020\\selftest_e3q\\9a2e28bc\\server\\runs\\fresh-v2\\02_correctness\\raw\\mldsa87_verify\\fixed-corpus\\test.stdout.txt",
+          "sha256": "5dc583fb453234b01dd55ec01b7a5128f1a68def6e0dee06b3d59ad1b61869c3"
+        },
+        "timed_out": false
+      },
+      "exit_code": 0,
+      "level": 87,
+      "message_bytes": 32,
+      "module_sha256": "3e92746ed3f27ff024652bde2f3006249d4e7126d8a166342746074ad38641e1",
+      "operation": "verify",
+      "reference_archive_sha256": "eb3ea94ce19ad920cc4fb3d5a254bb6748ed531f4249bfe53c3e1518d246f99c",
+      "seed": null,
+      "status": "PASS",
+      "test_executable_sha256": "04b2c0c88917ccb4f04d1adea544e75b38254790e1333cce0993f2784593f0c9",
+      "validation_errors": []
+    }
+  ],
+  "cell_count": 9,
+  "passed_cases": 21,
+  "status": "SMALL_BATCH_ADAPTER_CORRECTNESS_PASS"
+}

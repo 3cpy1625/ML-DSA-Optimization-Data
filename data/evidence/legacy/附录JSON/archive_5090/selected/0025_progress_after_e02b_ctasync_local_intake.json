@@ -1,0 +1,21 @@
+{
+  "recorded_utc": "2026-10-19T19:04:32.078882+00:00",
+  "current_category": "E02",
+  "candidate_run": "e02b-ctasync-20261019T185335197244Z-672804",
+  "status": "ALL_42_EXPORTED_FILES_VERIFIED_FOUR_HANDOFF_STATIC_BARRIER_GATE_PASS",
+  "report": {
+    "path": "server_results/e02b_ctasync/e02b-ctasync-20261019T185335197244Z-672804/LOCAL_INTAKE_VERIFICATION.json",
+    "bytes": 13956,
+    "sha256": "8042a15d6c24596cd3a225a3e521ce17ccab427aa09bc0e945919ceaf8d8587a"
+  },
+  "original_finding": "UNRESOLVED",
+  "original_e02b_counts": {
+    "pass": 30,
+    "finding": 1,
+    "not_run": 17
+  },
+  "candidate_gpu_validation": "NOT_RUN",
+  "next_action": "PREPARE_ONE_ORIGINAL_FAILURE_RACECHECK_REPLAY_WITH_CANDIDATE",
+  "full_e02_complete": false,
+  "formal_performance_collected": false
+}

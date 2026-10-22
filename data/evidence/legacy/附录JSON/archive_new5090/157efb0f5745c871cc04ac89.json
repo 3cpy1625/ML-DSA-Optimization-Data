@@ -1,0 +1,61 @@
+{
+  "cmake_base_argv": [
+    "/home/lsb/mldsa-experiments-5090/tools/python312/bin/cmake",
+    "-G",
+    "Ninja",
+    "-S",
+    "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/sources/measurement-20261019T220538869962Z/MAINLINE",
+    "-DCMAKE_MAKE_PROGRAM=/home/lsb/mldsa-experiments-5090/tools/python312/bin/ninja",
+    "-DPython3_EXECUTABLE=/usr/bin/python3.12",
+    "-DCMAKE_C_COMPILER=/usr/bin/gcc",
+    "-DCMAKE_CXX_COMPILER=/usr/bin/g++",
+    "-DCMAKE_CUDA_COMPILER=/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/bin/nvcc",
+    "-DCMAKE_BUILD_TYPE=Release",
+    "-DCMAKE_CUDA_ARCHITECTURES=120",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON",
+    "-DLOCE_USE_EMBEDDED_NATIVE_SOURCES=ON",
+    "-DLOCE_BUILD_NATIVE_MLKEM=OFF",
+    "-DLOCE_BUILD_TESTS=OFF",
+    "-DLOCE_BUILD_EXAMPLES=OFF",
+    "-DLOCE_BUILD_UNIFIED_INTEGRATION=OFF",
+    "-DLOCE_BENCHMARK_PRE_SYNC_COMPLETION_EVENT=ON",
+    "-DLOCE_MODULE_REGISTRY_JSON=/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/config/mldsa_registry.json",
+    "-DLOCE_ALLOW_PARTIAL_MODULE_REGISTRY=ON",
+    "-B",
+    "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/build/mldsa87_keygen",
+    "-DLOCE_MLDSA_MODE=5",
+    "-DLOCE_BUILD_BENCHMARKS=OFF",
+    "-DLOCE_BUILD_NATIVE_MLDSA_SIGN=OFF",
+    "-DLOCE_BUILD_NATIVE_MLDSA_NONSIGN=ON",
+    "-DLOCE_MLDSA_NONSIGN_VARIANT=D3_KEYGEN",
+    "-DLOCE_MLDSA_SIGN_VARIANT=D4_SIGN",
+    "-DCMAKE_CUDA_FLAGS=--Ofast-compile=min"
+  ],
+  "compiler_flags": [
+    "--Ofast-compile=min"
+  ],
+  "correctness_gate_sha256": "273e81f882a815c51f23ffd5aba8b441c8f695d8b2380b0a29bee2ccb8643ae8",
+  "diagnostic_object_reused": false,
+  "measurement_family": "MLDSA-E03-V3-CTA-SM120-20261020",
+  "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064",
+  "registry_row": {
+    "algorithm": "ML-DSA",
+    "build_target": "loce_mldsa87_keygen_d3_sm120_adapter",
+    "contract_id": "ML-DSA-Level5-KeyGen",
+    "execution_path": "sm120-family-pipeline",
+    "level": 5,
+    "module_filename": "libloce_mldsa87_keygen_d3_sm120.so",
+    "module_logical_id": "mldsa87-keygen-d3-sm120-native",
+    "operation": "KeyGen",
+    "parameter_set": "87",
+    "policy_registry_id": "MLDSA-87-KEYGEN-D3"
+  },
+  "schema": "mldsa.e03.sm120.module-build.v1",
+  "selected_registry_sha256": "cd64d6312180440572ba5383a184bddd890e2a5f5c0c20a1ae7b91bd0b55f528",
+  "source_compilation_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+  "toolchain": {
+    "cmake": "cmake version 3.28.3\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).\n",
+    "cxx": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+    "nvcc": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2025 NVIDIA Corporation\nBuilt on Tue_May_27_02:21:03_PDT_2025\nCuda compilation tools, release 12.9, V12.9.86\nBuild cuda_12.9.r12.9/compiler.36037853_0\n"
+  }
+}

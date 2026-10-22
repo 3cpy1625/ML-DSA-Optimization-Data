@@ -1,0 +1,7 @@
+operation,sample,elapsed_ms
+keygen,0,1.098428
+keygen,1,1.0960510000000001
+sign,0,5.9974639999999999
+sign,1,6.010567
+verify,0,1.0309569999999999
+verify,1,1.039436

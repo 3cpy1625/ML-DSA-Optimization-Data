@@ -1,0 +1,31 @@
+{
+  "schema": "mldsa5090-progress-e02a-wait-v2-v1",
+  "recorded_utc": "2026-10-19T15:53:02.701605+00:00",
+  "completed_major_categories": [
+    "E00",
+    "E01"
+  ],
+  "remaining_major_category_count": 13,
+  "current_category": "E02",
+  "v1_e02a": {
+    "run_id": "e02a-tail-empty-20261019T151850070927Z-638743",
+    "status": "E02A_STOPPED",
+    "observed_passed_cases": 16,
+    "observed_failed_cases": 0,
+    "reason": "GPU_BUSY precheck; another python3 process used about 500 MiB",
+    "evidence": "screenshots/18_e02a_busy_process_confirmed_gpu_now_idle.png",
+    "evidence_kind": "USER_RETURNED_SCREENSHOT; raw V1 server archive not yet received"
+  },
+  "v2_e02a": {
+    "status": "LOCAL_CPU_MOCK_PASS_SERVER_PENDING",
+    "script": "scripts/run_5090_e02a_wait_v2.py",
+    "script_sha256": "1bf451a7b4e575f41fa4b26ab518219ecb871a942d495cfdf7f30c49039aacf6",
+    "planned_cases": 234,
+    "fresh_run": true,
+    "per_precheck_busy_limit_seconds": 900,
+    "total_busy_wait_limit_seconds": 1800,
+    "idle_thresholds_unchanged": true,
+    "algorithm_commands_retried": false
+  },
+  "formal_performance": "NOT_COLLECTED"
+}

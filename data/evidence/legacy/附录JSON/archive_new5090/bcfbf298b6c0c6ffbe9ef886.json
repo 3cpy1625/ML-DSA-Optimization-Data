@@ -1,0 +1,161 @@
+{
+  "version": 6,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 20,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "base",
+      "hidden": true,
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/out/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_CUDA_ARCHITECTURES": "120",
+        "LOCE_PQCLEAN_ROOT": "$env{LOCE_PQCLEAN_ROOT}",
+        "LOCE_PQMAGIC_LIBRARY": "$env{LOCE_PQMAGIC_LIBRARY}",
+        "LOCE_PQMAGIC_INCLUDE_DIR": "$env{LOCE_PQMAGIC_INCLUDE_DIR}",
+        "LOCE_FIPS203_K2_BUILD_DIR": "$env{LOCE_FIPS203_K2_BUILD_DIR}",
+        "LOCE_FIPS203_K3_BUILD_DIR": "$env{LOCE_FIPS203_K3_BUILD_DIR}",
+        "LOCE_FIPS203_K4_BUILD_DIR": "$env{LOCE_FIPS203_K4_BUILD_DIR}"
+      }
+    },
+    {
+      "name": "sm120-release",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "sm120-debug",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "sm120-sanitizer",
+      "inherits": "sm120-debug",
+      "cacheVariables": {
+        "CMAKE_CXX_FLAGS": "-fsanitize=address,undefined -fno-omit-frame-pointer",
+        "CMAKE_EXE_LINKER_FLAGS": "-fsanitize=address,undefined"
+      }
+    },
+    {
+      "name": "correctness-full",
+      "inherits": "sm120-release",
+      "cacheVariables": {
+        "LOCE_BUILD_TESTS": "ON",
+        "LOCE_BUILD_UNIFIED_INTEGRATION": "ON",
+        "LOCE_USE_EMBEDDED_NATIVE_SOURCES": "ON"
+      }
+    },
+    {
+      "name": "benchmark-release",
+      "inherits": "sm120-release",
+      "cacheVariables": {
+        "LOCE_BUILD_TESTS": "OFF",
+        "LOCE_BUILD_EXAMPLES": "OFF",
+        "LOCE_BUILD_BENCHMARKS": "ON"
+      }
+    },
+    {
+      "name": "h008-native-module-sm120",
+      "inherits": "sm120-release",
+      "cacheVariables": {
+        "CMAKE_CUDA_ARCHITECTURES": "120",
+        "LOCE_BUILD_NATIVE_MLKEM": "ON",
+        "LOCE_BUILD_NATIVE_MLDSA_NONSIGN": "ON",
+        "LOCE_BUILD_NATIVE_MLDSA_SIGN": "ON",
+        "LOCE_BUILD_UNIFIED_INTEGRATION": "OFF",
+        "LOCE_BUILD_BENCHMARKS": "OFF",
+        "LOCE_BUILD_TESTS": "ON",
+        "LOCE_BUILD_EXAMPLES": "OFF",
+        "LOCE_USE_EMBEDDED_NATIVE_SOURCES": "ON",
+        "LOCE_REQUIRE_SEALED_MODULE_ATTESTATION": "OFF"
+      }
+    },
+    {
+      "name": "h008-complete-sm120",
+      "inherits": "sm120-release",
+      "cacheVariables": {
+        "CMAKE_CUDA_ARCHITECTURES": "120",
+        "LOCE_BUILD_NATIVE_MLKEM": "ON",
+        "LOCE_BUILD_NATIVE_MLDSA_NONSIGN": "ON",
+        "LOCE_BUILD_NATIVE_MLDSA_SIGN": "ON",
+        "LOCE_BUILD_UNIFIED_INTEGRATION": "ON",
+        "LOCE_BUILD_TESTS": "ON",
+        "LOCE_BUILD_BENCHMARKS": "ON",
+        "LOCE_BUILD_EXAMPLES": "OFF",
+        "LOCE_USE_EMBEDDED_NATIVE_SOURCES": "ON",
+        "LOCE_REQUIRE_SEALED_MODULE_ATTESTATION": "ON"
+      }
+    },
+    {
+      "name": "h008-correctness-sm120",
+      "inherits": "h008-complete-sm120",
+      "cacheVariables": {
+        "LOCE_BUILD_BENCHMARKS": "OFF"
+      }
+    },
+    {
+      "name": "h008-performance-sm120",
+      "inherits": "h008-complete-sm120",
+      "cacheVariables": {
+        "LOCE_BUILD_TESTS": "OFF",
+        "LOCE_BUILD_BENCHMARKS": "ON"
+      }
+    },
+    {
+      "name": "h008-sealed-integration-sm120",
+      "inherits": "h008-complete-sm120",
+      "cacheVariables": {
+        "LOCE_BUILD_NATIVE_MLKEM": "OFF",
+        "LOCE_BUILD_NATIVE_MLDSA_NONSIGN": "OFF",
+        "LOCE_BUILD_NATIVE_MLDSA_SIGN": "OFF",
+        "LOCE_BUILD_TESTS": "ON",
+        "LOCE_BUILD_UNIFIED_INTEGRATION": "ON",
+        "LOCE_BUILD_BENCHMARKS": "ON"
+      }
+    },
+    {
+      "name": "h008-finalized-sm120",
+      "inherits": "h008-sealed-integration-sm120",
+      "cacheVariables": {
+        "LOCE_REQUIRE_BOUND_MODULE_PROVENANCE": "ON"
+      }
+    }
+  ],
+  "buildPresets": [
+    { "name": "sm120-release", "configurePreset": "sm120-release" },
+    { "name": "sm120-debug", "configurePreset": "sm120-debug" },
+    { "name": "sm120-sanitizer", "configurePreset": "sm120-sanitizer" },
+    { "name": "correctness-full", "configurePreset": "correctness-full" },
+    { "name": "benchmark-release", "configurePreset": "benchmark-release" },
+    { "name": "h008-native-module-sm120", "configurePreset": "h008-native-module-sm120" },
+    { "name": "h008-complete-sm120", "configurePreset": "h008-complete-sm120" },
+    { "name": "h008-correctness-sm120", "configurePreset": "h008-correctness-sm120" },
+    { "name": "h008-performance-sm120", "configurePreset": "h008-performance-sm120" },
+    { "name": "h008-sealed-integration-sm120", "configurePreset": "h008-sealed-integration-sm120" },
+    { "name": "h008-finalized-sm120", "configurePreset": "h008-finalized-sm120" }
+  ],
+  "testPresets": [
+    {
+      "name": "sm120-release",
+      "configurePreset": "sm120-release",
+      "output": { "outputOnFailure": true }
+    },
+    {
+      "name": "correctness-full",
+      "configurePreset": "correctness-full",
+      "output": { "outputOnFailure": true }
+    },
+    {
+      "name": "h008-complete-sm120",
+      "configurePreset": "h008-complete-sm120",
+      "output": { "outputOnFailure": true }
+    }
+  ]
+}

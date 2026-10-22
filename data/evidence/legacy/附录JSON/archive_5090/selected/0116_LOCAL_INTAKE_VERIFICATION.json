@@ -1,0 +1,1240 @@
+{
+  "schema": "ntt-polynomial-independent-intake.5090.v1",
+  "status": "NTT_POLYNOMIAL_5090_LOCAL_INTAKE_PASS_WITH_EXPLICIT_SCOPE_LIMITS",
+  "archive": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\ntt_polynomial\\ntt_polynomial_5090_20261019T214025766726Z-ba631f39_ade1cd68.tar.gz",
+  "archive_sha256": "f09a3589f8e08ce16446d007034c7c12df6c2012da0a56ce1d125b200a70e7cf",
+  "archive_bytes": 2320727078,
+  "run_id": "20261019T214025766726Z-ba631f39",
+  "runner_sha256": "62aa498d0486215050486018f6705d685474b4802ca64011fceab5c5c0cbcbc5",
+  "archive_sidecar_sha256_present_and_matches_external_expected": true,
+  "manifest": {
+    "members": 814,
+    "included_artifacts": 813,
+    "all_bytes_and_sha256_verified": true,
+    "omitted_artifacts": 0,
+    "uncompressed_bytes": 4785851472
+  },
+  "counts": {
+    "timing_samples": 7290,
+    "process_variant_rows": 486,
+    "cell_variant_rows": 162,
+    "paired_ratio_rows": 459,
+    "processes": 27,
+    "check_records": 972
+  },
+  "output_files_independently_matched_to_cpu_oracle": 486,
+  "sealed_donor_extraction_and_generated_CUDA_source_reproduced": true,
+  "all_three_recorded_CUDA_compile_commands_match_expected": true,
+  "all_four_csv_tables_independently_reconstructed": true,
+  "execution_intervals_nonoverlapping": true,
+  "native_execution_records_verified": 35,
+  "native_gpu_uuid": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+  "compute_capability": [
+    12,
+    0
+  ],
+  "native_cuda_target": "sm_120",
+  "native_nvcc_version": "12.9.86",
+  "source_input_manifest_sha256": "46d80265fcfad7a6cfe992b33f8c8329b8f9dcec705eddfb4d35894b7bf3d276",
+  "source_files_independently_rehashed_against_local_original": 5,
+  "source_identity_pre_post_final_equal": true,
+  "original_source_identity_scope": "Exactly five sealed donor files; no full 1075-file identity or nine-DSO V3 dependency is claimed by this NTT experiment.",
+  "local_port_enable_review_files": {
+    "PORT_METADATA.json": {
+      "bytes": 2588,
+      "sha256": "a1f50fa26915d07773b286ca7b1c4c1c43f16788923f2725450a5ae115cff51d",
+      "contents": {
+        "status": "DRAFT_LOCAL_ONLY",
+        "source_controller": "E:\\密码竞赛\\output\\MLDSA_4090_Experiments\\4090_ntt_polynomial_chain\\run_4090_ntt_polynomial.py",
+        "source_controller_sha256": "39b152000aea51bcceca1aca0584f39daf39981c87329d5d2aa8ac8d60bbfab5",
+        "draft_file": "run_5090_ntt_polynomial_native.draft.py",
+        "draft_sha256": "0b8a178e851b57a7766c53b176cd40c54e5e06e038dc78edea2bda18b76b1701",
+        "source_input_manifest_sha256": "46d80265fcfad7a6cfe992b33f8c8329b8f9dcec705eddfb4d35894b7bf3d276",
+        "cuda_template_changes": [
+          [
+            "if(prop.major!=8||prop.minor!=9||std::string(prop.name).find(\"RTX 4090\")==std::string::npos)",
+            "if(prop.major!=12||prop.minor!=0||std::string(prop.name).find(\"RTX 5090\")==std::string::npos)"
+          ],
+          [
+            "expected RTX 4090 CC8.9",
+            "expected RTX 5090 CC12.0"
+          ],
+          [
+            "<<\",0,8,9,\"<<uuid.str()",
+            "<<\",0,12,0,\"<<uuid.str()"
+          ]
+        ],
+        "preserved_functions": [
+          "now",
+          "identifier",
+          "sha",
+          "write",
+          "load",
+          "fact",
+          "safe_path",
+          "make_directory",
+          "environment",
+          "is_idle",
+          "wait_idle",
+          "post_idle_guard",
+          "check_space",
+          "verify_fact",
+          "schedule",
+          "table",
+          "acc",
+          "ma",
+          "mb",
+          "tables",
+          "unpack",
+          "mm",
+          "tensor",
+          "ntt",
+          "intt",
+          "variant_ids",
+          "backend_name",
+          "strip_cpp",
+          "extract_function",
+          "extract_donor",
+          "cpu_pair",
+          "schoolbook",
+          "self_test",
+          "check_tensor_tables",
+          "prepare_corpora",
+          "validate_artifacts",
+          "planned_artifact_bytes",
+          "summarize"
+        ],
+        "backend_semantics": "Reference shared radix2 / donor shared radix2 / donor radix8 registers+shared / donor tensor24; never labelled Shuffle.",
+        "server_execution_enabled": false,
+        "cuda_compilation_tested": false,
+        "gpu_executed": false,
+        "review_required": [
+          "Independent 5090 review of source seal, native toolkit/linker paths, own-child-group cleanup and sm120 compiler compatibility."
+        ],
+        "parent_draft_sha256": "279caffabe7c3e81cf6d91d330beff8b50c3389772d5173cb87d6c814d0e2f4b",
+        "host_repairs": [
+          "canonical symlink-rejecting export paths and exclusive/atomic file writes",
+          "preinstalled deferred handlers and cleanup scope includes Popen and initialization",
+          "keep outer deferred cancellation handlers active throughout owned-group postcheck and cleanup"
+        ],
+        "changed_functions_from_v2": [
+          "finish_native_owned_group"
+        ],
+        "all_other_module_AST_unchanged_from_v2": true
+      }
+    },
+    "ROOT_ENABLE_REVIEW.json": {
+      "bytes": 1148,
+      "sha256": "7817dbc6498c0f791413a0336be9ef95e28169b0c7add471787a3c350d283ccf",
+      "contents": {
+        "status": "ROOT_NATIVE_PORT_AND_EXPORT_CPU_REVIEW_PASS",
+        "draft_sha256": "0b8a178e851b57a7766c53b176cd40c54e5e06e038dc78edea2bda18b76b1701",
+        "enabled_sha256": "62aa498d0486215050486018f6705d685474b4802ca64011fceab5c5c0cbcbc5",
+        "cuda_and_algorithms_unchanged": true,
+        "changes": [
+          "enable reviewed native port",
+          "reuse reviewed SHAKE single-archive pack with full member hash readback",
+          "remove redundant latest archive copy, keep JSON pointer",
+          "reduce conservative storage reservation consistently with one archive"
+        ],
+        "root_reviewed_signal_v3": true,
+        "claims_scope": "Five sealed donor inputs; standalone NTT/INTT/pointwise/single-row polynomial dot chain. No full API or K-row reuse claim.",
+        "cuda_compilation_tested": false,
+        "gpu_executed": false,
+        "root_cpu_oracle_checks": 280,
+        "root_baseline_mock_checks": 94,
+        "root_signal_scenarios": 77,
+        "root_signal_checks": 636,
+        "root_real_export_roundtrip_pass": true,
+        "raw_planned_bytes": 4779409408,
+        "initial_required_bytes": 10632560640,
+        "fixture": "E:\\密码竞赛\\work\\ntt_export_qa_15cd4c18645046dcbe138eed5fcefe94"
+      }
+    }
+  },
+  "review_script_sha256": "0999c05aaae8a597a5db61b996dbf0ba1830046fed667faf0f4f73d6970be70c",
+  "scanner_sha256": "fd0b4c824c75c63dd67cac5c13813962b9f46ac2cc2780007f77f92fd7a2ca2a",
+  "prelaunch_busy_samples_resolved_by_quiet_wait": [],
+  "post_utilization_settling_samples": [
+    {
+      "job": "jobs/p44_b4096_block0",
+      "sample": {
+        "time_utc": "2026-10-19T21:40:57.381383+00:00",
+        "gpu": {
+          "uuid": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+          "name": "NVIDIA GeForce RTX 5090",
+          "driver_version": "595.99.02",
+          "utilization.gpu": "10",
+          "memory.used": "2",
+          "temperature.gpu": "33",
+          "power.draw": "48.80",
+          "clocks.sm": "2527",
+          "clocks.mem": "14001"
+        },
+        "compute_processes": []
+      }
+    },
+    {
+      "job": "jobs/p44_b16384_block0",
+      "sample": {
+        "time_utc": "2026-10-19T21:41:23.121020+00:00",
+        "gpu": {
+          "uuid": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+          "name": "NVIDIA GeForce RTX 5090",
+          "driver_version": "595.99.02",
+          "utilization.gpu": "5",
+          "memory.used": "2",
+          "temperature.gpu": "34",
+          "power.draw": "65.26",
+          "clocks.sm": "2490",
+          "clocks.mem": "14001"
+        },
+        "compute_processes": []
+      }
+    },
+    {
+      "job": "jobs/p65_b4096_block0",
+      "sample": {
+        "time_utc": "2026-10-19T21:41:36.021761+00:00",
+        "gpu": {
+          "uuid": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+          "name": "NVIDIA GeForce RTX 5090",
+          "driver_version": "595.99.02",
+          "utilization.gpu": "8",
+          "memory.used": "2",
+          "temperature.gpu": "34",
+          "power.draw": "43.10",
+          "clocks.sm": "2535",
+          "clocks.mem": "14001"
+        },
+        "compute_processes": []
+      }
+    },
+    {
+      "job": "jobs/p65_b8192_block0",
+      "sample": {
+        "time_utc": "2026-10-19T21:41:48.813258+00:00",
+        "gpu": {
+          "uuid": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+          "name": "NVIDIA GeForce RTX 5090",
+          "driver_version": "595.99.02",
+          "utilization.gpu": "3",
+          "memory.used": "2",
+          "temperature.gpu": "34",
+          "power.draw": "53.38",
+          "clocks.sm": "2505",
+          "clocks.mem": "14001"
+        },
+        "compute_processes": []
+      }
+    },
+    {
+      "job": "jobs/p65_b16384_block0",
+      "sample": {
+        "time_utc": "2026-10-19T21:42:02.188145+00:00",
+        "gpu": {
+          "uuid": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+          "name": "NVIDIA GeForce RTX 5090",
+          "driver_version": "595.99.02",
+          "utilization.gpu": "8",
+          "memory.used": "2",
+          "temperature.gpu": "35",
+          "power.draw": "100.19",
+          "clocks.sm": "2505",
+          "clocks.mem": "14001"
+        },
+        "compute_processes": []
+      }
+    },
+    {
+      "job": "jobs/p87_b16384_block0",
+      "sample": {
+        "time_utc": "2026-10-19T21:42:40.634203+00:00",
+        "gpu": {
+          "uuid": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+          "name": "NVIDIA GeForce RTX 5090",
+          "driver_version": "595.99.02",
+          "utilization.gpu": "7",
+          "memory.used": "2",
+          "temperature.gpu": "35",
+          "power.draw": "72.32",
+          "clocks.sm": "2527",
+          "clocks.mem": "14001"
+        },
+        "compute_processes": []
+      }
+    },
+    {
+      "job": "jobs/p87_b16384_block1",
+      "sample": {
+        "time_utc": "2026-10-19T21:42:54.275732+00:00",
+        "gpu": {
+          "uuid": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+          "name": "NVIDIA GeForce RTX 5090",
+          "driver_version": "595.99.02",
+          "utilization.gpu": "12",
+          "memory.used": "2",
+          "temperature.gpu": "35",
+          "power.draw": "108.40",
+          "clocks.sm": "2422",
+          "clocks.mem": "14001"
+        },
+        "compute_processes": []
+      }
+    },
+    {
+      "job": "jobs/p87_b8192_block1",
+      "sample": {
+        "time_utc": "2026-10-19T21:43:07.483532+00:00",
+        "gpu": {
+          "uuid": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+          "name": "NVIDIA GeForce RTX 5090",
+          "driver_version": "595.99.02",
+          "utilization.gpu": "6",
+          "memory.used": "2",
+          "temperature.gpu": "35",
+          "power.draw": "68.06",
+          "clocks.sm": "2520",
+          "clocks.mem": "14001"
+        },
+        "compute_processes": []
+      }
+    },
+    {
+      "job": "jobs/p65_b8192_block1",
+      "sample": {
+        "time_utc": "2026-10-19T21:43:45.879966+00:00",
+        "gpu": {
+          "uuid": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+          "name": "NVIDIA GeForce RTX 5090",
+          "driver_version": "595.99.02",
+          "utilization.gpu": "9",
+          "memory.used": "2",
+          "temperature.gpu": "34",
+          "power.draw": "55.72",
+          "clocks.sm": "2460",
+          "clocks.mem": "14001"
+        },
+        "compute_processes": []
+      }
+    },
+    {
+      "job": "jobs/p65_b4096_block1",
+      "sample": {
+        "time_utc": "2026-10-19T21:43:58.585550+00:00",
+        "gpu": {
+          "uuid": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+          "name": "NVIDIA GeForce RTX 5090",
+          "driver_version": "595.99.02",
+          "utilization.gpu": "15",
+          "memory.used": "2",
+          "temperature.gpu": "34",
+          "power.draw": "44.56",
+          "clocks.sm": "2542",
+          "clocks.mem": "14001"
+        },
+        "compute_processes": []
+      }
+    },
+    {
+      "job": "jobs/p44_b8192_block1",
+      "sample": {
+        "time_utc": "2026-10-19T21:44:24.553183+00:00",
+        "gpu": {
+          "uuid": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+          "name": "NVIDIA GeForce RTX 5090",
+          "driver_version": "595.99.02",
+          "utilization.gpu": "5",
+          "memory.used": "2",
+          "temperature.gpu": "34",
+          "power.draw": "53.82",
+          "clocks.sm": "2460",
+          "clocks.mem": "14001"
+        },
+        "compute_processes": []
+      }
+    },
+    {
+      "job": "jobs/p44_b4096_block1",
+      "sample": {
+        "time_utc": "2026-10-19T21:44:37.372261+00:00",
+        "gpu": {
+          "uuid": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+          "name": "NVIDIA GeForce RTX 5090",
+          "driver_version": "595.99.02",
+          "utilization.gpu": "3",
+          "memory.used": "2",
+          "temperature.gpu": "34",
+          "power.draw": "45.17",
+          "clocks.sm": "2512",
+          "clocks.mem": "14001"
+        },
+        "compute_processes": []
+      }
+    },
+    {
+      "job": "jobs/p65_b8192_block2",
+      "sample": {
+        "time_utc": "2026-10-19T21:44:50.076931+00:00",
+        "gpu": {
+          "uuid": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+          "name": "NVIDIA GeForce RTX 5090",
+          "driver_version": "595.99.02",
+          "utilization.gpu": "8",
+          "memory.used": "2",
+          "temperature.gpu": "34",
+          "power.draw": "50.14",
+          "clocks.sm": "2527",
+          "clocks.mem": "14001"
+        },
+        "compute_processes": []
+      }
+    },
+    {
+      "job": "jobs/p65_b16384_block2",
+      "sample": {
+        "time_utc": "2026-10-19T21:45:03.268398+00:00",
+        "gpu": {
+          "uuid": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+          "name": "NVIDIA GeForce RTX 5090",
+          "driver_version": "595.99.02",
+          "utilization.gpu": "8",
+          "memory.used": "2",
+          "temperature.gpu": "35",
+          "power.draw": "84.76",
+          "clocks.sm": "2422",
+          "clocks.mem": "14001"
+        },
+        "compute_processes": []
+      }
+    },
+    {
+      "job": "jobs/p87_b4096_block2",
+      "sample": {
+        "time_utc": "2026-10-19T21:45:16.376528+00:00",
+        "gpu": {
+          "uuid": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+          "name": "NVIDIA GeForce RTX 5090",
+          "driver_version": "595.99.02",
+          "utilization.gpu": "8",
+          "memory.used": "2",
+          "temperature.gpu": "34",
+          "power.draw": "58.48",
+          "clocks.sm": "2520",
+          "clocks.mem": "14001"
+        },
+        "compute_processes": []
+      }
+    },
+    {
+      "job": "jobs/p87_b16384_block2",
+      "sample": {
+        "time_utc": "2026-10-19T21:45:42.031191+00:00",
+        "gpu": {
+          "uuid": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+          "name": "NVIDIA GeForce RTX 5090",
+          "driver_version": "595.99.02",
+          "utilization.gpu": "7",
+          "memory.used": "2",
+          "temperature.gpu": "35",
+          "power.draw": "73.12",
+          "clocks.sm": "2422",
+          "clocks.mem": "14001"
+        },
+        "compute_processes": []
+      }
+    },
+    {
+      "job": "jobs/p44_b4096_block2",
+      "sample": {
+        "time_utc": "2026-10-19T21:45:55.093323+00:00",
+        "gpu": {
+          "uuid": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+          "name": "NVIDIA GeForce RTX 5090",
+          "driver_version": "595.99.02",
+          "utilization.gpu": "4",
+          "memory.used": "2",
+          "temperature.gpu": "34",
+          "power.draw": "43.57",
+          "clocks.sm": "2505",
+          "clocks.mem": "14001"
+        },
+        "compute_processes": []
+      }
+    },
+    {
+      "job": "jobs/p44_b8192_block2",
+      "sample": {
+        "time_utc": "2026-10-19T21:46:07.833388+00:00",
+        "gpu": {
+          "uuid": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+          "name": "NVIDIA GeForce RTX 5090",
+          "driver_version": "595.99.02",
+          "utilization.gpu": "4",
+          "memory.used": "2",
+          "temperature.gpu": "34",
+          "power.draw": "49.85",
+          "clocks.sm": "2520",
+          "clocks.mem": "14001"
+        },
+        "compute_processes": []
+      }
+    },
+    {
+      "job": "jobs/p44_b16384_block2",
+      "sample": {
+        "time_utc": "2026-10-19T21:46:21.062181+00:00",
+        "gpu": {
+          "uuid": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+          "name": "NVIDIA GeForce RTX 5090",
+          "driver_version": "595.99.02",
+          "utilization.gpu": "7",
+          "memory.used": "2",
+          "temperature.gpu": "35",
+          "power.draw": "76.47",
+          "clocks.sm": "2437",
+          "clocks.mem": "14001"
+        },
+        "compute_processes": []
+      }
+    }
+  ],
+  "cpu_corpus_recomputation": [
+    {
+      "parameter": 44,
+      "terms": 4,
+      "all_input_rows_regenerated": 512,
+      "NTT_INTT_pointwise_oracle_rows_recomputed": 512,
+      "chain_oracle_rows_recomputed_by_exact_coefficient_convolution": 512
+    },
+    {
+      "parameter": 65,
+      "terms": 5,
+      "all_input_rows_regenerated": 512,
+      "NTT_INTT_pointwise_oracle_rows_recomputed": 512,
+      "chain_oracle_rows_recomputed_by_exact_coefficient_convolution": 512
+    },
+    {
+      "parameter": 87,
+      "terms": 7,
+      "all_input_rows_regenerated": 512,
+      "NTT_INTT_pointwise_oracle_rows_recomputed": 512,
+      "chain_oracle_rows_recomputed_by_exact_coefficient_convolution": 512
+    }
+  ],
+  "jobs": [
+    {
+      "parameter": 44,
+      "batch": 4096,
+      "block": 0,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:40:56.712983+00:00",
+        "completed_utc": "2026-10-19T21:40:57.327824+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 769664,
+        "owned_child_pgid": 769664,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 769664,
+          "actions": []
+        }
+      }
+    },
+    {
+      "parameter": 44,
+      "batch": 8192,
+      "block": 0,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:41:09.429135+00:00",
+        "completed_utc": "2026-10-19T21:41:10.345727+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 769703,
+        "owned_child_pgid": 769703,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 769703,
+          "actions": []
+        }
+      }
+    },
+    {
+      "parameter": 44,
+      "batch": 16384,
+      "block": 0,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:41:22.002309+00:00",
+        "completed_utc": "2026-10-19T21:41:23.067189+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 769898,
+        "owned_child_pgid": 769898,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 769898,
+          "actions": []
+        }
+      }
+    },
+    {
+      "parameter": 65,
+      "batch": 4096,
+      "block": 0,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:41:35.459065+00:00",
+        "completed_utc": "2026-10-19T21:41:35.967321+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 769935,
+        "owned_child_pgid": 769935,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 769935,
+          "actions": []
+        }
+      }
+    },
+    {
+      "parameter": 65,
+      "batch": 8192,
+      "block": 0,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:41:48.042350+00:00",
+        "completed_utc": "2026-10-19T21:41:48.757572+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 770017,
+        "owned_child_pgid": 770017,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 770017,
+          "actions": []
+        }
+      }
+    },
+    {
+      "parameter": 65,
+      "batch": 16384,
+      "block": 0,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:42:00.965948+00:00",
+        "completed_utc": "2026-10-19T21:42:02.131052+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 770086,
+        "owned_child_pgid": 770086,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 770086,
+          "actions": []
+        }
+      }
+    },
+    {
+      "parameter": 87,
+      "batch": 4096,
+      "block": 0,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:42:14.588752+00:00",
+        "completed_utc": "2026-10-19T21:42:15.254013+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 770180,
+        "owned_child_pgid": 770180,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 770180,
+          "actions": []
+        }
+      }
+    },
+    {
+      "parameter": 87,
+      "batch": 8192,
+      "block": 0,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:42:26.786196+00:00",
+        "completed_utc": "2026-10-19T21:42:27.752771+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 770236,
+        "owned_child_pgid": 770236,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 770236,
+          "actions": []
+        }
+      }
+    },
+    {
+      "parameter": 87,
+      "batch": 16384,
+      "block": 0,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:42:39.413537+00:00",
+        "completed_utc": "2026-10-19T21:42:40.579185+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 770274,
+        "owned_child_pgid": 770274,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 770274,
+          "actions": []
+        }
+      }
+    },
+    {
+      "parameter": 87,
+      "batch": 16384,
+      "block": 1,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:42:52.957665+00:00",
+        "completed_utc": "2026-10-19T21:42:54.223051+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 770311,
+        "owned_child_pgid": 770311,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 770311,
+          "actions": []
+        }
+      }
+    },
+    {
+      "parameter": 87,
+      "batch": 8192,
+      "block": 1,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:43:06.612774+00:00",
+        "completed_utc": "2026-10-19T21:43:07.428280+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 770384,
+        "owned_child_pgid": 770384,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 770384,
+          "actions": []
+        }
+      }
+    },
+    {
+      "parameter": 87,
+      "batch": 4096,
+      "block": 1,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:43:19.598010+00:00",
+        "completed_utc": "2026-10-19T21:43:20.263243+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 770422,
+        "owned_child_pgid": 770422,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 770422,
+          "actions": []
+        }
+      }
+    },
+    {
+      "parameter": 65,
+      "batch": 16384,
+      "block": 1,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:43:31.787614+00:00",
+        "completed_utc": "2026-10-19T21:43:33.053084+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 770467,
+        "owned_child_pgid": 770467,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 770467,
+          "actions": []
+        }
+      }
+    },
+    {
+      "parameter": 65,
+      "batch": 8192,
+      "block": 1,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:43:44.898231+00:00",
+        "completed_utc": "2026-10-19T21:43:45.814571+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 770524,
+        "owned_child_pgid": 770524,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 770524,
+          "actions": []
+        }
+      }
+    },
+    {
+      "parameter": 65,
+      "batch": 4096,
+      "block": 1,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:43:58.022779+00:00",
+        "completed_utc": "2026-10-19T21:43:58.531427+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 770564,
+        "owned_child_pgid": 770564,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 770564,
+          "actions": []
+        }
+      }
+    },
+    {
+      "parameter": 44,
+      "batch": 16384,
+      "block": 1,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:44:10.545341+00:00",
+        "completed_utc": "2026-10-19T21:44:11.861351+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 770606,
+        "owned_child_pgid": 770606,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 770606,
+          "actions": []
+        }
+      }
+    },
+    {
+      "parameter": 44,
+      "batch": 8192,
+      "block": 1,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:44:23.682579+00:00",
+        "completed_utc": "2026-10-19T21:44:24.498370+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 770656,
+        "owned_child_pgid": 770656,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 770656,
+          "actions": []
+        }
+      }
+    },
+    {
+      "parameter": 44,
+      "batch": 4096,
+      "block": 1,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:44:36.651146+00:00",
+        "completed_utc": "2026-10-19T21:44:37.316370+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 770693,
+        "owned_child_pgid": 770693,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 770693,
+          "actions": []
+        }
+      }
+    },
+    {
+      "parameter": 65,
+      "batch": 8192,
+      "block": 2,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:44:49.358161+00:00",
+        "completed_utc": "2026-10-19T21:44:50.023457+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 770751,
+        "owned_child_pgid": 770751,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 770751,
+          "actions": []
+        }
+      }
+    },
+    {
+      "parameter": 65,
+      "batch": 16384,
+      "block": 2,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:45:02.147524+00:00",
+        "completed_utc": "2026-10-19T21:45:03.212659+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 770801,
+        "owned_child_pgid": 770801,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 770801,
+          "actions": []
+        }
+      }
+    },
+    {
+      "parameter": 87,
+      "batch": 4096,
+      "block": 2,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:45:15.651469+00:00",
+        "completed_utc": "2026-10-19T21:45:16.316874+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 770860,
+        "owned_child_pgid": 770860,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 770860,
+          "actions": []
+        }
+      }
+    },
+    {
+      "parameter": 87,
+      "batch": 8192,
+      "block": 2,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:45:28.445925+00:00",
+        "completed_utc": "2026-10-19T21:45:29.161177+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 770951,
+        "owned_child_pgid": 770951,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 770951,
+          "actions": []
+        }
+      }
+    },
+    {
+      "parameter": 87,
+      "batch": 16384,
+      "block": 2,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:45:40.810856+00:00",
+        "completed_utc": "2026-10-19T21:45:41.976194+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 770997,
+        "owned_child_pgid": 770997,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 770997,
+          "actions": []
+        }
+      }
+    },
+    {
+      "parameter": 44,
+      "batch": 4096,
+      "block": 2,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:45:54.362537+00:00",
+        "completed_utc": "2026-10-19T21:45:55.027973+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 771039,
+        "owned_child_pgid": 771039,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 771039,
+          "actions": []
+        }
+      }
+    },
+    {
+      "parameter": 44,
+      "batch": 8192,
+      "block": 2,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:46:07.108913+00:00",
+        "completed_utc": "2026-10-19T21:46:07.774087+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 771088,
+        "owned_child_pgid": 771088,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 771088,
+          "actions": []
+        }
+      }
+    },
+    {
+      "parameter": 44,
+      "batch": 16384,
+      "block": 2,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:46:19.986259+00:00",
+        "completed_utc": "2026-10-19T21:46:21.019034+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 771174,
+        "owned_child_pgid": 771174,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 771174,
+          "actions": []
+        }
+      }
+    },
+    {
+      "parameter": 65,
+      "batch": 4096,
+      "block": 2,
+      "timings": 270,
+      "checks": 36,
+      "outputs": 18,
+      "execution": {
+        "returncode": 0,
+        "started_utc": "2026-10-19T21:46:33.409838+00:00",
+        "completed_utc": "2026-10-19T21:46:34.075347+00:00",
+        "deferred_signals": [],
+        "timeout": null,
+        "kill_requested": false,
+        "owned_child_pid": 771241,
+        "owned_child_pgid": 771241,
+        "start_new_session": true,
+        "signal_scope": "THIS_COLLECTOR_OWN_CHILD_GROUP_ONLY",
+        "owned_group_postcheck": {
+          "status": "OWNED_GROUP_ABSENT",
+          "pgid": 771241,
+          "actions": []
+        }
+      }
+    }
+  ],
+  "scope": {
+    "classification": "real donor arithmetic in a standalone synthetic harness; not a full ML-DSA API chain",
+    "ntt_backends": {
+      "reference_radix2": "128-thread reference radix2 using shared arrays",
+      "donor_radix2": "128-thread donor radix2 using shared scratch",
+      "donor_radix8": "32-thread register radix8 with shared-memory coefficient exchange; not Shuffle",
+      "donor_tensor24": "32-thread 24-bit byte-limb donor tensor WMMA with input packing, layout adaptation and canonical output normalization"
+    },
+    "pointwise_comparison": "scalar vs int4 Montgomery pointwise multiply",
+    "chain": "sum of L=4/5/7 negacyclic polynomial products for one output polynomial; two forward transforms per term, Montgomery multiply/accumulate, one inverse",
+    "split_vs_fused": "four split kernel launches vs one fused kernel; identical input/output arithmetic with different batching/occupancy/intermediate-global-storage",
+    "timing": "CUDA events around launch wrappers; excludes allocations, CPU reference and host-device transfers",
+    "production_api_speedup_established": false,
+    "full_KeyGen_Sign_Verify_chains": false,
+    "SHAKE_decomposition_full_K_row_matrixvector_included": false,
+    "standalone_shuffle_candidate_present": false
+  },
+  "scope_exclusions": [
+    "Complete KeyGen/Sign/Verify operation chains and full K-row reuse are outside this standalone single-output-row polynomial dot-chain package."
+  ],
+  "whole_outline_completion_assessed": false,
+  "limits": [
+    "Standalone sealed donor arithmetic operators, not complete production API/module speedups.",
+    "Each batch counts output polynomials. Chain computes sum over L polynomial products (L=4/5/7); no SHAKE, decomposition or full matrix-vector K rows.",
+    "Split chain includes two batched forward kernels, a pointwise dot kernel and inverse kernel. Fused chain uses one kernel; identical inputs and modular outputs.",
+    "All backends accept canonical int32 input and produce canonical int32 output. Tensor timing includes byte packing, WMMA layout adaptation and output normalization.",
+    "Inverse output uses R/256 normalization (invntt_tomont). Pointwise uses Montgomery R^-1, so complete chains output ordinary negacyclic products.",
+    "512 deterministic request rows include all 256 basis directions and random/edge data; rows are tiled across batches and reused by three processes.",
+    "All variants qualify before any formal timing. Every coefficient is checked initially and finally; individual timed intermediate outputs are not separately checked.",
+    "Raw CUDA-event timing excludes allocation, CPU reference work, and host/device transfers; includes all split launches and wrapper operations.",
+    "Shared lock and pre/post GPU idle samples are used; continuous exclusive GPU ownership is not established.",
+    "Local CPU tests cannot establish CUDA compilation/device correctness. Server build and every correctness check must pass before acceptance.",
+    "Three process repeats reuse 512 deterministic corpus rows tiled into all batch sizes.",
+    "Fused/split comparison also changes parallelization and storage, so its ratio is not solely the launch-overhead contribution.",
+    "The native launcher records a clean injected environment and known filtering code; remaining inherited environment variables are not fully recorded. The recorded compiler binary identity is remote metadata, not independently rehashed locally."
+  ],
+  "archive_code_executed": false,
+  "ssh_or_gpu_actions_performed": false
+}

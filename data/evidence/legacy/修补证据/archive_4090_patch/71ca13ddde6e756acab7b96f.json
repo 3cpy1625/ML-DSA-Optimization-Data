@@ -1,0 +1,11 @@
+{
+  "returncode": 0,
+  "started_utc": "2026-10-20T16:19:14.036507+00:00",
+  "completed_utc": "2026-10-20T16:19:14.366334+00:00",
+  "deferred_signals": [],
+  "timeout": null,
+  "kill_requested": false,
+  "allowed_codes": [
+    0
+  ]
+}

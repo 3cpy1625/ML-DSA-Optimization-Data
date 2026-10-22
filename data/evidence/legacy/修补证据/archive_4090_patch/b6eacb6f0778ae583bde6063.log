@@ -1,0 +1,22 @@
+ptxas info    : 492 bytes gmem, 608 bytes cmem[3]
+ptxas info    : Compiling entry function '_Z12audit_kernelILi0EEvPKhPhP5TraceP4Workiiiiiiiii' for 'sm_89'
+ptxas info    : Function properties for _Z12audit_kernelILi0EEvPKhPhP5TraceP4Workiiiiiiiii
+    208 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 92 registers, used 0 barriers, 420 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compile time = 871.472 ms
+ptxas info    : Compiling entry function '_Z12audit_kernelILi1EEvPKhPhP5TraceP4Workiiiiiiiii' for 'sm_89'
+ptxas info    : Function properties for _Z12audit_kernelILi1EEvPKhPhP5TraceP4Workiiiiiiiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 52 registers, used 0 barriers, 420 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compile time = 106.723 ms
+ptxas info    : Compiling entry function '_Z20audit_split32_kernelPKhPhP5TraceP4WorkP8WarpWorkiiiiiiiii' for 'sm_89'
+ptxas info    : Function properties for _Z20audit_split32_kernelPKhPhP5TraceP4WorkP8WarpWorkiiiiiiiii
+    112 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 79 registers, used 0 barriers, 428 bytes cmem[0], 24 bytes cmem[2]
+ptxas info    : Compile time = 169.808 ms
+ptxas info    : Function properties for _Z7get_i32PKhi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.664 ms
+ptxas info    : Function properties for _Z7put_i32Phii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Compile time = 0.562 ms

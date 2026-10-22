@@ -1,0 +1,78 @@
+{
+  "batch": 8192,
+  "files": {
+    "keygen_input": {
+      "bytes": 262144,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-persistent9-20261020t060300z-7acbe276/corpus/mldsa65_b8192/keygen_input.bin",
+      "sha256": "c702de713804253e0f21f55b32b8d26d6703357b0b5cd68fe1598ad86a6fd09a"
+    },
+    "keygen_output": {
+      "bytes": 49020928,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-persistent9-20261020t060300z-7acbe276/corpus/mldsa65_b8192/keygen_output.bin",
+      "sha256": "a0356f27542961e49399913a4abd260c8d60275417735a69f26b233fd5c3a64f"
+    },
+    "sign_input": {
+      "bytes": 33554432,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-persistent9-20261020t060300z-7acbe276/corpus/mldsa65_b8192/sign_input.bin",
+      "sha256": "49d6b753106164b4f32916afeb9cb550694e2760b747a55b5a8120567d2b1b3a"
+    },
+    "sign_output": {
+      "bytes": 27107328,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-persistent9-20261020t060300z-7acbe276/corpus/mldsa65_b8192/sign_output.bin",
+      "sha256": "11da5dba413e4144575bbaa3933a8dea043738da3050c81f497aa4684e5940bd"
+    },
+    "verify_input": {
+      "bytes": 43360256,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-persistent9-20261020t060300z-7acbe276/corpus/mldsa65_b8192/verify_input.bin",
+      "sha256": "2d0755056b064d69e264b2d509f8e755d171eb6c775dd1f5029f02e399797b0b"
+    },
+    "verify_output": {
+      "bytes": 32768,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-persistent9-20261020t060300z-7acbe276/corpus/mldsa65_b8192/verify_output.bin",
+      "sha256": "c35020473aed1b4642cd726cad727b63fff2824ad68cedd7ffb73c7cbd890479"
+    }
+  },
+  "generation_artifacts": [
+    {
+      "bytes": 276,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-persistent9-20261020t060300z-7acbe276/corpus/mldsa65_b8192/generation/SEALED_ARGV.json",
+      "sha256": "7f238f43212534179e4e7b4f3fb64742eefae9eefd8c877f41ac756febf0ebdb"
+    },
+    {
+      "bytes": 417,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-persistent9-20261020t060300z-7acbe276/corpus/mldsa65_b8192/generation/native_ARGV.json",
+      "sha256": "5128fc4fc2fdf57b73a889abecfa4a95d5ee3fc4d229904ea2962b16bc0b7dd3"
+    },
+    {
+      "bytes": 2385,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-persistent9-20261020t060300z-7acbe276/corpus/mldsa65_b8192/generation/native_EXECUTION.json",
+      "sha256": "6ea272d8d63adca9e0ee71f6949a4b044041e8279d723b524b28e6b42c6e0b5f"
+    },
+    {
+      "bytes": 4266,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-persistent9-20261020t060300z-7acbe276/corpus/mldsa65_b8192/generation/native_monitor.jsonl",
+      "sha256": "9b81f32ad1c5362e8041c4863b10c42801048862ebc83ecde0e9fdde23f6230c"
+    },
+    {
+      "bytes": 0,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-persistent9-20261020t060300z-7acbe276/corpus/mldsa65_b8192/generation/native_stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 46,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-persistent9-20261020t060300z-7acbe276/corpus/mldsa65_b8192/generation/native_stdout.log",
+      "sha256": "c09a9f8f5482aa5c4903c380903641d79ad564153f3c4ada6602bbded26b343a"
+    }
+  ],
+  "generator": {
+    "bytes": 160584,
+    "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/binaries/reference_generator",
+    "sha256": "99fd47a45548075dabdc449dfc4537f2244fbc824a73f6eb5db6e0f0704e8138"
+  },
+  "message_bytes": 32,
+  "note": "Same original SplitMix64 domains, 32-byte messages, empty context and CPU PQMagic oracle; shared input seed across six process pairs",
+  "parameter": 65,
+  "sealed_build_sha256": "7329643d44832077ed4971bb6bd6e0c24573a576148657fc77f1c399e73b1ac5",
+  "seed": "0x4d4c445341435550",
+  "status": "CPU_ORACLE_PASS"
+}

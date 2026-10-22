@@ -1,0 +1,14 @@
+{
+  "executable": {
+    "path": "adapter/nist_native_adapter",
+    "bytes": 66144,
+    "sha256": "8412f92741e05b1296f300ad1aaedb13f5e092d4150ea65aae063c86063a04c2"
+  },
+  "source": {
+    "path": "adapter/internal_recovery_adapter.cpp",
+    "bytes": 8146,
+    "sha256": "1abc81ab2918c979764b43a3523fc58a909a389347b056a5e5d29d5e3af1a981"
+  },
+  "reused_headers_source_sha256": "c73f8b5f49070d370fd8787168c2d49839afaf3aff350c83080cfb114f5ed42e",
+  "native_modules_unchanged": true
+}

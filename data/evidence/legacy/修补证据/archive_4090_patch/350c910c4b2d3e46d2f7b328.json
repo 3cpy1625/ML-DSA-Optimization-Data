@@ -1,0 +1,44 @@
+{
+  "original": [
+    "/usr/local/cuda-12.9/bin/nvcc",
+    "-std=c++17",
+    "-O3",
+    "-lineinfo",
+    "-arch=sm_89",
+    "-rdc=true",
+    "-cudart=shared",
+    "-Xptxas=-v",
+    "-DDILITHIUM_MODE=2",
+    "-DMLDSA_FIPS204=1",
+    "-DMLKEM_SPLIT32_HASH_UNROLL_PAIRS=1",
+    "-DMLKEM_SPLIT32_IOTA_WORD_LOAD=0",
+    "-I/workspace/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/build/sealed/third_party/native/MLDSA_NONSIGN_BEST/include",
+    "-I/workspace/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/build/sealed/source/primitives/cuda/include",
+    "/workspace/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/build/shake_sampling_audit.cu",
+    "-o",
+    "/workspace/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/build/shake_sampling_44"
+  ],
+  "patched": [
+    "/usr/local/cuda-12.9/bin/nvcc",
+    "-std=c++17",
+    "-O3",
+    "-lineinfo",
+    "-arch=sm_89",
+    "-rdc=true",
+    "-cudart=shared",
+    "-Xptxas=-v",
+    "-DDILITHIUM_MODE=2",
+    "-DMLDSA_FIPS204=1",
+    "-DMLKEM_SPLIT32_HASH_UNROLL_PAIRS=1",
+    "-DMLKEM_SPLIT32_IOTA_WORD_LOAD=0",
+    "-I/workspace/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/build/sealed/third_party/native/MLDSA_NONSIGN_BEST/include",
+    "-I/workspace/新4090数据/05_split32同输入直接对照/split32_fast/runs/20261020T114444091196Z-fa881099/build/sealed/source/primitives/cuda/include",
+    "/workspace/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/build/shake_sampling_audit.patched.cu",
+    "-o",
+    "/workspace/4090修补/split32_sync_patch_v2/runs/20261020T162230081774Z-b4e3d46f/build/shake_sampling_44"
+  ],
+  "permitted_changes": [
+    "input source with two barrier insertions",
+    "output path"
+  ]
+}

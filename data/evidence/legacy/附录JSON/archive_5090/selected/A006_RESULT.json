@@ -1,0 +1,717 @@
+{
+  "schema": "mldsa5090-e02b-original-sass-result-v1",
+  "status": "ORIGINAL_SASS_ALL_REPORTED_PCS_CAPTURED",
+  "created_utc": "20261019T174831359400Z",
+  "identity": {
+    "schema": "mldsa5090-e02b-original-sass-identity-v1",
+    "created_utc": "20261019T174822955329Z",
+    "stopped_run_id": "e02b-sanitizer-20261019T170912908000Z-657090",
+    "module": {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/build/mldsa65_sign/libloce_mldsa65_sign_d4_sm120.so",
+      "bytes": 6159056,
+      "sha256": "6d753de7c0c701c4382be87b900edd5646e59bf13aac0208527390c9750522e1"
+    },
+    "race_log": {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/e02b-sanitizer-20261019T170912908000Z-657090/raw/mldsa65_sign/racecheck-b00256-se02b000000000001-m0/sanitizer.log",
+      "bytes": 45288,
+      "sha256": "cdfdb00648a872099f6d58ad93f8ed9f8b1db4f8cdfe013bde7f6ce76f05c128"
+    },
+    "cuobjdump": {
+      "path": "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/bin/cuobjdump",
+      "bytes": 618184,
+      "sha256": "5a26d5abd391fb60e1d95f8d3d15d3467bd9515c496e187f1b1cbec225f67d9c"
+    },
+    "cpu_inspection_only": true,
+    "gpu_target_launched": false,
+    "recompiled": false,
+    "origin_files_modified": false
+  },
+  "version": {
+    "argv": [
+      "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/bin/cuobjdump",
+      "--version"
+    ],
+    "started_utc": "20261019T174822955740Z",
+    "timed_out": false,
+    "exit_code": 0,
+    "cpu_inspection_only": true,
+    "finished_utc": "20261019T174822959769Z",
+    "stdout": {
+      "path": "/home/lsb/mldsa-experiments-5090/reports/e02b-sass-20261019T174822955154Z-659809/version.stdout.log",
+      "bytes": 216,
+      "sha256": "1b21f2286b909ac811a76cd7d1e61f0af7c8874d10cf629af004dfbb93c5c74d"
+    },
+    "stderr": {
+      "path": "/home/lsb/mldsa-experiments-5090/reports/e02b-sass-20261019T174822955154Z-659809/version.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "help": {
+    "argv": [
+      "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/bin/cuobjdump",
+      "--help"
+    ],
+    "started_utc": "20261019T174822960367Z",
+    "timed_out": false,
+    "exit_code": 0,
+    "cpu_inspection_only": true,
+    "finished_utc": "20261019T174822964036Z",
+    "stdout": {
+      "path": "/home/lsb/mldsa-experiments-5090/reports/e02b-sass-20261019T174822955154Z-659809/help.stdout.log",
+      "bytes": 3820,
+      "sha256": "f8ad18c0033c365c06e8d3494eb834c800af2be6f3eda6c973c65cd81629363a"
+    },
+    "stderr": {
+      "path": "/home/lsb/mldsa-experiments-5090/reports/e02b-sass-20261019T174822955154Z-659809/help.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "dump": {
+    "argv": [
+      "/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/bin/cuobjdump",
+      "--dump-sass",
+      "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/build/mldsa65_sign/libloce_mldsa65_sign_d4_sm120.so"
+    ],
+    "started_utc": "20261019T174822964554Z",
+    "timed_out": false,
+    "exit_code": 0,
+    "cpu_inspection_only": true,
+    "finished_utc": "20261019T174829396001Z",
+    "stdout": {
+      "path": "/home/lsb/mldsa-experiments-5090/reports/e02b-sass-20261019T174822955154Z-659809/sass.stdout.log",
+      "bytes": 122658849,
+      "sha256": "9e656fd8e284192b3890706423f1e275fd3a0cbeb8d2ccf3f54c5208ee4fcd22"
+    },
+    "stderr": {
+      "path": "/home/lsb/mldsa-experiments-5090/reports/e02b-sass-20261019T174822955154Z-659809/sass.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "contexts": [
+    {
+      "function": "_Z23Rej_loop_Warp_Kernel_TCILj3ELb0ELb0ELb0ELb0ELb0EEvPiPKhS0_S0_S0_PhPKiS0_S3_S3_S2_S3_S3_PKjS0_S0_S0_mmS2_S2_S2_S2_mPjS8_jjS8_jjjS8_",
+      "phase": 3,
+      "arch": "sm_120",
+      "instruction_count": 47080,
+      "missing_target_pcs": [],
+      "access_contexts": [
+        {
+          "pc_hex": "0x38d30",
+          "access": {
+            "pc": 232752,
+            "text": "        /*38d30*/                   STS.64 [R76], R12 ;                                              /* 0x0000000c4c007388 */"
+          },
+          "previous_barrier": {
+            "pc": 212560,
+            "text": "        /*33e50*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "next_barrier": {
+            "pc": 323856,
+            "text": "        /*4f110*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "pc_hex": "0x38d40",
+          "access": {
+            "pc": 232768,
+            "text": "        /*38d40*/                   STS.64 [R76+0x200], R14 ;                                        /* 0x0002000e4c007388 */"
+          },
+          "previous_barrier": {
+            "pc": 212560,
+            "text": "        /*33e50*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "next_barrier": {
+            "pc": 323856,
+            "text": "        /*4f110*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "pc_hex": "0x38d50",
+          "access": {
+            "pc": 232784,
+            "text": "        /*38d50*/                   STS.64 [R76+0x20], R48 ;                                         /* 0x000020304c007388 */"
+          },
+          "previous_barrier": {
+            "pc": 212560,
+            "text": "        /*33e50*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "next_barrier": {
+            "pc": 323856,
+            "text": "        /*4f110*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "pc_hex": "0x38d60",
+          "access": {
+            "pc": 232800,
+            "text": "        /*38d60*/                   STS.64 [R76+0x220], R52 ;                                        /* 0x000220344c007388 */"
+          },
+          "previous_barrier": {
+            "pc": 212560,
+            "text": "        /*33e50*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "next_barrier": {
+            "pc": 323856,
+            "text": "        /*4f110*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "pc_hex": "0x39750",
+          "access": {
+            "pc": 235344,
+            "text": "        /*39750*/                   LDS.128 R12, [R153] ;                                            /* 0x00000000990c7984 */"
+          },
+          "previous_barrier": {
+            "pc": 212560,
+            "text": "        /*33e50*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "next_barrier": {
+            "pc": 323856,
+            "text": "        /*4f110*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "pc_hex": "0x39760",
+          "access": {
+            "pc": 235360,
+            "text": "        /*39760*/                   LDS.128 R48, [R153+0x10] ;                                       /* 0x0000100099307984 */"
+          },
+          "previous_barrier": {
+            "pc": 212560,
+            "text": "        /*33e50*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "next_barrier": {
+            "pc": 323856,
+            "text": "        /*4f110*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        }
+      ],
+      "nearby_instructions": [
+        {
+          "pc": 232672,
+          "text": "        /*38ce0*/                   IADD3 R15, PT, PT, R49, R56, RZ ;                                /* 0x00000038310f7210 */"
+        },
+        {
+          "pc": 232688,
+          "text": "        /*38cf0*/                   IADD3 R48, PT, PT, R50, R57, RZ ;                                /* 0x0000003932307210 */"
+        },
+        {
+          "pc": 232704,
+          "text": "        /*38d00*/                   IADD3 R49, PT, PT, R51, R58, RZ ;                                /* 0x0000003a33317210 */"
+        },
+        {
+          "pc": 232720,
+          "text": "        /*38d10*/                   IADD3 R52, PT, PT, R52, R59, RZ ;                                /* 0x0000003b34347210 */"
+        },
+        {
+          "pc": 232736,
+          "text": "        /*38d20*/                   IADD3 R53, PT, PT, R100, R71, RZ ;                               /* 0x0000004764357210 */"
+        },
+        {
+          "pc": 232752,
+          "text": "        /*38d30*/                   STS.64 [R76], R12 ;                                              /* 0x0000000c4c007388 */"
+        },
+        {
+          "pc": 232768,
+          "text": "        /*38d40*/                   STS.64 [R76+0x200], R14 ;                                        /* 0x0002000e4c007388 */"
+        },
+        {
+          "pc": 232784,
+          "text": "        /*38d50*/                   STS.64 [R76+0x20], R48 ;                                         /* 0x000020304c007388 */"
+        },
+        {
+          "pc": 232800,
+          "text": "        /*38d60*/                   STS.64 [R76+0x220], R52 ;                                        /* 0x000220344c007388 */"
+        },
+        {
+          "pc": 232816,
+          "text": "        /*38d70*/                   MOV R65, 0x401 ;                                                 /* 0x0000040100417802 */"
+        },
+        {
+          "pc": 232832,
+          "text": "        /*38d80*/                   USHF.L.U32 UR6, UR4, 0x8, URZ ;                                  /* 0x0000000804067899 */"
+        },
+        {
+          "pc": 232848,
+          "text": "        /*38d90*/                   NOP ;                                                            /* 0x0000000000007918 */"
+        },
+        {
+          "pc": 232864,
+          "text": "        /*38da0*/                   NOP ;                                                            /* 0x0000000000007918 */"
+        },
+        {
+          "pc": 232880,
+          "text": "        /*38db0*/                   LDS R54, [R11+0x8] ;                                             /* 0x000008000b367984 */"
+        },
+        {
+          "pc": 235264,
+          "text": "        /*39700*/                   USHF.L.U32 UR6, UR4, 0x7, URZ ;                                  /* 0x0000000704067899 */"
+        },
+        {
+          "pc": 235280,
+          "text": "        /*39710*/                   UIADD3 UR4, UPT, UPT, UR4, 0x1, URZ ;                            /* 0x0000000104047890 */"
+        },
+        {
+          "pc": 235296,
+          "text": "        /*39720*/                   UISETP.NE.AND UP0, UPT, UR4, 0x6, UPT ;                          /* 0x000000060400788c */"
+        },
+        {
+          "pc": 235312,
+          "text": "        /*39730*/                   NOP ;                                                            /* 0x0000000000007918 */"
+        },
+        {
+          "pc": 235328,
+          "text": "        /*39740*/                   NOP ;                                                            /* 0x0000000000007918 */"
+        },
+        {
+          "pc": 235344,
+          "text": "        /*39750*/                   LDS.128 R12, [R153] ;                                            /* 0x00000000990c7984 */"
+        },
+        {
+          "pc": 235360,
+          "text": "        /*39760*/                   LDS.128 R48, [R153+0x10] ;                                       /* 0x0000100099307984 */"
+        },
+        {
+          "pc": 235376,
+          "text": "        /*39770*/                   IMAD.SHL.U32 R13, R13, 0x10, RZ ;                                /* 0x000000100d0d7824 */"
+        },
+        {
+          "pc": 235392,
+          "text": "        /*39780*/                   IMAD.SHL.U32 R53, R15, 0x10, RZ ;                                /* 0x000000100f357824 */"
+        },
+        {
+          "pc": 235408,
+          "text": "        /*39790*/                   IMAD.SHL.U32 R49, R49, 0x10, RZ ;                                /* 0x0000001031317824 */"
+        },
+        {
+          "pc": 235424,
+          "text": "        /*397a0*/                   IMAD.SHL.U32 R51, R51, 0x10, RZ ;                                /* 0x0000001033337824 */"
+        },
+        {
+          "pc": 235440,
+          "text": "        /*397b0*/                   LOP3.LUT R15, R13, R12, RZ, 0xfc, !PT ;                          /* 0x0000000c0d0f7212 */"
+        }
+      ]
+    },
+    {
+      "function": "_Z23Rej_loop_Warp_Kernel_TCILj6ELb0ELb0ELb0ELb0ELb0EEvPiPKhS0_S0_S0_PhPKiS0_S3_S3_S2_S3_S3_PKjS0_S0_S0_mmS2_S2_S2_S2_mPjS8_jjS8_jjjS8_",
+      "phase": 6,
+      "arch": "sm_120",
+      "instruction_count": 46608,
+      "missing_target_pcs": [],
+      "access_contexts": [
+        {
+          "pc_hex": "0x36fd0",
+          "access": {
+            "pc": 225232,
+            "text": "        /*36fd0*/                   STS.64 [R108], R80 ;                                             /* 0x000000506c007388 */"
+          },
+          "previous_barrier": {
+            "pc": 205328,
+            "text": "        /*32210*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "next_barrier": {
+            "pc": 315696,
+            "text": "        /*4d130*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "pc_hex": "0x36fe0",
+          "access": {
+            "pc": 225248,
+            "text": "        /*36fe0*/                   STS.64 [R108+0x200], R82 ;                                       /* 0x000200526c007388 */"
+          },
+          "previous_barrier": {
+            "pc": 205328,
+            "text": "        /*32210*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "next_barrier": {
+            "pc": 315696,
+            "text": "        /*4d130*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "pc_hex": "0x36ff0",
+          "access": {
+            "pc": 225264,
+            "text": "        /*36ff0*/                   STS.64 [R108+0x20], R84 ;                                        /* 0x000020546c007388 */"
+          },
+          "previous_barrier": {
+            "pc": 205328,
+            "text": "        /*32210*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "next_barrier": {
+            "pc": 315696,
+            "text": "        /*4d130*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "pc_hex": "0x37000",
+          "access": {
+            "pc": 225280,
+            "text": "        /*37000*/                   STS.64 [R108+0x220], R86 ;                                       /* 0x000220566c007388 */"
+          },
+          "previous_barrier": {
+            "pc": 205328,
+            "text": "        /*32210*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "next_barrier": {
+            "pc": 315696,
+            "text": "        /*4d130*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "pc_hex": "0x37970",
+          "access": {
+            "pc": 227696,
+            "text": "        /*37970*/                   LDS.128 R80, [R170] ;                                            /* 0x00000000aa507984 */"
+          },
+          "previous_barrier": {
+            "pc": 205328,
+            "text": "        /*32210*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "next_barrier": {
+            "pc": 315696,
+            "text": "        /*4d130*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "pc_hex": "0x37980",
+          "access": {
+            "pc": 227712,
+            "text": "        /*37980*/                   LDS.128 R84, [R170+0x10] ;                                       /* 0x00001000aa547984 */"
+          },
+          "previous_barrier": {
+            "pc": 205328,
+            "text": "        /*32210*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "next_barrier": {
+            "pc": 315696,
+            "text": "        /*4d130*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        }
+      ],
+      "nearby_instructions": [
+        {
+          "pc": 225152,
+          "text": "        /*36f80*/                   IADD3 R84, PT, PT, R96, R84, RZ ;                                /* 0x0000005460547210 */"
+        },
+        {
+          "pc": 225168,
+          "text": "        /*36f90*/                   LEA R108, R108, UR6, 0x3 ;                                       /* 0x000000066c6c7c11 */"
+        },
+        {
+          "pc": 225184,
+          "text": "        /*36fa0*/                   IADD3 R85, PT, PT, R97, R85, RZ ;                                /* 0x0000005561557210 */"
+        },
+        {
+          "pc": 225200,
+          "text": "        /*36fb0*/                   IADD3 R86, PT, PT, R98, R86, RZ ;                                /* 0x0000005662567210 */"
+        },
+        {
+          "pc": 225216,
+          "text": "        /*36fc0*/                   IADD3 R87, PT, PT, R99, R87, RZ ;                                /* 0x0000005763577210 */"
+        },
+        {
+          "pc": 225232,
+          "text": "        /*36fd0*/                   STS.64 [R108], R80 ;                                             /* 0x000000506c007388 */"
+        },
+        {
+          "pc": 225248,
+          "text": "        /*36fe0*/                   STS.64 [R108+0x200], R82 ;                                       /* 0x000200526c007388 */"
+        },
+        {
+          "pc": 225264,
+          "text": "        /*36ff0*/                   STS.64 [R108+0x20], R84 ;                                        /* 0x000020546c007388 */"
+        },
+        {
+          "pc": 225280,
+          "text": "        /*37000*/                   STS.64 [R108+0x220], R86 ;                                       /* 0x000220566c007388 */"
+        },
+        {
+          "pc": 225296,
+          "text": "        /*37010*/                   MOV R87, 0x401 ;                                                 /* 0x0000040100577802 */"
+        },
+        {
+          "pc": 225312,
+          "text": "        /*37020*/                   NOP ;                                                            /* 0x0000000000007918 */"
+        },
+        {
+          "pc": 225328,
+          "text": "        /*37030*/                   NOP ;                                                            /* 0x0000000000007918 */"
+        },
+        {
+          "pc": 225344,
+          "text": "        /*37040*/                   LDS R90, [R74+UR10+0x8] ;                                        /* 0x0000080a4a5a7984 */"
+        },
+        {
+          "pc": 225360,
+          "text": "        /*37050*/                   LDS R92, [R74+UR10+0x10] ;                                       /* 0x0000100a4a5c7984 */"
+        },
+        {
+          "pc": 227616,
+          "text": "        /*37920*/                   STS [R10+UR10+0x280], R85 ;                                      /* 0x000280550a007988 */"
+        },
+        {
+          "pc": 227632,
+          "text": "        /*37930*/                   STS [R10+UR10+0x300], R86 ;                                      /* 0x000300560a007988 */"
+        },
+        {
+          "pc": 227648,
+          "text": "        /*37940*/                   STS [R10+UR10+0x380], R87 ;                                      /* 0x000380570a007988 */"
+        },
+        {
+          "pc": 227664,
+          "text": "        /*37950*/                   NOP ;                                                            /* 0x0000000000007918 */"
+        },
+        {
+          "pc": 227680,
+          "text": "        /*37960*/                   NOP ;                                                            /* 0x0000000000007918 */"
+        },
+        {
+          "pc": 227696,
+          "text": "        /*37970*/                   LDS.128 R80, [R170] ;                                            /* 0x00000000aa507984 */"
+        },
+        {
+          "pc": 227712,
+          "text": "        /*37980*/                   LDS.128 R84, [R170+0x10] ;                                       /* 0x00001000aa547984 */"
+        },
+        {
+          "pc": 227728,
+          "text": "        /*37990*/                   UIADD3 UR4, UPT, UPT, UR4, 0x5, URZ ;                            /* 0x0000000504047890 */"
+        },
+        {
+          "pc": 227744,
+          "text": "        /*379a0*/                   UISETP.NE.AND UP1, UPT, UR4, 0x1e, UPT ;                         /* 0x0000001e0400788c */"
+        },
+        {
+          "pc": 227760,
+          "text": "        /*379b0*/                   IADD.64 R114, R114, 0x1400 ;                                     /* 0x0000140072727835 */"
+        },
+        {
+          "pc": 227776,
+          "text": "        /*379c0*/                   IADD.64 R14, R14, 0x400 ;                                        /* 0x000004000e0e7835 */"
+        },
+        {
+          "pc": 227792,
+          "text": "        /*379d0*/                   IMAD.SHL.U32 R89, R83, 0x10, RZ ;                                /* 0x0000001053597824 */"
+        }
+      ]
+    },
+    {
+      "function": "_Z23Rej_loop_Warp_Kernel_TCILj0ELb0ELb0ELb0ELb0ELb0EEvPiPKhS0_S0_S0_PhPKiS0_S3_S3_S2_S3_S3_PKjS0_S0_S0_mmS2_S2_S2_S2_mPjS8_jjS8_jjjS8_",
+      "phase": 0,
+      "arch": "sm_120",
+      "instruction_count": 46944,
+      "missing_target_pcs": [],
+      "access_contexts": [
+        {
+          "pc_hex": "0x37480",
+          "access": {
+            "pc": 226432,
+            "text": "        /*37480*/                   STS.64 [R93], R12 ;                                              /* 0x0000000c5d007388 */"
+          },
+          "previous_barrier": {
+            "pc": 206480,
+            "text": "        /*32690*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "next_barrier": {
+            "pc": 316608,
+            "text": "        /*4d4c0*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "pc_hex": "0x37490",
+          "access": {
+            "pc": 226448,
+            "text": "        /*37490*/                   STS.64 [R93+0x200], R14 ;                                        /* 0x0002000e5d007388 */"
+          },
+          "previous_barrier": {
+            "pc": 206480,
+            "text": "        /*32690*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "next_barrier": {
+            "pc": 316608,
+            "text": "        /*4d4c0*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "pc_hex": "0x374a0",
+          "access": {
+            "pc": 226464,
+            "text": "        /*374a0*/                   STS.64 [R93+0x20], R88 ;                                         /* 0x000020585d007388 */"
+          },
+          "previous_barrier": {
+            "pc": 206480,
+            "text": "        /*32690*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "next_barrier": {
+            "pc": 316608,
+            "text": "        /*4d4c0*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "pc_hex": "0x374b0",
+          "access": {
+            "pc": 226480,
+            "text": "        /*374b0*/                   STS.64 [R93+0x220], R90 ;                                        /* 0x0002205a5d007388 */"
+          },
+          "previous_barrier": {
+            "pc": 206480,
+            "text": "        /*32690*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "next_barrier": {
+            "pc": 316608,
+            "text": "        /*4d4c0*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "pc_hex": "0x37e60",
+          "access": {
+            "pc": 228960,
+            "text": "        /*37e60*/                   LDS.128 R12, [R172] ;                                            /* 0x00000000ac0c7984 */"
+          },
+          "previous_barrier": {
+            "pc": 206480,
+            "text": "        /*32690*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "next_barrier": {
+            "pc": 316608,
+            "text": "        /*4d4c0*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        },
+        {
+          "pc_hex": "0x37e70",
+          "access": {
+            "pc": 228976,
+            "text": "        /*37e70*/                   LDS.128 R88, [R172+0x10] ;                                       /* 0x00001000ac587984 */"
+          },
+          "previous_barrier": {
+            "pc": 206480,
+            "text": "        /*32690*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          },
+          "next_barrier": {
+            "pc": 316608,
+            "text": "        /*4d4c0*/                   WARPSYNC.ALL ;                                                   /* 0x0000000000007948 */"
+          }
+        }
+      ],
+      "nearby_instructions": [
+        {
+          "pc": 226352,
+          "text": "        /*37430*/                   IADD3 R15, PT, PT, R15, R107, RZ ;                               /* 0x0000006b0f0f7210 */"
+        },
+        {
+          "pc": 226368,
+          "text": "        /*37440*/                   IADD3 R88, PT, PT, R88, R108, RZ ;                               /* 0x0000006c58587210 */"
+        },
+        {
+          "pc": 226384,
+          "text": "        /*37450*/                   IADD3 R89, PT, PT, R89, R109, RZ ;                               /* 0x0000006d59597210 */"
+        },
+        {
+          "pc": 226400,
+          "text": "        /*37460*/                   IADD3 R90, PT, PT, R92, R110, RZ ;                               /* 0x0000006e5c5a7210 */"
+        },
+        {
+          "pc": 226416,
+          "text": "        /*37470*/                   IADD3 R91, PT, PT, R91, R111, RZ ;                               /* 0x0000006f5b5b7210 */"
+        },
+        {
+          "pc": 226432,
+          "text": "        /*37480*/                   STS.64 [R93], R12 ;                                              /* 0x0000000c5d007388 */"
+        },
+        {
+          "pc": 226448,
+          "text": "        /*37490*/                   STS.64 [R93+0x200], R14 ;                                        /* 0x0002000e5d007388 */"
+        },
+        {
+          "pc": 226464,
+          "text": "        /*374a0*/                   STS.64 [R93+0x20], R88 ;                                         /* 0x000020585d007388 */"
+        },
+        {
+          "pc": 226480,
+          "text": "        /*374b0*/                   STS.64 [R93+0x220], R90 ;                                        /* 0x0002205a5d007388 */"
+        },
+        {
+          "pc": 226496,
+          "text": "        /*374c0*/                   NOP ;                                                            /* 0x0000000000007918 */"
+        },
+        {
+          "pc": 226512,
+          "text": "        /*374d0*/                   NOP ;                                                            /* 0x0000000000007918 */"
+        },
+        {
+          "pc": 226528,
+          "text": "        /*374e0*/                   LDS R89, [R10+UR11] ;                                            /* 0x0000000b0a597984 */"
+        },
+        {
+          "pc": 226544,
+          "text": "        /*374f0*/                   LDS R88, [R10+UR11+0x10] ;                                       /* 0x0000100b0a587984 */"
+        },
+        {
+          "pc": 226560,
+          "text": "        /*37500*/                   LDS R90, [R10+UR11+0x8] ;                                        /* 0x0000080b0a5a7984 */"
+        },
+        {
+          "pc": 228880,
+          "text": "        /*37e10*/                   UISETP.NE.AND UP0, UPT, UR4, 0x1e, UPT ;                         /* 0x0000001e0400788c */"
+        },
+        {
+          "pc": 228896,
+          "text": "        /*37e20*/                   IADD.64 R118, R118, 0x1400 ;                                     /* 0x0000140076767835 */"
+        },
+        {
+          "pc": 228912,
+          "text": "        /*37e30*/                   IADD.64 R86, R86, 0x400 ;                                        /* 0x0000040056567835 */"
+        },
+        {
+          "pc": 228928,
+          "text": "        /*37e40*/                   NOP ;                                                            /* 0x0000000000007918 */"
+        },
+        {
+          "pc": 228944,
+          "text": "        /*37e50*/                   NOP ;                                                            /* 0x0000000000007918 */"
+        },
+        {
+          "pc": 228960,
+          "text": "        /*37e60*/                   LDS.128 R12, [R172] ;                                            /* 0x00000000ac0c7984 */"
+        },
+        {
+          "pc": 228976,
+          "text": "        /*37e70*/                   LDS.128 R88, [R172+0x10] ;                                       /* 0x00001000ac587984 */"
+        },
+        {
+          "pc": 228992,
+          "text": "        /*37e80*/                   IMAD.SHL.U32 R13, R13, 0x10, RZ ;                                /* 0x000000100d0d7824 */"
+        },
+        {
+          "pc": 229008,
+          "text": "        /*37e90*/                   IMAD.SHL.U32 R15, R15, 0x10, RZ ;                                /* 0x000000100f0f7824 */"
+        },
+        {
+          "pc": 229024,
+          "text": "        /*37ea0*/                   IMAD.SHL.U32 R89, R89, 0x10, RZ ;                                /* 0x0000001059597824 */"
+        },
+        {
+          "pc": 229040,
+          "text": "        /*37eb0*/                   IMAD.SHL.U32 R91, R91, 0x10, RZ ;                                /* 0x000000105b5b7824 */"
+        },
+        {
+          "pc": 229056,
+          "text": "        /*37ec0*/                   LOP3.LUT R12, R13, R12, RZ, 0xfc, !PT ;                          /* 0x0000000c0d0c7212 */"
+        }
+      ]
+    }
+  ],
+  "report_directory": "/home/lsb/mldsa-experiments-5090/reports/e02b-sass-20261019T174822955154Z-659809",
+  "limits": [
+    "CPU disassembly only; no algorithm or sanitizer target was executed.",
+    "Raw SASS does not supply missing source line information.",
+    "Captured instructions/barriers do not independently settle race safety.",
+    "Original sanitizer finding remains unresolved."
+  ]
+}

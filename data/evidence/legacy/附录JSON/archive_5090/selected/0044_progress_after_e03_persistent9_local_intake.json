@@ -1,0 +1,39 @@
+{
+  "schema": "mldsa5090-e03-persistent9-root-intake-v1",
+  "recorded_utc": "2026-10-20T06:31:31.615591+00:00",
+  "status": "E03_NINE_EXPERIMENTS_COMPLETED_VERIFIED_AND_SAVED_LOCALLY",
+  "authorized_scope": {
+    "path": "scope_updates/necessary_e03_b8192_20261020.json",
+    "bytes": 1799,
+    "sha256": "dfce392d940f4fdd75c1a0eccd596c02ede03484d009870b59ea541a6cc47a78"
+  },
+  "local_intake": {
+    "path": "server_results/e03_persistent9_b8192/e03-persistent9-20261020t060300z-7acbe276/local_intake_01/RESULT.json",
+    "bytes": 12676,
+    "sha256": "7fb66d8c214f6d952cfa52a9d010f3c0ef526399e56c8b325885958429b3467b"
+  },
+  "run_directory": "server_results/e03_persistent9_b8192/e03-persistent9-20261020t060300z-7acbe276",
+  "counts": {
+    "conditions": 9,
+    "gpu_processes": 108,
+    "cpu_processes": 3,
+    "raw_timing_samples": 1620,
+    "paired_blocks": 54,
+    "summary_rows": 9
+  },
+  "batch": 8192,
+  "applicable_message_bytes": 32,
+  "remaining_experiments_in_this_round": 0,
+  "round_complete": true,
+  "full_outline_complete": false,
+  "next_action": "END_THIS_ROUND_NO_ADDITIONAL_EXPERIMENTS",
+  "remote_originals": "RETAINED; NO_DELETION_FOR_THIS_RUN",
+  "limits": [
+    "Device-resident GPU event intervals; no end-to-end timing.",
+    "Six paired process blocks share one fixed dataset; 15 repeats are not independent experiments.",
+    "Only final timed output (iteration14) is retained and checked.",
+    "External sealed executable/DSO/source bytes are referenced by exact previously qualified BUILD/QUAL metadata; not included in these condition streams.",
+    "No received program/library was executed; CPU signature mathematics is not recomputed locally.",
+    "Sealed-binary sanitizer remains NOT_RUN; no FIPS/boundary/failure campaign."
+  ]
+}

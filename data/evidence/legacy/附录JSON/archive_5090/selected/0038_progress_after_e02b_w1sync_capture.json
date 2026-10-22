@@ -1,0 +1,21 @@
+{
+  "recorded_utc": "2026-10-19T18:30:13.632442+00:00",
+  "current_category": "E02",
+  "candidate_run": "e02b-w1sync-20261019T182627865064Z-664886",
+  "candidate_cpu_build": "COMPLETED_RAW_ARCHIVE_INTAKE_PENDING",
+  "original_e02b_counts": {
+    "pass": 30,
+    "finding": 1,
+    "not_run": 17
+  },
+  "original_finding": "UNRESOLVED",
+  "candidate_gpu_validation": "NOT_RUN",
+  "full_e02_complete": false,
+  "formal_performance_collected": false,
+  "next_action": "USER_DOWNLOADS_ARCHIVE_AND_SHA256_SIDECAR",
+  "receipt": {
+    "path": "server_results/e02b_w1sync/e02b-w1sync-20261019T182627865064Z-664886/DOWNLOAD_EXPECTED.json",
+    "bytes": 2164,
+    "sha256": "3bda39d56633a7b5fbc47748013c213fe1dc4617bb715dcffecff2544b058298"
+  }
+}

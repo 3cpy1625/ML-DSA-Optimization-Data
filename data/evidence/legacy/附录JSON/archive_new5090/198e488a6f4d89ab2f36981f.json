@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "fault": {
+      "additionalProperties": false,
+      "properties": {
+        "case_id": {"minLength": 1, "type": "string"},
+        "expected_failure_class": {"minLength": 1, "type": "string"},
+        "observed_exit_code": {"minimum": 0, "type": "integer"},
+        "observed_status": {"enum": ["PASS", "FAIL"], "type": "string"},
+        "suite_id": {"minLength": 1, "type": "string"}
+      },
+      "required": ["suite_id", "case_id", "expected_failure_class", "observed_exit_code", "observed_status"],
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "build_type": {"minLength": 1, "type": "string"},
+    "build_variant": {"enum": ["debug", "release", "asan_ubsan"], "type": "string"},
+    "checks_executed": {"minimum": 1, "type": "integer"},
+    "ctest_name": {"minLength": 1, "type": "string"},
+    "failures": {"minimum": 0, "type": "integer"},
+    "fault_cases": {"items": {"$ref": "#/$defs/fault"}, "type": "array"},
+    "fuzz_schedules_executed": {"minimum": 0, "type": "integer"},
+    "log_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+    "observed_exit_code": {"minimum": 0, "type": "integer"},
+    "raw_result_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+    "release_family_id": {"pattern": "LOCE-PQC-GPU-H004-[0-9]{8}T[0-9]{6}Z", "type": "string"},
+    "schema": {"const": "loce.hardening004.cpu-suite-result.v1", "type": "string"},
+    "source_compilation_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+    "status": {"enum": ["PASS", "FAIL"], "type": "string"},
+    "suite_id": {"minLength": 1, "type": "string"}
+  },
+  "required": ["schema", "release_family_id", "suite_id", "ctest_name", "build_variant", "build_type", "source_compilation_sha256", "observed_exit_code", "checks_executed", "fuzz_schedules_executed", "failures", "status", "fault_cases", "raw_result_sha256", "log_sha256"],
+  "type": "object"
+}

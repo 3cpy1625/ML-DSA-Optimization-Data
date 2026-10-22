@@ -1,0 +1,156 @@
+[
+  {
+    "path": "results/views/main-performance.csv",
+    "rows": 63,
+    "columns": 22,
+    "bytes": 16897,
+    "sha256": "485abdf44d4b1f963a7bbe436239ac2274ee1ed0b11b6e38e74cf964fe835c8a"
+  },
+  {
+    "path": "results/views/ablation-comparisons.csv",
+    "rows": 157,
+    "columns": 19,
+    "bytes": 30499,
+    "sha256": "05e12372d03c9f0d016394c126299b3b7103980ef5decf0fcf607004f807fd9c"
+  },
+  {
+    "path": "results/views/operator-microbenchmarks-01.csv",
+    "rows": 1559,
+    "columns": 19,
+    "bytes": 449777,
+    "sha256": "95f3c1f3d2ac7fb9cb7acf02bf4ce301780f5f874e7935600888bf23605dd9ce"
+  },
+  {
+    "path": "results/views/operator-microbenchmarks-02.csv",
+    "rows": 2093,
+    "columns": 19,
+    "bytes": 449851,
+    "sha256": "f81205af9741a2db606b9e7b0d1fdf4903cfe427d1cebc5c2605fa414646acbf"
+  },
+  {
+    "path": "results/views/operator-microbenchmarks-03.csv",
+    "rows": 1316,
+    "columns": 19,
+    "bytes": 251740,
+    "sha256": "f9e7526c3af49bd99ddefb072ae1ac0c1cc861a5a6ef604b0167be6de059e653"
+  },
+  {
+    "path": "results/views/auxiliary-diagnostics-01.csv",
+    "rows": 2588,
+    "columns": 19,
+    "bytes": 449970,
+    "sha256": "0b71a2f96eeaf2a49aad67731543f24aaba0bc9ed6c44b1ee3993e855908cdb2"
+  },
+  {
+    "path": "results/views/auxiliary-diagnostics-02.csv",
+    "rows": 1486,
+    "columns": 19,
+    "bytes": 449737,
+    "sha256": "2b62c103c9aa1e3cd02be22a45cbeed185f668f86dc0971119f2f119c258b863"
+  },
+  {
+    "path": "results/views/auxiliary-diagnostics-03.csv",
+    "rows": 852,
+    "columns": 19,
+    "bytes": 172535,
+    "sha256": "fd37e1e2304675c4ba54e24506767db341ad749ae45dfcb51da2c0a2d26624b4"
+  },
+  {
+    "path": "results/views/correctness-records-01.csv",
+    "rows": 1448,
+    "columns": 17,
+    "bytes": 449602,
+    "sha256": "3ffe99b82caf2928365daba13953332704b83294050f85d07db048c414806df8"
+  },
+  {
+    "path": "results/views/correctness-records-02.csv",
+    "rows": 274,
+    "columns": 17,
+    "bytes": 127863,
+    "sha256": "b5ca47edb5b3d87663e591851a8e2108aa60b03f1a7a121bc2a8001192433258"
+  },
+  {
+    "path": "results/views/experiment-catalog.csv",
+    "rows": 60,
+    "columns": 16,
+    "bytes": 37911,
+    "sha256": "2ebcffd786babb2e695288521574010bd5c84f6bc56d861221bcc6590bd2b9d4"
+  },
+  {
+    "path": "results/views/limitations.csv",
+    "rows": 252,
+    "columns": 8,
+    "bytes": 55493,
+    "sha256": "7d5873b6b4b751cf86bcb77838223b91141f5b4fd96de54ee0c53c496d8da9aa"
+  },
+  {
+    "path": "results/views/environments.csv",
+    "rows": 42,
+    "columns": 7,
+    "bytes": 8247,
+    "sha256": "43f1746be4601d4f3df86626bdaa0aae49edd5ab054c54832f134809e28542a8"
+  },
+  {
+    "path": "results/views/source-index-01.csv",
+    "rows": 1425,
+    "columns": 6,
+    "bytes": 449719,
+    "sha256": "066abe566166ef2c24a05592f3c48c24ccf56009fb408cf72313cdeccf717389"
+  },
+  {
+    "path": "results/views/source-index-02.csv",
+    "rows": 1093,
+    "columns": 6,
+    "bytes": 449960,
+    "sha256": "57f1197e15de1c5ebebf402ee42c08bb7d5392cd48062c342f0f5638ec3257c1"
+  },
+  {
+    "path": "results/views/source-index-03.csv",
+    "rows": 521,
+    "columns": 6,
+    "bytes": 236468,
+    "sha256": "9b137258b01fb6ea8cd3fcc60a82f91855176e65e671a2240fc64541ff261786"
+  },
+  {
+    "path": "results/views/table-index-01.csv",
+    "rows": 534,
+    "columns": 26,
+    "bytes": 449168,
+    "sha256": "dbad708d4de650380bbeb9e3d041b87082357853bf05c41a958a8d681295f9a8"
+  },
+  {
+    "path": "results/views/table-index-02.csv",
+    "rows": 481,
+    "columns": 26,
+    "bytes": 449166,
+    "sha256": "7b71cf11fcae8b17c89010846d9e3ae8550f860c6d3d737c8e501286d70d1a23"
+  },
+  {
+    "path": "results/views/table-index-03.csv",
+    "rows": 516,
+    "columns": 26,
+    "bytes": 449077,
+    "sha256": "18ccb39ff2ee6aeedf2d1277c7961bcddd899f30fd144630261778828b6cbc97"
+  },
+  {
+    "path": "results/views/table-index-04.csv",
+    "rows": 504,
+    "columns": 26,
+    "bytes": 448906,
+    "sha256": "c0ce2509ae6f563073b633ec1abe87084809cd5ba2f1d5eb906060a14dddb9b8"
+  },
+  {
+    "path": "results/views/table-index-05.csv",
+    "rows": 4,
+    "columns": 26,
+    "bytes": 3668,
+    "sha256": "9a205cccf33244c63b798789a9f27d6f6112c6c19429761338608b4a926b4852"
+  },
+  {
+    "path": "results/views/supplement-summary.csv",
+    "rows": 4,
+    "columns": 17,
+    "bytes": 1748,
+    "sha256": "5877622ae1705347c06a499b751a1e6d5e3fe597bd0db83dc88c5fc24f18e494"
+  }
+]

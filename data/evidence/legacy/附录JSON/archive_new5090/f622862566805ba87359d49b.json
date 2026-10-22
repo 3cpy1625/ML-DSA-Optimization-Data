@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "/home/lsb/mldsa-experiments-5090/tools/python312/bin/cmake",
+    "--build",
+    "/home/lsb/mldsa-experiments-5090/\u65b05090/m44_three_arm_20261020T121813Z_11cf6ec1/bench_P0",
+    "--target",
+    "loce_unified_api_bench",
+    "--parallel",
+    "2"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 8.338468367997848,
+  "log_sha256": "6ed4a5c9d6d80f0e578f0bcdd17101737a84abaa711176a5f2c227b92cce10bb",
+  "gpu_visible": false
+}

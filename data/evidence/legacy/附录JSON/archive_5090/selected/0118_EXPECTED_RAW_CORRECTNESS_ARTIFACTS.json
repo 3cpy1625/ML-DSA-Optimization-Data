@@ -1,0 +1,1583 @@
+{
+  "files": 315,
+  "bytes": 54692791,
+  "expected_artifacts": [
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261018/blobs/coins.bin",
+      "bytes": 2048,
+      "sha256": "db3e073941fb57daf647b61dc507714e866278e5cc53c1f0ed99bd33b6d557f5"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261018/blobs/gpu_public_keys.bin",
+      "bytes": 83968,
+      "sha256": "3a91e4fcda00109f0c38c2229548e599a2f9d6d6133dc7544f5981b372075367"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261018/blobs/gpu_secret_keys.bin",
+      "bytes": 163840,
+      "sha256": "2b2dca0410047b7fa8d865e4aba82472b1a596acd96a85501a0649efad4276a3"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261018/blobs/native_direct_public_keys.bin",
+      "bytes": 83968,
+      "sha256": "d777d1c81ebc9a72bc30d65742d2ad934ae4e144ec1548a56df03948ed0b63ef"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261018/blobs/native_direct_secret_keys.bin",
+      "bytes": 163840,
+      "sha256": "22eeb1bfd34fc9c2232eb8174b7167c3d925067536ff67cd1118f5f34485b0ce"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261018/blobs/reference_public_keys.bin",
+      "bytes": 83968,
+      "sha256": "3a91e4fcda00109f0c38c2229548e599a2f9d6d6133dc7544f5981b372075367"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261018/blobs/reference_secret_keys.bin",
+      "bytes": 163840,
+      "sha256": "2b2dca0410047b7fa8d865e4aba82472b1a596acd96a85501a0649efad4276a3"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261018/gpu_before.json",
+      "bytes": 179,
+      "sha256": "7e002f4624ba38b22c54b756e642b393330fba90448cc5564fe12b6e2169e82f"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261018/ldd.command.json",
+      "bytes": 1106,
+      "sha256": "e35b5e36491a82b8a79a3ead57dbefff93b23e7f53b754ac83144754a11f43dd"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261018/ldd.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261018/ldd.stdout.txt",
+      "bytes": 921,
+      "sha256": "ff973e71816ec102aa898caa53ef679cb82c3802f43a17769209ea253e842e36"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261018/test.command.json",
+      "bytes": 1132,
+      "sha256": "bf0c74958bbc6fdd576feaaf0a36613a057306fdf6729bba8c6a4d3bb76e3e77"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261018/test.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261018/test.stdout.txt",
+      "bytes": 909,
+      "sha256": "d0a84171bf417940e1e121b1fc6f76e7c4e326c079acb99bde60669a63992bc1"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261019/blobs/coins.bin",
+      "bytes": 2048,
+      "sha256": "88571d661cdbc2863ba81446228c4c2a67e23194f11cfa7482beb487d1037e04"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261019/blobs/gpu_public_keys.bin",
+      "bytes": 83968,
+      "sha256": "ec3ab6ec754dd400a1f7cc6fd6f1bb1f52616bc40d36d44d6b603d9043a95edb"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261019/blobs/gpu_secret_keys.bin",
+      "bytes": 163840,
+      "sha256": "8830b6b675857e4be22972876825c5d98d1fcb479e703ac8d6d13bdc9d4a7156"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261019/blobs/native_direct_public_keys.bin",
+      "bytes": 83968,
+      "sha256": "d777d1c81ebc9a72bc30d65742d2ad934ae4e144ec1548a56df03948ed0b63ef"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261019/blobs/native_direct_secret_keys.bin",
+      "bytes": 163840,
+      "sha256": "22eeb1bfd34fc9c2232eb8174b7167c3d925067536ff67cd1118f5f34485b0ce"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261019/blobs/reference_public_keys.bin",
+      "bytes": 83968,
+      "sha256": "ec3ab6ec754dd400a1f7cc6fd6f1bb1f52616bc40d36d44d6b603d9043a95edb"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261019/blobs/reference_secret_keys.bin",
+      "bytes": 163840,
+      "sha256": "8830b6b675857e4be22972876825c5d98d1fcb479e703ac8d6d13bdc9d4a7156"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261019/gpu_before.json",
+      "bytes": 179,
+      "sha256": "49523803e84cf90abf794f6d0556b7457e4e9027a7c1fda03df355d9aa4baaa5"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261019/ldd.command.json",
+      "bytes": 1106,
+      "sha256": "23e61e816139589ade5f3b39636b79e1aae693d05d863d3fbb5bb4a3b3d894e5"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261019/ldd.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261019/ldd.stdout.txt",
+      "bytes": 921,
+      "sha256": "80e1aae4d4739201805e3683bff232297ec214056cfc2848bc5fc70a7766bd4d"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261019/test.command.json",
+      "bytes": 1132,
+      "sha256": "0d995e77c7478794ffcb56257119868beb0ff508b9e7f449327bb49b826a92ba"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261019/test.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261019/test.stdout.txt",
+      "bytes": 907,
+      "sha256": "5fcb8840004db621f6f920ca14b2c1efcc7eb6815ae0dcb7af95105e3c6fe7d0"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261020/blobs/coins.bin",
+      "bytes": 2048,
+      "sha256": "b79693816b9d0db2d6c7bca83f30ea504424c84ca96a95a08f4dd0f0bf49ed85"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261020/blobs/gpu_public_keys.bin",
+      "bytes": 83968,
+      "sha256": "09201152dbee929940fa248128764a18cbccd3684f945ca6f3a8c809a887a443"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261020/blobs/gpu_secret_keys.bin",
+      "bytes": 163840,
+      "sha256": "21da9749dab83dd9ca7415cc04920f5cfaa9a7db63caf50cd86ad2aa6e42cbfd"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261020/blobs/native_direct_public_keys.bin",
+      "bytes": 83968,
+      "sha256": "d777d1c81ebc9a72bc30d65742d2ad934ae4e144ec1548a56df03948ed0b63ef"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261020/blobs/native_direct_secret_keys.bin",
+      "bytes": 163840,
+      "sha256": "22eeb1bfd34fc9c2232eb8174b7167c3d925067536ff67cd1118f5f34485b0ce"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261020/blobs/reference_public_keys.bin",
+      "bytes": 83968,
+      "sha256": "09201152dbee929940fa248128764a18cbccd3684f945ca6f3a8c809a887a443"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261020/blobs/reference_secret_keys.bin",
+      "bytes": 163840,
+      "sha256": "21da9749dab83dd9ca7415cc04920f5cfaa9a7db63caf50cd86ad2aa6e42cbfd"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261020/gpu_before.json",
+      "bytes": 179,
+      "sha256": "7b7ea41a1a0b682f2375ae2ec29aefdaeac2a7ff458c84ed975919dc4ef3340c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261020/ldd.command.json",
+      "bytes": 1105,
+      "sha256": "9e999ce8840b2ac730f2ad2772c91122bb2f90ed4cb5ea7b2225921ad5391b92"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261020/ldd.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261020/ldd.stdout.txt",
+      "bytes": 921,
+      "sha256": "b699ca4b2bd43c704f69ba9c0abc89f8451d13c08fd2fc99a7e748141245dfc4"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261020/test.command.json",
+      "bytes": 1132,
+      "sha256": "3492206aa7973156133901c29fd834a9de2948fee363b1bcb4fc26261c68cc99"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261020/test.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_keygen/seed-0000000020261020/test.stdout.txt",
+      "bytes": 907,
+      "sha256": "c094775a04b37f594c42bbac4c72bce8275c2738d47e7245c72c6d4214dfc29e"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261018/blobs/gpu_device_api_signatures.bin",
+      "bytes": 619520,
+      "sha256": "afcd81ffa63a720090c99705dad151bbff6e0d39a4b742b6de761d472689d32f"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261018/blobs/gpu_signatures.bin",
+      "bytes": 619520,
+      "sha256": "afcd81ffa63a720090c99705dad151bbff6e0d39a4b742b6de761d472689d32f"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261018/blobs/host_winner_records.bin",
+      "bytes": 8192,
+      "sha256": "916a909be99ec40a10337490c3ea8dd9635a68b97aa3fb82a91f23b3fccc6708"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261018/blobs/keygen_seeds.bin",
+      "bytes": 8192,
+      "sha256": "ad6b1600ddf9f42b269230d17ee6921a9b61283bd3188fa8d721b1d925ccd523"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261018/blobs/message_bytes.bin",
+      "bytes": 8,
+      "sha256": "9d4ac218fb54041e3a70a8e14db1ea1af9f570f4842b4702ef9323f1ad8f0ec4"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261018/blobs/messages.bin",
+      "bytes": 8192,
+      "sha256": "64b9cb2573aa276419308947fc875bbe8d4ed4b9fe0cb2cf26776f82293e0c30"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261018/blobs/public_keys.bin",
+      "bytes": 335872,
+      "sha256": "38a274da35e8d0d1a1570cc7cb2b765b02b4601ef234dee3cd62548c9b7ce20b"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261018/blobs/randomness.bin",
+      "bytes": 8192,
+      "sha256": "a453467388795daed779882e976bdf339155e48385927ddab102f86b530ff89d"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261018/blobs/reference_signatures.bin",
+      "bytes": 619520,
+      "sha256": "afcd81ffa63a720090c99705dad151bbff6e0d39a4b742b6de761d472689d32f"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261018/blobs/secret_keys.bin",
+      "bytes": 655360,
+      "sha256": "9a3040e7b5c84c277bb38f73997aa39be335ff5bb404342826186fc60c1f1b13"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261018/gpu_before.json",
+      "bytes": 179,
+      "sha256": "0424ffaf621ebaef82a270f63b68862fa72bf547dcbb281fea811ea7ab463f66"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261018/ldd.command.json",
+      "bytes": 1096,
+      "sha256": "dbea031596a997a5e52899641e8acf9728059e03420d7470f502b301b187d718"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261018/ldd.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261018/ldd.stdout.txt",
+      "bytes": 915,
+      "sha256": "fd066877023536b611e51fdc782a73cbd4ba9ba0c1246cd722df71afd5e28bf7"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261018/test.command.json",
+      "bytes": 1187,
+      "sha256": "753a7d7f6b230dc8fb8fd6ab26bc4eeaf8614ba2f98aaa357079939cc49e3d21"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261018/test.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261018/test.stdout.txt",
+      "bytes": 1057,
+      "sha256": "5cbffdd42946ae66ff1441f030a5a5da4ec9cbc44c3f85472ce25f82acf32b4b"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261019/blobs/gpu_device_api_signatures.bin",
+      "bytes": 619520,
+      "sha256": "755e95c7d4a65595e66ff51011b34daa480a91637017a331b967a3f5d88780d0"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261019/blobs/gpu_signatures.bin",
+      "bytes": 619520,
+      "sha256": "755e95c7d4a65595e66ff51011b34daa480a91637017a331b967a3f5d88780d0"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261019/blobs/host_winner_records.bin",
+      "bytes": 8192,
+      "sha256": "a09ded566eb699135b84d4dde35c4b5088d74e0981979a6cd0497e8f000de385"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261019/blobs/keygen_seeds.bin",
+      "bytes": 8192,
+      "sha256": "e3680707dbe5eff9c351e218575f89df58b16776f5a15e9a4c4a6a1339b8524c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261019/blobs/message_bytes.bin",
+      "bytes": 8,
+      "sha256": "9d4ac218fb54041e3a70a8e14db1ea1af9f570f4842b4702ef9323f1ad8f0ec4"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261019/blobs/messages.bin",
+      "bytes": 8192,
+      "sha256": "30168c0161da0e2ff64f7608f26f01ce08dd3902d764318505b39d6134ac0d58"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261019/blobs/public_keys.bin",
+      "bytes": 335872,
+      "sha256": "00c23820faea695b7dceed97bff246476cd8cee554f3fccff6bf717e5f0c8a4e"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261019/blobs/randomness.bin",
+      "bytes": 8192,
+      "sha256": "a67a8e3019736f58b35e45c187d9fa118c7534f4b6614b311d2947df26addd17"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261019/blobs/reference_signatures.bin",
+      "bytes": 619520,
+      "sha256": "755e95c7d4a65595e66ff51011b34daa480a91637017a331b967a3f5d88780d0"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261019/blobs/secret_keys.bin",
+      "bytes": 655360,
+      "sha256": "09a8d91b5a92f17153dc0c50935b0f6e55fcd62b59d739bdbfb50cab3c43d879"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261019/gpu_before.json",
+      "bytes": 179,
+      "sha256": "b091a55d2dc0c65571896ce5630a024e58598da5ea54b9659471258955c83939"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261019/ldd.command.json",
+      "bytes": 1096,
+      "sha256": "217fa777f65981bc53ed9c79d5aebde7670404011f2bd59934e2443e3c5a080d"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261019/ldd.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261019/ldd.stdout.txt",
+      "bytes": 915,
+      "sha256": "58c097efa0fba8b2a4e77b8cbde47993cda1e6db421008b4af8ca77d85c4a6a4"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261019/test.command.json",
+      "bytes": 1188,
+      "sha256": "ad34a444261c59a98b752ea33a01e118f5eb4baa5a32d2ec327bddc5e6b8c664"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261019/test.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261019/test.stdout.txt",
+      "bytes": 1057,
+      "sha256": "845da4b657440e54937f55eeb932642faa1302e5d30de9b01c6386667ecee9b4"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261020/blobs/gpu_device_api_signatures.bin",
+      "bytes": 619520,
+      "sha256": "8cbae495055afd4c6e87e7e5e67ce622b59afb4d411c896b7708b4967cdb1dea"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261020/blobs/gpu_signatures.bin",
+      "bytes": 619520,
+      "sha256": "8cbae495055afd4c6e87e7e5e67ce622b59afb4d411c896b7708b4967cdb1dea"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261020/blobs/host_winner_records.bin",
+      "bytes": 8192,
+      "sha256": "387c0f117f60afb898c1cd11335809ca3dd1bd9fa84adc93f17136fb4b365dd4"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261020/blobs/keygen_seeds.bin",
+      "bytes": 8192,
+      "sha256": "fbf8a6ffcfdc6e7cee859043d7ad9ecc8f1197923f3bf8ebb31d83dc6b32b9c1"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261020/blobs/message_bytes.bin",
+      "bytes": 8,
+      "sha256": "9d4ac218fb54041e3a70a8e14db1ea1af9f570f4842b4702ef9323f1ad8f0ec4"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261020/blobs/messages.bin",
+      "bytes": 8192,
+      "sha256": "c8dafe7ca28648812f31cf02c0949040f8a7adacc7b1e0790f6c5eff9444a46c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261020/blobs/public_keys.bin",
+      "bytes": 335872,
+      "sha256": "aeb4142bca3c6a25e73f9614792305a3f8930637a9c9243022f891a66237155b"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261020/blobs/randomness.bin",
+      "bytes": 8192,
+      "sha256": "ed571177e6a271ecf8d4eedb3aabc655841ed85cd0d3f9a6646a8219db8f1fad"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261020/blobs/reference_signatures.bin",
+      "bytes": 619520,
+      "sha256": "8cbae495055afd4c6e87e7e5e67ce622b59afb4d411c896b7708b4967cdb1dea"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261020/blobs/secret_keys.bin",
+      "bytes": 655360,
+      "sha256": "4fd3890309c95bd922954e737eb778aa963a277bddf011d4fc9450ca0a08d242"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261020/gpu_before.json",
+      "bytes": 179,
+      "sha256": "506f539876e8152d6f7e3422339bc2718a660667c32fc5617ecc07d0f17f8171"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261020/ldd.command.json",
+      "bytes": 1096,
+      "sha256": "733280a59b80f7ad4a4cab22f5179bdb319b6c90b1fe79825ecbd46815a44637"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261020/ldd.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261020/ldd.stdout.txt",
+      "bytes": 915,
+      "sha256": "d07ea0ce6152d5ae137940add40f706ca188925ee7ee014c673bbed1c18e059b"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261020/test.command.json",
+      "bytes": 1188,
+      "sha256": "dcb72b6c7c5bdac33e995fcd2e0b94bd0c510bced4f33d08b0991d4d4a26e505"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261020/test.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_sign/seed-0000000020261020/test.stdout.txt",
+      "bytes": 1057,
+      "sha256": "9aea47164513a1eb0d2ef12d0ea7c4fd1ac5089e0c055a2bff07189bc8631629"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_verify/fixed-corpus/blobs/gpu_verify_results.bin",
+      "bytes": 1024,
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_verify/fixed-corpus/blobs/messages.bin",
+      "bytes": 8192,
+      "sha256": "24dd4fb75139e25f9ced88a7d5a12eadd7efd522310802ec9e3a4b5e7b2fc285"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_verify/fixed-corpus/blobs/public_keys.bin",
+      "bytes": 335872,
+      "sha256": "3ff3109d010e48e5cc0fa5938230291bfe6c2b6787bf505ada779cf8c3a1418b"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_verify/fixed-corpus/blobs/secret_keys.bin",
+      "bytes": 655360,
+      "sha256": "bd2495af897085ea13ad778f561057e900e58d84bf7ab3a2a88c1876614c5af6"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_verify/fixed-corpus/blobs/signatures.bin",
+      "bytes": 619520,
+      "sha256": "c46741b60146fbbf703f37139577c73671c93e0030f696d9b25b6996121bff8a"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_verify/fixed-corpus/gpu_before.json",
+      "bytes": 179,
+      "sha256": "6980cbdbffd67d2009c22de8260fd2662666ba3e95414e2bc952b39150aef6ff"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_verify/fixed-corpus/ldd.command.json",
+      "bytes": 1088,
+      "sha256": "d1634eecaebd60a72dea382a3fa96637175039c8b559d9786d4d8f99ad2e224e"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_verify/fixed-corpus/ldd.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_verify/fixed-corpus/ldd.stdout.txt",
+      "bytes": 921,
+      "sha256": "bd2c91bfc5d838fdddf48ecf25cbf6270ffa319467c7b7c7b99de91c24dcf349"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_verify/fixed-corpus/test.command.json",
+      "bytes": 1097,
+      "sha256": "f1963c5ba61c476744f6cfb755483a64c8c86ff30b35327fe9e39ec9348f3bd8"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_verify/fixed-corpus/test.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa44_verify/fixed-corpus/test.stdout.txt",
+      "bytes": 657,
+      "sha256": "4ba23191369f5beeeed770c22da59388e614d9aa8be47ac0531a24fc2734d268"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261018/blobs/coins.bin",
+      "bytes": 2048,
+      "sha256": "db3e073941fb57daf647b61dc507714e866278e5cc53c1f0ed99bd33b6d557f5"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261018/blobs/gpu_public_keys.bin",
+      "bytes": 124928,
+      "sha256": "82b521487b52b47a7646965fa733306a6cfec76b94bec3c1c9c1d01ca4515c6a"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261018/blobs/gpu_secret_keys.bin",
+      "bytes": 258048,
+      "sha256": "841a7ede5e6a44a3f8e04c0e4d1ea86829aad7113307e06f26bb2b72614abe79"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261018/blobs/native_direct_public_keys.bin",
+      "bytes": 124928,
+      "sha256": "3a42e0ce001db90ef7feda4391f24132e6b105f3be21100e4043cb83612b51ec"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261018/blobs/native_direct_secret_keys.bin",
+      "bytes": 258048,
+      "sha256": "186c3626580fb20f8f8a22d8e357031fdadd5cff2458b14560036e32df0a214e"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261018/blobs/reference_public_keys.bin",
+      "bytes": 124928,
+      "sha256": "82b521487b52b47a7646965fa733306a6cfec76b94bec3c1c9c1d01ca4515c6a"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261018/blobs/reference_secret_keys.bin",
+      "bytes": 258048,
+      "sha256": "841a7ede5e6a44a3f8e04c0e4d1ea86829aad7113307e06f26bb2b72614abe79"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261018/gpu_before.json",
+      "bytes": 179,
+      "sha256": "5e8936ce1735e282edf60a8a66517fff8a347d45401ce46fbbbf77461bcd443f"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261018/ldd.command.json",
+      "bytes": 1105,
+      "sha256": "0c38a67590692d6bc5d4b40cf42c6242cab7dc3447e6fd5bf8c97d016e8644e4"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261018/ldd.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261018/ldd.stdout.txt",
+      "bytes": 921,
+      "sha256": "8e7213160088d771a1569b939f5478587cbcda11a023ed75d1e96d6ee1b903ab"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261018/test.command.json",
+      "bytes": 1132,
+      "sha256": "9ea7ae35393e61ccab2bb41827ddd9b99b3cea731346cacc064eb11c0a9d16c0"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261018/test.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261018/test.stdout.txt",
+      "bytes": 911,
+      "sha256": "48553caee8e15b8e89c6ce76a26ed747b2bbb11bba5a28ef07f2d60530578ff9"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261019/blobs/coins.bin",
+      "bytes": 2048,
+      "sha256": "88571d661cdbc2863ba81446228c4c2a67e23194f11cfa7482beb487d1037e04"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261019/blobs/gpu_public_keys.bin",
+      "bytes": 124928,
+      "sha256": "9be74188be061fd1e623ee50c09af1911f818ec458f595e95c9071ffd0ad18cd"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261019/blobs/gpu_secret_keys.bin",
+      "bytes": 258048,
+      "sha256": "bdf5c51fbdae053ada00906dd1724f719187c8a3401fcc86229813995ced384b"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261019/blobs/native_direct_public_keys.bin",
+      "bytes": 124928,
+      "sha256": "3a42e0ce001db90ef7feda4391f24132e6b105f3be21100e4043cb83612b51ec"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261019/blobs/native_direct_secret_keys.bin",
+      "bytes": 258048,
+      "sha256": "186c3626580fb20f8f8a22d8e357031fdadd5cff2458b14560036e32df0a214e"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261019/blobs/reference_public_keys.bin",
+      "bytes": 124928,
+      "sha256": "9be74188be061fd1e623ee50c09af1911f818ec458f595e95c9071ffd0ad18cd"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261019/blobs/reference_secret_keys.bin",
+      "bytes": 258048,
+      "sha256": "bdf5c51fbdae053ada00906dd1724f719187c8a3401fcc86229813995ced384b"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261019/gpu_before.json",
+      "bytes": 179,
+      "sha256": "8db2819b9d7f247cc59237ba4581412201c55974c04e8518110e3ddbd151838c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261019/ldd.command.json",
+      "bytes": 1106,
+      "sha256": "43f8b201b437b9765dcb4298cf400e05c99dc0d65521f70cc8f9362bb7d9e338"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261019/ldd.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261019/ldd.stdout.txt",
+      "bytes": 921,
+      "sha256": "52fa09f4fea6ab80e48d2df1b0d8d1cc813cb5299fe436d6caf475abad469bdb"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261019/test.command.json",
+      "bytes": 1132,
+      "sha256": "873dff219ef945e10407a651f68864cc9d606f24aebb4e75dbee4c46d94b6ee0"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261019/test.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261019/test.stdout.txt",
+      "bytes": 911,
+      "sha256": "ee8bcffe03555b4777d6c18a11d92d44903e511277d838afcf3c7fcd7c3b53bb"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261020/blobs/coins.bin",
+      "bytes": 2048,
+      "sha256": "b79693816b9d0db2d6c7bca83f30ea504424c84ca96a95a08f4dd0f0bf49ed85"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261020/blobs/gpu_public_keys.bin",
+      "bytes": 124928,
+      "sha256": "61f35ffbfcabee253953a013beab53c46235aa015ca286ce892135def0bb4016"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261020/blobs/gpu_secret_keys.bin",
+      "bytes": 258048,
+      "sha256": "bf325076d787173a0139798fd8002f115a0c3d68015e2f63614898168a82b0d5"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261020/blobs/native_direct_public_keys.bin",
+      "bytes": 124928,
+      "sha256": "3a42e0ce001db90ef7feda4391f24132e6b105f3be21100e4043cb83612b51ec"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261020/blobs/native_direct_secret_keys.bin",
+      "bytes": 258048,
+      "sha256": "186c3626580fb20f8f8a22d8e357031fdadd5cff2458b14560036e32df0a214e"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261020/blobs/reference_public_keys.bin",
+      "bytes": 124928,
+      "sha256": "61f35ffbfcabee253953a013beab53c46235aa015ca286ce892135def0bb4016"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261020/blobs/reference_secret_keys.bin",
+      "bytes": 258048,
+      "sha256": "bf325076d787173a0139798fd8002f115a0c3d68015e2f63614898168a82b0d5"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261020/gpu_before.json",
+      "bytes": 179,
+      "sha256": "ec0a2d29d4925a4711ae0cce2b19f3b5ac3d36ed0f82c2e543dcb409c33e3d8e"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261020/ldd.command.json",
+      "bytes": 1106,
+      "sha256": "94e7d69a944b74a2b771a296fc7996cb37e67dd98d622759f5be871214fdeb2b"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261020/ldd.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261020/ldd.stdout.txt",
+      "bytes": 921,
+      "sha256": "679d5e7a478eea8cbc76a9a120073db51fd5c0844996e6eb551e5ae51aa6bb44"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261020/test.command.json",
+      "bytes": 1131,
+      "sha256": "09f6fa0279bd0de138f2cbb8f62357fa7bc7da428c2b8ba65af547c9c6f1f5cd"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261020/test.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_keygen/seed-0000000020261020/test.stdout.txt",
+      "bytes": 911,
+      "sha256": "594239117879393f2e34d4071b9aef8831eed55cd431c97f067341cf2b86cc86"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261018/blobs/gpu_device_api_signatures.bin",
+      "bytes": 847104,
+      "sha256": "5b48394031fbc31bb5006fccd292a46c812c59796184c1cca5705103afa06ceb"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261018/blobs/gpu_signatures.bin",
+      "bytes": 847104,
+      "sha256": "5b48394031fbc31bb5006fccd292a46c812c59796184c1cca5705103afa06ceb"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261018/blobs/host_winner_records.bin",
+      "bytes": 8192,
+      "sha256": "4d3a3f69fd53ec49e387c1cbd4db797907a43b4525024ad1d10aa7a420b425d1"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261018/blobs/keygen_seeds.bin",
+      "bytes": 8192,
+      "sha256": "ad6b1600ddf9f42b269230d17ee6921a9b61283bd3188fa8d721b1d925ccd523"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261018/blobs/message_bytes.bin",
+      "bytes": 8,
+      "sha256": "9d4ac218fb54041e3a70a8e14db1ea1af9f570f4842b4702ef9323f1ad8f0ec4"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261018/blobs/messages.bin",
+      "bytes": 8192,
+      "sha256": "64b9cb2573aa276419308947fc875bbe8d4ed4b9fe0cb2cf26776f82293e0c30"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261018/blobs/public_keys.bin",
+      "bytes": 499712,
+      "sha256": "0fb6c4f3324cf30faf3a6a34fdfcdf2aea191b6050bf5593488331b8cb569862"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261018/blobs/randomness.bin",
+      "bytes": 8192,
+      "sha256": "a453467388795daed779882e976bdf339155e48385927ddab102f86b530ff89d"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261018/blobs/reference_signatures.bin",
+      "bytes": 847104,
+      "sha256": "5b48394031fbc31bb5006fccd292a46c812c59796184c1cca5705103afa06ceb"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261018/blobs/secret_keys.bin",
+      "bytes": 1032192,
+      "sha256": "097406b69b083b03026af74c0660b2129e27fdb941be7f213ba1a88d25d530dc"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261018/gpu_before.json",
+      "bytes": 179,
+      "sha256": "2b5c89bcb71d09d5bbf19993631b6b6ff7ab3731207fc9665ad940ee3fe11bad"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261018/ldd.command.json",
+      "bytes": 1096,
+      "sha256": "3e97d65c1bcbdcb6f5d4c48673238fa4131243adbf619eb8c71daa2e1e82cf18"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261018/ldd.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261018/ldd.stdout.txt",
+      "bytes": 915,
+      "sha256": "3ba1825ddebba3040ea7d4a14c48b0ef6c91d338544706abb15097d0ac165fbe"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261018/test.command.json",
+      "bytes": 1188,
+      "sha256": "7892b1eae5986975984bbf591ab65d2c74d29d1134d50374048d5de42172316b"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261018/test.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261018/test.stdout.txt",
+      "bytes": 1057,
+      "sha256": "05acdf96fc279aa3a818ab843ef242351ebdf33be8d8e7cabad25fe2000789e0"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261019/blobs/gpu_device_api_signatures.bin",
+      "bytes": 847104,
+      "sha256": "0ce4f3b16f141374ec84dac6e22465525a0781a448a02f462725b9c63cec547a"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261019/blobs/gpu_signatures.bin",
+      "bytes": 847104,
+      "sha256": "0ce4f3b16f141374ec84dac6e22465525a0781a448a02f462725b9c63cec547a"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261019/blobs/host_winner_records.bin",
+      "bytes": 8192,
+      "sha256": "ae423b6a9def6b0f66d864aed5001c16b66338cb5885d3e4806f6e87cd3f3a04"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261019/blobs/keygen_seeds.bin",
+      "bytes": 8192,
+      "sha256": "e3680707dbe5eff9c351e218575f89df58b16776f5a15e9a4c4a6a1339b8524c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261019/blobs/message_bytes.bin",
+      "bytes": 8,
+      "sha256": "9d4ac218fb54041e3a70a8e14db1ea1af9f570f4842b4702ef9323f1ad8f0ec4"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261019/blobs/messages.bin",
+      "bytes": 8192,
+      "sha256": "30168c0161da0e2ff64f7608f26f01ce08dd3902d764318505b39d6134ac0d58"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261019/blobs/public_keys.bin",
+      "bytes": 499712,
+      "sha256": "d267106c252c35f95ed2577488fbb7dcb43d1b4f230a30a59b68f220161eb905"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261019/blobs/randomness.bin",
+      "bytes": 8192,
+      "sha256": "a67a8e3019736f58b35e45c187d9fa118c7534f4b6614b311d2947df26addd17"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261019/blobs/reference_signatures.bin",
+      "bytes": 847104,
+      "sha256": "0ce4f3b16f141374ec84dac6e22465525a0781a448a02f462725b9c63cec547a"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261019/blobs/secret_keys.bin",
+      "bytes": 1032192,
+      "sha256": "f0a37ca6858e42ddc4f24b393ef19c370837012b6971fcf9dfce6b064e86272c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261019/gpu_before.json",
+      "bytes": 179,
+      "sha256": "5bd8aa17ba34854b20a755b9c20888d557c9c1c0ba92c7df84d32fe30971d6ef"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261019/ldd.command.json",
+      "bytes": 1095,
+      "sha256": "2aee6374184b602a8a4fa90ad3f85eca175ef12e361a06bceeae21037b043f56"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261019/ldd.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261019/ldd.stdout.txt",
+      "bytes": 915,
+      "sha256": "e6692424b54ebfaa392926e679b2792fcd0f48a772ee5e35f14fdb015ebcb678"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261019/test.command.json",
+      "bytes": 1188,
+      "sha256": "2a806891c6c871a346de9d0a0791551d77e56e7352a4d1f62721624f4d86dbed"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261019/test.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261019/test.stdout.txt",
+      "bytes": 1058,
+      "sha256": "79191eb423e59465341ed6f96a0a6bf739814c1f09124ac97ed4a3b0d986fa26"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261020/blobs/gpu_device_api_signatures.bin",
+      "bytes": 847104,
+      "sha256": "910b7734687307fc5196caf2967ad71e935e8f7467d36ad541e28c7393a97c81"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261020/blobs/gpu_signatures.bin",
+      "bytes": 847104,
+      "sha256": "910b7734687307fc5196caf2967ad71e935e8f7467d36ad541e28c7393a97c81"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261020/blobs/host_winner_records.bin",
+      "bytes": 8192,
+      "sha256": "dec59ca7ee6e4565e0b3b93136c53e6ff9aa40caa840bbe8c60986ca23860493"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261020/blobs/keygen_seeds.bin",
+      "bytes": 8192,
+      "sha256": "fbf8a6ffcfdc6e7cee859043d7ad9ecc8f1197923f3bf8ebb31d83dc6b32b9c1"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261020/blobs/message_bytes.bin",
+      "bytes": 8,
+      "sha256": "9d4ac218fb54041e3a70a8e14db1ea1af9f570f4842b4702ef9323f1ad8f0ec4"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261020/blobs/messages.bin",
+      "bytes": 8192,
+      "sha256": "c8dafe7ca28648812f31cf02c0949040f8a7adacc7b1e0790f6c5eff9444a46c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261020/blobs/public_keys.bin",
+      "bytes": 499712,
+      "sha256": "7644bb4ff659d57b993159ae77616771acaace5ab664764163c36f9c54a8ff86"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261020/blobs/randomness.bin",
+      "bytes": 8192,
+      "sha256": "ed571177e6a271ecf8d4eedb3aabc655841ed85cd0d3f9a6646a8219db8f1fad"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261020/blobs/reference_signatures.bin",
+      "bytes": 847104,
+      "sha256": "910b7734687307fc5196caf2967ad71e935e8f7467d36ad541e28c7393a97c81"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261020/blobs/secret_keys.bin",
+      "bytes": 1032192,
+      "sha256": "7bdc977e9d50df909ec174db8547d98cbca7886f846c68180ec7f96f9dd26ea8"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261020/gpu_before.json",
+      "bytes": 179,
+      "sha256": "08a0e654d4de336f7e851cec8caf4a85f36b98584917d6e5222e4faea05f8d34"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261020/ldd.command.json",
+      "bytes": 1096,
+      "sha256": "1276d0894eda4ab994d5c4c806fec4b5f1809462eec914d8031a94e0c7b835ca"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261020/ldd.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261020/ldd.stdout.txt",
+      "bytes": 915,
+      "sha256": "04db2ded883bc68abb1c65f71b8120a7f98f6393e22f6c02bcc3bb3f53d8bab8"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261020/test.command.json",
+      "bytes": 1188,
+      "sha256": "266b95d321fff773c6d789eb10c4e10e8ef5f455cc0b2dc7c53c6253d606eed4"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261020/test.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_sign/seed-0000000020261020/test.stdout.txt",
+      "bytes": 1058,
+      "sha256": "631aad0061908dd96d02806d9fbcc96bc460ffcac0e8c4c60ba39022f44c935a"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_verify/fixed-corpus/blobs/gpu_verify_results.bin",
+      "bytes": 1024,
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_verify/fixed-corpus/blobs/messages.bin",
+      "bytes": 8192,
+      "sha256": "24dd4fb75139e25f9ced88a7d5a12eadd7efd522310802ec9e3a4b5e7b2fc285"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_verify/fixed-corpus/blobs/public_keys.bin",
+      "bytes": 499712,
+      "sha256": "1c413c2b4c79c50facff0cd00db03a9bc66c5f6f9ec6f5a0c917bc47a878cb04"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_verify/fixed-corpus/blobs/secret_keys.bin",
+      "bytes": 1032192,
+      "sha256": "bd33d87d12f1ae2852e1b14f82b33ee20dfccdb98f51d879f3ca438b92e04631"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_verify/fixed-corpus/blobs/signatures.bin",
+      "bytes": 847104,
+      "sha256": "966fce9ffbcd1499640f37299f6f3adae912d07d8ae89fc254893223a02d3cf8"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_verify/fixed-corpus/gpu_before.json",
+      "bytes": 179,
+      "sha256": "e3c816cf1b0c2849b3ca36c28eea85481ed6ffc9c838929e051ed63bc06982ff"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_verify/fixed-corpus/ldd.command.json",
+      "bytes": 1088,
+      "sha256": "0e7e61f3755f6798955b224e7e01c121f81449002b03b78907da2502315fea87"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_verify/fixed-corpus/ldd.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_verify/fixed-corpus/ldd.stdout.txt",
+      "bytes": 921,
+      "sha256": "496b5519e30ad5c51fd065dc39c7f8558df08d79393d1499709ce1b3acad974e"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_verify/fixed-corpus/test.command.json",
+      "bytes": 1097,
+      "sha256": "4d066dcac78a60b32d01c69b513e9f6ca2bbae06ffff94f42637bf0e1c7590e1"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_verify/fixed-corpus/test.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa65_verify/fixed-corpus/test.stdout.txt",
+      "bytes": 658,
+      "sha256": "372bb133648df24b27977feab5d1ca9131ccd1a802a5f7eb228afb2e719ae682"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261018/blobs/coins.bin",
+      "bytes": 2048,
+      "sha256": "db3e073941fb57daf647b61dc507714e866278e5cc53c1f0ed99bd33b6d557f5"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261018/blobs/gpu_public_keys.bin",
+      "bytes": 165888,
+      "sha256": "0921b6b12274465d7f8e119f09d3db1b43b62b981d82723d061051dc40365fbe"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261018/blobs/gpu_secret_keys.bin",
+      "bytes": 313344,
+      "sha256": "4c222a17847cf9a74946707e728349233ce1f1932c421a8c8c28a97161b18e40"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261018/blobs/native_direct_public_keys.bin",
+      "bytes": 165888,
+      "sha256": "4c34a0d9c8c68f405ce4cb3e3dd524087ee8f423e87bcaf2ca6bfc8d89fdabfb"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261018/blobs/native_direct_secret_keys.bin",
+      "bytes": 313344,
+      "sha256": "511b320f08dca135b83501e73e898d8cf5c895b5c92b963512adf1c0de90d2fc"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261018/blobs/reference_public_keys.bin",
+      "bytes": 165888,
+      "sha256": "0921b6b12274465d7f8e119f09d3db1b43b62b981d82723d061051dc40365fbe"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261018/blobs/reference_secret_keys.bin",
+      "bytes": 313344,
+      "sha256": "4c222a17847cf9a74946707e728349233ce1f1932c421a8c8c28a97161b18e40"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261018/gpu_before.json",
+      "bytes": 179,
+      "sha256": "ead85a6855d9857285b47cfd9de69e93bd48770fe494ddc042aa47da13ad4ba0"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261018/ldd.command.json",
+      "bytes": 1105,
+      "sha256": "0eb8261aa92434392cd27de6606a4fd44a8f3aaf124f70a1608ec361aae9a224"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261018/ldd.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261018/ldd.stdout.txt",
+      "bytes": 921,
+      "sha256": "a2431246d8e40b3beba7b466857565fe41732e7c8517a11483d6c915a613c668"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261018/test.command.json",
+      "bytes": 1132,
+      "sha256": "816545df0821a9eeb67dffc0e568c3737306dc9f8976161401ce33e40e72e21c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261018/test.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261018/test.stdout.txt",
+      "bytes": 910,
+      "sha256": "f27dee2625847fb1fe49e7305a6e7e8ddaae471948e8c55c04d31b8191d478fe"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261019/blobs/coins.bin",
+      "bytes": 2048,
+      "sha256": "88571d661cdbc2863ba81446228c4c2a67e23194f11cfa7482beb487d1037e04"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261019/blobs/gpu_public_keys.bin",
+      "bytes": 165888,
+      "sha256": "7f243f762d30a702fade98fa4aee3fc4ab2ae133857ac1f4e0506c027afba437"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261019/blobs/gpu_secret_keys.bin",
+      "bytes": 313344,
+      "sha256": "ef131c38f9dfeb96f5d0576c75205b9c631314c30339655fe0b7a0c2a948289f"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261019/blobs/native_direct_public_keys.bin",
+      "bytes": 165888,
+      "sha256": "4c34a0d9c8c68f405ce4cb3e3dd524087ee8f423e87bcaf2ca6bfc8d89fdabfb"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261019/blobs/native_direct_secret_keys.bin",
+      "bytes": 313344,
+      "sha256": "511b320f08dca135b83501e73e898d8cf5c895b5c92b963512adf1c0de90d2fc"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261019/blobs/reference_public_keys.bin",
+      "bytes": 165888,
+      "sha256": "7f243f762d30a702fade98fa4aee3fc4ab2ae133857ac1f4e0506c027afba437"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261019/blobs/reference_secret_keys.bin",
+      "bytes": 313344,
+      "sha256": "ef131c38f9dfeb96f5d0576c75205b9c631314c30339655fe0b7a0c2a948289f"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261019/gpu_before.json",
+      "bytes": 179,
+      "sha256": "614b3478225b6c94b209906c93359c54e0d10d8b0be188071fbe15b011dbb6de"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261019/ldd.command.json",
+      "bytes": 1106,
+      "sha256": "97bc4dd94963fa9f4613569a05f517f60e96f41383bdf2a24ad34c845b09a11b"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261019/ldd.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261019/ldd.stdout.txt",
+      "bytes": 921,
+      "sha256": "8f8a97785a73a3eb4c7114df18c11e6dc499a7726b5b1eb009c329db96f66a20"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261019/test.command.json",
+      "bytes": 1132,
+      "sha256": "49f8fc04f8a210b7af44bb67e594414b83d1101478ea61dd693f727ba105f5dc"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261019/test.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261019/test.stdout.txt",
+      "bytes": 910,
+      "sha256": "1a208bdcea77e4cdc5c4088a2d4f6594428795b118bf67bfe3ea7dc4f7398848"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261020/blobs/coins.bin",
+      "bytes": 2048,
+      "sha256": "b79693816b9d0db2d6c7bca83f30ea504424c84ca96a95a08f4dd0f0bf49ed85"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261020/blobs/gpu_public_keys.bin",
+      "bytes": 165888,
+      "sha256": "95b8344838c49af3f21b41223cbf7b9bc8a60156c00d42f1509e223e40c9fade"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261020/blobs/gpu_secret_keys.bin",
+      "bytes": 313344,
+      "sha256": "f0ee591306378ffe9fda0c151df343a3f6f63f2670e533015dbebdebb04f1ddb"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261020/blobs/native_direct_public_keys.bin",
+      "bytes": 165888,
+      "sha256": "4c34a0d9c8c68f405ce4cb3e3dd524087ee8f423e87bcaf2ca6bfc8d89fdabfb"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261020/blobs/native_direct_secret_keys.bin",
+      "bytes": 313344,
+      "sha256": "511b320f08dca135b83501e73e898d8cf5c895b5c92b963512adf1c0de90d2fc"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261020/blobs/reference_public_keys.bin",
+      "bytes": 165888,
+      "sha256": "95b8344838c49af3f21b41223cbf7b9bc8a60156c00d42f1509e223e40c9fade"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261020/blobs/reference_secret_keys.bin",
+      "bytes": 313344,
+      "sha256": "f0ee591306378ffe9fda0c151df343a3f6f63f2670e533015dbebdebb04f1ddb"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261020/gpu_before.json",
+      "bytes": 179,
+      "sha256": "02c906beb23b398f0809a641d6cd92af78ffb118e0b21df6e560f6976fc8da88"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261020/ldd.command.json",
+      "bytes": 1106,
+      "sha256": "2a68434f688c9bad0e7ae2182af86dd89242f64a3a42b14389d9cec4da1caaac"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261020/ldd.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261020/ldd.stdout.txt",
+      "bytes": 921,
+      "sha256": "23c312a979b7f789c9fbf1f772e92606233195cb976a66c6e912e55f394302fc"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261020/test.command.json",
+      "bytes": 1132,
+      "sha256": "3a475a80172744698d5783bf16fbbd6c3c5ebef9f5a59059bc5ddba2ceb8a13c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261020/test.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_keygen/seed-0000000020261020/test.stdout.txt",
+      "bytes": 910,
+      "sha256": "f9ae2d20e09199f1d9c1c23bd73347ea06bfa49f8689dcbbdf73c229aab06024"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261018/blobs/gpu_device_api_signatures.bin",
+      "bytes": 1184512,
+      "sha256": "decadbc09dea6bf9642d4115dd87183c69a5ffbb5069987ea9c125987488df49"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261018/blobs/gpu_signatures.bin",
+      "bytes": 1184512,
+      "sha256": "decadbc09dea6bf9642d4115dd87183c69a5ffbb5069987ea9c125987488df49"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261018/blobs/host_winner_records.bin",
+      "bytes": 8192,
+      "sha256": "8926cdeabb016379052db2493bf6a10d0ef91b80f83cc01bb037d62e0d653d23"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261018/blobs/keygen_seeds.bin",
+      "bytes": 8192,
+      "sha256": "ad6b1600ddf9f42b269230d17ee6921a9b61283bd3188fa8d721b1d925ccd523"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261018/blobs/message_bytes.bin",
+      "bytes": 8,
+      "sha256": "9d4ac218fb54041e3a70a8e14db1ea1af9f570f4842b4702ef9323f1ad8f0ec4"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261018/blobs/messages.bin",
+      "bytes": 8192,
+      "sha256": "64b9cb2573aa276419308947fc875bbe8d4ed4b9fe0cb2cf26776f82293e0c30"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261018/blobs/public_keys.bin",
+      "bytes": 663552,
+      "sha256": "a3e37b75f19098fe4f7c5ba76e70d38ee5e58c4d944861a1d65ef28435d063e0"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261018/blobs/randomness.bin",
+      "bytes": 8192,
+      "sha256": "a453467388795daed779882e976bdf339155e48385927ddab102f86b530ff89d"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261018/blobs/reference_signatures.bin",
+      "bytes": 1184512,
+      "sha256": "decadbc09dea6bf9642d4115dd87183c69a5ffbb5069987ea9c125987488df49"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261018/blobs/secret_keys.bin",
+      "bytes": 1253376,
+      "sha256": "9e478bb1ee7cba9db21fb8c556be9c72c801122faa6cd4f447eea04d8c2bd650"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261018/gpu_before.json",
+      "bytes": 179,
+      "sha256": "65acf788e6fddb190ae5bc048af6f1256c28bb8d55c9cc94b0909ac38fc17650"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261018/ldd.command.json",
+      "bytes": 1095,
+      "sha256": "f9104f6e4d7b994c0b3a46f1b82bf45539e97eb1e9572d57eb9384db40797838"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261018/ldd.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261018/ldd.stdout.txt",
+      "bytes": 915,
+      "sha256": "47c3f9e4b4e3ff3f8be9f6fc3cda39eea9d2e6b5645edd0d4d64dcc8a900f580"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261018/test.command.json",
+      "bytes": 1188,
+      "sha256": "e8a52358a5bfaff57046b49d2f7fa3eac2c80186695cf5667166a132519ac9cd"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261018/test.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261018/test.stdout.txt",
+      "bytes": 1058,
+      "sha256": "7a94311751f44c61157cdcf6039ec3388437051e68ffac0c0f44283ba7c354ec"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261019/blobs/gpu_device_api_signatures.bin",
+      "bytes": 1184512,
+      "sha256": "d276ffb943326c9bdaa39f91a3bd3a802463ac4fa232dc0fa9f251e51e354da5"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261019/blobs/gpu_signatures.bin",
+      "bytes": 1184512,
+      "sha256": "d276ffb943326c9bdaa39f91a3bd3a802463ac4fa232dc0fa9f251e51e354da5"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261019/blobs/host_winner_records.bin",
+      "bytes": 8192,
+      "sha256": "f5b3d21f59e695dccb1b246a8e1756dcb6c5fa4aad2f12a9bb1a192651aabcec"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261019/blobs/keygen_seeds.bin",
+      "bytes": 8192,
+      "sha256": "e3680707dbe5eff9c351e218575f89df58b16776f5a15e9a4c4a6a1339b8524c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261019/blobs/message_bytes.bin",
+      "bytes": 8,
+      "sha256": "9d4ac218fb54041e3a70a8e14db1ea1af9f570f4842b4702ef9323f1ad8f0ec4"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261019/blobs/messages.bin",
+      "bytes": 8192,
+      "sha256": "30168c0161da0e2ff64f7608f26f01ce08dd3902d764318505b39d6134ac0d58"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261019/blobs/public_keys.bin",
+      "bytes": 663552,
+      "sha256": "6bee130907dfa2d844fc8897116549f0368643dbeca62fdcf4f1860f0149b5a1"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261019/blobs/randomness.bin",
+      "bytes": 8192,
+      "sha256": "a67a8e3019736f58b35e45c187d9fa118c7534f4b6614b311d2947df26addd17"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261019/blobs/reference_signatures.bin",
+      "bytes": 1184512,
+      "sha256": "d276ffb943326c9bdaa39f91a3bd3a802463ac4fa232dc0fa9f251e51e354da5"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261019/blobs/secret_keys.bin",
+      "bytes": 1253376,
+      "sha256": "6dac42a1d31b1478336006b689d3575dec2bedd38d5270dc470f53f789e8c11a"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261019/gpu_before.json",
+      "bytes": 179,
+      "sha256": "1041b9c607cf2f690c93c78efb27a72dc4a65f6431b9adb465915b998c7fa595"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261019/ldd.command.json",
+      "bytes": 1096,
+      "sha256": "5949126722fb4ca7dc1739b760e32d1963cf13d3075adc62a9b851c0777f27f9"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261019/ldd.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261019/ldd.stdout.txt",
+      "bytes": 915,
+      "sha256": "2707fb06a7527dbac8d06fde73101e78d904bc9b659c94066f3cef2600445efc"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261019/test.command.json",
+      "bytes": 1188,
+      "sha256": "a642f17316dcb0ffb8ec84441b84499765400c49f74e04cd17a4a8f4fad17832"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261019/test.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261019/test.stdout.txt",
+      "bytes": 1058,
+      "sha256": "1b506dc8416f43fb7180f3485972d47a70c96eedd837605f6def31d36248f691"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261020/blobs/gpu_device_api_signatures.bin",
+      "bytes": 1184512,
+      "sha256": "bbe9e8203bb4c46b7873fa1b9942ba83b1bcd877e9c45ce1e6030248f9c04621"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261020/blobs/gpu_signatures.bin",
+      "bytes": 1184512,
+      "sha256": "bbe9e8203bb4c46b7873fa1b9942ba83b1bcd877e9c45ce1e6030248f9c04621"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261020/blobs/host_winner_records.bin",
+      "bytes": 8192,
+      "sha256": "312271514897d8683636bdc15f9feaaeae1dae007ceaada72e6315c13f806c2a"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261020/blobs/keygen_seeds.bin",
+      "bytes": 8192,
+      "sha256": "fbf8a6ffcfdc6e7cee859043d7ad9ecc8f1197923f3bf8ebb31d83dc6b32b9c1"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261020/blobs/message_bytes.bin",
+      "bytes": 8,
+      "sha256": "9d4ac218fb54041e3a70a8e14db1ea1af9f570f4842b4702ef9323f1ad8f0ec4"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261020/blobs/messages.bin",
+      "bytes": 8192,
+      "sha256": "c8dafe7ca28648812f31cf02c0949040f8a7adacc7b1e0790f6c5eff9444a46c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261020/blobs/public_keys.bin",
+      "bytes": 663552,
+      "sha256": "7eb412c40319d811c40708422d65815a9ff72e531e17421868c5a1f3e536dcdb"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261020/blobs/randomness.bin",
+      "bytes": 8192,
+      "sha256": "ed571177e6a271ecf8d4eedb3aabc655841ed85cd0d3f9a6646a8219db8f1fad"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261020/blobs/reference_signatures.bin",
+      "bytes": 1184512,
+      "sha256": "bbe9e8203bb4c46b7873fa1b9942ba83b1bcd877e9c45ce1e6030248f9c04621"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261020/blobs/secret_keys.bin",
+      "bytes": 1253376,
+      "sha256": "a033b5e49ad02d1ebc00ad9802d291525645ae58ef0a7a722232d6df2b11e5fe"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261020/gpu_before.json",
+      "bytes": 179,
+      "sha256": "117579cb4403b85659209a4049fcdfecf3d15ae151117b0f081f1c30402d2007"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261020/ldd.command.json",
+      "bytes": 1096,
+      "sha256": "7203688519632e4c6158370e8d7411d3dfdac745db3d1c8e394302e15e3e0990"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261020/ldd.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261020/ldd.stdout.txt",
+      "bytes": 915,
+      "sha256": "d7db153064d655abb6a3f34cb8bdf3f0ef9dabf82f16476547d0ff35ea2b58a9"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261020/test.command.json",
+      "bytes": 1187,
+      "sha256": "be4499057b810300397b02a23fd80e42cf911153848cd1e3833f6537359c476c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261020/test.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_sign/seed-0000000020261020/test.stdout.txt",
+      "bytes": 1058,
+      "sha256": "76b54f4d27c6fccf40463ac705965a8dc7aec0b1ae6f91b08de26fa689a39c12"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_verify/fixed-corpus/blobs/gpu_verify_results.bin",
+      "bytes": 1024,
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_verify/fixed-corpus/blobs/messages.bin",
+      "bytes": 8192,
+      "sha256": "24dd4fb75139e25f9ced88a7d5a12eadd7efd522310802ec9e3a4b5e7b2fc285"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_verify/fixed-corpus/blobs/public_keys.bin",
+      "bytes": 663552,
+      "sha256": "84ce683fbe0d4598b6390e64957d958b9e9a4d501bed4dcbff9c26804439904b"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_verify/fixed-corpus/blobs/secret_keys.bin",
+      "bytes": 1253376,
+      "sha256": "52874e18f7b7ceca6aef47e68a5d53ee9cec76f21c323c61a9564c5d1de6f37b"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_verify/fixed-corpus/blobs/signatures.bin",
+      "bytes": 1184512,
+      "sha256": "5ff18604110df7c2841ae4b59330e10e179d909f420c141dc4b5fbdd2297e59a"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_verify/fixed-corpus/gpu_before.json",
+      "bytes": 179,
+      "sha256": "8ceb50e1a604490540fd2774de6be234c5e95c18c8b6105ef18bc5b33c5d9c2c"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_verify/fixed-corpus/ldd.command.json",
+      "bytes": 1088,
+      "sha256": "c521025c046c7cd9279e33392617cb0321b72fa06532d35d4e9a59a01e75e2ff"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_verify/fixed-corpus/ldd.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_verify/fixed-corpus/ldd.stdout.txt",
+      "bytes": 921,
+      "sha256": "c807c68c2ce2dd6566dce9b640e8db189cf272e95967a825da3f0a06084b7835"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_verify/fixed-corpus/test.command.json",
+      "bytes": 1097,
+      "sha256": "eabc95d0478d0058f81e07bde286aa9834e3e150f93f878fc0dad3de4995f92b"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_verify/fixed-corpus/test.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/lsb/mldsa-experiments-5090/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/raw/mldsa87_verify/fixed-corpus/test.stdout.txt",
+      "bytes": 657,
+      "sha256": "8452e9555cadc13d40b428c1a5ec7bca5467fe8e2f45e5eef36408ac3acf38c2"
+    }
+  ],
+  "run_id": "fastmin-m87-all-v3-20261019T143050777764Z-626756",
+  "status": "EXPECTED_RAW_ARTIFACTS_FROM_VERIFIED_CORRECTNESS_RECORD; NOT_DOWNLOADED_YET"
+}

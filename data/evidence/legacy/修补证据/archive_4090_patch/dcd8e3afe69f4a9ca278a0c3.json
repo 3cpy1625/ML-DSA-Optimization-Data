@@ -1,0 +1,16 @@
+{
+  "mounts": [
+    {
+      "Type": "bind",
+      "Source": "/var/home/lsb/mldsa-experiments",
+      "Destination": "/workspace",
+      "Mode": "",
+      "RW": true,
+      "Propagation": "rprivate"
+    }
+  ],
+  "identity": {
+    "uid": 1018,
+    "gid": 1001
+  }
+}

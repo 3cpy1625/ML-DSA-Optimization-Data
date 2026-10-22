@@ -1,0 +1,7 @@
+regime,reason,evidence,current_disposition
+valid input,no public-final domain exists,"valid ON/OFF CI inside [0.98,1.02]",retain PFODR with measured sub-0.53% cost
+same invalid ratio without complete physical domains,global ratio does not authorize physical owner retirement,"scattered 50% 0.9983x/0.9962x",NO_SWITCH
+partial physical domain,only real members count; padding is not failure,"B65/B66/B67 byte identity and sanitizer PASS",EXACT_MEMBERSHIP_REQUIRED
+M44 Verify,no current four-request M65 owner topology,current source/build selection,OUT_OF_SCOPE
+M87 Verify,mode-3 coarse activation does not apply,current source/build selection,OUT_OF_SCOPE
+ML-KEM Decaps,implicit rejection requires fallback-secret completion,algorithm contract,SEMANTIC_NO_RETIRE

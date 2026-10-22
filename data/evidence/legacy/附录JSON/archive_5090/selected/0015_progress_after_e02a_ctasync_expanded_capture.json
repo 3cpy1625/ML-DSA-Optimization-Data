@@ -1,0 +1,41 @@
+{
+  "recorded_utc": "2026-10-19T20:29:03.985093+00:00",
+  "schema": "mldsa5090-autonomous-experiment-handoff-v1",
+  "authorization": "请你自己在服务器上做实验，只能做实验，我要睡觉了，记得和侧边聊天配合",
+  "scope": "Experiments and result preservation only; no production adoption or report edits.",
+  "remote_access_performed_by_assistant": true,
+  "gpu_execution_performed_by_assistant": true,
+  "server": "lsb@114.214.216.100",
+  "server_base": "/home/lsb/mldsa-experiments-5090",
+  "run_id": "e02a-ctasync-expanded-20261019T202403610611Z-718474",
+  "server_status": "E02A_CTASYNC_EXPANDED_18_CASES_PASS",
+  "server_result": {
+    "bytes": 276608,
+    "sha256": "794e612f68797be5630b45f27d9ea133e08a95cf2f2f6962771da1da8af24053"
+  },
+  "archive": {
+    "path": "server_results\\e02a_ctasync_expanded\\5090_e02a-ctasync-expanded-20261019T202403610611Z-718474_20261019T202501104930Z.tar.gz",
+    "bytes": 171524927,
+    "sha256": "8a8fb2341017a40fec4542e01550045dc6eae549d8eaaa297671304a20a5985c"
+  },
+  "local_archive_hash": "PASS",
+  "local_raw_intake": "PENDING",
+  "completed_cases_server": 18,
+  "source_code_adoption": "NOT_PERFORMED",
+  "full_e02_complete": false,
+  "formal_performance_collected": false,
+  "sidebar_coordination": {
+    "thread_id": "01a15356-cca8-7881-b1c3-1ba98c6a669f",
+    "title": "对照这份大纲告诉我初稿还有什么需要完善的",
+    "message_sent": true,
+    "purpose": "4090 and 5090 ownership, driver reuse, and comparable measurement scope"
+  },
+  "v3_configuration_correction": {
+    "fast_compile_min_cells": [
+      "mldsa87_keygen",
+      "mldsa87_sign",
+      "mldsa87_verify"
+    ],
+    "authority": "Retained real V3 WRAPPER_CONFIGURATION_RESULT, BUILD_RESULT and compile_commands; supersedes prior two-cell handoff summary."
+  }
+}

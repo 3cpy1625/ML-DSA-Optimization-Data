@@ -1,0 +1,23 @@
+﻿cell_id,case_id,check,status,note,raw_fields_json
+mldsa44_sign,seed-0000000020261018,device_wphc_audit,NOT_AVAILABLE,,"[""records"", ""0"", ""failures"", ""0"", ""fields"", ""identity_epoch_slot_extent_representation_provenance_winner_y_closure_publication_lost_request_duplicate_survivor""]"
+mldsa44_sign,seed-0000000020261018,device_wphc_closure,NOT_AVAILABLE,,"[""closed_records"", ""0"", ""total"", ""0""]"
+mldsa44_sign,seed-0000000020261019,device_wphc_audit,NOT_AVAILABLE,,"[""records"", ""0"", ""failures"", ""0"", ""fields"", ""identity_epoch_slot_extent_representation_provenance_winner_y_closure_publication_lost_request_duplicate_survivor""]"
+mldsa44_sign,seed-0000000020261019,device_wphc_closure,NOT_AVAILABLE,,"[""closed_records"", ""0"", ""total"", ""0""]"
+mldsa44_sign,seed-0000000020261020,device_wphc_audit,NOT_AVAILABLE,,"[""records"", ""0"", ""failures"", ""0"", ""fields"", ""identity_epoch_slot_extent_representation_provenance_winner_y_closure_publication_lost_request_duplicate_survivor""]"
+mldsa44_sign,seed-0000000020261020,device_wphc_closure,NOT_AVAILABLE,,"[""closed_records"", ""0"", ""total"", ""0""]"
+mldsa44_verify,fixed-corpus,modified_challenge_extended_rejection,SKIPPED,ML-DSA-44 challenge has no bytes beyond the 32-byte seed size.,[]
+mldsa44_verify,fixed-corpus,final_hash_compare_canary,SKIPPED,D3 build defines LOCE_D3_VERIFY_SKIP_INTERNAL_CANARY=1.,[]
+mldsa65_sign,seed-0000000020261018,device_wphc_audit,NOT_AVAILABLE,,"[""records"", ""0"", ""failures"", ""0"", ""fields"", ""identity_epoch_slot_extent_representation_provenance_winner_y_closure_publication_lost_request_duplicate_survivor""]"
+mldsa65_sign,seed-0000000020261018,device_wphc_closure,NOT_AVAILABLE,,"[""closed_records"", ""0"", ""total"", ""0""]"
+mldsa65_sign,seed-0000000020261019,device_wphc_audit,NOT_AVAILABLE,,"[""records"", ""0"", ""failures"", ""0"", ""fields"", ""identity_epoch_slot_extent_representation_provenance_winner_y_closure_publication_lost_request_duplicate_survivor""]"
+mldsa65_sign,seed-0000000020261019,device_wphc_closure,NOT_AVAILABLE,,"[""closed_records"", ""0"", ""total"", ""0""]"
+mldsa65_sign,seed-0000000020261020,device_wphc_audit,NOT_AVAILABLE,,"[""records"", ""0"", ""failures"", ""0"", ""fields"", ""identity_epoch_slot_extent_representation_provenance_winner_y_closure_publication_lost_request_duplicate_survivor""]"
+mldsa65_sign,seed-0000000020261020,device_wphc_closure,NOT_AVAILABLE,,"[""closed_records"", ""0"", ""total"", ""0""]"
+mldsa65_verify,fixed-corpus,final_hash_compare_canary,SKIPPED,D3 build defines LOCE_D3_VERIFY_SKIP_INTERNAL_CANARY=1.,[]
+mldsa87_sign,seed-0000000020261018,device_wphc_audit,NOT_AVAILABLE,,"[""records"", ""0"", ""failures"", ""0"", ""fields"", ""identity_epoch_slot_extent_representation_provenance_winner_y_closure_publication_lost_request_duplicate_survivor""]"
+mldsa87_sign,seed-0000000020261018,device_wphc_closure,NOT_AVAILABLE,,"[""closed_records"", ""0"", ""total"", ""0""]"
+mldsa87_sign,seed-0000000020261019,device_wphc_audit,NOT_AVAILABLE,,"[""records"", ""0"", ""failures"", ""0"", ""fields"", ""identity_epoch_slot_extent_representation_provenance_winner_y_closure_publication_lost_request_duplicate_survivor""]"
+mldsa87_sign,seed-0000000020261019,device_wphc_closure,NOT_AVAILABLE,,"[""closed_records"", ""0"", ""total"", ""0""]"
+mldsa87_sign,seed-0000000020261020,device_wphc_audit,NOT_AVAILABLE,,"[""records"", ""0"", ""failures"", ""0"", ""fields"", ""identity_epoch_slot_extent_representation_provenance_winner_y_closure_publication_lost_request_duplicate_survivor""]"
+mldsa87_sign,seed-0000000020261020,device_wphc_closure,NOT_AVAILABLE,,"[""closed_records"", ""0"", ""total"", ""0""]"
+mldsa87_verify,fixed-corpus,final_hash_compare_canary,SKIPPED,D3 build defines LOCE_D3_VERIFY_SKIP_INTERNAL_CANARY=1.,[]

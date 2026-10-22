@@ -1,0 +1,26 @@
+{
+  "historical_performance": {
+    "relative_path": "output/MLDSA_4090_Experiments/MLDSA_Outline_Experiments_20261018/server_results/report_results_20261018T100031Z-676371_20261018T152457Z.tar.gz",
+    "sha256": "553e27e092a68ed93e00faab4114c54ef597a0db85f3dc0999c6e20d4136f303",
+    "manifest": "exports/report_results_20261018T100031Z-676371_20261018T152457Z_contents.json",
+    "prefix": ""
+  },
+  "tools": {
+    "relative_path": "新4090数据/01_生产采样不足额与故障恢复/normal_sanitizer/server_results/20261020T104836038088Z-81451376/20261020T104836038088Z-81451376.tar.gz",
+    "sha256": "7436b13167f068e03288718d66526c59635d46d29b3e55e8a3aaba94d2eec73f",
+    "manifest": "20261020T104836038088Z-81451376/MANIFEST.json",
+    "prefix": "20261020T104836038088Z-81451376/"
+  },
+  "keygen_kat": {
+    "relative_path": "新4090数据/02_独立已知答案测试KAT/nist_keygen/server_results/20261020T125155953171Z-c1182d4f/20261020T125155953171Z-c1182d4f.tar.gz",
+    "sha256": "dc4661232353f762ff72322a71d4a4e1804487afb8f13a27cb9ee16f63758c6c",
+    "manifest": "20261020T125155953171Z-c1182d4f/MANIFEST.json",
+    "prefix": "20261020T125155953171Z-c1182d4f/"
+  },
+  "signverify_kat": {
+    "relative_path": "新4090数据/02_独立已知答案测试KAT/nist_signverify_v2/server_results/20261020T132127164764Z-8778a513/20261020T132127164764Z-8778a513.tar.gz",
+    "sha256": "eee6d92f17f2344ee59408ed41a6465a41bef32344055c1e63fca53059f55aed",
+    "manifest": "20261020T132127164764Z-8778a513/MANIFEST.json",
+    "prefix": "20261020T132127164764Z-8778a513/"
+  }
+}

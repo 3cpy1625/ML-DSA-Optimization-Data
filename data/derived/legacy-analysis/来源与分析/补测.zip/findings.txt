@@ -1,0 +1,46 @@
+补测.zip 整理结果
+
+补测包是RTX5090上ML-DSA-65 Verify的CTA分布补充实验，四条件分别为全有效、全无效z、分组50%无效和分散50%无效。
+新增56个进程：8个B256资格进程与48个B8192性能进程；保留720条性能计时及8条资格计时，capture 178.267秒。
+OFF/ON配对几何加速比分别为0.9958979543、3.3627354184、1.3475077447、0.9971945913倍；分组50%与分散50%收益明显不同。
+复用前包同一二进制和固定基础语料，但计时是新run；没有替换旧结果的证据。分散50%采用(73*i)%256<128，不等于旧交替无效条件。
+所有585个内部清单路径的字节长度和SHA256验证通过；56个进程原始计时、均值、身份、输入输出SHA和退出状态核对通过；4条件/24配对统计复算一致。
+读取16个唯一输入/输出二进制内容，独立确认8种批量/分布组合的输入变异方式和最终逐行接收/拒绝状态；该检查不是重新运行密码学算法或标准KAT。
+只有固定输入，计时为设备驻留完整操作范围；只留最终计时输出；没有新的标准KAT或sanitizer，不支持完整安全认证或纯硬件归因。
+
+{
+  "outer_entries": 11,
+  "outer_files": 10,
+  "zip_bytes": 179040264,
+  "outer_uncompressed_bytes": 179050534,
+  "nested_entries": 644,
+  "nested_regular_files": 474,
+  "nested_hardlinks": 112,
+  "nested_directories": 58,
+  "manifest_files_verified": 585,
+  "csv_paths": 4,
+  "original_csv_unique_byte_contents": 2,
+  "original_csv_unique_normalized_contents": 2,
+  "derived_tables": 4,
+  "table_paths_total": 8,
+  "unique_processes": 56,
+  "qualification_processes": 8,
+  "performance_processes": 48,
+  "qualification_timing_samples": 8,
+  "performance_timing_samples": 720,
+  "all_timing_samples": 728,
+  "patterns": 4,
+  "paired_blocks_per_pattern": 6,
+  "total_paired_blocks": 24,
+  "gpu_observations": 285,
+  "final_input_output_blob_pairs": 8,
+  "capture_seconds": 178.267,
+  "reused_timing_samples": 0,
+  "combined_with_new5090_only_processes": 197,
+  "combined_with_new5090_only_qualification_processes": 23,
+  "combined_with_new5090_only_performance_processes": 174,
+  "combined_with_new5090_only_performance_timings": 2250,
+  "combined_with_new5090_only_all_timings": 2273
+}
+
+与新5090合计只用于这两包：197进程=23资格+174性能；2250性能计时+23资格计时。不能再加九宫格复用样本。

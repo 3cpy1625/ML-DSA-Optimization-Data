@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "loce.hardening006.participants.v2",
+  "type": "object",
+  "required": ["schema", "release_family_id", "participants", "comparisons"],
+  "properties": {
+    "schema": {"const": "loce.hardening006.participants.v2"},
+    "release_family_id": {"type": "string", "minLength": 1},
+    "participants": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": ["id", "role", "benchmark", "modules", "correctness_manifest"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "role": {"enum": ["candidate", "baseline", "external-baseline"]},
+          "benchmark": {"$ref": "artifact-reference.schema.json"},
+          "modules": {"type": "array", "minItems": 1, "items": {"$ref": "artifact-reference.schema.json"}},
+          "correctness_manifest": {"$ref": "artifact-reference.schema.json"}
+        },
+        "additionalProperties": true
+      }
+    },
+    "comparisons": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["id", "participant_ids", "campaign_manifest", "timing_scope", "corpus_sha256"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "participant_ids": {"type": "array", "minItems": 2, "maxItems": 2, "uniqueItems": true},
+          "campaign_manifest": {"$ref": "artifact-reference.schema.json"},
+          "timing_scope": {"const": "DEVICE_RESIDENT_GPU_INTERVAL"},
+          "corpus_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,83 @@
+{
+  "base": "/home/lsb/mldsa-experiments-5090",
+  "gpu": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+  "framework_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+  "source_run": "新5090/cta_m65_verify_20261020T130116Z_e01ef8",
+  "files": [
+    {
+      "path": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/BUILD.json",
+      "bytes": 7322,
+      "sha256": "314e08334174d4b05b7340d591c1f9d6212b54714f350ed14d180c3eb0c4a5c3"
+    },
+    {
+      "path": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/reference_256/corpus.bin",
+      "bytes": 2415984,
+      "sha256": "f517f3dfac00dc9f80a619cd0ec62a7e8ac7644856bf0e4826a8a2269d081685"
+    },
+    {
+      "path": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/reference_256/input.bin",
+      "bytes": 1355008,
+      "sha256": "cb72b7c1f89670cb59d33d3c0358ab837527a0a8cdcced9c7c3f90203d18ffd4"
+    },
+    {
+      "path": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/reference_256/output.bin",
+      "bytes": 1024,
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    },
+    {
+      "path": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/reference_256/ORIGINAL_MANIFEST.json",
+      "bytes": 2254,
+      "sha256": "e75c554f7cf1c5a6206e556b5cca80a2fa55cf60c995e78182656a2e581cf95e"
+    },
+    {
+      "path": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/reference_8192/corpus.bin",
+      "bytes": 77308016,
+      "sha256": "6eeab536bc5e2c1b12f0a364b2c9379eeb9d252deb605d5565a164ba7ee3fb18"
+    },
+    {
+      "path": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/reference_8192/input.bin",
+      "bytes": 43360256,
+      "sha256": "2d0755056b064d69e264b2d509f8e755d171eb6c775dd1f5029f02e399797b0b"
+    },
+    {
+      "path": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/reference_8192/output.bin",
+      "bytes": 32768,
+      "sha256": "c35020473aed1b4642cd726cad727b63fff2824ad68cedd7ffb73c7cbd890479"
+    },
+    {
+      "path": "新5090/cta_m65_verify_20261020T130116Z_e01ef8/reference_8192/ORIGINAL_MANIFEST.json",
+      "bytes": 3989,
+      "sha256": "be38b2837b8cf3cbccf13af648bfb80234923d6ad0f6ad397cbae4a1d6e77ec7"
+    },
+    {
+      "path": "新5090/cta_m65_verify_20261020T125158Z_6bfa71/build_ON/libloce_mldsa65_verify_d3_sm120.so",
+      "bytes": 6558384,
+      "sha256": "ccf3628a82af1639207e9dee87acf1280ee41bd8107b7c557ef152e50a91c48b"
+    },
+    {
+      "path": "新5090/cta_m65_verify_20261020T125158Z_6bfa71/bench_ON/loce_unified_api_bench",
+      "bytes": 439688,
+      "sha256": "2c6c81db7a6cb1ddcc91c0d6920c7ab813806ab3de640bd93776c1f6d39c4cc4"
+    },
+    {
+      "path": "新5090/cta_m65_verify_20261020T125158Z_6bfa71/build_OFF/libloce_mldsa65_verify_d3_sm120.so",
+      "bytes": 6558384,
+      "sha256": "3cc75323d8633fc07497b7605e34589bb9f759bc19454f8ba5813ba2e795fc87"
+    },
+    {
+      "path": "新5090/cta_m65_verify_20261020T125158Z_6bfa71/bench_OFF/loce_unified_api_bench",
+      "bytes": 439688,
+      "sha256": "aca6df6ed6fd5bd6f015d9af16604d8b7a65c82d152bf7da9cba5a05aa3eaf3e"
+    },
+    {
+      "path": "新5090/cta_m65_verify_20261020T125158Z_6bfa71/modules_ON/libloce_mldsa65_verify_d3_sm120.so",
+      "bytes": 6558384,
+      "sha256": "ccf3628a82af1639207e9dee87acf1280ee41bd8107b7c557ef152e50a91c48b"
+    },
+    {
+      "path": "新5090/cta_m65_verify_20261020T125158Z_6bfa71/modules_OFF/libloce_mldsa65_verify_d3_sm120.so",
+      "bytes": 6558384,
+      "sha256": "3cc75323d8633fc07497b7605e34589bb9f759bc19454f8ba5813ba2e795fc87"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "build_result_sha256": "7329643d44832077ed4971bb6bd6e0c24573a576148657fc77f1c399e73b1ac5",
+  "compiler_executed": false,
+  "completed_utc": "2026-10-20T06:31:01.875046+00:00",
+  "condition_transports": [
+    {
+      "condition": "mldsa44_keygen_b8192",
+      "manifest_sha256": "cf29d014b82f33a2a654ed1c6d5bf4b3ec5eae9fa4c3f7e4fa8cbf6729ed44c6",
+      "receipt_fact": {
+        "bytes": 881,
+        "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e03_persistent9_b8192\\e03-persistent9-20261020t060300z-7acbe276\\conditions\\mldsa44_keygen_b8192\\LOCAL_INTAKE_RESULT.json",
+        "sha256": "af23c15090fdd0e72299bd093c1be11fbdda59316433987b3cdda61af84578b4"
+      },
+      "stream_bytes": 488990720,
+      "stream_sha256": "3e632e0b47d4ea4b97d59ddff454f49625b62090b1e6b549215041e45a2404b0",
+      "transport_fact": {
+        "bytes": 1097,
+        "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e03_persistent9_b8192\\e03-persistent9-20261020t060300z-7acbe276\\transport\\mldsa44_keygen_b8192\\TRANSPORT_RESULT.json",
+        "sha256": "ae79e278e4d5d242313edd378323881e6889e45fe64eda255d4db548026f9f01"
+      }
+    },
+    {
+      "condition": "mldsa44_sign_b8192",
+      "manifest_sha256": "f8a848cff95cc6a795aacee0f860e53fab02ae0a12a6750b4eddc83a13055c18",
+      "receipt_fact": {
+        "bytes": 879,
+        "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e03_persistent9_b8192\\e03-persistent9-20261020t060300z-7acbe276\\conditions\\mldsa44_sign_b8192\\LOCAL_INTAKE_RESULT.json",
+        "sha256": "0f7233f712ab345936af1f61fc26c99fed4f0cdf2371482d6f5317c7f32dde48"
+      },
+      "stream_bytes": 601057280,
+      "stream_sha256": "61cd114bfbbefc87fb4c257765a71185d96e23d77a849a5d48b5b83019011a89",
+      "transport_fact": {
+        "bytes": 1093,
+        "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e03_persistent9_b8192\\e03-persistent9-20261020t060300z-7acbe276\\transport\\mldsa44_sign_b8192\\TRANSPORT_RESULT.json",
+        "sha256": "63fcc9b19c6d1a8230e882cd667443963d361974e04bc5f9784e16a55b3830f6"
+      }
+    },
+    {
+      "condition": "mldsa44_verify_b8192",
+      "manifest_sha256": "012364fad695743b55c12493fc978f61f5cae04750068f28ace6872546f58fa3",
+      "receipt_fact": {
+        "bytes": 881,
+        "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e03_persistent9_b8192\\e03-persistent9-20261020t060300z-7acbe276\\conditions\\mldsa44_verify_b8192\\LOCAL_INTAKE_RESULT.json",
+        "sha256": "c59df542b29ce1001eee1c14ae0587ba4c514bd6333d82f9478090dac97638ab"
+      },
+      "stream_bytes": 475617280,
+      "stream_sha256": "572458fd6e0a2db235c1d28fa28dd75f31ba834a40de545c08b20311527c49fa",
+      "transport_fact": {
+        "bytes": 1097,
+        "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e03_persistent9_b8192\\e03-persistent9-20261020t060300z-7acbe276\\transport\\mldsa44_verify_b8192\\TRANSPORT_RESULT.json",
+        "sha256": "2f6b3c3b0dc46d324cb9b3b3b1e5e8d4cd30ef7f5d22705b9ec572640947f068"
+      }
+    },
+    {
+      "condition": "mldsa65_keygen_b8192",
+      "manifest_sha256": "c010960874fdeae709621ac7e31659ced95baa953f207063de6eee1d774a65ef",
+      "receipt_fact": {
+        "bytes": 881,
+        "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e03_persistent9_b8192\\e03-persistent9-20261020t060300z-7acbe276\\conditions\\mldsa65_keygen_b8192\\LOCAL_INTAKE_RESULT.json",
+        "sha256": "3d3c236c3a864fbd6e8643c90bb338fffb56333229f4883e95b65b2699b0d558"
+      },
+      "stream_bytes": 745789440,
+      "stream_sha256": "85840af41865d220f0ac3cf8de3b18b146152bb09609fd44f0322e0f6e2ba8e3",
+      "transport_fact": {
+        "bytes": 1098,
+        "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e03_persistent9_b8192\\e03-persistent9-20261020t060300z-7acbe276\\transport\\mldsa65_keygen_b8192\\TRANSPORT_RESULT.json",
+        "sha256": "02b4ec1a3e44c1aa66568fc440735091fb3677adb4fecaaca7f5fc6edccbb897"
+      }
+    },
+    {
+      "condition": "mldsa65_sign_b8192",
+      "manifest_sha256": "3ca81a950d9c708a74945fca44d5e6f81738432611bb670d19e00830f7b5a7cb",
+      "receipt_fact": {
+        "bytes": 879,
+        "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e03_persistent9_b8192\\e03-persistent9-20261020t060300z-7acbe276\\conditions\\mldsa65_sign_b8192\\LOCAL_INTAKE_RESULT.json",
+        "sha256": "2825ad630955f52f5fe01c066508fa2ebdb3707396954e1568d6d7268e0e79be"
+      },
+      "stream_bytes": 882329600,
+      "stream_sha256": "4d9932c5069a86272bf1c5b374c6c0ee9ae3e783e191c9de453d6123296e0213",
+      "transport_fact": {
+        "bytes": 1081,
+        "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e03_persistent9_b8192\\e03-persistent9-20261020t060300z-7acbe276\\transport\\mldsa65_sign_b8192\\TRANSPORT_RESULT.json",
+        "sha256": "cd8ec869a878b360a5f0badb4e104bda7ee5d4e1320c246f4d9ede859037dea1"
+      }
+    },
+    {
+      "condition": "mldsa65_verify_b8192",
+      "manifest_sha256": "3d65a85319c70358820ef320b0900a04cf18abd2c6cf915ae75a1498186fbc13",
+      "receipt_fact": {
+        "bytes": 881,
+        "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e03_persistent9_b8192\\e03-persistent9-20261020t060300z-7acbe276\\conditions\\mldsa65_verify_b8192\\LOCAL_INTAKE_RESULT.json",
+        "sha256": "00ca1aafddca66932cbd9e6a7553c431839a8e649e67c2efa2c633fd02dbe287"
+      },
+      "stream_bytes": 675102720,
+      "stream_sha256": "cc7548efcc45ed4dd60d3edd10cfd02def7a7a1e9fbcf517f1f83cfaca1e1674",
+      "transport_fact": {
+        "bytes": 1097,
+        "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e03_persistent9_b8192\\e03-persistent9-20261020t060300z-7acbe276\\transport\\mldsa65_verify_b8192\\TRANSPORT_RESULT.json",
+        "sha256": "8f9b2f56b2a5d6fdcd64c9d92c3570e53e66f85a936397d182d6f21de964b8d3"
+      }
+    },
+    {
+      "condition": "mldsa87_keygen_b8192",
+      "manifest_sha256": "cbec4664a1767cb109d3846c87d00335abe263bdd694160f25f12331d323e5d7",
+      "receipt_fact": {
+        "bytes": 881,
+        "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e03_persistent9_b8192\\e03-persistent9-20261020t060300z-7acbe276\\conditions\\mldsa87_keygen_b8192\\LOCAL_INTAKE_RESULT.json",
+        "sha256": "1f271599ecf1d5adcc22240a61553acd4c21b73af4a0abcc9eddc2e3e8d90fe8"
+      },
+      "stream_bytes": 939868160,
+      "stream_sha256": "3854489c26211b720c894d1aed7123cd3ff9c819a19b53c4697c089f3d2c3102",
+      "transport_fact": {
+        "bytes": 1097,
+        "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e03_persistent9_b8192\\e03-persistent9-20261020t060300z-7acbe276\\transport\\mldsa87_keygen_b8192\\TRANSPORT_RESULT.json",
+        "sha256": "88f784ef6cb195576dd7f47c30a42b427729cdedca46f89b6a6aa50982ed4a1d"
+      }
+    },
+    {
+      "condition": "mldsa87_sign_b8192",
+      "manifest_sha256": "889385e8b9032a90b4fd3e5386a5cbd4cbd438c897ac79ebbf8158006bf02969",
+      "receipt_fact": {
+        "bytes": 881,
+        "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e03_persistent9_b8192\\e03-persistent9-20261020t060300z-7acbe276\\conditions\\mldsa87_sign_b8192\\LOCAL_INTAKE_RESULT.json",
+        "sha256": "90cb4aa334ed0a4f96748c4a83b5601211a75dba3ad9706834e3244dbf33a2f4"
+      },
+      "stream_bytes": 1143070720,
+      "stream_sha256": "34bad1149884fae2c83c574eac7a1875480d5ac6740391e8e01a7afc528bbeab",
+      "transport_fact": {
+        "bytes": 1095,
+        "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e03_persistent9_b8192\\e03-persistent9-20261020t060300z-7acbe276\\transport\\mldsa87_sign_b8192\\TRANSPORT_RESULT.json",
+        "sha256": "0728939dc13286cc6b8778bf279c2666c1abbfd947f68f0400c3706b10803b29"
+      }
+    },
+    {
+      "condition": "mldsa87_verify_b8192",
+      "manifest_sha256": "e5d600c03ca09108f3b42207e5d5cc27d866df3e2c6e5f8961133fb6ed9484da",
+      "receipt_fact": {
+        "bytes": 881,
+        "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e03_persistent9_b8192\\e03-persistent9-20261020t060300z-7acbe276\\conditions\\mldsa87_verify_b8192\\LOCAL_INTAKE_RESULT.json",
+        "sha256": "3612da5c2e8e2da5f64d6bc382931dd85bf0f822f3df0ccc3cb08cc2a666cb2b"
+      },
+      "stream_bytes": 913817600,
+      "stream_sha256": "a5b0a0358b53c4b97e4e93439326837209a2b91d829cace1b5616e056303c1ea",
+      "transport_fact": {
+        "bytes": 1097,
+        "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e03_persistent9_b8192\\e03-persistent9-20261020t060300z-7acbe276\\transport\\mldsa87_verify_b8192\\TRANSPORT_RESULT.json",
+        "sha256": "3c1a79bd2d49b793e9f9a9218bb2bd6ef140844418462e09a6d1d0b4218452cf"
+      }
+    }
+  ],
+  "conditions": 9,
+  "cpu_processes": 3,
+  "final_bytes_hash_closure": "ALL_RECEIVED_PAYLOAD_AND_LOCAL_RECEIPTS_UNCHANGED",
+  "gpu_executed": false,
+  "gpu_processes": 108,
+  "index_sha256": "5568d16e1786a22a919a2f312a9ed3f3e3863d5e6e9b23c7908c45d92920b6f8",
+  "intake_sha256": "96c2d9683e5bd3b4900854147657e419fcd39ed0a66be0e2a9205adee6b1009c",
+  "limits": [
+    "Device-resident GPU event intervals; no end-to-end timing.",
+    "Six paired process blocks share one fixed dataset; 15 repeats are not independent experiments.",
+    "Only final timed output (iteration14) is retained and checked.",
+    "External sealed executable/DSO/source bytes are referenced by exact previously qualified BUILD/QUAL metadata; not included in these condition streams.",
+    "No received program/library was executed; CPU signature mathematics is not recomputed locally.",
+    "Sealed-binary sanitizer remains NOT_RUN; no FIPS/boundary/failure campaign."
+  ],
+  "native_executed": false,
+  "paired_blocks": 54,
+  "qualification_result_sha256": "fffa33d47cc8978329bee7267544bc15dd0eeb759eae5c2f09a44e2543b2b25c",
+  "raw_timing_samples": 1620,
+  "received_code_executed": false,
+  "received_unique_payload_bytes": 5945115346,
+  "reconstructed_table_inventory": [
+    {
+      "bytes": 364771,
+      "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e03_persistent9_b8192\\e03-persistent9-20261020t060300z-7acbe276\\local_intake_01\\reconstructed_tables\\raw_samples.csv",
+      "sha256": "5e71c12924de1044249501695ffa4402ec90b83ca3b65b621e637623977481df"
+    },
+    {
+      "bytes": 3830,
+      "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e03_persistent9_b8192\\e03-persistent9-20261020t060300z-7acbe276\\local_intake_01\\reconstructed_tables\\paired_blocks.csv",
+      "sha256": "c5c6e76d91939599ad3ec5286f29f618b89bb1dae1395a2a8ff63736e79efb93"
+    },
+    {
+      "bytes": 19368,
+      "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e03_persistent9_b8192\\e03-persistent9-20261020t060300z-7acbe276\\local_intake_01\\reconstructed_tables\\process_order.csv",
+      "sha256": "5cb0ea2d06ffde51272f6311c32a4c0cfec00a0a44c312b8fd15ec0711920e74"
+    },
+    {
+      "bytes": 1758,
+      "path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e03_persistent9_b8192\\e03-persistent9-20261020t060300z-7acbe276\\local_intake_01\\reconstructed_tables\\cell_summary.csv",
+      "sha256": "6aef3aaa01b3b36b73c047bd2c7732a648b1aa912758b04863fe5341eb2c3940"
+    }
+  ],
+  "remote_root": "/home/lsb/mldsa-experiments-5090/03_performance/e03-persistent9-20261020t060300z-7acbe276",
+  "repeated_common_files_byte_compared": 214,
+  "review_contract_sha256": "4e1b9d67f611a69efc993632e74f74f8da6f994ac901dff04eb3d833f288b0cf",
+  "schema": "mldsa.e03.persistent-b8192.native.sm120.v1",
+  "scope": "Exact 9 B8192 conditions; complete saved bytes, 111 native lifecycles, immutable environment, 54 loaded nine-module identity sets, deterministic CPU corpus composition, raw timing order and four reconstructed CSV tables.",
+  "source_compilation_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01",
+  "ssh_executed": false,
+  "status": "E03_PERSISTENT9_LOCAL_SEMANTIC_INTAKE_PASS",
+  "summary_rows": 9,
+  "unique_received_files": 1469
+}

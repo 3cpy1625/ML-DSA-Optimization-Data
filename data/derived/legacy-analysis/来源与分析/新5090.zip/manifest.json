@@ -1,0 +1,268 @@
+[
+  {
+    "name": "新5090/",
+    "size": 0,
+    "compressed_size": 0,
+    "crc": 0,
+    "is_dir": true
+  },
+  {
+    "name": "新5090/continue_m44_three_arm_v1.py",
+    "size": 2844,
+    "compressed_size": 1180,
+    "crc": 3341926048,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/download_final_stream_v1.py",
+    "size": 1826,
+    "compressed_size": 936,
+    "crc": 3916445507,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/export_final_stream_v1.py",
+    "size": 5249,
+    "compressed_size": 2069,
+    "crc": 2134048944,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/export_final_v1.py",
+    "size": 4924,
+    "compressed_size": 1935,
+    "crc": 2750025727,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/export_switch_pairs_v1.py",
+    "size": 3599,
+    "compressed_size": 1576,
+    "crc": 171512458,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/FAILED_EXPORT_CLEANUP.json",
+    "size": 285,
+    "compressed_size": 216,
+    "crc": 2866256396,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/final_verified/",
+    "size": 0,
+    "compressed_size": 0,
+    "crc": 0,
+    "is_dir": true
+  },
+  {
+    "name": "新5090/final_verified/cell_summary.csv",
+    "size": 1016,
+    "compressed_size": 460,
+    "crc": 3804040573,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/final_verified/EXPERIMENT_RESULT.json",
+    "size": 31140,
+    "compressed_size": 3935,
+    "crc": 2478068363,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/final_verified/EXPORT.json",
+    "size": 557,
+    "compressed_size": 316,
+    "crc": 125222825,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/final_verified/final_four_components_stream.tar.gz",
+    "size": 886250693,
+    "compressed_size": 885837592,
+    "crc": 2435723879,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/final_verified/LOCAL_VERIFICATION.json",
+    "size": 11487,
+    "compressed_size": 2948,
+    "crc": 4108612870,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/final_verified/STREAM_DOWNLOAD.stderr.txt",
+    "size": 507,
+    "compressed_size": 301,
+    "crc": 2475439239,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/m44_three_arm_20261020T121813Z_11cf6ec1/",
+    "size": 0,
+    "compressed_size": 0,
+    "crc": 0,
+    "is_dir": true
+  },
+  {
+    "name": "新5090/m44_three_arm_20261020T121813Z_11cf6ec1/EXPERIMENT_RESULT.json",
+    "size": 20221,
+    "compressed_size": 2533,
+    "crc": 2987038281,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/m44_three_arm_20261020T121813Z_11cf6ec1/LOCAL_VERIFICATION.json",
+    "size": 1054,
+    "compressed_size": 638,
+    "crc": 1466547496,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/m44_three_arm_20261020T121813Z_11cf6ec1/m44_three_arm_20261020T121813Z_11cf6ec1.tar.gz",
+    "size": 54534271,
+    "compressed_size": 54383615,
+    "crc": 2603219478,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/NEW5090_COMPLETION.json",
+    "size": 2325,
+    "compressed_size": 1393,
+    "crc": 1618341348,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/prepare_m44_three_arm_v1.py",
+    "size": 10022,
+    "compressed_size": 3653,
+    "crc": 1092839443,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/READINESS_20261020T120830704Z.json",
+    "size": 1428,
+    "compressed_size": 750,
+    "crc": 2870107885,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/run_joint_m44_v1.py",
+    "size": 24727,
+    "compressed_size": 7349,
+    "crc": 1585267804,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/run_joint_matrix_v1.py",
+    "size": 12013,
+    "compressed_size": 4376,
+    "crc": 4180741135,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/run_m44_three_arm_v1.py",
+    "size": 12795,
+    "compressed_size": 4461,
+    "crc": 886919348,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/run_switch_pairs_v1.py",
+    "size": 18998,
+    "compressed_size": 6393,
+    "crc": 1561426201,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/run_switch_pairs_v2.py",
+    "size": 19548,
+    "compressed_size": 6472,
+    "crc": 2825190103,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/run_switch_pairs_v3.py",
+    "size": 20968,
+    "compressed_size": 6711,
+    "crc": 4249346088,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/run_switch_pairs_v4.py",
+    "size": 21734,
+    "compressed_size": 6875,
+    "crc": 1044363125,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/run_switch_pairs_v5.py",
+    "size": 24547,
+    "compressed_size": 7307,
+    "crc": 1622756942,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/switch_pairs_verified/",
+    "size": 0,
+    "compressed_size": 0,
+    "crc": 0,
+    "is_dir": true
+  },
+  {
+    "name": "新5090/switch_pairs_verified/EXPORT.json",
+    "size": 424,
+    "compressed_size": 277,
+    "crc": 3428043488,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/switch_pairs_verified/LOCAL_VERIFICATION.json",
+    "size": 4682,
+    "compressed_size": 1408,
+    "crc": 3764086539,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/switch_pairs_verified/switch_pairs_20261020T131242Z.tar.gz",
+    "size": 405368388,
+    "compressed_size": 405304042,
+    "crc": 906332161,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/USER_BASELINE_COMPARISON.json",
+    "size": 16285,
+    "compressed_size": 5993,
+    "crc": 4263403469,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/verify_final_v1.py",
+    "size": 13903,
+    "compressed_size": 4541,
+    "crc": 1940018526,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/verify_m44_archive_v1.py",
+    "size": 5500,
+    "compressed_size": 2237,
+    "crc": 990872237,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/verify_switch_pairs_v1.py",
+    "size": 7786,
+    "compressed_size": 2961,
+    "crc": 4103493660,
+    "is_dir": false
+  },
+  {
+    "name": "新5090/结果摘要.txt",
+    "size": 2735,
+    "compressed_size": 1451,
+    "crc": 1657580299,
+    "is_dir": false
+  }
+]

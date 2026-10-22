@@ -1,0 +1,16 @@
+{
+  "schemas": {
+    "build_inventory": "loce.hardening007.build-inventory.v1",
+    "correctness_index": "loce.hardening007.correctness-index.v1",
+    "correctness_raw": "loce.hardening007.correctness-raw.v1",
+    "module_inventory": "loce.hardening007.module-inventory.v1",
+    "paper_provenance": "loce.hardening007.paper-provenance.v1",
+    "performance_campaign": "loce.hardening007.performance-campaign.v1",
+    "release_attestation": "loce.hardening007.release-attestation.v1",
+    "release_verdict": "loce.hardening007.release-verdict.v1",
+    "sanitizer_result": "loce.hardening007.sanitizer-result.v1",
+    "typed_artifact_ref": "loce.hardening007.typed-artifact-ref.v1"
+  },
+  "unknown_critical_fields": "REJECT",
+  "schema": "loce.hardening007.schema-registry.v1"
+}

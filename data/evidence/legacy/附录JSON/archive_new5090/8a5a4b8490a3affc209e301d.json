@@ -1,0 +1,31 @@
+{
+  "schema": "loce.invalid-historical-implementations.v1",
+  "implementations": [
+    {
+      "id": "INVALID-HISTORICAL-6P9X",
+      "reason": "The implementation failed the later independent correctness contract and its timing is ineligible for release or paper claims.",
+      "forbidden_roles": [
+        "baseline",
+        "performance target",
+        "architecture template",
+        "upper bound"
+      ],
+      "forbidden_actions": [
+        "build",
+        "run",
+        "benchmark",
+        "compare",
+        "reference for optimization"
+      ],
+      "allowed_location": "research-history/invalid-historical-6p9x"
+    }
+  ],
+  "content_deny_terms": [
+    "6.95 ms",
+    "6.96 ms",
+    "6.97 ms",
+    "M65_HISTORICAL_697_DONOR_V1",
+    "structural master",
+    "performance master"
+  ]
+}

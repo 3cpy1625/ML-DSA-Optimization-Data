@@ -1,0 +1,74 @@
+{
+  "schema": "mldsa5090-e02c-36-local-intake-summary-v1",
+  "recorded_utc": "2026-10-19T21:26:35.467941+00:00",
+  "status": "E02C_36_UNIQUE_LOCAL_INTAKE_PASS",
+  "intake": {
+    "path": "server_results/e02c_nonsign_formal/e02c-nonsign-formal-expanded-20261019T211942461372Z-754991/LOCAL_INTAKE_VERIFICATION.json",
+    "bytes": 3303684,
+    "sha256": "654bec6bef49e224cb0448cba2be913deb0aefd2b07752748f93b00b19746810"
+  },
+  "build_run": "e02c-nonsign-formal-build-20261019T205643814715Z-738096",
+  "minimum_run": "e02c-nonsign-formal-minimum-20261019T211436283531Z-752423",
+  "expanded_run": "e02c-nonsign-formal-expanded-20261019T211942461372Z-754991",
+  "archives": [
+    {
+      "run_id": "e02c-nonsign-formal-build-20261019T205643814715Z-738096",
+      "archive": {
+        "local_path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e02c_nonsign_formal\\5090_e02c-nonsign-formal-build-20261019T205643814715Z-738096_20261019T210232186401Z.tar.gz",
+        "bytes": 27906689,
+        "sha256": "86bb4748018e4c5bd5f5e0042fd0c5d72ba9ae92747d4fed5200933df1ab0424"
+      },
+      "retained_file_count": 155,
+      "explicit_omitted_intermediate_count": 426
+    },
+    {
+      "run_id": "e02c-nonsign-formal-minimum-20261019T211436283531Z-752423",
+      "archive": {
+        "local_path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e02c_nonsign_formal\\5090_e02c-nonsign-formal-minimum-20261019T211436283531Z-752423_20261019T211511952947Z.tar.gz",
+        "bytes": 13650779,
+        "sha256": "3ed33a920ab718b92ea766f01783116e8da8804d2bb55f374972ed127267bd1e"
+      },
+      "retained_file_count": 669,
+      "explicit_omitted_intermediate_count": 0
+    },
+    {
+      "run_id": "e02c-nonsign-formal-expanded-20261019T211942461372Z-754991",
+      "archive": {
+        "local_path": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e02c_nonsign_formal\\5090_e02c-nonsign-formal-expanded-20261019T211942461372Z-754991_20261019T212115030787Z.tar.gz",
+        "bytes": 433727594,
+        "sha256": "fcd8c3e06c1749926ebdbe0ab2c9e0bb368c4aada91b44176a89e21e6f03b427"
+      },
+      "retained_file_count": 1993,
+      "explicit_omitted_intermediate_count": 0
+    }
+  ],
+  "exported_files": 2817,
+  "binary_blobs": 2244,
+  "interface_cases": 36,
+  "keygen_cases": 12,
+  "verify_cases": 24,
+  "observed_nonempty_negative_configurations": 480,
+  "negative_configuration_cases": 12,
+  "not_applicable_empty_message_cases": 12,
+  "canaries": "NOT_IMPLEMENTED",
+  "pqclean": "EXTERNAL_PQCLEAN_NOT_AVAILABLE",
+  "negative_oracle": "INTERNAL_PQMAGIC_RAW_MESSAGE_REJECT_SIGNS_NOT_FULL_SPECIFICATION_ORACLE",
+  "binding_counts": {
+    "REMOTE_METADATA_ONLY_NOT_LOCALLY_REHASHED": 174,
+    "LOCAL_BYTES_VERIFIED": 2845
+  },
+  "source_inventory": {
+    "status": "LOCAL_SOURCE_COPY_MATCHES_RETAINED_REMOTE_INVENTORY",
+    "files": 1075,
+    "local_root": "E:\\密码竞赛\\output\\MLDSA_5090_Experiments_20261018\\project_bundle\\MAINLINE",
+    "server_original_unchanged_rehashed_locally": false
+  },
+  "full_e02_complete": false,
+  "formal_performance_collected": false,
+  "e03_build": "NINE_NATIVE_DSOS_BUILT_INTEGRATION_STOPPED_MISSING_NVTX3_HEADER_NO_GPU_RUN",
+  "next_actions": [
+    "Independent SHAKE/sampling native operator experiment is running.",
+    "Add isolated NVTX3 build dependency, preserving failed E03 build.",
+    "Continue NTT and split32 native experiments after their exact driver gates."
+  ]
+}

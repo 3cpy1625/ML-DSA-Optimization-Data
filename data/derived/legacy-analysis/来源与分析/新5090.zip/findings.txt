@@ -1,0 +1,66 @@
+新5090.zip 数据整理
+
+{
+  "outer_zip_entries": 38,
+  "outer_zip_files": 34,
+  "outer_uncompressed_bytes": 1346458481,
+  "nested_archive_entries": 6802,
+  "nested_archives": [
+    {
+      "archive": "新5090/final_verified/final_four_components_stream.tar.gz",
+      "entries": 3380,
+      "regular_files": 1920,
+      "hard_or_symbolic_links": 1460,
+      "bytes_stored_in_tar": 1049166416
+    },
+    {
+      "archive": "新5090/m44_three_arm_20261020T121813Z_11cf6ec1/m44_three_arm_20261020T121813Z_11cf6ec1.tar.gz",
+      "entries": 1366,
+      "regular_files": 887,
+      "hard_or_symbolic_links": 479,
+      "bytes_stored_in_tar": 98259563
+    },
+    {
+      "archive": "新5090/switch_pairs_verified/switch_pairs_20261020T131242Z.tar.gz",
+      "entries": 2056,
+      "regular_files": 1270,
+      "hard_or_symbolic_links": 786,
+      "bytes_stored_in_tar": 462295993
+    }
+  ],
+  "csv_paths_including_hardlinks": 26,
+  "csv_unique_normalized_contents": 5,
+  "csv_source_support_paths": 24,
+  "csv_measurement_summary_paths": 2,
+  "successful_capture_invocations": 6,
+  "confirmed_target_groups_reported": 5,
+  "unique_process_records": 141,
+  "unique_performance_processes": 126,
+  "unique_qualification_processes": 15,
+  "unique_raw_performance_samples": 1530,
+  "unique_raw_qualification_samples": 15,
+  "all_raw_samples": 1545,
+  "matrix_cells": 9,
+  "matrix_new_processes": 36,
+  "matrix_reused_processes_not_added": 36,
+  "matrix_new_samples": 180,
+  "matrix_reused_samples_not_added": 540,
+  "matrix_changed_cells": 3,
+  "matrix_identical_binary_drift_controls": 6,
+  "inherited_e03_qualification_comparisons_not_added": 18
+}
+
+New5090 is a component-ablation follow-up, not a new full end-to-end benchmark or complete all-team-optimizations-off test.
+The final stream tar is the canonical combined result set; switch_pairs and m44_three_arm tar files repeat earlier subsets. Timing totals are deduplicated using unique job paths.
+Six successful capture invocations yield 141 distinct processes: 15 qualification and 126 performance processes. There are 1530 performance timing repetitions plus 15 qualification timings.
+M44 KeyGen split32 alone: 1.3729405942x; register accumulation P0/R1: 1.0369870100x; fusion R1/C1: 1.0884908891x; combined layout/fusion P0/C1: 1.1287509126x; split32 plus layout/fusion jointly: 1.5062505204x.
+M65 Sign W3 versus W1: 1.3634607372x. M65 Verify CTA frontier: 0.9961105202x for all-valid, 3.3604000260x for all-invalid-z, 0.9957944991x for alternating-invalid-z.
+Six of nine matrix cells are identical-binary drift controls. Three changed cells reuse earlier qualified pairs, so the 72 matrix processes are not 72 additional new processes.
+Tensor cores remain enabled in both labels. A causal comparison of 5090 versus 4090 requires matched source/build/input/timing conditions.
+All raw per-process timing sequences and means agree with canonical result JSON. All nine ablation ratios and nine matrix ratios were independently recomputed.
+Preparation and export failures were recovered. They do not demonstrate algorithmic correctness failures.
+
+环境：RTX5090 / sm_120 / CUDA12.9.86 / GCC13.3.0 / CMake3.28.3；CPU型号、驱动版本此包未见。
+原始计时核对：True
+三份内嵌归档 SHA256：True
+全部 CSV 路径见 csv_index.json；原始表、派生记录与每条行号见 tables.json；汇总见 analysis.json。

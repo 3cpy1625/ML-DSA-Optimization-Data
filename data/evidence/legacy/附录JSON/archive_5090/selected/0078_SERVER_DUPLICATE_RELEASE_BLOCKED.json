@@ -1,0 +1,11 @@
+{
+  "status": "NOT_EXECUTED_AUTOMATIC_APPROVAL_REJECTED",
+  "action": "Unlink raw generated .bin leaves and duplicate archives of already locally verified new operator runs",
+  "review_reason": "The user authorized running and preserving experiments locally, not deleting the server-side originals. Explicit deletion authorization is required.",
+  "server_data_deleted": false,
+  "pending_user_question": "Whether verified local archives plus receipts may own the complete data while matching server duplicate raw leaves and archives are released",
+  "request_01_sha256": "07b5c3461250e3b62b9028caf0fa6a1e0a06a561ffe65f279484f4f2dd5098eb",
+  "script_sha256": "a9d2d404977181233fe91b69b017c56f8ff072d7f59f888b4bd6ba29af15f902",
+  "full_e03_capture_status": "NOT_RUN_INSUFFICIENT_SERVER_STORAGE",
+  "preservation": "No attempt to bypass the approval rejection. Existing server raw files and archives remain. Other authorized experiments continue within available capacity."
+}

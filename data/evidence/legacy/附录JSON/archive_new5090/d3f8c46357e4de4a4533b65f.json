@@ -1,0 +1,68 @@
+[
+  {
+    "utc": "2026-10-20T13:24:34.847544+00:00",
+    "gpu_csv": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a, NVIDIA GeForce RTX 5090, 2, 0, 38, 2947, 141.44",
+    "pids": [],
+    "memory_mib": 2.0,
+    "utilization": 0.0
+  },
+  {
+    "utc": "2026-10-20T13:24:35.399679+00:00",
+    "gpu_csv": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a, NVIDIA GeForce RTX 5090, 2, 0, 38, 2947, 102.49",
+    "pids": [],
+    "memory_mib": 2.0,
+    "utilization": 0.0
+  },
+  {
+    "utc": "2026-10-20T13:24:36.010108+00:00",
+    "gpu_csv": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a, NVIDIA GeForce RTX 5090, 2, 0, 38, 2947, 102.49",
+    "pids": [
+      173403
+    ],
+    "memory_mib": 2.0,
+    "utilization": 0.0
+  },
+  {
+    "utc": "2026-10-20T13:24:36.312527+00:00",
+    "gpu_csv": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a, NVIDIA GeForce RTX 5090, 508, 0, 37, 2392, 94.36",
+    "pids": [
+      173403
+    ],
+    "memory_mib": 508.0,
+    "utilization": 0.0
+  },
+  {
+    "utc": "2026-10-20T13:24:36.610185+00:00",
+    "gpu_csv": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a, NVIDIA GeForce RTX 5090, 508, 0, 37, 2400, 89.26",
+    "pids": [
+      173403
+    ],
+    "memory_mib": 508.0,
+    "utilization": 0.0
+  },
+  {
+    "utc": "2026-10-20T13:24:36.901330+00:00",
+    "gpu_csv": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a, NVIDIA GeForce RTX 5090, 610, 0, 37, 2400, 86.05",
+    "pids": [
+      173403
+    ],
+    "memory_mib": 610.0,
+    "utilization": 0.0
+  },
+  {
+    "utc": "2026-10-20T13:24:37.194073+00:00",
+    "gpu_csv": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a, NVIDIA GeForce RTX 5090, 2038, 48, 38, 2490, 84.87",
+    "pids": [
+      173403
+    ],
+    "memory_mib": 2038.0,
+    "utilization": 48.0
+  },
+  {
+    "utc": "2026-10-20T13:24:37.514619+00:00",
+    "gpu_csv": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a, NVIDIA GeForce RTX 5090, 2, 5, 40, 2820, 120.59",
+    "pids": [],
+    "memory_mib": 2.0,
+    "utilization": 5.0
+  }
+]

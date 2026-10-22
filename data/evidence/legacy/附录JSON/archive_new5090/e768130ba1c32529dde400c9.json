@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "/usr/bin/python3",
+    "/home/lsb/mldsa-experiments-5090/\u65b05090/m44_three_arm_20261020T121813Z_11cf6ec1/source/tools/query_module_identity.py",
+    "/home/lsb/mldsa-experiments-5090/\u65b05090/m44_three_arm_20261020T121813Z_11cf6ec1/build_R1/libloce_mldsa44_keygen_d3_sm120.so"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 0.05143353299718001,
+  "log_sha256": "2b905ce5e7784f6571338777b83907056c8d9d3cd22b221e7cd64b6ab3ba99f3",
+  "gpu_visible": false
+}

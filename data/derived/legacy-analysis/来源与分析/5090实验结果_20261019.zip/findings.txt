@@ -1,0 +1,93 @@
+E03 B8192的9条件已归档，7个配对几何加速比>1；M44 Sign=0.9906076、M87 Sign=0.4201194。仅固定cuPQC配置与device-resident计时。
+M87 Sign ours 21.881484ms vs cuPQC 9.192837ms，明显慢于基线；M44 Sign相近，未提供置信区间，不能仅点估计断言显著差异。
+E02A原V3扩展234 PASS；原E02B停止为30 PASS+1finding+17未运行；CTA修复候选混合48 PASS，并有后续18未插桩M65 Sign PASS。应保留版本链而非总称全部正确性通过。
+E02C36包括480非空消息拒绝/接口检查；空消息负例不适用，不能计PASS；PQClean/官方KAT/canary/WPHC存在明确未覆盖。
+SHAKE15390、NTT7290、split32 24300独立算子计时，均有正式表与既存验收报告；split32 sanitizer后续103warnings导致停止，性能表不会消除此问题。
+E05插桩数据27进程/405范围/4950测量kernel单独保存；E13仅42次B256资格，正式端到端性能未完成。
+所有187外层CSV已逐个读取并保存，149种唯一内容；SHA256去重只处理重复文件，保留全路径和行号。
+嵌套补查8包未发现遗漏的真实性能结果：新增42 CSV为24份历史源语料索引/直方图及18份资格遥测；E11仅p65四arm构建PASS，另补存早期E03构建失败/87 KeyGen编译诊断。
+
+覆盖统计
+{
+  "zip_entries": 19114,
+  "files": 16218,
+  "dirs": 2896,
+  "uncompressed_bytes": 19912853182,
+  "archive_bytes": 18721218820,
+  "csv_files": 229,
+  "csv_rows": 91032,
+  "unique_csv_contents": 171,
+  "unique_csv_content_rows": 72647,
+  "csv_roles": {
+    "inventory": {
+      "files": 8,
+      "rows": 5229,
+      "unique_content_files": 7,
+      "unique_content_rows": 4468
+    },
+    "measurement": {
+      "files": 65,
+      "rows": 78290,
+      "unique_content_files": 29,
+      "unique_content_rows": 62171
+    },
+    "selftest": {
+      "files": 6,
+      "rows": 5373,
+      "unique_content_files": 5,
+      "unique_content_rows": 5373
+    },
+    "source_reference": {
+      "files": 24,
+      "rows": 1806,
+      "unique_content_files": 4,
+      "unique_content_rows": 301
+    },
+    "telemetry": {
+      "files": 126,
+      "rows": 334,
+      "unique_content_files": 126,
+      "unique_content_rows": 334
+    }
+  },
+  "selected_documents": 200,
+  "direct_case_result_files": 344,
+  "flattened_correctness_records": 380,
+  "excluded": [
+    "二进制向量、DSO、静态库、截图、SASS/构建代码未执行或重验",
+    "scripts内mock/selftest仅列档；不计真实测量",
+    "65嵌套归档均已对照：39脚本/恶意tar自测fixture排除，18具有外层等价结果/表/报告；8缺口包流式读取完整成员清单及所有CSV/小型RESULT等；未执行归档代码，未全量校验二进制。",
+    "巨大W1/CTA反汇编RESULT只采用其独立验收报告，不全量解析汇编"
+  ],
+  "outer_csv_files": 187,
+  "nested_csv_files": 42,
+  "nested_archives": 65,
+  "nested_archive_review": {
+    "EXCLUDED_SELFTEST_FIXTURE": 39,
+    "OUTER_EQUIVALENT_AVAILABLE": 18,
+    "STREAM_SCANNED": 8
+  }
+}
+
+逐实验
+{"experiment": "E03_B8192", "gpu": "RTX 5090", "status": "EXPLORATORY_FIXED_CONFIGURATION", "cases": 9, "source": "5090实验结果_20261019/server_results/e03_persistent9_b8192/e03-persistent9-20261020t060300z-7acbe276/local_intake_01/RESULT.json", "line": 201, "notes": "44/65/87 × KeyGen/Sign/Verify；B8192；消息32B；108 GPU进程，3 CPU进程，1620条GPU event计时。封存二进制sanitizer仍NOT_RUN。", "processes": 108, "timing_samples": 1620, "batch": [8192], "parameters": [44, 65, 87]}
+{"experiment": "NTT_POLYNOMIAL", "gpu": "RTX 5090", "status": "NTT_POLYNOMIAL_MATRIX_PASS", "cases": 162, "source": "5090实验结果_20261019/server_results/ntt_polynomial/20261019T214025766726Z-ba631f39/metadata/RESULT.json", "line": 2, "notes": "独立算子harness，不能当完整ML-DSA API加速；固定语料跨进程重复。", "processes": 27, "timing_samples": 7290, "checks": 972, "batch": [4096, 8192, 16384], "parameters": [44, 65, 87], "limits": ["Standalone sealed donor arithmetic operators, not complete production API/module speedups.", "Each batch counts output polynomials. Chain computes sum over L polynomial products (L=4/5/7); no SHAKE, decomposition or full matrix-vector K rows.", "Split chain includes two batched forward kernels, a pointwise dot kernel and inverse kernel. Fused chain uses one kernel; identical inputs and modular outputs.", "All backends accept canonical int32 input and produce canonical int32 output. Tensor timing includes byte packing, WMMA layout adaptation and output normalization.", "Inverse output uses R/256 normalization (invntt_tomont). Pointwise uses Montgomery R^-1, so complete chains output ordinary negacyclic products.", "512 deterministic request rows include all 256 basis directions and random/edge data; rows are tiled across batches and reused by three processes.", "All variants qualify before any formal timing. Every coefficient is checked initially and finally; individual timed intermediate outputs are not separately checked.", "Raw CUDA-event timing excludes allocation, CPU reference work, and host/device transfers; includes all split launches and wrapper operations.", "Shared lock and pre/post GPU idle samples are used; continuous exclusive GPU ownership is not established.", "Local CPU tests cannot establish CUDA compilation/device correctness. Server build and every correctness check must pass before acceptance."]}
+{"experiment": "SHAKE_SAMPLING", "gpu": "RTX 5090", "status": "SHAKE_SAMPLING_MATRIX_PASS", "cases": 342, "source": "5090实验结果_20261019/server_results/shake_sampling/20261019T212354751706Z-7354f3aa/metadata/RESULT.json", "line": 2, "notes": "独立算子harness，不能当完整ML-DSA API加速；固定语料跨进程重复。", "processes": 27, "timing_samples": 15390, "checks": 2538, "batch": [4096, 8192, 16384], "parameters": [44, 65, 87], "limits": ["Standalone operators using sealed donor Keccak and scalar-comparator sources; original nine DSOs are neither modified nor loaded.", "Sampling uses the same lane-zero parser in both backends; this isolates Keccak state mapping, not ballot-compaction performance.", "Kernel event times include output initialization, decoding and trace writes; no end-to-end production-module speedup is established.", "ON/OFF changes this audit harness only. OFF uses eight squeeze blocks, rather than a production-module early-stop configuration.", "Forced-rejection cases are synthetic refill/exhaustion fixtures, not normal FIPS vectors.", "256 deterministic input rows are tiled across each batch; empty-input SHAKE has one unique row. Three processes reuse the same corpus.", "All requests/bytes and counters are checked before and after each timed variant; individual intermediate timed outputs are not separately checked.", "Shared stage lock and pre/post idle GPU samples are used; continuous exclusive GPU use is not claimed.", "CPU-only self-tests do not establish CUDA compilation or device correctness; those must pass on the server before acceptance."]}
+{"experiment": "SPLIT32_COMPARISON", "gpu": "RTX 5090", "status": "SPLIT32_COMPARISON_MATRIX_PASS", "cases": 540, "source": "5090实验结果_20261019/server_results/split32_comparison/20261019T215136567276Z-de9b27bb/metadata/RESULT.json", "line": 2, "notes": "独立算子harness，不能当完整ML-DSA API加速；固定语料跨进程重复。", "processes": 27, "timing_samples": 24300, "checks": 6237, "batch": [4096, 8192, 16384], "parameters": [44, 65, 87], "limits": ["Standalone operators using sealed donor Keccak and scalar-comparator sources; original nine DSOs are neither modified nor loaded.", "All three backends share a logical-lane-zero parser (the even physical lane for split32); this isolates state mapping and does not measure production eta four-thread consumer, ballot compaction, retry scheduling or complete APIs.", "Split32 uses the sealed production permutation <1,false>, IOTA_WORD_LOAD=0, with a harness byte stream; this does not establish every production module compiler policy.", "Split32 retains padded pairs and drains a whole warp; work artifacts distinguish logical blocks, absorb permutations, executed squeeze permutations and drain dummy permutations, plus padded-state work.", "Dummy split32 rounds still write the shared byte buffer. Counts describe source-level primitive calls per state, not hardware instructions. Padding states are zero initialized and receive harness padding; wholly inactive warps exit uniformly.", "A fixed 832/1088-byte transcript SHAKE256 case measures final-hash arithmetic, not complete verification.", "Kernel event times include output initialization, decoding, logical trace and physical work writes; no end-to-end production-module speedup is established.", "ON/OFF changes this audit harness only. OFF uses eight squeeze blocks, rather than a production-module early-stop configuration.", "Work.logical_squeeze is the count of raw permutation calls for op0. For SHAKE/sampling, absorb counts only full input blocks; the padded first output permutation is counted as squeeze.", "Forced-rejection cases are synthetic refill/exhaustion fixtures, not normal FIPS vectors.", "256 deterministic input rows are tiled across each batch; empty-input SHAKE has one unique row. Three processes reuse the same corpus.", "All requests/bytes and counters are checked before and after each timed variant; individual intermediate timed outputs are not separately checked.", "Shared stage lock and pre/post idle GPU samples are used; continuous exclusive GPU use is not claimed.", "CPU-only self-tests do not establish CUDA compilation or device correctness; those must pass on the server before acceptance."]}
+{"experiment": "E05_CUPTI", "gpu": "RTX 5090", "status": "PROFILE_CAPTURE_PASS", "cases": 9, "source": "5090实验结果_20261019/server_results/e05_native_cupti/local_intake/RESULT.json", "line": 110, "notes": "B8192，27进程、405测量范围、4950范围内kernel；7701含setup/warmup/probe，不合并计数。", "processes": 27, "timing_samples": 405, "kernel_launches": 4950}
+{"experiment": "V3_SMALL_CORRECTNESS", "gpu": "RTX 5090", "status": "PASS", "cases": 21, "source": "5090实验结果_20261019/extracted/v3_626756/runs/fastmin-m87-all-v3-20261019T143050777764Z-626756/02_correctness/CORRECTNESS_RESULT.json", "line": 3, "notes": "V3适配器小批次；与E02a扩展用例存在覆盖关系，不相加为独立覆盖。"}
+{"experiment": "E02A_BASELINE_EXPANDED", "gpu": "RTX 5090", "status": "PASS", "cases": 234, "source": "5090实验结果_20261019/server_results/e02a_wait_v2/e02a-wait-v2-20261019T160026995225Z-642542/LOCAL_INTAKE_VERIFICATION.json", "line": 3, "notes": "原V3九模块：KeyGen135/Sign54/Verify45；27空消息Sign。此正确性PASS不能消除后来原M65 Sign racecheck finding。", "checks": 1998}
+{"experiment": "E02B_ORIGINAL_SANITIZER", "gpu": "RTX 5090", "status": "PARTIAL_WITH_FINDING", "cases": 31, "source": "5090实验结果_20261019/server_results/e02b_sanitizer/e02b-sanitizer-20261019T170912908000Z-657090/LOCAL_INTAKE_VERIFICATION.json", "line": 3, "notes": "计划48，30 PASS/1 SANITIZER_FINDING/17未运行；原M65 Sign B256 空消息 racecheck：14 hazards/warnings，0 errors，退出86。原模块问题保留。", "planned": 48, "passed": 30, "failed": 1, "not_run": 17}
+{"experiment": "E02B_WARP_SYNC_CANDIDATE", "gpu": "RTX 5090", "status": "STATIC_GATE_FAIL_GPU_NOT_RUN", "cases": 0, "source": "5090实验结果_20261019/server_results/e02b_w1sync/e02b-w1sync-20261019T182627865064Z-664886/LOCAL_INTAKE_VERIFICATION.json", "line": 4, "notes": "W1同步候选SASS目标循环只增加NOP，未达到静态屏障门槛；未运行候选GPU。"}
+{"experiment": "E02B_CTA_SINGLE_REPLAY", "gpu": "RTX 5090", "status": "PASS", "cases": 1, "source": "5090实验结果_20261019/server_results/e02b_ctasync_replay/e02b-ctasync-replay-20261019T192403869386Z-684616/LOCAL_INTAKE_VERIFICATION.json", "line": 5, "notes": "新CTA同步M65 Sign候选复放原失败case：0 hazards/errors/warnings；不覆盖原模块failure。"}
+{"experiment": "E02B_MIXED48", "gpu": "RTX 5090", "status": "PASS_MIXED_VERSION_ONLY", "cases": 48, "source": "5090实验结果_20261019/server_results/e02b_complete_matrix/e02b-complete-matrix-20261019T194848151296Z-699841/LOCAL_INTAKE_VERIFICATION.json", "line": 4, "notes": "26旧版未改模块PASS + 1候选replay PASS + 21新测；M65 Sign全部8项用CTA候选，其他40项原模块。旧M65 Sign4 mem/init PASS退休重测，不额外相加。", "passed": 48, "new_cases": 21, "reused_baseline": 26, "reused_candidate": 1}
+{"experiment": "CANDIDATE18_EARLIER_RUN", "gpu": "RTX 5090", "status": "CANDIDATE18_NORMAL_CORRECTNESS_PASS", "cases": 18, "source": "5090实验结果_20261019/extracted/a18_708718/runs/e02c-candidate18-20261019T200927794364Z-708718/RESULT.json", "line": 5, "notes": "较早独立候选18次运行；后续E02A_CTA18覆盖同批量/种子/消息，统计唯一覆盖时不能相加为36。"}
+{"experiment": "E02A_CTA18", "gpu": "RTX 5090", "status": "PASS", "cases": 18, "source": "5090实验结果_20261019/server_results/e02a_ctasync_expanded/e02a-ctasync-expanded-20261019T202403610611Z-718474/LOCAL_INTAKE_VERIFICATION.json", "line": 4, "notes": "仅CTA候选M65 Sign：B256/512/1024 × 3种子 × 消息0/32；未插桩，host/device T12与字节差分；WPHC不可用，非完整E02。"}
+{"experiment": "E02C_NONSIGN36", "gpu": "RTX 5090", "status": "PASS_SCOPE_LIMITED", "cases": 36, "source": "5090实验结果_20261019/extracted/e2c36_754991/LOCAL_INTAKE_VERIFICATION.json", "line": 3, "notes": "六个独立KeyGen/Verify目标；12 KeyGen、24 Verify（12空消息/12消息32）；12非空Verify×40=480拒绝/接口检查；空消息负例NOT_APPLICABLE；canary未实现、PQClean不可用。", "negative_checks": 480}
+{"experiment": "E03_B256_QUALIFICATION", "gpu": "RTX 5090", "status": "QUALIFICATION_ONLY_PASS", "cases": 18, "source": "5090实验结果_20261019/server_results/e03_v3_cta/local_qualification_intake/RESULT.json", "line": 43, "notes": "三参数三操作×ours/cuPQC=18；单次资格耗时不用于正式性能比较。B256与E03 B8192不同矩阵。", "batch": [256]}
+{"experiment": "E13_B256_QUALIFICATION", "gpu": "RTX 5090", "status": "QUALIFICATION_ONLY_PASS", "cases": 42, "source": "5090实验结果_20261019/server_results/e13_native/local_intake/RESULT.json", "line": 63, "notes": "42进程/84 I/O对照/9份语料，正式63条件性能未运行；不报告端到端加速结论。", "batch": [256]}
+{"experiment": "SPLIT32_SANITIZER_FIRST", "gpu": "RTX 5090", "status": "STOPPED_GPU_POST_IDLE_GUARD", "cases": 3, "source": "5090实验结果_20261019/server_results/split32_sanitizer_stopped/LOCAL_STOP_DIAGNOSIS.json", "line": 2, "notes": "实际3次memcheck退出0且0 findings，只有2已写PASS；第三进程后GPU利用率36%触发守卫，不能视全矩阵PASS。", "saved_pass": 2, "planned": 12}
+{"experiment": "SPLIT32_SANITIZER_POSTSETTLE", "gpu": "RTX 5090", "status": "STOPPED_WITH_RACECHECK_FINDING", "cases": 4, "source": "5090实验结果_20261019/server_results/split32_sanitizer_postsettle_stopped/LOCAL_STOP_DIAGNOSIS.json", "line": 2, "notes": "3 memcheck PASS；p44 warp=1 racecheck 103 warnings，展示100 hazards，退出86；8未启动。与此前算子正确性/性能PASS并存，不可抹掉finding。", "passed": 3, "failed": 1, "not_run": 8, "planned": 12}
+{"experiment": "E11_TMPFS", "gpu": "RTX 5090", "status": "BUILD_ONLY_FAILED_CAPTURE", "cases": 0, "source": "5090实验结果_20261019/server_results/e11_tmpfs_native_build/e11_verify_invalid_load_5090_run_a1e6a3fc.tar.gz!run/build_RESULT.json", "line": 4, "notes": "嵌套归档确认E11_PHASE_PASS/E11_BUILD_PASS，仅ML-DSA-65 Verify的diag_ON/OFF和perf_ON/OFF四个arm构建；未找到small/performance_RESULT，运行丢失记录另保留，不能当invalid-load性能成功。"}
+{"experiment": "E03_EARLY_BUILD_FAILURE", "gpu": "RTX 5090", "status": "BUILD_STOPPED", "cases": 0, "source": "5090实验结果_20261019/server_results/autonomous_20261020/performance/e03-5090-20261019T202805172035Z.tar.gz!run/FAILURE_build_20261019T202804979751Z.json", "line": 5, "notes": "较早E03候选integration构建失败；没有正式性能数据；后续NVTX构建及资格另记。"}
+{"experiment": "HISTORICAL_87_KEYGEN_COMPILER", "gpu": "RTX 5090", "status": "BUILD_FAILED_THEN_DIAGNOSTIC_ONLY", "cases": 0, "source": "5090实验结果_20261019/server_results/historical_diagnostics/ptx_diagnostic_5090_v1.tar.gz!DIAGNOSTIC_RESULT.json", "line": 1676, "notes": "历史87 KeyGen编译诊断：baseline退出255，fast_compile_min退出0；usable_as_experiment_result=false，未进行GPU正确性或性能测试，后续V3构建另记。"}

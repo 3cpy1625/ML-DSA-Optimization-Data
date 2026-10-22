@@ -1,0 +1,20 @@
+{
+  "abi_version": 1,
+  "factory_symbol": "loce_pqc_native_module_v1",
+  "identity_symbol": "loce_pqc_module_identity_v1",
+  "operations": [
+    {
+      "algorithm": "ML-DSA",
+      "build_target": "loce_mldsa44_keygen_d3_sm120_adapter",
+      "contract_id": "ML-DSA-Level1-KeyGen",
+      "execution_path": "sm120-family-pipeline",
+      "level": 1,
+      "module_filename": "libloce_mldsa44_keygen_d3_sm120.so",
+      "module_logical_id": "mldsa44-keygen-d3-sm120-native",
+      "operation": "KeyGen",
+      "parameter_set": "44",
+      "policy_registry_id": "MLDSA-44-KEYGEN-D3"
+    }
+  ],
+  "schema": "loce.operation-module-registry.v2"
+}

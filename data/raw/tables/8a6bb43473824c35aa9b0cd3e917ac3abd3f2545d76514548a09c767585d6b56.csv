@@ -1,0 +1,7 @@
+﻿图表或章节,本轮状态,数据文件,可写内容,限制或下一步
+表5-1 实验环境,已有构建与环境记录,evidence/performance_build.json；归档00_environment各attempt日志,GPU、工具版本、固定CPU参考与cuPQC配置,依据本轮记录填写；宿主与容器环境分开
+表5-2 正确性,可填写已测部分,表5-2_本轮正确性汇总_9单元.csv；表5-2_不可用与跳过明细_22行.csv,21次小批测试通过；18次性能二进制资格验证通过,不表述为完整KAT、边界或sanitizer通过
+图4-10 运行实例,可展示真实输出,examples/mldsa44_sign_stdout.txt；examples/mldsa65_verify_stdout.txt,从真实stdout截取算法、检查项和执行结果,若展示实际输入输出字节，另取选定blobs；诊断耗时不作性能图
+图5-2 cuPQC对比；表5-3 耗时/吞吐/加速比,新性能数据未生成,evidence/performance_stage.json,本轮只能记录采集尚未开始,空闲GPU继续performance；成功后审查03_performance/tables四张CSV
+图5-2/表5-3的历史结果,历史27格保持单独使用,../../data/historical_device_resident/performance_27.csv,明确标注历史模块、历史实验与设备驻留口径,不能伪装为本轮结果；不能与本轮均值口径直接拼接
+图4-1；图5-1、5-3至5-8；端到端实验,本次归档未新增所需数据,../../00_图表与数据对应说明.txt,按总映射表保留已知局部历史证据,阶段剖析、其他基线、算子、资源、消融、无效负载等继续单独补测

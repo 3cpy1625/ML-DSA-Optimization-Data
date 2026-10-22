@@ -1,0 +1,296 @@
+[
+  {
+    "source": "5090实验结果_20261019/server_results/autonomous_20261020/performance/e03-5090-20261019T202805172035Z.tar.gz!run/FAILURE_build_20261019T202804979751Z.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0000_FAILURE_build_20261019T202804979751Z.json",
+    "size": 306,
+    "sha256": "e1af7905fc16e41d05309b3cd57e386e723c1989a31fdf2151d889d0e0cf1301"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/autonomous_20261020/performance/e03-5090-20261019T202805172035Z.tar.gz!run/logs/environment-build-20261019T202024427207Z.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0001_environment-build-20261019T202024427207Z.json",
+    "size": 712,
+    "sha256": "b95effd6ff23a6b0b41d459238cf7372579ca663260d07534b7c67e9e5d4763b"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/autonomous_20261020/performance/e03-5090-20261019T202805172035Z.tar.gz!run/sources/measurement-20261019T202024508277Z/MAINLINE/verification/schemas/hardening004/cpu_suite_result.schema.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0002_cpu_suite_result.schema.json",
+    "size": 1982,
+    "sha256": "198e488a6f4d89ab2f36981f18050a830d469c20984a98f92ae10f7cca7bd1be"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/autonomous_20261020/performance/e03-5090-20261019T202805172035Z.tar.gz!run/sources/measurement-20261019T202024508277Z/MAINLINE/verification/schemas/hardening004/sanitizer_summary.schema.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0003_sanitizer_summary.schema.json",
+    "size": 1849,
+    "sha256": "9bf5e370abf252d4feed3d4e162a7b5ca89933aa7feeacc64c99a0e0b715dcfc"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e03_v3_cta/e03-5090-20261019T221845771722Z.tar.gz!run/BUILD_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0004_BUILD_RESULT.json",
+    "size": 65437,
+    "sha256": "7329643d44832077ed4971bb6bd6e0c24573a576148657fc77f1c399e73b1ac5"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e03_v3_cta/e03-5090-20261019T221845771722Z.tar.gz!run/QUALIFICATION_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0005_QUALIFICATION_RESULT.json",
+    "size": 9396,
+    "sha256": "fffa33d47cc8978329bee7267544bc15dd0eeb759eae5c2f09a44e2543b2b25c"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e03_v3_cta/e03-5090-20261019T221845771722Z.tar.gz!run/idle_checks/bounded_wait/GPU_IDLE_WAIT_REPORT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0006_GPU_IDLE_WAIT_REPORT.json",
+    "size": 12843,
+    "sha256": "132aaed45031ee6e186a651f8ca61597a07bcb2b84fa20a514c73110e6427e33"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e03_v3_cta/e03-5090-20261019T221845771722Z.tar.gz!run/logs/environment-build-20261019T220538627292Z.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0007_environment-build-20261019T220538627292Z.json",
+    "size": 712,
+    "sha256": "b95effd6ff23a6b0b41d459238cf7372579ca663260d07534b7c67e9e5d4763b"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e03_v3_cta/e03-5090-20261019T221845771722Z.tar.gz!run/logs/environment-qualify-20261019T221609231750Z.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0008_environment-qualify-20261019T221609231750Z.json",
+    "size": 712,
+    "sha256": "b95effd6ff23a6b0b41d459238cf7372579ca663260d07534b7c67e9e5d4763b"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e03_v3_cta/e03-5090-20261019T221845771722Z.tar.gz!run/qualification/mldsa44_keygen_cupqc/PROCESS_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0009_PROCESS_RESULT.json",
+    "size": 4235,
+    "sha256": "32ff02681643ec970f44622c699642778681f1546b56a7ee87d6b058e7dccd42"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e03_v3_cta/e03-5090-20261019T221845771722Z.tar.gz!run/qualification/mldsa44_keygen_ours/PROCESS_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0010_PROCESS_RESULT.json",
+    "size": 4812,
+    "sha256": "c788e914359240dde55db4da2c4973e0308a4b7bc97ce1a81553d5f778ffdabd"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e03_v3_cta/e03-5090-20261019T221845771722Z.tar.gz!run/qualification/mldsa44_sign_cupqc/PROCESS_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0011_PROCESS_RESULT.json",
+    "size": 4205,
+    "sha256": "f7310675e68ae71a95a08206ba8b212a60bd48268286b261f80ff232ea9ffa27"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e03_v3_cta/e03-5090-20261019T221845771722Z.tar.gz!run/qualification/mldsa44_sign_ours/PROCESS_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0012_PROCESS_RESULT.json",
+    "size": 4786,
+    "sha256": "81271a74480158d9065c3d33163f4445b0e7fa3b1b1a220358d389c54cd96d6d"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e03_v3_cta/e03-5090-20261019T221845771722Z.tar.gz!run/qualification/mldsa44_verify_cupqc/PROCESS_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0013_PROCESS_RESULT.json",
+    "size": 4235,
+    "sha256": "8b9feb0f805c8d63af9922c5228a50838171dd8d8937480f153e4c362e795922"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e03_v3_cta/e03-5090-20261019T221845771722Z.tar.gz!run/qualification/mldsa44_verify_ours/PROCESS_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0014_PROCESS_RESULT.json",
+    "size": 4806,
+    "sha256": "f7f8bf5694e462fe07e3f178287be875d6a87c65b7eea84c14cc2672417b9329"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e03_v3_cta/e03-5090-20261019T221845771722Z.tar.gz!run/qualification/mldsa65_keygen_cupqc/PROCESS_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0015_PROCESS_RESULT.json",
+    "size": 4233,
+    "sha256": "83b543e803936410a8e24834e9abb86c7268930920b04a6d8128edc3776f80dc"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e03_v3_cta/e03-5090-20261019T221845771722Z.tar.gz!run/qualification/mldsa65_keygen_ours/PROCESS_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0016_PROCESS_RESULT.json",
+    "size": 4812,
+    "sha256": "1d3a0145c11454205331d709f9f2470d029680502d29de3d9cf875e1794f2581"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e03_v3_cta/e03-5090-20261019T221845771722Z.tar.gz!run/qualification/mldsa65_sign_cupqc/PROCESS_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0017_PROCESS_RESULT.json",
+    "size": 4209,
+    "sha256": "ed2e91dccadc7958e4187987f74ac1c03afffafb9d27b6fe2cbf2354de4eae81"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e03_v3_cta/e03-5090-20261019T221845771722Z.tar.gz!run/qualification/mldsa65_sign_ours/PROCESS_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0018_PROCESS_RESULT.json",
+    "size": 4786,
+    "sha256": "6a897cd18ce7897018530a4c01941cd6461089187b5a65c1ac897107c5d81b2a"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e03_v3_cta/e03-5090-20261019T221845771722Z.tar.gz!run/qualification/mldsa65_verify_cupqc/PROCESS_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0019_PROCESS_RESULT.json",
+    "size": 4233,
+    "sha256": "ca1b84e6a73c20b96558134b15a0ad32746c5730e762229087ebb5ed4c0ad9e6"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e03_v3_cta/e03-5090-20261019T221845771722Z.tar.gz!run/qualification/mldsa65_verify_ours/PROCESS_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0020_PROCESS_RESULT.json",
+    "size": 4812,
+    "sha256": "0e8b93100fb4980b73a11bbc02b802ef4495ff9d79007067544dff67786fedf0"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e03_v3_cta/e03-5090-20261019T221845771722Z.tar.gz!run/qualification/mldsa87_keygen_cupqc/PROCESS_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0021_PROCESS_RESULT.json",
+    "size": 4233,
+    "sha256": "4e56fe5db3488247c35b875db1f2bee04e85fc5f9024f4b916a58e406553a337"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e03_v3_cta/e03-5090-20261019T221845771722Z.tar.gz!run/qualification/mldsa87_keygen_ours/PROCESS_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0022_PROCESS_RESULT.json",
+    "size": 4806,
+    "sha256": "8d8c912a1d3446bba13c87ef1157c5f025df0f5656bd49362572497099bdd811"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e03_v3_cta/e03-5090-20261019T221845771722Z.tar.gz!run/qualification/mldsa87_sign_cupqc/PROCESS_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0023_PROCESS_RESULT.json",
+    "size": 4207,
+    "sha256": "60397102a746bbab3424ab3be5597ac0761e3e475e6427346e1831a56175c079"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e03_v3_cta/e03-5090-20261019T221845771722Z.tar.gz!run/qualification/mldsa87_sign_ours/PROCESS_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0024_PROCESS_RESULT.json",
+    "size": 4788,
+    "sha256": "4265a7d96f29f2585638ed767e1a05fb92f1987b4b6851989ba48ea73447c475"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e03_v3_cta/e03-5090-20261019T221845771722Z.tar.gz!run/qualification/mldsa87_verify_cupqc/PROCESS_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0025_PROCESS_RESULT.json",
+    "size": 4233,
+    "sha256": "cecc0c9729c829e6a77c2f2bb41d1c8d308e0b41ab2d22652cbac8a230e0e441"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e03_v3_cta/e03-5090-20261019T221845771722Z.tar.gz!run/qualification/mldsa87_verify_ours/PROCESS_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0026_PROCESS_RESULT.json",
+    "size": 4812,
+    "sha256": "fe3557adcc68a4ba0fd99d611a036bd2f45ae4dd213fd1980829c3503b8b67fe"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e03_v3_cta/e03-5090-20261019T221845771722Z.tar.gz!run/sources/measurement-20261019T220538869962Z/MAINLINE/verification/schemas/hardening004/cpu_suite_result.schema.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0027_cpu_suite_result.schema.json",
+    "size": 1982,
+    "sha256": "198e488a6f4d89ab2f36981f18050a830d469c20984a98f92ae10f7cca7bd1be"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e03_v3_cta/e03-5090-20261019T221845771722Z.tar.gz!run/sources/measurement-20261019T220538869962Z/MAINLINE/verification/schemas/hardening004/sanitizer_summary.schema.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0028_sanitizer_summary.schema.json",
+    "size": 1849,
+    "sha256": "9bf5e370abf252d4feed3d4e162a7b5ca89933aa7feeacc64c99a0e0b715dcfc"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e11_tmpfs_native_build/e11_verify_invalid_load_5090_run_a1e6a3fc.tar.gz!run/build_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0029_build_RESULT.json",
+    "size": 249344,
+    "sha256": "991767cb3bb1137f3681b5db7f6f350e290e6582cd89607988f8668bf7ef8140"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e11_tmpfs_native_build/e11_verify_invalid_load_5090_run_a1e6a3fc.tar.gz!run/source/verification/schemas/hardening004/cpu_suite_result.schema.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0030_cpu_suite_result.schema.json",
+    "size": 1982,
+    "sha256": "198e488a6f4d89ab2f36981f18050a830d469c20984a98f92ae10f7cca7bd1be"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/e11_tmpfs_native_build/e11_verify_invalid_load_5090_run_a1e6a3fc.tar.gz!run/source/verification/schemas/hardening004/sanitizer_summary.schema.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0031_sanitizer_summary.schema.json",
+    "size": 1849,
+    "sha256": "9bf5e370abf252d4feed3d4e162a7b5ca89933aa7feeacc64c99a0e0b715dcfc"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/historical_diagnostics/build_failure_5090_20261019.tar.gz!02_correctness/BUILD_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0032_BUILD_RESULT.json",
+    "size": 49428,
+    "sha256": "4e57efcef059eb024996bd8879193278a8b3a5ef3982211c81a18e0b844cc86e"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/historical_diagnostics/ptx_diagnostic_5090_v1.tar.gz!DIAGNOSTIC_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0033_DIAGNOSTIC_RESULT.json",
+    "size": 90770,
+    "sha256": "33fc028baa83c0cca80efd8c62dfb36ca7e7b6f1ef20ad63dccf170009d587fc"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/historical_diagnostics/ptx_diagnostic_5090_v1.tar.gz!ORIGINAL_BUILD_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0034_ORIGINAL_BUILD_RESULT.json",
+    "size": 49428,
+    "sha256": "4e57efcef059eb024996bd8879193278a8b3a5ef3982211c81a18e0b844cc86e"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/historical_diagnostics/ptx_diagnostic_5090_v1.tar.gz!baseline/RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0035_RESULT.json",
+    "size": 42801,
+    "sha256": "3243a0138e7a5481acf75f018600d43756db925cd21104cdcdbc20969e06bcf4"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/historical_diagnostics/ptx_diagnostic_5090_v1.tar.gz!fast_compile_min/RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0036_RESULT.json",
+    "size": 40607,
+    "sha256": "4956300374568b15dd0bf98545207a00c70784e1d4b7b83922c7d050d6cc522e"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/historical_diagnostics/ptx_diagnostic_5090_v1.tar.gz!nvcc_version.log",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0037_nvcc_version.log",
+    "size": 208,
+    "sha256": "77d7ef23109cd2437a8b9cf5efbc4e89996b816276077edb86143ee04f6d5269"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/split32_sanitizer_postsettle_stopped/split32-sanitizer-27c9389515734bddb0d25b992da725b6.tar.gz!run/CORPUS_SUMMARY.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0038_CORPUS_SUMMARY.json",
+    "size": 285349,
+    "sha256": "968e2ac9d17dd179c842ae41d086d73fd1976849ea7160539d0c172e87ed464e"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/split32_sanitizer_postsettle_stopped/split32-sanitizer-27c9389515734bddb0d25b992da725b6.tar.gz!run/FAILURE_run_735e62171978487aa786065f65f404b1.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0039_FAILURE_run_735e62171978487aa786065f65f404b1.json",
+    "size": 374,
+    "sha256": "52b633e3d6d69428275248b2495e09e8004bcd39bdde243ede9c20dcbf53c000"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/split32_sanitizer_postsettle_stopped/split32-sanitizer-27c9389515734bddb0d25b992da725b6.tar.gz!run/PREPARE_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0040_PREPARE_RESULT.json",
+    "size": 480551,
+    "sha256": "c360076b3312a90598645d4ab835553e9e209be2bdf0ac641076110b60f7e38b"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/split32_sanitizer_postsettle_stopped/split32-sanitizer-27c9389515734bddb0d25b992da725b6.tar.gz!run/jobs/memcheck_p44/PROCESS_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0041_PROCESS_RESULT.json",
+    "size": 265667,
+    "sha256": "655331cc7b3f2441c7eb826d2e273aa3fcfb8f9ec0ce770514a5247b5ac91916"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/split32_sanitizer_postsettle_stopped/split32-sanitizer-27c9389515734bddb0d25b992da725b6.tar.gz!run/jobs/memcheck_p65/PROCESS_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0042_PROCESS_RESULT.json",
+    "size": 265667,
+    "sha256": "c5372c4ea636210bdb9b01d2963f2a2e309a459d8d3b6aebb4d6a49b792f8782"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/split32_sanitizer_postsettle_stopped/split32-sanitizer-27c9389515734bddb0d25b992da725b6.tar.gz!run/jobs/memcheck_p87/PROCESS_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0043_PROCESS_RESULT.json",
+    "size": 265667,
+    "sha256": "d36439dd14651e5e49842e8b2286ff16f2ea778e5616f26eec4b621903e502cb"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/split32_sanitizer_stopped/split32-sanitizer-ac55be9dbcd34c81bb4f498f2f6ed914.tar.gz!run/CORPUS_SUMMARY.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0044_CORPUS_SUMMARY.json",
+    "size": 285349,
+    "sha256": "968e2ac9d17dd179c842ae41d086d73fd1976849ea7160539d0c172e87ed464e"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/split32_sanitizer_stopped/split32-sanitizer-ac55be9dbcd34c81bb4f498f2f6ed914.tar.gz!run/FAILURE_run_cf909d2fd79b426680807107f432167b.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0045_FAILURE_run_cf909d2fd79b426680807107f432167b.json",
+    "size": 365,
+    "sha256": "d0749567ba6982d72e1072be648f649942e1baa20f5f0d19495bec3fc2b89a91"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/split32_sanitizer_stopped/split32-sanitizer-ac55be9dbcd34c81bb4f498f2f6ed914.tar.gz!run/PREPARE_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0046_PREPARE_RESULT.json",
+    "size": 465811,
+    "sha256": "00e634ca2c6dc995c031a1ff96aa38336399519b53938c90647ad97bee1c3766"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/split32_sanitizer_stopped/split32-sanitizer-ac55be9dbcd34c81bb4f498f2f6ed914.tar.gz!run/jobs/memcheck_p44/PROCESS_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0047_PROCESS_RESULT.json",
+    "size": 260428,
+    "sha256": "533d86385cfc89f1f748a8238f8075e8a9c22391fdae726231f7164902ca883e"
+  },
+  {
+    "source": "5090实验结果_20261019/server_results/split32_sanitizer_stopped/split32-sanitizer-ac55be9dbcd34c81bb4f498f2f6ed914.tar.gz!run/jobs/memcheck_p65/PROCESS_RESULT.json",
+    "path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_5090\\nested\\0048_PROCESS_RESULT.json",
+    "size": 260401,
+    "sha256": "d38c3b37549fb4dd2240197bb44fd94bbbd5d3e22abc2358492233a89ce61277"
+  }
+]

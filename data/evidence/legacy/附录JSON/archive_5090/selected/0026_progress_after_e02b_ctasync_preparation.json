@@ -1,0 +1,36 @@
+{
+  "recorded_utc": "2026-10-19T18:51:15.686678+00:00",
+  "current_category": "E02",
+  "e02b_original": {
+    "run_id": "e02b-sanitizer-20261019T170912908000Z-657090",
+    "pass": 30,
+    "finding": 1,
+    "not_run": 17,
+    "finding_status": "UNRESOLVED"
+  },
+  "next_action": "USER_EXECUTES_CPU_ONLY_ISOLATED_M65_FOUR_HANDOFF_CTASYNC_BUILD_AND_SASS_CAPTURE",
+  "next_script": {
+    "path": "scripts/diagnose_5090_e02b_ctasync_build.py",
+    "bytes": 34087,
+    "sha256": "1e04267d3580d31252d83e8a09086ff7ef2091a501445ca24b05d1dd04ed3bff"
+  },
+  "local_selftest": {
+    "path": "scripts/diagnose_5090_e02b_ctasync_build.SELFTEST_RESULT.json",
+    "bytes": 1576,
+    "sha256": "57548349f50a09540ae288a71c9130e144b04e65b84408a79e305f92cc30bff8"
+  },
+  "local_review": {
+    "path": "scripts/diagnose_5090_e02b_ctasync_build.LOCAL_REVIEW.json",
+    "bytes": 2143,
+    "sha256": "02e3fca4dde41c65314a0e35a78e0dcff7f4da248d6c7907bfe7f96b10bf6b23"
+  },
+  "candidate_scope": "Complete MAINLINE copy; one source file; four CTA tile-handoff barriers; exact original compiler options and generated policy except identities/paths",
+  "patched_compilation_digest": "206fe6f70c5ff2694d3e8810fb5f0e116847ef317870d7797c298c7db85d5cfb",
+  "patched_source_sha256": "bb969bea7fe0af5c37c59db28242ec1021e61a5c99deded0fec01b3e91b2e724",
+  "server_candidate_build": "NOT_RUN",
+  "candidate_gpu_validation": "NOT_RUN",
+  "formal_performance_collected": false,
+  "full_e02_complete": false,
+  "total_remaining_individual_experiments": "NOT_YET_FULLY_ENUMERATED",
+  "console_path_reserved": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e02b_ctasync\\ctasync_build_console_01.txt"
+}

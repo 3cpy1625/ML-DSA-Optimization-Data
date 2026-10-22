@@ -1,0 +1,65 @@
+{
+  "status": "LOCALLY_VERIFIED_PASS",
+  "archive": "E:\\密码竞赛\\补测\\minimal_v65_20261020T145604Z_6e07c795.tar.gz",
+  "archive_sha256": "d3bb5e00dac604b2b4b95b3aae44e93d7902fd61cdf4fe67477fd5af7bd545b7",
+  "manifest_files_verified": 585,
+  "qualification_processes": 8,
+  "performance_processes": 48,
+  "performance_timings": 720,
+  "capture_elapsed_seconds": 178.267,
+  "summary": [
+    {
+      "pattern": "valid",
+      "batch": "8192",
+      "pairs": "6",
+      "on_mean_ms": "0.6351832992333333",
+      "off_mean_ms": "0.6325774172666667",
+      "paired_geomean_speedup": "0.9958979542651991",
+      "time_reduction_pct": "-0.41189418225358043",
+      "min_pair_ratio": "0.9945318571592833",
+      "max_pair_ratio": "0.996957011052686"
+    },
+    {
+      "pattern": "invalid",
+      "batch": "8192",
+      "pairs": "6",
+      "on_mean_ms": "0.14190648673333334",
+      "off_mean_ms": "0.4771939573",
+      "paired_geomean_speedup": "3.3627354184290392",
+      "time_reduction_pct": "70.26230507105528",
+      "min_pair_ratio": "3.357749618639764",
+      "max_pair_ratio": "3.371184816989991"
+    },
+    {
+      "pattern": "grouped50",
+      "batch": "8192",
+      "pairs": "6",
+      "on_mean_ms": "0.42030471066666664",
+      "off_mean_ms": "0.5663640962666667",
+      "paired_geomean_speedup": "1.3475077446665318",
+      "time_reduction_pct": "25.788923740288382",
+      "min_pair_ratio": "1.3460502973018968",
+      "max_pair_ratio": "1.3501373481733454"
+    },
+    {
+      "pattern": "dispersed50",
+      "batch": "8192",
+      "pairs": "6",
+      "on_mean_ms": "0.5973628482333333",
+      "off_mean_ms": "0.5956867548888889",
+      "paired_geomean_speedup": "0.9971945912623185",
+      "time_reduction_pct": "-0.2813301197442497",
+      "min_pair_ratio": "0.9951879588437652",
+      "max_pair_ratio": "0.9999928291806609"
+    }
+  ],
+  "limitations": [
+    "One fixed input corpus; timings are not independent inputs",
+    "Device-resident full-operation interval; no host setup/transfers",
+    "Checks final timed output, not every timed output",
+    "Retained valid CPU oracle reused; mutation statuses checked by construction",
+    "No new independent standard KAT or sanitizer qualification",
+    "Historical 4090 comparison is mechanism-level, not pure hardware attribution"
+  ],
+  "transport_note": "Remote archive checksum not downloaded; gzip integrity and all internal manifest hashes verified. GPU exclusivity checked only at recorded observations."
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "mldsa5090-e02c-build-capture-v1",
+  "recorded_utc": "2026-10-19T21:06:10.195160+00:00",
+  "run_id": "e02c-nonsign-formal-build-20261019T205643814715Z-738096",
+  "server_status": "E02C_SIX_FORMAL_TARGETS_BUILD_PASS",
+  "phase": "BUILD_ONLY",
+  "gpu_application_launched": false,
+  "local_raw_intake": "PENDING",
+  "archive": {
+    "path": "server_results/e02c_nonsign_formal/5090_e02c-nonsign-formal-build-20261019T205643814715Z-738096_20261019T210232186401Z.tar.gz",
+    "bytes": 27906689,
+    "sha256": "86bb4748018e4c5bd5f5e0042fd0c5d72ba9ae92747d4fed5200933df1ab0424"
+  },
+  "result": {
+    "bytes": 150971,
+    "sha256": "a85b7d4cbdb3e8ba545635a7839c26678662d5aa54fab352925bd8782973adb4"
+  },
+  "console": {
+    "path": "server_results/e02c_nonsign_formal/build_console_01.txt",
+    "bytes": 2127,
+    "sha256": "92713fe11ea6151f1ae05cd431ad3d978dceb4338c4cdf5f7471a932eae8d776"
+  },
+  "controller": {
+    "path": "scripts/run_5090_e02c_nonsign_formal.py",
+    "bytes": 42328,
+    "sha256": "f82a88d44855c54cbfd4b61974c226cbc8892ca62d69af4b301a05819fd04877"
+  },
+  "planned_interface_cases": 36,
+  "executed_interface_cases": 0,
+  "formal_performance": "NOT_RUN",
+  "full_e02": "NOT_COMPLETE",
+  "authorization": "用户已授权助手自行在服务器做实验并与侧边聊天协调；只做实验。"
+}

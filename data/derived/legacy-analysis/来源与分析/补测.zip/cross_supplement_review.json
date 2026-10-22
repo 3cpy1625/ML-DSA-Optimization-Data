@@ -1,0 +1,242 @@
+{
+  "status": "CROSS_ARCHIVE_REVIEW_COMPLETE",
+  "review_scope": "只读外层小JSON/CSV、既有新5090结果及构造/校验脚本文本；未执行归档代码，未重新提取二进制",
+  "sources": [
+    {
+      "source": "补测.zip!补测/anchors.json",
+      "line": 5,
+      "meaning": "旧run/源身份与二进制、语料hash绑定"
+    },
+    {
+      "source": "补测.zip!补测/BUILD.json",
+      "line": 1,
+      "meaning": "与旧BUILD逐字节一致"
+    },
+    {
+      "source": "补测.zip!补测/verify_v65_local.py",
+      "line": 22,
+      "meaning": "只作为源文本读取：invalid选择规则"
+    },
+    {
+      "source": "补测.zip!补测/verify_v65_local.py",
+      "line": 71,
+      "meaning": "补测pattern轮换次序"
+    },
+    {
+      "source": "补测.zip!补测/verify_v65_local.py",
+      "line": 80,
+      "meaning": "invalid-z mutation：每签名第48:51字节清零"
+    },
+    {
+      "source": "新5090.zip!新5090/run_switch_pairs_v5.py",
+      "line": 271,
+      "meaning": "旧stride及invalid-z构造，仅文本核对"
+    },
+    {
+      "source": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/cta_m65_verify_20261020T130116Z_e01ef8/RESULT.json",
+      "line": 1,
+      "meaning": "旧42进程结果及input/output hash"
+    },
+    {
+      "source": "补测.zip!补测/RESULT.json",
+      "line": 1,
+      "meaning": "56进程结果"
+    }
+  ],
+  "build_equality": {
+    "build_json_bytes_identical": true,
+    "sha256": "314e08334174d4b05b7340d591c1f9d6212b54714f350ed14d180c3eb0c4a5c3",
+    "source_run": "新5090/cta_m65_verify_20261020T130116Z_e01ef8",
+    "on_binary_sha256": "ccf3628a82af1639207e9dee87acf1280ee41bd8107b7c557ef152e50a91c48b",
+    "off_binary_sha256": "3cc75323d8633fc07497b7605e34589bb9f759bc19454f8ba5813ba2e795fc87",
+    "on_bench_sha256": "2c6c81db7a6cb1ddcc91c0d6920c7ab813806ab3de640bd93776c1f6d39c4cc4",
+    "off_bench_sha256": "aca6df6ed6fd5bd6f015d9af16604d8b7a65c82d152bf7da9cba5a05aa3eaf3e",
+    "on_equals_off": false,
+    "evidence_scope": "保存的BUILD/anchors/preflight身份元数据跨包一致；本审阅未重新hash服务器实际DSO"
+  },
+  "patterns": [
+    {
+      "pattern": "valid",
+      "label": "全有效",
+      "invalid_rule": "无",
+      "invalid_count_b8192": 0,
+      "accepted_b8192": 8192,
+      "old_equivalent": "all-valid / invalid_z_stride=0"
+    },
+    {
+      "pattern": "invalid",
+      "label": "全无效z",
+      "invalid_rule": "所有行",
+      "invalid_count_b8192": 8192,
+      "accepted_b8192": 0,
+      "old_equivalent": "all-invalid-z / invalid_z_stride=1"
+    },
+    {
+      "pattern": "grouped50",
+      "label": "50%无效，按256行周期集中分组",
+      "invalid_rule": "i % 256 < 128；零基行号，每256行的前128行无效、后128行有效",
+      "invalid_count_b8192": 4096,
+      "accepted_b8192": 4096,
+      "old_equivalent": null
+    },
+    {
+      "pattern": "dispersed50",
+      "label": "50%无效，确定性分散排列",
+      "invalid_rule": "(73 * i) % 256 < 128；每256行恰好128行无效，非随机抽样，非简单奇偶交替",
+      "invalid_count_b8192": 4096,
+      "accepted_b8192": 4096,
+      "old_equivalent": null
+    },
+    {
+      "pattern": "alternate-invalid-z",
+      "label": "旧测50%无效，偶数行交替",
+      "invalid_rule": "i % 2 == 0；零基偶数行无效、奇数行有效",
+      "invalid_count_b8192": 4096,
+      "accepted_b8192": 4096,
+      "old_equivalent": "旧stride=2；与grouped50/dispersed50均不同"
+    }
+  ],
+  "valid_invalid_cross_run_hash_comparisons": [
+    {
+      "pattern": "valid",
+      "old_invalid_z_stride": 0,
+      "batch": 256,
+      "input_sha256": "cb72b7c1f89670cb59d33d3c0358ab837527a0a8cdcced9c7c3f90203d18ffd4",
+      "output_sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+      "same_input": true,
+      "same_output": true,
+      "identical_timing_sequences": 0,
+      "interpretation": "同配置独立复测；非重复文件，不应按输入哈希去重计时"
+    },
+    {
+      "pattern": "valid",
+      "old_invalid_z_stride": 0,
+      "batch": 8192,
+      "input_sha256": "2d0755056b064d69e264b2d509f8e755d171eb6c775dd1f5029f02e399797b0b",
+      "output_sha256": "c35020473aed1b4642cd726cad727b63fff2824ad68cedd7ffb73c7cbd890479",
+      "same_input": true,
+      "same_output": true,
+      "identical_timing_sequences": 0,
+      "interpretation": "同配置独立复测；非重复文件，不应按输入哈希去重计时"
+    },
+    {
+      "pattern": "invalid",
+      "old_invalid_z_stride": 1,
+      "batch": 256,
+      "input_sha256": "39548bea64005ee58442804fef5e3a404b752e1c9dc5bcda5b7bb9032a102f86",
+      "output_sha256": "033580288d86db978463f044e6d72f3178053adaa92ea0d170f17daef0612376",
+      "same_input": true,
+      "same_output": true,
+      "identical_timing_sequences": 0,
+      "interpretation": "同配置独立复测；非重复文件，不应按输入哈希去重计时"
+    },
+    {
+      "pattern": "invalid",
+      "old_invalid_z_stride": 1,
+      "batch": 8192,
+      "input_sha256": "f294bbc0e0fa1b1d28393461b3b1a9029b9bc9b31ec201a498f81ceffc08f659",
+      "output_sha256": "9c6a26f436f373e3212d67b1002a76b41f532268fc3b4bffd30030ea4f1ca262",
+      "same_input": true,
+      "same_output": true,
+      "identical_timing_sequences": 0,
+      "interpretation": "同配置独立复测；非重复文件，不应按输入哈希去重计时"
+    }
+  ],
+  "mixed50_hash_comparisons": [
+    {
+      "batch": 256,
+      "new_pattern": "grouped50",
+      "old_pattern": "alternate-invalid-z",
+      "old_input_sha256": "7e395f4df5e62f007fa291b7ddb1109262d8ccea9c6a7268d0fb396d987393f0",
+      "new_input_sha256": "0ed7ec796c9e8e6296522cfeb776928f81cca51fda6af99e080682db8e1bd499",
+      "same_input": false,
+      "same_output": false
+    },
+    {
+      "batch": 256,
+      "new_pattern": "dispersed50",
+      "old_pattern": "alternate-invalid-z",
+      "old_input_sha256": "7e395f4df5e62f007fa291b7ddb1109262d8ccea9c6a7268d0fb396d987393f0",
+      "new_input_sha256": "fade1fe2e93243dd7293db4b9d955fbe74b86c40df46d1e94e894a0100d60e8c",
+      "same_input": false,
+      "same_output": false
+    },
+    {
+      "batch": 8192,
+      "new_pattern": "grouped50",
+      "old_pattern": "alternate-invalid-z",
+      "old_input_sha256": "94e9db1927cadc83634e613ee36f09f300986a62125f3ee7f4b708a513c13d6b",
+      "new_input_sha256": "45d3f813e3c1222cf5817b5f1cafb56232239c58de3a4fa9d4571c04a7169258",
+      "same_input": false,
+      "same_output": false
+    },
+    {
+      "batch": 8192,
+      "new_pattern": "dispersed50",
+      "old_pattern": "alternate-invalid-z",
+      "old_input_sha256": "94e9db1927cadc83634e613ee36f09f300986a62125f3ee7f4b708a513c13d6b",
+      "new_input_sha256": "c2001e2f63440740b928d8747e735290ea14feed21971fd9419f2c2512171908",
+      "same_input": false,
+      "same_output": false
+    }
+  ],
+  "summary_independently_recomputed": [
+    {
+      "pattern": "valid",
+      "on_mean_ms": 0.6351832992333333,
+      "off_mean_ms": 0.6325774172666667,
+      "paired_geomean_speedup": 0.9958979542651991,
+      "ratio_direction": "OFF/ON",
+      "pairs": 6,
+      "repeats_per_process": 15,
+      "note": "配对进程均值比的几何均值；非跨样本置信区间"
+    },
+    {
+      "pattern": "invalid",
+      "on_mean_ms": 0.14190648673333334,
+      "off_mean_ms": 0.4771939573,
+      "paired_geomean_speedup": 3.362735418429039,
+      "ratio_direction": "OFF/ON",
+      "pairs": 6,
+      "repeats_per_process": 15,
+      "note": "配对进程均值比的几何均值；非跨样本置信区间"
+    },
+    {
+      "pattern": "grouped50",
+      "on_mean_ms": 0.42030471066666664,
+      "off_mean_ms": 0.5663640962666667,
+      "paired_geomean_speedup": 1.3475077446665318,
+      "ratio_direction": "OFF/ON",
+      "pairs": 6,
+      "repeats_per_process": 15,
+      "note": "配对进程均值比的几何均值；非跨样本置信区间"
+    },
+    {
+      "pattern": "dispersed50",
+      "on_mean_ms": 0.5973628482333333,
+      "off_mean_ms": 0.5956867548888889,
+      "paired_geomean_speedup": 0.9971945912623185,
+      "ratio_direction": "OFF/ON",
+      "pairs": 6,
+      "repeats_per_process": 15,
+      "note": "配对进程均值比的几何均值；非跨样本置信区间"
+    }
+  ],
+  "recommendations": [
+    "将补测列为独立复测/扩展系列；复用同一有效语料和同一对ON/OFF二进制的记录hash，不代表重复计时。",
+    "全有效/全无效与旧测试在B256、B8192均输入与最终输出hash一致，适合验证复现性。可以明确选用补测作为新的四模式展示主表，但必须保留旧测为历史复测，不能无标记覆盖或删除旧行。",
+    "grouped50和dispersed50是新增排列条件，不能重命名成旧alternate-invalid-z；三个50%条件无效比例相同但行布局不同。",
+    "不要用补测valid自动改写旧joint_matrix的M65 Verify格；旧九格表有既定跨会话复用来源，替换会改变该组合结果及几何均值。",
+    "不得将旧6对+补测6对静默合并成n=12或独立输入样本。补测改变了每block内pattern轮转次序，测量会话不同；跨会话合并需要另行统计说明。",
+    "ON/OFF是不同二进制（SHA256不同）；“同二进制”仅指新旧测试中ON对应ON、OFF对应OFF复用同一记录身份，不是同二进制漂移对照。",
+    "只证明所保存固定语料、invalid-z构造下的设备驻留完整Verify区间；不是所有无效签名/随机负载的总体表现，也不是完整端到端或标准KAT/sanitizer资格。"
+  ],
+  "limitations": [
+    "One fixed input corpus; timings are not independent inputs",
+    "Device-resident full-operation interval; no host setup/transfers",
+    "Checks final timed output, not every timed output",
+    "Retained valid CPU oracle reused; mutation statuses checked by construction",
+    "No new independent standard KAT or sanitizer qualification",
+    "Historical 4090 comparison is mechanism-level, not pure hardware attribution"
+  ]
+}

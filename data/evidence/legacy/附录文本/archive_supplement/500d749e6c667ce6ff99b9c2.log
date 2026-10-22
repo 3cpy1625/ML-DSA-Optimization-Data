@@ -1,0 +1,16 @@
+identity,message_bytes,32,seed,0x4d4c445341435550,corpus,natural
+identity,verify_invalid_z_stride,0
+identity,verify_invalid_z_numerator,128,denominator,256
+identity,verify_invalid_z_offset,0
+identity,verify_invalid_z_multiplier,73
+identity,verify_invalid_hint_stride,0
+identity,verify_invalid_c_stride,0
+identity,verify_modified_message_stride,0
+identity,verify_signature_permute_shift,0
+identity,verify_prepared_pitched_workspace,0
+identity,workspace_primary_stride,50176
+identity,workspace_required_primary_stride,50176
+identity,corpus_file,/home/lsb/mldsa-experiments-5090/新5090/cta_m65_verify_20261020T130116Z_e01ef8/reference_256/corpus.bin
+raw,ML-DSA,verify,3,256,single,unified,DEVICE_RESIDENT_GPU_INTERVAL,natural,0,0.156415999
+summary,algorithm,operation,level,batch,position,variant,timing_scope,corpus,warmup,repeat,mean_ms,median_ms,p95_ms,p99_ms,stddev_ms,min_ms,max_ms,throughput_ops_s,output_fnv1a64,contract_hash,correctness
+summary,ML-DSA,verify,3,256,single,unified,DEVICE_RESIDENT_GPU_INTERVAL,natural,0,1,0.156415999,0.156415999,0.156415999,0.156415999,0.000000000,0.156415999,0.156415999,1636661.222,45042ec2377d4143,abcfebf3a3d9dc43f1dcc67004601ba6912f179896b62ac6d8d80eede3e1b8fb,PASS

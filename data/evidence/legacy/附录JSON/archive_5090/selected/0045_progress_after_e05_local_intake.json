@@ -1,0 +1,33 @@
+{
+  "schema": "mldsa5090-e05-root-intake-v1",
+  "recorded_utc": "2026-10-20T04:41:26.546237+00:00",
+  "status": "E05_CUPTI_PROFILE_LOCAL_INTAKE_PASS_WITH_EXPLICIT_SCOPE_LIMITS",
+  "intake": {
+    "path": "server_results/e05_native_cupti/local_intake/LOCAL_INTAKE_VERIFICATION.json",
+    "bytes": 6715,
+    "sha256": "702600a3fd03ccd43cb4f62bf856fed6aca27491845e34d2dbc158ad1a05c909"
+  },
+  "archive": {
+    "path": "server_results/e05_native_cupti/e05-5090-a6f0959383b941829471b12758712e95.tar.gz",
+    "bytes": 1826894923,
+    "sha256": "1e821780ece02e99086cda7eb92cd0d4dd73a0e18def3e9787649ed88a13183f"
+  },
+  "counts": {
+    "accepted_processes": 27,
+    "measured_kernel_launches": 4950,
+    "measured_ranges": 405
+  },
+  "probe": {
+    "measured_kernels": 5,
+    "processes": 1,
+    "ranges": 1
+  },
+  "cpu_reference_rerun": false,
+  "source_and_elf_bytes_omitted": "E03 ELF are server metadata cross-bindings only",
+  "formal_uninstrumented_performance": "NOT_RUN",
+  "e13": "42 B256 native qualifications PASS; complete archive downloaded; strict intake in progress",
+  "standalone_split32_sanitizer": "Stopped on third process post-idle utilization guard; first two remote PROCESS_RESULT PASS; failed run retained, not a complete matrix",
+  "full_outline_complete": false,
+  "remaining_individual_experiments": "NOT_YET_FULLY_ENUMERATED_SIDEBAR_READ_ONLY_AUDIT_ASSIGNED",
+  "next": "Preserve and diagnose sanitizer post-idle stop; review/run E11 tmpfs NVTX candidate; prepare reviewed dual-storage full E03 and real E14 qualifications."
+}

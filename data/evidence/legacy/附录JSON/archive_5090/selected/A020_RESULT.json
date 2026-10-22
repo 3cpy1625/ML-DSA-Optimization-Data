@@ -1,0 +1,26 @@
+{
+  "status": "NTT_POLYNOMIAL_MATRIX_PASS",
+  "run_id": "20261019T214025766726Z-ba631f39",
+  "started_utc": "2026-10-19T21:40:25.767769+00:00",
+  "limits": [
+    "Standalone sealed donor arithmetic operators, not complete production API/module speedups.",
+    "Each batch counts output polynomials. Chain computes sum over L polynomial products (L=4/5/7); no SHAKE, decomposition or full matrix-vector K rows.",
+    "Split chain includes two batched forward kernels, a pointwise dot kernel and inverse kernel. Fused chain uses one kernel; identical inputs and modular outputs.",
+    "All backends accept canonical int32 input and produce canonical int32 output. Tensor timing includes byte packing, WMMA layout adaptation and output normalization.",
+    "Inverse output uses R/256 normalization (invntt_tomont). Pointwise uses Montgomery R^-1, so complete chains output ordinary negacyclic products.",
+    "512 deterministic request rows include all 256 basis directions and random/edge data; rows are tiled across batches and reused by three processes.",
+    "All variants qualify before any formal timing. Every coefficient is checked initially and finally; individual timed intermediate outputs are not separately checked.",
+    "Raw CUDA-event timing excludes allocation, CPU reference work, and host/device transfers; includes all split launches and wrapper operations.",
+    "Shared lock and pre/post GPU idle samples are used; continuous exclusive GPU ownership is not established.",
+    "Local CPU tests cannot establish CUDA compilation/device correctness. Server build and every correctness check must pass before acceptance."
+  ],
+  "counts": {
+    "timing_samples": 7290,
+    "process_variant_rows": 486,
+    "cell_variant_rows": 162,
+    "paired_ratio_rows": 459,
+    "processes": 27,
+    "check_records": 972
+  },
+  "completed_utc": "2026-10-19T21:46:35.473079+00:00"
+}

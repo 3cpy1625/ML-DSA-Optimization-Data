@@ -1,0 +1,58 @@
+{
+  "schema": "loce.hardening004.cpu-test-registry.v1",
+  "suites": [
+    {
+      "ctest_name": "checked_arithmetic",
+      "fault_cases": [],
+      "suite_id": "checked-arithmetic-contract"
+    },
+    {
+      "ctest_name": "framework_contract",
+      "fault_cases": [
+        {
+          "case_id": "delete_continuation",
+          "expected_failure_class": "missing-required-stage"
+        },
+        {
+          "case_id": "fixed_owner_marker",
+          "expected_failure_class": "forbidden-production-marker"
+        },
+        {
+          "case_id": "sign_to_nonsign_module",
+          "expected_failure_class": "operation-module-mismatch"
+        }
+      ],
+      "suite_id": "framework-contract"
+    },
+    {
+      "ctest_name": "wphc_contract",
+      "fault_cases": [
+        {
+          "case_id": "lower_attempt_closure",
+          "expected_failure_class": "premature-publication"
+        },
+        {
+          "case_id": "duplicate_publication",
+          "expected_failure_class": "exactly-once-violation"
+        },
+        {
+          "case_id": "request_identity_swap",
+          "expected_failure_class": "request-provenance-mismatch"
+        },
+        {
+          "case_id": "produced_extent_overread",
+          "expected_failure_class": "produced-extent-overread"
+        },
+        {
+          "case_id": "stale_generation_epoch",
+          "expected_failure_class": "stale-invocation-epoch"
+        },
+        {
+          "case_id": "empty_verifier_guard",
+          "expected_failure_class": "empty-verifier-acceptance"
+        }
+      ],
+      "suite_id": "wphc-contract"
+    }
+  ]
+}

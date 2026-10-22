@@ -1,0 +1,14 @@
+{
+  "status": "SPLIT32_PATCH_TOOLS_9_OF_9_PASS",
+  "started_utc": "2026-10-20T16:22:30.084784+00:00",
+  "passed_cases": 9,
+  "experiments_accepted": 0,
+  "limits": [
+    "Privately rebuilt standalone primitive executables, not production DSOs or all historical split32 programs. Historical performance timings are not transferred to the patched binaries.",
+    "Seven small cases per parameter: raw permutation, SHAKE, uniform, eta at 17/65 requests, ExpandMask and SampleInBall; three comparison backends are retained.",
+    "Two shared-stream barriers are inserted in a private standalone harness; each parameter is rebuilt with the original flags and checked with racecheck/memcheck/synccheck. No performance claim.",
+    "150-second execution budget across private builds and nine tool processes; each owned instrumented child is limited to 30 seconds or remaining budget. Export/SSH transfer are additional.",
+    "Only the child process group created by this runner may be stopped at timeout; no other GPU process is stopped."
+  ],
+  "completed_utc": "2026-10-20T16:23:13.557966+00:00"
+}

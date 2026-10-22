@@ -1,0 +1,80 @@
+{
+  "algorithm": "ML-DSA",
+  "architecture_evidence": null,
+  "architecture_evidence_sha256": null,
+  "benchmark_sha256": "c41ad5f2011c022a42a7f48ce99b9349ef53954c0387a9c19efdf56dd6fea686",
+  "build_module_identity": "build_native_mldsa3_20260802/libloce_mldsa65_nonsign_sm89.so",
+  "corpus_hash": "094db126ccf2f1145f29ffee6e5236282c269f86edfb2b0556f2600c0c131598",
+  "differential_evidence": "evidence/correctness/rc1_final_differential_20260803/mldsa_65_keygen.log",
+  "differential_evidence_sha256": "07ecf71375731ebf57e117d5f3718d55fe601f21fed591474d782e48f4d122e5",
+  "execution_contract_hash": "29f291f0767626b2f30fb61e2aa70d887059721b21b4cabba1122d3d970a1d43",
+  "framework_source_sha256": "d3e4c01509b4b8020fb198f81f632429bc462221fb6eff80340b5175f9cae774",
+  "gates": {
+    "architecture": {
+      "applicable": false,
+      "evidence": null,
+      "status": "N/A"
+    },
+    "attempt_kappa": {
+      "applicable": false,
+      "evidence": null,
+      "status": "N/A"
+    },
+    "byte_exact": {
+      "applicable": true,
+      "evidence": "evidence/correctness/rc1_final_differential_20260803/mldsa_65_keygen.log",
+      "status": "PASS"
+    },
+    "cpu_verify_or_decaps": {
+      "applicable": false,
+      "evidence": null,
+      "status": "N/A"
+    },
+    "decaps_fail_path": {
+      "applicable": false,
+      "evidence": null,
+      "status": "N/A"
+    },
+    "sanitizer": {
+      "applicable": true,
+      "evidence": "evidence/release/convergence_hardening_002/SANITIZER_LEDGER.jsonl",
+      "status": "PASS"
+    },
+    "second_reference": {
+      "applicable": true,
+      "evidence": "evidence/correctness/rc1_final_differential_20260803/mldsa_65_keygen.log",
+      "status": "PASS"
+    },
+    "terminal": {
+      "applicable": true,
+      "evidence": "evidence/correctness/rc1_final_differential_20260803/mldsa_65_keygen.log",
+      "status": "PASS"
+    },
+    "winner_record": {
+      "applicable": false,
+      "evidence": null,
+      "status": "N/A"
+    }
+  },
+  "module_sha256": "dc0d4ab0084fb36e1b1c8c273b742a284f74a6189affa23fc7cf43ecef885810",
+  "operation": "KeyGen",
+  "packaged_benchmark_path": "binaries/loce_unified_api_bench",
+  "packaged_module_path": "binaries/sm89/modules/libloce_mldsa65_nonsign_sm89.so",
+  "parameter_set": "65",
+  "performance_eligible": true,
+  "policy_hash": "4624f937d175a46fd86e53c817a004e10ce9ca70b340a6e471a39223bea910c3",
+  "reference_ids": [
+    "PQMagic-FIPS-204-internal",
+    "PQClean-clean"
+  ],
+  "release_id": "LOCE_PQC_GPU_HARDENING_002_FINALIZATION_001_20260803",
+  "sanitizer_ledger": "evidence/release/convergence_hardening_002/SANITIZER_LEDGER.jsonl",
+  "sanitizer_ledger_sha256": "1a126f84be2dabccca44e05576b5c57c545ed46d6334a94d9be8410cf71f6b65",
+  "schema": "loce-canonical-correctness-manifest-v2",
+  "security_level": 3,
+  "selected_module_record": "evidence/release/module_load_records/correctness.jsonl",
+  "selected_module_record_sha256": "f96c2176a756badc88be2f49710b7bc60de03c4568b2b072c6ed77fdf6ca1ed3",
+  "source_tree": "mldsa_nonsign_sm89",
+  "source_tree_sha256": "fa9f97eb13a53adf7e7db171e3e7064aafacceb3d8619e147d0331a1a5e4f585",
+  "status": "PASS"
+}

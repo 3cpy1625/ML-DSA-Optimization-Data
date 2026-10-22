@@ -1,0 +1,40 @@
+{
+  "case": {
+    "parameter": 87,
+    "operation": "sign",
+    "batch": 256,
+    "pattern": "official"
+  },
+  "tgId": 5,
+  "tcId": 70,
+  "message_bytes": 2532,
+  "official_unique_vectors": 1,
+  "duplicate_rows_for_supported_Sign_batch": 256,
+  "packed_input": {
+    "path": "inputs/p87_sign_b256_official.bin",
+    "bytes": 1909760,
+    "sha256": "04b4d08ae3432fd01d510a0787b41ca238fd414a4f2c0a0eee622771dff0dba7"
+  },
+  "expected_output": {
+    "path": "expected/p87_sign_b256_official.bin",
+    "bytes": 1184512,
+    "sha256": "083a1cfd106d57ab0f05af47fccd7882d3791e356537770f7c998a56c8d36e3f"
+  },
+  "argv": [
+    "/usr/bin/env",
+    "LD_PRELOAD=/workspace/4090修补/02_采样异常与恢复/internal_recovery_v1/runs/20261020T161911383836Z-958989e7/adapter/cuda_fault_shim.so",
+    "/workspace/4090修补/02_采样异常与恢复/internal_recovery_v1/runs/20261020T161911383836Z-958989e7/adapter/nist_native_adapter",
+    "/workspace/新4090数据/01_生产采样不足额与故障恢复/normal_regression/runs/20261020T091306215597Z-b74395b3/modules",
+    "87",
+    "2532",
+    "/workspace/4090修补/02_采样异常与恢复/internal_recovery_v1/runs/20261020T161911383836Z-958989e7/inputs/p87_sign_b256_official.bin",
+    "/workspace/4090修补/02_采样异常与恢复/internal_recovery_v1/runs/20261020T161911383836Z-958989e7/expected/p87_sign_b256_official.bin",
+    "/workspace/4090修补/02_采样异常与恢复/internal_recovery_v1/runs/20261020T161911383836Z-958989e7/jobs/p87_sign/output",
+    "/workspace/4090修补/02_采样异常与恢复/internal_recovery_v1/runs/20261020T161911383836Z-958989e7/jobs/p87_sign/native_identity.json"
+  ],
+  "test_interposer": {
+    "path": "adapter/cuda_fault_shim.so",
+    "bytes": 15896,
+    "sha256": "040eeb4e746ef6ff4337aa7eef0bd2810079051f5ec4b4751ee916524db68456"
+  }
+}

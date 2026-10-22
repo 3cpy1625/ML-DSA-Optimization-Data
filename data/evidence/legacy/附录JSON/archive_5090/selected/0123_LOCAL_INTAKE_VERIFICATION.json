@@ -1,0 +1,78 @@
+{
+  "status": "SPLIT32_COMPARISON_5090_LOCAL_INTAKE_PASS_WITH_EXPLICIT_SCOPE_LIMITS",
+  "started_utc": "2026-10-19T22:14:24.747050+00:00",
+  "completed_utc": "2026-10-19T22:14:46.345102+00:00",
+  "run_id": "20261019T215136567276Z-de9b27bb",
+  "archive": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\split32_comparison\\split32_comparison_5090_20261019T215136567276Z-de9b27bb_b2b972d2.tar.gz",
+  "archive_sha256": "ef357279768817df585234ef3d0a5fb09d3ef5db888dce00068cdfd418cf47fb",
+  "archive_bytes": 1613315106,
+  "runner_sha256": "a875cf938b44f4adb06247fb29d1e51e56a2d8e94a3357b5eca45eadd806d73f",
+  "files": 16099,
+  "manifest_included": 16098,
+  "counts": {
+    "timing_samples": 24300,
+    "process_variant_rows": 1620,
+    "cell_variant_rows": 540,
+    "paired_ratio_rows": 540,
+    "processes": 27,
+    "check_records": 6237
+  },
+  "work_check_records": 6237,
+  "auditor_statuses": {
+    "provenance": "SPLIT32_5090_PROVENANCE_EXECUTION_IDLE_PASS",
+    "logs_tables": "SPLIT32_LOGS_TABLES_ARTIFACT_FACTS_PASS",
+    "independent_oracle": "INDEPENDENT_SPLIT32_OUTPUT_TRACE_AND_WORK_ORACLE_PASS"
+  },
+  "tool_files": {
+    "audit_logs_tables.py": {
+      "bytes": 23672,
+      "sha256": "d106992b883d009b6569f11d446e626cc4671dfed3be9057140ff6e6dd83eb97"
+    },
+    "audit_provenance.py": {
+      "bytes": 29940,
+      "sha256": "5dea5462db637c9c98790229dcb8e3ffbcbb4ee9a5d39a7de2478ba5ae570c51"
+    },
+    "independent_split32_oracle.py": {
+      "bytes": 28104,
+      "sha256": "332caa1e85f9c62f135a7b35a59b0f04453a96c39e54844605973d909e971bd6"
+    },
+    "intake_split32.py": {
+      "bytes": 5598,
+      "sha256": "7e47e77234b0c1f9b8d82d739a69e12d617e70abedc23e174846e41f5067af9e"
+    },
+    "scan_split32_archive.py": {
+      "bytes": 10009,
+      "sha256": "4045ccb1830070dc733b5e81a8502bfda239f8ddc5e498b45d48bac268dffa4b"
+    },
+    "test_intake_scanner.py": {
+      "bytes": 8009,
+      "sha256": "a27f995b44b38c1c883a71b703eec4638204e90fa5d4b6c70fee61d1312e1bde"
+    },
+    "test_real_scan_rejections.py": {
+      "bytes": 4247,
+      "sha256": "353d3354601a09a77000f4b8b90bf84e02886f950e0de52bd440eb9a4490ca62"
+    }
+  },
+  "archive_code_executed": false,
+  "archive_members_extracted": false,
+  "ssh_or_gpu_actions_performed": false,
+  "scope": "Standalone state-mapping arithmetic with shared logical-lane-zero consumer; production eta four-thread consumer, full production APIs and hardware instruction counts are outside this evidence.",
+  "root_replay": {
+    "path": "server_results/split32_comparison/20261019T215136567276Z-de9b27bb/ROOT_REPLAY_ACCEPTANCE.json",
+    "bytes": 2453,
+    "sha256": "f229c8fdeadcbf8566b1d46372b5414c1b319c60a400434ecaad7c0db4dd121d"
+  },
+  "independent_static_review": {
+    "path": "server_results/split32_comparison/20261019T215136567276Z-de9b27bb/INDEPENDENT_STATIC_REVIEW.json",
+    "bytes": 3835,
+    "sha256": "cc28c93df38cc9151472c3f46dd52af9bfc2b74f7a79708cf5311773acbc0c6c"
+  },
+  "scope_limits": [
+    "This review did not repeat the full archive scan or execute its code; root is separately rerunning the full intake.",
+    "Only one retained GPU output per case/process exists; every backend/policy initial/final output is covered by pinned collector zero-mismatch logs; retained per-variant trace/work bytes are separately hash-verified.",
+    "Sampled GPU idle guards and stage-lock metadata do not establish continuous GPU exclusivity.",
+    "Standalone shared lane-zero sampling consumer, harness forced refill/exhaustion and physical permutation work are accepted only within the preserved explicit scope; no production API, eta4 consumer, hardware instruction or sanitizer conclusion."
+  ],
+  "uncompressed_verified_bytes": 4084144895,
+  "actual_binary_files_verified": 15768
+}

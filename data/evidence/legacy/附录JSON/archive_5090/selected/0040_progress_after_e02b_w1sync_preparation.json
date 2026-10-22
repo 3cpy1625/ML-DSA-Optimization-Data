@@ -1,0 +1,35 @@
+{
+  "recorded_utc": "2026-10-19T18:24:45.621581+00:00",
+  "current_category": "E02",
+  "e02b_original": {
+    "run_id": "e02b-sanitizer-20261019T170912908000Z-657090",
+    "pass": 30,
+    "finding": 1,
+    "not_run": 17,
+    "finding_status": "UNRESOLVED"
+  },
+  "next_action": "USER_EXECUTES_CPU_ONLY_ISOLATED_M65_W1SYNC_BUILD_AND_PTX_SASS_CAPTURE",
+  "next_script": {
+    "path": "scripts/diagnose_5090_e02b_w1sync_build.py",
+    "bytes": 30523,
+    "sha256": "778997f0809fedc1bbcc269aacaea7ac3d71e1dbbab767eaaef729661d323c20"
+  },
+  "local_selftest": {
+    "path": "scripts/diagnose_5090_e02b_w1sync_build.SELFTEST_RESULT.json",
+    "bytes": 1283,
+    "sha256": "edb07618b8445f397ed6a2aa3a3f2d3b3767a7666913f89bf936df8ff5b622e1"
+  },
+  "local_review": {
+    "path": "scripts/diagnose_5090_e02b_w1sync_build.LOCAL_REVIEW.json",
+    "bytes": 1276,
+    "sha256": "bd063085233a65cadf58039a40ba96aea5bd05831979ef6633477b3d3a688837"
+  },
+  "candidate_scope": "Complete MAINLINE snapshot, one post-W1pack M65 explicit warp barrier+memory clobber; exact original compile options; original source/build/results preserved.",
+  "source_evidence": "Original phase0/phase6 same scratch cross-lane access and loop control flow confirmed; no explicit in-loop SASS barrier. No compiler-bug or tool-false-positive conclusion.",
+  "server_candidate_build": "NOT_RUN",
+  "candidate_gpu_validation": "NOT_RUN",
+  "formal_performance_collected": false,
+  "full_e02_complete": false,
+  "total_remaining_individual_experiments": "NOT_YET_FULLY_ENUMERATED",
+  "console_path_reserved": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e02b_w1sync\\w1sync_build_console_01.txt"
+}

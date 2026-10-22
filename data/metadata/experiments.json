@@ -1,0 +1,736 @@
+[
+  {
+    "experiment_id": "E001",
+    "gpu": "rtx-4090",
+    "round": "historical-r02",
+    "archive": "新建文件夹(1).zip",
+    "series": "历史R02配对",
+    "page": "experiments/rtx-4090/historical-r02/E001/README.md",
+    "source_ids": [
+      "S0001",
+      "S1270",
+      "S1271",
+      "S1272",
+      "S1278",
+      "S1279",
+      "S1280"
+    ],
+    "status": "FORMAL_PAIRED_COMPLETE"
+  },
+  {
+    "experiment_id": "E002",
+    "gpu": "rtx-4090",
+    "round": "historical-r02",
+    "archive": "新建文件夹(1).zip",
+    "series": "历史机制",
+    "page": "experiments/rtx-4090/historical-r02/E002/README.md",
+    "source_ids": [
+      "S0004",
+      "S0005",
+      "S0006",
+      "S1273",
+      "S1274",
+      "S1275",
+      "S1276",
+      "S1277"
+    ],
+    "status": "SOURCE_REPORTED"
+  },
+  {
+    "experiment_id": "E003",
+    "gpu": "rtx-4090",
+    "round": "historical-r02",
+    "archive": "新建文件夹(1).zip",
+    "series": "截图复测",
+    "page": "experiments/rtx-4090/historical-r02/E003/README.md",
+    "source_ids": [
+      "S0361",
+      "S0362"
+    ],
+    "status": "PASS_REPORTED_BY_RUNNER"
+  },
+  {
+    "experiment_id": "E004",
+    "gpu": "rtx-4090",
+    "round": "20261018-19",
+    "archive": "MLDSA_4090_Experiments.zip",
+    "series": "4090_boundary",
+    "page": "experiments/rtx-4090/20261018-19/E004/README.md",
+    "source_ids": [
+      "S0618"
+    ],
+    "status": "BOUNDARY_KEYGEN_VERIFY_PASS"
+  },
+  {
+    "experiment_id": "E005",
+    "gpu": "rtx-4090",
+    "round": "20261018-19",
+    "archive": "MLDSA_4090_Experiments.zip",
+    "series": "4090_correctness_supplement",
+    "page": "experiments/rtx-4090/20261018-19/E005/README.md",
+    "source_ids": [
+      "S0619"
+    ],
+    "status": "CORRECTNESS_SUPPLEMENT_PASS"
+  },
+  {
+    "experiment_id": "E006",
+    "gpu": "rtx-4090",
+    "round": "20261018-19",
+    "archive": "MLDSA_4090_Experiments.zip",
+    "series": "4090_correctness_supplement",
+    "page": "experiments/rtx-4090/20261018-19/E006/README.md",
+    "source_ids": [
+      "S0620"
+    ],
+    "status": "CORRECTNESS_SUPPLEMENT_STOPPED"
+  },
+  {
+    "experiment_id": "E007",
+    "gpu": "rtx-4090",
+    "round": "20261018-19",
+    "archive": "MLDSA_4090_Experiments.zip",
+    "series": "4090_correctness_supplement",
+    "page": "experiments/rtx-4090/20261018-19/E007/README.md",
+    "source_ids": [
+      "S0621"
+    ],
+    "status": "CORRECTNESS_SUPPLEMENT_STOPPED"
+  },
+  {
+    "experiment_id": "E008",
+    "gpu": "rtx-4090",
+    "round": "20261018-19",
+    "archive": "MLDSA_4090_Experiments.zip",
+    "series": "4090_host_api",
+    "page": "experiments/rtx-4090/20261018-19/E008/README.md",
+    "source_ids": [
+      "S0622"
+    ],
+    "status": "HOST_API_MATRIX_PASS"
+  },
+  {
+    "experiment_id": "E009",
+    "gpu": "rtx-4090",
+    "round": "20261018-19",
+    "archive": "MLDSA_4090_Experiments.zip",
+    "series": "4090_m44_zerocopy",
+    "page": "experiments/rtx-4090/20261018-19/E009/README.md",
+    "source_ids": [
+      "S0623"
+    ],
+    "status": "M44_ZERO_COPY_ABLATION_PASS"
+  },
+  {
+    "experiment_id": "E010",
+    "gpu": "rtx-4090",
+    "round": "20261018-19",
+    "archive": "MLDSA_4090_Experiments.zip",
+    "series": "4090_m65_ablation",
+    "page": "experiments/rtx-4090/20261018-19/E010/README.md",
+    "source_ids": [
+      "S0624"
+    ],
+    "status": "M65_ABLATION_PASS"
+  },
+  {
+    "experiment_id": "E011",
+    "gpu": "rtx-4090",
+    "round": "20261018-19",
+    "archive": "MLDSA_4090_Experiments.zip",
+    "series": "4090_ntt_polynomial_chain",
+    "page": "experiments/rtx-4090/20261018-19/E011/README.md",
+    "source_ids": [
+      "S0625"
+    ],
+    "status": "NTT_POLYNOMIAL_MATRIX_PASS"
+  },
+  {
+    "experiment_id": "E012",
+    "gpu": "rtx-4090",
+    "round": "20261018-19",
+    "archive": "MLDSA_4090_Experiments.zip",
+    "series": "4090_resources",
+    "page": "experiments/rtx-4090/20261018-19/E012/README.md",
+    "source_ids": [
+      "S0626"
+    ],
+    "status": "RESOURCES_MATRIX_STOPPED"
+  },
+  {
+    "experiment_id": "E013",
+    "gpu": "rtx-4090",
+    "round": "20261018-19",
+    "archive": "MLDSA_4090_Experiments.zip",
+    "series": "4090_resources",
+    "page": "experiments/rtx-4090/20261018-19/E013/README.md",
+    "source_ids": [
+      "S0627"
+    ],
+    "status": "RESOURCES_MATRIX_PASS"
+  },
+  {
+    "experiment_id": "E014",
+    "gpu": "rtx-4090",
+    "round": "20261018-19",
+    "archive": "MLDSA_4090_Experiments.zip",
+    "series": "4090_resource_probe",
+    "page": "experiments/rtx-4090/20261018-19/E014/README.md",
+    "source_ids": [
+      "S0628"
+    ],
+    "status": "RESOURCE_PROBE_STOPPED"
+  },
+  {
+    "experiment_id": "E015",
+    "gpu": "rtx-4090",
+    "round": "20261018-19",
+    "archive": "MLDSA_4090_Experiments.zip",
+    "series": "4090_shake_sampling",
+    "page": "experiments/rtx-4090/20261018-19/E015/README.md",
+    "source_ids": [
+      "S0629"
+    ],
+    "status": "SHAKE_SAMPLING_MATRIX_PASS"
+  },
+  {
+    "experiment_id": "E016",
+    "gpu": "rtx-4090",
+    "round": "20261018-19",
+    "archive": "MLDSA_4090_Experiments.zip",
+    "series": "4090_sign_retry",
+    "page": "experiments/rtx-4090/20261018-19/E016/README.md",
+    "source_ids": [
+      "S0630"
+    ],
+    "status": "SIGN_RETRY_MATRIX_STOPPED"
+  },
+  {
+    "experiment_id": "E017",
+    "gpu": "rtx-4090",
+    "round": "20261018-19",
+    "archive": "MLDSA_4090_Experiments.zip",
+    "series": "4090_sign_retry",
+    "page": "experiments/rtx-4090/20261018-19/E017/README.md",
+    "source_ids": [
+      "S0631"
+    ],
+    "status": "SIGN_RETRY_MATRIX_PASS"
+  },
+  {
+    "experiment_id": "E018",
+    "gpu": "rtx-4090",
+    "round": "20261018-19",
+    "archive": "MLDSA_4090_Experiments.zip",
+    "series": "4090_stage_matrix",
+    "page": "experiments/rtx-4090/20261018-19/E018/README.md",
+    "source_ids": [
+      "S0632"
+    ],
+    "status": "STAGE_MATRIX_STOPPED"
+  },
+  {
+    "experiment_id": "E019",
+    "gpu": "rtx-4090",
+    "round": "20261018-19",
+    "archive": "MLDSA_4090_Experiments.zip",
+    "series": "4090_stage_matrix",
+    "page": "experiments/rtx-4090/20261018-19/E019/README.md",
+    "source_ids": [
+      "S0633"
+    ],
+    "status": "STAGE_MATRIX_CAPTURE_PASS"
+  },
+  {
+    "experiment_id": "E020",
+    "gpu": "rtx-4090",
+    "round": "20261018-19",
+    "archive": "MLDSA_4090_Experiments.zip",
+    "series": "4090_verify_traffic",
+    "page": "experiments/rtx-4090/20261018-19/E020/README.md",
+    "source_ids": [
+      "S0634"
+    ],
+    "status": "VERIFY_TRAFFIC_MATRIX_PASS"
+  },
+  {
+    "experiment_id": "E021",
+    "gpu": "rtx-4090",
+    "round": "20261018-19",
+    "archive": "MLDSA_4090_Experiments.zip",
+    "series": "4090_verify_traffic_recheck",
+    "page": "experiments/rtx-4090/20261018-19/E021/README.md",
+    "source_ids": [
+      "S0635"
+    ],
+    "status": "VERIFY_TRAFFIC_MATRIX_PASS"
+  },
+  {
+    "experiment_id": "E022",
+    "gpu": "rtx-4090",
+    "round": "20261018-19",
+    "archive": "MLDSA_4090_Experiments.zip",
+    "series": "4090_workspace",
+    "page": "experiments/rtx-4090/20261018-19/E022/README.md",
+    "source_ids": [
+      "S0636"
+    ],
+    "status": "WORKSPACE_MATRIX_PASS"
+  },
+  {
+    "experiment_id": "E023",
+    "gpu": "rtx-4090",
+    "round": "20261018-19",
+    "archive": "MLDSA_4090_Experiments.zip",
+    "series": "MLDSA_4090_StagePrep_20261019",
+    "page": "experiments/rtx-4090/20261018-19/E023/README.md",
+    "source_ids": [
+      "S0637"
+    ],
+    "status": "STAGEPREP_COLLECTION_PASS"
+  },
+  {
+    "experiment_id": "E024",
+    "gpu": "rtx-4090",
+    "round": "20261018-19",
+    "archive": "MLDSA_4090_Experiments.zip",
+    "series": "MLDSA_4090_StagePrep_20261019",
+    "page": "experiments/rtx-4090/20261018-19/E024/README.md",
+    "source_ids": [
+      "S0638"
+    ],
+    "status": "TRACE_PROBE_NEEDS_DIAGNOSIS"
+  },
+  {
+    "experiment_id": "E025",
+    "gpu": "rtx-4090",
+    "round": "20261018-19",
+    "archive": "MLDSA_4090_Experiments.zip",
+    "series": "MLDSA_4090_StagePrep_20261019",
+    "page": "experiments/rtx-4090/20261018-19/E025/README.md",
+    "source_ids": [
+      "S0639"
+    ],
+    "status": "TRACE_PROBE_PASS"
+  },
+  {
+    "experiment_id": "E026",
+    "gpu": "rtx-4090",
+    "round": "20261018-19",
+    "archive": "MLDSA_4090_Experiments.zip",
+    "series": "MLDSA_4090_Supplement_20261019",
+    "page": "experiments/rtx-4090/20261018-19/E026/README.md",
+    "source_ids": [
+      "S0640"
+    ],
+    "status": "SUPPLEMENT_RETEST_PASS"
+  },
+  {
+    "experiment_id": "E027",
+    "gpu": "rtx-4090",
+    "round": "20261018-19",
+    "archive": "MLDSA_4090_Experiments.zip",
+    "series": "main_original_27",
+    "page": "experiments/rtx-4090/20261018-19/E027/README.md",
+    "source_ids": [
+      "S0641"
+    ],
+    "status": "AUDIT_COMPLETE_WITH_TELEMETRY_LIMITATION"
+  },
+  {
+    "experiment_id": "E028",
+    "gpu": "rtx-4090",
+    "round": "20261018-19",
+    "archive": "MLDSA_4090_Experiments.zip",
+    "series": "legacy_baseline_27",
+    "page": "experiments/rtx-4090/20261018-19/E028/README.md",
+    "source_ids": [
+      "S0642"
+    ],
+    "status": "REVIEW_PASS_WITH_SCOPE_LIMITATIONS"
+  },
+  {
+    "experiment_id": "E057",
+    "gpu": "rtx-4090",
+    "round": "20261020-repair",
+    "archive": "4090修补.zip",
+    "series": "split32_racecheck_original",
+    "page": "experiments/rtx-4090/20261020-repair/E057/README.md",
+    "source_ids": [
+      "S0589"
+    ],
+    "status": "RACECHECK_STOPPED"
+  },
+  {
+    "experiment_id": "E058",
+    "gpu": "rtx-4090",
+    "round": "20261020-repair",
+    "archive": "4090修补.zip",
+    "series": "split32_sync_patch",
+    "page": "experiments/rtx-4090/20261020-repair/E058/README.md",
+    "source_ids": [
+      "S0591"
+    ],
+    "status": "SPLIT32_PATCH_TOOLS_9_OF_9_PASS"
+  },
+  {
+    "experiment_id": "E059",
+    "gpu": "rtx-4090",
+    "round": "20261020-repair",
+    "archive": "4090修补.zip",
+    "series": "cuda_api_recovery",
+    "page": "experiments/rtx-4090/20261020-repair/E059/README.md",
+    "source_ids": [
+      "S0592"
+    ],
+    "status": "INTERNAL_CUDA_RECOVERY_9_OF_9_PASS_SCOPE_PARTIAL"
+  },
+  {
+    "experiment_id": "E060",
+    "gpu": "rtx-4090",
+    "round": "20261020-repair",
+    "archive": "4090修补.zip",
+    "series": "binary_identity_alignment",
+    "page": "experiments/rtx-4090/20261020-repair/E060/README.md",
+    "source_ids": [
+      "S0597"
+    ],
+    "status": "IDENTITY_AUDIT_COMPLETE_WITH_VERSION_GAP"
+  },
+  {
+    "experiment_id": "E029",
+    "gpu": "rtx-5090",
+    "round": "20261019",
+    "archive": "5090实验结果_20261019.zip",
+    "series": "E03_B8192",
+    "page": "experiments/rtx-5090/20261019/E029/README.md",
+    "source_ids": [
+      "S0643"
+    ],
+    "status": "EXPLORATORY_FIXED_CONFIGURATION"
+  },
+  {
+    "experiment_id": "E030",
+    "gpu": "rtx-5090",
+    "round": "20261019",
+    "archive": "5090实验结果_20261019.zip",
+    "series": "NTT_POLYNOMIAL",
+    "page": "experiments/rtx-5090/20261019/E030/README.md",
+    "source_ids": [
+      "S0644"
+    ],
+    "status": "NTT_POLYNOMIAL_MATRIX_PASS"
+  },
+  {
+    "experiment_id": "E031",
+    "gpu": "rtx-5090",
+    "round": "20261019",
+    "archive": "5090实验结果_20261019.zip",
+    "series": "SHAKE_SAMPLING",
+    "page": "experiments/rtx-5090/20261019/E031/README.md",
+    "source_ids": [
+      "S0645"
+    ],
+    "status": "SHAKE_SAMPLING_MATRIX_PASS"
+  },
+  {
+    "experiment_id": "E032",
+    "gpu": "rtx-5090",
+    "round": "20261019",
+    "archive": "5090实验结果_20261019.zip",
+    "series": "SPLIT32_COMPARISON",
+    "page": "experiments/rtx-5090/20261019/E032/README.md",
+    "source_ids": [
+      "S0646"
+    ],
+    "status": "SPLIT32_COMPARISON_MATRIX_PASS"
+  },
+  {
+    "experiment_id": "E033",
+    "gpu": "rtx-5090",
+    "round": "20261019",
+    "archive": "5090实验结果_20261019.zip",
+    "series": "E05_CUPTI",
+    "page": "experiments/rtx-5090/20261019/E033/README.md",
+    "source_ids": [
+      "S0647"
+    ],
+    "status": "PROFILE_CAPTURE_PASS"
+  },
+  {
+    "experiment_id": "E034",
+    "gpu": "rtx-5090",
+    "round": "20261019",
+    "archive": "5090实验结果_20261019.zip",
+    "series": "V3_SMALL_CORRECTNESS",
+    "page": "experiments/rtx-5090/20261019/E034/README.md",
+    "source_ids": [
+      "S0648"
+    ],
+    "status": "PASS"
+  },
+  {
+    "experiment_id": "E035",
+    "gpu": "rtx-5090",
+    "round": "20261019",
+    "archive": "5090实验结果_20261019.zip",
+    "series": "E02A_BASELINE_EXPANDED",
+    "page": "experiments/rtx-5090/20261019/E035/README.md",
+    "source_ids": [
+      "S0649"
+    ],
+    "status": "PASS"
+  },
+  {
+    "experiment_id": "E036",
+    "gpu": "rtx-5090",
+    "round": "20261019",
+    "archive": "5090实验结果_20261019.zip",
+    "series": "E02B_ORIGINAL_SANITIZER",
+    "page": "experiments/rtx-5090/20261019/E036/README.md",
+    "source_ids": [
+      "S0650"
+    ],
+    "status": "PARTIAL_WITH_FINDING"
+  },
+  {
+    "experiment_id": "E037",
+    "gpu": "rtx-5090",
+    "round": "20261019",
+    "archive": "5090实验结果_20261019.zip",
+    "series": "E02B_WARP_SYNC_CANDIDATE",
+    "page": "experiments/rtx-5090/20261019/E037/README.md",
+    "source_ids": [
+      "S0651"
+    ],
+    "status": "STATIC_GATE_FAIL_GPU_NOT_RUN"
+  },
+  {
+    "experiment_id": "E038",
+    "gpu": "rtx-5090",
+    "round": "20261019",
+    "archive": "5090实验结果_20261019.zip",
+    "series": "E02B_CTA_SINGLE_REPLAY",
+    "page": "experiments/rtx-5090/20261019/E038/README.md",
+    "source_ids": [
+      "S0652"
+    ],
+    "status": "PASS"
+  },
+  {
+    "experiment_id": "E039",
+    "gpu": "rtx-5090",
+    "round": "20261019",
+    "archive": "5090实验结果_20261019.zip",
+    "series": "E02B_MIXED48",
+    "page": "experiments/rtx-5090/20261019/E039/README.md",
+    "source_ids": [
+      "S0653"
+    ],
+    "status": "PASS_MIXED_VERSION_ONLY"
+  },
+  {
+    "experiment_id": "E040",
+    "gpu": "rtx-5090",
+    "round": "20261019",
+    "archive": "5090实验结果_20261019.zip",
+    "series": "CANDIDATE18_EARLIER_RUN",
+    "page": "experiments/rtx-5090/20261019/E040/README.md",
+    "source_ids": [
+      "S0654"
+    ],
+    "status": "CANDIDATE18_NORMAL_CORRECTNESS_PASS"
+  },
+  {
+    "experiment_id": "E041",
+    "gpu": "rtx-5090",
+    "round": "20261019",
+    "archive": "5090实验结果_20261019.zip",
+    "series": "E02A_CTA18",
+    "page": "experiments/rtx-5090/20261019/E041/README.md",
+    "source_ids": [
+      "S0655"
+    ],
+    "status": "PASS"
+  },
+  {
+    "experiment_id": "E042",
+    "gpu": "rtx-5090",
+    "round": "20261019",
+    "archive": "5090实验结果_20261019.zip",
+    "series": "E02C_NONSIGN36",
+    "page": "experiments/rtx-5090/20261019/E042/README.md",
+    "source_ids": [
+      "S0358"
+    ],
+    "status": "PASS_SCOPE_LIMITED"
+  },
+  {
+    "experiment_id": "E043",
+    "gpu": "rtx-5090",
+    "round": "20261019",
+    "archive": "5090实验结果_20261019.zip",
+    "series": "E03_B256_QUALIFICATION",
+    "page": "experiments/rtx-5090/20261019/E043/README.md",
+    "source_ids": [
+      "S0656"
+    ],
+    "status": "QUALIFICATION_ONLY_PASS"
+  },
+  {
+    "experiment_id": "E044",
+    "gpu": "rtx-5090",
+    "round": "20261019",
+    "archive": "5090实验结果_20261019.zip",
+    "series": "E13_B256_QUALIFICATION",
+    "page": "experiments/rtx-5090/20261019/E044/README.md",
+    "source_ids": [
+      "S0657"
+    ],
+    "status": "QUALIFICATION_ONLY_PASS"
+  },
+  {
+    "experiment_id": "E045",
+    "gpu": "rtx-5090",
+    "round": "20261019",
+    "archive": "5090实验结果_20261019.zip",
+    "series": "SPLIT32_SANITIZER_FIRST",
+    "page": "experiments/rtx-5090/20261019/E045/README.md",
+    "source_ids": [
+      "S0587"
+    ],
+    "status": "STOPPED_GPU_POST_IDLE_GUARD"
+  },
+  {
+    "experiment_id": "E046",
+    "gpu": "rtx-5090",
+    "round": "20261019",
+    "archive": "5090实验结果_20261019.zip",
+    "series": "SPLIT32_SANITIZER_POSTSETTLE",
+    "page": "experiments/rtx-5090/20261019/E046/README.md",
+    "source_ids": [
+      "S0588"
+    ],
+    "status": "STOPPED_WITH_RACECHECK_FINDING"
+  },
+  {
+    "experiment_id": "E047",
+    "gpu": "rtx-5090",
+    "round": "20261019",
+    "archive": "5090实验结果_20261019.zip",
+    "series": "E11_TMPFS",
+    "page": "experiments/rtx-5090/20261019/E047/README.md",
+    "source_ids": [
+      "S0658"
+    ],
+    "status": "BUILD_ONLY_FAILED_CAPTURE"
+  },
+  {
+    "experiment_id": "E048",
+    "gpu": "rtx-5090",
+    "round": "20261019",
+    "archive": "5090实验结果_20261019.zip",
+    "series": "E03_EARLY_BUILD_FAILURE",
+    "page": "experiments/rtx-5090/20261019/E048/README.md",
+    "source_ids": [
+      "S0659"
+    ],
+    "status": "BUILD_STOPPED"
+  },
+  {
+    "experiment_id": "E049",
+    "gpu": "rtx-5090",
+    "round": "20261019",
+    "archive": "5090实验结果_20261019.zip",
+    "series": "HISTORICAL_87_KEYGEN_COMPILER",
+    "page": "experiments/rtx-5090/20261019/E049/README.md",
+    "source_ids": [
+      "S0660"
+    ],
+    "status": "BUILD_FAILED_THEN_DIAGNOSTIC_ONLY"
+  },
+  {
+    "experiment_id": "E050",
+    "gpu": "rtx-5090",
+    "round": "20261020-components",
+    "archive": "新5090.zip",
+    "series": "cta_m65_verify",
+    "page": "experiments/rtx-5090/20261020-components/E050/README.md",
+    "source_ids": [
+      "S0383"
+    ],
+    "status": "QUALIFICATION_AND_PAIRED_CAPTURE_PASS"
+  },
+  {
+    "experiment_id": "E051",
+    "gpu": "rtx-5090",
+    "round": "20261020-components",
+    "archive": "新5090.zip",
+    "series": "joint_m44_keygen",
+    "page": "experiments/rtx-5090/20261020-components/E051/README.md",
+    "source_ids": [
+      "S0384"
+    ],
+    "status": "QUALIFICATION_AND_PAIRED_CAPTURE_PASS"
+  },
+  {
+    "experiment_id": "E052",
+    "gpu": "rtx-5090",
+    "round": "20261020-components",
+    "archive": "新5090.zip",
+    "series": "joint_matrix",
+    "page": "experiments/rtx-5090/20261020-components/E052/README.md",
+    "source_ids": [
+      "S0388"
+    ],
+    "status": "NINE_CELL_SPECIFIED_FOUR_COMPONENT_MATRIX_PASS"
+  },
+  {
+    "experiment_id": "E053",
+    "gpu": "rtx-5090",
+    "round": "20261020-components",
+    "archive": "新5090.zip",
+    "series": "m44_three_arm",
+    "page": "experiments/rtx-5090/20261020-components/E053/README.md",
+    "source_ids": [
+      "S0385"
+    ],
+    "status": "M44_THREE_ARM_QUALIFICATION_AND_CAPTURE_PASS"
+  },
+  {
+    "experiment_id": "E054",
+    "gpu": "rtx-5090",
+    "round": "20261020-components",
+    "archive": "新5090.zip",
+    "series": "split32_m44_keygen",
+    "page": "experiments/rtx-5090/20261020-components/E054/README.md",
+    "source_ids": [
+      "S0386"
+    ],
+    "status": "QUALIFICATION_AND_PAIRED_CAPTURE_PASS"
+  },
+  {
+    "experiment_id": "E055",
+    "gpu": "rtx-5090",
+    "round": "20261020-components",
+    "archive": "新5090.zip",
+    "series": "wphc_m65_sign",
+    "page": "experiments/rtx-5090/20261020-components/E055/README.md",
+    "source_ids": [
+      "S0387"
+    ],
+    "status": "QUALIFICATION_AND_PAIRED_CAPTURE_PASS"
+  },
+  {
+    "experiment_id": "E056",
+    "gpu": "rtx-5090",
+    "round": "20261020-verify-supplement",
+    "archive": "补测.zip",
+    "series": "minimal_v65_distribution_supplement",
+    "page": "experiments/rtx-5090/20261020-verify-supplement/E056/README.md",
+    "source_ids": [
+      "S0530"
+    ],
+    "status": "COMPLETE"
+  }
+]

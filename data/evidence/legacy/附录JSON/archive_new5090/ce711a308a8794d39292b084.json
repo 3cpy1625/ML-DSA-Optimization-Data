@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "/home/lsb/mldsa-experiments-5090/tools/python312/bin/cmake",
+    "--build",
+    "/home/lsb/mldsa-experiments-5090/\u65b05090/joint_m44_keygen_20261020T131952Z_0969db/build_OFF",
+    "--target",
+    "loce_mldsa44_keygen_d3_sm120_adapter",
+    "--parallel",
+    "2"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 46.22227233200101,
+  "log_sha256": "d2511bf3e6c20f2ae7e3bebe026d19eb573dccce9898b16cd6db31a9bd051599",
+  "gpu_visible": false
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "parameter": 44,
+    "terms": 4,
+    "unique_request_rows": 512,
+    "direct_schoolbook_rows": 263,
+    "basis_directions": 256,
+    "corpus_dir": "corpora/p44",
+    "files": {
+      "a": {
+        "path": "corpora/p44/a.bin",
+        "bytes": 2097152,
+        "sha256": "7b79301fe3c875c363e339e1fc75b7f17fa951f06c1196fc33a7dc263a1a90ef"
+      },
+      "b": {
+        "path": "corpora/p44/b.bin",
+        "bytes": 2097152,
+        "sha256": "ad02a658c387ca81c81568b0ebb034919a55aab3d1f6ffaa6a5f0306ddd47275"
+      },
+      "ntt_oracle": {
+        "path": "corpora/p44/ntt_oracle.bin",
+        "bytes": 524288,
+        "sha256": "7bfc50a6594aeaa7512b318f8a5c496db550dfc0b4210d855a7170986bfa0189"
+      },
+      "intt_mont_oracle": {
+        "path": "corpora/p44/intt_mont_oracle.bin",
+        "bytes": 524288,
+        "sha256": "60c3a8ec3a7940ffce335b97a7c29bf6b082449b0d233d3a6c0ae1ad2d63be36"
+      },
+      "pointwise_mont_oracle": {
+        "path": "corpora/p44/pointwise_mont_oracle.bin",
+        "bytes": 524288,
+        "sha256": "1dda083a45b2588ba5aa0cc8a932a7b0fedaf57f2dad2344e60da28d1169aef8"
+      },
+      "chain_split_oracle": {
+        "path": "corpora/p44/chain_split_oracle.bin",
+        "bytes": 524288,
+        "sha256": "ed2a5eb15e0d447e9a56aa92d0c53a0f20dc11c9427f9459687e0db203c134ab"
+      }
+    }
+  },
+  {
+    "parameter": 65,
+    "terms": 5,
+    "unique_request_rows": 512,
+    "direct_schoolbook_rows": 263,
+    "basis_directions": 256,
+    "corpus_dir": "corpora/p65",
+    "files": {
+      "a": {
+        "path": "corpora/p65/a.bin",
+        "bytes": 2621440,
+        "sha256": "3fa516a602e68a1e817be1e93a7bd03805471dc1ac08dbb0ef6c9f1af8cbcb58"
+      },
+      "b": {
+        "path": "corpora/p65/b.bin",
+        "bytes": 2621440,
+        "sha256": "02f5cb6a9edaeb6013a1f3ce2bdf0a520071c3031b19b45bbb42ab8ede160a04"
+      },
+      "ntt_oracle": {
+        "path": "corpora/p65/ntt_oracle.bin",
+        "bytes": 524288,
+        "sha256": "3ceb643669002a35a2d18162150df17a53fbb1d1509442b99175e355981d88c3"
+      },
+      "intt_mont_oracle": {
+        "path": "corpora/p65/intt_mont_oracle.bin",
+        "bytes": 524288,
+        "sha256": "d07a328f59fc1e40605ac99c51a806a0d33bbe6ffd20df56dfc603a674ad6a81"
+      },
+      "pointwise_mont_oracle": {
+        "path": "corpora/p65/pointwise_mont_oracle.bin",
+        "bytes": 524288,
+        "sha256": "d035a4a4e2351297439525ea45468d6c121ec9cde468d27fa96cf85005ff30c2"
+      },
+      "chain_split_oracle": {
+        "path": "corpora/p65/chain_split_oracle.bin",
+        "bytes": 524288,
+        "sha256": "fae4a347c34cea9afcc9f9212de2a1971f86240990294faa2e9fb12e74852252"
+      }
+    }
+  },
+  {
+    "parameter": 87,
+    "terms": 7,
+    "unique_request_rows": 512,
+    "direct_schoolbook_rows": 263,
+    "basis_directions": 256,
+    "corpus_dir": "corpora/p87",
+    "files": {
+      "a": {
+        "path": "corpora/p87/a.bin",
+        "bytes": 3670016,
+        "sha256": "0d8acaf9e5e170508865ca9921be539e453d1048ed3b78d4c9a74bdfa8b74bd6"
+      },
+      "b": {
+        "path": "corpora/p87/b.bin",
+        "bytes": 3670016,
+        "sha256": "6e9e88b9041d19c5dc2f241a40cb188e3c0825f04056a80fee736debd19f5387"
+      },
+      "ntt_oracle": {
+        "path": "corpora/p87/ntt_oracle.bin",
+        "bytes": 524288,
+        "sha256": "8a37827f4783854a96b8649bfaf1c0f3aac160f8bfa5f0f63c657726c5931865"
+      },
+      "intt_mont_oracle": {
+        "path": "corpora/p87/intt_mont_oracle.bin",
+        "bytes": 524288,
+        "sha256": "28743aa8e4d18a546087801c4c696e97d0417d7825a5abda4a62c8e6e626e992"
+      },
+      "pointwise_mont_oracle": {
+        "path": "corpora/p87/pointwise_mont_oracle.bin",
+        "bytes": 524288,
+        "sha256": "73cc4d5d34780484144a57f7f71e6e57333cda6585c2142e75d4176ce300e873"
+      },
+      "chain_split_oracle": {
+        "path": "corpora/p87/chain_split_oracle.bin",
+        "bytes": 524288,
+        "sha256": "dd20826233c25ced3785edb45c01d5acdec2600f89971adf86b81f05466a4a9a"
+      }
+    }
+  }
+]

@@ -1,0 +1,487 @@
+[
+  {
+    "source": "MLDSA_4090_Experiments/4090_boundary/server_results/boundary_4090_latest.tar.gz",
+    "bytes": 250614018,
+    "crc": 3200734820,
+    "disposition": "stream_read_tables_and_json",
+    "members": 6861,
+    "files": 6861,
+    "uncompressed_bytes": 260876397,
+    "table_files": 1,
+    "json_files": 4425,
+    "seconds": 2.77,
+    "manifest_path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_4090\\nested_3693fc5a0f03.jsonl"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_correctness_supplement/qa/20261019T195205833619Z-9e609826/archive_test/exports/correctness_supplement_4090_latest.tar.gz",
+    "bytes": 1585,
+    "crc": 476054976,
+    "disposition": "not_opened_qa_fixture_or_dependency_source"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_correctness_supplement/qa/20261019T195205833619Z-9e609826/archive_test/exports/correctness_supplement_4090_unique-run_3b562d30.tar.gz",
+    "bytes": 1585,
+    "crc": 476054976,
+    "disposition": "not_opened_qa_fixture_or_dependency_source"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_correctness_supplement/qa/20261019T195300780388Z-a72c6267/archive_test/exports/correctness_supplement_4090_latest.tar.gz",
+    "bytes": 1585,
+    "crc": 3765919881,
+    "disposition": "not_opened_qa_fixture_or_dependency_source"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_correctness_supplement/qa/20261019T195300780388Z-a72c6267/archive_test/exports/correctness_supplement_4090_unique-run_fae66f63.tar.gz",
+    "bytes": 1585,
+    "crc": 3765919881,
+    "disposition": "not_opened_qa_fixture_or_dependency_source"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_correctness_supplement/qa/20261019T195315409251Z-62397ef4/archive_test/exports/correctness_supplement_4090_latest.tar.gz",
+    "bytes": 1598,
+    "crc": 2666862035,
+    "disposition": "not_opened_qa_fixture_or_dependency_source"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_correctness_supplement/qa/20261019T195315409251Z-62397ef4/archive_test/exports/correctness_supplement_4090_unique-run_c69799d2.tar.gz",
+    "bytes": 1598,
+    "crc": 2666862035,
+    "disposition": "not_opened_qa_fixture_or_dependency_source"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_correctness_supplement/server_results/resumed_complete/correctness_supplement_4090_latest.tar.gz",
+    "bytes": 1211950743,
+    "crc": 2007765370,
+    "disposition": "stream_read_tables_and_json",
+    "members": 1455,
+    "files": 1455,
+    "uncompressed_bytes": 1219458002,
+    "table_files": 3,
+    "json_files": 853,
+    "seconds": 4.3,
+    "manifest_path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_4090\\nested_73f072d3adb1.jsonl"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_correctness_supplement/server_results/stopped_run60/correctness_supplement_4090_latest.tar.gz",
+    "bytes": 1056485896,
+    "crc": 783957676,
+    "disposition": "stream_read_tables_and_json",
+    "members": 1233,
+    "files": 1233,
+    "uncompressed_bytes": 1063001013,
+    "table_files": 1,
+    "json_files": 712,
+    "seconds": 3.79,
+    "manifest_path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_4090\\nested_acc95b45f38f.jsonl"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_host_api/server_results/host_api_4090_latest.tar.gz",
+    "bytes": 1687129,
+    "crc": 1307047092,
+    "disposition": "stream_read_tables_and_json",
+    "members": 2326,
+    "files": 2326,
+    "uncompressed_bytes": 8693186,
+    "table_files": 3,
+    "json_files": 1821,
+    "seconds": 0.79,
+    "manifest_path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_4090\\nested_af5d6744a299.jsonl"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_m44_zerocopy/server_results/m44_zerocopy_4090_latest.tar.gz",
+    "bytes": 1198355,
+    "crc": 2359326625,
+    "disposition": "stream_read_tables_and_json",
+    "members": 2005,
+    "files": 2005,
+    "uncompressed_bytes": 9947222,
+    "table_files": 3,
+    "json_files": 1364,
+    "seconds": 0.62,
+    "manifest_path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_4090\\nested_350a39abd4d2.jsonl"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_m65_ablation/server_results/m65_ablation_4090_latest.tar.gz",
+    "bytes": 2641738,
+    "crc": 4265508711,
+    "disposition": "stream_read_tables_and_json",
+    "members": 6086,
+    "files": 6086,
+    "uncompressed_bytes": 22748395,
+    "table_files": 3,
+    "json_files": 4299,
+    "seconds": 1.93,
+    "manifest_path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_4090\\nested_a2c71b7481cb.jsonl"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_ntt_polynomial_chain/server_results/ntt_polynomial_4090_20261019T192038004076Z-1f22bf81_6bdaf263.tar.gz",
+    "bytes": 2316538658,
+    "crc": 1254321379,
+    "disposition": "stream_read_tables_and_json",
+    "members": 816,
+    "files": 816,
+    "uncompressed_bytes": 4784493944,
+    "table_files": 4,
+    "json_files": 200,
+    "seconds": 16.07,
+    "manifest_path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_4090\\nested_b1cc4231f9a2.jsonl"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_resources/server_results/20261019T173334820552Z-26de069b/resources_4090_latest.tar.gz",
+    "bytes": 1056460,
+    "crc": 838381921,
+    "disposition": "stream_read_tables_and_json",
+    "members": 70,
+    "files": 70,
+    "uncompressed_bytes": 36674337,
+    "table_files": 0,
+    "json_files": 57,
+    "seconds": 0.09,
+    "manifest_path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_4090\\nested_eee8efbd8291.jsonl"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_resources/server_results/resources_4090_latest.tar.gz",
+    "bytes": 73554479,
+    "crc": 2749524651,
+    "disposition": "stream_read_tables_and_json",
+    "members": 1520,
+    "files": 1520,
+    "uncompressed_bytes": 765636073,
+    "table_files": 3,
+    "json_files": 1101,
+    "seconds": 2.45,
+    "manifest_path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_4090\\nested_3e5fa41cc12b.jsonl"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_resource_probe/server_results/20261019T170537Z-175afa61/resource_probe_4090_latest.tar.gz",
+    "bytes": 1011674,
+    "crc": 1143853782,
+    "disposition": "stream_read_tables_and_json",
+    "members": 33,
+    "files": 32,
+    "uncompressed_bytes": 36308130,
+    "table_files": 0,
+    "json_files": 22,
+    "seconds": 0.07,
+    "manifest_path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_4090\\nested_3e82860e13e6.jsonl"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_shake_sampling/qa/20261019T183313258070Z-7ec1f6f4/pack/exports/shake_sampling_4090_latest.tar.gz",
+    "bytes": 1664,
+    "crc": 2752068323,
+    "disposition": "not_opened_qa_fixture_or_dependency_source"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_shake_sampling/qa/20261019T183313258070Z-7ec1f6f4/pack/exports/shake_sampling_4090_run_38e8728e.tar.gz",
+    "bytes": 1664,
+    "crc": 2752068323,
+    "disposition": "not_opened_qa_fixture_or_dependency_source"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_shake_sampling/qa/20261019T183445667143Z-42d83aa6/pack/exports/shake_sampling_4090_latest.tar.gz",
+    "bytes": 1672,
+    "crc": 3060028672,
+    "disposition": "not_opened_qa_fixture_or_dependency_source"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_shake_sampling/qa/20261019T183445667143Z-42d83aa6/pack/exports/shake_sampling_4090_run_83d4ae24.tar.gz",
+    "bytes": 1672,
+    "crc": 3060028672,
+    "disposition": "not_opened_qa_fixture_or_dependency_source"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_shake_sampling/qa/20261019T184217596164Z-258b286b/pack/exports/shake_sampling_4090_latest.tar.gz",
+    "bytes": 1686,
+    "crc": 1971790506,
+    "disposition": "not_opened_qa_fixture_or_dependency_source"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_shake_sampling/qa/20261019T184217596164Z-258b286b/pack/exports/shake_sampling_4090_run_e594843b.tar.gz",
+    "bytes": 1686,
+    "crc": 1971790506,
+    "disposition": "not_opened_qa_fixture_or_dependency_source"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_shake_sampling/server_results/shake_sampling_4090_latest.tar.gz",
+    "bytes": 1516823686,
+    "crc": 1621506435,
+    "disposition": "stream_read_tables_and_json",
+    "members": 3158,
+    "files": 3158,
+    "uncompressed_bytes": 3468166951,
+    "table_files": 13,
+    "json_files": 204,
+    "seconds": 12.83,
+    "manifest_path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_4090\\nested_ac8edc62dc90.jsonl"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_sign_retry/server_results/v2_failure_20261020/sign_retry_4090_latest.tar.gz",
+    "bytes": 12443306,
+    "crc": 762757285,
+    "disposition": "stream_read_tables_and_json",
+    "members": 381,
+    "files": 381,
+    "uncompressed_bytes": 46508648,
+    "table_files": 4,
+    "json_files": 195,
+    "seconds": 0.26,
+    "manifest_path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_4090\\nested_e061e8ce64a8.jsonl"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_sign_retry/server_results/v3_pass_20261020/sign_retry_4090_latest.tar.gz",
+    "bytes": 54470104,
+    "crc": 729257666,
+    "disposition": "stream_read_tables_and_json",
+    "members": 521,
+    "files": 521,
+    "uncompressed_bytes": 1377027934,
+    "table_files": 4,
+    "json_files": 371,
+    "seconds": 7.93,
+    "manifest_path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_4090\\nested_12dc9c9e8b9c.jsonl"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/stage_matrix_4090_latest.tar.gz",
+    "bytes": 37038,
+    "crc": 3105582231,
+    "disposition": "stream_read_tables_and_json",
+    "members": 25,
+    "files": 25,
+    "uncompressed_bytes": 144157,
+    "table_files": 0,
+    "json_files": 20,
+    "seconds": 0.01,
+    "manifest_path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_4090\\nested_12101197a7fe.jsonl"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz",
+    "bytes": 1671687,
+    "crc": 1603177462,
+    "disposition": "stream_read_tables_and_json",
+    "members": 1246,
+    "files": 1246,
+    "uncompressed_bytes": 18449197,
+    "table_files": 84,
+    "json_files": 913,
+    "seconds": 0.55,
+    "manifest_path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_4090\\nested_28a51a2aff48.jsonl"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_verify_traffic/server_results/verify_traffic_4090_latest.tar.gz",
+    "bytes": 1952126,
+    "crc": 2867540203,
+    "disposition": "stream_read_tables_and_json",
+    "members": 4380,
+    "files": 4380,
+    "uncompressed_bytes": 22422043,
+    "table_files": 3,
+    "json_files": 3069,
+    "seconds": 1.4,
+    "manifest_path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_4090\\nested_382df525fd8d.jsonl"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_verify_traffic_recheck/server_results/verify_traffic_recheck_4090_latest.tar.gz",
+    "bytes": 141686,
+    "crc": 794045947,
+    "disposition": "stream_read_tables_and_json",
+    "members": 236,
+    "files": 236,
+    "uncompressed_bytes": 1196697,
+    "table_files": 3,
+    "json_files": 164,
+    "seconds": 0.07,
+    "manifest_path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_4090\\nested_eb093a4004f9.jsonl"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/4090_workspace/server_results/20261020_023520/workspace_4090_latest.tar.gz",
+    "bytes": 1370052,
+    "crc": 3783110237,
+    "disposition": "stream_read_tables_and_json",
+    "members": 1297,
+    "files": 1297,
+    "uncompressed_bytes": 7574515,
+    "table_files": 2,
+    "json_files": 943,
+    "seconds": 0.4,
+    "manifest_path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_4090\\nested_daef229477c1.jsonl"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/MLDSA_4090_StagePrep_20261019/reviews/20261019T051706Z-8fbd573d/stageprep_4090_20261019T051706Z-8fbd573d.tar.gz",
+    "bytes": 90794,
+    "crc": 1991958220,
+    "disposition": "stream_read_tables_and_json",
+    "members": 62,
+    "files": 62,
+    "uncompressed_bytes": 596780,
+    "table_files": 0,
+    "json_files": 43,
+    "seconds": 0.01,
+    "manifest_path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_4090\\nested_ad1a56870cea.jsonl"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/MLDSA_4090_StagePrep_20261019/server_results/stageprep_4090_latest.tar.gz",
+    "bytes": 90794,
+    "crc": 1991958220,
+    "disposition": "same_size_crc_copy_not_reopened",
+    "canonical": "MLDSA_4090_Experiments/MLDSA_4090_StagePrep_20261019/reviews/20261019T051706Z-8fbd573d/stageprep_4090_20261019T051706Z-8fbd573d.tar.gz"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/MLDSA_4090_StagePrep_20261019/trace_reviews/20261019T053119Z-02dc7034/trace_probe_4090_20261019T053119Z-02dc7034.tar.gz",
+    "bytes": 16006514,
+    "crc": 2592028742,
+    "disposition": "stream_read_tables_and_json",
+    "members": 27,
+    "files": 27,
+    "uncompressed_bytes": 16111079,
+    "table_files": 1,
+    "json_files": 15,
+    "seconds": 0.05,
+    "manifest_path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_4090\\nested_6e07d3a3167d.jsonl"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/MLDSA_4090_StagePrep_20261019/trace_server_results/trace_probe_4090_latest.tar.gz",
+    "bytes": 16006514,
+    "crc": 2592028742,
+    "disposition": "same_size_crc_copy_not_reopened",
+    "canonical": "MLDSA_4090_Experiments/MLDSA_4090_StagePrep_20261019/trace_reviews/20261019T053119Z-02dc7034/trace_probe_4090_20261019T053119Z-02dc7034.tar.gz"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/MLDSA_4090_StagePrep_20261019/trace_v2_server_results/trace_probe_v2_4090_latest.tar.gz",
+    "bytes": 16006749,
+    "crc": 1944388503,
+    "disposition": "stream_read_tables_and_json",
+    "members": 26,
+    "files": 26,
+    "uncompressed_bytes": 16112529,
+    "table_files": 1,
+    "json_files": 15,
+    "seconds": 0.06,
+    "manifest_path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_4090\\nested_9cdc11caea31.jsonl"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/MLDSA_4090_Supplement_20261019/reviews/20261019T032700Z-027dbf3f/supplement_4090_20261019T032700Z-027dbf3f.tar.gz",
+    "bytes": 339477,
+    "crc": 250650233,
+    "disposition": "stream_read_tables_and_json",
+    "members": 786,
+    "files": 786,
+    "uncompressed_bytes": 2019639,
+    "table_files": 40,
+    "json_files": 592,
+    "seconds": 0.09,
+    "manifest_path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_4090\\nested_e87eddd6a051.jsonl"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/MLDSA_4090_Supplement_20261019/server_results/supplement_4090_latest.tar.gz",
+    "bytes": 339477,
+    "crc": 250650233,
+    "disposition": "same_size_crc_copy_not_reopened",
+    "canonical": "MLDSA_4090_Experiments/MLDSA_4090_Supplement_20261019/reviews/20261019T032700Z-027dbf3f/supplement_4090_20261019T032700Z-027dbf3f.tar.gz"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/MLDSA_Baseline_MonitorFix_20261019/baseline_monitorfix_20261019.zip",
+    "bytes": 14733,
+    "crc": 4029787989,
+    "disposition": "not_opened_source_delivery_or_review_copy"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/MLDSA_Baseline_Rerun_20261018/baseline_rerun_bundle_20261018.zip",
+    "bytes": 15277527,
+    "crc": 2732923473,
+    "disposition": "not_opened_source_delivery_or_review_copy"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/MLDSA_Baseline_Rerun_20261018/cudilithium_upstream.zip",
+    "bytes": 700522,
+    "crc": 74487585,
+    "disposition": "not_opened_source_delivery_or_review_copy"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/MLDSA_Baseline_Rerun_20261018/dilithium_reference.zip",
+    "bytes": 110006,
+    "crc": 728691957,
+    "disposition": "not_opened_source_delivery_or_review_copy"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/MLDSA_Baseline_Rerun_20261018/server_results/keygen_debug/ccs_keygen_debug_20261018T154429Z-2868233.tar.gz",
+    "bytes": 4193932,
+    "crc": 4047863405,
+    "disposition": "stream_read_tables_and_json",
+    "members": 28,
+    "files": 24,
+    "uncompressed_bytes": 4293634,
+    "table_files": 2,
+    "json_files": 7,
+    "seconds": 0.02,
+    "manifest_path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_4090\\nested_10c8f3e67267.jsonl"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/MLDSA_Baseline_Rerun_20261019_InitFix/baseline_initfix_bundle_20261019.zip",
+    "bytes": 15284295,
+    "crc": 4022969431,
+    "disposition": "not_opened_source_delivery_or_review_copy"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/MLDSA_Baseline_Rerun_20261019_InitFix/reviews/perf_165045Z.zip",
+    "bytes": 2248580,
+    "crc": 1622863851,
+    "disposition": "not_opened_source_delivery_or_review_copy"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/MLDSA_Baseline_Rerun_20261019_InitFix/server_results/baseline_results_20261018T161533Z-3061607_20261018T165045Z.tar.gz",
+    "bytes": 575831,
+    "crc": 4019216351,
+    "disposition": "stream_read_tables_and_json",
+    "members": 2170,
+    "files": 2170,
+    "uncompressed_bytes": 4202727,
+    "table_files": 133,
+    "json_files": 1457,
+    "seconds": 0.23,
+    "manifest_path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_4090\\nested_6d0e704f3e4d.jsonl"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/MLDSA_Outline_Experiments_20261018/bootstrap/cupqc-sdk-0.4.1-x86_64.tar.gz",
+    "bytes": 4196646,
+    "crc": 2440082608,
+    "disposition": "not_opened_qa_fixture_or_dependency_source"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/MLDSA_Outline_Experiments_20261018/bootstrap/PQMagic-b9ea5ce134966b8f90d637bab97178a92ae130f3.tar.gz",
+    "bytes": 330293,
+    "crc": 1490454855,
+    "disposition": "not_opened_qa_fixture_or_dependency_source"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/MLDSA_Outline_Experiments_20261018/MLDSA_Outline_Experiments_20261018.zip",
+    "bytes": 5133001,
+    "crc": 2002642808,
+    "disposition": "not_opened_source_delivery_or_review_copy"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/MLDSA_Outline_Experiments_20261018/server_results/report_results_20261018T100031Z-676371_20261018T111434Z.tar.gz",
+    "bytes": 11024489,
+    "crc": 1572547426,
+    "disposition": "stream_read_tables_and_json",
+    "members": 1933,
+    "files": 1933,
+    "uncompressed_bytes": 38474232,
+    "table_files": 45,
+    "json_files": 492,
+    "seconds": 0.27,
+    "manifest_path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_4090\\nested_9cb96bf515ed.jsonl"
+  },
+  {
+    "source": "MLDSA_4090_Experiments/MLDSA_Outline_Experiments_20261018/server_results/report_results_20261018T100031Z-676371_20261018T152457Z.tar.gz",
+    "bytes": 12132718,
+    "crc": 4017913992,
+    "disposition": "stream_read_tables_and_json",
+    "members": 4592,
+    "files": 4592,
+    "uncompressed_bytes": 46346970,
+    "table_files": 373,
+    "json_files": 2473,
+    "seconds": 0.54,
+    "manifest_path": "D:\\学习\\密码技术竞赛\\报告\\tmp\\experiment_summary_20261020\\archive_4090\\nested_d6681a8d2c5a.jsonl"
+  }
+]

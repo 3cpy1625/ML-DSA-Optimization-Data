@@ -1,0 +1,130 @@
+[
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/01_生产采样不足额与故障恢复/normal_regression/runs/20261020T091306215597Z-b74395b3/BUILD_RESULT.json",
+    "sha256": "0dcc3a7e2272452f53308ce0d612053533341c773579abebcefc655dce6355cd"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/01_生产采样不足额与故障恢复/normal_regression/runs/20261020T091306215597Z-b74395b3/modules/libloce_mldsa44_keygen_d3_sm89.so",
+    "sha256": "210f4aecce42d4b08b57b669e6a80d2885fe2b65b0ef3dccf843112f2f04c8ab"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/01_生产采样不足额与故障恢复/normal_regression/runs/20261020T091306215597Z-b74395b3/modules/libloce_mldsa44_sign_d4_sm89.so",
+    "sha256": "87dfa100b4e886abcf93912874e07e230db0089a6984590ffb655d0f85b5719b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/01_生产采样不足额与故障恢复/normal_regression/runs/20261020T091306215597Z-b74395b3/modules/libloce_mldsa44_verify_d3_sm89.so",
+    "sha256": "8a2a3975a87d4938e8bbb76ab009f28c0a0338400242d1fd4b062e67ad1bfc33"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/01_生产采样不足额与故障恢复/normal_regression/runs/20261020T091306215597Z-b74395b3/modules/libloce_mldsa65_keygen_d3_sm89.so",
+    "sha256": "6d61e126bf481871fd62409dc69e1350b2a09286c7d3742f4b22e4ce2bc471f9"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/01_生产采样不足额与故障恢复/normal_regression/runs/20261020T091306215597Z-b74395b3/modules/libloce_mldsa65_sign_d4_sm89.so",
+    "sha256": "21938109c746173886f2212c7a6edd0286529ef1396419ff1819eb1ddf7258fe"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/01_生产采样不足额与故障恢复/normal_regression/runs/20261020T091306215597Z-b74395b3/modules/libloce_mldsa65_verify_d3_sm89.so",
+    "sha256": "a6ee3f659e8091677ea5113967eaef0ab51e53fc4fb6e40912708d4840574e9b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/01_生产采样不足额与故障恢复/normal_regression/runs/20261020T091306215597Z-b74395b3/modules/libloce_mldsa87_keygen_d3_sm89.so",
+    "sha256": "979594acf9e295276ba95e03c15550486a080bb54e3083596d73095d261cfce7"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/01_生产采样不足额与故障恢复/normal_regression/runs/20261020T091306215597Z-b74395b3/modules/libloce_mldsa87_sign_d4_sm89.so",
+    "sha256": "5aec395cb5fa5f837ade4a1bc37c9f2f7bf9dca41b2355cb2b23ef1705649f1d"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/01_生产采样不足额与故障恢复/normal_regression/runs/20261020T091306215597Z-b74395b3/modules/libloce_mldsa87_verify_d3_sm89.so",
+    "sha256": "b16725cc8f90095bc7378947b9b334542b678cd2a87d95226addee82362093ab"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/01_生产采样不足额与故障恢复/normal_regression/runs/20261020T091306215597Z-b74395b3/build/integration/loce_unified_api_bench",
+    "sha256": "352fb2afb304793b80167f0477d8697d3f08ce4f55348ab6b69a056dc8a68aa0"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/01_生产采样不足额与故障恢复/normal_regression/runs/20261020T091306215597Z-b74395b3/config/module_attestation.json",
+    "sha256": "e9f94889b2ec93d5c97dad01e2b737fa9d9f9211fa4b3a96a575c3d21d3d648b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/01_生产采样不足额与故障恢复/sampling_continuation/20261020T072513293953Z-0eace308/source/MAINLINE/source/backend/sm89/mldsa_sign_module.cu",
+    "sha256": "80f78f33e437c31741e172d1a935817d7bda0e6e895025dbffb3af4437f7a2b7"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/01_生产采样不足额与故障恢复/sampling_continuation/20261020T072513293953Z-0eace308/source/MAINLINE/third_party/native/MLDSA_NONSIGN_BEST/src/sign.cu",
+    "sha256": "381d40e0b5ba957f7c4fbd854aa3505f3b963027964d194870fe875608a0d988"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/01_生产采样不足额与故障恢复/sampling_continuation/20261020T072513293953Z-0eace308/source/MAINLINE/third_party/native/MLDSA_NONSIGN_VERIFY_3CA/src/sign.cu",
+    "sha256": "6d86d59a146d88ba9932a10689f3e0f81a2edf374b9a106aba0587c3dae10859"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/01_生产采样不足额与故障恢复/sampling_continuation/20261020T072513293953Z-0eace308/source/MAINLINE/third_party/native/MLDSA_SIGN_LATEST/src/signing/unified_engine/sign.cu",
+    "sha256": "f5026ecca95467515d6de13c593e02dd5dc2c2ad8a240481a2c00457b7ea091d"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/新4090数据/01_生产采样不足额与故障恢复/sampling_continuation/20261020T072513293953Z-0eace308/source/MAINLINE/third_party/native/MLDSA_SIGN_M65_332/src/signing/unified_engine/sign.cu",
+    "sha256": "f5026ecca95467515d6de13c593e02dd5dc2c2ad8a240481a2c00457b7ea091d"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/02_采样异常与恢复/delivery_f853eae08eaef3d0/nist_signverify_vectors_v1.json.gz",
+    "sha256": "6a4bb4db131953aae94449676b0b17faa3131baaaa7c84e6d96088cf4b809523"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/02_采样异常与恢复/internal_recovery_v1/runs/20261020T161911383836Z-958989e7/delivery/nist_signverify_vectors_v1.json.gz",
+    "sha256": "6a4bb4db131953aae94449676b0b17faa3131baaaa7c84e6d96088cf4b809523"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/02_采样异常与恢复/delivery_f853eae08eaef3d0/internal_recovery_adapter.cpp",
+    "sha256": "1abc81ab2918c979764b43a3523fc58a909a389347b056a5e5d29d5e3af1a981"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/02_采样异常与恢复/internal_recovery_v1/runs/20261020T161911383836Z-958989e7/adapter/internal_recovery_adapter.cpp",
+    "sha256": "1abc81ab2918c979764b43a3523fc58a909a389347b056a5e5d29d5e3af1a981"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/02_采样异常与恢复/delivery_f853eae08eaef3d0/nist_native_support_v2.hpp",
+    "sha256": "35d11b2cc08aed67bf6b6d7ab94f7702a3f8fd6089c99d4e617fdedca41e7f01"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/02_采样异常与恢复/internal_recovery_v1/runs/20261020T161911383836Z-958989e7/adapter/nist_native_support_v2.hpp",
+    "sha256": "35d11b2cc08aed67bf6b6d7ab94f7702a3f8fd6089c99d4e617fdedca41e7f01"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/02_采样异常与恢复/internal_recovery_v1/runs/20261020T161911383836Z-958989e7/adapter/nist_native_adapter",
+    "sha256": "8412f92741e05b1296f300ad1aaedb13f5e092d4150ea65aae063c86063a04c2"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/02_采样异常与恢复/internal_recovery_v1/runs/20261020T161911383836Z-958989e7/inputs/p44_sign_b256_official.bin",
+    "sha256": "d5d7c7d25061542ddf6526fd7b06ad09dae441386e6395a96d794bee31a25a2e"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/02_采样异常与恢复/internal_recovery_v1/runs/20261020T161911383836Z-958989e7/expected/p44_sign_b256_official.bin",
+    "sha256": "ca70a9dbc38fd67f0811f9af51f24827987e83165376cf24050eb150b98cad7b"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/02_采样异常与恢复/internal_recovery_v1/runs/20261020T161911383836Z-958989e7/inputs/p65_sign_b256_official.bin",
+    "sha256": "183f5f794d3112c9bf1d217c8986f5addf1a0981b7a04efa9624e04d5a714197"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/02_采样异常与恢复/internal_recovery_v1/runs/20261020T161911383836Z-958989e7/expected/p65_sign_b256_official.bin",
+    "sha256": "5bacd09e5adef5b1e1ad3b951640ec4ee3cae49ff2aea2495cfe595141288527"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/02_采样异常与恢复/internal_recovery_v1/runs/20261020T161911383836Z-958989e7/inputs/p87_sign_b256_official.bin",
+    "sha256": "04b4d08ae3432fd01d510a0787b41ca238fd414a4f2c0a0eee622771dff0dba7"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/02_采样异常与恢复/internal_recovery_v1/runs/20261020T161911383836Z-958989e7/expected/p87_sign_b256_official.bin",
+    "sha256": "083a1cfd106d57ab0f05af47fccd7882d3791e356537770f7c998a56c8d36e3f"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/02_采样异常与恢复/internal_recovery_v1/runs/20261020T161911383836Z-958989e7/adapter/cuda_fault_shim.cpp",
+    "sha256": "e5371073295d39de5bddcfc1efda52be366adc4f3f8ce27b8ffa98d65705745e"
+  },
+  {
+    "path": "/var/home/lsb/mldsa-experiments/4090修补/02_采样异常与恢复/internal_recovery_v1/runs/20261020T161911383836Z-958989e7/adapter/cuda_fault_shim.so",
+    "sha256": "040eeb4e746ef6ff4337aa7eef0bd2810079051f5ec4b4751ee916524db68456"
+  }
+]

@@ -1,0 +1,658 @@
+{
+  "review_date": "2026-10-21",
+  "scope": "Independent read-only cross-review. No archived program executed, no full extraction, no GPU rerun. Only this JSON and matching TXT were written.",
+  "archive": "C:\\Users\\lenovo\\Documents\\xwechat_files\\wxid_cno5rkqdqmon12_b14c\\msg\\file\\2026-10\\4090修补.zip",
+  "coverage": {
+    "archive_bytes": 7625596,
+    "archive_sha256": "acf50c13ab6d1866edb96ed056b818437aa5f9418608ac8820f03fb9b27c1162",
+    "outer_entries": 1299,
+    "outer_files": 1266,
+    "outer_uncompressed_file_bytes": 14567655,
+    "outer_csv_paths": 3,
+    "outer_tsv_paths": 3,
+    "result_tarballs_examined": 3
+  },
+  "findings": [
+    {
+      "id": "classification",
+      "conclusion": "补充资格、修补验证与故障恢复证据；无新的正式主性能测量，也不是对旧27格数值的替换或重导出。",
+      "action": "主性能保留原63格；正确性、诊断、版本边界另列。"
+    },
+    {
+      "id": "mainline_version_gap",
+      "conclusion": "审计矩阵的9个历史模块哈希与旧原始loaded_native_identity全部吻合，9个当前资格模块均为不同哈希；3个10/19复测也继续使用相同历史M65/M87 Sign模块。",
+      "action": "推荐27格不继承当前9模块的工具/所选KAT资格；既不改性能数值，也不将版本差异写成已证明旧结果错误。"
+    },
+    {
+      "id": "unpatched_warning",
+      "conclusion": "原未修补独立程序在M44 racecheck退出86，原日志报告100条已展示hazard、0 errors、147462 warnings；该轮停止，不能仅以errors=0标为通过。",
+      "action": "保留警告与该轮未执行项；不得混同旧5090的103 warnings或M65 Sign14 warnings。"
+    },
+    {
+      "id": "patch_scope",
+      "conclusion": "实际源码对比仅两处新增__syncwarp，修补后3参数×3工具9进程通过，每进程36变体记录，共324；限定独立harness、7小输入案例/参数、请求数17/65。",
+      "action": "不是324独立实验；未修改生产DSO、没有修补后正式性能，也不能覆盖全部历史split32程序。"
+    },
+    {
+      "id": "recovery_partial",
+      "conclusion": "3参数×3 CUDA API错误返回注入9/9通过，3个同进程工作区序列，各7调用；12成功/恢复输出匹配所选向量的结论来自归档验收。自动清零未成立，模式1/3三个参数均观测残留非零。",
+      "action": "保持SCOPE_PARTIAL；不能称为采样器耗尽、真实OOM或所有内部故障已验证；残留计数不证明具体秘密内容。"
+    },
+    {
+      "id": "audit_duplicates",
+      "conclusion": "3次binary_matrix.csv完全同SHA256，实为一套9模块审计重复导出，审计没有新增GPU实验。",
+      "action": "9个模块计一次，不计作27模块或新性能/新KAT。"
+    },
+    {
+      "id": "evidence_limits",
+      "conclusion": "当前9模块的memcheck/synccheck与selected KAT来自审计对外部新4090数据归档的引用；该三个资格/KAT原包未嵌入本4090修补包。",
+      "action": "表述为来源审计结论，不写成已在本包独立重跑或完整标准认证。"
+    },
+    {
+      "id": "status_precedence",
+      "conclusion": "两个已完成运行的PROGRESS.json仍有STOPPED标题；最终RESULT.json、工具日志与验收支持相应已完成的PASS或SCOPE_PARTIAL。交付时NOT_RUN也是运行前状态。",
+      "action": "保持阶段来源而非把旧进度/交付状态当作最终结果；原racecheck失败本身仍保留。"
+    }
+  ],
+  "main_performance_decision": {
+    "old_main_rows": 63,
+    "replacement_rows_supported": 0,
+    "new_performance_rows_supported": 0,
+    "recommended_4090_rows": 27,
+    "unchanged_from_20261018_rows": 24,
+    "retested_20261019_rows": 3,
+    "recommended_gm_recomputed": 1.9490195336124068,
+    "ratio_direction": "cuPQC_mean_ms / ours_mean_ms per paired process block, then geometric mean across six blocks; not ratio of overall means",
+    "paired_blocks_per_cell": 6,
+    "repetitions_per_process": 15,
+    "fixed_input_datasets": 1,
+    "no_new_ratio_or_CI_in_patch": true,
+    "audit_historical_hashes_match_old_evidence": true,
+    "retest_three_cells_reuse_historical_modules": true,
+    "replacements": [
+      {
+        "parameter": "65",
+        "operation": "sign",
+        "batch": "8192",
+        "geomean_paired_speedup": "2.2707164657030257",
+        "source_run_id": "20261019T032700Z-027dbf3f",
+        "original_speedup": "2.2704883549282524",
+        "source": "MLDSA_4090_Experiments/MLDSA_4090_Supplement_20261019/reviews/20261019T032700Z-027dbf3f/plot_cells_27_retest_replacements.csv",
+        "source_line": "15"
+      },
+      {
+        "parameter": "65",
+        "operation": "sign",
+        "batch": "16384",
+        "geomean_paired_speedup": "2.3809278619733423",
+        "source_run_id": "20261019T032700Z-027dbf3f",
+        "original_speedup": "2.3800625676035527",
+        "source": "MLDSA_4090_Experiments/MLDSA_4090_Supplement_20261019/reviews/20261019T032700Z-027dbf3f/plot_cells_27_retest_replacements.csv",
+        "source_line": "16"
+      },
+      {
+        "parameter": "87",
+        "operation": "sign",
+        "batch": "4096",
+        "geomean_paired_speedup": "1.1781128437555197",
+        "source_run_id": "20261019T032700Z-027dbf3f",
+        "original_speedup": "1.176769998007394",
+        "source": "MLDSA_4090_Experiments/MLDSA_4090_Supplement_20261019/reviews/20261019T032700Z-027dbf3f/plot_cells_27_retest_replacements.csv",
+        "source_line": "23"
+      }
+    ]
+  },
+  "identity_sources": {
+    "20261018T100031Z-676371": {
+      "source_occurrences_in_old_index": 351,
+      "unique_identity_contents": 9,
+      "modules": [
+        {
+          "module": "libloce_mldsa44_keygen_d3_sm89.so",
+          "pre_load_sha256": "d45f20926d48c667aa8593b24b192f5a4ce784c957411e0f13d98cc48ceb884a",
+          "post_load_sha256": "d45f20926d48c667aa8593b24b192f5a4ce784c957411e0f13d98cc48ceb884a",
+          "compilation_input_sha256": "deb20ff1f4aec4cf137441b09ad43b9c58bf060c24b6d7c0dd8613d929a48f93",
+          "source": "MLDSA_4090_Experiments.zip!MLDSA_4090_Experiments/MLDSA_Outline_Experiments_20261018/server_results/report_results_20261018T100031Z-676371_20261018T152457Z.tar.gz!/runs/20261018T100031Z-676371/03_performance/qualification/mldsa44_keygen_ours/attempts/20261018T103342638774Z-8561/loaded_native_identity.json",
+          "source_line": 1,
+          "json_pointer": "/pre_load_sha256"
+        },
+        {
+          "module": "libloce_mldsa44_sign_d4_sm89.so",
+          "pre_load_sha256": "e35c7146059438bc25b4e9803a25c4864faafbe1ed075dc99d984e8a76a434e9",
+          "post_load_sha256": "e35c7146059438bc25b4e9803a25c4864faafbe1ed075dc99d984e8a76a434e9",
+          "compilation_input_sha256": "deb20ff1f4aec4cf137441b09ad43b9c58bf060c24b6d7c0dd8613d929a48f93",
+          "source": "MLDSA_4090_Experiments.zip!MLDSA_4090_Experiments/MLDSA_Outline_Experiments_20261018/server_results/report_results_20261018T100031Z-676371_20261018T152457Z.tar.gz!/runs/20261018T100031Z-676371/03_performance/qualification/mldsa44_sign_ours/attempts/20261018T103355179500Z-8561/loaded_native_identity.json",
+          "source_line": 1,
+          "json_pointer": "/pre_load_sha256"
+        },
+        {
+          "module": "libloce_mldsa44_verify_d3_sm89.so",
+          "pre_load_sha256": "c2c89e6f725c6194cc29b49487b5613adb2497dd96ac4ad9dbcef2e914f14209",
+          "post_load_sha256": "c2c89e6f725c6194cc29b49487b5613adb2497dd96ac4ad9dbcef2e914f14209",
+          "compilation_input_sha256": "deb20ff1f4aec4cf137441b09ad43b9c58bf060c24b6d7c0dd8613d929a48f93",
+          "source": "MLDSA_4090_Experiments.zip!MLDSA_4090_Experiments/MLDSA_Outline_Experiments_20261018/server_results/report_results_20261018T100031Z-676371_20261018T152457Z.tar.gz!/runs/20261018T100031Z-676371/03_performance/qualification/mldsa44_verify_ours/attempts/20261018T103407487203Z-8561/loaded_native_identity.json",
+          "source_line": 1,
+          "json_pointer": "/pre_load_sha256"
+        },
+        {
+          "module": "libloce_mldsa65_keygen_d3_sm89.so",
+          "pre_load_sha256": "b5d01f08f6f200781ae6752c788a9d7e09b7931a81755adfd337b75da741f58f",
+          "post_load_sha256": "b5d01f08f6f200781ae6752c788a9d7e09b7931a81755adfd337b75da741f58f",
+          "compilation_input_sha256": "deb20ff1f4aec4cf137441b09ad43b9c58bf060c24b6d7c0dd8613d929a48f93",
+          "source": "MLDSA_4090_Experiments.zip!MLDSA_4090_Experiments/MLDSA_Outline_Experiments_20261018/server_results/report_results_20261018T100031Z-676371_20261018T152457Z.tar.gz!/runs/20261018T100031Z-676371/03_performance/qualification/mldsa65_keygen_ours/attempts/20261018T103420656830Z-8561/loaded_native_identity.json",
+          "source_line": 1,
+          "json_pointer": "/pre_load_sha256"
+        },
+        {
+          "module": "libloce_mldsa65_sign_d4_sm89.so",
+          "pre_load_sha256": "63d338328631ff2b32f890ef8cf4383a3d5d348da96c4cf8f3f279c16f04a38e",
+          "post_load_sha256": "63d338328631ff2b32f890ef8cf4383a3d5d348da96c4cf8f3f279c16f04a38e",
+          "compilation_input_sha256": "deb20ff1f4aec4cf137441b09ad43b9c58bf060c24b6d7c0dd8613d929a48f93",
+          "source": "MLDSA_4090_Experiments.zip!MLDSA_4090_Experiments/MLDSA_Outline_Experiments_20261018/server_results/report_results_20261018T100031Z-676371_20261018T152457Z.tar.gz!/runs/20261018T100031Z-676371/03_performance/qualification/mldsa65_sign_ours/attempts/20261018T103432849618Z-8561/loaded_native_identity.json",
+          "source_line": 1,
+          "json_pointer": "/pre_load_sha256"
+        },
+        {
+          "module": "libloce_mldsa65_verify_d3_sm89.so",
+          "pre_load_sha256": "ff6741fc4e6f372c869f71fcd32ca839999e4d059a22baefbfa88711a66e1035",
+          "post_load_sha256": "ff6741fc4e6f372c869f71fcd32ca839999e4d059a22baefbfa88711a66e1035",
+          "compilation_input_sha256": "deb20ff1f4aec4cf137441b09ad43b9c58bf060c24b6d7c0dd8613d929a48f93",
+          "source": "MLDSA_4090_Experiments.zip!MLDSA_4090_Experiments/MLDSA_Outline_Experiments_20261018/server_results/report_results_20261018T100031Z-676371_20261018T152457Z.tar.gz!/runs/20261018T100031Z-676371/03_performance/qualification/mldsa65_verify_ours/attempts/20261018T103445512471Z-8561/loaded_native_identity.json",
+          "source_line": 1,
+          "json_pointer": "/pre_load_sha256"
+        },
+        {
+          "module": "libloce_mldsa87_keygen_d3_sm89.so",
+          "pre_load_sha256": "bf2b6467ce568ccb6c4e59a1ebca7440e68e4ae2b91cddbdaffb9bd01c27574c",
+          "post_load_sha256": "bf2b6467ce568ccb6c4e59a1ebca7440e68e4ae2b91cddbdaffb9bd01c27574c",
+          "compilation_input_sha256": "deb20ff1f4aec4cf137441b09ad43b9c58bf060c24b6d7c0dd8613d929a48f93",
+          "source": "MLDSA_4090_Experiments.zip!MLDSA_4090_Experiments/MLDSA_Outline_Experiments_20261018/server_results/report_results_20261018T100031Z-676371_20261018T152457Z.tar.gz!/runs/20261018T100031Z-676371/03_performance/qualification/mldsa87_keygen_ours/attempts/20261018T103458576173Z-8561/loaded_native_identity.json",
+          "source_line": 1,
+          "json_pointer": "/pre_load_sha256"
+        },
+        {
+          "module": "libloce_mldsa87_sign_d4_sm89.so",
+          "pre_load_sha256": "76d28661de3f9d75b51b6ee7011d37c05b7e2192bca777182c5b89f9f916a1d7",
+          "post_load_sha256": "76d28661de3f9d75b51b6ee7011d37c05b7e2192bca777182c5b89f9f916a1d7",
+          "compilation_input_sha256": "deb20ff1f4aec4cf137441b09ad43b9c58bf060c24b6d7c0dd8613d929a48f93",
+          "source": "MLDSA_4090_Experiments.zip!MLDSA_4090_Experiments/MLDSA_Outline_Experiments_20261018/server_results/report_results_20261018T100031Z-676371_20261018T152457Z.tar.gz!/runs/20261018T100031Z-676371/03_performance/qualification/mldsa87_sign_ours/attempts/20261018T103510770782Z-8561/loaded_native_identity.json",
+          "source_line": 1,
+          "json_pointer": "/pre_load_sha256"
+        },
+        {
+          "module": "libloce_mldsa87_verify_d3_sm89.so",
+          "pre_load_sha256": "d3eb5118dd3343ee358d934b0c68219ca883bf2e7c71c75078334b97bfada8b3",
+          "post_load_sha256": "d3eb5118dd3343ee358d934b0c68219ca883bf2e7c71c75078334b97bfada8b3",
+          "compilation_input_sha256": "deb20ff1f4aec4cf137441b09ad43b9c58bf060c24b6d7c0dd8613d929a48f93",
+          "source": "MLDSA_4090_Experiments.zip!MLDSA_4090_Experiments/MLDSA_Outline_Experiments_20261018/server_results/report_results_20261018T100031Z-676371_20261018T152457Z.tar.gz!/runs/20261018T100031Z-676371/03_performance/qualification/mldsa87_verify_ours/attempts/20261018T103523990210Z-8561/loaded_native_identity.json",
+          "source_line": 1,
+          "json_pointer": "/pre_load_sha256"
+        }
+      ]
+    },
+    "20261019T032700Z-027dbf3f": {
+      "source_occurrences_in_old_index": 36,
+      "unique_identity_contents": 2,
+      "modules": [
+        {
+          "module": "libloce_mldsa65_sign_d4_sm89.so",
+          "pre_load_sha256": "63d338328631ff2b32f890ef8cf4383a3d5d348da96c4cf8f3f279c16f04a38e",
+          "post_load_sha256": "63d338328631ff2b32f890ef8cf4383a3d5d348da96c4cf8f3f279c16f04a38e",
+          "compilation_input_sha256": "deb20ff1f4aec4cf137441b09ad43b9c58bf060c24b6d7c0dd8613d929a48f93",
+          "source": "MLDSA_4090_Experiments.zip!MLDSA_4090_Experiments/MLDSA_4090_Supplement_20261019/reviews/20261019T032700Z-027dbf3f/supplement_4090_20261019T032700Z-027dbf3f.tar.gz!/20261019T032700Z-027dbf3f/jobs/mldsa65_sign_b8192_block05_1_ours/capture/attempts/20261019T032928305348Z-23930/loaded_native_identity.json",
+          "source_line": 1,
+          "json_pointer": "/pre_load_sha256"
+        },
+        {
+          "module": "libloce_mldsa87_sign_d4_sm89.so",
+          "pre_load_sha256": "76d28661de3f9d75b51b6ee7011d37c05b7e2192bca777182c5b89f9f916a1d7",
+          "post_load_sha256": "76d28661de3f9d75b51b6ee7011d37c05b7e2192bca777182c5b89f9f916a1d7",
+          "compilation_input_sha256": "deb20ff1f4aec4cf137441b09ad43b9c58bf060c24b6d7c0dd8613d929a48f93",
+          "source": "MLDSA_4090_Experiments.zip!MLDSA_4090_Experiments/MLDSA_4090_Supplement_20261019/reviews/20261019T032700Z-027dbf3f/supplement_4090_20261019T032700Z-027dbf3f.tar.gz!/20261019T032700Z-027dbf3f/jobs/mldsa87_sign_b4096_block05_1_ours/capture/attempts/20261019T033429275072Z-24599/loaded_native_identity.json",
+          "source_line": 1,
+          "json_pointer": "/pre_load_sha256"
+        }
+      ]
+    }
+  },
+  "audit": {
+    "source": "4090修补.zip!4090修补/03_正式二进制核验/audit_20261020T162643Z_e765b469/RESULT.json",
+    "source_line": 1,
+    "module_matrix": [
+      {
+        "module": "libloce_mldsa44_keygen_d3_sm89.so",
+        "historical_performance_sha256": "d45f20926d48c667aa8593b24b192f5a4ce784c957411e0f13d98cc48ceb884a",
+        "current_tested_sha256": "210f4aecce42d4b08b57b669e6a80d2885fe2b65b0ef3dccf843112f2f04c8ab",
+        "exact_same_binary": false,
+        "current_memcheck": true,
+        "current_synccheck": true,
+        "current_official_KAT": "25 official KeyGen vectors"
+      },
+      {
+        "module": "libloce_mldsa44_sign_d4_sm89.so",
+        "historical_performance_sha256": "e35c7146059438bc25b4e9803a25c4864faafbe1ed075dc99d984e8a76a434e9",
+        "current_tested_sha256": "87dfa100b4e886abcf93912874e07e230db0089a6984590ffb655d0f85b5719b",
+        "exact_same_binary": false,
+        "current_memcheck": true,
+        "current_synccheck": true,
+        "current_official_KAT": "1 selected official Sign vector, duplicated to B256"
+      },
+      {
+        "module": "libloce_mldsa44_verify_d3_sm89.so",
+        "historical_performance_sha256": "c2c89e6f725c6194cc29b49487b5613adb2497dd96ac4ad9dbcef2e914f14209",
+        "current_tested_sha256": "8a2a3975a87d4938e8bbb76ab009f28c0a0338400242d1fd4b062e67ad1bfc33",
+        "exact_same_binary": false,
+        "current_memcheck": true,
+        "current_synccheck": true,
+        "current_official_KAT": "1 selected official negative Verify vector"
+      },
+      {
+        "module": "libloce_mldsa65_keygen_d3_sm89.so",
+        "historical_performance_sha256": "b5d01f08f6f200781ae6752c788a9d7e09b7931a81755adfd337b75da741f58f",
+        "current_tested_sha256": "6d61e126bf481871fd62409dc69e1350b2a09286c7d3742f4b22e4ce2bc471f9",
+        "exact_same_binary": false,
+        "current_memcheck": true,
+        "current_synccheck": true,
+        "current_official_KAT": "25 official KeyGen vectors"
+      },
+      {
+        "module": "libloce_mldsa65_sign_d4_sm89.so",
+        "historical_performance_sha256": "63d338328631ff2b32f890ef8cf4383a3d5d348da96c4cf8f3f279c16f04a38e",
+        "current_tested_sha256": "21938109c746173886f2212c7a6edd0286529ef1396419ff1819eb1ddf7258fe",
+        "exact_same_binary": false,
+        "current_memcheck": true,
+        "current_synccheck": true,
+        "current_official_KAT": "1 selected official Sign vector, duplicated to B256"
+      },
+      {
+        "module": "libloce_mldsa65_verify_d3_sm89.so",
+        "historical_performance_sha256": "ff6741fc4e6f372c869f71fcd32ca839999e4d059a22baefbfa88711a66e1035",
+        "current_tested_sha256": "a6ee3f659e8091677ea5113967eaef0ab51e53fc4fb6e40912708d4840574e9b",
+        "exact_same_binary": false,
+        "current_memcheck": true,
+        "current_synccheck": true,
+        "current_official_KAT": "1 selected official negative Verify vector"
+      },
+      {
+        "module": "libloce_mldsa87_keygen_d3_sm89.so",
+        "historical_performance_sha256": "bf2b6467ce568ccb6c4e59a1ebca7440e68e4ae2b91cddbdaffb9bd01c27574c",
+        "current_tested_sha256": "979594acf9e295276ba95e03c15550486a080bb54e3083596d73095d261cfce7",
+        "exact_same_binary": false,
+        "current_memcheck": true,
+        "current_synccheck": true,
+        "current_official_KAT": "25 official KeyGen vectors"
+      },
+      {
+        "module": "libloce_mldsa87_sign_d4_sm89.so",
+        "historical_performance_sha256": "76d28661de3f9d75b51b6ee7011d37c05b7e2192bca777182c5b89f9f916a1d7",
+        "current_tested_sha256": "5aec395cb5fa5f837ade4a1bc37c9f2f7bf9dca41b2355cb2b23ef1705649f1d",
+        "exact_same_binary": false,
+        "current_memcheck": true,
+        "current_synccheck": true,
+        "current_official_KAT": "1 selected official Sign vector, duplicated to B256"
+      },
+      {
+        "module": "libloce_mldsa87_verify_d3_sm89.so",
+        "historical_performance_sha256": "d3eb5118dd3343ee358d934b0c68219ca883bf2e7c71c75078334b97bfada8b3",
+        "current_tested_sha256": "b16725cc8f90095bc7378947b9b334542b678cd2a87d95226addee82362093ab",
+        "exact_same_binary": false,
+        "current_memcheck": true,
+        "current_synccheck": true,
+        "current_official_KAT": "1 selected official negative Verify vector"
+      }
+    ],
+    "binary_matrix_copies": [
+      {
+        "source": "4090修补.zip!4090修补/03_正式二进制核验/audit_20261020T162408Z_a7ef4b9e/binary_matrix.csv",
+        "sha256": "60f8c34c369cb123e0d2db296d7ddfd0a2a763b4b007861799c7d5b925bb21db"
+      },
+      {
+        "source": "4090修补.zip!4090修补/03_正式二进制核验/audit_20261020T162502Z_4c91cedf/binary_matrix.csv",
+        "sha256": "60f8c34c369cb123e0d2db296d7ddfd0a2a763b4b007861799c7d5b925bb21db"
+      },
+      {
+        "source": "4090修补.zip!4090修补/03_正式二进制核验/audit_20261020T162643Z_e765b469/binary_matrix.csv",
+        "sha256": "60f8c34c369cb123e0d2db296d7ddfd0a2a763b4b007861799c7d5b925bb21db"
+      }
+    ],
+    "unique_binary_matrix_contents": 1,
+    "reported_historical_runtime_identities_checked": 171,
+    "external_qualification_archive_metadata": [
+      {
+        "archive": "E:\\密码竞赛\\新4090数据\\01_生产采样不足额与故障恢复\\normal_sanitizer\\server_results\\20261020T104836038088Z-81451376\\20261020T104836038088Z-81451376.tar.gz",
+        "sha256": "7436b13167f068e03288718d66526c59635d46d29b3e55e8a3aaba94d2eec73f",
+        "manifest": "20261020T104836038088Z-81451376/MANIFEST.json",
+        "manifest_sha256": "1350a5f64bcc0e911bbe9a4c7233322a6319fd9232046f7662e57b4c88aa4e46",
+        "verified_files": 312
+      },
+      {
+        "archive": "E:\\密码竞赛\\新4090数据\\02_独立已知答案测试KAT\\nist_keygen\\server_results\\20261020T125155953171Z-c1182d4f\\20261020T125155953171Z-c1182d4f.tar.gz",
+        "sha256": "dc4661232353f762ff72322a71d4a4e1804487afb8f13a27cb9ee16f63758c6c",
+        "manifest": "20261020T125155953171Z-c1182d4f/MANIFEST.json",
+        "manifest_sha256": "ee70a97f2daf485a8804b4ffd02d79240d61a98f8f2b8f630953278395339b40",
+        "verified_files": 61
+      },
+      {
+        "archive": "E:\\密码竞赛\\新4090数据\\02_独立已知答案测试KAT\\nist_signverify_v2\\server_results\\20261020T132127164764Z-8778a513\\20261020T132127164764Z-8778a513.tar.gz",
+        "sha256": "eee6d92f17f2344ee59408ed41a6465a41bef32344055c1e63fca53059f55aed",
+        "manifest": "20261020T132127164764Z-8778a513/MANIFEST.json",
+        "manifest_sha256": "14f65d1d811d0d1e54cda452f73a03e126234b92d0cd0ddfcaddfb5b4175dbc5",
+        "verified_files": 113
+      }
+    ]
+  },
+  "patch_source_review": {
+    "original_sha256": "dffb236722b90943963086707e3b75ac6dc506e180212e8639d32a5a41ec7d1f",
+    "patched_sha256": "059fb6ef31c31fecdb2a51fbbf0b3104a0d32507864047dd953a997131361756",
+    "added_source_lines": [
+      "        __syncwarp(0xffffffffu); // Finish prior consumers before reusing the shared byte stream.",
+      "        __syncwarp(0xffffffffu); // Live draining warps collectively finish prior byte consumers."
+    ],
+    "removed_source_lines": [],
+    "matches_exactly_two_barrier_insertions": true
+  },
+  "original_racecheck_warning": {
+    "source": "4090修补.zip!4090修补/split32_racecheck_v1/server_results/20261020T161628260124Z-b966f10f/20261020T161628260124Z-b966f10f.tar.gz!20261020T161628260124Z-b966f10f/jobs/p44/racecheck.log",
+    "source_line": 1102,
+    "summary": "========= RACECHECK SUMMARY: 100 hazards displayed (0 errors, 147462 warnings)",
+    "displayed_hazards": 100,
+    "errors": 0,
+    "warnings": 147462,
+    "returncode": 86,
+    "planned_parameters": [
+      44,
+      65,
+      87
+    ],
+    "observed_parameter": 44,
+    "status": "RACECHECK_STOPPED",
+    "remaining_two_parameters": "NOT_RUN_IN_THIS_ORIGINAL_RUN"
+  },
+  "patched_tool_results": [
+    {
+      "status": "PATCH_TOOL_CASE_PASS",
+      "tool_name": "memcheck",
+      "tool": {
+        "error_summaries": 1,
+        "reported_errors": 0,
+        "zero_leak_summaries": 1
+      },
+      "checked_variants": 36,
+      "output_trace_work_bytes_match": true,
+      "source": "4090修补.zip!4090修补/split32_sync_patch_v2/server_results/20261020T162230081774Z-b4e3d46f/20261020T162230081774Z-b4e3d46f.tar.gz!20261020T162230081774Z-b4e3d46f/jobs/p44_memcheck/PROCESS_RESULT.json",
+      "source_line": 1,
+      "tool_log": "========= COMPUTE-SANITIZER\n========= LEAK SUMMARY: 0 bytes leaked in 0 allocations\n========= ERROR SUMMARY: 0 errors\n"
+    },
+    {
+      "status": "PATCH_TOOL_CASE_PASS",
+      "tool_name": "racecheck",
+      "tool": {
+        "hazards": 0,
+        "errors": 0,
+        "warnings": 0,
+        "summary_count": 1
+      },
+      "checked_variants": 36,
+      "output_trace_work_bytes_match": true,
+      "source": "4090修补.zip!4090修补/split32_sync_patch_v2/server_results/20261020T162230081774Z-b4e3d46f/20261020T162230081774Z-b4e3d46f.tar.gz!20261020T162230081774Z-b4e3d46f/jobs/p44_racecheck/PROCESS_RESULT.json",
+      "source_line": 1,
+      "tool_log": "========= COMPUTE-SANITIZER\n========= RACECHECK SUMMARY: 0 hazards displayed (0 errors, 0 warnings)\n"
+    },
+    {
+      "status": "PATCH_TOOL_CASE_PASS",
+      "tool_name": "synccheck",
+      "tool": {
+        "error_summaries": 1,
+        "reported_errors": 0,
+        "zero_leak_summaries": 0
+      },
+      "checked_variants": 36,
+      "output_trace_work_bytes_match": true,
+      "source": "4090修补.zip!4090修补/split32_sync_patch_v2/server_results/20261020T162230081774Z-b4e3d46f/20261020T162230081774Z-b4e3d46f.tar.gz!20261020T162230081774Z-b4e3d46f/jobs/p44_synccheck/PROCESS_RESULT.json",
+      "source_line": 1,
+      "tool_log": "========= COMPUTE-SANITIZER\n========= ERROR SUMMARY: 0 errors\n"
+    },
+    {
+      "status": "PATCH_TOOL_CASE_PASS",
+      "tool_name": "memcheck",
+      "tool": {
+        "error_summaries": 1,
+        "reported_errors": 0,
+        "zero_leak_summaries": 1
+      },
+      "checked_variants": 36,
+      "output_trace_work_bytes_match": true,
+      "source": "4090修补.zip!4090修补/split32_sync_patch_v2/server_results/20261020T162230081774Z-b4e3d46f/20261020T162230081774Z-b4e3d46f.tar.gz!20261020T162230081774Z-b4e3d46f/jobs/p65_memcheck/PROCESS_RESULT.json",
+      "source_line": 1,
+      "tool_log": "========= COMPUTE-SANITIZER\n========= LEAK SUMMARY: 0 bytes leaked in 0 allocations\n========= ERROR SUMMARY: 0 errors\n"
+    },
+    {
+      "status": "PATCH_TOOL_CASE_PASS",
+      "tool_name": "racecheck",
+      "tool": {
+        "hazards": 0,
+        "errors": 0,
+        "warnings": 0,
+        "summary_count": 1
+      },
+      "checked_variants": 36,
+      "output_trace_work_bytes_match": true,
+      "source": "4090修补.zip!4090修补/split32_sync_patch_v2/server_results/20261020T162230081774Z-b4e3d46f/20261020T162230081774Z-b4e3d46f.tar.gz!20261020T162230081774Z-b4e3d46f/jobs/p65_racecheck/PROCESS_RESULT.json",
+      "source_line": 1,
+      "tool_log": "========= COMPUTE-SANITIZER\n========= RACECHECK SUMMARY: 0 hazards displayed (0 errors, 0 warnings)\n"
+    },
+    {
+      "status": "PATCH_TOOL_CASE_PASS",
+      "tool_name": "synccheck",
+      "tool": {
+        "error_summaries": 1,
+        "reported_errors": 0,
+        "zero_leak_summaries": 0
+      },
+      "checked_variants": 36,
+      "output_trace_work_bytes_match": true,
+      "source": "4090修补.zip!4090修补/split32_sync_patch_v2/server_results/20261020T162230081774Z-b4e3d46f/20261020T162230081774Z-b4e3d46f.tar.gz!20261020T162230081774Z-b4e3d46f/jobs/p65_synccheck/PROCESS_RESULT.json",
+      "source_line": 1,
+      "tool_log": "========= COMPUTE-SANITIZER\n========= ERROR SUMMARY: 0 errors\n"
+    },
+    {
+      "status": "PATCH_TOOL_CASE_PASS",
+      "tool_name": "memcheck",
+      "tool": {
+        "error_summaries": 1,
+        "reported_errors": 0,
+        "zero_leak_summaries": 1
+      },
+      "checked_variants": 36,
+      "output_trace_work_bytes_match": true,
+      "source": "4090修补.zip!4090修补/split32_sync_patch_v2/server_results/20261020T162230081774Z-b4e3d46f/20261020T162230081774Z-b4e3d46f.tar.gz!20261020T162230081774Z-b4e3d46f/jobs/p87_memcheck/PROCESS_RESULT.json",
+      "source_line": 1,
+      "tool_log": "========= COMPUTE-SANITIZER\n========= LEAK SUMMARY: 0 bytes leaked in 0 allocations\n========= ERROR SUMMARY: 0 errors\n"
+    },
+    {
+      "status": "PATCH_TOOL_CASE_PASS",
+      "tool_name": "racecheck",
+      "tool": {
+        "hazards": 0,
+        "errors": 0,
+        "warnings": 0,
+        "summary_count": 1
+      },
+      "checked_variants": 36,
+      "output_trace_work_bytes_match": true,
+      "source": "4090修补.zip!4090修补/split32_sync_patch_v2/server_results/20261020T162230081774Z-b4e3d46f/20261020T162230081774Z-b4e3d46f.tar.gz!20261020T162230081774Z-b4e3d46f/jobs/p87_racecheck/PROCESS_RESULT.json",
+      "source_line": 1,
+      "tool_log": "========= COMPUTE-SANITIZER\n========= RACECHECK SUMMARY: 0 hazards displayed (0 errors, 0 warnings)\n"
+    },
+    {
+      "status": "PATCH_TOOL_CASE_PASS",
+      "tool_name": "synccheck",
+      "tool": {
+        "error_summaries": 1,
+        "reported_errors": 0,
+        "zero_leak_summaries": 0
+      },
+      "checked_variants": 36,
+      "output_trace_work_bytes_match": true,
+      "source": "4090修补.zip!4090修补/split32_sync_patch_v2/server_results/20261020T162230081774Z-b4e3d46f/20261020T162230081774Z-b4e3d46f.tar.gz!20261020T162230081774Z-b4e3d46f/jobs/p87_synccheck/PROCESS_RESULT.json",
+      "source_line": 1,
+      "tool_log": "========= COMPUTE-SANITIZER\n========= ERROR SUMMARY: 0 errors\n"
+    }
+  ],
+  "recovery_result": {
+    "status": "INTERNAL_CUDA_RECOVERY_9_OF_9_PASS_SCOPE_PARTIAL",
+    "planned_fault_checks": 9,
+    "passed_fault_checks": 9,
+    "group_2_complete": false,
+    "limitations": [
+      "Three CUDA API failure-return probes per parameter: workspace initialization, host-to-device input staging, and device-to-host output export.",
+      "Unchanged production Sign DSOs; a new host caller and a process-local LD_PRELOAD interposer are test artifacts, not formal performance binaries.",
+      "Each parameter uses the same loaded DSO, stream and workspace for success/fault/recovery across seven calls. No manual workspace clearing occurs between calls.",
+      "Failure must propagate backend_error, mark all requests failed, commit none, and preserve sentinel host output. Valid/recovery bytes match the retained selected official vector.",
+      "Residual workspace bytes are counted after failures; residual nonzero bytes do not establish secret content but prevent claiming complete automatic zeroization.",
+      "These are injected CUDA function return codes, not actual device memory exhaustion, asynchronous device faults, sampler exhaustion, or every internal error path.",
+      "No sampler total hard cap or explicit exhaustion status was added by the incremental refill patch. This group remains partial until the missing paths/contracts are addressed.",
+      "Three selected official Sign vectors repeated to B256; no new independent KAT coverage, performance claim or sanitizer claim.",
+      "150-second admission/execution target including host compilation and shared-lock waits. Packaging, upload, download and user passphrase time are additional."
+    ],
+    "started_utc": "2026-10-20T16:19:11.385423+00:00",
+    "records": [
+      {
+        "parameter": 44,
+        "status": "INTERNAL_CUDA_RECOVERY_3_OF_3_PASS",
+        "residual_workspace": [
+          {
+            "mode": 1,
+            "nonzero_bytes": [
+              7896319,
+              3135488,
+              255
+            ]
+          },
+          {
+            "mode": 2,
+            "nonzero_bytes": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "mode": 3,
+            "nonzero_bytes": [
+              7896319,
+              3135488,
+              255
+            ]
+          }
+        ]
+      },
+      {
+        "parameter": 65,
+        "status": "INTERNAL_CUDA_RECOVERY_3_OF_3_PASS",
+        "residual_workspace": [
+          {
+            "mode": 1,
+            "nonzero_bytes": [
+              15412223,
+              5886464,
+              255
+            ]
+          },
+          {
+            "mode": 2,
+            "nonzero_bytes": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "mode": 3,
+            "nonzero_bytes": [
+              15412223,
+              5886464,
+              255
+            ]
+          }
+        ]
+      },
+      {
+        "parameter": 87,
+        "status": "INTERNAL_CUDA_RECOVERY_3_OF_3_PASS",
+        "residual_workspace": [
+          {
+            "mode": 1,
+            "nonzero_bytes": [
+              21766911,
+              9610752,
+              2303
+            ]
+          },
+          {
+            "mode": 2,
+            "nonzero_bytes": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "mode": 3,
+            "nonzero_bytes": [
+              21766911,
+              9610752,
+              2303
+            ]
+          }
+        ]
+      }
+    ],
+    "automatic_zeroization_established": false,
+    "residual_nonzero_observed": true,
+    "completed_utc": "2026-10-20T16:19:20.666282+00:00",
+    "elapsed_seconds": 9.356374363880605,
+    "source": "4090修补.zip!4090修补/02_采样异常与恢复/internal_recovery_v1/server_results/20261020T161911383836Z-958989e7/20261020T161911383836Z-958989e7.tar.gz!20261020T161911383836Z-958989e7/RESULT.json",
+    "source_line": 1
+  },
+  "nested_archive_checks": [
+    {
+      "source": "4090修补.zip!4090修补/02_采样异常与恢复/internal_recovery_v1/server_results/20261020T161911383836Z-958989e7/20261020T161911383836Z-958989e7.tar.gz",
+      "bytes": 540231,
+      "sha256": "ece2b31692b9d4c28abaa6a60cf6340b6ff1c868dd04872207834a2022fea561",
+      "sha256_matches_sidecar": true,
+      "entries": 91,
+      "files": 91,
+      "csv_tsv": []
+    },
+    {
+      "source": "4090修补.zip!4090修补/split32_racecheck_v1/server_results/20261020T161628260124Z-b966f10f/20261020T161628260124Z-b966f10f.tar.gz",
+      "bytes": 232248,
+      "sha256": "e4265974f73f6ae4184d4938e3c6ea4f7b320deaf7fcfcc361a53918097fc676",
+      "sha256_matches_sidecar": true,
+      "entries": 206,
+      "files": 206,
+      "csv_tsv": [
+        "20261020T161628260124Z-b966f10f/inputs/p44/cases.tsv"
+      ]
+    },
+    {
+      "source": "4090修补.zip!4090修补/split32_sync_patch_v2/server_results/20261020T162230081774Z-b4e3d46f/20261020T162230081774Z-b4e3d46f.tar.gz",
+      "bytes": 3146040,
+      "sha256": "eb1c294c405d62f783724cac4da6f43b5fefa58c8c6c3be228d5be1bce144375",
+      "sha256_matches_sidecar": true,
+      "entries": 1203,
+      "files": 1203,
+      "csv_tsv": [
+        "20261020T162230081774Z-b4e3d46f/inputs/p44/cases.tsv",
+        "20261020T162230081774Z-b4e3d46f/inputs/p65/cases.tsv",
+        "20261020T162230081774Z-b4e3d46f/inputs/p87/cases.tsv"
+      ]
+    }
+  ],
+  "not_independently_repeated": [
+    "The primary archive_4090 agent performs complete extraction and per-file/output verification. This cross-review did not duplicate every output-byte check or full manifest verification.",
+    "Audit references to normal_sanitizer and selected official KAT source archives were not re-run or fully revalidated from unavailable embedded originals.",
+    "No GPU execution or performance measurement."
+  ]
+}

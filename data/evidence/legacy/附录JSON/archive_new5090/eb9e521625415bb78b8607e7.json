@@ -1,0 +1,17 @@
+{
+  "schema": "loce.native-direct-loaded-identity.v1",
+  "expected_filename": "libloce_mldsa87_sign_d4_sm120.so",
+  "loaded_path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/modules/libloce_mldsa87_sign_d4_sm120.so",
+  "pre_load_sha256": "50350e971a8b0fbb52d7a200a91bac34aa31fa80cc09bf344e39d73090961dd6",
+  "post_load_sha256": "50350e971a8b0fbb52d7a200a91bac34aa31fa80cc09bf344e39d73090961dd6",
+  "device": 64512,
+  "inode": 3948624,
+  "resolved_symbol": "loce_pqc_native_module_v1",
+  "algorithm": "ML-DSA",
+  "level": 5,
+  "operation": "sign",
+  "module_name": "mldsa87-sign-sm120-native",
+  "module_build_identity": "v0802/MLDSA_SIGN_LATEST/mldsa_sign_engine;default_sign_path=WPHC;fixed_owner_override_compiled=false",
+  "embedded": {"module_id": "mldsa87-sign-d4-sm120-native", "compilation_input_sha256": "61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01", "build_provenance_sha256": "523a45c786560f9d85e8654d59b4d3a6e27a65a50f625a7f796823cb3e374a1d", "execution_contract_registry_sha256": "cd64d6312180440572ba5383a184bddd890e2a5f5c0c20a1ae7b91bd0b55f528", "policy_registry_sha256": "5d18a3fdce27cbeefc590ed6c34073c732d95d5b24fd2e5a56f70ca75814a064", "build_id": "g1-523a45c786560f9d85e8", "release_family_id": "MLDSA-E03-V3-CTA-SM120-20261020", "algorithm": "ML-DSA", "parameter_set": "87", "operation_mask": 8, "policy_id": "MLDSA-87-SIGN-D4", "sm_arch": "sm_120"},
+  "cuda_device": {"ordinal": 0, "uuid": "43cf85da3fa20d233066d8781644bb2a", "compute_capability_major": 12, "compute_capability_minor": 0}
+}

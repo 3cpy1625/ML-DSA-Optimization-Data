@@ -1,0 +1,43 @@
+{
+  "recorded_utc": "2026-10-19T17:06:41.719766+00:00",
+  "current_category": "E02",
+  "completed_major_categories": [
+    "E00",
+    "E01"
+  ],
+  "remaining_major_category_count": 13,
+  "e02a": "234_CASES_AND_ALL_RAW_FILES_VERIFIED_LOCALLY",
+  "sanitizer_cli": "2025.2.1.0_REPORT_AND_COMMAND_LINE_VERIFIED",
+  "e02b": "48_CASE_CONTROLLER_LOCALLY_TESTED_SERVER_PENDING",
+  "matrix": {
+    "levels": [
+      44,
+      65,
+      87
+    ],
+    "tools": [
+      "memcheck",
+      "initcheck",
+      "racecheck",
+      "synccheck"
+    ],
+    "keygen": {
+      "batch": 17
+    },
+    "verify": {
+      "batch": 17,
+      "seed": "FIXED_CORPUS"
+    },
+    "sign": {
+      "batch": 256,
+      "message_bytes": [
+        0,
+        32
+      ]
+    },
+    "total_cases": 48
+  },
+  "mode": "H008=1; D3/D4 absent; unrelated-stream nonserialization SKIPPED; other host/device T12 required",
+  "formal_performance_collected": false,
+  "full_e02_complete": false
+}

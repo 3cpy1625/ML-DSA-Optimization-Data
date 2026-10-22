@@ -1,0 +1,31 @@
+{
+  "status": "SPLIT32_COMPARISON_MATRIX_PASS",
+  "run_id": "20261019T215136567276Z-de9b27bb",
+  "started_utc": "2026-10-19T21:51:36.577457+00:00",
+  "limits": [
+    "Standalone operators using sealed donor Keccak and scalar-comparator sources; original nine DSOs are neither modified nor loaded.",
+    "All three backends share a logical-lane-zero parser (the even physical lane for split32); this isolates state mapping and does not measure production eta four-thread consumer, ballot compaction, retry scheduling or complete APIs.",
+    "Split32 uses the sealed production permutation <1,false>, IOTA_WORD_LOAD=0, with a harness byte stream; this does not establish every production module compiler policy.",
+    "Split32 retains padded pairs and drains a whole warp; work artifacts distinguish logical blocks, absorb permutations, executed squeeze permutations and drain dummy permutations, plus padded-state work.",
+    "Dummy split32 rounds still write the shared byte buffer. Counts describe source-level primitive calls per state, not hardware instructions. Padding states are zero initialized and receive harness padding; wholly inactive warps exit uniformly.",
+    "A fixed 832/1088-byte transcript SHAKE256 case measures final-hash arithmetic, not complete verification.",
+    "Kernel event times include output initialization, decoding, logical trace and physical work writes; no end-to-end production-module speedup is established.",
+    "ON/OFF changes this audit harness only. OFF uses eight squeeze blocks, rather than a production-module early-stop configuration.",
+    "Work.logical_squeeze is the count of raw permutation calls for op0. For SHAKE/sampling, absorb counts only full input blocks; the padded first output permutation is counted as squeeze.",
+    "Forced-rejection cases are synthetic refill/exhaustion fixtures, not normal FIPS vectors.",
+    "256 deterministic input rows are tiled across each batch; empty-input SHAKE has one unique row. Three processes reuse the same corpus.",
+    "All requests/bytes and counters are checked before and after each timed variant; individual intermediate timed outputs are not separately checked.",
+    "Shared stage lock and pre/post idle GPU samples are used; continuous exclusive GPU use is not claimed.",
+    "CPU-only self-tests do not establish CUDA compilation or device correctness; those must pass on the server before acceptance."
+  ],
+  "counts": {
+    "timing_samples": 24300,
+    "process_variant_rows": 1620,
+    "cell_variant_rows": 540,
+    "paired_ratio_rows": 540,
+    "processes": 27,
+    "check_records": 6237
+  },
+  "original_identity_final": "UNCHANGED",
+  "completed_utc": "2026-10-19T21:59:02.973845+00:00"
+}

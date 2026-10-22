@@ -1,0 +1,29 @@
+{
+  "commit": "975de31eb83d87039ec88934fdc47d8c312b892d",
+  "files": [
+    {
+      "file": "sigGen_prompt.json",
+      "url": "https://raw.githubusercontent.com/usnistgov/ACVP-Server/975de31eb83d87039ec88934fdc47d8c312b892d/gen-val/json-files/ML-DSA-sigGen-FIPS204/prompt.json",
+      "sha256": "447749d72817b211160d243311ce32302f3023e59c355b0f70be2bd3e9e7830d",
+      "bytes": 5044293
+    },
+    {
+      "file": "sigGen_expectedResults.json",
+      "url": "https://raw.githubusercontent.com/usnistgov/ACVP-Server/975de31eb83d87039ec88934fdc47d8c312b892d/gen-val/json-files/ML-DSA-sigGen-FIPS204/expectedResults.json",
+      "sha256": "228d011bbe274aeb93e22eea1e0d57b78f43795cf6a64fb5ef1e626485a0bedb",
+      "bytes": 2511972
+    },
+    {
+      "file": "sigVer_prompt.json",
+      "url": "https://raw.githubusercontent.com/usnistgov/ACVP-Server/975de31eb83d87039ec88934fdc47d8c312b892d/gen-val/json-files/ML-DSA-sigVer-FIPS204/prompt.json",
+      "sha256": "e2cba4589389756fa0bea1a7e6837138bf0a81f9d14234c9ee8f6d33caa1654e",
+      "bytes": 3125947
+    },
+    {
+      "file": "sigVer_expectedResults.json",
+      "url": "https://raw.githubusercontent.com/usnistgov/ACVP-Server/975de31eb83d87039ec88934fdc47d8c312b892d/gen-val/json-files/ML-DSA-sigVer-FIPS204/expectedResults.json",
+      "sha256": "e1d84ef1b2f35196278ab0b0ed6a46ec62cc03d2dfa92c564199e1999bfb8ea6",
+      "bytes": 13956
+    }
+  ]
+}

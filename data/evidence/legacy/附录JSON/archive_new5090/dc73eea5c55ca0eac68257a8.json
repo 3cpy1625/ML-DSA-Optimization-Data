@@ -1,0 +1,48 @@
+{
+  "batch": 256,
+  "context": "empty; internal PQMagic transcript 00 00 || M",
+  "domains": {
+    "key_entropy": "0x4b4559434f494e53",
+    "messages": "0x4d45535341474553",
+    "sign_randomness": "0x5349474e434f494e"
+  },
+  "files": {
+    "keygen_input": {
+      "bytes": 8192,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/corpus/mldsa44_b256/keygen_input.bin",
+      "sha256": "1439149cc77afbacd013732deb221793ce261ee7c61e944fca80856db7d3d3bb"
+    },
+    "keygen_output": {
+      "bytes": 991232,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/corpus/mldsa44_b256/keygen_output.bin",
+      "sha256": "ce83b2331715b189a10f964315e285807c136f1892d988dfe50ea786ac013226"
+    },
+    "sign_input": {
+      "bytes": 671744,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/corpus/mldsa44_b256/sign_input.bin",
+      "sha256": "b0a41744ad2dd82aa2c23851d9f0ded2ac08663b765315f5917a994d76375900"
+    },
+    "sign_output": {
+      "bytes": 619520,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/corpus/mldsa44_b256/sign_output.bin",
+      "sha256": "056cb71445687d5acebaaabe4cd9aa4815cee12dcf9a70cd6a38bdcf146503f3"
+    },
+    "verify_input": {
+      "bytes": 963584,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/corpus/mldsa44_b256/verify_input.bin",
+      "sha256": "a860c88a60966abce8bfea5659e5fb22a1e0dc453e32f400b08cbc54c4e9aaec"
+    },
+    "verify_output": {
+      "bytes": 1024,
+      "path": "/home/lsb/mldsa-experiments-5090/03_performance/e03-v3-cta-nvtx-20261019T220600Z/corpus/mldsa44_b256/verify_output.bin",
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    }
+  },
+  "generator": "SplitMix64 sequential little-endian words; state starts at seed XOR domain",
+  "message_bytes": 32,
+  "note": "Same prefix across batch sizes; six process blocks reuse the same input. Not independent input datasets.",
+  "parameter": 44,
+  "reference": "pinned PQMagic SHAKE, exact library hash in BUILD_RESULT.json",
+  "seed": "0x4d4c445341435550",
+  "status": "CPU_ORACLE_PASS"
+}

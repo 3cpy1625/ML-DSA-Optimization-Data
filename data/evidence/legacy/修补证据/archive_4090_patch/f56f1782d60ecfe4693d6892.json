@@ -1,0 +1,27 @@
+{
+  "source_compilation_sha256": "c73f8b5f49070d370fd8787168c2d49839afaf3aff350c83080cfb114f5ed42e",
+  "files": [
+    {
+      "path": "source/backend/sm89/mldsa_sign_module.cu",
+      "sha256": "80f78f33e437c31741e172d1a935817d7bda0e6e895025dbffb3af4437f7a2b7"
+    },
+    {
+      "path": "third_party/native/MLDSA_NONSIGN_BEST/src/sign.cu",
+      "sha256": "381d40e0b5ba957f7c4fbd854aa3505f3b963027964d194870fe875608a0d988"
+    },
+    {
+      "path": "third_party/native/MLDSA_NONSIGN_VERIFY_3CA/src/sign.cu",
+      "sha256": "6d86d59a146d88ba9932a10689f3e0f81a2edf374b9a106aba0587c3dae10859"
+    },
+    {
+      "path": "third_party/native/MLDSA_SIGN_LATEST/src/signing/unified_engine/sign.cu",
+      "sha256": "f5026ecca95467515d6de13c593e02dd5dc2c2ad8a240481a2c00457b7ea091d"
+    },
+    {
+      "path": "third_party/native/MLDSA_SIGN_M65_332/src/signing/unified_engine/sign.cu",
+      "sha256": "f5026ecca95467515d6de13c593e02dd5dc2c2ad8a240481a2c00457b7ea091d"
+    }
+  ],
+  "sampler_exhaustion_contract": "No total cap or exhaustion interface introduced by the verified four-file refill patch.",
+  "scope": "CUDA boundary errors only; no sampler failure injection claim"
+}

@@ -1,0 +1,1800 @@
+{
+  "status": "PASS",
+  "byte_comparison_against_v3_table_paths": 2039,
+  "unique_contents_unchanged": 926,
+  "data_row_counts_unchanged": 2039,
+  "extra_source_source_line_columns_removed": 30,
+  "formerly_zero_field_nonempty_paths_corrected": 108,
+  "positional_definitions_separated_from_real_headers": 7,
+  "header_paths": 1918,
+  "headerless_paths": 115,
+  "empty_file_paths": 6,
+  "fixed_width_paths": 1949,
+  "variable_width_paths": 84,
+  "schema_changed_paths": 151,
+  "changes": [
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_shake_sampling/qa/20261019T183254700468Z-b783932d/corpus_run/corpora/p44_b256/cases.tsv",
+      "SHA256": "63b0fde8978241cf296ab8a46e29beedc8c438f973fc27bfd955c6428a30222f",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": 14
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_shake_sampling/qa/20261019T183254700468Z-b783932d/corpus_run/corpora/p65_b256/cases.tsv",
+      "SHA256": "a8d0f5c7fb0dddbce70b8644173a15ee19c6e0993f1936718dc4fd85b8605e13",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": 14
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_shake_sampling/qa/20261019T183254700468Z-b783932d/corpus_run/corpora/p87_b256/cases.tsv",
+      "SHA256": "0f2c8358f9ddb8b7c3125ce6f67b2ee2128f33dc0fa0c7eadbaeb0ed4d65f773",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": 14
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_shake_sampling/qa/20261019T183313258070Z-7ec1f6f4/corpus_run/corpora/p44_b256/cases.tsv",
+      "SHA256": "63b0fde8978241cf296ab8a46e29beedc8c438f973fc27bfd955c6428a30222f",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": 14
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_shake_sampling/qa/20261019T183313258070Z-7ec1f6f4/corpus_run/corpora/p65_b256/cases.tsv",
+      "SHA256": "a8d0f5c7fb0dddbce70b8644173a15ee19c6e0993f1936718dc4fd85b8605e13",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": 14
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_shake_sampling/qa/20261019T183313258070Z-7ec1f6f4/corpus_run/corpora/p87_b256/cases.tsv",
+      "SHA256": "0f2c8358f9ddb8b7c3125ce6f67b2ee2128f33dc0fa0c7eadbaeb0ed4d65f773",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": 14
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_shake_sampling/qa/20261019T183445667143Z-42d83aa6/corpus_run/corpora/p44_b256/cases.tsv",
+      "SHA256": "63b0fde8978241cf296ab8a46e29beedc8c438f973fc27bfd955c6428a30222f",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": 14
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_shake_sampling/qa/20261019T183445667143Z-42d83aa6/corpus_run/corpora/p65_b256/cases.tsv",
+      "SHA256": "a8d0f5c7fb0dddbce70b8644173a15ee19c6e0993f1936718dc4fd85b8605e13",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": 14
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_shake_sampling/qa/20261019T183445667143Z-42d83aa6/corpus_run/corpora/p87_b256/cases.tsv",
+      "SHA256": "0f2c8358f9ddb8b7c3125ce6f67b2ee2128f33dc0fa0c7eadbaeb0ed4d65f773",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": 14
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_shake_sampling/qa/20261019T184217596164Z-258b286b/corpus_run/corpora/p44_b256/cases.tsv",
+      "SHA256": "63b0fde8978241cf296ab8a46e29beedc8c438f973fc27bfd955c6428a30222f",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": 14
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_shake_sampling/qa/20261019T184217596164Z-258b286b/corpus_run/corpora/p65_b256/cases.tsv",
+      "SHA256": "a8d0f5c7fb0dddbce70b8644173a15ee19c6e0993f1936718dc4fd85b8605e13",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": 14
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_shake_sampling/qa/20261019T184217596164Z-258b286b/corpus_run/corpora/p87_b256/cases.tsv",
+      "SHA256": "0f2c8358f9ddb8b7c3125ce6f67b2ee2128f33dc0fa0c7eadbaeb0ed4d65f773",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": 14
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/MLDSA_4090_StagePrep_20261019/trace_reviews/20261019T053119Z-02dc7034/evidence/20261019T053119Z-02dc7034/activity.tsv",
+      "SHA256": "d54297bb4c12c06b1cf1d54f964de3ce6d98726f0c30fa3a821de131aec3fe1c",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/MLDSA_Baseline_Rerun_20261018/bundle/sources/ccs/PERFORMANCE/VERIFICATION_20260718_RTX4090/CCS_2025_MLDSA_PRIMARY_MODE5_CLEAN_STATUS.csv",
+      "SHA256": "d901cab51ffd5993d26e47fb704b6f7e09d3fde5797d4ee421b17433b2eaf71f",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": 3
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/MLDSA_Baseline_Rerun_20261018/sources/ccs/PERFORMANCE/VERIFICATION_20260718_RTX4090/CCS_2025_MLDSA_PRIMARY_MODE5_CLEAN_STATUS.csv",
+      "SHA256": "d901cab51ffd5993d26e47fb704b6f7e09d3fde5797d4ee421b17433b2eaf71f",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": 3
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/MLDSA_Baseline_Rerun_20261019_InitFix/bundle/sources/ccs/PERFORMANCE/VERIFICATION_20260718_RTX4090/CCS_2025_MLDSA_PRIMARY_MODE5_CLEAN_STATUS.csv",
+      "SHA256": "d901cab51ffd5993d26e47fb704b6f7e09d3fde5797d4ee421b17433b2eaf71f",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": 3
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_shake_sampling/server_results/shake_sampling_4090_latest.tar.gz!/20261019T184352188810Z-2a5803f7/corpora/p44_b16384/cases.tsv",
+      "SHA256": "b8d298cdcb53469530001f6989383b7bb4b45bc9578bb4fb91d7d3d59a7f1d1e",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": 14
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_shake_sampling/server_results/shake_sampling_4090_latest.tar.gz!/20261019T184352188810Z-2a5803f7/corpora/p44_b4096/cases.tsv",
+      "SHA256": "1d6d6d41145bd694a2fc74e15e5284b26db74d8c1fb82668ad755faf29fd028a",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": 14
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_shake_sampling/server_results/shake_sampling_4090_latest.tar.gz!/20261019T184352188810Z-2a5803f7/corpora/p44_b8192/cases.tsv",
+      "SHA256": "c46e892953d44a4f8907d901ae97cd286e716e3cf2d5472436cb3250bbe133b4",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": 14
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_shake_sampling/server_results/shake_sampling_4090_latest.tar.gz!/20261019T184352188810Z-2a5803f7/corpora/p65_b16384/cases.tsv",
+      "SHA256": "b3f2a9f50360bdcef7f18328101fd3963adf5f14759b57915f6089c16a842789",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": 14
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_shake_sampling/server_results/shake_sampling_4090_latest.tar.gz!/20261019T184352188810Z-2a5803f7/corpora/p65_b4096/cases.tsv",
+      "SHA256": "30c195b680c988c66b72fcc0c0a5c6e28369a61f28aa566825d4e7753977f962",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": 14
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_shake_sampling/server_results/shake_sampling_4090_latest.tar.gz!/20261019T184352188810Z-2a5803f7/corpora/p65_b8192/cases.tsv",
+      "SHA256": "22319ab32fc35395b490eadd2b31251f8a2e03521dfc631f78e821ed3245faa3",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": 14
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_shake_sampling/server_results/shake_sampling_4090_latest.tar.gz!/20261019T184352188810Z-2a5803f7/corpora/p87_b16384/cases.tsv",
+      "SHA256": "40eb685ceedfc79776760edbf6ab892c8693fbbdbbfee4c334302d1e3e8328de",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": 14
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_shake_sampling/server_results/shake_sampling_4090_latest.tar.gz!/20261019T184352188810Z-2a5803f7/corpora/p87_b4096/cases.tsv",
+      "SHA256": "8392951665077a704b2126cd49afbb0d93d541ef185f0dfbae3d760c1ecbf7fe",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": 14
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_shake_sampling/server_results/shake_sampling_4090_latest.tar.gz!/20261019T184352188810Z-2a5803f7/corpora/p87_b8192/cases.tsv",
+      "SHA256": "0a312551c7415bbd099588745d5fadc9d8274fbbb5635e6fb6bd982b8c08b3ff",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": 14
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_sign_retry/server_results/v2_failure_20261020/sign_retry_4090_latest.tar.gz!/20261019T193608145088Z-c1eb5d77/tables/gpu_commit_marker_curves.csv",
+      "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_sign_retry/server_results/v2_failure_20261020/sign_retry_4090_latest.tar.gz!/20261019T193608145088Z-c1eb5d77/tables/process_counts.csv",
+      "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_sign_retry/server_results/v2_failure_20261020/sign_retry_4090_latest.tar.gz!/20261019T193608145088Z-c1eb5d77/tables/process_distributions.csv",
+      "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_sign_retry/server_results/v2_failure_20261020/sign_retry_4090_latest.tar.gz!/20261019T193608145088Z-c1eb5d77/tables/three_process_summary.csv",
+      "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_keygen_b16384_p00/attempts/20261019T100321055533Z/activity.tsv",
+      "SHA256": "de04a5cb64af7f29072af53ce2920ed803fb468cc4ab0fe460f97691e11bc7ed",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_keygen_b16384_p01/attempts/20261019T102955483845Z/activity.tsv",
+      "SHA256": "ff0dc973ef662c7abc5bb197d3658bef431c68bde209e4fdea7f1b57edfa5b52",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_keygen_b16384_p02/attempts/20261019T103024590386Z/activity.tsv",
+      "SHA256": "c415d1b16e289f802b3370d0af54ad60065792deae12d87b5e877ddb4824b061",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_keygen_b4096_p00/attempts/20261019T100309160836Z/activity.tsv",
+      "SHA256": "7eadb0fa7b68cc9bae961cd693a7c11ffa758a458636edf866a264848339ec12",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_keygen_b4096_p01/attempts/20261019T103007822440Z/activity.tsv",
+      "SHA256": "1d9af4ba6818c19285386a1aa8aed06e6a43d801fe5257c87272cc2b4fba98b9",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_keygen_b4096_p02/attempts/20261019T103013359137Z/activity.tsv",
+      "SHA256": "9c58ffb8bffff5f165d14b3b82e66f2a5515acb984c1848621dd880bab6352bc",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_keygen_b8192_p00/attempts/20261019T100315304857Z/activity.tsv",
+      "SHA256": "813269074ed1d694711ae673993ef6a634103ef1866572a95d95f2625ba91cc0",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_keygen_b8192_p01/attempts/20261019T103001805602Z/activity.tsv",
+      "SHA256": "947b5442a5abdd75cd8faab8a31c0ad1f3ee4e226bfd2e86f58e083b809e7238",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_keygen_b8192_p02/attempts/20261019T103018956834Z/activity.tsv",
+      "SHA256": "27884967ffb0b96019a61df57ee121603adf75ebe0d549c7fbd74df31b8c095b",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_sign_b16384_p00/attempts/20261019T100338937712Z/activity.tsv",
+      "SHA256": "b11cac6a0a7ab6bce8486c178aed7ae00a2ff4c7c8c5f7f33a4ebf37556383d8",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_sign_b16384_p01/attempts/20261019T102937195866Z/activity.tsv",
+      "SHA256": "b22446b842813524ab2b677af72db51aad6a2b4f61a1e6015666145361e91109",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_sign_b16384_p02/attempts/20261019T103042994399Z/activity.tsv",
+      "SHA256": "8f176a5c4b6a106d3d50348e8313c468e27458b4cb228bfe515c56bd9c3de128",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_sign_b4096_p00/attempts/20261019T100327399725Z/activity.tsv",
+      "SHA256": "60e5b356f5a74e524008ee5c45f8313f7cd4d60bd255df2e987056649bccae1f",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_sign_b4096_p01/attempts/20261019T102949845934Z/activity.tsv",
+      "SHA256": "944d56402ff9c5471a53c301a60cece803e75c7a2e5e48f0730605f24cc8a1af",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_sign_b4096_p02/attempts/20261019T103030842769Z/activity.tsv",
+      "SHA256": "5713e0f4267392a3190b2e97b1ae80bce87817332f3bbd0c3c028974cb8dacbe",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_sign_b8192_p00/attempts/20261019T100333197550Z/activity.tsv",
+      "SHA256": "74b89b4ac6a6e15a20dfc8938b99e0314cd266c0db21d2ca4e46c36e08c837e9",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_sign_b8192_p01/attempts/20261019T102943660193Z/activity.tsv",
+      "SHA256": "f57fdacec63ce334ec417a9a94d7aba9688d2b78d622655f132aba638998aee2",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_sign_b8192_p02/attempts/20261019T103036873349Z/activity.tsv",
+      "SHA256": "2075f9c2dd2be77a2eca3ec8cd24b6bc7c58657a1ef249b5da0559a9a48ca58e",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_verify_b16384_p00/attempts/20261019T100356355882Z/activity.tsv",
+      "SHA256": "965b542bc9478be002f5166a4dab3fccc83d7845f74edf1878fd786eea4529f2",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_verify_b16384_p01/attempts/20261019T102919265660Z/activity.tsv",
+      "SHA256": "7a1ad4fd87906e5ecac35c84256d700016a3ec8f7ed28bcb174aa86c3ec9c0c6",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_verify_b16384_p02/attempts/20261019T103100771183Z/activity.tsv",
+      "SHA256": "e1e32a599ceefbbfa81a1cc0d530826001e6a7ef6418a0e50706bfd524d911ca",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_verify_b4096_p00/attempts/20261019T100345576468Z/activity.tsv",
+      "SHA256": "3f4efa1c7b0d94f2b475b1f746b284b465488fe4bfd17a09d1044835f0339b30",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_verify_b4096_p01/attempts/20261019T102931399916Z/activity.tsv",
+      "SHA256": "c67afb5afba1b54a2026c35da5d6254f06ab19a4f01bc5137f6806bf6141622a",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_verify_b4096_p02/attempts/20261019T103049318872Z/activity.tsv",
+      "SHA256": "1daa0861dbef822d41d79f7f19eb5ff21062d1d16235cb8c65e117b9f1d7c5af",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_verify_b8192_p00/attempts/20261019T100351212207Z/activity.tsv",
+      "SHA256": "ea04e992406709ceb2a51956409d2b105474350b90d6ce3e90b3e5d01086189a",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_verify_b8192_p01/attempts/20261019T102925501213Z/activity.tsv",
+      "SHA256": "bcfd95153f8109cd758749b1c42a7c7dbb0a8e2c8bc02e8c4e274a7ea9425114",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa44_verify_b8192_p02/attempts/20261019T103055140978Z/activity.tsv",
+      "SHA256": "b5cafc43ee0ca09dac8436ee515e4f737d7969bddc3857efe380029d6713d983",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_keygen_b16384_p00/attempts/20261019T100415208898Z/activity.tsv",
+      "SHA256": "0f2d65bd3ce309e7ea94d6686be528b7d3e5157c81135889cabf0413c8ae3f03",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_keygen_b16384_p01/attempts/20261019T102901287469Z/activity.tsv",
+      "SHA256": "2396586cf56eebdfc115a25309e744f9c94d7785b9e105eee5ea35d9dd0b4dec",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_keygen_b16384_p02/attempts/20261019T103118694636Z/activity.tsv",
+      "SHA256": "4d03e87dae2b28cb4932e08f2808db37c04d1771fdf7ae6f69c4ca6ebd6639bc",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_keygen_b4096_p00/attempts/20261019T100402417482Z/activity.tsv",
+      "SHA256": "da6356b17ad92dc05c685ca963316bc037d01eec9d11c9e4120d045a12a608cf",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_keygen_b4096_p01/attempts/20261019T102913570957Z/activity.tsv",
+      "SHA256": "9be9953ea8ef0bef2e1971f984ea542da78e8ad80900caa778f61c760aa261c8",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_keygen_b4096_p02/attempts/20261019T103107029476Z/activity.tsv",
+      "SHA256": "6dc56bb5cca8f18bb144eb2bc334e31a58d1d78c041ca671ff021b6cb6390f13",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_keygen_b8192_p00/attempts/20261019T100408800540Z/activity.tsv",
+      "SHA256": "bb9d2df7181262344178fada7789bb51a15fcedffda6b05b6249e8301b02fa7c",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_keygen_b8192_p01/attempts/20261019T102907878438Z/activity.tsv",
+      "SHA256": "cb9b6fe7c2d7f6bf8b5f2d96f46edd36a1713e69c6d2dc1668a53475b738ab17",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_keygen_b8192_p02/attempts/20261019T103112891513Z/activity.tsv",
+      "SHA256": "f31b1f8b354c740739c77b855ff12e452dfc3b8c5b194b2fdd07439775be7bc8",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_sign_b16384_p00/attempts/20261019T100434634730Z/activity.tsv",
+      "SHA256": "f2354f8050feab409dbb4471e35a2e417ce51ce72f5d458b238e6ddca0b8d067",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_sign_b16384_p01/attempts/20261019T102843174433Z/activity.tsv",
+      "SHA256": "b0d1efd2d3ee8050ddd216a44351e710a16beff718efd9d371e99f17b3db5ea0",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_sign_b16384_p02/attempts/20261019T103137964479Z/activity.tsv",
+      "SHA256": "a1a04e35b68160a5d7f0349e56bc49811d5ebf6aa494c161f591b7ae52ebdcf8",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_sign_b4096_p00/attempts/20261019T100421829561Z/activity.tsv",
+      "SHA256": "fb2eab01b013a68c306ebf965405509276dcf02c853d6b8b3d2e5e555d1ebff6",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_sign_b4096_p01/attempts/20261019T102855330099Z/activity.tsv",
+      "SHA256": "f5affc6878ac385188a11001303f1dcdbf68b73fbc0ee80fd00c74420a3160b9",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_sign_b4096_p02/attempts/20261019T103125600226Z/activity.tsv",
+      "SHA256": "442e63448f62661d2db34d0c1e523326294cb1540287fa50df4b69028870923f",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_sign_b8192_p00/attempts/20261019T100428112438Z/activity.tsv",
+      "SHA256": "317bc91f45472bf84f013ce690307e8c5d3a724c0a9605e8f8ca7f0c0285280e",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_sign_b8192_p01/attempts/20261019T102849392359Z/activity.tsv",
+      "SHA256": "d54f105990b31ba897af9f0f62228697bc9a7ea0f497a38a2a6ab63f1ddd3c4f",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_sign_b8192_p02/attempts/20261019T103131472021Z/activity.tsv",
+      "SHA256": "068bff590f821b725db5a5208d4b10610b1d807f14826b9a969f3633e88b2941",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_verify_b16384_p00/attempts/20261019T100454106434Z/activity.tsv",
+      "SHA256": "31ae9cdcd9c351f0ba1bdc9d1b13e758c69f6739df9b129cbfb93abc5be111b4",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_verify_b16384_p01/attempts/20261019T100655968276Z/activity.tsv",
+      "SHA256": "3bde96cda526ea1eaac413701949ce62de24ec2b63e8902b21e43412040d9ffd",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_verify_b16384_p02/attempts/20261019T103156017695Z/activity.tsv",
+      "SHA256": "785f343616f8df23722b7b17c54a12b591019cdd431cb4cef8ae34f40a0159e9",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_verify_b4096_p00/attempts/20261019T100442062927Z/activity.tsv",
+      "SHA256": "b65ea206734933d7628987ddc0838fe0ed19d9236df584d0685e1e4d0af2dbcb",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_verify_b4096_p01/attempts/20261019T100707561091Z/activity.tsv",
+      "SHA256": "c875ac202c1c08e0168610e62b04ab263592d9dce65dfe756e57a7183998f5d5",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_verify_b4096_p02/attempts/20261019T103144695297Z/activity.tsv",
+      "SHA256": "a39904beccafd8cf8d54fc8a4bf5ccd76d6191e7e5e5c165a148d76668423d77",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_verify_b8192_p00/attempts/20261019T100448469602Z/activity.tsv",
+      "SHA256": "9571f8455ca3d605e1a285153a1f86536409db5044845b8e885bd19ff165139c",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_verify_b8192_p01/attempts/20261019T100701594521Z/activity.tsv",
+      "SHA256": "ef912d5576465dda1bb9693832e05fb8460d2300a2717f7ceddcbf0dc480ee58",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa65_verify_b8192_p02/attempts/20261019T103150372603Z/activity.tsv",
+      "SHA256": "792f238851f15cef143232fcc951bee0e6b037787710ee672eb7c41872b3e7f9",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_keygen_b16384_p00/attempts/20261019T100513469255Z/activity.tsv",
+      "SHA256": "c78a4125e42750d0110617eeb0446a6edc75892a19c759f4fbbd334754ec0f34",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_keygen_b16384_p01/attempts/20261019T100636290411Z/activity.tsv",
+      "SHA256": "37467e08cf7464584af5c927d92079df846f2ea5d00a7ee3e1ab2d34548896f4",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_keygen_b16384_p02/attempts/20261019T103213992501Z/activity.tsv",
+      "SHA256": "fcb6f459c861d279af639ac38beb5c12018f39b8f018d68f7023b8f0c5d65559",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_keygen_b4096_p00/attempts/20261019T100500672055Z/activity.tsv",
+      "SHA256": "cfe05539e931e3a6b34ab8bd2924b65279c84de5e4181a1953dbf335feda64f8",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_keygen_b4096_p01/attempts/20261019T100649910622Z/activity.tsv",
+      "SHA256": "1c550cf151315594834a24d5549b6d64f69ec8d95bd26c16db0ac1fee933f5f9",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_keygen_b4096_p02/attempts/20261019T103202126767Z/activity.tsv",
+      "SHA256": "c7f53c16d020f7a75a25734fbec3f2cfd13aa67e66e704933ddcee7908361b2b",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_keygen_b8192_p00/attempts/20261019T100506577447Z/activity.tsv",
+      "SHA256": "a8d31c1d5d0af3e9b4c92745b742831fc6328877d84fce4a9578e8f1b29892d1",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_keygen_b8192_p01/attempts/20261019T100643190507Z/activity.tsv",
+      "SHA256": "8cc804dfad258d9b4124f0da2b7f6dde716721a993d72a8bdaf04cd914d1a2b6",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_keygen_b8192_p02/attempts/20261019T103207842704Z/activity.tsv",
+      "SHA256": "4b781c479e402ec1940af250d9b3c7bd8ec910719b14fe3b2c3cae00b6222d23",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_sign_b16384_p00/attempts/20261019T100532973557Z/activity.tsv",
+      "SHA256": "566122f1da704ccea466eb32e3abc6aa6f3195d9b754326bd2eddfaec5d09a25",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_sign_b16384_p01/attempts/20261019T100616694424Z/activity.tsv",
+      "SHA256": "90bfe998f9bd33eb3488eb8f3ef1f33751bff42b8fc0ad512bba6ad0ee190013",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_sign_b16384_p02/attempts/20261019T103233973004Z/activity.tsv",
+      "SHA256": "79e4e5214fd6d8603070ebfdbea640301db1e8ef4a13e745d3b9e3a39b939c4e",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_sign_b4096_p00/attempts/20261019T100520331448Z/activity.tsv",
+      "SHA256": "ffb3c10a37216ed6f8ce48ccf06bb3b82800c1daec22b9d311692560f38ad99e",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_sign_b4096_p01/attempts/20261019T100630167413Z/activity.tsv",
+      "SHA256": "0802340630407a1ec4bb018fdc4492d75dbb4d650c913f0d44cb2fd6c5f279b0",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_sign_b4096_p02/attempts/20261019T103221187322Z/activity.tsv",
+      "SHA256": "c60d27dfc390e7dbcb93a1b253b7684b30d6d8b1d5eb9e686f3b2825eee5dcae",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_sign_b8192_p00/attempts/20261019T100526449067Z/activity.tsv",
+      "SHA256": "f4ec7774ded675615d377a145d311170186c7f88e0faee0123841e8dd502840e",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_sign_b8192_p01/attempts/20261019T100623742116Z/activity.tsv",
+      "SHA256": "be167455c984e5df343cd1a388e4a1faddf03bc271d412077864ae7f97037698",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_sign_b8192_p02/attempts/20261019T103227658267Z/activity.tsv",
+      "SHA256": "2c40f2c620ac96258af729650a71aad735c6237cc8b79b9d9ccc38e087f45d46",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_verify_b16384_p00/attempts/20261019T100552604495Z/activity.tsv",
+      "SHA256": "7597ddf6713ae6ec5b68df44c92e051ab24b8818848ced1261fb7acfa0d14d60",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_verify_b16384_p01/attempts/20261019T100559040639Z/activity.tsv",
+      "SHA256": "d9413087d84a9d75ccfa1b91efb7496b9b95ff5bfba7beb677649efe1d1274e1",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_verify_b16384_p02/attempts/20261019T103253581867Z/activity.tsv",
+      "SHA256": "1549b0827abc7bb0c5750929c1bba82b3d1409fcb6c518c06d78d85be04eb3af",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_verify_b4096_p00/attempts/20261019T100540498627Z/activity.tsv",
+      "SHA256": "12039f3f98b09fd5d47508251b5b30dc4aca04b83ffb6d65c7d2b479d399258e",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_verify_b4096_p01/attempts/20261019T100610871699Z/activity.tsv",
+      "SHA256": "c22c3174616a12c337291c35f72494952bb99fb8c4b4275e11fc7fa32adb08a3",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_verify_b4096_p02/attempts/20261019T103241389625Z/activity.tsv",
+      "SHA256": "ae7231c646644b23010ea318d018e7445d2b902938bbe64d92c1f8e442d1898d",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_verify_b8192_p00/attempts/20261019T100546278054Z/activity.tsv",
+      "SHA256": "145387fb610b3df2a5a46ed02497154d9af61b2eb1a5f229a8e901f03f620c1a",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_verify_b8192_p01/attempts/20261019T100604912231Z/activity.tsv",
+      "SHA256": "639b809200ff4083230cc4d241fa5131c707d7d3ccddc94c91d82c6ff4012b72",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/4090_stage_matrix/server_results/v2/stage_matrix_4090_latest.tar.gz!/20261019T100306Z-df0a74e7/jobs/mldsa87_verify_b8192_p02/attempts/20261019T103247387450Z/activity.tsv",
+      "SHA256": "4af1c15b8e4800a2af05e0fb0fd5ae433e6f74b8ed86985ea8fa38da47ce4fff",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/MLDSA_4090_StagePrep_20261019/trace_reviews/20261019T053119Z-02dc7034/trace_probe_4090_20261019T053119Z-02dc7034.tar.gz!/20261019T053119Z-02dc7034/activity.tsv",
+      "SHA256": "d54297bb4c12c06b1cf1d54f964de3ce6d98726f0c30fa3a821de131aec3fe1c",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "MLDSA_4090_Experiments.zip",
+      "表格路径": "MLDSA_4090_Experiments/MLDSA_4090_StagePrep_20261019/trace_v2_server_results/trace_probe_v2_4090_latest.tar.gz!/20261019T053808Z-5dce01a2/activity.tsv",
+      "SHA256": "18c1efaacb23f2fefdf7c696484f0ff8d3220dc801431f7e5a510262db4495dd",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "5090实验结果_20261019.zip",
+      "表格路径": "5090实验结果_20261019/scripts/autonomous_20261020/selftest_e3q/c175f95e/invoke/one/attempts/20261019T201556923759Z-36928/telemetry.csv",
+      "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "5090实验结果_20261019.zip",
+      "表格路径": "5090实验结果_20261019/scripts/autonomous_20261020/selftest_e3q/c3e57309/mismatch/one/attempts/20261019T201559837205Z-36928/telemetry.csv",
+      "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": {
+        "字段数": {
+          "v3": "0",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "新5090.zip",
+      "表格路径": "新5090.zip!新5090/final_verified/cell_summary.csv",
+      "SHA256": "a106f3ffd943940e3297024b8a867556f723ca213f3d6a2bfce9cca853d99500",
+      "changes": {
+        "字段数": {
+          "v3": "10",
+          "v4": 8
+        },
+        "字段": {
+          "v3": "parameter / operation / batch / on_mean_ms / off_mean_ms / paired_geomean_speedup / paired_blocks / evidence / source_line / source",
+          "v4": "parameter / operation / batch / on_mean_ms / off_mean_ms / paired_geomean_speedup / paired_blocks / evidence"
+        }
+      }
+    },
+    {
+      "来源包": "新5090.zip",
+      "表格路径": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/joint_matrix_20261020T132318Z_db87cd/cell_summary.csv",
+      "SHA256": "15ff93297828d78a939fb75e3ed7bcbf86a6449c2e4c60e7613efcb7534bee7c",
+      "changes": {
+        "字段数": {
+          "v3": "10",
+          "v4": 8
+        },
+        "字段": {
+          "v3": "parameter / operation / batch / on_mean_ms / off_mean_ms / paired_geomean_speedup / paired_blocks / evidence / source_line / source",
+          "v4": "parameter / operation / batch / on_mean_ms / off_mean_ms / paired_geomean_speedup / paired_blocks / evidence"
+        }
+      }
+    },
+    {
+      "来源包": "新5090.zip",
+      "表格路径": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/source/third_party/native/MLDSA_SIGN_LATEST/reference/M65_NATURAL_B256_E1/corpus/depth_histogram.csv",
+      "SHA256": "a17feb6e0b826eeda744f022c017337d2d43d11fea135d749c23b7b7c322b157",
+      "changes": {
+        "字段数": {
+          "v3": "4",
+          "v4": 2
+        },
+        "字段": {
+          "v3": "attempt / count / source_line / source",
+          "v4": "attempt / count"
+        }
+      }
+    },
+    {
+      "来源包": "新5090.zip",
+      "表格路径": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/source/third_party/native/MLDSA_SIGN_LATEST/reference/M65_NATURAL_B256_E1/corpus/index.csv",
+      "SHA256": "221376fc8d0e1edaa8e818616a1c62b757c4e892e46b45f4da2c6c35a9139ba2",
+      "changes": {
+        "字段数": {
+          "v3": "10",
+          "v4": 8
+        },
+        "字段": {
+          "v3": "kat_id / pool_type / corpus_epoch / depth_class / search_index / reference_attempt_index / reference_kappa / shard_id / source_line / source",
+          "v4": "kat_id / pool_type / corpus_epoch / depth_class / search_index / reference_attempt_index / reference_kappa / shard_id"
+        }
+      }
+    },
+    {
+      "来源包": "新5090.zip",
+      "表格路径": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/source/third_party/native/MLDSA_SIGN_LATEST/reference/M65_NATURAL_EPOCH1_V2/corpus/depth_histogram.csv",
+      "SHA256": "17176293643e955d6e97fbbae4d3a392d2bb548012d1bc7e4d4bfe1dfe3b57ed",
+      "changes": {
+        "字段数": {
+          "v3": "4",
+          "v4": 2
+        },
+        "字段": {
+          "v3": "attempt / count / source_line / source",
+          "v4": "attempt / count"
+        }
+      }
+    },
+    {
+      "来源包": "新5090.zip",
+      "表格路径": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/source/third_party/native/MLDSA_SIGN_LATEST/reference/M65_NATURAL_EPOCH1_V2/corpus/index.csv",
+      "SHA256": "22cefba9b6bd8b62363acc5aefbac912801efb4beaf0fd098a77e411864a5926",
+      "changes": {
+        "字段数": {
+          "v3": "10",
+          "v4": 8
+        },
+        "字段": {
+          "v3": "kat_id / pool_type / corpus_epoch / depth_class / search_index / reference_attempt_index / reference_kappa / shard_id / source_line / source",
+          "v4": "kat_id / pool_type / corpus_epoch / depth_class / search_index / reference_attempt_index / reference_kappa / shard_id"
+        }
+      }
+    },
+    {
+      "来源包": "新5090.zip",
+      "表格路径": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/source/third_party/native/MLDSA_SIGN_M65_332/reference/M65_NATURAL_B256_E1/corpus/depth_histogram.csv",
+      "SHA256": "a17feb6e0b826eeda744f022c017337d2d43d11fea135d749c23b7b7c322b157",
+      "changes": {
+        "字段数": {
+          "v3": "4",
+          "v4": 2
+        },
+        "字段": {
+          "v3": "attempt / count / source_line / source",
+          "v4": "attempt / count"
+        }
+      }
+    },
+    {
+      "来源包": "新5090.zip",
+      "表格路径": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/source/third_party/native/MLDSA_SIGN_M65_332/reference/M65_NATURAL_B256_E1/corpus/index.csv",
+      "SHA256": "221376fc8d0e1edaa8e818616a1c62b757c4e892e46b45f4da2c6c35a9139ba2",
+      "changes": {
+        "字段数": {
+          "v3": "10",
+          "v4": 8
+        },
+        "字段": {
+          "v3": "kat_id / pool_type / corpus_epoch / depth_class / search_index / reference_attempt_index / reference_kappa / shard_id / source_line / source",
+          "v4": "kat_id / pool_type / corpus_epoch / depth_class / search_index / reference_attempt_index / reference_kappa / shard_id"
+        }
+      }
+    },
+    {
+      "来源包": "新5090.zip",
+      "表格路径": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/source/third_party/native/MLDSA_SIGN_M65_332/reference/M65_NATURAL_EPOCH1_V2/corpus/depth_histogram.csv",
+      "SHA256": "17176293643e955d6e97fbbae4d3a392d2bb548012d1bc7e4d4bfe1dfe3b57ed",
+      "changes": {
+        "字段数": {
+          "v3": "4",
+          "v4": 2
+        },
+        "字段": {
+          "v3": "attempt / count / source_line / source",
+          "v4": "attempt / count"
+        }
+      }
+    },
+    {
+      "来源包": "新5090.zip",
+      "表格路径": "新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/source/third_party/native/MLDSA_SIGN_M65_332/reference/M65_NATURAL_EPOCH1_V2/corpus/index.csv",
+      "SHA256": "22cefba9b6bd8b62363acc5aefbac912801efb4beaf0fd098a77e411864a5926",
+      "changes": {
+        "字段数": {
+          "v3": "10",
+          "v4": 8
+        },
+        "字段": {
+          "v3": "kat_id / pool_type / corpus_epoch / depth_class / search_index / reference_attempt_index / reference_kappa / shard_id / source_line / source",
+          "v4": "kat_id / pool_type / corpus_epoch / depth_class / search_index / reference_attempt_index / reference_kappa / shard_id"
+        }
+      }
+    },
+    {
+      "来源包": "新5090.zip",
+      "表格路径": "新5090.zip!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/m44_three_arm_20261020T121813Z_11cf6ec1.tar.gz!source/third_party/native/MLDSA_SIGN_LATEST/reference/M65_NATURAL_B256_E1/corpus/depth_histogram.csv",
+      "SHA256": "a17feb6e0b826eeda744f022c017337d2d43d11fea135d749c23b7b7c322b157",
+      "changes": {
+        "字段数": {
+          "v3": "4",
+          "v4": 2
+        },
+        "字段": {
+          "v3": "attempt / count / source_line / source",
+          "v4": "attempt / count"
+        }
+      }
+    },
+    {
+      "来源包": "新5090.zip",
+      "表格路径": "新5090.zip!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/m44_three_arm_20261020T121813Z_11cf6ec1.tar.gz!source/third_party/native/MLDSA_SIGN_LATEST/reference/M65_NATURAL_B256_E1/corpus/index.csv",
+      "SHA256": "221376fc8d0e1edaa8e818616a1c62b757c4e892e46b45f4da2c6c35a9139ba2",
+      "changes": {
+        "字段数": {
+          "v3": "10",
+          "v4": 8
+        },
+        "字段": {
+          "v3": "kat_id / pool_type / corpus_epoch / depth_class / search_index / reference_attempt_index / reference_kappa / shard_id / source_line / source",
+          "v4": "kat_id / pool_type / corpus_epoch / depth_class / search_index / reference_attempt_index / reference_kappa / shard_id"
+        }
+      }
+    },
+    {
+      "来源包": "新5090.zip",
+      "表格路径": "新5090.zip!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/m44_three_arm_20261020T121813Z_11cf6ec1.tar.gz!source/third_party/native/MLDSA_SIGN_LATEST/reference/M65_NATURAL_EPOCH1_V2/corpus/depth_histogram.csv",
+      "SHA256": "17176293643e955d6e97fbbae4d3a392d2bb548012d1bc7e4d4bfe1dfe3b57ed",
+      "changes": {
+        "字段数": {
+          "v3": "4",
+          "v4": 2
+        },
+        "字段": {
+          "v3": "attempt / count / source_line / source",
+          "v4": "attempt / count"
+        }
+      }
+    },
+    {
+      "来源包": "新5090.zip",
+      "表格路径": "新5090.zip!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/m44_three_arm_20261020T121813Z_11cf6ec1.tar.gz!source/third_party/native/MLDSA_SIGN_LATEST/reference/M65_NATURAL_EPOCH1_V2/corpus/index.csv",
+      "SHA256": "22cefba9b6bd8b62363acc5aefbac912801efb4beaf0fd098a77e411864a5926",
+      "changes": {
+        "字段数": {
+          "v3": "10",
+          "v4": 8
+        },
+        "字段": {
+          "v3": "kat_id / pool_type / corpus_epoch / depth_class / search_index / reference_attempt_index / reference_kappa / shard_id / source_line / source",
+          "v4": "kat_id / pool_type / corpus_epoch / depth_class / search_index / reference_attempt_index / reference_kappa / shard_id"
+        }
+      }
+    },
+    {
+      "来源包": "新5090.zip",
+      "表格路径": "新5090.zip!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/m44_three_arm_20261020T121813Z_11cf6ec1.tar.gz!source/third_party/native/MLDSA_SIGN_M65_332/reference/M65_NATURAL_B256_E1/corpus/depth_histogram.csv",
+      "SHA256": "a17feb6e0b826eeda744f022c017337d2d43d11fea135d749c23b7b7c322b157",
+      "changes": {
+        "字段数": {
+          "v3": "4",
+          "v4": 2
+        },
+        "字段": {
+          "v3": "attempt / count / source_line / source",
+          "v4": "attempt / count"
+        }
+      }
+    },
+    {
+      "来源包": "新5090.zip",
+      "表格路径": "新5090.zip!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/m44_three_arm_20261020T121813Z_11cf6ec1.tar.gz!source/third_party/native/MLDSA_SIGN_M65_332/reference/M65_NATURAL_B256_E1/corpus/index.csv",
+      "SHA256": "221376fc8d0e1edaa8e818616a1c62b757c4e892e46b45f4da2c6c35a9139ba2",
+      "changes": {
+        "字段数": {
+          "v3": "10",
+          "v4": 8
+        },
+        "字段": {
+          "v3": "kat_id / pool_type / corpus_epoch / depth_class / search_index / reference_attempt_index / reference_kappa / shard_id / source_line / source",
+          "v4": "kat_id / pool_type / corpus_epoch / depth_class / search_index / reference_attempt_index / reference_kappa / shard_id"
+        }
+      }
+    },
+    {
+      "来源包": "新5090.zip",
+      "表格路径": "新5090.zip!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/m44_three_arm_20261020T121813Z_11cf6ec1.tar.gz!source/third_party/native/MLDSA_SIGN_M65_332/reference/M65_NATURAL_EPOCH1_V2/corpus/depth_histogram.csv",
+      "SHA256": "17176293643e955d6e97fbbae4d3a392d2bb548012d1bc7e4d4bfe1dfe3b57ed",
+      "changes": {
+        "字段数": {
+          "v3": "4",
+          "v4": 2
+        },
+        "字段": {
+          "v3": "attempt / count / source_line / source",
+          "v4": "attempt / count"
+        }
+      }
+    },
+    {
+      "来源包": "新5090.zip",
+      "表格路径": "新5090.zip!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/m44_three_arm_20261020T121813Z_11cf6ec1.tar.gz!source/third_party/native/MLDSA_SIGN_M65_332/reference/M65_NATURAL_EPOCH1_V2/corpus/index.csv",
+      "SHA256": "22cefba9b6bd8b62363acc5aefbac912801efb4beaf0fd098a77e411864a5926",
+      "changes": {
+        "字段数": {
+          "v3": "10",
+          "v4": 8
+        },
+        "字段": {
+          "v3": "kat_id / pool_type / corpus_epoch / depth_class / search_index / reference_attempt_index / reference_kappa / shard_id / source_line / source",
+          "v4": "kat_id / pool_type / corpus_epoch / depth_class / search_index / reference_attempt_index / reference_kappa / shard_id"
+        }
+      }
+    },
+    {
+      "来源包": "新5090.zip",
+      "表格路径": "新5090.zip!新5090/switch_pairs_verified/switch_pairs_20261020T131242Z.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/source/third_party/native/MLDSA_SIGN_LATEST/reference/M65_NATURAL_B256_E1/corpus/depth_histogram.csv",
+      "SHA256": "a17feb6e0b826eeda744f022c017337d2d43d11fea135d749c23b7b7c322b157",
+      "changes": {
+        "字段数": {
+          "v3": "4",
+          "v4": 2
+        },
+        "字段": {
+          "v3": "attempt / count / source_line / source",
+          "v4": "attempt / count"
+        }
+      }
+    },
+    {
+      "来源包": "新5090.zip",
+      "表格路径": "新5090.zip!新5090/switch_pairs_verified/switch_pairs_20261020T131242Z.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/source/third_party/native/MLDSA_SIGN_LATEST/reference/M65_NATURAL_B256_E1/corpus/index.csv",
+      "SHA256": "221376fc8d0e1edaa8e818616a1c62b757c4e892e46b45f4da2c6c35a9139ba2",
+      "changes": {
+        "字段数": {
+          "v3": "10",
+          "v4": 8
+        },
+        "字段": {
+          "v3": "kat_id / pool_type / corpus_epoch / depth_class / search_index / reference_attempt_index / reference_kappa / shard_id / source_line / source",
+          "v4": "kat_id / pool_type / corpus_epoch / depth_class / search_index / reference_attempt_index / reference_kappa / shard_id"
+        }
+      }
+    },
+    {
+      "来源包": "新5090.zip",
+      "表格路径": "新5090.zip!新5090/switch_pairs_verified/switch_pairs_20261020T131242Z.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/source/third_party/native/MLDSA_SIGN_LATEST/reference/M65_NATURAL_EPOCH1_V2/corpus/depth_histogram.csv",
+      "SHA256": "17176293643e955d6e97fbbae4d3a392d2bb548012d1bc7e4d4bfe1dfe3b57ed",
+      "changes": {
+        "字段数": {
+          "v3": "4",
+          "v4": 2
+        },
+        "字段": {
+          "v3": "attempt / count / source_line / source",
+          "v4": "attempt / count"
+        }
+      }
+    },
+    {
+      "来源包": "新5090.zip",
+      "表格路径": "新5090.zip!新5090/switch_pairs_verified/switch_pairs_20261020T131242Z.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/source/third_party/native/MLDSA_SIGN_LATEST/reference/M65_NATURAL_EPOCH1_V2/corpus/index.csv",
+      "SHA256": "22cefba9b6bd8b62363acc5aefbac912801efb4beaf0fd098a77e411864a5926",
+      "changes": {
+        "字段数": {
+          "v3": "10",
+          "v4": 8
+        },
+        "字段": {
+          "v3": "kat_id / pool_type / corpus_epoch / depth_class / search_index / reference_attempt_index / reference_kappa / shard_id / source_line / source",
+          "v4": "kat_id / pool_type / corpus_epoch / depth_class / search_index / reference_attempt_index / reference_kappa / shard_id"
+        }
+      }
+    },
+    {
+      "来源包": "新5090.zip",
+      "表格路径": "新5090.zip!新5090/switch_pairs_verified/switch_pairs_20261020T131242Z.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/source/third_party/native/MLDSA_SIGN_M65_332/reference/M65_NATURAL_B256_E1/corpus/depth_histogram.csv",
+      "SHA256": "a17feb6e0b826eeda744f022c017337d2d43d11fea135d749c23b7b7c322b157",
+      "changes": {
+        "字段数": {
+          "v3": "4",
+          "v4": 2
+        },
+        "字段": {
+          "v3": "attempt / count / source_line / source",
+          "v4": "attempt / count"
+        }
+      }
+    },
+    {
+      "来源包": "新5090.zip",
+      "表格路径": "新5090.zip!新5090/switch_pairs_verified/switch_pairs_20261020T131242Z.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/source/third_party/native/MLDSA_SIGN_M65_332/reference/M65_NATURAL_B256_E1/corpus/index.csv",
+      "SHA256": "221376fc8d0e1edaa8e818616a1c62b757c4e892e46b45f4da2c6c35a9139ba2",
+      "changes": {
+        "字段数": {
+          "v3": "10",
+          "v4": 8
+        },
+        "字段": {
+          "v3": "kat_id / pool_type / corpus_epoch / depth_class / search_index / reference_attempt_index / reference_kappa / shard_id / source_line / source",
+          "v4": "kat_id / pool_type / corpus_epoch / depth_class / search_index / reference_attempt_index / reference_kappa / shard_id"
+        }
+      }
+    },
+    {
+      "来源包": "新5090.zip",
+      "表格路径": "新5090.zip!新5090/switch_pairs_verified/switch_pairs_20261020T131242Z.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/source/third_party/native/MLDSA_SIGN_M65_332/reference/M65_NATURAL_EPOCH1_V2/corpus/depth_histogram.csv",
+      "SHA256": "17176293643e955d6e97fbbae4d3a392d2bb548012d1bc7e4d4bfe1dfe3b57ed",
+      "changes": {
+        "字段数": {
+          "v3": "4",
+          "v4": 2
+        },
+        "字段": {
+          "v3": "attempt / count / source_line / source",
+          "v4": "attempt / count"
+        }
+      }
+    },
+    {
+      "来源包": "新5090.zip",
+      "表格路径": "新5090.zip!新5090/switch_pairs_verified/switch_pairs_20261020T131242Z.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/source/third_party/native/MLDSA_SIGN_M65_332/reference/M65_NATURAL_EPOCH1_V2/corpus/index.csv",
+      "SHA256": "22cefba9b6bd8b62363acc5aefbac912801efb4beaf0fd098a77e411864a5926",
+      "changes": {
+        "字段数": {
+          "v3": "10",
+          "v4": 8
+        },
+        "字段": {
+          "v3": "kat_id / pool_type / corpus_epoch / depth_class / search_index / reference_attempt_index / reference_kappa / shard_id / source_line / source",
+          "v4": "kat_id / pool_type / corpus_epoch / depth_class / search_index / reference_attempt_index / reference_kappa / shard_id"
+        }
+      }
+    },
+    {
+      "来源包": "补测.zip",
+      "表格路径": "补测.zip!补测/paired_blocks.csv",
+      "SHA256": "4983146bd4ef50c99bfa0b25ff6f611a4a65a9529aa179a8901536fa4ec741d9",
+      "changes": {
+        "字段数": {
+          "v3": "7",
+          "v4": 5
+        },
+        "字段": {
+          "v3": "pattern / block / on_ms / off_ms / off_over_on / source / source_line",
+          "v4": "pattern / block / on_ms / off_ms / off_over_on"
+        }
+      }
+    },
+    {
+      "来源包": "补测.zip",
+      "表格路径": "补测.zip!补测/summary.csv",
+      "SHA256": "339ca849ca001ab3379250bb09c9fdc8ab0d58a7273505d8532137206dfb5d5b",
+      "changes": {
+        "字段数": {
+          "v3": "11",
+          "v4": 9
+        },
+        "字段": {
+          "v3": "pattern / batch / pairs / on_mean_ms / off_mean_ms / paired_geomean_speedup / time_reduction_pct / min_pair_ratio / max_pair_ratio / source / source_line",
+          "v4": "pattern / batch / pairs / on_mean_ms / off_mean_ms / paired_geomean_speedup / time_reduction_pct / min_pair_ratio / max_pair_ratio"
+        }
+      }
+    },
+    {
+      "来源包": "补测.zip",
+      "表格路径": "补测.zip!补测/minimal_v65_20261020T145604Z_6e07c795.tar.gz!minimal_v65_20261020T145604Z_6e07c795/paired_blocks.csv",
+      "SHA256": "4983146bd4ef50c99bfa0b25ff6f611a4a65a9529aa179a8901536fa4ec741d9",
+      "changes": {
+        "字段数": {
+          "v3": "7",
+          "v4": 5
+        },
+        "字段": {
+          "v3": "pattern / block / on_ms / off_ms / off_over_on / source / source_line",
+          "v4": "pattern / block / on_ms / off_ms / off_over_on"
+        }
+      }
+    },
+    {
+      "来源包": "补测.zip",
+      "表格路径": "补测.zip!补测/minimal_v65_20261020T145604Z_6e07c795.tar.gz!minimal_v65_20261020T145604Z_6e07c795/summary.csv",
+      "SHA256": "339ca849ca001ab3379250bb09c9fdc8ab0d58a7273505d8532137206dfb5d5b",
+      "changes": {
+        "字段数": {
+          "v3": "11",
+          "v4": 9
+        },
+        "字段": {
+          "v3": "pattern / batch / pairs / on_mean_ms / off_mean_ms / paired_geomean_speedup / time_reduction_pct / min_pair_ratio / max_pair_ratio / source / source_line",
+          "v4": "pattern / batch / pairs / on_mean_ms / off_mean_ms / paired_geomean_speedup / time_reduction_pct / min_pair_ratio / max_pair_ratio"
+        }
+      }
+    },
+    {
+      "来源包": "4090修补.zip",
+      "表格路径": "4090修补.zip!4090修补/qa/reviewed_sync_6ce428a6/inputs/p44/cases.tsv",
+      "SHA256": "7631112da2e0eb123091f8d09d66c2eed62dfc6fa150befa651047af37e37250",
+      "changes": {
+        "字段": {
+          "v3": "case_id / op / rate / input_bytes / output_bytes / units / force_blocks / budget / n / qualify_only / both_policies / input_path / oracle_path / trace_prefix / work_prefix",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "4090修补.zip",
+      "表格路径": "4090修补.zip!4090修补/qa/reviewed_sync_6ce428a6/inputs/p65/cases.tsv",
+      "SHA256": "47a1e88777810fa84ac08adba27d20f1f12a6650bd3d7fbc1090ac0871142941",
+      "changes": {
+        "字段": {
+          "v3": "case_id / op / rate / input_bytes / output_bytes / units / force_blocks / budget / n / qualify_only / both_policies / input_path / oracle_path / trace_prefix / work_prefix",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "4090修补.zip",
+      "表格路径": "4090修补.zip!4090修补/qa/reviewed_sync_6ce428a6/inputs/p87/cases.tsv",
+      "SHA256": "f19eba42af3453c766ba34227e6ddfce418c313fcde9af896ba316bcf30d6c29",
+      "changes": {
+        "字段": {
+          "v3": "case_id / op / rate / input_bytes / output_bytes / units / force_blocks / budget / n / qualify_only / both_policies / input_path / oracle_path / trace_prefix / work_prefix",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "4090修补.zip",
+      "表格路径": "4090修补.zip!4090修补/split32_racecheck_v1/server_results/20261020T161628260124Z-b966f10f/20261020T161628260124Z-b966f10f.tar.gz!20261020T161628260124Z-b966f10f/inputs/p44/cases.tsv",
+      "SHA256": "cf3c86018c336fb2513cc7f776e1136f0cd3a81d09f497080629567f8e5675c0",
+      "changes": {
+        "字段": {
+          "v3": "case_id / op / rate / input_bytes / output_bytes / units / force_blocks / budget / n / qualify_only / both_policies / input_path / oracle_path / trace_prefix / work_prefix",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "4090修补.zip",
+      "表格路径": "4090修补.zip!4090修补/split32_sync_patch_v2/server_results/20261020T162230081774Z-b4e3d46f/20261020T162230081774Z-b4e3d46f.tar.gz!20261020T162230081774Z-b4e3d46f/inputs/p44/cases.tsv",
+      "SHA256": "7631112da2e0eb123091f8d09d66c2eed62dfc6fa150befa651047af37e37250",
+      "changes": {
+        "字段": {
+          "v3": "case_id / op / rate / input_bytes / output_bytes / units / force_blocks / budget / n / qualify_only / both_policies / input_path / oracle_path / trace_prefix / work_prefix",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "4090修补.zip",
+      "表格路径": "4090修补.zip!4090修补/split32_sync_patch_v2/server_results/20261020T162230081774Z-b4e3d46f/20261020T162230081774Z-b4e3d46f.tar.gz!20261020T162230081774Z-b4e3d46f/inputs/p65/cases.tsv",
+      "SHA256": "47a1e88777810fa84ac08adba27d20f1f12a6650bd3d7fbc1090ac0871142941",
+      "changes": {
+        "字段": {
+          "v3": "case_id / op / rate / input_bytes / output_bytes / units / force_blocks / budget / n / qualify_only / both_policies / input_path / oracle_path / trace_prefix / work_prefix",
+          "v4": ""
+        }
+      }
+    },
+    {
+      "来源包": "4090修补.zip",
+      "表格路径": "4090修补.zip!4090修补/split32_sync_patch_v2/server_results/20261020T162230081774Z-b4e3d46f/20261020T162230081774Z-b4e3d46f.tar.gz!20261020T162230081774Z-b4e3d46f/inputs/p87/cases.tsv",
+      "SHA256": "f19eba42af3453c766ba34227e6ddfce418c313fcde9af896ba316bcf30d6c29",
+      "changes": {
+        "字段": {
+          "v3": "case_id / op / rate / input_bytes / output_bytes / units / force_blocks / budget / n / qualify_only / both_policies / input_path / oracle_path / trace_prefix / work_prefix",
+          "v4": ""
+        }
+      }
+    }
+  ],
+  "counting_note": "数据行数为CSV/TSV解析记录数；有表头时扣除首记录，无表头时保留全部记录；不是独立实验或样本次数。",
+  "raw_definition": "原包原样表表示用户原ZIP中的CSV/TSV原字节，可能是原实验已产生的汇总表；整理派生表表示本次整理从JSON/日志等转成的表。"
+}

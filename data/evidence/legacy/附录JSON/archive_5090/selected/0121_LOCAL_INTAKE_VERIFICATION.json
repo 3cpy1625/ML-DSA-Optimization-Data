@@ -1,0 +1,123 @@
+{
+  "status": "SHAKE_SAMPLING_5090_LOCAL_INTAKE_PASS_WITH_EXPLICIT_SCOPE_LIMITS",
+  "reviewed_utc": "2026-10-19T21:47:08.833011+00:00",
+  "archive": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\shake_sampling\\shake_sampling_5090_20261019T212354751706Z-7354f3aa_f79f6d33.tar.gz",
+  "archive_bytes": 1522169294,
+  "archive_sha256": "8c88cfaa268affbd04807a6c8143013e67480c1c33e4c38a9f5999c291309ce1",
+  "sidecar_matches": true,
+  "run_id": "20261019T212354751706Z-7354f3aa",
+  "runner_sha256": "0cf4b7ea7af8bf15e91eee87e9c2dd340eec64be0c91e12ecea921e04fcff65c",
+  "safe_unique_regular_members": 3159,
+  "included_manifest_entries_verified_bytes_sha256": 3158,
+  "all_uncompressed_archive_bytes_verified": 3470871349,
+  "omitted_entries": 0,
+  "matrix_status": "SHAKE_SAMPLING_MATRIX_PASS",
+  "accepted_processes": 27,
+  "accepted_cells": 9,
+  "clean_execution_records": 35,
+  "timing_samples_independently_matched_to_stdout": 15390,
+  "zero_mismatch_check_records": 2538,
+  "process_variant_rows_recomputed": 1026,
+  "cell_variant_rows_recomputed": 342,
+  "paired_ratio_rows_recomputed": 234,
+  "gpu_output_hashes_match_cpu_oracle": 567,
+  "gpu_trace_hashes_match_cpu_expected_trace": 1512,
+  "independent_deterministic_input_hashes": 189,
+  "independent_hashlib_shake_output_hashes": 90,
+  "independent_full_sampling_and_raw_permutation_oracle_report": {
+    "path": "E:\\密码竞赛\\work\\shake_intake_5090\\independent_sampling_review.json",
+    "sha256": "c40e51b8128a597b1d976756a67ccfb45a16e4a277f46fc6d88e895ec1f6314d",
+    "contents": {
+      "status": "INDEPENDENT_SHAKE_AND_SAMPLING_ORACLE_PASS",
+      "reviewed_utc": "2026-10-19T21:46:28.950430+00:00",
+      "archive_sha256": "8c88cfaa268affbd04807a6c8143013e67480c1c33e4c38a9f5999c291309ce1",
+      "run_id": "20261019T212354751706Z-7354f3aa",
+      "script_sha256": "2a3b129818ca5a315757955b1cddf2bada9ad90a1f4916728d83fdc831242212",
+      "scope": "Independent local CPU reconstruction; no archived/local collector functions imported or executed. Hashlib supplies SHAKE streams; independent coordinate-array FIPS 202 permutation checks raw five-permutation outputs. Sampling parsers independently use modulo eta reduction and full-prefix bit extraction.",
+      "keccak_zero_known_answer_first_lane": true,
+      "own_sponge_hashlib_boundary_checks": 24,
+      "case_input_and_output_rows_recomputed": 16128,
+      "case_on_off_trace_rows_recomputed": 32256,
+      "corpus_input_hashes": 189,
+      "corpus_output_oracle_hashes": 189,
+      "corpus_trace_oracle_hashes": 378,
+      "output_hashes_by_operation": {
+        "0": 9,
+        "1": 90,
+        "2": 27,
+        "3": 27,
+        "4": 9,
+        "5": 27
+      },
+      "case_policy_trace_histograms_recomputed": 126,
+      "limits": [
+        "This checks the exact standalone harness semantics including synthetic force_blocks/budget exhaustion. It does not establish a production sampler or full API speedup.",
+        "No independent standard KAT corpus was downloaded; raw permutation uses a first-lane known answer and 24 independently computed SHAKE sponge comparisons to hashlib."
+      ]
+    }
+  },
+  "parameter_configurations": {
+    "44": [
+      2,
+      2,
+      39,
+      131072,
+      32
+    ],
+    "65": [
+      3,
+      4,
+      49,
+      524288,
+      48
+    ],
+    "87": [
+      5,
+      2,
+      60,
+      524288,
+      64
+    ]
+  },
+  "compile_modes_and_sealed_header_confirmed": true,
+  "generated_source_reconstructed_from_sealed_template_and_scalar_comparator": true,
+  "local_original_source_files_independently_hashed": 1075,
+  "original_identity_pre_post_final_equal": true,
+  "v3_build_result_verified_sha256": "504b4b151f42d930f02cf86856531fb06e239b7b60f09e68e7ad2164ad865fb2",
+  "gpu_uuid": "GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a",
+  "compute_capability": [
+    12,
+    0
+  ],
+  "cuda_target": "sm_120",
+  "nvcc_version": "12.9.86",
+  "gpu_idle_qualified_processes": 27,
+  "busy_precheck_samples": 1,
+  "settling_post_samples": 23,
+  "gpu_lifecycle_scope": "All 27 nonoverlapping benchmark process intervals have a ten-second consecutive idle prelaunch tail; all post snapshots have no compute processes and end with three idle snapshots. No continuous exclusive-use claim.",
+  "backends_covered": [
+    "scalar/thread",
+    "warp PTX"
+  ],
+  "split32_covered": false,
+  "scope": "Standalone Keccak/SHAKE and sampling parser harness; only the Keccak state backend differs. Both variants use the same lane-zero sampling parser. Includes synthetic forced refill/exhaustion fixtures and SHAKE boundary cases. Original nine production modules are not loaded. No production split32, ballot-compaction comparison, or end-to-end ML-DSA speedup is established.",
+  "whole_outline_completion_assessed": false,
+  "outline_completion_interpretation": "This intake accepts this exact standalone operator matrix only. The absence of separate shuffle or ballot backends is a scope description, not an assertion that the outline explicitly requires those experiments.",
+  "limitations": [
+    "Standalone operators using sealed donor Keccak and scalar-comparator sources; original nine DSOs are neither modified nor loaded.",
+    "Sampling uses the same lane-zero parser in both backends; this isolates Keccak state mapping, not ballot-compaction performance.",
+    "Kernel event times include output initialization, decoding and trace writes; no end-to-end production-module speedup is established.",
+    "ON/OFF changes this audit harness only. OFF uses eight squeeze blocks, rather than a production-module early-stop configuration.",
+    "Forced-rejection cases are synthetic refill/exhaustion fixtures, not normal FIPS vectors.",
+    "256 deterministic input rows are tiled across each batch; empty-input SHAKE has one unique row. Three processes reuse the same corpus.",
+    "All requests/bytes and counters are checked before and after each timed variant; individual intermediate timed outputs are not separately checked.",
+    "Shared stage lock and pre/post idle GPU samples are used; continuous exclusive GPU use is not claimed.",
+    "CPU-only self-tests do not establish CUDA compilation or device correctness; those must pass on the server before acceptance."
+  ],
+  "local_audit_limitations": [
+    "No archived scripts executed; no SSH/GPU runs.",
+    "Independent sampling arithmetic and raw five-permutation CPU reconstruction passed in the bound companion report. This checks exact harness semantics, including synthetic rejection/exhaustion, and does not establish production API behavior.",
+    "The evidence tiles 256 deterministic input rows across a batch, and three process blocks share the same inputs.",
+    "The complete original source tree and selected source copies were locally rehashed; original nvcc identity is recorded remote metadata and the original nine DSOs are not loaded or reverified by this standalone experiment."
+  ]
+}

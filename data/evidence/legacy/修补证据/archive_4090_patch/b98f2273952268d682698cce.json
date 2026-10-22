@@ -1,0 +1,133 @@
+{
+  "status": "IDENTITY_AUDIT_COMPLETE_WITH_VERSION_GAP",
+  "group_3_complete": false,
+  "new_GPU_experiments": 0,
+  "SSH_calls": 0,
+  "historical_source_sha256": "deb20ff1f4aec4cf137441b09ad43b9c58bf060c24b6d7c0dd8613d929a48f93",
+  "current_qualification_source_sha256": "c73f8b5f49070d370fd8787168c2d49839afaf3aff350c83080cfb114f5ed42e",
+  "historical_runtime_identities_checked": 171,
+  "matched_formal_modules": 0,
+  "current_modules_with_same_binary_tools_and_selected_KAT": 9,
+  "scope": "Historical 20261018 main nine-module performance build only; not every later ablation or report table.",
+  "elapsed_seconds": 0.75,
+  "archives": [
+    {
+      "archive": "E:\\密码竞赛\\output\\MLDSA_4090_Experiments\\MLDSA_Outline_Experiments_20261018\\server_results\\report_results_20261018T100031Z-676371_20261018T152457Z.tar.gz",
+      "sha256": "553e27e092a68ed93e00faab4114c54ef597a0db85f3dc0999c6e20d4136f303",
+      "manifest": "exports/report_results_20261018T100031Z-676371_20261018T152457Z_contents.json",
+      "manifest_sha256": "7795309c33cb934d918a60972c100631ff7de64145c580260c649b7b2e720ae2",
+      "verified_files": 4591
+    },
+    {
+      "archive": "E:\\密码竞赛\\新4090数据\\01_生产采样不足额与故障恢复\\normal_sanitizer\\server_results\\20261020T104836038088Z-81451376\\20261020T104836038088Z-81451376.tar.gz",
+      "sha256": "7436b13167f068e03288718d66526c59635d46d29b3e55e8a3aaba94d2eec73f",
+      "manifest": "20261020T104836038088Z-81451376/MANIFEST.json",
+      "manifest_sha256": "1350a5f64bcc0e911bbe9a4c7233322a6319fd9232046f7662e57b4c88aa4e46",
+      "verified_files": 312
+    },
+    {
+      "archive": "E:\\密码竞赛\\新4090数据\\02_独立已知答案测试KAT\\nist_keygen\\server_results\\20261020T125155953171Z-c1182d4f\\20261020T125155953171Z-c1182d4f.tar.gz",
+      "sha256": "dc4661232353f762ff72322a71d4a4e1804487afb8f13a27cb9ee16f63758c6c",
+      "manifest": "20261020T125155953171Z-c1182d4f/MANIFEST.json",
+      "manifest_sha256": "ee70a97f2daf485a8804b4ffd02d79240d61a98f8f2b8f630953278395339b40",
+      "verified_files": 61
+    },
+    {
+      "archive": "E:\\密码竞赛\\新4090数据\\02_独立已知答案测试KAT\\nist_signverify_v2\\server_results\\20261020T132127164764Z-8778a513\\20261020T132127164764Z-8778a513.tar.gz",
+      "sha256": "eee6d92f17f2344ee59408ed41a6465a41bef32344055c1e63fca53059f55aed",
+      "manifest": "20261020T132127164764Z-8778a513/MANIFEST.json",
+      "manifest_sha256": "14f65d1d811d0d1e54cda452f73a03e126234b92d0cd0ddfcaddfb5b4175dbc5",
+      "verified_files": 113
+    }
+  ],
+  "module_matrix": [
+    {
+      "module": "libloce_mldsa44_keygen_d3_sm89.so",
+      "historical_performance_sha256": "d45f20926d48c667aa8593b24b192f5a4ce784c957411e0f13d98cc48ceb884a",
+      "current_tested_sha256": "210f4aecce42d4b08b57b669e6a80d2885fe2b65b0ef3dccf843112f2f04c8ab",
+      "exact_same_binary": false,
+      "current_memcheck": true,
+      "current_synccheck": true,
+      "current_official_KAT": "25 official KeyGen vectors"
+    },
+    {
+      "module": "libloce_mldsa44_sign_d4_sm89.so",
+      "historical_performance_sha256": "e35c7146059438bc25b4e9803a25c4864faafbe1ed075dc99d984e8a76a434e9",
+      "current_tested_sha256": "87dfa100b4e886abcf93912874e07e230db0089a6984590ffb655d0f85b5719b",
+      "exact_same_binary": false,
+      "current_memcheck": true,
+      "current_synccheck": true,
+      "current_official_KAT": "1 selected official Sign vector, duplicated to B256"
+    },
+    {
+      "module": "libloce_mldsa44_verify_d3_sm89.so",
+      "historical_performance_sha256": "c2c89e6f725c6194cc29b49487b5613adb2497dd96ac4ad9dbcef2e914f14209",
+      "current_tested_sha256": "8a2a3975a87d4938e8bbb76ab009f28c0a0338400242d1fd4b062e67ad1bfc33",
+      "exact_same_binary": false,
+      "current_memcheck": true,
+      "current_synccheck": true,
+      "current_official_KAT": "1 selected official negative Verify vector"
+    },
+    {
+      "module": "libloce_mldsa65_keygen_d3_sm89.so",
+      "historical_performance_sha256": "b5d01f08f6f200781ae6752c788a9d7e09b7931a81755adfd337b75da741f58f",
+      "current_tested_sha256": "6d61e126bf481871fd62409dc69e1350b2a09286c7d3742f4b22e4ce2bc471f9",
+      "exact_same_binary": false,
+      "current_memcheck": true,
+      "current_synccheck": true,
+      "current_official_KAT": "25 official KeyGen vectors"
+    },
+    {
+      "module": "libloce_mldsa65_sign_d4_sm89.so",
+      "historical_performance_sha256": "63d338328631ff2b32f890ef8cf4383a3d5d348da96c4cf8f3f279c16f04a38e",
+      "current_tested_sha256": "21938109c746173886f2212c7a6edd0286529ef1396419ff1819eb1ddf7258fe",
+      "exact_same_binary": false,
+      "current_memcheck": true,
+      "current_synccheck": true,
+      "current_official_KAT": "1 selected official Sign vector, duplicated to B256"
+    },
+    {
+      "module": "libloce_mldsa65_verify_d3_sm89.so",
+      "historical_performance_sha256": "ff6741fc4e6f372c869f71fcd32ca839999e4d059a22baefbfa88711a66e1035",
+      "current_tested_sha256": "a6ee3f659e8091677ea5113967eaef0ab51e53fc4fb6e40912708d4840574e9b",
+      "exact_same_binary": false,
+      "current_memcheck": true,
+      "current_synccheck": true,
+      "current_official_KAT": "1 selected official negative Verify vector"
+    },
+    {
+      "module": "libloce_mldsa87_keygen_d3_sm89.so",
+      "historical_performance_sha256": "bf2b6467ce568ccb6c4e59a1ebca7440e68e4ae2b91cddbdaffb9bd01c27574c",
+      "current_tested_sha256": "979594acf9e295276ba95e03c15550486a080bb54e3083596d73095d261cfce7",
+      "exact_same_binary": false,
+      "current_memcheck": true,
+      "current_synccheck": true,
+      "current_official_KAT": "25 official KeyGen vectors"
+    },
+    {
+      "module": "libloce_mldsa87_sign_d4_sm89.so",
+      "historical_performance_sha256": "76d28661de3f9d75b51b6ee7011d37c05b7e2192bca777182c5b89f9f916a1d7",
+      "current_tested_sha256": "5aec395cb5fa5f837ade4a1bc37c9f2f7bf9dca41b2355cb2b23ef1705649f1d",
+      "exact_same_binary": false,
+      "current_memcheck": true,
+      "current_synccheck": true,
+      "current_official_KAT": "1 selected official Sign vector, duplicated to B256"
+    },
+    {
+      "module": "libloce_mldsa87_verify_d3_sm89.so",
+      "historical_performance_sha256": "d3eb5118dd3343ee358d934b0c68219ca883bf2e7c71c75078334b97bfada8b3",
+      "current_tested_sha256": "b16725cc8f90095bc7378947b9b334542b678cd2a87d95226addee82362093ab",
+      "exact_same_binary": false,
+      "current_memcheck": true,
+      "current_synccheck": true,
+      "current_official_KAT": "1 selected official negative Verify vector"
+    }
+  ],
+  "limits": [
+    "Read-only reuse of archived tool/KAT results; no new oracle computation, GPU run, compilation or repair.",
+    "Memcheck/synccheck do not imply racecheck, sanitizer completeness or formal certification.",
+    "Official Verify coverage here is a selected negative vector, not complete standard-vector coverage.",
+    "Different binary hashes cannot share qualification merely because operation names or some source files match.",
+    "Closing a version gap requires qualifying the exact cited performance DSOs or collecting new formal performance evidence on the tested build. Do not relabel historical timings."
+  ]
+}

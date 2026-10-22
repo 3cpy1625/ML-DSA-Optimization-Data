@@ -1,0 +1,14 @@
+{
+  "recorded_utc": "2026-10-19T17:46:07.677137+00:00",
+  "run_id": "e02b-sanitizer-20261019T170912908000Z-657090",
+  "status": "ADDITIONAL_LOCAL_PROVENANCE_AND_SCOPE_AUDIT_PASS",
+  "local_source_files_rehashed": 981,
+  "local_source_aggregate_sha256": "1c5b52797333e81945307dacf66895933f8cfa569a6732a945aeccf63b5d2d25",
+  "compiled_out_checks_metadata_reverified": 31,
+  "independent_read_only_intake_review": "PASS",
+  "idle_scope": "Wait report policy/status/counts and saved snapshot hashes verified; raw idle thresholds not independently recomputed.",
+  "stopped_run_limit": "Final all-upstream snapshot revalidation and gpu_after idle check are not reached after fail-fast case 31; absence is expected.",
+  "upstream_binary_and_vendor_scope": "Locally absent upstream binary/vendor entities are metadata-bound only, not locally rehashed.",
+  "finding_disposition": "UNRESOLVED_SANITIZER_FINDING",
+  "e02b_clean_pass": false
+}

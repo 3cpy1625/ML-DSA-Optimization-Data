@@ -1,0 +1,34 @@
+{
+  "schema": "mldsa5090-split32-local-intake-v1",
+  "recorded_utc": "2026-10-19T22:21:20.637292+00:00",
+  "status": "SPLIT32_COMPARISON_5090_LOCAL_INTAKE_PASS_WITH_EXPLICIT_SCOPE_LIMITS",
+  "run_id": "20261019T215136567276Z-de9b27bb",
+  "archive": {
+    "path": "server_results/split32_comparison/split32_comparison_5090_20261019T215136567276Z-de9b27bb_b2b972d2.tar.gz",
+    "bytes": 1613315106,
+    "sha256": "ef357279768817df585234ef3d0a5fb09d3ef5db888dce00068cdfd418cf47fb"
+  },
+  "intake": {
+    "path": "server_results/split32_comparison/20261019T215136567276Z-de9b27bb/LOCAL_INTAKE_VERIFICATION.json",
+    "bytes": 3841,
+    "sha256": "a19e5b4223d638b9cde6083340269799fdcabcde3035ed7bff979d0f4272772c"
+  },
+  "counts": {
+    "timing_samples": 24300,
+    "process_variant_rows": 1620,
+    "cell_variant_rows": 540,
+    "paired_ratio_rows": 540,
+    "processes": 27,
+    "check_records": 6237
+  },
+  "work_check_records": 6237,
+  "retained_files": 16099,
+  "binary_files": 15768,
+  "uncompressed_verified_bytes": 4084144895,
+  "source_pins": 9,
+  "full_original_source_files": 1075,
+  "scope": "Standalone thread/warp/split32; shared logical-lane-zero parser. Per-variant trace/work actual bytes; one retained GPU output per case/process, other variant outputs covered by pinned zero-mismatch logs. No production eta4/full API/sanitizer/hardware instruction claim.",
+  "full_outline_complete": false,
+  "formal_full_operation_performance_collected": false,
+  "next": "E03 new build and exact-binary qualification PASS; capture awaits sufficient storage. No server raw files deleted; automatic review refused offload deletion pending explicit authorization."
+}

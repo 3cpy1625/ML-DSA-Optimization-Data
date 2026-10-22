@@ -1,0 +1,14 @@
+{
+  "arm": "ON",
+  "batch": 256,
+  "block": -1,
+  "pattern": "grouped50",
+  "job": "b256_block-1_grouped50_ON",
+  "accepted_rows": 128,
+  "samples_ms": [
+    0.161152005
+  ],
+  "mean_ms": 0.161152005,
+  "input_sha256": "0ed7ec796c9e8e6296522cfeb776928f81cca51fda6af99e080682db8e1bd499",
+  "output_sha256": "1c60ba49f1bb6c434a5f0eb295285de9f686844fc835653a7d789ff4df7dd49a"
+}

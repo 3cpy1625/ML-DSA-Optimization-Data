@@ -1,0 +1,164 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "campaign_id": {"minLength": 1, "type": "string"},
+    "campaign_kind": {"enum": ["complete_18cell", "wphc_cfa", "matched_cupqc"], "type": "string"},
+    "comparison_type": {"enum": ["single_implementation", "matched_pair"], "type": "string"},
+    "comparisons": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "baseline_role": {"minLength": 1, "type": "string"},
+          "comparison_id": {"minLength": 1, "type": "string"},
+          "primary_role": {"minLength": 1, "type": "string"}
+        },
+        "required": ["comparison_id", "primary_role", "baseline_role"],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "corpus": {
+      "additionalProperties": false,
+      "properties": {
+        "generation_contract_path": {"minLength": 1, "type": "string"},
+        "generation_contract_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+        "path": {"minLength": 1, "type": "string"},
+        "sha256": {"pattern": "[0-9a-f]{64}", "type": "string"}
+      },
+      "required": ["path", "sha256", "generation_contract_path", "generation_contract_sha256"],
+      "type": "object"
+    },
+    "environment": {
+      "additionalProperties": false,
+      "properties": {
+        "compute_capability": {"minLength": 1, "type": "string"},
+        "cuda_version": {"minLength": 1, "type": "string"},
+        "driver_version": {"minLength": 1, "type": "string"},
+        "gpu_name": {"minLength": 1, "type": "string"},
+        "gpu_uuid": {"minLength": 1, "type": "string"},
+        "power_limit_w": {"minimum": 1, "type": "number"},
+        "sm_clock_mhz": {"minimum": 1, "type": "number"}
+      },
+      "required": ["gpu_uuid", "gpu_name", "compute_capability", "driver_version", "cuda_version", "power_limit_w", "sm_clock_mhz"],
+      "type": "object"
+    },
+    "instrumentation": {"const": false, "type": "boolean"},
+    "official_expectations_path": {"minLength": 1, "type": "string"},
+    "official_expectations_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+    "participants": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "benchmark_path": {"minLength": 1, "type": "string"},
+          "benchmark_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+          "benchmark_components": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "block_dim": {"enum": [32, 64, 128, 256], "type": "integer"},
+                "configuration": {"minLength": 1, "type": "string"},
+                "operation": {"enum": ["KeyGen", "Encaps", "Decaps", "Sign", "Verify"], "type": "string"},
+                "path": {"minLength": 1, "type": "string"},
+                "sha256": {"pattern": "[0-9a-f]{64}", "type": "string"}
+              },
+              "required": ["path", "sha256", "operation", "configuration", "block_dim"],
+              "type": "object"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "correctness_manifest_path": {"minLength": 1, "type": "string"},
+          "correctness_manifest_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+          "cupqc": {
+            "additionalProperties": false,
+            "properties": {
+              "archive_path": {"minLength": 1, "type": "string"},
+              "archive_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+              "formal_campaign_id": {"minLength": 1, "type": "string"},
+              "header_path": {"minLength": 1, "type": "string"},
+              "header_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+              "library_path": {"minLength": 1, "type": "string"},
+              "library_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+              "package_release_date": {"pattern": "[0-9]{4}-[0-9]{2}-[0-9]{2}", "type": "string"},
+              "screening_campaign_id": {"minLength": 1, "type": "string"},
+              "screening_raw_path": {"minLength": 1, "type": "string"},
+              "screening_raw_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+              "selected_block_dim": {"enum": [32, 64, 128, 256], "type": "integer"},
+              "selected_block_dims": {
+                "additionalProperties": {"enum": [32, 64, 128, 256], "type": "integer"},
+                "minProperties": 1,
+                "type": "object"
+              },
+              "version": {"const": "0.4.1", "type": "string"}
+            },
+            "required": ["version", "package_release_date", "archive_path", "archive_sha256", "library_path", "library_sha256", "header_path", "header_sha256", "selected_block_dim", "selected_block_dims", "screening_campaign_id", "screening_raw_path", "screening_raw_sha256", "formal_campaign_id"],
+            "type": "object"
+          },
+          "implementation": {"minLength": 1, "type": "string"},
+          "loaded_modules": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "compilation_inputs_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+                "embedded_module_id": {"minLength": 1, "type": "string"},
+                "path": {"minLength": 1, "type": "string"},
+                "sha256": {"pattern": "[0-9a-f]{64}", "type": "string"}
+              },
+              "required": ["path", "sha256", "embedded_module_id", "compilation_inputs_sha256"],
+              "type": "object"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "operations": {
+            "items": {"enum": ["KeyGen", "Encaps", "Decaps", "Sign", "Verify"], "type": "string"},
+            "minItems": 1,
+            "type": "array",
+            "uniqueItems": true
+          },
+          "parameter_sets": {
+            "items": {"pattern": "ML-(KEM|DSA)-[0-9]+", "type": "string"},
+            "minItems": 1,
+            "type": "array",
+            "uniqueItems": true
+          },
+          "role": {"minLength": 1, "type": "string"}
+        },
+        "required": ["role", "implementation", "benchmark_path", "benchmark_sha256", "loaded_modules", "correctness_manifest_path", "correctness_manifest_sha256", "operations", "parameter_sets"],
+        "type": "object"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "raw_samples_path": {"minLength": 1, "type": "string"},
+    "raw_samples_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+    "release_family_id": {"pattern": "LOCE-PQC-GPU-H006-[0-9]{8}T[0-9]{6}Z", "type": "string"},
+    "sampling": {
+      "additionalProperties": false,
+      "properties": {
+        "epochs": {"minimum": 1, "type": "integer"},
+        "measured_repetitions": {"minimum": 1, "type": "integer"},
+        "order_policy": {"enum": ["ABBA", "RANDOMIZED", "SINGLE"], "type": "string"},
+        "warmups": {"minimum": 0, "type": "integer"}
+      },
+      "required": ["epochs", "measured_repetitions", "warmups", "order_policy"],
+      "type": "object"
+    },
+    "schema": {"const": "loce.hardening006.performance-campaign.v1", "type": "string"},
+    "summary_path": {"minLength": 1, "type": "string"},
+    "summary_sha256": {"pattern": "[0-9a-f]{64}", "type": "string"},
+    "timing_contract": {
+      "additionalProperties": false,
+      "properties": {
+        "path": {"minLength": 1, "type": "string"},
+        "scope": {"const": "DEVICE_RESIDENT_GPU_INTERVAL", "type": "string"},
+        "sha256": {"pattern": "[0-9a-f]{64}", "type": "string"}
+      },
+      "required": ["path", "sha256", "scope"],
+      "type": "object"
+    }
+  },
+  "required": ["schema", "release_family_id", "campaign_id", "campaign_kind", "comparison_type", "instrumentation", "participants", "comparisons", "corpus", "timing_contract", "environment", "sampling", "raw_samples_path", "raw_samples_sha256", "summary_path", "summary_sha256", "official_expectations_path", "official_expectations_sha256"],
+  "type": "object"
+}

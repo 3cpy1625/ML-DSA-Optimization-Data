@@ -1,0 +1,22 @@
+{
+  "recorded_utc": "2026-10-19T20:11:23.020956+00:00",
+  "current_category": "E02",
+  "next_action": "USER_RUNS_18_UNINSTRUMENTED_CANDIDATE_EXPANDED_CORRECTNESS_CASES",
+  "script": {
+    "path": "scripts/run_5090_e02a_ctasync_expanded.py",
+    "bytes": 47486,
+    "sha256": "5718db566aae49fdc9a06ce7a66b78e57ae075a2db7ad13e4f1ddbb6f6d16498"
+  },
+  "review": {
+    "path": "scripts/run_5090_e02a_ctasync_expanded.LOCAL_REVIEW.json",
+    "bytes": 2233,
+    "sha256": "37f5caa75723562a8f3cb21f5de25bab1085ef799af38e700f8f41fc38ef1d82"
+  },
+  "planned_individual_cases": 18,
+  "server_execution": "NOT_RUN",
+  "console_path_reserved": "E:\\密码竞赛\\5090实验结果_20261019\\server_results\\e02a_ctasync_expanded\\ctasync_expanded_console_01.txt",
+  "mixed_sanitizer_matrix_verified": 48,
+  "full_e02_complete": false,
+  "formal_performance_collected": false,
+  "total_remaining_individual_experiments": "NOT_YET_FULLY_ENUMERATED"
+}

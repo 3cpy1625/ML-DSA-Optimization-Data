@@ -1,0 +1,74 @@
+{
+  "schema": "mldsa5090-w1sync-local-intake-v1",
+  "verified_utc": "2026-10-19T18:39:56.739836+00:00",
+  "status": "ALL_39_EXPORTED_FILES_VERIFIED_TARGET_BARRIER_GATE_NOT_PASSED",
+  "run_id": "e02b-w1sync-20261019T182627865064Z-664886",
+  "archive": {
+    "path": "server_results/e02b_w1sync/e02b-w1sync-20261019T182627865064Z-664886/5090_e02b-w1sync-20261019T182627865064Z-664886.tar.gz",
+    "bytes": 15205075,
+    "sha256": "4d0ce6db00939cbe4471193f327773871aee5b93848ae2613cf4b400db6a8836"
+  },
+  "result": {
+    "path": "extracted/e2w_664886/RESULT.json",
+    "bytes": 97304078,
+    "sha256": "894b44c05fe737ff23f7622d4921ce768142b7bad4760efe37ff43038aafce3f"
+  },
+  "exported_file_count": 39,
+  "local_extraction": "E:\\密码竞赛\\5090实验结果_20261019\\extracted\\e2w_664886",
+  "source_files": 1075,
+  "source_delta_files": 1,
+  "ptx_disposition": "NO_PTX_INSTRUCTIONS_CAPTURED_ONLY_FATBIN_ELF_HEADERS",
+  "loop_reviews": [
+    {
+      "phase": 0,
+      "start_pc": "0x34110",
+      "original_backedge_pc": "0x37fa0",
+      "candidate_nop_pc": "0x37fa0",
+      "candidate_backedge_pc": "0x37fb0",
+      "original_instruction_count": 1002,
+      "candidate_instruction_count": 1003,
+      "all_other_loop_assembly": "IDENTICAL",
+      "emitted_barrier_count": 0
+    },
+    {
+      "phase": 6,
+      "start_pc": "0x33c60",
+      "original_backedge_pc": "0x37af0",
+      "candidate_nop_pc": "0x37af0",
+      "candidate_backedge_pc": "0x37b00",
+      "original_instruction_count": 1002,
+      "candidate_instruction_count": 1003,
+      "all_other_loop_assembly": "IDENTICAL",
+      "emitted_barrier_count": 0
+    },
+    {
+      "phase": 3,
+      "start_pc": "0x35a80",
+      "original_backedge_pc": "0x398c0",
+      "candidate_nop_pc": "0x398c0",
+      "candidate_backedge_pc": "0x398d0",
+      "original_instruction_count": 997,
+      "candidate_instruction_count": 998,
+      "all_other_loop_assembly": "IDENTICAL",
+      "emitted_barrier_count": 0
+    }
+  ],
+  "candidate_gpu_qualification": "NOT_RUN_TARGET_BARRIER_GATE_NOT_PASSED",
+  "original_finding": "UNRESOLVED",
+  "original_e02b_counts": {
+    "pass": 30,
+    "finding": 1,
+    "not_run": 17
+  },
+  "limits": [
+    "Candidate/original modules and tools were not downloaded; binary facts are server metadata bound to the report.",
+    "Candidate compile_commands raw file omitted from this archive; server comparison record/pinned file hash and original real flags checked locally.",
+    "Local prepared controller hash recorded; stdin execution did not retain an independently rehashable server-side controller copy.",
+    "No GPU case or formal performance collected; this does not prove compiler defect or sanitizer false positive."
+  ],
+  "prepared_local_controller": {
+    "path": "scripts/diagnose_5090_e02b_w1sync_build.py",
+    "bytes": 30523,
+    "sha256": "778997f0809fedc1bbcc269aacaea7ac3d71e1dbbab767eaaef729661d323c20"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "status": "SPLIT32_PATCH_TOOLS_9_OF_9_LOCALLY_VERIFIED_PASS",
+  "run_id": "20261020T162230081774Z-b4e3d46f",
+  "archive_sha256": "eb1c294c405d62f783724cac4da6f43b5fefa58c8c6c3be228d5be1bce144375",
+  "checked_archive_files": 1202,
+  "parameters": [
+    44,
+    65,
+    87
+  ],
+  "cases_per_parameter": 7,
+  "requests_per_case": [
+    17,
+    65
+  ],
+  "tool_processes": {
+    "racecheck": 3,
+    "memcheck": 3,
+    "synccheck": 3
+  },
+  "checked_variant_records": 324,
+  "elapsed_seconds": 43.473182,
+  "patched_source_sha256": "059fb6ef31c31fecdb2a51fbbf0b3104a0d32507864047dd953a997131361756",
+  "only_two_sync_barriers_added": true,
+  "output_trace_and_work_bytes_match": true,
+  "production_DSOs_modified": false,
+  "old_performance_requalified": false,
+  "all_historical_split32_programs_qualified": false,
+  "reviewed_utc": "2026-10-20T16:27:18.900186+00:00",
+  "acceptance_record": "E:\\密码竞赛\\4090修补\\split32_sync_patch_v2\\server_results\\20261020T162230081774Z-b4e3d46f\\LOCAL_ACCEPTANCE.json"
+}

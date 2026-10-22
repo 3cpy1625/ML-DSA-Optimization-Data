@@ -1,0 +1,53 @@
+推荐主结果是 27 格，采用 10/18 原 27 格并仅将 65/sign/8192、65/sign/16384、87/sign/4096 三格替换为 10/19 重测；没有把旧样本与重测合并。总几何均值 1.9490195336 倍，范围 1.1781128438–2.9484954375 倍。
+
+主结果仅为同一 RTX 4090 上固定 cuPQC 0.4.1 配置 (BlockDim=128、单流) 的设备驻留计时；6 对进程重复、每进程 15 次、5 次预热、每格仅 1 个固定输入集。未报告推断性 95% CI，进程对最小/最大倍数不是置信区间。
+
+历史 R02 的 27 格约 1.695011 倍与此处 10/18 重建实验是不同来源；本包的 historical 目录只是历史再导出，不能重复计入 5090 旧包中的同源数据。
+
+cuDilithium vs CCS 基线包含 54 实现格、27 比较格、162 对、324 操作进程均值及 4860 原始样本，属于 legacy Dilithium v3.1，不是 FIPS 204 ML-DSA。Host API 含传输计时不得与主结果设备驻留时间直接相除。
+
+正确性补实验最终 24 例 x memcheck/initcheck/synccheck =72 进程，复用 59 + 新增 13，报告错误为 0。无 racecheck 声明；32字节消息/空上下文/固定语料不构成完整 KAT 或 FIPS 认证。
+
+边界测试 270 进程（48 KeyGen、222 Verify）通过，边界时间仅诊断用途；原小批检查为 21 例、171 检查项：149 PASS、18 NOT_AVAILABLE、4 SKIPPED。
+
+阶段追踪为 27 格、81 进程、1215 个计量区间、14490 次内核启动；为 CUPTI 插桩诊断，不是正常发布性能。39 进程早期完成、42 进程恢复完成，不是一个连续采样窗口。
+
+ML-DSA-44 Verify 零拷贝消融为 3 格，B8192 的源路径预期不激活；不能将该格约 1.0006 倍描述为零拷贝收益。ML-DSA-65 Verify 提前拒绝消融为 36 格，OFF/ON 范围 0.9935375–4.1499497 倍；最大值来自 B16384 全部 invalid-z。
+
+Verify traffic 62 格保留一个计时尖峰；3 格重查另存，尖峰原因未证实，不自动替换或删除旧值。
+
+资源分析 81 进程、321 个选定热点启动、81 格符号统计；workspace 27 格/81进程，区分需求容量、实际容量、计量区间存活峰值及 fixture 缓冲；不包含驱动、上下文等全部显存。
+
+Sign retry 9 格/27 进程，258048 请求运行记录和258048 winner记录已在归档已有验收中复核；诊断插桩，44/87 为源代码推导顺序证书，65 为观测开始次数，不可混用作同一吞吐指标。
+
+SHAKE 9 参数-批量格，342 变体格/15390计时；NTT 9 参数-批量格，162 变体格/7290计时。两者均独立算子测试；SHAKE 没有 split32/独立 ballot compaction，NTT 没有独立 Shuffle/完整 KeyGen-Sign-Verify 链，不能声称全生产链加速。
+
+失败和部分完成保留：correctness 因 GPU_BUSY_POST 中断后续跑完成；resources V1 NCU 参数错误且零接受进程，V2完成；sign retry V2 AUDIT exit2 且零接受进程，V3完成；stage初版失败后V2恢复完成；trace probe V1缺标记，V2通过。测试桩 QA PASS 与实际设备测试分开。
+
+很多原始 IO / ELF 未返还，只可核对服务器留存哈希和已有验收。当前工作独立读表、核对选择规则及算术汇总，没有重跑GPU、独立密码学验证或复核每一份服务器审计。
+
+{
+  "archive": "MLDSA_4090_Experiments.zip",
+  "archive_bytes": 7690120438,
+  "outer_entries": 19116,
+  "outer_files": 14959,
+  "outer_directories": 4157,
+  "outer_uncompressed_bytes": 8063410199,
+  "outer_csv_files": 987,
+  "outer_tsv_files": 13,
+  "nested_archives_indexed": 50,
+  "nested_archives_stream_read": 26,
+  "nested_member_files_read_inventory": 43268,
+  "table_occurrences": 1729,
+  "unique_table_sha256": 720,
+  "duplicate_table_occurrences": 1009,
+  "total_table_rows_including_copies": 614485,
+  "unique_table_rows_including_telemetry_and_metadata": 228716,
+  "json_occurrences": 33605,
+  "unique_json_sha256": 20450,
+  "json_parse_errors": 0,
+  "selected_metric_rows": 2366,
+  "scope": "All outer CSV/TSV and all CSV/TSV in 26 unique non-QA result tarballs were indexed and copied byte-for-byte. No executable or binary fixture was run. Nested source/delivery ZIPs and QA/dependency tarballs remain explicitly excluded in nested_archives.json; duplicated tarballs identified by equal size/CRC were opened once. Table copies are SHA256-deduplicated; dedup does not imply independent-run equivalence."
+}
+
+独立重算主实验 4860 条与重测 540 条原始计时：27 原格 +3 重测格的均值及6进程对几何均值全部在 1e-12 容差内吻合。跨旧包历史表匹配确认其为再导出，GPU UUID 匿名化不构成新的实验。

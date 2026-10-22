@@ -1,0 +1,23 @@
+{
+  "recorded_utc": "2026-10-19T19:32:37.485938+00:00",
+  "current_category": "E02",
+  "candidate_replay_run": "e02b-ctasync-replay-20261019T192403869386Z-684616",
+  "status": "ONE_CANDIDATE_RACECHECK_CASE_FULLY_VERIFIED_PASS",
+  "report": {
+    "path": "server_results/e02b_ctasync_replay/e02b-ctasync-replay-20261019T192403869386Z-684616/LOCAL_INTAKE_VERIFICATION.json",
+    "bytes": 3208,
+    "sha256": "a1975733550d59d7a1e8c4cdf0b99115f93126db31b72b8468c31e98011d2e7e"
+  },
+  "next_sanitizer_matrix": {
+    "total": 48,
+    "reusable_original_unchanged_cell_passes": 26,
+    "reusable_candidate_replay_passes": 1,
+    "retired_old_m65_sign_passes_requiring_retest": 4,
+    "new_cases_required": 21,
+    "candidate_m65_sign_new_cases": 7,
+    "other_original_module_new_cases": 14
+  },
+  "full_e02_complete": false,
+  "formal_performance_collected": false,
+  "next_action": "PREPARE_21_REQUIRED_CASES_TO_COMPLETE_48_CELL_SANITIZER_MATRIX"
+}

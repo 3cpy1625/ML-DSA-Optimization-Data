@@ -1,0 +1,3 @@
+﻿type,status,detail,source,source_line,algorithm_failure
+preparation_failure_recovered,PREPARATION_STOPPED,P0 module identity query could not load libcudart.so.12; 0 GPU experiments started at this stage. Subsequent BUILD_RESUME_RESULT and EXPERIMENT_RESULT pass.,新5090.zip!新5090/final_verified/final_four_components_stream.tar.gz!新5090/m44_three_arm_20261020T121813Z_11cf6ec1/RESULT.json,46,False
+export_failure_recovered,ENOSPC,Incomplete 741326848-byte export removed; raw experiment directories retained. Streaming export subsequently succeeded.,新5090.zip!新5090/FAILED_EXPORT_CLEANUP.json,1,False

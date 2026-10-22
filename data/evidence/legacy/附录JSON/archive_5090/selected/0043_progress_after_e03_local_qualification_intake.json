@@ -1,0 +1,32 @@
+{
+  "schema": "mldsa5090-e03-qualification-intake-and-e13-preparation-v1",
+  "recorded_utc": "2026-10-20T04:22:15.467788+00:00",
+  "status": "E03_LOCAL_QUALIFICATION_INTAKE_PASS_E13_REVIEWED_NOT_YET_NATIVE",
+  "e03_intake": {
+    "path": "server_results/e03_v3_cta/local_qualification_intake/LOCAL_INTAKE_VERIFICATION.json",
+    "bytes": 3188,
+    "sha256": "4529116d1d58bcaf3e4ff72ebc3006800a0203ad00add10d6626b6ff0adb0344"
+  },
+  "e03_qualification_processes": 18,
+  "e03_formal_performance": "NOT_RUN_CAPACITY_GUARD",
+  "authorized_operator_evacuations": {
+    "files": 19110,
+    "bytes": 17753198916,
+    "verification": {
+      "path": "server_results/authorized_operator_evacuations/LOCAL_EVACUATION_VERIFICATION.json",
+      "bytes": 3504,
+      "sha256": "847a78849d818d0049eb35303959beb534bcd27e0ee4f167d3e07558e0172ec5"
+    }
+  },
+  "e13_review": {
+    "path": "scripts/e13_native5090_e0d59c2b/ROOT_REVIEW_AND_ENABLE.json",
+    "bytes": 1850,
+    "sha256": "1b6d782c8e19ac1bfa77d0969ba3b02299de41daaffcac786e1711adac695456"
+  },
+  "e13_qualification_processes_planned": 42,
+  "e13_native_execution": "NOT_RUN_AT_THIS_RECORD",
+  "e05": "REMOTE_MATRIX_PASS_LOCAL_STRICT_INTAKE_IN_PROGRESS",
+  "full_outline_complete": false,
+  "remaining_individual_experiments": "NOT_YET_FULLY_ENUMERATED",
+  "next": "Run E13 prepare and 42 B256 qualifications under exclusive stage lock; review E11 tmpfs and standalone split32 sanitizer; continue independent E05 intake and sidebar E04 preparation."
+}

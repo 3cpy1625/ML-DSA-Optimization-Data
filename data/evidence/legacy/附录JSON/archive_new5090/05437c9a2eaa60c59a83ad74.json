@@ -1,0 +1,60 @@
+{
+  "task_id": "CH4-THEORY-CLOSEOUT-001",
+  "experiment_id": "CH4-TRANSITION-CAUSALITY-M65-B1024",
+  "frozen_before_trace_code": true,
+  "frozen_beijing_time": "2026-08-01 15:16:28",
+  "source_commit": "c238f63e6c576bf7901433eb9818beb3f80ab37b",
+  "parameter_set": "ML-DSA-65",
+  "batch": 1024,
+  "corpora": {
+    "E2": "Natural epoch 2 from the frozen CWPT corpus; prior complete-API screen showed severe CWPT-V2 regression.",
+    "E4": "Natural epoch 4 from the frozen CWPT corpus; prior complete-API screen showed a CWPT-V2 gain."
+  },
+  "variants": ["Baseline", "CWPT-V2"],
+  "scope": "Audit-only causal contrast; results are excluded from the paper performance table.",
+  "predictions": [
+    {
+      "id": "P1",
+      "claim": "On E2, CWPT-V2 will exceed Baseline in at least one directly traced transition burden: fallback entries, XOF regeneration, state restore or recomputation, service-wave count, phase-launch count, or retirement stalls.",
+      "pass_condition": "At least one listed aggregate is strictly larger for CWPT-V2 than Baseline on matched E2 inputs.",
+      "falsifier": "No listed aggregate increases."
+    },
+    {
+      "id": "P2",
+      "claim": "The incremental transition burden of CWPT-V2 relative to Baseline will be lower on E4 than on E2.",
+      "pass_condition": "A preregistered transition-burden score, computed from measured phase time without cell-specific weights, has delta(CWPT-V2-Baseline)_E4 < delta(CWPT-V2-Baseline)_E2.",
+      "falsifier": "The E4 burden delta is equal to or greater than the E2 burden delta."
+    },
+    {
+      "id": "P3",
+      "claim": "The E2 complete-API regression direction is explained when newly incurred transition and wave costs exceed the measured speculative work saved by the lower service credit.",
+      "pass_condition": "M2 attributes a positive net time delta to transition/wave/retirement terms and predicts the observed E2 regression direction without per-cell fitting.",
+      "falsifier": "M2 predicts an E2 gain, or requires an E2-specific fitted coefficient."
+    },
+    {
+      "id": "P4",
+      "claim": "Population-only M0 and smooth N-times-C M1 cannot separate the observed E2 and E4 movement directions, whereas transition-aware wave model M2 can.",
+      "pass_condition": "M2 classifies both E2 and E4 directions correctly and has lower holdout absolute error than M0 and M1; M0 or M1 misclassifies at least one corpus.",
+      "falsifier": "M2 misses either direction, or M0/M1 separates both directions with equal or lower holdout error."
+    }
+  ],
+  "model_constraints": {
+    "M0": "One global population coefficient.",
+    "M1": "One measured cost per phase; no resource penalty is multiplied onto measured time.",
+    "M2": "At most one launch cost, wave cost, and wave capacity per phase; one cost per observed transition class; one retirement coefficient.",
+    "forbidden": [
+      "per-cell parameter fitting",
+      "changing fanout or credit after observing the audit",
+      "changing candidate sequence or kernel topology",
+      "using audit builds for headline performance"
+    ]
+  },
+  "correctness_contract": [
+    "signature bytes exact",
+    "selected attempt and kappa exact",
+    "WinnerRecord exact",
+    "candidate sequence unchanged",
+    "audit trace contains no secret polynomial values"
+  ],
+  "claim_boundary": "Failure of any prediction limits the transition-causality claim; it does not falsify cost-weighted population theory in general."
+}
