@@ -1,0 +1,66 @@
+ML-DSA 实验结果与证据边界
+2026-10-21 v4；仅分类、来源和复核组织调整，原测量与状态保持。
+
+不同GPU、输入分布、计时范围及历史轮次分别解释；原始表在data/raw，派生表和归一记录在data/derived。
+主性能为27+27+9条；正确性1722条包含多个记录层级，不等于1722次独立实验。
+
+4090 历史 R02：27条件格，分系列几何平均倍率 1.69501107557。
+4090 10/18+10/19修订：27条件格，分系列几何平均倍率 1.94901953361。
+5090 E03 B8192：9条件格，分系列几何平均倍率 1.22243993251。
+
+新建文件夹(1).zip
+历史R02包含27格（3参数×3操作×3批量），每格6配对区组，324进程、4860条原始计时；本次独立解析stdout核对全部进程中位数和单元几何均值。
+总体几何平均加速1.6950110756倍；KeyGen 1.69528、Sign 1.31928、Verify 2.17740。基准为cuPQC 0.4.1，分子为基准耗时，分母为G3耗时。
+27条BYTE_PASS和36条sanitizer PASS为历史证据；九组正确性与九条大批量KeyGen复测为截图转录，full_server_logs_received=False。
+计时是完整设备驻留操作区间，不含主机准备、传输和输出校验；摊销微秒数不是单请求延迟。
+MECHANISM中的静态资源/问题矩阵还含ML-KEM，标记为配套机制资料，不并入ML-DSA主性能统计。
+原54格冻结协议含ML-KEM，当前包仅27格ML-DSA；不把54格/9720原始样本误记为本包范围。
+
+MLDSA_4090_Experiments.zip
+推荐主结果是 27 格，采用 10/18 原 27 格并仅将 65/sign/8192、65/sign/16384、87/sign/4096 三格替换为 10/19 重测；没有把旧样本与重测合并。总几何均值 1.9490195336 倍，范围 1.1781128438–2.9484954375 倍。
+主结果仅为同一 RTX 4090 上固定 cuPQC 0.4.1 配置 (BlockDim=128、单流) 的设备驻留计时；6 对进程重复、每进程 15 次、5 次预热、每格仅 1 个固定输入集。未报告推断性 95% CI，进程对最小/最大倍数不是置信区间。
+历史 R02 的 27 格约 1.695011 倍与此处 10/18 重建实验是不同来源；本包的 historical 目录只是历史再导出，不能重复计入 5090 旧包中的同源数据。
+cuDilithium vs CCS 基线包含 54 实现格、27 比较格、162 对、324 操作进程均值及 4860 原始样本，属于 legacy Dilithium v3.1，不是 FIPS 204 ML-DSA。Host API 含传输计时不得与主结果设备驻留时间直接相除。
+正确性补实验最终 24 例 x memcheck/initcheck/synccheck =72 进程，复用 59 + 新增 13，报告错误为 0。无 racecheck 声明；32字节消息/空上下文/固定语料不构成完整 KAT 或 FIPS 认证。
+边界测试 270 进程（48 KeyGen、222 Verify）通过，边界时间仅诊断用途；原小批检查为 21 例、171 检查项：149 PASS、18 NOT_AVAILABLE、4 SKIPPED。
+阶段追踪为 27 格、81 进程、1215 个计量区间、14490 次内核启动；为 CUPTI 插桩诊断，不是正常发布性能。39 进程早期完成、42 进程恢复完成，不是一个连续采样窗口。
+ML-DSA-44 Verify 零拷贝消融为 3 格，B8192 的源路径预期不激活；不能将该格约 1.0006 倍描述为零拷贝收益。ML-DSA-65 Verify 提前拒绝消融为 36 格，OFF/ON 范围 0.9935375–4.1499497 倍；最大值来自 B16384 全部 invalid-z。
+Verify traffic 62 格保留一个计时尖峰；3 格重查另存，尖峰原因未证实，不自动替换或删除旧值。
+资源分析 81 进程、321 个选定热点启动、81 格符号统计；workspace 27 格/81进程，区分需求容量、实际容量、计量区间存活峰值及 fixture 缓冲；不包含驱动、上下文等全部显存。
+Sign retry 9 格/27 进程，258048 请求运行记录和258048 winner记录已在归档已有验收中复核；诊断插桩，44/87 为源代码推导顺序证书，65 为观测开始次数，不可混用作同一吞吐指标。
+SHAKE 9 参数-批量格，342 变体格/15390计时；NTT 9 参数-批量格，162 变体格/7290计时。两者均独立算子测试；SHAKE 没有 split32/独立 ballot compaction，NTT 没有独立 Shuffle/完整 KeyGen-Sign-Verify 链，不能声称全生产链加速。
+失败和部分完成保留：correctness 因 GPU_BUSY_POST 中断后续跑完成；resources V1 NCU 参数错误且零接受进程，V2完成；sign retry V2 AUDIT exit2 且零接受进程，V3完成；stage初版失败后V2恢复完成；trace probe V1缺标记，V2通过。测试桩 QA PASS 与实际设备测试分开。
+很多原始 IO / ELF 未返还，只可核对服务器留存哈希和已有验收。当前工作独立读表、核对选择规则及算术汇总，没有重跑GPU、独立密码学验证或复核每一份服务器审计。
+独立重算主实验 4860 条与重测 540 条原始计时：27 原格 +3 重测格的均值及6进程对几何均值全部在 1e-12 容差内吻合。跨旧包历史表匹配确认其为再导出，GPU UUID 匿名化不构成新的实验。
+
+5090实验结果_20261019.zip
+E03 B8192的9条件已归档，7个配对几何加速比>1；M44 Sign=0.9906076、M87 Sign=0.4201194。仅固定cuPQC配置与device-resident计时。
+M87 Sign ours 21.881484ms vs cuPQC 9.192837ms，明显慢于基线；M44 Sign相近，未提供置信区间，不能仅点估计断言显著差异。
+E02A原V3扩展234 PASS；原E02B停止为30 PASS+1finding+17未运行；CTA修复候选混合48 PASS，并有后续18未插桩M65 Sign PASS。应保留版本链而非总称全部正确性通过。
+E02C36包括480非空消息拒绝/接口检查；空消息负例不适用，不能计PASS；PQClean/官方KAT/canary/WPHC存在明确未覆盖。
+SHAKE15390、NTT7290、split32 24300独立算子计时，均有正式表与既存验收报告；split32 sanitizer后续103warnings导致停止，性能表不会消除此问题。
+E05插桩数据27进程/405范围/4950测量kernel单独保存；E13仅42次B256资格，正式端到端性能未完成。
+所有187外层CSV已逐个读取并保存，149种唯一内容；SHA256去重只处理重复文件，保留全路径和行号。
+嵌套补查8包未发现遗漏的真实性能结果：新增42 CSV为24份历史源语料索引/直方图及18份资格遥测；E11仅p65四arm构建PASS，另补存早期E03构建失败/87 KeyGen编译诊断。
+
+新5090.zip
+New5090 is a component-ablation follow-up, not a new full end-to-end benchmark or complete all-team-optimizations-off test.
+The final stream tar is the canonical combined result set; switch_pairs and m44_three_arm tar files repeat earlier subsets. Timing totals are deduplicated using unique job paths.
+Six successful capture invocations yield 141 distinct processes: 15 qualification and 126 performance processes. There are 1530 performance timing repetitions plus 15 qualification timings.
+M44 KeyGen split32 alone: 1.3729405942x; register accumulation P0/R1: 1.0369870100x; fusion R1/C1: 1.0884908891x; combined layout/fusion P0/C1: 1.1287509126x; split32 plus layout/fusion jointly: 1.5062505204x.
+M65 Sign W3 versus W1: 1.3634607372x. M65 Verify CTA frontier: 0.9961105202x for all-valid, 3.3604000260x for all-invalid-z, 0.9957944991x for alternating-invalid-z.
+Six of nine matrix cells are identical-binary drift controls. Three changed cells reuse earlier qualified pairs, so the 72 matrix processes are not 72 additional new processes.
+Tensor cores remain enabled in both labels. A causal comparison of 5090 versus 4090 requires matched source/build/input/timing conditions.
+All raw per-process timing sequences and means agree with canonical result JSON. All nine ablation ratios and nine matrix ratios were independently recomputed.
+Preparation and export failures were recovered. They do not demonstrate algorithmic correctness failures.
+
+补测.zip
+补测包是RTX5090上ML-DSA-65 Verify的CTA分布补充实验，四条件分别为全有效、全无效z、分组50%无效和分散50%无效。
+新增56个进程：8个B256资格进程与48个B8192性能进程；保留720条性能计时及8条资格计时，capture 178.267秒。
+OFF/ON配对几何加速比分别为0.9958979543、3.3627354184、1.3475077447、0.9971945913倍；分组50%与分散50%收益明显不同。
+复用前包同一二进制和固定基础语料，但计时是新run；没有替换旧结果的证据。分散50%采用(73*i)%256<128，不等于旧交替无效条件。
+所有585个内部清单路径的字节长度和SHA256验证通过；56个进程原始计时、均值、身份、输入输出SHA和退出状态核对通过；4条件/24配对统计复算一致。
+读取16个唯一输入/输出二进制内容，独立确认8种批量/分布组合的输入变异方式和最终逐行接收/拒绝状态；该检查不是重新运行密码学算法或标准KAT。
+只有固定输入，计时为设备驻留完整操作范围；只留最终计时输出；没有新的标准KAT或sanitizer，不支持完整安全认证或纯硬件归因。
+
+4090修补.zip
