@@ -1,0 +1,16 @@
+name: Validate experiment data
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - name: Verify files, source links, CSV schemas and workbook
+        run: python scripts/verify.py
+      - name: Rebuild CSV views and experiment navigation
+        run: python scripts/rebuild.py --output build --check
