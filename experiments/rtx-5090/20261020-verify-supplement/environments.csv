@@ -1,0 +1,11 @@
+﻿来源包,GPU,字段,值,单位,来源ID,源行号
+补测.zip,NVIDIA GeForce RTX 5090,gpu,NVIDIA GeForce RTX 5090,,S0694,82
+补测.zip,NVIDIA GeForce RTX 5090,gpu_uuid,GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a,,S0690,3
+补测.zip,NVIDIA GeForce RTX 5090,sm_arch,sm_120,,S0693,59
+补测.zip,NVIDIA GeForce RTX 5090,cuda_compiler_path,/home/lsb/mldsa-experiments-5090/tools/cuda-12.9.1/bin/nvcc,,S0693,14
+补测.zip,NVIDIA GeForce RTX 5090,cuda_nvcc_version,未记录；仅记录复用构建的编译器路径,,S0693,14
+补测.zip,NVIDIA GeForce RTX 5090,cpu_model,未记录,,S0694,1
+补测.zip,NVIDIA GeForce RTX 5090,driver_version,未记录,,S0694,80
+补测.zip,NVIDIA GeForce RTX 5090,build_mode,复用前次CTA各臂封存二进制，本次未重新编译,,S0690,5
+补测.zip,NVIDIA GeForce RTX 5090,message_bytes,32,bytes,S0695,72
+补测.zip,NVIDIA GeForce RTX 5090,source_compilation_sha256,61d79c85c0199c049dcac0ad3f752dce789efb57170686f5833bc0b18003fb01,,S0690,4

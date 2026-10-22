@@ -1,0 +1,11 @@
+﻿来源包,GPU,字段,值,单位,来源ID,源行号
+4090修补.zip,RTX 4090,cuda_device.ordinal,0,,S0698,1
+4090修补.zip,RTX 4090,cuda_device.uuid,e1d7ca803efa99e780c87f473c926cdd,,S0698,1
+4090修补.zip,RTX 4090,cuda_device.compute_capability_major,8,,S0698,1
+4090修补.zip,RTX 4090,cuda_device.compute_capability_minor,9,,S0698,1
+4090修补.zip,RTX 4090,split32_racecheck_original.sanitizer.path,/usr/local/cuda-12.9/bin/compute-sanitizer,,S0699,1
+4090修补.zip,RTX 4090,split32_racecheck_original.sanitizer.sha256,5cba659e1cd603aa2370e103425f184368e6ed405da90ce85743c4399c324dbc,,S0699,1
+4090修补.zip,RTX 4090,split32_sync_patch.sanitizer.path,/usr/local/cuda-12.9/bin/compute-sanitizer,,S0700,1
+4090修补.zip,RTX 4090,split32_sync_patch.sanitizer.sha256,5cba659e1cd603aa2370e103425f184368e6ed405da90ce85743c4399c324dbc,,S0700,1
+4090修补.zip,RTX 4090,current_source_compilation_sha256,c73f8b5f49070d370fd8787168c2d49839afaf3aff350c83080cfb114f5ed42e,,S0701,1
+4090修补.zip,RTX 4090,private_patched_harness_source_sha256,059fb6ef31c31fecdb2a51fbbf0b3104a0d32507864047dd953a997131361756,,S0702,1

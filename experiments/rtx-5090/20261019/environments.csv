@@ -1,0 +1,7 @@
+﻿来源包,GPU,字段,值,单位,来源ID,源行号
+5090实验结果_20261019.zip,NVIDIA GeForce RTX 5090,GPU memory,32607,MiB,S0587,1
+5090实验结果_20261019.zip,RTX 5090,CUDA target,sm_120,,S0681,1
+5090实验结果_20261019.zip,RTX 5090,NVCC,12.9.86,,S0681,1
+5090实验结果_20261019.zip,RTX 5090,CUDA toolkit directory,12.9.1,,S0682,1
+5090实验结果_20261019.zip,RTX 5090,Compute Sanitizer,2025.2.1.0 (build 35969825),,S0683,1
+5090实验结果_20261019.zip,RTX 5090,CPU model / Driver version,未记录,,,

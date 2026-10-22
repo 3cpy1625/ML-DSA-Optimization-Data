@@ -1,0 +1,9 @@
+﻿来源包,实验系列,问题或状态,重要程度,具体说明,来源ID,源行号,JSON定位
+5090实验结果_20261019.zip,,外层CSV重复,high,E03的每个condition目录都保存全9条件结果表；4表共10份相同内容，按SHA256选1份；另文件清单重复。,,,
+5090实验结果_20261019.zip,,CPU/mock自测混入,high,scripts/autonomous_20261020/selftest下CSV仅脚本自测，不能当真实GPU实验。,,,
+5090实验结果_20261019.zip,,版本资格不可合并,high,原V3 M65 Sign sanitizer存在finding；混合48仅对CTA候选M65 Sign及其他原8模块成立；E03重新封存DSO sanitizer NOT_RUN。,,,
+5090实验结果_20261019.zip,,微基准不是完整API,high,NTT/SHAKE/split32是独立harness；shared lane0 consumer、tile固定语料；不能代替KeyGen/Sign/Verify端到端加速。,,,
+5090实验结果_20261019.zip,,重复测量非独立样本,medium,E03 15重复共享输入/进程；仅6对block；微基准3进程；CI缺失，min/max不作为CI。,,,
+5090实验结果_20261019.zip,,归档名与真实日期,low,压缩包名20261019，但E03 B8192运行完成于2026-10-20 06:31 UTC（14:31北京时间）；不得仅依文件名定测量日期。,,,
+5090实验结果_20261019.zip,,名称编码,low,ZIP根目录名称含乱码，保留ZipInfo原始字符串用于可追溯性。,,,
+5090实验结果_20261019.zip,,核验范围,medium,本次读取/解析187外层CSV、344份CASE_RESULT及精选结果/报告；另核对65嵌套归档并流式读取8个缺少外层等价细节的包。未重跑GPU、CPU密码学、原审计脚本或逐个嵌套归档全量哈希。原报告PASS均保留为source-reported。,,,

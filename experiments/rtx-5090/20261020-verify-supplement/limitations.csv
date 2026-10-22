@@ -1,0 +1,9 @@
+﻿来源包,实验系列,问题或状态,重要程度,具体说明,来源ID,源行号,JSON定位
+补测.zip,,separate_new_capture,,"Each arm reuses its own earlier new5090 sealed binary and base corpus; ON and OFF themselves have different DSO hashes, so this is a real CTA ablation, not identical-binary drift control. There are 56 fresh processes. No evidence designates this run as a replacement of old results or the old nine-cell matrix.",S0690,5,
+补测.zip,,distribution_difference,,dispersed50 uses (73*i)%256<128; it is not the older strict alternating invalid_z_stride=2 condition. Do not label it as an exact repeat or silently replace the prior alternating row.,S0691,50,
+补测.zip,,qualification_boundary,,No new independent standard KAT or sanitizer qualification. Retained valid CPU oracle reused; malformed row statuses checked by construction. Only final timed output retained.,S0530,9,
+补测.zip,,fixed_inputs_and_no_inferential_ci,,"B8192, 32-byte messages, fixed corpus, 6 process pairs x15 measurements with 5 warmups. Observed min/max paired ratios are not CI; shared timings are not independent input corpora.",S0530,9,
+补测.zip,,device_interval_scope,,"Device-resident full-operation interval excludes host setup, allocations/transfers; not end-to-end application time.",S0530,4,
+补测.zip,,local_vs_remote_archive_hash,,Current local tar.gz hash matches the supplied local verification and .sha256 file. Original verifier explicitly says remote checksum was not downloaded; do not claim independent remote-end transport attestation.,S0692,64,
+补测.zip,,missing_environment_fields,,"No new CPU model/driver/compiler-version query. Build.json identifies reused CUDA compiler path and sm120; toolchain binaries are inherited, not newly compiled.",S0693,1,
+补测.zip,,hardware_attribution,,Historical 4090 comparison can support mechanism-level discussion only; it is not a same-source/input/configuration pure hardware causal test.,S0530,9,

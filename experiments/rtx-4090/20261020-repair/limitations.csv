@@ -1,0 +1,10 @@
+﻿来源包,实验系列,问题或状态,重要程度,具体说明,来源ID,源行号,JSON定位
+4090修补.zip,split32_racecheck_original,保留原始racecheck失败,关键,p44输出检查36variant为PASS，但工具exit86、0errors/147462warnings，显示100hazards；p65/p87未运行。,S0589,1,
+4090修补.zip,split32_sync_patch,修补资格不可迁移至历史性能,关键,只改独立harness中两处warp同步。9工具进程通过覆盖所选输入与私有重建binary；未改生产DSO，未重新认证历史性能/所有split32程序。,S0696,1,
+4090修补.zip,split32_sync_patch,逐variant输出证据粒度,范围,360条check日志保留各variant零mismatch，bin输出每case覆盖写仅保留最终variant；独立离线字节比较覆盖70份唯一case输出及每variant trace/work。,S0591,1,
+4090修补.zip,cuda_api_recovery,恢复验证仍为部分覆盖,关键,9个CUDA函数错误返回探针通过；不覆盖sampler内部不足额/耗尽、实际OOM、异步设备故障或全部错误路径；无总hardcap/专用耗尽状态。,S0592,1,
+4090修补.zip,cuda_api_recovery,自动清零尚未建立,关键,9次故障中6次报告非零workspace残留，初始化/输出导出故障后可见；计数来自原始trace，无workspace dump可独立重新计数。非零不等于已证实秘密内容。,S0592,1,
+4090修补.zip,cuda_api_recovery,标准向量来源声明与范围,范围,本包保留选择后的向量及上游commit/文件哈希，并可重建3参数输入和12份输出；未联网重新获取完整官方文件，不新增独立KAT覆盖。,S0697,1,
+4090修补.zip,binary_identity_alignment,正式性能二进制资格未闭环,关键,历史10/18九模块与当前资格模块SHA全部不同，0/9同一二进制；另有旧包loaded identity交叉复核确认10/19三修订格仍用历史M65/M87 Sign模块，推荐27格均不能继承当前资格。身份差异不证明历史性能值错误。,S0597,1,
+4090修补.zip,duplicate_evidence,重复副本不重复计数,说明,3份binary矩阵字节完全一致；qa/reviewed_sync展开副本1202文件与修补tar逐字节相同；它们仅是多路径证据。,S0597,1,
+4090修补.zip,status_chronology,进度状态与最终状态分开,说明,两次完成运行的PROGRESS仍可能保留STOPPED标题，交付记录NOT_RUN是执行前状态；以最终RESULT及原始日志判断。原始racecheck停止确为失败，单独保留。,S0591,1,

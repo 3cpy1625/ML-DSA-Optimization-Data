@@ -1,0 +1,37 @@
+# 5090 首批归档（包名标记 20261019，含后续运行）
+
+来源包：`5090实验结果_20261019.zip`。此目录为结果导航和筛选视图，原始表只存一份。
+
+## 分类结果
+
+- [主性能（9 条记录）](main-performance.csv)
+- [算子微基准（1559 条记录）](operator-microbenchmarks-01.csv)
+- [算子微基准（574 条记录）](operator-microbenchmarks-02.csv)
+- [辅助诊断（36 条记录）](auxiliary-diagnostics.csv)
+- [正确性记录（382 条记录）](correctness-records.csv)
+- [问题与边界（8 条记录）](limitations.csv)
+- [环境（6 条记录）](environments.csv)
+
+## 结果系列
+
+- [E029 · E03_B8192](E029/README.md)
+- [E030 · NTT_POLYNOMIAL](E030/README.md)
+- [E031 · SHAKE_SAMPLING](E031/README.md)
+- [E032 · SPLIT32_COMPARISON](E032/README.md)
+- [E033 · E05_CUPTI](E033/README.md)
+- [E034 · V3_SMALL_CORRECTNESS](E034/README.md)
+- [E035 · E02A_BASELINE_EXPANDED](E035/README.md)
+- [E036 · E02B_ORIGINAL_SANITIZER](E036/README.md)
+- [E037 · E02B_WARP_SYNC_CANDIDATE](E037/README.md)
+- [E038 · E02B_CTA_SINGLE_REPLAY](E038/README.md)
+- [E039 · E02B_MIXED48](E039/README.md)
+- [E040 · CANDIDATE18_EARLIER_RUN](E040/README.md)
+- [E041 · E02A_CTA18](E041/README.md)
+- [E042 · E02C_NONSIGN36](E042/README.md)
+- [E043 · E03_B256_QUALIFICATION](E043/README.md)
+- [E044 · E13_B256_QUALIFICATION](E044/README.md)
+- [E045 · SPLIT32_SANITIZER_FIRST](E045/README.md)
+- [E046 · SPLIT32_SANITIZER_POSTSETTLE](E046/README.md)
+- [E047 · E11_TMPFS](E047/README.md)
+- [E048 · E03_EARLY_BUILD_FAILURE](E048/README.md)
+- [E049 · HISTORICAL_87_KEYGEN_COMPILER](E049/README.md)

@@ -1,0 +1,12 @@
+﻿来源包,GPU,字段,值,单位,来源ID,源行号
+新5090.zip,NVIDIA GeForce RTX 5090,gpu,NVIDIA GeForce RTX 5090,,S0686,1
+新5090.zip,NVIDIA GeForce RTX 5090,gpu_uuid,GPU-43cf85da-3fa2-0d23-3066-d8781644bb2a,,S0686,1
+新5090.zip,NVIDIA GeForce RTX 5090,sm_arch,sm_120,,S0686,1
+新5090.zip,NVIDIA GeForce RTX 5090,cuda_nvcc,12.9.86,,S0686,1
+新5090.zip,NVIDIA GeForce RTX 5090,gxx,13.3.0,,S0686,1
+新5090.zip,NVIDIA GeForce RTX 5090,cmake,3.28.3,,S0686,1
+新5090.zip,NVIDIA GeForce RTX 5090,cpu_model,未记录,,S0686,1
+新5090.zip,NVIDIA GeForce RTX 5090,driver_version,未记录,,S0686,1
+新5090.zip,NVIDIA GeForce RTX 5090,message_bytes,32,,S0686,1
+新5090.zip,NVIDIA GeForce RTX 5090,performance_batch,8192,,S0686,1
+新5090.zip,NVIDIA GeForce RTX 5090,qualification_batch,256,,S0686,1

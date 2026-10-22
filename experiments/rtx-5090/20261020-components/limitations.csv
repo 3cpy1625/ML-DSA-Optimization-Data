@@ -1,0 +1,9 @@
+﻿来源包,实验系列,问题或状态,重要程度,具体说明,来源ID,源行号,JSON定位
+新5090.zip,,fixed_input_and_timing_scope,,"B8192 performance, B256 qualification, 32-byte messages, fixed natural corpus. Device-resident full-operation event interval excludes host preparation, allocation and transfers.",S0383,,
+新5090.zip,,correctness_boundary,,Final timed outputs were checked against retained PQMagic reference bytes. Intervening timed outputs not all retained; no independent standard KAT or sanitizer qualification for these binaries. CPU mathematics were not rerun in this summary.,S0684,,
+新5090.zip,,replication_boundary,,Timing repetitions do not represent independent inputs. No cross-session confidence interval; component effects must not be multiplied as independent contributions.,S0388,,
+新5090.zip,,scope_boundary,,Original seven-group scope explicitly incomplete. Confirmed scope only four specified components and resulting nine-cell matrix.,S0685,,
+新5090.zip,,missing_cpu_and_driver_metadata,,"CPU model and NVIDIA driver version not found in the relevant new5090 environment records. CUDA 12.9.86, GCC 13.3.0 and CMake 3.28.3 are present in inherited build provenance.",S0686,,
+新5090.zip,,source_tree_support_csv,,Twenty-four CSV paths are copies/hardlinks of four built-in corpus tables; excluded from new performance/correctness measurement totals.,S0687,,
+新5090.zip,preparation_failure_recovered,PREPARATION_STOPPED,已恢复、非算法失败,P0 module identity query could not load libcudart.so.12; 0 GPU experiments started at this stage. Subsequent BUILD_RESUME_RESULT and EXPERIMENT_RESULT pass.,S0688,46,
+新5090.zip,export_failure_recovered,ENOSPC,已恢复、非算法失败,Incomplete 741326848-byte export removed; raw experiment directories retained. Streaming export subsequently succeeded.,S0689,1,

@@ -1,0 +1,19 @@
+﻿实验系列,GPU,参数集或mode,操作,批量,条件或后端,指标原名,值,单位,对照分子,候选分母,重复数,重复单位,状态或用途,CI95下界,CI95上界,来源ID,源行号,JSON定位
+cta_m65_verify,RTX 5090,65.0,verify,8192.0,all_valid,paired_geomean_speedup,0.9961105201525164,x,OFF/对照,ON/候选,6.0,配对进程区组,固定B8192/32B；无CI、无sanitizer；四组件范围,,,S0383,1076,/summary/0
+cta_m65_verify,RTX 5090,65.0,verify,8192.0,all_invalid_z,paired_geomean_speedup,3.3604000259814515,x,OFF/对照,ON/候选,6.0,配对进程区组,固定B8192/32B；无CI、无sanitizer；四组件范围,,,S0383,1076,/summary/1
+cta_m65_verify,RTX 5090,65.0,verify,8192.0,alternating_invalid_z,paired_geomean_speedup,0.9957944991490492,x,OFF/对照,ON/候选,6.0,配对进程区组,固定B8192/32B；无CI、无sanitizer；四组件范围,,,S0383,1076,/summary/2
+joint_m44_keygen,RTX 5090,44.0,keygen,8192.0,all_valid,paired_geomean_speedup,1.506250520361617,x,OFF/对照,ON/候选,6.0,配对进程区组,固定B8192/32B；无CI、无sanitizer；四组件范围,,,S0384,385,/summary/0
+m44_three_arm,RTX 5090,44.0,keygen,8192.0,P0_over_R1,paired_geomean_speedup,1.0369870100351537,x,P0,R1,6.0,配对进程区组,固定B8192/32B；无CI、无sanitizer；四组件范围,,,S0385,28,/paired_geomean_speedups/P0_over_R1
+m44_three_arm,RTX 5090,44.0,keygen,8192.0,R1_over_C1,paired_geomean_speedup,1.088490889112596,x,R1,C1,6.0,配对进程区组,固定B8192/32B；无CI、无sanitizer；四组件范围,,,S0385,28,/paired_geomean_speedups/R1_over_C1
+m44_three_arm,RTX 5090,44.0,keygen,8192.0,P0_over_C1,paired_geomean_speedup,1.1287509125513768,x,P0,C1,6.0,配对进程区组,固定B8192/32B；无CI、无sanitizer；四组件范围,,,S0385,28,/paired_geomean_speedups/P0_over_C1
+split32_m44_keygen,RTX 5090,44.0,keygen,8192.0,all_valid,paired_geomean_speedup,1.3729405942115476,x,OFF/对照,ON/候选,6.0,配对进程区组,固定B8192/32B；无CI、无sanitizer；四组件范围,,,S0386,381,/summary/0
+wphc_m65_sign,RTX 5090,65.0,sign,8192.0,all_valid,paired_geomean_speedup,1.3634607372453589,x,W1,W3,6.0,配对进程区组,固定B8192/32B；无CI、无sanitizer；四组件范围,,,S0387,381,/summary/0
+joint_matrix,RTX 5090,44.0,keygen,8192.0,已核验配对结果复用,paired_geomean_speedup,1.506250520361617,x,OFF/对照,ON/候选,6.0,配对进程区组,REUSED_QUALIFIED_PAIR；复用此前消融，不新增进程或计时,,,S0388,737,/cells/0
+joint_matrix,RTX 5090,65.0,sign,8192.0,已核验配对结果复用,paired_geomean_speedup,1.3634607372453589,x,OFF/对照,ON/候选,6.0,配对进程区组,REUSED_QUALIFIED_PAIR；复用此前消融，不新增进程或计时,,,S0388,737,/cells/1
+joint_matrix,RTX 5090,65.0,verify,8192.0,已核验配对结果复用,paired_geomean_speedup,0.9961105201525164,x,OFF/对照,ON/候选,6.0,配对进程区组,REUSED_QUALIFIED_PAIR；复用此前消融，不新增进程或计时,,,S0388,737,/cells/2
+joint_matrix,RTX 5090,44.0,sign,8192.0,相同二进制漂移对照,paired_geomean_speedup,1.0003635170786223,x,OFF标签（相同构建）,ON标签（相同构建）,3.0,配对进程区组,NEW_IDENTICAL_BUILD_DRIFT_CONTROL；并未关闭该单元优化；无CI、无sanitizer,,,S0388,737,/cells/3
+joint_matrix,RTX 5090,44.0,verify,8192.0,相同二进制漂移对照,paired_geomean_speedup,1.0005603327411352,x,OFF标签（相同构建）,ON标签（相同构建）,3.0,配对进程区组,NEW_IDENTICAL_BUILD_DRIFT_CONTROL；并未关闭该单元优化；无CI、无sanitizer,,,S0388,737,/cells/4
+joint_matrix,RTX 5090,65.0,keygen,8192.0,相同二进制漂移对照,paired_geomean_speedup,1.0016780336566953,x,OFF标签（相同构建）,ON标签（相同构建）,3.0,配对进程区组,NEW_IDENTICAL_BUILD_DRIFT_CONTROL；并未关闭该单元优化；无CI、无sanitizer,,,S0388,737,/cells/5
+joint_matrix,RTX 5090,87.0,keygen,8192.0,相同二进制漂移对照,paired_geomean_speedup,1.0010520539270527,x,OFF标签（相同构建）,ON标签（相同构建）,3.0,配对进程区组,NEW_IDENTICAL_BUILD_DRIFT_CONTROL；并未关闭该单元优化；无CI、无sanitizer,,,S0388,737,/cells/6
+joint_matrix,RTX 5090,87.0,sign,8192.0,相同二进制漂移对照,paired_geomean_speedup,1.0015334941413927,x,OFF标签（相同构建）,ON标签（相同构建）,3.0,配对进程区组,NEW_IDENTICAL_BUILD_DRIFT_CONTROL；并未关闭该单元优化；无CI、无sanitizer,,,S0388,737,/cells/7
+joint_matrix,RTX 5090,87.0,verify,8192.0,相同二进制漂移对照,paired_geomean_speedup,0.9996324637857135,x,OFF标签（相同构建）,ON标签（相同构建）,3.0,配对进程区组,NEW_IDENTICAL_BUILD_DRIFT_CONTROL；并未关闭该单元优化；无CI、无sanitizer,,,S0388,737,/cells/8
