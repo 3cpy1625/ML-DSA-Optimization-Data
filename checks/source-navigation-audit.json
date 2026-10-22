@@ -1,0 +1,20 @@
+{
+  "source_hash_checks": 2611,
+  "source_errors": [],
+  "unhashed_derived_source_ids": [
+    "S3017",
+    "S3019",
+    "S3033",
+    "S3034",
+    "S3035",
+    "S3036",
+    "S3037",
+    "S3038",
+    "S3039"
+  ],
+  "navigation_records": 60,
+  "missing_navigation_directories": [],
+  "archive_grouping_comparisons": 42,
+  "archive_grouping_mismatches": [],
+  "status": "PASS"
+}

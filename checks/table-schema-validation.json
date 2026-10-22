@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "table_paths": 2039,
+  "unique_contents": 926,
+  "original_table_paths": 2022,
+  "derived_table_paths": 17,
+  "original_unique_contents": 909,
+  "derived_unique_contents": 17,
+  "schema_checked_paths": 2039,
+  "scope": "Repository table bytes match catalog SHA256/size/schema. Original-archive identity is established by the separately retained source audit, not inferred from this self-consistency check."
+}

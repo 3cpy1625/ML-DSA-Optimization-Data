@@ -1,0 +1,73 @@
+{
+  "version": "2026-10-21 v4",
+  "status": "PASS",
+  "scope": "Local offline validation of organized repository content. No project code, GPU experiment, upload, or cloud CI was run.",
+  "tables": {
+    "status": "PASS",
+    "table_paths": 2039,
+    "unique_contents": 926,
+    "original_table_paths": 2022,
+    "derived_table_paths": 17,
+    "original_unique_contents": 909,
+    "derived_unique_contents": 17,
+    "schema_checked_paths": 2039,
+    "scope": "Repository table bytes match catalog SHA256/size/schema. Original-archive identity is established by the separately retained source audit, not inferred from this self-consistency check."
+  },
+  "views": {
+    "parts": 22,
+    "records": 17272,
+    "main_records": 63,
+    "correctness_records": 1722
+  },
+  "sources": {
+    "unique_ids": 3039,
+    "resolved_references": 17332,
+    "retained_source_locations": 2620,
+    "experiments": 60
+  },
+  "retained_evidence": {
+    "files": 1536
+  },
+  "links": {
+    "documents": 83,
+    "relative_links": 252
+  },
+  "workbook": {
+    "sheets": 11,
+    "compared_data_cells": 296147,
+    "formulas": 3,
+    "macros": false,
+    "external_workbook_links": false
+  },
+  "rebuild": {
+    "status": "PASS",
+    "check_published": true,
+    "generated_files": 134,
+    "compared_files": 134,
+    "byte_equal_files": 134,
+    "numeric_tolerance_files": [],
+    "experiments": 60,
+    "csv_view_parts": 22,
+    "requires_gpu": false,
+    "requires_network": false
+  },
+  "workbook_visual_review": {
+    "status": "PASS",
+    "reviewed_views": [
+      "overview",
+      "correctness hierarchy",
+      "patch hierarchy",
+      "experiment catalog",
+      "source index",
+      "table index",
+      "repaired schema rows"
+    ]
+  },
+  "preservation": "See preservation_check.json and original-source-byte-audit.json; 2022 original paths / 909 unique byte contents, 17 derived tables unchanged. Main performance retains 63 records.",
+  "file_checksums": "SHA256SUMS covers the final delivered files except itself. Run scripts/verify.py to obtain current file counts and integrity results.",
+  "limits": [
+    "Original archive audit was performed before v4; the retained source audit is connected to v4 by unchanged byte hashes.",
+    "The repository is not a full copy of all input archives.",
+    "GitHub Actions is configured but has not run in the cloud."
+  ]
+}

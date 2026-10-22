@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "original_cells_compared": 251859,
+  "unexpected_changes": [],
+  "documented_index_changes": 2186,
+  "source_corrections": [
+    {
+      "sheet": "实验目录",
+      "record_index": 1,
+      "series": "历史R02配对",
+      "field": "来源ID",
+      "old_value": "S0004",
+      "new_value": "S0001",
+      "reason": "主来源纠正为历史27格性能表；关联配对计划、进程和原始结果表，排除原误指的PFODR机制表。"
+    },
+    {
+      "sheet": "实验目录",
+      "record_index": 2,
+      "series": "历史机制",
+      "field": "来源ID",
+      "old_value": "",
+      "new_value": "S0004",
+      "reason": "补全来源锚点；关联历史MECHANISM目录各表，子系列不可合为整体加速。"
+    },
+    {
+      "sheet": "实验目录",
+      "record_index": 3,
+      "series": "截图复测",
+      "field": "来源ID",
+      "old_value": "",
+      "new_value": "S0361",
+      "reason": "补全来源锚点；关联两份截图转录CSV，完整服务器日志仍未收到。"
+    }
+  ],
+  "main_measurements_unchanged": true
+}

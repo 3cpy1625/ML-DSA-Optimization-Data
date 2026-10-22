@@ -1,0 +1,152 @@
+{
+  "status": "PASS",
+  "original_cells_checked": 251859,
+  "documented_source_anchor_corrections": 3,
+  "measurement_or_status_changes": 0,
+  "taxonomy": {
+    "schema_version": "1.0",
+    "count_semantics": "record_rows_not_independent_experiments",
+    "correctness_counts": {
+      "用例汇总": 375,
+      "工具进程": 171,
+      "截图记录": 18,
+      "进程输出汇总": 126,
+      "进程用例": 270,
+      "子项检查": 171,
+      "进程最终输出": 197,
+      "停止阶段汇总": 2,
+      "变体检查": 360,
+      "未执行项": 2,
+      "恢复阶段": 21,
+      "身份核验": 9
+    },
+    "unknown_policy": "未细分；不推断实验日期、进程独立性或未提供的检查结论"
+  },
+  "source_corrections": [
+    {
+      "sheet": "实验目录",
+      "record_index": 1,
+      "series": "历史R02配对",
+      "field": "来源ID",
+      "old_value": "S0004",
+      "new_value": "S0001",
+      "reason": "主来源纠正为历史27格性能表；关联配对计划、进程和原始结果表，排除原误指的PFODR机制表。"
+    },
+    {
+      "sheet": "实验目录",
+      "record_index": 2,
+      "series": "历史机制",
+      "field": "来源ID",
+      "old_value": "",
+      "new_value": "S0004",
+      "reason": "补全来源锚点；关联历史MECHANISM目录各表，子系列不可合为整体加速。"
+    },
+    {
+      "sheet": "实验目录",
+      "record_index": 3,
+      "series": "截图复测",
+      "field": "来源ID",
+      "old_value": "",
+      "new_value": "S0361",
+      "reason": "补全来源锚点；关联两份截图转录CSV，完整服务器日志仍未收到。"
+    }
+  ],
+  "navigation_records": 60,
+  "navigation_directories": 53,
+  "categories": {
+    "主性能": 3,
+    "机制与消融": 9,
+    "截图记录": 1,
+    "正确性用例": 6,
+    "工具资格与修补": 11,
+    "接口范围对照": 1,
+    "算子微基准": 5,
+    "阶段与资源诊断": 14,
+    "主性能补测": 1,
+    "传统实现对照": 1,
+    "资格验证": 2,
+    "构建与停止诊断": 3,
+    "联合矩阵与漂移对照": 1,
+    "故障与恢复": 1,
+    "二进制身份核验": 1
+  },
+  "run_id_missing": 12,
+  "unmatched_views": [
+    [
+      "CAT0006",
+      "4090_correctness_supplement",
+      "CORRECTNESS_SUPPLEMENT_STOPPED"
+    ],
+    [
+      "CAT0007",
+      "4090_correctness_supplement",
+      "CORRECTNESS_SUPPLEMENT_STOPPED"
+    ],
+    [
+      "CAT0012",
+      "4090_resources",
+      "RESOURCES_MATRIX_STOPPED"
+    ],
+    [
+      "CAT0014",
+      "4090_resource_probe",
+      "RESOURCE_PROBE_STOPPED"
+    ],
+    [
+      "CAT0016",
+      "4090_sign_retry",
+      "SIGN_RETRY_MATRIX_STOPPED"
+    ],
+    [
+      "CAT0018",
+      "4090_stage_matrix",
+      "STAGE_MATRIX_STOPPED"
+    ],
+    [
+      "CAT0023",
+      "MLDSA_4090_StagePrep_20261019",
+      "STAGEPREP_COLLECTION_PASS"
+    ],
+    [
+      "CAT0024",
+      "MLDSA_4090_StagePrep_20261019",
+      "TRACE_PROBE_NEEDS_DIAGNOSIS"
+    ],
+    [
+      "CAT0025",
+      "MLDSA_4090_StagePrep_20261019",
+      "TRACE_PROBE_PASS"
+    ],
+    [
+      "CAT0037",
+      "E02B_WARP_SYNC_CANDIDATE",
+      "STATIC_GATE_FAIL_GPU_NOT_RUN"
+    ],
+    [
+      "CAT0043",
+      "E03_B256_QUALIFICATION",
+      "QUALIFICATION_ONLY_PASS"
+    ],
+    [
+      "CAT0044",
+      "E13_B256_QUALIFICATION",
+      "QUALIFICATION_ONLY_PASS"
+    ],
+    [
+      "CAT0047",
+      "E11_TMPFS",
+      "BUILD_ONLY_FAILED_CAPTURE"
+    ],
+    [
+      "CAT0048",
+      "E03_EARLY_BUILD_FAILURE",
+      "BUILD_STOPPED"
+    ],
+    [
+      "CAT0049",
+      "HISTORICAL_87_KEYGEN_COMPILER",
+      "BUILD_FAILED_THEN_DIAGNOSTIC_ONLY"
+    ]
+  ],
+  "idempotent": true
+}
